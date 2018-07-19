@@ -20,7 +20,7 @@ Tutorial 1 of 3 goals:
 1. Presenting a generic GameBehaviour Gravity class that can be inherited to build specific game objects
 1. Creating an animated background using the MapView
 
-[Game screen](../images/tutorial/gameScreen.png)
+![Game screen](../images/tutorial/gameScreen.png)
 
 ### Concepts
 
@@ -28,7 +28,7 @@ Tutorial 1 of 3 goals:
 A closure is an anonymous function that can be defined and used like a variable; an important aspect of a closure is the possibility to access the scope of the surrounding variables of its definition.
 
 ie.
-```
+```swift
 var frame = 0
 var update = { frame = frame + 1 }
 update()
@@ -38,7 +38,7 @@ Console.write(frame)
 you can also pass parameters to the closure
 
 ie.
-```
+```swift
 var frame = 0
 var update = func(inc) { frame = frame + inc }
 update(10)
@@ -48,7 +48,7 @@ Console.write(frame)
 Please note:
 when the closure is defined inside a class method and later used to access class methods or properties the implicit `self` may not be what expected. Use the function `bind` to avoid this situation.
 
-```
+```swift
 class Parent {
     var update = null
     var frame = 0
@@ -70,7 +70,7 @@ Fibers are user-space threads without a scheduler; a Fiber can yield and resume 
 A Fiber is created with `create`:
 
 ie.
-```
+```swift
  Fiber.create( {
    Console.log("/(self) is the current fiber")
  })
@@ -79,7 +79,7 @@ ie.
  and executed till the next `yield` with `fiber.call()`
 
 ie.
-```
+```swift
 var closure = {
     Console.log("1")
     Fiber.yield()
@@ -120,7 +120,7 @@ The later enable a call check of the total time in seconds passed since last `ca
 Example:
 
 To implement a function that do some stuff every second, like a timer, a way is to use `Fiber.yieldWaitTime(seconds)`
-```
+```swift
 var fiber = Fiber.create({
   var keepGoing = true
   while (keepGoing) {
@@ -147,7 +147,7 @@ In Creo+Gravity there are 2 types of `bind` methods that can be used.
 The first is used when an object (ie a `Timer`) emit an event like `Action` and, in response, we need to run our code.
 
 ie
-```
+```swift
 var timer = Timer(1.0/100.0, true)
 var action = { Console.log("Timer fired") }
 timer.bind("Action", action)
@@ -188,9 +188,9 @@ To create new class:
 1. drag `Class` from the objects `Code` to `Globals`
 1. click on it and press Enter to rename
 
-[How to add new a Class](../images/tutorial/newClass.png)
+![How to add new a Class](../images/tutorial/newClass.png)
 
-```
+```swift
 class Fibers {
   public var fibers
   public var timer
@@ -243,7 +243,7 @@ class Fibers {
 
 To store an instance of the new `Fibers` class and create the base for a game loop we add a new class called `GameEngine`. It offers the main method to add fibers through a new class called `GameBehaviour`.
 
-```
+```swift
 class GameEngine {
   public var fibers = Fibers();
   
@@ -273,7 +273,7 @@ A `GameBehaviour` is the base class from which every game object derives. It's u
 
 When you use `GameBehaviour` you have to explicitily derive from it
 
-[How to class derive in Creo](../images/tutorial/imageDerive.png) 
+![How to class derive in Creo](../images/tutorial/imageDerive.png) 
 
 The `GameBehaviour` has 3 important methods:
 
@@ -282,7 +282,7 @@ The `GameBehaviour` has 3 important methods:
 1. `onDestroy` is called once when the the flag `destroy` is set
 
 
-```
+```swift
 class GameBehaviour {
   // Set to true to kill this behaviour
   public var destroy=false;
@@ -331,7 +331,7 @@ class GameBehaviour {
 
 For keeping a smooth experience for the player the time in seconds it took to complete the last frame is available with `time.deltaTime`.
 
-```
+```swift
 class Time {
   public var deltaTime=0.0;
   func since(value) {
@@ -348,7 +348,7 @@ class Time {
 Use this value to make your game frame rate independent.
 
 ie.
-```
+```swift
 class ExampleClass : GameBehaviour {
   public var direction=Point(0.0, -1.0);
 
@@ -378,7 +378,7 @@ We are now ready to start building the game itself.
   - pick an address; this is going to be your game background so any some fancy location will work
 1. add `gameEngine.addInstance(Level())` in you Window `DidShow` event
 
-```
+```swift
 class Background : GameBehaviour {
   public var speed=0.0015
   func start() {
