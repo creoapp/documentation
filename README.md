@@ -1,2 +1,1 @@
-# documentation
-Official documentation for the Creo project
+# Official documentation for the Creo project
