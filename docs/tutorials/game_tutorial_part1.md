@@ -20,7 +20,7 @@ Tutorial 1 of 3 goals:
 1. Presenting a generic GameBehaviour Gravity class that can be inherited to build specific game objects
 1. Creating an animated background using the MapView
 
-[Game screen](images/tutorial//gameScreen.png)
+[Game screen](../images/tutorial/gameScreen.png)
 
 ### Concepts
 
@@ -188,7 +188,7 @@ To create new class:
 1. drag `Class` from the objects `Code` to `Globals`
 1. click on it and press Enter to rename
 
-[How to add new a Class](images/tutorial//newClass.png)
+[How to add new a Class](../images/tutorial/newClass.png)
 
 ```
 class Fibers {
@@ -273,7 +273,7 @@ A `GameBehaviour` is the base class from which every game object derives. It's u
 
 When you use `GameBehaviour` you have to explicitily derive from it
 
-[How to class derive in Creo](images/tutorial//imageDerive.png) 
+[How to class derive in Creo](../images/tutorial/imageDerive.png) 
 
 The `GameBehaviour` has 3 important methods:
 
