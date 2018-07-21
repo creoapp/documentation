@@ -1,0 +1,20 @@
+{
+  "TOC": [
+    {
+      "entry": "TUTORIALS"
+    },
+    {
+      "name": "Game Tutorial (Part 1)",
+      "file": "game_tutorial_part1.md",
+    },
+    {
+      "name": "Game Tutorial (Part 2)",
+      "file": "game_tutorial_part1.md",
+    }
+    ,
+    {
+      "name": "Game Tutorial (Part 3)",
+      "file": "game_tutorial_part3.md",
+    }
+  ]
+}
