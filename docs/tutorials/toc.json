@@ -9,12 +9,23 @@
     },
     {
       "name": "Game Tutorial (Part 2)",
-      "file": "game_tutorial_part1.md"
+      "file": "game_tutorial_part2.md"
     }
     ,
     {
       "name": "Game Tutorial (Part 3)",
       "file": "game_tutorial_part3.md"
+    },
+    {
+      "entry": "ADVANCED"
+    },
+    {
+      "name": "Game Tutorial (Part 4)",
+      "file": "game_tutorial_part4.md"
+    },
+    {
+      "name": "Game Tutorial (Part 5)",
+      "file": "game_tutorial_part5.md"
     }
   ]
 }
