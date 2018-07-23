@@ -1,10 +1,8 @@
-# TabBar
-
 **super**: [UITabBarController](UITabBarController.md) on iOS
 
 A container window that manages a radio-style selection interface where one item is selected at a time. The selection determines which child window to display.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ Use this event to be notified when navigation was removed from a view hierarchy.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
@@ -52,9 +50,9 @@ Returns the currently selected Window or Navigation.
 * **var** **selectedIndex**: **[Int](../gravity/types.md)**
 The index of the Window associated with the currently selected tab item.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
 Open window in currently displayed window or navigation using the destination object default behaviour.
@@ -72,32 +70,35 @@ Open window modally usign the specified transition style.
 * **func** **close**()
 Close window if modally opened.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### StatusBarVisibility* .Default
-* .Hidden
-* .Visible
-<br><br>### StatusBarStyle* .DarkContent
-* .Default
-* .LightContent
-<br><br>### TransitionStyle* .Cards
-* .CoverVertical
-* .CrossDissolve
-* .Crossfade
-* .Cube
-* .Default
-* .Explode
-* .Flip
-* .FlipHorizontal
-* .Fold
-* .NatGeo
-* .NotAnimated
-* .PartialCurl
-* .Portal
-* .Turn
-<br><br></ul>
+
+#### Enumeration
+
+#### StatusBarVisibility
+ * .Default
+ * .Hidden
+ * .Visible
+<br><br>#### StatusBarStyle
+ * .DarkContent
+ * .Default
+ * .LightContent
+<br><br>#### TransitionStyle
+ * .Cards
+ * .CoverVertical
+ * .CrossDissolve
+ * .Crossfade
+ * .Cube
+ * .Default
+ * .Explode
+ * .Flip
+ * .FlipHorizontal
+ * .Fold
+ * .NatGeo
+ * .NotAnimated
+ * .PartialCurl
+ * .Portal
+ * .Turn
+<br><br>
 

@@ -1,12 +1,10 @@
-# PostgreSQLDatabase
-
 **super**: [Database](Database.md)
 
 PostgreSQL is an object-relational database management system with an emphasis on extensibility and standards-compliance. As a database server, its primary function is to store data securely and to allow for retrieval at the request of other software applications. It can handle workloads ranging from small single-machine applications to large Internet-facing applications with many concurrent users.
 
 PostgreSQL is developed by the PostgreSQL Global Development Group, a diverse group of many companies and individual contributors. It is free and open-source software, released under the terms of the PostgreSQL License, a permissive free-software license.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -20,9 +18,9 @@ Handle this event if you want to perform some operations when database is discon
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **username**: **[String](../gravity/types.md)**
 Username required for access to the database.
@@ -69,9 +67,9 @@ A flag that checks if database is connected. \(read-only\)
 * **var** **useSchema**: **[Bool](../gravity/types.md)**
 A flag to check if current database engines supports schemas. \(read-only\)
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **connect**(**onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[Bool](../gravity/types.md)</strong> 
 Connect to the specified database.
@@ -100,7 +98,7 @@ Close connection to the database.
 * **func** **escape**(**identifier**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
 Escape an identifier.
 
-</ul>
 
-</ul>
+
+
 

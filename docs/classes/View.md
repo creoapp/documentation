@@ -1,10 +1,8 @@
-# View
-
 **super**: [UIScrollView](UIScrollView.md) on iOS
 
 The View class defines a rectangular area on the screen and the interfaces for managing the content in that area. At runtime, a view object handles the rendering of any content in its area and also handles any interactions with that content. The View class itself provides basic behavior for filling its rectangular area with a background color.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -36,9 +34,9 @@ This event is called when the scroll view ends decelerating the scrolling moveme
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **autoContentSize**: **[Bool](../gravity/types.md)**
 A Boolean value that specifies if template view instance must be kept in sync with current view frame, otherwise content view must be set manually.
@@ -52,9 +50,9 @@ Custom view template set in the View inspector.
 * **var** **keyPath**: **[String](../gravity/types.md)**
 The base keyPath to get a particular node of the <a href="DataSet.html">DataSet</a> value. The DataSet must provide a List of objects and each object represents a different item. The view shows an item at a time, depending on the rowIndex property value. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md)</strong>)
 Reloads the content of the view.
@@ -71,33 +69,34 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

@@ -1,10 +1,8 @@
-# PageCurl
-
 **super**: [UIPageViewController](UIPageViewController.md) on iOS
 
 A page curl lets the user navigate between pages of content, where each page is managed by its own <a href="Window.html">Window</a> object. Navigation can be controlled programmatically by your app or directly by the user using gestures. When navigating from page to page, it displays a page-turning animation. The vertical style is not simulated in the Creo simulator for Mac
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ Use this event to be notified when navigation was removed from a view hierarchy.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
@@ -49,9 +47,9 @@ Represents the current Window in the navigation.
 * **var** **selectedIndex**: **[Int](../gravity/types.md)**
 Represents the current window index inside the navigation.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
 Open window in currently displayed window or navigation using the destination object default behaviour.
@@ -75,32 +73,35 @@ Open window modally usign the specified transition style.
 * **func** **close**()
 Close window if modally opened.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### StatusBarVisibility* .Default
-* .Hidden
-* .Visible
-<br><br>### StatusBarStyle* .DarkContent
-* .Default
-* .LightContent
-<br><br>### TransitionStyle* .Cards
-* .CoverVertical
-* .CrossDissolve
-* .Crossfade
-* .Cube
-* .Default
-* .Explode
-* .Flip
-* .FlipHorizontal
-* .Fold
-* .NatGeo
-* .NotAnimated
-* .PartialCurl
-* .Portal
-* .Turn
-<br><br></ul>
+
+#### Enumeration
+
+#### StatusBarVisibility
+ * .Default
+ * .Hidden
+ * .Visible
+<br><br>#### StatusBarStyle
+ * .DarkContent
+ * .Default
+ * .LightContent
+<br><br>#### TransitionStyle
+ * .Cards
+ * .CoverVertical
+ * .CrossDissolve
+ * .Crossfade
+ * .Cube
+ * .Default
+ * .Explode
+ * .Flip
+ * .FlipHorizontal
+ * .Fold
+ * .NatGeo
+ * .NotAnimated
+ * .PartialCurl
+ * .Portal
+ * .Turn
+<br><br>
 

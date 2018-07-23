@@ -1,10 +1,8 @@
-# HTTPServer
-
 **super**: [Object](Object.md)
 
 The HTTPServer class provides a small, lightweight, embeddable HTTP server for your applications.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -36,9 +34,9 @@ The attempt to publish the service via Bonjour has failed.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **shouldAcceptWebDAV**: **[Bool](../gravity/types.md)**
 Defines if the server should support WebDAV connections.
@@ -67,9 +65,9 @@ The name actually published via Bonjour. \(read-only\)
 * **var** **type**: **[String](../gravity/types.md)**
 The type of service to publish via Bonjour. No type is set by default, and one must be set in order for the service to be published.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **start**()
 Attempts to starts the server on the configured port, interface, etc. On succes the <i>DidStart</i> event is fired, otherwise it fires a <i>DidFail</i> event.
@@ -80,7 +78,7 @@ Stops the server preventing it from accepting any new connections and closes the
 * **func** **publishBonjour**()
 Publishes the service via bonjour if the server is running. If the service was previously published, this method will unpublish and then republish it (if the server is running). See the <i>DidPublishBonjour</i> and <i>DidFailBonjour</i> events.
 
-</ul>
 
-</ul>
+
+
 

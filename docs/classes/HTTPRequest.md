@@ -1,10 +1,8 @@
-# HTTPRequest
-
 **super**: [DataSet](DataSet.md)
 
 The HTTPRequest class and the <a href="HTTPClient.html">HTTPClient</a> class enable you to downloading content via HTTP. An HTTPRequest is always part of an <a href="HTTPClient.html">HTTPClient</a> and defines the request specific properties like the HTTP method, the path of the resource with the possibility to use dynamic values for header, path, query and body parameters.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ Event raised in case of DataSet error.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **path**: **[String](../gravity/types.md)**
 A string that represents the path and query component of the request URL. The scheme and host (and optionally the port, user and password) components are defined by the parent HTTPClient object. You can set directly a path string, otherwise this property is calculated from the tokenized path configured in the HTTPRequest inspector and the current values of the pathParameters and queryParameters properties.
@@ -97,9 +95,9 @@ The number of bytes that the task expects to send in the request body. The URL l
 * **var** **countOfBytesExpectedToReceive**: **[Int](../gravity/types.md)**
 The number of bytes that the task expects to receive in the response body. This value is determined based on the Content-Length header received from the server. If that header is absent, the value is -1LL. \(read-only\)
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **suspend**()
 Suspending a request will prevent the session from continuing to load data. There may still be event calls made by this object (for instance, to report data received while suspending) but no further transmissions will be made on behalf of the request until -resume is sent.  The timeout timer associated with the request will be disabled while a request is suspended. -suspend and -resume are nestable.
@@ -110,31 +108,35 @@ Resumes a previously suspended request
 * **func** **cancel**()
 Cancel returns immediately, but marks a request as being canceled. The request will invoke a DidFail event. Cancel may be sent to a request that has been suspended
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### HTTPMethod* .Delete
-* .Get
-* .Head
-* .Patch
-* .Post
-* .Put
-<br><br>### HTTPBodyMode* .FormData
-* .FormUrlencoded
-* .JSON
-* .Raw
-<br><br>### HTTPResponseSerializer* .Data
-* .Image
-* .JSON
-* .Plist
-* .Text
-* .XML
-<br><br>### HTTPRedirectMode* .Allow
-* .Reject
-* .RejectAndCancel
-* .WithHandler
-<br><br></ul>
+
+#### Enumeration
+
+#### HTTPMethod
+ * .Delete
+ * .Get
+ * .Head
+ * .Patch
+ * .Post
+ * .Put
+<br><br>#### HTTPBodyMode
+ * .FormData
+ * .FormUrlencoded
+ * .JSON
+ * .Raw
+<br><br>#### HTTPResponseSerializer
+ * .Data
+ * .Image
+ * .JSON
+ * .Plist
+ * .Text
+ * .XML
+<br><br>#### HTTPRedirectMode
+ * .Allow
+ * .Reject
+ * .RejectAndCancel
+ * .WithHandler
+<br><br>
 

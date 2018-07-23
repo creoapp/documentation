@@ -1,10 +1,8 @@
-# File
-
 **super**: [Object](Object.md)
 
 The File class is an object-oriented wrapper for a file descriptor. You use file handle objects to access data associated with files. You can read, write, and seek within the file.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,9 +10,9 @@ This event is called when the object becames available in the current runtime sy
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **path**: **[String](../gravity/types.md)**
 File full path. \(read-only\)
@@ -31,16 +29,16 @@ Current error as String (if any). \(read-only\)
 * **var** **offset**: **[Int](../gravity/types.md)**
 File current offset. \(read-only\)
 
-</ul>
 
-### Class Methods
+
+#### Class Methods
 
 * **func** **open**(**filePath**: <strong>[Object](../gravity/types.md)</strong>, **mode**: <strong><a href="#_enum_FileMode">FileMode</a> = 0</strong>): <strong>[File](File.md)</strong> 
 Opens the specified file using the optional FileMode and returns a File object.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **seekToEnd**(): <strong>[Int](../gravity/types.md)</strong> 
 Puts the file pointer at the end of the file referenced by the receiver and returns the new file offset.
@@ -69,14 +67,15 @@ Writes the specified data to the receiver. Returns true if the operation was suc
 * **func** **writeString**(**string**: <strong>[String](../gravity/types.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
 Writes the specified string to the receiver. Returns true if the operation was successfully.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### FileMode* .Read
-* .Update
-* .Write
-<br><br></ul>
+
+#### Enumeration
+
+#### FileMode
+ * .Read
+ * .Update
+ * .Write
+<br><br>
 

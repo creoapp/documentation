@@ -1,10 +1,8 @@
-# UIPinchGestureRecognizer
-
 **super**: [UIGestureRecognizer](UIGestureRecognizer.md) on iOS
 
 This class is reserved and cannot be directly instantiated.
 
-### Events
+#### Events
 
 * **Action**()
 This event is called when the object recognizes its gesture or, in some cases, a change in the gesture.
@@ -18,7 +16,7 @@ Asks if a gesture recognizer should begin interpreting touches. This method is c
 * **ShouldReceiveTouch**(**touch**: <strong>[UITouch](UITouch.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
 Ask the delegate if a gesture recognizer should receive an object representing a touch. The default value is true.
 
-</ul>
 
-</ul>
+
+
 

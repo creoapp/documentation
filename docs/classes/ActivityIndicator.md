@@ -1,10 +1,8 @@
-# ActivityIndicator
-
 **super**: [UIActivityIndicatorView](UIActivityIndicatorView.md) on iOS
 
 Use an activity indicator to show that a task is in progress. An activity indicator appears as a "gear" that is either spinning or stopped.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,9 +10,9 @@ This event is called when the object becames available in the current runtime sy
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **color**: **[Color](color.md)**
 The color of the activity indicator.
@@ -25,9 +23,9 @@ The basic appearance of the activity indicator.
 * **var** **hidesWhenStopped**: **[Bool](../gravity/types.md)**
 A Boolean value that controls whether the receiver is hidden when the animation is stopped.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **startAnimating**()
 Starts the animation of the activity indicator.
@@ -47,36 +45,38 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### ActivityIndicatorStyle* .Gray
-* .White
-* .WhiteLarge
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### ActivityIndicatorStyle
+ * .Gray
+ * .White
+ * .WhiteLarge
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

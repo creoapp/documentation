@@ -1,10 +1,8 @@
-# WebView
-
 **super**: [UIWKWebView](UIWKWebView.md) on iOS
 
 A WebView object displays interactive web content, such as for an in-app browser. You can also use this class to move back and forward in the history of webpages, and you can even set some web content properties programmatically.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ This event is called when a mainframe load completes.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **url**: **[String](../gravity/types.md)**
 Navigates to a requested URL.
@@ -58,9 +56,9 @@ The custom user agent string or null if no custom user agent string has been set
 * **var** **allowsLinkPreview**: **[Bool](../gravity/types.md)**
 A Boolean value that determines whether pressing on a link displays a preview of the destination for the link. In iOS this property is available on devices that support 3D Touch. Default value is false in iOS.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **goBack**()
 Navigates to the back item in the back-forward list.
@@ -89,33 +87,34 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

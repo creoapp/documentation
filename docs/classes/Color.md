@@ -1,15 +1,13 @@
-# Color
-
 **super**: [Object](Object.md)
 
 A Color object represents color and sometimes opacity (alpha value). You can use Color objects to store color data, and during drawing you can use them to set the current fill and stroke colors.
 Many methods require you to specify color data using a Color object, and for general color needs it should be your main way of specifying colors.
 
-### Events
+#### Events
 
-* None</ul>
+* None
 
-### Class Properties
+#### Class Properties
 
 * **var** **black**: **[Color](color.md)**
 Returns a color object whose grayscale value is 0.0 and whose alpha value is 1.0. \(read-only\)
@@ -56,9 +54,9 @@ Returns a color object whose RGB values are 0.6, 0.4, and 0.2 and whose alpha va
 * **var** **clear**: **[Color](color.md)**
 Returns a color object whose grayscale and alpha values are both 0.0. \(read-only\)
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **spaceModel**: **ColorSpaceModel**
 Returns the model on which the color space of the receiver is based. \(read-only\)
@@ -93,9 +91,9 @@ Returns alpha component. \(read-only\)
 * **var** **luminance**: **[Float](../gravity/types.md)**
 Returns luminance component (only valid if isRGB is true). \(read-only\)
 
-</ul>
 
-### Class Methods
+
+#### Class Methods
 
 * **func** **colorWithPatternImage**(**image**: <strong>[Image](image.md)</strong>): <strong>[Color](color.md)</strong> 
 Creates and returns a color object using the specified image. You can use pattern colors to set the fill or stroke color just as you would a solid color. During drawing, the image in the pattern color is tiled as necessary to cover the given area.
@@ -109,9 +107,9 @@ Creates and returns a color object using the specified opacity and RGB component
 * **func** **whiteWithAlpha**(**white**: <strong>[Float](../gravity/types.md)</strong>, **alpha**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Color](color.md)</strong> 
 Initializes and returns a color object using the specified opacity and grayscale values.
 
-</ul>
 
-### Initializers
+
+#### Initializers
 
 * **func** **Color**(**red**: <strong>[Float](../gravity/types.md)</strong>, **green**: <strong>[Float](../gravity/types.md)</strong>, **blue**: <strong>[Float](../gravity/types.md)</strong>, **alpha**: <strong>[Float](../gravity/types.md)</strong>)
 Creates a color object using the specified opacity and RGB component values.
@@ -122,9 +120,9 @@ Creates a color object using the specified RGB component values (alphs set to 1.
 * **func** **Color**(**string**: <strong>[String](../gravity/types.md)</strong>)
 Creates a color using the specified HEX string.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **hex**(**withAlpha**: <strong>[Bool](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
 Returns hex string representing the color (with an optional alpha value speciafied in the parameter, this method is valid only if isRGB is true).
@@ -132,18 +130,19 @@ Returns hex string representing the color (with an optional alpha value speciafi
 * **func** **darkerColor**(**amount**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Color](color.md)</strong> 
 Returns a darker color with the amount specified in the parameter (only valid if isRGB is true).
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### ColorSpaceModel* .CMYK
-* .DeviceN
-* .Lab
-* .Monochrome
-* .Pattern
-* .RGB
-* .Unknown
-<br><br></ul>
+
+#### Enumeration
+
+#### ColorSpaceModel
+ * .CMYK
+ * .DeviceN
+ * .Lab
+ * .Monochrome
+ * .Pattern
+ * .RGB
+ * .Unknown
+<br><br>
 

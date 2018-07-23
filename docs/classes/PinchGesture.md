@@ -1,10 +1,8 @@
-# PinchGesture
-
 **super**: [UIPinchGestureRecognizer](UIPinchGestureRecognizer.md) on iOS
 
 PinchGesture is a concrete gesture recognizer that looks for pinching gestures involving two touches. When the user moves the two fingers toward each other, the conventional meaning is zoom-out; when the user moves the two fingers away from each other, the conventional meaning is zoom-in. Pinching is a continuous gesture. The gesture begins (GestureRecognizerState.Began) when the two touches have moved enough to be considered a pinch gesture. The gesture changes (GestureRecognizerState.Changed) when a finger moves (with both fingers remaining pressed). The gesture ends (GestureRecognizerState.Ended) when both fingers lift from the view.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ Ask the delegate if a gesture recognizer should receive an object representing a
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **scale**: **[Float](../gravity/types.md)**
 The scale factor relative to the points of the two touches in screen coordinates. The scale value is an absolute value that varies over time. It is not the delta value from the last time that the scale was reported. Apply the scale value to the state of the view when the gesture is first recognized—do not concatenate the value each time the handler is called.
@@ -34,7 +32,7 @@ The scale factor relative to the points of the two touches in screen coordinates
 * **var** **velocity**: **[Float](../gravity/types.md)**
 The velocity of the pinch in scale factor per second. \(read-only\)
 
-</ul>
 
-</ul>
+
+
 

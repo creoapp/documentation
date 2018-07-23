@@ -1,11 +1,9 @@
-# Gradient
-
 **super**: [Object](Object.md)
 
 The Gradient class provides support for drawing gradient fill colors, also known as shadings. This class provides convenience methods for drawing radial or linear (axial) gradients for rectangles and other objects. It also supports primitive methods that let you customize the shape of the gradient fill.
 A gradient consists of two or more color changes over the range of the gradient shape. When creating a gradient object, you specify the colors and their locations relative to the start and end of the gradient. This combination of color and location is known as a color stop.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -13,9 +11,9 @@ This event is called when the object becames available in the current runtime sy
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **colors**: **[List](../gravity/lists.md)**
 Returns an array of colors \(read-only\)
@@ -26,9 +24,9 @@ Returns an array of location \(read-only\)
 * **var** **gradientType**: **GradientType**
 Gradient type.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **addColorStop**(**color**: <strong>[Color](color.md)</strong>, **location**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Int](../gravity/types.md)</strong> 
 Add a new color stop to the gradient at the specified location.
@@ -45,13 +43,14 @@ Update stop color at the specified index (with a new location).
 * **func** **isEqual**(**gradient**: <strong>[Gradient](gradient.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
 Compare two Gradient objects.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### GradientType* .Linear
-* .Radial
-<br><br></ul>
+
+#### Enumeration
+
+#### GradientType
+ * .Linear
+ * .Radial
+<br><br>
 

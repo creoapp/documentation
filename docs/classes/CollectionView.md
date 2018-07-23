@@ -1,10 +1,8 @@
-# CollectionView
-
 **super**: [UICollectionView](UICollectionView.md) on iOS
 
 The CollectionView class manages an ordered collection of data items and presents them using customizable layouts. Collection views provide the same general function as <a href="TableView.html">TableView(s)</a> except that a collection view is able to support more than just single-column layouts. The collection view presents items onscreen using the built-in cell or a user-defined <a href="CustomView.html">CustomView</a>.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -39,9 +37,9 @@ This event is called when the scroll view ends decelerating the scrolling moveme
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **layoutType**: **CollectionViewLayoutType**
 The layout defines the organization and location of all cells and supplementary views inside the collection view. The layout type property allows you to choose between two mail styles (the simple flow and the balanced flow) while other layout properties (minimumLineSpacing, preferredRowSize, etc.) enable you to configure some details of the choosen layout style.
@@ -75,9 +73,9 @@ Returns nil or an array of selected index paths. \(read-only\)
 * **var** **keyPath**: **[String](../gravity/types.md)**
 The base keyPath to get a particular node of the <a href="DataSet.html">DataSet</a> value. The DataSet must provide a List of objects and each object represents a different item. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md) = true</strong>)
 Reloads the content of the collection view.
@@ -103,44 +101,48 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### CollectionViewLayoutType* .BalancedFlow
-* .Flow
-<br><br>### CollectionViewScrollDirection* .Horizontal
-* .Vertical
-<br><br>### CollectionViewScrollPosition* .Bottom
-* .CenteredHorizontally
-* .CenteredVertically
-* .Left
-* .None
-* .Right
-* .Top
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### CollectionViewLayoutType
+ * .BalancedFlow
+ * .Flow
+<br><br>#### CollectionViewScrollDirection
+ * .Horizontal
+ * .Vertical
+<br><br>#### CollectionViewScrollPosition
+ * .Bottom
+ * .CenteredHorizontally
+ * .CenteredVertically
+ * .Left
+ * .None
+ * .Right
+ * .Top
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

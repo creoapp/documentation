@@ -1,10 +1,8 @@
-# Button
-
 **super**: [UIButton](UIButton.md) on iOS
 
 A Button object is a view that executes your custom code in response to user interactions. You communicate the purpose of a button using a text label, an image, or both.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -15,9 +13,9 @@ This event is called when a touch is released (touch-up) inside the bounds of th
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **title**: **[String](../gravity/types.md)**
 The title of the button. Use this property instead of the titleForState and setTitleForState methods if you want to use the same title for all the button states.
@@ -43,16 +41,16 @@ Returns the image for the current button state. \(read-only\)
 * **var** **currentBackgroundImage**: **[Image](image.md)**
 Returns the background image for the current button state. \(read-only\)
 
-</ul>
 
-### Initializers
+
+#### Initializers
 
 * **func** **Button**(**buttonType**: <strong><a href="#_enum_ButtonType">ButtonType</a></strong>)
 Creates and returns a new button of the specified type.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **titleForState**(**state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>): <strong>[String](../gravity/types.md)</strong> 
 Returns the title associated with the specified state.
@@ -93,46 +91,49 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### ButtonType* .ContactAdd
-* .Custom
-* .DetailDisclosure
-* .InfoDark
-* .InfoLight
-* .RoundedRect
-* .System
-<br><br>### ControlState* .Application
-* .Disabled
-* .Focused
-* .Highlighted
-* .Normal
-* .Selected
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### ButtonType
+ * .ContactAdd
+ * .Custom
+ * .DetailDisclosure
+ * .InfoDark
+ * .InfoLight
+ * .RoundedRect
+ * .System
+<br><br>#### ControlState
+ * .Application
+ * .Disabled
+ * .Focused
+ * .Highlighted
+ * .Normal
+ * .Selected
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

@@ -1,14 +1,12 @@
-# UIView
-
 **super**: [UIResponder](UIResponder.md) on iOS
 
 This class is reserved and cannot be directly instantiated.
 
-### Events
+#### Events
 
-* None</ul>
+* None
 
-### Properties
+#### Properties
 
 * **var** **rotationAngle**: **[Float](../gravity/types.md)**
 Set the transform applied to the view with an affine transformation matrix constructed from the provided rotation value.
@@ -61,9 +59,9 @@ The blur radius (in points) used to render the view's shadow
 * **var** **subviews**: **[List](../gravity/lists.md)**
 The array of subviews.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **refresh**()
 Notify the system that your view’s contents need to be redrawn. This method makes a note of the request and returns immediately. The view is not actually redrawn until the next drawing cycle, at which point all invalidated views are updated.
@@ -83,7 +81,7 @@ Unlinks the view from its superview and its window, and removes it from the resp
 * **func** **insertSubview**(**view**: <strong>[UIView](UIView.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>)
 Inserts a subview at the specified index.
 
-</ul>
 
-</ul>
+
+
 

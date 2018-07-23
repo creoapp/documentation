@@ -1,10 +1,8 @@
-# Shape
-
 **super**: [UIView](UIView.md) on iOS
 
 Base class for <a href="LineShape.html">LineShape</a>, <a href="RectShape.html">RectShape</a>, <a href="OvalShape.html">OvalShape</a> and <a href="PolyShape.html">PolyShape</a> shapes.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ This event is called when the sysyem receives a system interruption (such as a s
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **fillColor**: **[Color](color.md)**
 Color used to fill the shape.
@@ -43,7 +41,7 @@ Border thickness.
 * **var** **regularShape**: **[Bool](../gravity/types.md)**
 If true then shape is forced to have same width and height.
 
-</ul>
 
-</ul>
+
+
 

@@ -1,10 +1,8 @@
-# TextView
-
 **super**: [UITextView](UITextView.md) on iOS
 
 The TextView class implements the behavior for a scrollable, multiline text region. The class supports the display of text using custom style information and also supports text editing. You typically use a text view to display multiple lines of text, such as when displaying the body of a large text document.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -33,9 +31,9 @@ This event is called when the scroll view ends decelerating the scrolling moveme
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **text**: **[String](../gravity/types.md)**
 The text displayed by the text view.
@@ -73,9 +71,9 @@ The custom input view to display when the text view becomes the first responder.
 * **var** **inputAccessoryView**: **[UIView](UIView.md)**
 The custom accessory view to display when the text view becomes the first responder.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **hasText**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether the text view currently contains any text.
@@ -95,47 +93,51 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### TextType* .HTML
-* .Markdown
-* .Text
-<br><br>### TextAlignment* .Center
-* .Justified
-* .Left
-* .Natural
-* .Right
-<br><br>### DataDetectorTypes* .Address
-* .All
-* .CalendarEvent
-* .Link
-* .None
-* .PhoneNumber
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### TextType
+ * .HTML
+ * .Markdown
+ * .Text
+<br><br>#### TextAlignment
+ * .Center
+ * .Justified
+ * .Left
+ * .Natural
+ * .Right
+<br><br>#### DataDetectorTypes
+ * .Address
+ * .All
+ * .CalendarEvent
+ * .Link
+ * .None
+ * .PhoneNumber
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

@@ -1,12 +1,10 @@
-# Application
-
 **super**: [UIApplication](UIApplication.md) on iOS
 
 The Application class provides a centralized point of control and coordination for apps running on your device. Every running app has exactly one instance of Application. When an app is launched, the system calls its various events in order to notify its running status. Current running application can be accessed through the App global instance.
 
 A major role of your app's application object is to handle the initial routing of incoming user events. The application object informs of significant runtime events like app launch, low-memory warnings, and app termination, giving it an opportunity to respond appropriately.
 
-### Events
+#### Events
 
 * **DidStart**()
 Use this method to initialize your app and prepare it to run. This event is called after your app has been launched and loaded, but before your app’s state has been restored. At the time this method is called, your app is in the inactive state.
@@ -29,9 +27,9 @@ Use this method to release shared resources, invalidate timers, and store enough
 * **WillTerminate**()
 This method lets your app know that it is about to be terminated and purged from memory entirely. You should use this method to perform any final clean-up tasks for your app, such as freeing shared resources, saving user data, and invalidating timers. Your implementation of this method has approximately five seconds to perform any tasks and return. If the method does not return before time expires, the system may kill the process altogether.
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **language**: **[String](../gravity/types.md)**
 Returns current application language. \(read-only\)
@@ -39,9 +37,9 @@ Returns current application language. \(read-only\)
 * **var** **idleTimerDisabled**: **[Bool](../gravity/types.md)**
 A Boolean value that controls whether the idle timer is disabled for the app. The default value of this property is false. When most apps have no touches as user input for a short period, the system puts the device into a sleep state where the screen dims. This is done for the purposes of conserving power. However, apps that don't have user input except for the accelerometer—games, for instance—can, by setting this property to YES, disable the idle timer to avert system sleep.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **loadContainer**(**container**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>)
 Container can be a Window or a Navigation. When you set a Startup Window into Creo IDE you are setting the container parameter of this method. The new container is configured to track the window size, changing as the window size changes. If the window has an existing view hierarchy, the old views are removed before the new ones are installed.
@@ -50,7 +48,7 @@ If you do not set any First Window into Creo IDE then you are responsible to man
 
 <pre><code class="swift">App.loadContainer(Window1);</code></pre>
 
-</ul>
 
-</ul>
+
+
 

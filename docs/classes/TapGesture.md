@@ -1,10 +1,8 @@
-# TapGesture
-
 **super**: [UITapGestureRecognizer](UITapGestureRecognizer.md) on iOS
 
 TapGesture is a concrete gesture recognizer that looks for single or multiple taps. For the gesture to be recognized, the specified number of fingers must tap the view a specified number of times. Although taps are discrete gestures, they are discrete for each state of the gesture recognizer; thus the associated action message is sent when the gesture begins and is sent for each intermediate state until (and including) the ending state of the gesture. Code that handles tap gestures should therefore test for the state of the gesture.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ Ask the delegate if a gesture recognizer should receive an object representing a
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **numberOfTapsRequired**: **[Int](../gravity/types.md)**
 The number of taps for the gesture to be recognized. The default value is 1.
@@ -34,7 +32,7 @@ The number of taps for the gesture to be recognized. The default value is 1.
 * **var** **numberOfTouchesRequired**: **[Int](../gravity/types.md)**
 The number of fingers required to tap for the gesture to be recognized. The default value is 1.
 
-</ul>
 
-</ul>
+
+
 

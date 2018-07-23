@@ -1,10 +1,8 @@
-# GPS
-
 **super**: [DataSet](DataSet.md)
 
 The GPS class is the central point for configuring the delivery of location and heading related events to your app. You use an instance of this class to establish the parameters that determine when location and heading events should be delivered and to start and stop the actual delivery of those events. You can also use a GPS object to retrieve the most recent location and heading data.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ Event raised in case of DataSet error.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **distanceFilter**: **[Float](../gravity/types.md)**
 The minimum distance (measured in meters) a device must move horizontally before an update event is generated. This distance is measured relative to the previously delivered location. Use the value kCLDistanceFilterNone to be notified of all movements. The default value of this property is -1.0. This property is used only in conjunction with the standard location services and is not used when monitoring significant location changes.
@@ -37,9 +35,9 @@ The desired location accuracy. The location service will try its best to achieve
 * **var** **activityType**: **ActivityType**
 The type of user activity associated with the location updates. The location manager uses the information in this property as a cue to determine when location updates may be automatically paused. Pausing updates gives the system the opportunity to save power in situations where the user's location is not likely to be changing. For example, if the activity type is AutomotiveNavigation and no location changes have occurred recently, the radios might be powered down until movement is detected again.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **locationServicesEnabled**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether location services are enabled on the device.
@@ -56,20 +54,22 @@ Returns a Boolean value indicating whether significant location change tracking 
 * **func** **authorizationStatus**(): <strong><a href="#_enum_AuthorizationStatus">AuthorizationStatus</a></strong> 
 Returns the app’s authorization status for using location services. The authorization status of a given app is managed by the system and determined by several factors. Apps must be explicitly authorized to use location services by the user and location services must themselves currently be enabled for the system. A request for user authorization is displayed automatically when your app first attempts to use location services.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### ActivityType* .AutomotiveNavigation
-* .Fitness
-* .Other
-* .OtherNavigation
-<br><br>### AuthorizationStatus* .AuthorizedAlways
-* .AuthorizedWhenInUse
-* .Denied
-* .NotDetermined
-* .Restricted
-<br><br></ul>
+
+#### Enumeration
+
+#### ActivityType
+ * .AutomotiveNavigation
+ * .Fitness
+ * .Other
+ * .OtherNavigation
+<br><br>#### AuthorizationStatus
+ * .AuthorizedAlways
+ * .AuthorizedWhenInUse
+ * .Denied
+ * .NotDetermined
+ * .Restricted
+<br><br>
 

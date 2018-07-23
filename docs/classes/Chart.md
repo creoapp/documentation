@@ -1,10 +1,8 @@
-# Chart
-
 **super**: [UIView](UIView.md) on iOS
 
 The Chart class offers a built-in and ready to use control to easely display graphical representation of data. Chart supports five type of graphs representation: Bar, Pie, Line, Area and Scatter.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,9 +10,9 @@ This event is called when the object becames available in the current runtime sy
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **chartType**: **ChartType**
 The graphical representation type
@@ -55,9 +53,9 @@ If true, shows the Y axis line; otherwise, does not.
 * **var** **showsLabelY**: **[Bool](../gravity/types.md)**
 If true, shows the Y axis labels; otherwise, does not.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md)</strong>)
 Reload the content of the chart.
@@ -71,45 +69,49 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### ChartType* .Area
-* .Bar
-* .Line
-* .Pie
-* .Scatter
-<br><br>### ChartPointStyle* .Circle
-* .None
-* .Square
-<br><br>### ChartDecorationStyle* .Glossy1
-* .Glossy2
-* .Gradient
-* .None
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### ChartType
+ * .Area
+ * .Bar
+ * .Line
+ * .Pie
+ * .Scatter
+<br><br>#### ChartPointStyle
+ * .Circle
+ * .None
+ * .Square
+<br><br>#### ChartDecorationStyle
+ * .Glossy1
+ * .Glossy2
+ * .Gradient
+ * .None
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

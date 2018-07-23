@@ -1,12 +1,10 @@
-# Navigation
-
 **super**: [UINavigationController](UINavigationController.md) on iOS
 
 The Navigation class implements a specialized view controller that manages the navigation of hierarchical content. This navigation interface makes it possible to present your data efficiently and makes it easier for the user to navigate that content. You generally use this class as-is but you may also subclass to customize the class behavior.
 
 The screens presented by a navigation interface typically mimic the hierarchical organization of your data. At each level of the hierarchy, you provide an appropriate Window to display the content at that level.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -26,9 +24,9 @@ Use this event to be notified when navigation was removed from a view hierarchy.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
@@ -63,9 +61,9 @@ Returns the currently selected Window or Navigation. \(read-only\)
 * **var** **prefersLargeTitles**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the title should be displayed in a large format in the navigation bar. When this property is set to true, the navigation bar allows the title to be displayed out-of-line and using a larger font. The top window must specify whether it wants its title displayed in the large or small format. Use the largeTitleDisplayMode property of the <a href="Window.html">Window</a> to configure the title's appearance. When the property is set to false, the navigation bar displays the title inline with the other bar button items.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
 Open window in currently displayed window or navigation using the destination object default behaviour .
@@ -94,32 +92,35 @@ Pops all the Windows/Navigations on the stack except the root Window/Navigation 
 * **func** **setNavigationBarHidden**(**hidden**: <strong>[Bool](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
 Sets whether the navigation bar is hidden.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### StatusBarVisibility* .Default
-* .Hidden
-* .Visible
-<br><br>### StatusBarStyle* .DarkContent
-* .Default
-* .LightContent
-<br><br>### TransitionStyle* .Cards
-* .CoverVertical
-* .CrossDissolve
-* .Crossfade
-* .Cube
-* .Default
-* .Explode
-* .Flip
-* .FlipHorizontal
-* .Fold
-* .NatGeo
-* .NotAnimated
-* .PartialCurl
-* .Portal
-* .Turn
-<br><br></ul>
+
+#### Enumeration
+
+#### StatusBarVisibility
+ * .Default
+ * .Hidden
+ * .Visible
+<br><br>#### StatusBarStyle
+ * .DarkContent
+ * .Default
+ * .LightContent
+<br><br>#### TransitionStyle
+ * .Cards
+ * .CoverVertical
+ * .CrossDissolve
+ * .Crossfade
+ * .Cube
+ * .Default
+ * .Explode
+ * .Flip
+ * .FlipHorizontal
+ * .Fold
+ * .NatGeo
+ * .NotAnimated
+ * .PartialCurl
+ * .Portal
+ * .Turn
+<br><br>
 

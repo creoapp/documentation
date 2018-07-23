@@ -1,10 +1,8 @@
-# Data
-
 **super**: [NSData](NSData.md)
 
 Data class provide object-oriented wrappers for byte buffers.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,16 +10,16 @@ This event is called when the object becames available in the current runtime sy
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Initializers
+
+#### Initializers
 
 * **func** **Data**()
 Instantiate a new Data object.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **bytes**(**range**: <strong>[Range](range.md)</strong>): <strong>[Data](data.md)</strong> 
 Copies a range of bytes from the receiver’s data.
@@ -59,7 +57,7 @@ Writes a four-bytes float value to the data. Replaces the previous byte if the c
 * **func** **writeDouble**(**value**: <strong>[Float](../gravity/types.md)</strong>)
 Writes a eight-bytes double value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-</ul>
 
-</ul>
+
+
 

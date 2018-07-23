@@ -1,12 +1,10 @@
-# MoviePlayer
-
 **super**: [UIView](UIView.md) on iOS
 
 A MoviePlayer manages the playback of a movie from a file or a network stream. Playback occurs in a view owned by the movie player and takes place either fullscreen or inline.
 
 
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -38,9 +36,9 @@ Posted when the movie player's playback state has changed.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **contentPath**: **[String](../gravity/types.md)**
 The path/URL that points to the local/remote movie file.
@@ -96,9 +94,9 @@ A Boolean that indicates whetever the first video frame of the movie is ready to
 * **var** **repeatMode**: **MovieRepeatMode**
 Obtains the most recent time-based metadata provided by the streamed movie.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **setFullscreenAnimated**(**fullscreen**: <strong>[Bool](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md)</strong>)
 Description not yet ready.
@@ -112,59 +110,67 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### MovieSourceType* .File
-* .Streaming
-* .Unknown
-<br><br>### MovieMediaTypeMask* .Audio
-* .None
-* .Video
-<br><br>### MovieScalingMode* .AspectFill
-* .AspectFit
-* .Fill
-* .None
-<br><br>### MovieControlStyle* .Default
-* .Embedded
-* .Fullscreen
-* .None
-<br><br>### MovieLoadState* .Playable
-* .PlaythroughOK
-* .Stalled
-* .Unknown
-<br><br>### MoviePlaybackState* .Interrupted
-* .Paused
-* .Playing
-* .SeekingBackward
-* .SeekingForward
-* .Stopped
-<br><br>### MovieRepeatMode* .None
-* .One
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### MovieSourceType
+ * .File
+ * .Streaming
+ * .Unknown
+<br><br>#### MovieMediaTypeMask
+ * .Audio
+ * .None
+ * .Video
+<br><br>#### MovieScalingMode
+ * .AspectFill
+ * .AspectFit
+ * .Fill
+ * .None
+<br><br>#### MovieControlStyle
+ * .Default
+ * .Embedded
+ * .Fullscreen
+ * .None
+<br><br>#### MovieLoadState
+ * .Playable
+ * .PlaythroughOK
+ * .Stalled
+ * .Unknown
+<br><br>#### MoviePlaybackState
+ * .Interrupted
+ * .Paused
+ * .Playing
+ * .SeekingBackward
+ * .SeekingForward
+ * .Stopped
+<br><br>#### MovieRepeatMode
+ * .None
+ * .One
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

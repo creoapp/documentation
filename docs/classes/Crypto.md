@@ -1,10 +1,8 @@
-# Crypto
-
 **super**: [Object](Object.md)
 
 The Crypto module provides cryptographic functionality.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,9 +10,9 @@ This event is called when the object becames available in the current runtime sy
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Class Methods
+
+#### Class Methods
 
 * **func** **md5**(**string**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
 Compute MD5 digest algorithm.
@@ -31,7 +29,7 @@ Compute SHA512 digest algorithm.
 * **func** **UUID**(): <strong>[String](../gravity/types.md)</strong> 
 Create and returns a new UUID with RFC 4122 version 4 random bytes.
 
-</ul>
 
-</ul>
+
+
 

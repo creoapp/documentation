@@ -1,12 +1,10 @@
-# Carousel
-
 **super**: [UIView](UIView.md) on iOS
 
 Carousel is a class designed to simplify the implementation of various types of carousel (paged, scrolling views). Carousel implements a number of common effects such as cylindrical, flat and CoverFlow style carousels, as well as providing hooks to implement your own bespoke effects. Unlike many other CoverFlow libraries, Carousel can work with any kind of view, not just images, so it is ideal for presenting paged data in a fluid and impressive way in your app. It also makes it extremely easy to swap between different carousel effects with minimal code changes.
 
 
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -17,9 +15,9 @@ Handle this event if you need to execute some code when a new cell is selected b
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **currentItemIndex**: **[Int](../gravity/types.md)**
 The index of the currently centered item in the carousel. Setting this property is equivalent to calling scrollToItemAtIndex with the animated argument set to false.
@@ -120,9 +118,9 @@ The minimum alpha value to which the views will fade (defaults to 0.0 - fully tr
 * **var** **keyPath**: **[String](../gravity/types.md)**
 The base keyPath to get a particular node of the <a href="DataSet.html">DataSet</a> value. The DataSet must provide a List of objects and each object represents a different item. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md) = true</strong>)
 Reload the content of the carousel.
@@ -157,44 +155,46 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### CarouselType* .Cylinder
-* .Flow
-* .Flow2
-* .InvertedCylinder
-* .InvertedRotary
-* .InvertedTimeMachine
-* .InvertedWheel
-* .Linear
-* .Rotary
-* .TimeMachine
-* .Wheel
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### CarouselType
+ * .Cylinder
+ * .Flow
+ * .Flow2
+ * .InvertedCylinder
+ * .InvertedRotary
+ * .InvertedTimeMachine
+ * .InvertedWheel
+ * .Linear
+ * .Rotary
+ * .TimeMachine
+ * .Wheel
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

@@ -1,5 +1,3 @@
-# HTTPClient
-
 **super**: [Object](Object.md)
 
 The HTTPClient class and <a href="HTTPRequest.html">HTTPRequest</a> class enable you to downloading content via HTTP. With an HTTPClient object you can configure the common connection parameters that can be used by one or more HTTPRequest, each of which represents a request for a specific URL.
@@ -8,7 +6,7 @@ The HTTPClient defines the protocol, the server host, the authenticaion paramete
 
 An <a href="HTTPRequest.html">HTTPRequest</a> is always part of an HTTPClient and defines the request specific properties like the HTTP method, the path of the resource with the possibility to use dynamic values for header, path, query and body parameters.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -16,9 +14,9 @@ This event is called when the object becames available in the current runtime sy
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **protocol**: **HTTPProtocol**
 URL scheme.
@@ -53,33 +51,38 @@ Allow the session to set cookies on requests.
 * **var** **HTTPCookieAcceptPolicy**: **HTTPCookieAcceptPolicy**
 Policy for accepting cookies. This overrides the policy otherwise specified by the cookie storage.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### HTTPProtocol* .HTTP
-* .HTTPS
-<br><br>### HTTPAuth* .Basic
-* .Digest
-* .Nothing
-* .OAuth1
-* .OAuth2
-<br><br>### HTTPRequestCachePolicy* .ReloadIgnoringCache
-* .ReloadIgnoringLocalAndRemoteCache
-* .ReloadIgnoringLocalCache
-* .ReturnCacheDataDontLoad
-* .ReturnCacheDataElseLoad
-* .RevalidatingCacheData
-* .UseProtocol
-<br><br>### HTTPRequestNetworkServiceType* .Background
-* .Default
-* .Video
-* .VoIP
-* .Voice
-<br><br>### HTTPCookieAcceptPolicy* .Always
-* .Never
-* .OnlyFromMainDocumentDomain
-<br><br></ul>
+
+#### Enumeration
+
+#### HTTPProtocol
+ * .HTTP
+ * .HTTPS
+<br><br>#### HTTPAuth
+ * .Basic
+ * .Digest
+ * .Nothing
+ * .OAuth1
+ * .OAuth2
+<br><br>#### HTTPRequestCachePolicy
+ * .ReloadIgnoringCache
+ * .ReloadIgnoringLocalAndRemoteCache
+ * .ReloadIgnoringLocalCache
+ * .ReturnCacheDataDontLoad
+ * .ReturnCacheDataElseLoad
+ * .RevalidatingCacheData
+ * .UseProtocol
+<br><br>#### HTTPRequestNetworkServiceType
+ * .Background
+ * .Default
+ * .Video
+ * .VoIP
+ * .Voice
+<br><br>#### HTTPCookieAcceptPolicy
+ * .Always
+ * .Never
+ * .OnlyFromMainDocumentDomain
+<br><br>
 

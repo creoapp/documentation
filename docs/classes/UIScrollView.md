@@ -1,10 +1,8 @@
-# UIScrollView
-
 **super**: [UIView](UIView.md) on iOS
 
 This class is reserved and cannot be directly instantiated.
 
-### Events
+#### Events
 
 * **DidScroll**()
 This event is called when the user scrolls the content view.
@@ -15,9 +13,9 @@ This event is called when dragging ended in the scroll view. The scroll view sen
 * **DidEndDecelerating**()
 This event is called when the scroll view ends decelerating the scrolling movement.
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **contentOffset**: **[Point](point.md)**
 The point at which the origin of the content view is offset from the origin of the scroll view.
@@ -58,21 +56,22 @@ The style of the scroll indicators.
 * **var** **decelerating**: **[Bool](../gravity/types.md)**
 Returns whether the content is moving in the scroll view after the user lifted their finger. \(read-only\)
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **flashScrollIndicators**()
 Displays the scroll indicators momentarily. You should call this method whenever you bring the scroll view to front.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### ScrollViewIndicatorStyle* .Black
-* .Default
-* .White
-<br><br></ul>
+
+#### Enumeration
+
+#### ScrollViewIndicatorStyle
+ * .Black
+ * .Default
+ * .White
+<br><br>
 

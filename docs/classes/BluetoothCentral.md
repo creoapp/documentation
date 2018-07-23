@@ -1,10 +1,8 @@
-# BluetoothCentral
-
 **super**: [DataSet](DataSet.md)
 
 The BluetoothCentral class enables you to discover, connect to and communicate with Bluetooth 4.0 low-energy devices.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -30,9 +28,9 @@ Event raised in case of DataSet error.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **state**: **BluetoothState**
 Returns the current state of the central manager. The PoweredOn state indicates that the central device (your iPhone or iPad, for instance) supports Bluetooth low energy and that Bluetooth is on and available to use.
@@ -61,9 +59,9 @@ Returs the peripheral name of the last value received from a pheripheral. \(read
 * **var** **decodedValue**: **[Object](../gravity/types.md)**
 Returs the decoded value of the last value received from a pheripheral. \(read-only\)
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **scanForPeripherals**()
 Scans for peripherals that are advertising the configured services.
@@ -80,19 +78,21 @@ Writes the value of a characteristic. If the value is a Data object it is writte
 * **func** **setNotifyValue**(**enabled**: <strong>[Bool](../gravity/types.md)</strong>, **peripheral**: <strong>[String](../gravity/types.md)</strong>, **service**: <strong>[String](../gravity/types.md)</strong>, **characteristic**: <strong>[String](../gravity/types.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
 Enables or disables notifications/indications for the characteristic. If <i>characteristic</i> allows both, notifications will be used. When notifications/indications are enabled, updates to the characteristic value will be received via <code>NewValue</code> event.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### BluetoothState* .PoweredOff
-* .PoweredOn
-* .Resetting
-* .Unauthorized
-* .Unknown
-* .Unsupported
-<br><br>### CharacteristicWriteType* .WriteWithResponse
-* .WriteWithoutResponse
-<br><br></ul>
+
+#### Enumeration
+
+#### BluetoothState
+ * .PoweredOff
+ * .PoweredOn
+ * .Resetting
+ * .Unauthorized
+ * .Unknown
+ * .Unsupported
+<br><br>#### CharacteristicWriteType
+ * .WriteWithResponse
+ * .WriteWithoutResponse
+<br><br>
 

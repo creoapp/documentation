@@ -1,10 +1,8 @@
-# CameraRoll
-
 **super**: [DataSet](DataSet.md)
 
 A CameraRoll class manages system-supplied user interfaces for choosing saved images and movies for use in your app. A CameraRoll object can be used as DataSet in all the controls that accept a DataSet.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -39,9 +37,9 @@ Event raised in case of DataSet error.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Class Methods
+
+#### Class Methods
 
 * **func** **saveImage**(**image**: <strong>[Image](image.md)</strong>)
 Save an Image to the CameraRoll.
@@ -49,9 +47,9 @@ Save an Image to the CameraRoll.
 * **func** **saveVideo**(**videoPath**: <strong>[Image](image.md)</strong>)
 Save a Video to the CameraRoll.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **open**()
 Open CameraRoll and let the user choose saved images and movies for use in your app.
@@ -68,7 +66,7 @@ Open the asset at the specified index from the DataSet. The chosen image or vide
 * **func** **openAssetResized**(**index**: <strong>[Int](../gravity/types.md)</strong>, **imageSize**: <strong>[Size](size.md)</strong>, **CameraRollContentMode**: <strong>[Int](../gravity/types.md)</strong>)
 Open the asset at the specified index from the DataSet. The chosen image or video will be returned asynchronously with the NewImage (scaled with the specified size and content mode) or NewVideo event.
 
-</ul>
 
-</ul>
+
+
 

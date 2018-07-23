@@ -1,14 +1,12 @@
-# NSData
-
 **super**: [Object](Object.md)
 
 This class is reserved and cannot be directly instantiated.
 
-### Events
+#### Events
 
-* None</ul>
+* None
 
-### Properties
+#### Properties
 
 * **var** **length**: **[Int](../gravity/types.md)**
 The number of bytes contained by the data object. \(read-only\)
@@ -19,9 +17,9 @@ The position used for the Read and Write methods. This proprerty is automaticall
 * **var** **littleEndian**: **[Int](../gravity/types.md)**
 The byte order used by the Read and Write methods. If true, values are stored with the least-significant bytes first. The default value is true.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **readUInt8**(): <strong>[Int](../gravity/types.md)</strong> 
 Reads a one-byte value from the data and returns it as a UInt8. See also the <code>position</code> property.
@@ -68,7 +66,7 @@ Compute SHA512 digest algorithm.
 * **func** **base64**(): <strong>[String](../gravity/types.md)</strong> 
 Convert data to base64 string.
 
-</ul>
 
-</ul>
+
+
 

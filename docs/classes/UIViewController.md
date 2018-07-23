@@ -1,14 +1,12 @@
-# UIViewController
-
 **super**: [UIResponder](UIResponder.md) on iOS
 
 This class is reserved and cannot be directly instantiated.
 
-### Events
+#### Events
 
-* None</ul>
+* None
 
-### Properties
+#### Properties
 
 * **var** **supportedInterfaceOrientations**: **InterfaceOrientationMask**
 Returns all of the interface orientations that the Window supports.
@@ -25,9 +23,9 @@ A Boolean value indicating whether the view currently allows the user to edit th
 * **var** **automaticallyAdjustsScrollViewInsets**: **[Bool](../gravity/types.md)**
 A Boolean value that indicates whether the view should automatically adjust its scroll view insets.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **isViewLoaded**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether the view is currently loaded into memory, it does not attempt to load the view if it is not already in memory.
@@ -35,22 +33,24 @@ Returns a Boolean value indicating whether the view is currently loaded into mem
 * **func** **updateStatusBar**()
 Indicates to the system that the status bar attributes have changed.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### InterfaceOrientationMask* .All
-* .AllButUpsideDown
-* .Landscape
-* .LandscapeLeft
-* .LandscapeRight
-* .Portrait
-* .PortraitUpsideDown
-<br><br>### InterfaceOrientation* .LandscapeLeft
-* .LandscapeRight
-* .Portrait
-* .PortraitUpsideDown
-<br><br></ul>
+
+#### Enumeration
+
+#### InterfaceOrientationMask
+ * .All
+ * .AllButUpsideDown
+ * .Landscape
+ * .LandscapeLeft
+ * .LandscapeRight
+ * .Portrait
+ * .PortraitUpsideDown
+<br><br>#### InterfaceOrientation
+ * .LandscapeLeft
+ * .LandscapeRight
+ * .Portrait
+ * .PortraitUpsideDown
+<br><br>
 

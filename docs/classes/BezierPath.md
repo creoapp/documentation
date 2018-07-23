@@ -1,14 +1,12 @@
-# BezierPath
-
 **super**: [Object](Object.md)
 
 The BezierPath class lets you define a path consisting of straight and curved line segments and render that path in your views. You use this class initially to specify just the geometry for your path. Paths can define simple shapes such as rectangles, ovals, and arcs or they can define complex polygons that incorporate a mixture of straight and curved line segments. After defining the shape, you can use additional methods of this class to render the path in the current drawing context. Default stroke color is black and default fill color is not set.
 
-### Events
+#### Events
 
-* None</ul>
+* None
 
-### Properties
+#### Properties
 
 * **var** **strokeColor**: **[Color](color.md)**
 The color of subsequent stroke operations to the color
@@ -37,9 +35,9 @@ A Boolean indicating whether the even-odd winding rule is in use for drawing pat
 * **var** **isEmpty**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the path has any valid elements. \(read-only\)
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **image**(): <strong>[Image](image.md)</strong> 
 Convert the BezierPath to an Image.
@@ -95,50 +93,54 @@ This method appends a rounded rectangular path by specifying the radius of each 
 * **func** **appendPath**(**path**: <strong>[BezierPath](BezierPath.md)</strong>)
 Appends the contents of the specified path object to the receiver’s path.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### LineCapStyle* .Butt
-* .Round
-* .Square
-<br><br>### LineJoinStyle* .Bevel
-* .Miter
-* .Round
-<br><br>### BlendMode* .Clear
-* .Color
-* .ColorBurn
-* .ColorDodge
-* .Copy
-* .Darken
-* .DestinationAtop
-* .DestinationIn
-* .DestinationOut
-* .DestinationOver
-* .Difference
-* .Exclusion
-* .HardLight
-* .Hue
-* .Lighten
-* .Luminosity
-* .Multiply
-* .Normal
-* .Overlay
-* .PlusDarker
-* .PlusLighter
-* .Saturation
-* .Screen
-* .SoftLight
-* .SourceAtop
-* .SourceIn
-* .SourceOut
-* .XOR
-<br><br>### RectCorner* .AllCorners
-* .BottomLeft
-* .BottomRight
-* .TopLeft
-* .TopRight
-<br><br></ul>
+
+#### Enumeration
+
+#### LineCapStyle
+ * .Butt
+ * .Round
+ * .Square
+<br><br>#### LineJoinStyle
+ * .Bevel
+ * .Miter
+ * .Round
+<br><br>#### BlendMode
+ * .Clear
+ * .Color
+ * .ColorBurn
+ * .ColorDodge
+ * .Copy
+ * .Darken
+ * .DestinationAtop
+ * .DestinationIn
+ * .DestinationOut
+ * .DestinationOver
+ * .Difference
+ * .Exclusion
+ * .HardLight
+ * .Hue
+ * .Lighten
+ * .Luminosity
+ * .Multiply
+ * .Normal
+ * .Overlay
+ * .PlusDarker
+ * .PlusLighter
+ * .Saturation
+ * .Screen
+ * .SoftLight
+ * .SourceAtop
+ * .SourceIn
+ * .SourceOut
+ * .XOR
+<br><br>#### RectCorner
+ * .AllCorners
+ * .BottomLeft
+ * .BottomRight
+ * .TopLeft
+ * .TopRight
+<br><br>
 

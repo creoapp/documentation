@@ -1,10 +1,8 @@
-# TableView
-
 **super**: [UITableView](UITableView.md) on iOS
 
 A TableView displays a list of items in a single column. The TableView uses a TableViewCell template to draw the visible rows of the table. The values for the cells are obtained with the DataSet approach; you can use the built-in data grid (to edit the data grid, double click on the TableView from the design board) or use another object that inherit from the <a href="DataSet.html">DataSet</a> (recordsets from a databases, sensors, network datasources, etc).
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -42,9 +40,9 @@ This event is called when the scroll view ends decelerating the scrolling moveme
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **style**: **TableViewStyle**
 Returns the style of the table view. \(read-only\)
@@ -97,9 +95,9 @@ The index paths of the selected rows. \(read-only\)
 * **var** **keyPath**: **[String](../gravity/types.md)**
 The base keyPath to get a particular node of the <a href="DataSet.html">DataSet</a> value. The DataSet must provide a List of objects and each object represents a different row. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md) = true</strong>, **keepSelection**: <strong>[Bool](../gravity/types.md) = true</strong>)
 Reloads the content of the table view.
@@ -137,52 +135,58 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### TableViewCellEditingStyle* .Delete
-* .Insert
-* .None
-<br><br>### TableViewStyle* .Grouped
-* .Plain
-<br><br>### TableViewCellSeparatorStyle* .None
-* .SingleLine
-<br><br>### TableViewScrollPosition* .Bottom
-* .Middle
-* .None
-* .Top
-<br><br>### TableViewRowAnimation* .Automatic
-* .Bottom
-* .Fade
-* .Left
-* .Middle
-* .None
-* .Right
-* .Top
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### TableViewCellEditingStyle
+ * .Delete
+ * .Insert
+ * .None
+<br><br>#### TableViewStyle
+ * .Grouped
+ * .Plain
+<br><br>#### TableViewCellSeparatorStyle
+ * .None
+ * .SingleLine
+<br><br>#### TableViewScrollPosition
+ * .Bottom
+ * .Middle
+ * .None
+ * .Top
+<br><br>#### TableViewRowAnimation
+ * .Automatic
+ * .Bottom
+ * .Fade
+ * .Left
+ * .Middle
+ * .None
+ * .Right
+ * .Top
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

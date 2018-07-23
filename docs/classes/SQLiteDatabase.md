@@ -1,10 +1,8 @@
-# SQLiteDatabase
-
 **super**: [Database](Database.md)
 
 SQLite is an embedded relational database management system. It is ACID-compliant and implements most of the SQL standard, using a dynamically and weakly typed SQL syntax. SQLite is a popular choice as embedded database software for local/client storage in application software such as web browsers. It is arguably the most widely deployed database engine, as it is used today by several widespread browsers, operating systems, and embedded systems (such as mobile phones), among others.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -18,9 +16,9 @@ Handle this event if you want to perform some operations when database is discon
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **password**: **[String](../gravity/types.md)**
 Database password.
@@ -55,16 +53,16 @@ A flag that checks if database is connected. \(read-only\)
 * **var** **useSchema**: **[Bool](../gravity/types.md)**
 A flag to check if current database engines supports schemas. \(read-only\)
 
-</ul>
 
-### Class Methods
+
+#### Class Methods
 
 * **func** **open**(**srcfile**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
 Initializes and returns the SQLiteDatabase object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **connect**(**onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[Bool](../gravity/types.md)</strong> 
 Connect to the specified database.
@@ -93,7 +91,7 @@ Close connection to the database.
 * **func** **escape**(**identifier**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
 Escape an identifier.
 
-</ul>
 
-</ul>
+
+
 

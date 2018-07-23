@@ -1,10 +1,8 @@
-# Alert
-
 **super**: [UIAlertController](UIAlertController.md) on iOS
 
 The Alert class displays a customizable alert message to the user.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -27,9 +25,9 @@ Use this event to be notified when navigation was removed from a view hierarchy.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Initializers
+
+#### Initializers
 
 * **func** **Alert**(**title**: <strong>[String](../gravity/types.md)</strong>)
 Create a new Alert message with a specified title.
@@ -43,9 +41,9 @@ Create a new Alert message with a specified title and message plus an array of b
 * **func** **Alert**(**title**: <strong>[String](../gravity/types.md)</strong>, **message**: <strong>[String](../gravity/types.md)</strong>, **buttons**: <strong>[List](../gravity/lists.md)</strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>)
 Create a new Alert message with a specified title and message plus an array of buttons titles. The closure parameter enables you to specify an action to be executed when user press a button (button index is passed as parameter).
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **addActionWithTitle**(**title**: <strong>[String](../gravity/types.md)</strong>)
 Use this method to add a button to a newly created Alert.
@@ -53,7 +51,7 @@ Use this method to add a button to a newly created Alert.
 * **func** **show**()
 Display Alert to the user.
 
-</ul>
 
-</ul>
+
+
 

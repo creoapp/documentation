@@ -1,10 +1,8 @@
-# TabBarItem
-
 **super**: [UITabBarItem](UITabBarItem.md) on iOS
 
 An item in a tab bar.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,9 +10,9 @@ This event is called when the object becames available in the current runtime sy
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **title**: **[String](../gravity/types.md)**
 The title of the button.
@@ -28,7 +26,7 @@ The image displayed when the tab bar item is selected.
 * **var** **badgeValue**: **[String](../gravity/types.md)**
 Text that is displayed in the upper-right corner of the item with a surrounding red oval.
 
-</ul>
 
-</ul>
+
+
 

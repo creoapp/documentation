@@ -1,10 +1,8 @@
-# UITableView
-
 **super**: [UIScrollView](UIScrollView.md) on iOS
 
 This class is reserved and cannot be directly instantiated.
 
-### Events
+#### Events
 
 * **DidScroll**()
 This event is called when the user scrolls the content view.
@@ -15,7 +13,7 @@ This event is called when dragging ended in the scroll view. The scroll view sen
 * **DidEndDecelerating**()
 This event is called when the scroll view ends decelerating the scrolling movement.
 
-</ul>
 
-</ul>
+
+
 

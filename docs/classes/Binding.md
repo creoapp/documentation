@@ -1,12 +1,10 @@
-# Binding
-
 **super**: [Object](Object.md)
 
 This class is reserved and cannot be directly instantiated.
 
 A Binding object is automatically created by the CREO runtime each time you bind two or more objects on the design board.
 
-### Events
+#### Events
 
 * **ConvertValue**(**value**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
 Handle this event if you want to convert a value (or an array of values in case of multiple sources).
@@ -14,9 +12,9 @@ Handle this event if you want to convert a value (or an array of values in case 
 * **OnError**()
 Handle this event if you want to take any action in case of binding error.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **start**()
 Manually start a binding
@@ -24,7 +22,7 @@ Manually start a binding
 * **func** **stop**()
 Manually stop a binding
 
-</ul>
 
-</ul>
+
+
 

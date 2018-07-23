@@ -1,10 +1,8 @@
-# PageSplit
-
 **super**: [UISplitViewController](UISplitViewController.md) on iOS
 
 The SplitView class is a container that presents a master-detail interface. In a master-detail interface, changes in the master window drive changes in the detail window. The two windows can be arranged so that they are side-by-side, so that only one at a time is visible, or so that one only partially hides the other. You can use the SplitView class on all devices. When building your app’s user interface, the split view  is typically the root container of your app. The split view has no significant appearance of its own. Most of its appearance is defined by the child windows you set.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ Use this event to be notified when navigation was removed from a view hierarchy.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
@@ -67,9 +65,9 @@ The maximum width (in points) allowed for the primary view controller’s conten
 * **var** **primaryColumnWidth**: **[Float](../gravity/types.md)**
 The width (in points) of the primary view controller’s content. \(read-only\)
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
 Open window in currently displayed window or navigation using the destination object default behaviour.
@@ -87,36 +85,40 @@ Open window modally usign the specified transition style.
 * **func** **close**()
 Close window if modally opened.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### StatusBarVisibility* .Default
-* .Hidden
-* .Visible
-<br><br>### StatusBarStyle* .DarkContent
-* .Default
-* .LightContent
-<br><br>### SplitViewDisplayMode* .AllVisible
-* .Automatic
-* .PrimaryHidden
-* .PrimaryOverlay
-<br><br>### TransitionStyle* .Cards
-* .CoverVertical
-* .CrossDissolve
-* .Crossfade
-* .Cube
-* .Default
-* .Explode
-* .Flip
-* .FlipHorizontal
-* .Fold
-* .NatGeo
-* .NotAnimated
-* .PartialCurl
-* .Portal
-* .Turn
-<br><br></ul>
+
+#### Enumeration
+
+#### StatusBarVisibility
+ * .Default
+ * .Hidden
+ * .Visible
+<br><br>#### StatusBarStyle
+ * .DarkContent
+ * .Default
+ * .LightContent
+<br><br>#### SplitViewDisplayMode
+ * .AllVisible
+ * .Automatic
+ * .PrimaryHidden
+ * .PrimaryOverlay
+<br><br>#### TransitionStyle
+ * .Cards
+ * .CoverVertical
+ * .CrossDissolve
+ * .Crossfade
+ * .Cube
+ * .Default
+ * .Explode
+ * .Flip
+ * .FlipHorizontal
+ * .Fold
+ * .NatGeo
+ * .NotAnimated
+ * .PartialCurl
+ * .Portal
+ * .Turn
+<br><br>
 

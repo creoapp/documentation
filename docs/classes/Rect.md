@@ -1,10 +1,8 @@
-# Rect
-
 **super**: [Object](Object.md)
 
 Represents a rectangle.
 
-### Properties
+#### Properties
 
 * **var** **x**: **[Float](../gravity/types.md)**
 Rect origin x coordinate.
@@ -18,16 +16,16 @@ Rect width size value.
 * **var** **height**: **[Float](../gravity/types.md)**
 Rect height size value.
 
-</ul>
 
-### Initializers
+
+#### Initializers
 
 * **func** **Rect**(**x**: <strong>[Float](../gravity/types.md)</strong>, **y**: <strong>[Float](../gravity/types.md)</strong>, **width**: <strong>[Float](../gravity/types.md)</strong>, **height**: <strong>[Float](../gravity/types.md)</strong>)
 Create a new Rect object.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **copy**(): <strong>[Rect](rect.md)</strong> 
 Copy a Rect object by value (duplicate).
@@ -71,7 +69,7 @@ Returns the x- coordinate that establishes the center of a rectangle.
 * **func** **midY**(): <strong>[Float](../gravity/types.md)</strong> 
 Returns the y-coordinate that establishes the center of the rectangle.
 
-</ul>
 
-</ul>
+
+
 

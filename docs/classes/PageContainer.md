@@ -1,5 +1,3 @@
-# PageContainer
-
 **super**: [UIView](UIView.md) on iOS
 
 A PageContainer is a special built-in control that enables you to build complex dynamic navigations system using the standard <a href="DataSet.html">DataSet</a> and <a href="CustomView.html">Template</a> approach. Without this control if you wan to build an eBook with 50 pages (for simplicitly we can assume that each page is a jpeg image or an html page saved in a database) you would need to add a PageCurl or PageScroll navigation control to Layout and then add 50 Windows within it each one representing a page of the book. This would be a very time consuming and non flexible way to proceed.
@@ -8,7 +6,7 @@ With a PageContainer control you can just drop it to a new Window and then confi
 
 
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -19,9 +17,9 @@ Handle this event if you need to execute some code when a new page is selected b
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **index**: **[Int](../gravity/types.md)**
 Current index.
@@ -35,16 +33,16 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 * **var** **customView**: **[CustomView](CustomView.md)**
 Custom view template set in the PageContainer inspector.
 
-</ul>
 
-### Initializers
+
+#### Initializers
 
 * **func** **PageContainer**(**style**: <strong><a href="#_enum_PageContainerStyle">PageContainerStyle</a></strong>)
 Create a new PageContainer with the specified style.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md)</strong>)
 Reloads the content of the PageContainer.
@@ -61,35 +59,37 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### PageContainerStyle* .Curl
-* .Scroll
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### PageContainerStyle
+ * .Curl
+ * .Scroll
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

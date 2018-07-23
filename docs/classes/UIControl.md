@@ -1,14 +1,12 @@
-# UIControl
-
 **super**: [UIView](UIView.md) on iOS
 
 This class is reserved and cannot be directly instantiated.
 
-### Events
+#### Events
 
-* None</ul>
+* None
 
-### Properties
+#### Properties
 
 * **var** **enabled**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the control is enabled. An enabled control is capable of responding to user interactions, whereas a disabled control ignores touch events and may draw itself differently.
@@ -19,7 +17,7 @@ A Boolean value indicating whether the control draws a highlight. Controls autom
 * **var** **selected**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the control is in the selected state. Most controls do not modify their appearance or behavior when selected, but some do.
 
-</ul>
 
-</ul>
+
+
 

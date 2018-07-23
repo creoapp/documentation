@@ -1,12 +1,10 @@
-# Gyro
-
 **super**: [DataSet](DataSet.md)
 
 The Gyro object is the gateway to the motion services provided by OS. These services provide an app with accelerometer data, rotation rate data, magnetometer data, altitude related data, pedestrian related data, activity type data and other device motion data such as attitude. These types of data originate with a device’s accelerometers and (on some models) its magnetometer, gyroscope and barometer.
 
 Important: An app should create only a single instance of the Gyro class. Multiple instances of this class can affect the rate at which data is received from the accelerometer and gyroscope.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -26,9 +24,9 @@ Event raised in case of DataSet error.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **deviceMotionActive**: **[Bool](../gravity/types.md)**
 A Boolean value that determines whether the app is receiving updates from the device-motion service. \(read-only\)
@@ -72,7 +70,7 @@ Returns a Boolean indicating whether motion data is available on the current dev
 * **var** **showsDeviceMovementDisplay**: **[Bool](../gravity/types.md)**
 Returns a Boolean indicating whether motion data is available on the current device. Motion data is not available on all iOS devices. Use this method to determine if support is available on the current device.
 
-</ul>
 
-</ul>
+
+
 

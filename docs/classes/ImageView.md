@@ -1,10 +1,8 @@
-# ImageView
-
 **super**: [UIImageView](UIImageView.md) on iOS
 
 An ImageView object displays a single image or a sequence of animated images in your interface. Image views let you efficiently draw any image that can be specified using a UIImage object. For example, you can use this class to display the contents of many standard image files, such as JPEG and PNG files. You can configure image views programmatically or in your storyboard file and change the images they display at runtime. For animated images, you can also use the methods of this class to start and stop the animation and specify other animation parameters.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ This event is called when the sysyem receives a system interruption (such as a s
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **image**: **[Image](image.md)**
 The image displayed in the image view.
@@ -58,9 +56,9 @@ Options to specify how a view adjusts its content when its size changes.
 * **var** **imagesRenderingMode**: **[Int](../gravity/types.md)**
 Options to specify how a view adjusts its content when its size changes.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **startAnimating**()
 Starts animating the images in the receiver.
@@ -80,46 +78,48 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### ContentMode* .Bottom
-* .BottomLeft
-* .BottomRight
-* .Center
-* .Left
-* .Redraw
-* .Right
-* .ScaleAspectFill
-* .ScaleAspectFit
-* .ScaleToFill
-* .Top
-* .TopLeft
-* .TopRight
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### ContentMode
+ * .Bottom
+ * .BottomLeft
+ * .BottomRight
+ * .Center
+ * .Left
+ * .Redraw
+ * .Right
+ * .ScaleAspectFill
+ * .ScaleAspectFit
+ * .ScaleToFill
+ * .Top
+ * .TopLeft
+ * .TopRight
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

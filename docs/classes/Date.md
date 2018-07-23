@@ -1,10 +1,8 @@
-# Date
-
 **super**: [Object](Object.md)
 
 Date objects encapsulate a single point in time, independent of any particular calendrical system or time zone. The Date class provides methods for comparing dates, calculating the time interval between two dates, and creating a new date from a time interval relative to another date.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,9 +10,9 @@ This event is called when the object becames available in the current runtime sy
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **timeIntervalSinceNow**: **[Float](../gravity/types.md)**
 The interval between the date object and the current date and time. \(read-only\)
@@ -64,9 +62,9 @@ Extract the original week of the year calendar unit. \(read-only\)
 * **var** **yearForWeekOfYear**: **[Int](../gravity/types.md)**
 Extract the ISO Week Date from current date. \(read-only\)
 
-</ul>
 
-### Class Methods
+
+#### Class Methods
 
 * **func** **dateWithTimeIntervalSince1970**(**timeInterval**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set to a given number of seconds from 00:00:00 UTC on 1 January 1970.
@@ -101,9 +99,9 @@ Creates and returns a Date object set by adding reference minutes to the current
 * **func** **dateWithMinutesBeforeNow**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set by subtracting reference minutes to the current date and time.
 
-</ul>
 
-### Initializers
+
+#### Initializers
 
 * **func** **Date**(**timeInterval**: <strong>[Float](../gravity/types.md)</strong>)
 Returns a Date object relative to the current date and time by a given number of seconds.
@@ -114,9 +112,9 @@ Returns a Date object relative to another given date by a given number of second
 * **func** **Date**(**string**: <strong>[String](../gravity/types.md)</strong>, **format**: <strong>[String](../gravity/types.md)</strong>, **timeZone**: <strong>[String](../gravity/types.md)</strong>)
 Returns a Date object converted from a textual representations of dates and times.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **isEqualToDate**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date object is exactly equal to a reference date.
@@ -217,7 +215,7 @@ Creates and returns a new Date object set by subtracting reference minutes to th
 * **func** **format**(**format**: <strong>[String](../gravity/types.md)</strong>, **timeZone**: <strong>[String](../gravity/types.md) = null</strong>): <strong>[String](../gravity/types.md)</strong> 
 Returns a textual representations of the Date. Parameters: <code>format</code> is the date format string (use the <a href="http://www.unicode.org/reports/tr35/tr35-19.html#Date_Format_Patterns">Unicode Date Format Patterns</a>, for example "yyyy-MM-dd HH:mm:ss"), <code>timezone</code> is the name (for example "America/Los_Angeles", see the <code>knownTimeZoneNames</code> class method for more infomation) or the abbreviation (for example "PDT") of the time zone to be used. If unspecified or invalid, the system time zone is used.
 
-</ul>
 
-</ul>
+
+
 

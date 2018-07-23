@@ -1,10 +1,8 @@
-# TextField
-
 **super**: [UITextField](UITextField.md) on iOS
 
 A TextField object displays an editable text area in your interface. You use text fields to gather text-based input from the user using the onscreen keyboard. The keyboard is configurable for many different types of input such as plain text, emails, numbers, and so on. Text fields use the target-action mechanism and a delegate object to report changes made during the course of editing. In addition to its basic text-editing behavior, you can add overlay views to a text field to display additional information and provide additional tappable controls. You might add custom overlay views for elements such as a bookmarks button or search icon. Text fields provide a built-in overlay view to clear the current text. The use of custom overlay views is optional.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -27,9 +25,9 @@ Use this event to be notified when text changed in the specified text field.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **text**: **[String](../gravity/types.md)**
 The text displayed by the text field.
@@ -94,9 +92,9 @@ The overlay view displayed on the left (or leading) side of the text field.
 * **var** **rightView**: **[UIView](UIView.md)**
 The overlay view displayed on the right (or trailing) side of the text field.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
@@ -107,49 +105,54 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### TextAlignment* .Center
-* .Justified
-* .Left
-* .Natural
-* .Right
-<br><br>### TextBorderStyle* .Bezel
-* .Line
-* .None
-* .RoundedRect
-<br><br>### TextType* .HTML
-* .Markdown
-* .Text
-<br><br>### TextFieldViewMode* .Always
-* .Never
-* .UnlessEditing
-* .WhileEditing
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### TextAlignment
+ * .Center
+ * .Justified
+ * .Left
+ * .Natural
+ * .Right
+<br><br>#### TextBorderStyle
+ * .Bezel
+ * .Line
+ * .None
+ * .RoundedRect
+<br><br>#### TextType
+ * .HTML
+ * .Markdown
+ * .Text
+<br><br>#### TextFieldViewMode
+ * .Always
+ * .Never
+ * .UnlessEditing
+ * .WhileEditing
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

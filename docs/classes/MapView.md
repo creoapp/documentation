@@ -1,10 +1,8 @@
-# MapView
-
 **super**: [UIView](UIView.md) on iOS
 
 Display map or satellite imagery from the windows and views of your custom apps.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ The location of the user was updated.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **address**: **[String](../gravity/types.md)**
 A string describing the location you want to center the map to.
@@ -70,9 +68,9 @@ A Boolean value indicating whether the device’s current location is visible in
 * **var** **userTrackingMode**: **MapUserTrackingMode**
 Sets the mode used to track the user location.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **addAnnotation**(**annotationPoint**: <strong>[MapPointAnnotation](MapPointAnnotation.md)</strong>)
 Adds the specified annotation to the map view.
@@ -86,41 +84,44 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### MapType* .Hybrid
-* .HybridFlyover
-* .Satellite
-* .SatelliteFlyover
-* .Standard
-<br><br>### MapUserTrackingMode* .Follow
-* .FollowWithHeading
-* .None
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### MapType
+ * .Hybrid
+ * .HybridFlyover
+ * .Satellite
+ * .SatelliteFlyover
+ * .Standard
+<br><br>#### MapUserTrackingMode
+ * .Follow
+ * .FollowWithHeading
+ * .None
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 

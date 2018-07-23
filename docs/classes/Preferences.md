@@ -1,10 +1,8 @@
-# Preferences
-
 **super**: [DataSet](DataSet.md)
 
 A Preferences object lets you manage persistent app's preferences in a convenient key/value form.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ Event raised in case of DataSet error.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **read**(**key**: <strong>[String](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
 Reads the value specified by a previously saved key.
@@ -37,7 +35,7 @@ Returns a Boolean value that indicates whether the specified key/value entry has
 * **func** **reset**()
 Removes all the preferencies set by the user. After calling this method, the <i>read</i> method will return the default values for the keys specified in the Preferences panel (Main menu -> Project -> Preferences). To just reset the value of single key, you can use the <i>write</i> method with null value.
 
-</ul>
 
-</ul>
+
+
 

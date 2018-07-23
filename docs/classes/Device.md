@@ -1,14 +1,12 @@
-# Device
-
 **super**: [Object](Object.md)
 
 Use a Device object to get information about the device such as assigned name, device model, operating-system name and version, battery state and device orientation.
 
-### Events
+#### Events
 
-* None</ul>
+* None
 
-### Properties
+#### Properties
 
 * **var** **version**: **DeviceVersion**
 Returns a value from the DeviceVersion enum identifying the type of device (for example iPhone7, iPhone7Plus, iPadPro12Dot9Inch2Gen, etc.). \(read-only\)
@@ -61,9 +59,9 @@ Check if current device is an iPhone. \(read-only\)
 * **var** **isPad**: **[Bool](../gravity/types.md)**
 Check if current device is an iPad. \(read-only\)
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **sizeInches**(**size**: <strong><a href="#_enum_DeviceSize">DeviceSize</a></strong>): <strong>[Float](../gravity/types.md)</strong> 
 Convert a value from the DeviceSize enum to the numeric value of the screen size (diagonal).
@@ -71,64 +69,68 @@ Convert a value from the DeviceSize enum to the numeric value of the screen size
 * **func** **sizeName**(**size**: <strong><a href="#_enum_DeviceSize">DeviceSize</a></strong>): <strong>[String](../gravity/types.md)</strong> 
 Convert a value from the DeviceSize enum to its string representation.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### DeviceVersion* .Simulator
-* .Unknown
-* .iPad1
-* .iPad2
-* .iPad3
-* .iPad4
-* .iPad5
-* .iPadAir
-* .iPadAir2
-* .iPadMini
-* .iPadMini2
-* .iPadMini3
-* .iPadMini4
-* .iPadPro10Dot5Inch
-* .iPadPro12Dot9Inch
-* .iPadPro12Dot9Inch2Gen
-* .iPadPro9Dot7Inch
-* .iPhone4
-* .iPhone4S
-* .iPhone5
-* .iPhone5C
-* .iPhone5S
-* .iPhone6
-* .iPhone6Plus
-* .iPhone6S
-* .iPhone6SPlus
-* .iPhone7
-* .iPhone7Plus
-* .iPhone8
-* .iPhone8Plus
-* .iPhoneSE
-* .iPhoneX
-<br><br>### DeviceSize* .Screen10Dot5inch
-* .Screen12Dot9inch
-* .Screen3Dot5inch
-* .Screen4Dot7inch
-* .Screen4inch
-* .Screen5Dot5inch
-* .Screen5Dot8inch
-* .Screen7Dot9inch
-* .Screen9Dot7inch
-* .Unknown
-<br><br>### DeviceOrientation* .FaceDown
-* .FaceUp
-* .LandscapeLeft
-* .LandscapeRight
-* .Portrait
-* .PortraitUpsideDown
-* .Unknown
-<br><br>### DeviceBatteryState* .Charging
-* .Full
-* .Unknown
-* .Unplugged
-<br><br></ul>
+
+#### Enumeration
+
+#### DeviceVersion
+ * .Simulator
+ * .Unknown
+ * .iPad1
+ * .iPad2
+ * .iPad3
+ * .iPad4
+ * .iPad5
+ * .iPadAir
+ * .iPadAir2
+ * .iPadMini
+ * .iPadMini2
+ * .iPadMini3
+ * .iPadMini4
+ * .iPadPro10Dot5Inch
+ * .iPadPro12Dot9Inch
+ * .iPadPro12Dot9Inch2Gen
+ * .iPadPro9Dot7Inch
+ * .iPhone4
+ * .iPhone4S
+ * .iPhone5
+ * .iPhone5C
+ * .iPhone5S
+ * .iPhone6
+ * .iPhone6Plus
+ * .iPhone6S
+ * .iPhone6SPlus
+ * .iPhone7
+ * .iPhone7Plus
+ * .iPhone8
+ * .iPhone8Plus
+ * .iPhoneSE
+ * .iPhoneX
+<br><br>#### DeviceSize
+ * .Screen10Dot5inch
+ * .Screen12Dot9inch
+ * .Screen3Dot5inch
+ * .Screen4Dot7inch
+ * .Screen4inch
+ * .Screen5Dot5inch
+ * .Screen5Dot8inch
+ * .Screen7Dot9inch
+ * .Screen9Dot7inch
+ * .Unknown
+<br><br>#### DeviceOrientation
+ * .FaceDown
+ * .FaceUp
+ * .LandscapeLeft
+ * .LandscapeRight
+ * .Portrait
+ * .PortraitUpsideDown
+ * .Unknown
+<br><br>#### DeviceBatteryState
+ * .Charging
+ * .Full
+ * .Unknown
+ * .Unplugged
+<br><br>
 

@@ -1,10 +1,8 @@
-# DataSet
-
 **super**: [Object](Object.md)
 
 This class is reserved and cannot be directly instantiated.
 
-### Events
+#### Events
 
 * **DidStart**()
 Event raised when DataSet started retrieving data.
@@ -18,9 +16,9 @@ Event raised when DataSet finished retrieving data.
 * **DidFail**()
 Event raised in case of DataSet error.
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **treeData**: **[Bool](../gravity/types.md)**
 Used to check if DataSet is representing complex hierarchical data. \(read-only\)
@@ -37,9 +35,9 @@ Used to check if DataSet has been cancelled. \(read-only\)
 * **var** **error**: **[String](../gravity/types.md)**
 Last Error message. \(read-only\)
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **run**()
 Start current DataSet.
@@ -50,7 +48,7 @@ Stop current DataSet.
 * **func** **valueForKeyPath**(**baseKeyPath**: <strong>[String](../gravity/types.md)</strong>, **row**: <strong>[Int](../gravity/types.md)</strong>, **keyPath**: <strong>[String](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
 Retrieve DataSet value based on combination of key path.
 
-</ul>
 
-</ul>
+
+
 

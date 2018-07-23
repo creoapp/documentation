@@ -1,10 +1,8 @@
-# RotationGesture
-
 **super**: [UIRotationGestureRecognizer](UIRotationGestureRecognizer.md) on iOS
 
 RotationGesture is a concrete gesture recognizer that looks for rotation gestures involving two touches. When the user moves the fingers opposite each other in a circular motion, the underlying view should rotate in a corresponding direction and speed. Rotation is a continuous gesture. It begins when two touches have moved enough to be considered a rotation. The gesture changes when a finger moves while the two fingers are down. It ends when both fingers have lifted. At each stage in the gesture, the gesture recognizer sends its action message.
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,9 +22,9 @@ Ask the delegate if a gesture recognizer should receive an object representing a
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **rotation**: **[Float](../gravity/types.md)**
 The rotation of the gesture in degrees. You may set the rotation value to an arbitrary value; however, setting the rotation resets the velocity. The rotation value is a single value that varies over time. It is not the delta value from the last time that the rotation was reported. Apply the rotation value to the state of the view when the gesture is first recognized—do not concatenate the value each time the handler is called.
@@ -34,7 +32,7 @@ The rotation of the gesture in degrees. You may set the rotation value to an arb
 * **var** **velocity**: **[Float](../gravity/types.md)**
 The velocity of the rotation gesture in degrees per second. \(read-only\)
 
-</ul>
 
-</ul>
+
+
 

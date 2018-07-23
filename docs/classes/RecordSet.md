@@ -1,5 +1,3 @@
-# RecordSet
-
 **super**: [DataSet](DataSet.md)
 
 This class is reserved and cannot be directly instantiated.
@@ -7,7 +5,7 @@ This class is reserved and cannot be directly instantiated.
 A RecordSet is a data structure that consists of a group of database records, and can either come from a base table or as the result of a query to the table. At any time, the RecordSet object refers to only a single record within the set as the current record, use the MoveTo method to change current record position.
 Rows and columns are 0-based indexed.
 
-### Events
+#### Events
 
 * **DidStart**()
 Event raised when DataSet started retrieving data.
@@ -21,9 +19,9 @@ Event raised when DataSet finished retrieving data.
 * **DidFail**()
 Event raised in case of DataSet error.
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **sql**: **[String](../gravity/types.md)**
 Use to this property to retrieve or set current sql statement.
@@ -37,9 +35,9 @@ Number of rows in the RecordSet. \(read-only\)
 * **var** **columnCount**: **[Int](../gravity/types.md)**
 Number of columns in the RecordSet. \(read-only\)
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **run**()
 Perform query specified in the current RecordSet (specified by the sql property).
@@ -74,18 +72,19 @@ Move to the latest record.
 * **func** **movePrevious**(): <strong>[Bool](../gravity/types.md)</strong> 
 Move to the previous record. Returns false is no more records are availables.
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### DatabaseFieldType* .Blob
-* .DateTime
-* .Decimal
-* .Double
-* .Integer
-* .Null
-* .Text
-<br><br></ul>
+
+#### Enumeration
+
+#### DatabaseFieldType
+ * .Blob
+ * .DateTime
+ * .Decimal
+ * .Double
+ * .Integer
+ * .Null
+ * .Text
+<br><br>
 

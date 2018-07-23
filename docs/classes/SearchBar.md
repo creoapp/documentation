@@ -1,12 +1,10 @@
-# SearchBar
-
 **super**: [UISearchBar](UISearchBar.md) on iOS
 
 The SearchBar class implements a text field control for text-based searches. The control provides a text field for entering text, a search button, a bookmark button, and a cancel button. The SearchBar object does not actually perform any searches. You use the events to implement the actions when text is entered and buttons are clicked.
 
 
 
-### Events
+#### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -29,9 +27,9 @@ This event is called when the scope button selection changed.
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
-</ul>
 
-### Properties
+
+#### Properties
 
 * **var** **searchBarStyle**: **SearchBarStyle**
 A search bar style that specifies the search bar’s appearance.
@@ -102,9 +100,9 @@ The offset of the text within the search text field background.
 * **var** **inputAccessoryView**: **[UIView](UIView.md)**
 The custom accessory view to display when the text field becomes the first responder.
 
-</ul>
 
-### Methods
+
+#### Methods
 
 * **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
@@ -115,66 +113,74 @@ Force focus to be set to the selected control. For TextField and TextView that m
 * **func** **clearFocus**()
 Clear focus from selected control
 
-</ul>
 
-</ul>
 
-### Enumeration
 
-### SearchBarAction* .Bookmark
-* .Cancel
-* .ResultsList
-* .Search
-<br><br>### SearchBarStyle* .Default
-* .Minimal
-* .Prominent
-<br><br>### BarStyle* .Black
-* .BlackOpaque
-* .BlackTranslucent
-* .Default
-<br><br>### TextAutocapitalizationType* .AllCharacters
-* .None
-* .Sentences
-* .Words
-<br><br>### TextAutocorrectionType* .Default
-* .No
-* .Yes
-<br><br>### TextSpellCheckingType* .Default
-* .No
-* .Yes
-<br><br>### KeyboardType* .ASCIICapable
-* .Alphabet
-* .DecimalPad
-* .Default
-* .EmailAddress
-* .NamePhonePad
-* .NumberPad
-* .NumbersAndPunctuation
-* .PhonePad
-* .Twitter
-* .URL
-* .WebSearch
-<br><br>### AnimationOption* .AllowAnimatedContent
-* .AllowUserInteraction
-* .Autoreverse
-* .BeginFromCurrentState
-* .CurveEaseIn
-* .CurveEaseInOut
-* .CurveEaseOut
-* .CurveLinear
-* .LayoutSubviews
-* .OverrideInheritedCurve
-* .OverrideInheritedDuration
-* .OverrideInheritedOptions
-* .Repeat
-* .ShowHideTransitionViews
-* .TransitionCrossDissolve
-* .TransitionCurlDown
-* .TransitionCurlUp
-* .TransitionFlipFromBottom
-* .TransitionFlipFromLeft
-* .TransitionFlipFromRight
-* .TransitionFlipFromTop
-* .TransitionNone
-<br><br></ul>
+
+#### Enumeration
+
+#### SearchBarAction
+ * .Bookmark
+ * .Cancel
+ * .ResultsList
+ * .Search
+<br><br>#### SearchBarStyle
+ * .Default
+ * .Minimal
+ * .Prominent
+<br><br>#### BarStyle
+ * .Black
+ * .BlackOpaque
+ * .BlackTranslucent
+ * .Default
+<br><br>#### TextAutocapitalizationType
+ * .AllCharacters
+ * .None
+ * .Sentences
+ * .Words
+<br><br>#### TextAutocorrectionType
+ * .Default
+ * .No
+ * .Yes
+<br><br>#### TextSpellCheckingType
+ * .Default
+ * .No
+ * .Yes
+<br><br>#### KeyboardType
+ * .ASCIICapable
+ * .Alphabet
+ * .DecimalPad
+ * .Default
+ * .EmailAddress
+ * .NamePhonePad
+ * .NumberPad
+ * .NumbersAndPunctuation
+ * .PhonePad
+ * .Twitter
+ * .URL
+ * .WebSearch
+<br><br>#### AnimationOption
+ * .AllowAnimatedContent
+ * .AllowUserInteraction
+ * .Autoreverse
+ * .BeginFromCurrentState
+ * .CurveEaseIn
+ * .CurveEaseInOut
+ * .CurveEaseOut
+ * .CurveLinear
+ * .LayoutSubviews
+ * .OverrideInheritedCurve
+ * .OverrideInheritedDuration
+ * .OverrideInheritedOptions
+ * .Repeat
+ * .ShowHideTransitionViews
+ * .TransitionCrossDissolve
+ * .TransitionCurlDown
+ * .TransitionCurlUp
+ * .TransitionFlipFromBottom
+ * .TransitionFlipFromLeft
+ * .TransitionFlipFromRight
+ * .TransitionFlipFromTop
+ * .TransitionNone
+<br><br>
 
