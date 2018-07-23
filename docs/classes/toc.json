@@ -4,13 +4,13 @@
       "entry": "CLASSES"
     },
     {
-      "regex": "/^(?!UI).*/",
+      "regex": "/^(?!UI).*/"
     },
     {
       "entry": "UIKIT"
     },
     {
-      "regex": "/^UI/",
+      "regex": "/^UI/"
     }
   ]
 }
