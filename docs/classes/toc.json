@@ -1,0 +1,16 @@
+{
+  "TOC": [
+    {
+      "entry": "CLASSES"
+    },
+    {
+      "regex": "/^(?!UI).*/",
+    },
+    {
+      "entry": "UIKIT"
+    },
+    {
+      "regex": "/^UI/",
+    }
+  ]
+}

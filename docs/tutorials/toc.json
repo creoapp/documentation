@@ -4,27 +4,27 @@
       "entry": "TUTORIALS"
     },
     {
-      "name": "Game Tutorial (Part 1)",
+      "name": "Game Engine (Part 1)",
       "file": "game_tutorial_part1.md"
     },
     {
-      "name": "Game Tutorial (Part 2)",
+      "name": "Game Engine (Part 2)",
       "file": "game_tutorial_part2.md"
     }
     ,
     {
-      "name": "Game Tutorial (Part 3)",
+      "name": "Game Engine (Part 3)",
       "file": "game_tutorial_part3.md"
     },
     {
       "entry": "ADVANCED"
     },
     {
-      "name": "Game Tutorial (Part 4)",
+      "name": "Game Engine (Part 4)",
       "file": "game_tutorial_part4.md"
     },
     {
-      "name": "Game Tutorial (Part 5)",
+      "name": "Game Engine (Part 5)",
       "file": "game_tutorial_part5.md"
     }
   ]
