@@ -69,6 +69,7 @@ The LetsCookNav tutorial will show you how to navigate between two windows (usin
 
 --18-- Drag an ImageView, a TextView and a View into Window2 and set the following properties:
 | Object | Value |
+| ------ | ----- |
 | **ImageView1** | Mode: Aspect Fill |
 | **ImageView1** | x:0 y:0 w:375 h:317 |
 | **TextView1** | Type: Markdown |
@@ -122,6 +123,7 @@ This code contains several advanced concepts:
 
 Start by dragging six Labels into the custom view and set the following properties:
 | Object | Value |
+| ------ | ----- |
 | **Label1** | Text: PREPARATION |
 | **Label1** | Typography: System Bold, 12 Color: 703B14FF |
 | **Label1** | x:0 y:0 w:100 h:32 |
@@ -210,6 +212,7 @@ If you run the app in the Creo Simulator you'll now see that labels are correctl
 
 --29-- Lets Cook app could be declared completed but we'd like to show you one more very useful trick, so lets continue with the very latest step. Wouldn't be cool if instead of a numeric value for the difficulty level a graphical star indicator was used? That's exactly what we are going to do.<br><br>Select Label6 inside InfoView and delete it. Drop 5 ImageView to InfoView and set the following properties:
 | Object | Value |
+| ------ | ----- |
 | **ImageView1** | Rendering Tinted |
 | **ImageView1** | Tint Color: 703B14FF |
 | **ImageView1** | x:328 y:27 w:12 h:12 |
