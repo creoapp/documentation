@@ -60,6 +60,7 @@ Clear focus from selected control
  * .BottomRight
  * .TopLeft
  * .TopRight
+
 <br><br>#### BorderStyle
  * .All
  * .Bottom
@@ -67,6 +68,7 @@ Clear focus from selected control
  * .None
  * .Right
  * .Top
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -90,5 +92,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

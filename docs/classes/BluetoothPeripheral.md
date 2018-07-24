@@ -49,5 +49,6 @@ Sets the value for the specified characteristic and notify the change if needed.
  * .Unauthorized
  * .Unknown
  * .Unsupported
+
 <br><br>
 

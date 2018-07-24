@@ -65,6 +65,7 @@ Clear focus from selected control
  * .Date
  * .DateAndTime
  * .Time
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -88,5 +89,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

@@ -102,10 +102,12 @@ Sets whether the navigation bar is hidden.
  * .Default
  * .Hidden
  * .Visible
+
 <br><br>#### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
+
 <br><br>#### TransitionStyle
  * .Cards
  * .CoverVertical
@@ -122,5 +124,6 @@ Sets whether the navigation bar is hidden.
  * .PartialCurl
  * .Portal
  * .Turn
+
 <br><br>
 

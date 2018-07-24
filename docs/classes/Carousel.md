@@ -173,6 +173,7 @@ Clear focus from selected control
  * .Rotary
  * .TimeMachine
  * .Wheel
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -196,5 +197,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

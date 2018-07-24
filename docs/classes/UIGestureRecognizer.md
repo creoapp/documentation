@@ -54,5 +54,6 @@ Returns the location of one of the gesture’s touches in the local coordinate s
  * .Ended
  * .Failed
  * .Possible
+
 <br><br>
 

@@ -144,5 +144,6 @@ Returns a darker color with the amount specified in the parameter (only valid if
  * .Pattern
  * .RGB
  * .Unknown
+
 <br><br>
 

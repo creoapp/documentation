@@ -103,10 +103,12 @@ Appends the contents of the specified path object to the receiver’s path.
  * .Butt
  * .Round
  * .Square
+
 <br><br>#### LineJoinStyle
  * .Bevel
  * .Miter
  * .Round
+
 <br><br>#### BlendMode
  * .Clear
  * .Color
@@ -136,11 +138,13 @@ Appends the contents of the specified path object to the receiver’s path.
  * .SourceIn
  * .SourceOut
  * .XOR
+
 <br><br>#### RectCorner
  * .AllCorners
  * .BottomLeft
  * .BottomRight
  * .TopLeft
  * .TopRight
+
 <br><br>
 

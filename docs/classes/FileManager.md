@@ -96,6 +96,7 @@ Returns a String that contains file full path.
  * .Read
  * .Update
  * .Write
+
 <br><br>#### SearchPath
  * .ApplicationSupport
  * .Assets
@@ -104,5 +105,6 @@ Returns a String that contains file full path.
  * .Documents
  * .Inbox
  * .Temp
+
 <br><br>
 

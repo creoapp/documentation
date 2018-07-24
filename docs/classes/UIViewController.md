@@ -47,10 +47,12 @@ Indicates to the system that the status bar attributes have changed.
  * .LandscapeRight
  * .Portrait
  * .PortraitUpsideDown
+
 <br><br>#### InterfaceOrientation
  * .LandscapeLeft
  * .LandscapeRight
  * .Portrait
  * .PortraitUpsideDown
+
 <br><br>
 

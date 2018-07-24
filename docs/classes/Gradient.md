@@ -52,5 +52,6 @@ Compare two Gradient objects.
 #### GradientType
  * .Linear
  * .Radial
+
 <br><br>
 

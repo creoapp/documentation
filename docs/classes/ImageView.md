@@ -98,6 +98,7 @@ Clear focus from selected control
  * .Top
  * .TopLeft
  * .TopRight
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -121,5 +122,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

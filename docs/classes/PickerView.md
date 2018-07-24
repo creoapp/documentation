@@ -70,6 +70,7 @@ Clear focus from selected control
  * .Default
  * .Mini
  * .Small
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -93,5 +94,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

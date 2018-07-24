@@ -46,5 +46,6 @@ Create a new TableViewRowAction object.
  * .Default
  * .Destructive
  * .Normal
+
 <br><br>
 

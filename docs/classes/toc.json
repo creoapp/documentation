@@ -10,7 +10,7 @@
       "entry": "UIKIT"
     },
     {
-      "regex": "/^(UI).*/"
+      "regex": "/^UI/"
     }
   ]
 }

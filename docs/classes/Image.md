@@ -73,9 +73,11 @@ Creates and returns a new image object with the specified rendering mode.
 #### ImageResizingMode
  * .Stretch
  * .Tile
+
 <br><br>#### ImageRenderingMode
  * .AlwaysOriginal
  * .AlwaysTemplate
  * .Automatic
+
 <br><br>
 

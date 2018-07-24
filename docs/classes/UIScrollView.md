@@ -73,5 +73,6 @@ Displays the scroll indicators momentarily. You should call this method whenever
  * .Black
  * .Default
  * .White
+
 <br><br>
 

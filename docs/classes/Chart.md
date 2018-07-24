@@ -81,15 +81,18 @@ Clear focus from selected control
  * .Line
  * .Pie
  * .Scatter
+
 <br><br>#### ChartPointStyle
  * .Circle
  * .None
  * .Square
+
 <br><br>#### ChartDecorationStyle
  * .Glossy1
  * .Glossy2
  * .Gradient
  * .None
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -113,5 +116,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

@@ -91,8 +91,10 @@ Enables or disables notifications/indications for the characteristic. If <i>char
  * .Unauthorized
  * .Unknown
  * .Unsupported
+
 <br><br>#### CharacteristicWriteType
  * .WriteWithResponse
  * .WriteWithoutResponse
+
 <br><br>
 

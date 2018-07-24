@@ -121,11 +121,13 @@ Cancel returns immediately, but marks a request as being canceled. The request w
  * .Patch
  * .Post
  * .Put
+
 <br><br>#### HTTPBodyMode
  * .FormData
  * .FormUrlencoded
  * .JSON
  * .Raw
+
 <br><br>#### HTTPResponseSerializer
  * .Data
  * .Image
@@ -133,10 +135,12 @@ Cancel returns immediately, but marks a request as being canceled. The request w
  * .Plist
  * .Text
  * .XML
+
 <br><br>#### HTTPRedirectMode
  * .Allow
  * .Reject
  * .RejectAndCancel
  * .WithHandler
+
 <br><br>
 

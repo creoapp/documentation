@@ -103,12 +103,14 @@ Clear focus from selected control
  * .HTML
  * .Markdown
  * .Text
+
 <br><br>#### TextAlignment
  * .Center
  * .Justified
  * .Left
  * .Natural
  * .Right
+
 <br><br>#### DataDetectorTypes
  * .Address
  * .All
@@ -116,6 +118,7 @@ Clear focus from selected control
  * .Link
  * .None
  * .PhoneNumber
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -139,5 +142,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

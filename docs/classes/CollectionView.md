@@ -110,9 +110,11 @@ Clear focus from selected control
 #### CollectionViewLayoutType
  * .BalancedFlow
  * .Flow
+
 <br><br>#### CollectionViewScrollDirection
  * .Horizontal
  * .Vertical
+
 <br><br>#### CollectionViewScrollPosition
  * .Bottom
  * .CenteredHorizontally
@@ -121,6 +123,7 @@ Clear focus from selected control
  * .None
  * .Right
  * .Top
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -144,5 +147,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

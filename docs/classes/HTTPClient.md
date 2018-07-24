@@ -60,12 +60,14 @@ Policy for accepting cookies. This overrides the policy otherwise specified by t
 #### HTTPProtocol
  * .HTTP
  * .HTTPS
+
 <br><br>#### HTTPAuth
  * .Basic
  * .Digest
  * .Nothing
  * .OAuth1
  * .OAuth2
+
 <br><br>#### HTTPRequestCachePolicy
  * .ReloadIgnoringCache
  * .ReloadIgnoringLocalAndRemoteCache
@@ -74,15 +76,18 @@ Policy for accepting cookies. This overrides the policy otherwise specified by t
  * .ReturnCacheDataElseLoad
  * .RevalidatingCacheData
  * .UseProtocol
+
 <br><br>#### HTTPRequestNetworkServiceType
  * .Background
  * .Default
  * .Video
  * .VoIP
  * .Voice
+
 <br><br>#### HTTPCookieAcceptPolicy
  * .Always
  * .Never
  * .OnlyFromMainDocumentDomain
+
 <br><br>
 

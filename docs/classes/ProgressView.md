@@ -57,6 +57,7 @@ Clear focus from selected control
 #### ProgressViewStyle
  * .Bar
  * .Default
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -80,5 +81,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

@@ -108,6 +108,7 @@ Convert a value from the DeviceSize enum to its string representation.
  * .iPhone8Plus
  * .iPhoneSE
  * .iPhoneX
+
 <br><br>#### DeviceSize
  * .Screen10Dot5inch
  * .Screen12Dot9inch
@@ -119,6 +120,7 @@ Convert a value from the DeviceSize enum to its string representation.
  * .Screen7Dot9inch
  * .Screen9Dot7inch
  * .Unknown
+
 <br><br>#### DeviceOrientation
  * .FaceDown
  * .FaceUp
@@ -127,10 +129,12 @@ Convert a value from the DeviceSize enum to its string representation.
  * .Portrait
  * .PortraitUpsideDown
  * .Unknown
+
 <br><br>#### DeviceBatteryState
  * .Charging
  * .Full
  * .Unknown
  * .Unplugged
+
 <br><br>
 

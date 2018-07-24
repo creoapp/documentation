@@ -120,25 +120,30 @@ Clear focus from selected control
  * .File
  * .Streaming
  * .Unknown
+
 <br><br>#### MovieMediaTypeMask
  * .Audio
  * .None
  * .Video
+
 <br><br>#### MovieScalingMode
  * .AspectFill
  * .AspectFit
  * .Fill
  * .None
+
 <br><br>#### MovieControlStyle
  * .Default
  * .Embedded
  * .Fullscreen
  * .None
+
 <br><br>#### MovieLoadState
  * .Playable
  * .PlaythroughOK
  * .Stalled
  * .Unknown
+
 <br><br>#### MoviePlaybackState
  * .Interrupted
  * .Paused
@@ -146,9 +151,11 @@ Clear focus from selected control
  * .SeekingBackward
  * .SeekingForward
  * .Stopped
+
 <br><br>#### MovieRepeatMode
  * .None
  * .One
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -172,5 +179,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 

@@ -145,17 +145,21 @@ Clear focus from selected control
  * .Delete
  * .Insert
  * .None
+
 <br><br>#### TableViewStyle
  * .Grouped
  * .Plain
+
 <br><br>#### TableViewCellSeparatorStyle
  * .None
  * .SingleLine
+
 <br><br>#### TableViewScrollPosition
  * .Bottom
  * .Middle
  * .None
  * .Top
+
 <br><br>#### TableViewRowAnimation
  * .Automatic
  * .Bottom
@@ -165,6 +169,7 @@ Clear focus from selected control
  * .None
  * .Right
  * .Top
+
 <br><br>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
@@ -188,5 +193,6 @@ Clear focus from selected control
  * .TransitionFlipFromRight
  * .TransitionFlipFromTop
  * .TransitionNone
+
 <br><br>
 
