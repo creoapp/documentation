@@ -2,7 +2,7 @@
 
 MySQL is an open-source relational database management system. The MySQL development project has made its source code available under the terms of the GNU General Public License, as well as under a variety of proprietary agreements. MySQL was owned and sponsored by a single for-profit firm, the Swedish company MySQL AB, now owned by Oracle Corporation.For proprietary use, several paid editions are available, and offer additional functionality.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -18,7 +18,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **username**: **[String](../gravity/types.md)**
 Username required for access to the database.
@@ -67,7 +67,7 @@ A flag to check if current database engines supports schemas. \(read-only\)
 
 
 
-#### Methods
+### Methods
 
 * **func** **connect**(**onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[Bool](../gravity/types.md)</strong> 
 Connect to the specified database.

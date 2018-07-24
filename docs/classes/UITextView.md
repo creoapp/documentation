@@ -2,7 +2,7 @@
 
 This class is reserved and cannot be directly instantiated.
 
-#### Events
+### Events
 
 * **DidScroll**()
 This event is called when the user scrolls the content view.

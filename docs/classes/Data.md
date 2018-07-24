@@ -2,7 +2,7 @@
 
 Data class provide object-oriented wrappers for byte buffers.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,14 +12,14 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Data**()
 Instantiate a new Data object.
 
 
 
-#### Methods
+### Methods
 
 * **func** **bytes**(**range**: <strong>[Range](range.md)</strong>): <strong>[Data](data.md)</strong> 
 Copies a range of bytes from the receiver’s data.

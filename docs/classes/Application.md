@@ -4,7 +4,7 @@ The Application class provides a centralized point of control and coordination f
 
 A major role of your app's application object is to handle the initial routing of incoming user events. The application object informs of significant runtime events like app launch, low-memory warnings, and app termination, giving it an opportunity to respond appropriately.
 
-#### Events
+### Events
 
 * **DidStart**()
 Use this method to initialize your app and prepare it to run. This event is called after your app has been launched and loaded, but before your app’s state has been restored. At the time this method is called, your app is in the inactive state.
@@ -29,7 +29,7 @@ This method lets your app know that it is about to be terminated and purged from
 
 
 
-#### Properties
+### Properties
 
 * **var** **language**: **[String](../gravity/types.md)**
 Returns current application language. \(read-only\)
@@ -39,7 +39,7 @@ A Boolean value that controls whether the idle timer is disabled for the app. Th
 
 
 
-#### Methods
+### Methods
 
 * **func** **loadContainer**(**container**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>)
 Container can be a Window or a Navigation. When you set a Startup Window into Creo IDE you are setting the container parameter of this method. The new container is configured to track the window size, changing as the window size changes. If the window has an existing view hierarchy, the old views are removed before the new ones are installed.

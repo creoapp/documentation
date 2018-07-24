@@ -4,7 +4,7 @@ Augmented reality is the integration of digital information with the user's envi
 
 
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -20,7 +20,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **radius**: **[Float](../gravity/types.md)**
 Defines the distance (in meters) within which to ask to the datasource for markers (default 1000).
@@ -48,7 +48,7 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 
 
 
-#### Methods
+### Methods
 
 * **func** **start**()
 Start processing DataSet data.

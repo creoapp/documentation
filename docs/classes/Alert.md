@@ -2,7 +2,7 @@
 
 The Alert class displays a customizable alert message to the user.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -27,7 +27,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Alert**(**title**: <strong>[String](../gravity/types.md)</strong>)
 Create a new Alert message with a specified title.
@@ -43,7 +43,7 @@ Create a new Alert message with a specified title and message plus an array of b
 
 
 
-#### Methods
+### Methods
 
 * **func** **addActionWithTitle**(**title**: <strong>[String](../gravity/types.md)</strong>)
 Use this method to add a button to a newly created Alert.

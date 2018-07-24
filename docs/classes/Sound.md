@@ -2,7 +2,7 @@
 
 Provides playback of audio data from a file, an url or memory. A Sound object is usually a representation of an audio asset.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -18,7 +18,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **isPlaying**: **[Bool](../gravity/types.md)**
 A Bool value that indicates whether the audio player is playing. \(read-only\)
@@ -42,14 +42,14 @@ By setting this property you can seek to a specific point in a sound file or imp
 
 
 
-#### Class Methods
+### Class Methods
 
 * **func** **open**(**srcfile**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
 Initializes and returns the Sound object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Sound**(**nameOrURL**: <strong>[String](../gravity/types.md)</strong>)
 Creates and initializes a new sound resource.
@@ -59,7 +59,7 @@ Creates and initializes a new sound resource.
 
 
 
-#### Methods
+### Methods
 
 * **func** **play**(): <strong>[Bool](../gravity/types.md)</strong> 
 Plays a sound asynchronously.

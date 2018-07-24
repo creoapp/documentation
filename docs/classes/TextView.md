@@ -2,7 +2,7 @@
 
 The TextView class implements the behavior for a scrollable, multiline text region. The class supports the display of text using custom style information and also supports text editing. You typically use a text view to display multiple lines of text, such as when displaying the body of a large text document.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -33,7 +33,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **text**: **[String](../gravity/types.md)**
 The text displayed by the text view.
@@ -73,7 +73,7 @@ The custom accessory view to display when the text view becomes the first respon
 
 
 
-#### Methods
+### Methods
 
 * **func** **hasText**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether the text view currently contains any text.
@@ -97,7 +97,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### TextType
  * .HTML

@@ -6,7 +6,7 @@ With a PageContainer control you can just drop it to a new Window and then confi
 
 
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -19,7 +19,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **index**: **[Int](../gravity/types.md)**
 Current index.
@@ -35,14 +35,14 @@ Custom view template set in the PageContainer inspector.
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **PageContainer**(**style**: <strong><a href="#_enum_PageContainerStyle">PageContainerStyle</a></strong>)
 Create a new PageContainer with the specified style.
 
 
 
-#### Methods
+### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md)</strong>)
 Reloads the content of the PageContainer.
@@ -63,7 +63,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### PageContainerStyle
  * .Curl

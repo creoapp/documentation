@@ -4,7 +4,7 @@ A MoviePlayer manages the playback of a movie from a file or a network stream. P
 
 
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -38,7 +38,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **contentPath**: **[String](../gravity/types.md)**
 The path/URL that points to the local/remote movie file.
@@ -96,7 +96,7 @@ Obtains the most recent time-based metadata provided by the streamed movie.
 
 
 
-#### Methods
+### Methods
 
 * **func** **setFullscreenAnimated**(**fullscreen**: <strong>[Bool](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md)</strong>)
 Description not yet ready.
@@ -114,7 +114,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### MovieSourceType
  * .File

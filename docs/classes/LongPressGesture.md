@@ -2,7 +2,7 @@
 
 LongPressGesture is a concrete gesture recognizer that looks for long-press gestures. The user must press one or more fingers on a view and hold them there for a minimum period of time before the action triggers. While down, the user’s fingers may not move more than a specified distance; if they move beyond the specified distance, the gesture fails. Long-press gestures are continuous. The gesture begins (GestureRecognizerState.Began) when the number of allowable fingers (numberOfTouchesRequired) have been pressed for the specified period (minimumPressDuration) and the touches do not move beyond the allowable range of movement (allowableMovement). The gesture recognizer transitions to the Change state whenever a finger moves, and it ends (GestureRecognizerState.Ended) when any of the fingers are lifted.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **minimumPressDuration**: **[Float](../gravity/types.md)**
 The minimum time (in seconds) that the mouse button must be held down in the view for the gesture to be recognized. The default value of this property is the same as the current double-click interval.

@@ -2,7 +2,7 @@
 
 A CustomView is a reusable template that defines the appearence of a view. It cannot be added directly in a <a href="Window.html">Window</a>, but it can used in controls that support the template approach like <a href="AugmentedReality.html">AugmentedReality</a>, <a href="Carousel.html">Carousel</a>, <a href="CollectionView.html">CollectionView</a>, <a href="PageContainer.html">PageContainer</a>, <a href="TableView.html">TableView</a> and <a href="View.html">View</a>. A CustomView can expose custom properties, allowing to change its content depending on data provided by the DataSet of the control who use the template.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,14 +24,14 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **identifier**: **[String](../gravity/types.md)**
 An string that you can use to identify instances of the CustomView in your application. You can set the value of this property and use that value to identify the view later.
 
 
 
-#### Methods
+### Methods
 
 * **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
@@ -46,7 +46,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### AnimationOption
  * .AllowAnimatedContent

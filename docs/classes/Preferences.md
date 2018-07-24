@@ -2,7 +2,7 @@
 
 A Preferences object lets you manage persistent app's preferences in a convenient key/value form.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Methods
+### Methods
 
 * **func** **read**(**key**: <strong>[String](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
 Reads the value specified by a previously saved key.

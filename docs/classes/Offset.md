@@ -2,7 +2,7 @@
 
 Represents an offset.
 
-#### Properties
+### Properties
 
 * **var** **horizontal**: **[Float](../gravity/types.md)**
 horizontal field.
@@ -12,14 +12,14 @@ vertical field.
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Offset**(**horizontal**: <strong>[Float](../gravity/types.md)</strong>, **vertical**: <strong>[Float](../gravity/types.md)</strong>)
 Create a new Offset object.
 
 
 
-#### Methods
+### Methods
 
 * **func** **copy**(): <strong>[Offset](offset.md)</strong> 
 Copy a Offset object by value (duplicate).

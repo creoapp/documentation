@@ -2,7 +2,7 @@
 
 This class is reserved and cannot be directly instantiated.
 
-#### Events
+### Events
 
 * **DidScroll**()
 This event is called when the user scrolls the content view.
@@ -15,7 +15,7 @@ This event is called when the scroll view ends decelerating the scrolling moveme
 
 
 
-#### Properties
+### Properties
 
 * **var** **contentOffset**: **[Point](point.md)**
 The point at which the origin of the content view is offset from the origin of the scroll view.
@@ -58,7 +58,7 @@ Returns whether the content is moving in the scroll view after the user lifted t
 
 
 
-#### Methods
+### Methods
 
 * **func** **flashScrollIndicators**()
 Displays the scroll indicators momentarily. You should call this method whenever you bring the scroll view to front.
@@ -67,7 +67,7 @@ Displays the scroll indicators momentarily. You should call this method whenever
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ScrollViewIndicatorStyle
  * .Black

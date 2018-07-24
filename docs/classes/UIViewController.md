@@ -2,11 +2,11 @@
 
 This class is reserved and cannot be directly instantiated.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **supportedInterfaceOrientations**: **InterfaceOrientationMask**
 Returns all of the interface orientations that the Window supports.
@@ -25,7 +25,7 @@ A Boolean value that indicates whether the view should automatically adjust its 
 
 
 
-#### Methods
+### Methods
 
 * **func** **isViewLoaded**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether the view is currently loaded into memory, it does not attempt to load the view if it is not already in memory.
@@ -37,7 +37,7 @@ Indicates to the system that the status bar attributes have changed.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### InterfaceOrientationMask
  * .All

@@ -2,7 +2,7 @@
 
 SwipeGesture is a concrete gesture recognizer that looks for swiping gestures in one or more directions. A swipe is a discrete gesture, and thus the associated action message is sent only once per gesture. SwipeGestureRecognizer recognizes a swipe when the specified number of touches (numberOfTouchesRequired) have moved mostly in an allowable direction (direction) far enough to be considered a swipe. Swipes can be slow or fast. A slow swipe requires high directional precision but a small distance; a fast swipe requires low directional precision but a large distance.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **numberOfTouchesRequired**: **[Int](../gravity/types.md)**
 The number of touches that must be present for the swipe gesture to be recognized. The default value is 1.
@@ -36,7 +36,7 @@ The permitted direction of the swipe for this gesture recognizer. The default di
 
 
 
-#### Enumeration
+### Enumeration
 
 #### SwipeGestureRecognizerDirection
  * .Down

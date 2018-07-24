@@ -2,7 +2,7 @@
 
 Represents a point in a Cartesian coordinate system.
 
-#### Properties
+### Properties
 
 * **var** **x**: **[Float](../gravity/types.md)**
 x coordinate.
@@ -12,14 +12,14 @@ y coordinate.
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Point**(**x**: <strong>[Float](../gravity/types.md)</strong>, **y**: <strong>[Float](../gravity/types.md)</strong>)
 Create a new Point object.
 
 
 
-#### Methods
+### Methods
 
 * **func** **copy**(): <strong>[Point](point.md)</strong> 
 Copy a Point object by value (duplicate).

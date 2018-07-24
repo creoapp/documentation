@@ -2,11 +2,11 @@
 
 A Image object manages image data in your app. You use image objects to represent image data of all kinds, and the Image class is capable of managing data for all image formats supported by the underlying platform. Image objects are immutable, so you always create them from existing image data, such as an image file on disk or programmatically created image data. An image object may contain a single image or a sequence of images you intend to use in an animation. Although image objects support all platform-native image formats, it is recommended that you use PNG or JPEG files for most images in your app. Image objects are optimized for reading and displaying both formats, and those formats offer better performance than most other image formats. Because the PNG format is lossless, it is especially recommended for the images you use in your app’s interface.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **size**: **[Size](size.md)**
 The logical dimensions of the image, measured in points. Multiply the size values by the value in the scale property to get the pixel dimensions of the image. \(read-only\)
@@ -27,14 +27,14 @@ Determines how an image is rendered. \(read-only\)
 
 
 
-#### Class Methods
+### Class Methods
 
 * **func** **open**(**srcfile**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
 Initializes and returns the image object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Image**(**name**: <strong>[String](../gravity/types.md)</strong>)
 Initializes and returns the image object with the specified name.
@@ -44,7 +44,7 @@ Initializes and returns the image object with the specified data and scale facto
 
 
 
-#### Methods
+### Methods
 
 * **func** **resizableImageWithCapInsets**(**capInsets**: <strong>[EdgeInsets](edgeinsets.md)</strong>, **resizingMode**: <strong><a href="#_enum_ImageResizingMode">ImageResizingMode</a></strong>): <strong>[Image](image.md)</strong> 
 Creates and returns a new image object with the specified cap insets and options.
@@ -68,7 +68,7 @@ Creates and returns a new image object with the specified rendering mode.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ImageResizingMode
  * .Stretch

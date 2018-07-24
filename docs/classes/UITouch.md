@@ -2,18 +2,18 @@
 
 This class is reserved and cannot be directly instantiated.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **view**: **[UIView](UIView.md)**
 The view to which touches are being delivered, if any. \(read-only\)
 
 
 
-#### Methods
+### Methods
 
 * **func** **locationInView**(**view**: <strong>[UIView](UIView.md)</strong>): <strong>[Point](point.md)</strong> 
 Returns the current location of the touch in the coordinate system of the given view.

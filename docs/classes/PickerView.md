@@ -2,7 +2,7 @@
 
 The PickerView class implements objects, called picker views, that use a spinning-wheel or slot-machine metaphor to show one or more sets of values. Users select values by rotating the wheels so that the desired row of values aligns with a selection indicator. The user interface provided by a picker view consists of components and rows. A component is a wheel, which has a series of items (rows) at indexed locations on the wheel. Each component also has an indexed location (left to right) in a picker view. Each row on a component has content, which is either a string or a view object such as a label (<a href="Label.html">Label</a>) or an image (<a href="ImageView.html">ImageView</a>)).
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -21,7 +21,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **pickerSize**: **PickerViewSize**
 Description not yet ready.
@@ -34,7 +34,7 @@ Description not yet ready. \(read-only\)
 
 
 
-#### Methods
+### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md)</strong>)
 Reloads all components of the picker view.
@@ -64,7 +64,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### PickerViewSize
  * .Default

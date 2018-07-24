@@ -4,7 +4,7 @@ Carousel is a class designed to simplify the implementation of various types of 
 
 
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -17,7 +17,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **currentItemIndex**: **[Int](../gravity/types.md)**
 The index of the currently centered item in the carousel. Setting this property is equivalent to calling scrollToItemAtIndex with the animated argument set to false.
@@ -120,7 +120,7 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 
 
 
-#### Methods
+### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md) = true</strong>)
 Reload the content of the carousel.
@@ -159,7 +159,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### CarouselType
  * .Cylinder

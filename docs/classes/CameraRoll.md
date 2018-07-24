@@ -2,7 +2,7 @@
 
 A CameraRoll class manages system-supplied user interfaces for choosing saved images and movies for use in your app. A CameraRoll object can be used as DataSet in all the controls that accept a DataSet.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -39,7 +39,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Class Methods
+### Class Methods
 
 * **func** **saveImage**(**image**: <strong>[Image](image.md)</strong>)
 Save an Image to the CameraRoll.
@@ -49,7 +49,7 @@ Save a Video to the CameraRoll.
 
 
 
-#### Methods
+### Methods
 
 * **func** **open**()
 Open CameraRoll and let the user choose saved images and movies for use in your app.

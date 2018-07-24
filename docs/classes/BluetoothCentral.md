@@ -2,7 +2,7 @@
 
 The BluetoothCentral class enables you to discover, connect to and communicate with Bluetooth 4.0 low-energy devices.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -30,7 +30,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **state**: **BluetoothState**
 Returns the current state of the central manager. The PoweredOn state indicates that the central device (your iPhone or iPad, for instance) supports Bluetooth low energy and that Bluetooth is on and available to use.
@@ -61,7 +61,7 @@ Returs the decoded value of the last value received from a pheripheral. \(read-o
 
 
 
-#### Methods
+### Methods
 
 * **func** **scanForPeripherals**()
 Scans for peripherals that are advertising the configured services.
@@ -82,7 +82,7 @@ Enables or disables notifications/indications for the characteristic. If <i>char
 
 
 
-#### Enumeration
+### Enumeration
 
 #### BluetoothState
  * .PoweredOff

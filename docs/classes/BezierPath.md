@@ -2,11 +2,11 @@
 
 The BezierPath class lets you define a path consisting of straight and curved line segments and render that path in your views. You use this class initially to specify just the geometry for your path. Paths can define simple shapes such as rectangles, ovals, and arcs or they can define complex polygons that incorporate a mixture of straight and curved line segments. After defining the shape, you can use additional methods of this class to render the path in the current drawing context. Default stroke color is black and default fill color is not set.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **strokeColor**: **[Color](color.md)**
 The color of subsequent stroke operations to the color
@@ -37,7 +37,7 @@ A Boolean value indicating whether the path has any valid elements. \(read-only\
 
 
 
-#### Methods
+### Methods
 
 * **func** **image**(): <strong>[Image](image.md)</strong> 
 Convert the BezierPath to an Image.
@@ -97,7 +97,7 @@ Appends the contents of the specified path object to the receiver’s path.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### LineCapStyle
  * .Butt

@@ -2,7 +2,7 @@
 
 The Crypto module provides cryptographic functionality.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Class Methods
+### Class Methods
 
 * **func** **md5**(**string**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
 Compute MD5 digest algorithm.

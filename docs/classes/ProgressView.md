@@ -2,7 +2,7 @@
 
 You use the ProgressView class to depict the progress of a task over time. An example of a progress bar is the one shown at the bottom of the Mail application when it’s downloading messages. The ProgressView class provides properties for managing the style of the progress bar and for getting and setting values that are pinned to the progress of a task. For an indeterminate progress indicator—or, informally, a “spinner”—use an instance of the <a href="ActivityIndicator.html">ActivityIndicator</a> class.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **progressViewStyle**: **ProgressViewStyle**
 The current graphical style of the receiver.
@@ -34,7 +34,7 @@ An image to use for the portion of the track that is not filled.
 
 
 
-#### Methods
+### Methods
 
 * **func** **setProgress**(**progress**: <strong>[Float](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
 Adjusts the current progress shown by the receiver, optionally animating the change.
@@ -52,7 +52,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ProgressViewStyle
  * .Bar

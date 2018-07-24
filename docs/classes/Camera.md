@@ -2,7 +2,7 @@
 
 A Camera object represents a physical capture device and the properties associated with that device. You use a capture device to configure the properties of the underlying hardware. A capture device also provides input data, such as audio or video.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -18,7 +18,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **position**: **CameraPosition**
 Current position of a capture device. \(read-only\)
@@ -73,7 +73,7 @@ Maximum scaling factor.
 
 
 
-#### Methods
+### Methods
 
 * **func** **capture**()
 Initiates a still image capture action.
@@ -103,7 +103,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### CameraPosition
  * .Front

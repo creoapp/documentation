@@ -2,7 +2,7 @@
 
 An item in a tab bar.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **title**: **[String](../gravity/types.md)**
 The title of the button.

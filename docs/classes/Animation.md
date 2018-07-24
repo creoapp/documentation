@@ -2,7 +2,7 @@
 
 It is a graphics rendering and animation infrastructure that you use to animate the views and other visual elements of your app. On iOS it is a Core Animation. An animation object is implicity created by the runtime system and it represents an instance of an animation created within the Animation Editor inside CREO IDE.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -21,7 +21,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **isRunning**: **[Bool](../gravity/types.md)**
 Check if animation is running. \(read-only\)
@@ -31,7 +31,7 @@ The speed of the animation.
 
 
 
-#### Methods
+### Methods
 
 * **func** **play**()
 Start animation (asynchronously).

@@ -2,7 +2,7 @@
 
 Use an activity indicator to show that a task is in progress. An activity indicator appears as a "gear" that is either spinning or stopped.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **color**: **[Color](color.md)**
 The color of the activity indicator.
@@ -25,7 +25,7 @@ A Boolean value that controls whether the receiver is hidden when the animation 
 
 
 
-#### Methods
+### Methods
 
 * **func** **startAnimating**()
 Starts the animation of the activity indicator.
@@ -49,7 +49,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ActivityIndicatorStyle
  * .Gray

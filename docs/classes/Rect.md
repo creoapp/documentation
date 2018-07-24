@@ -2,7 +2,7 @@
 
 Represents a rectangle.
 
-#### Properties
+### Properties
 
 * **var** **x**: **[Float](../gravity/types.md)**
 Rect origin x coordinate.
@@ -18,14 +18,14 @@ Rect height size value.
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Rect**(**x**: <strong>[Float](../gravity/types.md)</strong>, **y**: <strong>[Float](../gravity/types.md)</strong>, **width**: <strong>[Float](../gravity/types.md)</strong>, **height**: <strong>[Float](../gravity/types.md)</strong>)
 Create a new Rect object.
 
 
 
-#### Methods
+### Methods
 
 * **func** **copy**(): <strong>[Rect](rect.md)</strong> 
 Copy a Rect object by value (duplicate).

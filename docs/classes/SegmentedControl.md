@@ -2,7 +2,7 @@
 
 A SegmentedControl object is a horizontal control made of multiple segments, each segment functioning as a discrete button. A segmented control affords a compact means to group together a number of controls. A segmented control can display a title (an String object) or an image (Image object). The SegmentedControl object automatically resizes segments to fit proportionally within their superview unless they have a specific width set. When you add and remove segments, you can request that the action be animated with sliding and fading effects.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **numberOfSegments**: **[Int](../gravity/types.md)**
 Returns the number of segments the receiver has. \(read-only\)
@@ -31,7 +31,7 @@ Array of items presented by the SegmentedControl.
 
 
 
-#### Methods
+### Methods
 
 * **func** **removeAllItems**()
 Removes all items of the receiver.
@@ -61,7 +61,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### AnimationOption
  * .AllowAnimatedContent

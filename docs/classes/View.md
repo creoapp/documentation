@@ -2,7 +2,7 @@
 
 The View class defines a rectangular area on the screen and the interfaces for managing the content in that area. At runtime, a view object handles the rendering of any content in its area and also handles any interactions with that content. The View class itself provides basic behavior for filling its rectangular area with a background color.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -36,7 +36,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **autoContentSize**: **[Bool](../gravity/types.md)**
 A Boolean value that specifies if template view instance must be kept in sync with current view frame, otherwise content view must be set manually.
@@ -52,7 +52,7 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 
 
 
-#### Methods
+### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md)</strong>)
 Reloads the content of the view.
@@ -73,7 +73,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### AnimationOption
  * .AllowAnimatedContent

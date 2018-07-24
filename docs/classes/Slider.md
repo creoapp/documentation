@@ -2,7 +2,7 @@
 
 A Slider object is a visual control used to select a single value from a continuous range of values. Sliders are always displayed as horizontal bars. An indicator, or thumb, notes the current value of the slider and can be moved by the user to change the setting.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -15,7 +15,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **value**: **[Float](../gravity/types.md)**
 Contains the receiver’s current value.
@@ -55,7 +55,7 @@ Contains the thumb image currently being used to render the receiver. \(read-onl
 
 
 
-#### Methods
+### Methods
 
 * **func** **setValueAnimated**(**value**: <strong>[Float](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
 Sets the receiver’s current value, allowing you to animate the change visually.
@@ -91,7 +91,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ControlState
  * .Application

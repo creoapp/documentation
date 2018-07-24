@@ -2,7 +2,7 @@
 
 A page scroll view controller lets the user navigate between pages of content, where each page is managed by its own <a href="Window.html">Window</a> object. Navigation can be controlled programmatically by your app or directly by the user using gestures. When navigating from page to page, it displays a page-scrolling animation.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
@@ -64,7 +64,7 @@ Description not yet ready.
 
 
 
-#### Methods
+### Methods
 
 * **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
 Open window in currently displayed window or navigation using the destination object default behaviour .
@@ -92,7 +92,7 @@ Close window if modally opened.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### StatusBarVisibility
  * .Default

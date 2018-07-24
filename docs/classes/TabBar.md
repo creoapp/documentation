@@ -2,7 +2,7 @@
 
 A container window that manages a radio-style selection interface where one item is selected at a time. The selection determines which child window to display.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
@@ -52,7 +52,7 @@ The index of the Window associated with the currently selected tab item.
 
 
 
-#### Methods
+### Methods
 
 * **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
 Open window in currently displayed window or navigation using the destination object default behaviour.
@@ -74,7 +74,7 @@ Close window if modally opened.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### StatusBarVisibility
  * .Default

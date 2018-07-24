@@ -2,11 +2,11 @@
 
 This class is reserved and cannot be directly instantiated.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **enabled**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the control is enabled. An enabled control is capable of responding to user interactions, whereas a disabled control ignores touch events and may draw itself differently.

@@ -2,7 +2,7 @@
 
 A Button object is a view that executes your custom code in response to user interactions. You communicate the purpose of a button using a text label, an image, or both.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -15,7 +15,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **title**: **[String](../gravity/types.md)**
 The title of the button. Use this property instead of the titleForState and setTitleForState methods if you want to use the same title for all the button states.
@@ -43,14 +43,14 @@ Returns the background image for the current button state. \(read-only\)
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Button**(**buttonType**: <strong><a href="#_enum_ButtonType">ButtonType</a></strong>)
 Creates and returns a new button of the specified type.
 
 
 
-#### Methods
+### Methods
 
 * **func** **titleForState**(**state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>): <strong>[String](../gravity/types.md)</strong> 
 Returns the title associated with the specified state.
@@ -95,7 +95,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ButtonType
  * .ContactAdd

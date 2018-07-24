@@ -2,7 +2,7 @@
 
 A WebView object displays interactive web content, such as for an in-app browser. You can also use this class to move back and forward in the history of webpages, and you can even set some web content properties programmatically.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **url**: **[String](../gravity/types.md)**
 Navigates to a requested URL.
@@ -58,7 +58,7 @@ A Boolean value that determines whether pressing on a link displays a preview of
 
 
 
-#### Methods
+### Methods
 
 * **func** **goBack**()
 Navigates to the back item in the back-forward list.
@@ -91,7 +91,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### AnimationOption
  * .AllowAnimatedContent

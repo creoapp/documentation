@@ -2,7 +2,7 @@
 
 The SplitView class is a container that presents a master-detail interface. In a master-detail interface, changes in the master window drive changes in the detail window. The two windows can be arranged so that they are side-by-side, so that only one at a time is visible, or so that one only partially hides the other. You can use the SplitView class on all devices. When building your app’s user interface, the split view  is typically the root container of your app. The split view has no significant appearance of its own. Most of its appearance is defined by the child windows you set.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
@@ -67,7 +67,7 @@ The width (in points) of the primary view controller’s content. \(read-only\)
 
 
 
-#### Methods
+### Methods
 
 * **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
 Open window in currently displayed window or navigation using the destination object default behaviour.
@@ -89,7 +89,7 @@ Close window if modally opened.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### StatusBarVisibility
  * .Default

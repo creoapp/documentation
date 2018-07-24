@@ -2,7 +2,7 @@
 
 A TableView displays a list of items in a single column. The TableView uses a TableViewCell template to draw the visible rows of the table. The values for the cells are obtained with the DataSet approach; you can use the built-in data grid (to edit the data grid, double click on the TableView from the design board) or use another object that inherit from the <a href="DataSet.html">DataSet</a> (recordsets from a databases, sensors, network datasources, etc).
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -42,7 +42,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **style**: **TableViewStyle**
 Returns the style of the table view. \(read-only\)
@@ -97,7 +97,7 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 
 
 
-#### Methods
+### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md) = true</strong>, **keepSelection**: <strong>[Bool](../gravity/types.md) = true</strong>)
 Reloads the content of the table view.
@@ -139,7 +139,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### TableViewCellEditingStyle
  * .Delete

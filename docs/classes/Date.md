@@ -2,7 +2,7 @@
 
 Date objects encapsulate a single point in time, independent of any particular calendrical system or time zone. The Date class provides methods for comparing dates, calculating the time interval between two dates, and creating a new date from a time interval relative to another date.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **timeIntervalSinceNow**: **[Float](../gravity/types.md)**
 The interval between the date object and the current date and time. \(read-only\)
@@ -64,7 +64,7 @@ Extract the ISO Week Date from current date. \(read-only\)
 
 
 
-#### Class Methods
+### Class Methods
 
 * **func** **dateWithTimeIntervalSince1970**(**timeInterval**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set to a given number of seconds from 00:00:00 UTC on 1 January 1970.
@@ -101,7 +101,7 @@ Creates and returns a Date object set by subtracting reference minutes to the cu
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Date**(**timeInterval**: <strong>[Float](../gravity/types.md)</strong>)
 Returns a Date object relative to the current date and time by a given number of seconds.
@@ -114,7 +114,7 @@ Returns a Date object converted from a textual representations of dates and time
 
 
 
-#### Methods
+### Methods
 
 * **func** **isEqualToDate**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date object is exactly equal to a reference date.

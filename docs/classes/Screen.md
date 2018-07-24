@@ -2,11 +2,11 @@
 
 An object that defines the properties associated with a hardware-based display.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounding rectangle of the screen, measured in points. \(read-only\)

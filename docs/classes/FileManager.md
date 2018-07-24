@@ -2,7 +2,7 @@
 
 A FileManager object lets you examine the contents of the file system and make changes to it. A file manager object is typically your primary mode of interaction with the file system. You use it to locate, create, copy, and move files and directories. You also use it to get information about a file or directory or change some of its attributes.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Methods
+### Methods
 
 * **func** **open**(**sourceFilePath**: <strong>[String](../gravity/types.md)</strong>, **mode**: <strong><a href="#_enum_FileMode">FileMode</a> = 0</strong>): <strong>[File](File.md)</strong> 
 Opens the specified file using the optional file mode and returns a File object.
@@ -90,7 +90,7 @@ Returns a String that contains file full path.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### FileMode
  * .Read

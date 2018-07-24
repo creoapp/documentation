@@ -2,7 +2,7 @@
 
 The File class is an object-oriented wrapper for a file descriptor. You use file handle objects to access data associated with files. You can read, write, and seek within the file.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **path**: **[String](../gravity/types.md)**
 File full path. \(read-only\)
@@ -31,14 +31,14 @@ File current offset. \(read-only\)
 
 
 
-#### Class Methods
+### Class Methods
 
 * **func** **open**(**filePath**: <strong>[Object](../gravity/types.md)</strong>, **mode**: <strong><a href="#_enum_FileMode">FileMode</a> = 0</strong>): <strong>[File](File.md)</strong> 
 Opens the specified file using the optional FileMode and returns a File object.
 
 
 
-#### Methods
+### Methods
 
 * **func** **seekToEnd**(): <strong>[Int](../gravity/types.md)</strong> 
 Puts the file pointer at the end of the file referenced by the receiver and returns the new file offset.
@@ -71,7 +71,7 @@ Writes the specified string to the receiver. Returns true if the operation was s
 
 
 
-#### Enumeration
+### Enumeration
 
 #### FileMode
  * .Read

@@ -2,11 +2,11 @@
 
 The Font class provides the interface for getting and setting font information. The class provides you with access to the font's characteristics and also provides the system with access to the font’s glyph information, which is used during layout. You use font objects by passing them to methods that accept them as a parameter.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **familyName**: **[String](../gravity/types.md)**
 The font family name. \(read-only\)
@@ -34,7 +34,7 @@ The height of text lines (measured in points). \(read-only\)
 
 
 
-#### Class Methods
+### Class Methods
 
 * **func** **systemFont**(**size**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Font](font.md)</strong> 
 Returns the font object used for standard interface items in the specified size.
@@ -56,7 +56,7 @@ Returns the size of the standard small system font.
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Font**(**name**: <strong>[String](../gravity/types.md)</strong>, **size**: <strong>[Float](../gravity/types.md)</strong>)
 A new font object with the given PostScript name and point size.

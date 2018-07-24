@@ -6,7 +6,7 @@ The HTTPClient defines the protocol, the server host, the authenticaion paramete
 
 An <a href="HTTPRequest.html">HTTPRequest</a> is always part of an HTTPClient and defines the request specific properties like the HTTP method, the path of the resource with the possibility to use dynamic values for header, path, query and body parameters.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -16,7 +16,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **protocol**: **HTTPProtocol**
 URL scheme.
@@ -55,7 +55,7 @@ Policy for accepting cookies. This overrides the policy otherwise specified by t
 
 
 
-#### Enumeration
+### Enumeration
 
 #### HTTPProtocol
  * .HTTP

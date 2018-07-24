@@ -2,11 +2,11 @@
 
 This class is reserved and cannot be directly instantiated.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **length**: **[Int](../gravity/types.md)**
 The number of bytes contained by the data object. \(read-only\)
@@ -19,7 +19,7 @@ The byte order used by the Read and Write methods. If true, values are stored wi
 
 
 
-#### Methods
+### Methods
 
 * **func** **readUInt8**(): <strong>[Int](../gravity/types.md)</strong> 
 Reads a one-byte value from the data and returns it as a UInt8. See also the <code>position</code> property.

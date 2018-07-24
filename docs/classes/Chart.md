@@ -2,7 +2,7 @@
 
 The Chart class offers a built-in and ready to use control to easely display graphical representation of data. Chart supports five type of graphs representation: Bar, Pie, Line, Area and Scatter.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **chartType**: **ChartType**
 The graphical representation type
@@ -55,7 +55,7 @@ If true, shows the Y axis labels; otherwise, does not.
 
 
 
-#### Methods
+### Methods
 
 * **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md)</strong>)
 Reload the content of the chart.
@@ -73,7 +73,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ChartType
  * .Area

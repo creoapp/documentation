@@ -2,7 +2,7 @@
 
 An SegmentedControlItem represents a segment of a SegmentedControl.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -15,7 +15,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **title**: **[String](../gravity/types.md)**
 The title assigned to item. An Item can only have image or title, not both.

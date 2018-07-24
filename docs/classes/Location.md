@@ -2,7 +2,7 @@
 
 (null)
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **latitude**: **[Float](../gravity/types.md)**
 The latitude in degrees. \(read-only\)
@@ -40,7 +40,7 @@ The logical floor of the building in which the user is located. \(read-only\)
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Location**(**latitude**: <strong>[Float](../gravity/types.md)</strong>, **longitude**: <strong>[Float](../gravity/types.md)</strong>)
 Description not yet ready.
@@ -50,7 +50,7 @@ Description not yet ready.
 
 
 
-#### Methods
+### Methods
 
 * **func** **distanceFromLocation**(**location**: <strong>[Location](Location.md)</strong>): <strong>[Float](../gravity/types.md)</strong> 
 Returns the distance (in meters) from the receiver’s location to the specified location. This method measures the distance between the two locations by tracing a line between them that follows the curvature of the Earth. The resulting arc is a smooth curve and does not take into account specific altitude changes between the two locations.

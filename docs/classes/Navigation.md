@@ -4,7 +4,7 @@ The Navigation class implements a specialized view controller that manages the n
 
 The screens presented by a navigation interface typically mimic the hierarchical organization of your data. At each level of the hierarchy, you provide an appropriate Window to display the content at that level.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -26,7 +26,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
@@ -63,7 +63,7 @@ A Boolean value indicating whether the title should be displayed in a large form
 
 
 
-#### Methods
+### Methods
 
 * **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
 Open window in currently displayed window or navigation using the destination object default behaviour .
@@ -96,7 +96,7 @@ Sets whether the navigation bar is hidden.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### StatusBarVisibility
  * .Default

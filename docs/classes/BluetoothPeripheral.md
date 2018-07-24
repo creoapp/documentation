@@ -2,7 +2,7 @@
 
 The BluetoothPeripheral class enables you to publish services and to advertise these services to central devices which support Bluetooth 4.0 low-energy.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -15,7 +15,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **state**: **BluetoothState**
 Represents the current state of the peripheral manager. The PoweredOn state indicates that Bluetooth is currently powered on and available to use.
@@ -25,7 +25,7 @@ Represents the current state of the peripheral manager. A Boolean value indicati
 
 
 
-#### Methods
+### Methods
 
 * **func** **run**()
 Activates the configured services and starts advertising them
@@ -40,7 +40,7 @@ Sets the value for the specified characteristic and notify the change if needed.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### BluetoothState
  * .PoweredOff

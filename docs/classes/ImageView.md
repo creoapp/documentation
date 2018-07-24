@@ -2,7 +2,7 @@
 
 An ImageView object displays a single image or a sequence of animated images in your interface. Image views let you efficiently draw any image that can be specified using a UIImage object. For example, you can use this class to display the contents of many standard image files, such as JPEG and PNG files. You can configure image views programmatically or in your storyboard file and change the images they display at runtime. For animated images, you can also use the methods of this class to start and stop the animation and specify other animation parameters.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **image**: **[Image](image.md)**
 The image displayed in the image view.
@@ -58,7 +58,7 @@ Options to specify how a view adjusts its content when its size changes.
 
 
 
-#### Methods
+### Methods
 
 * **func** **startAnimating**()
 Starts animating the images in the receiver.
@@ -82,7 +82,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ContentMode
  * .Bottom

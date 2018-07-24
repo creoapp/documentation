@@ -2,11 +2,11 @@
 
 Use a Device object to get information about the device such as assigned name, device model, operating-system name and version, battery state and device orientation.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **version**: **DeviceVersion**
 Returns a value from the DeviceVersion enum identifying the type of device (for example iPhone7, iPhone7Plus, iPadPro12Dot9Inch2Gen, etc.). \(read-only\)
@@ -61,7 +61,7 @@ Check if current device is an iPad. \(read-only\)
 
 
 
-#### Methods
+### Methods
 
 * **func** **sizeInches**(**size**: <strong><a href="#_enum_DeviceSize">DeviceSize</a></strong>): <strong>[Float](../gravity/types.md)</strong> 
 Convert a value from the DeviceSize enum to the numeric value of the screen size (diagonal).
@@ -73,7 +73,7 @@ Convert a value from the DeviceSize enum to its string representation.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### DeviceVersion
  * .Simulator

@@ -2,7 +2,7 @@
 
 The HTTPServer class provides a small, lightweight, embeddable HTTP server for your applications.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -36,7 +36,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **shouldAcceptWebDAV**: **[Bool](../gravity/types.md)**
 Defines if the server should support WebDAV connections.
@@ -67,7 +67,7 @@ The type of service to publish via Bonjour. No type is set by default, and one m
 
 
 
-#### Methods
+### Methods
 
 * **func** **start**()
 Attempts to starts the server on the configured port, interface, etc. On succes the <i>DidStart</i> event is fired, otherwise it fires a <i>DidFail</i> event.

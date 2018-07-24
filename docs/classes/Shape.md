@@ -2,7 +2,7 @@
 
 Base class for <a href="LineShape.html">LineShape</a>, <a href="RectShape.html">RectShape</a>, <a href="OvalShape.html">OvalShape</a> and <a href="PolyShape.html">PolyShape</a> shapes.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **fillColor**: **[Color](color.md)**
 Color used to fill the shape.

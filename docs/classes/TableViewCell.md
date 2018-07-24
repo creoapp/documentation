@@ -4,11 +4,11 @@ This class is reserved and cannot be directly instantiated.
 
 The TableViewCell class defines the attributes and behavior of the cells that appear in TableView controls.
 
-#### Events
+### Events
 
 * None
 
-#### Properties
+### Properties
 
 * **var** **identifier**: **[String](../gravity/types.md)**
 Identifier set in the cell property inspector. \(read-only\)

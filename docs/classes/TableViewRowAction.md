@@ -2,7 +2,7 @@
 
 A single action to present when the user swipes horizontally in a table row.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -15,7 +15,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **style**: **TableViewRowActionStyle**
 Destructive (default) or normal style. \(read-only\)
@@ -31,7 +31,7 @@ The background color for the action button. The default color depends on the sty
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **TableViewRowAction**(**style**: <strong><a href="#_enum_TableViewRowActionStyle">TableViewRowActionStyle</a></strong>, **title**: <strong>[String](../gravity/types.md)</strong>)
 Create a new TableViewRowAction object.
@@ -40,7 +40,7 @@ Create a new TableViewRowAction object.
 
 
 
-#### Enumeration
+### Enumeration
 
 #### TableViewRowActionStyle
  * .Default

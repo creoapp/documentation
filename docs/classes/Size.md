@@ -2,7 +2,7 @@
 
 Represents a two-dimensional size.
 
-#### Properties
+### Properties
 
 * **var** **width**: **[Float](../gravity/types.md)**
 width field.
@@ -12,14 +12,14 @@ height field.
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Size**(**width**: <strong>[Float](../gravity/types.md)</strong>, **height**: <strong>[Float](../gravity/types.md)</strong>)
 Create a new Size object.
 
 
 
-#### Methods
+### Methods
 
 * **func** **copy**(): <strong>[Size](size.md)</strong> 
 Copy a Size object by value (duplicate).

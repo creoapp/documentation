@@ -2,7 +2,7 @@
 
 The Label class implements a read-only text view. You can use this class to draw one or multiple lines of static text, such as those you might use to identify other parts of your user interface. The base Label class provides support for both simple and complex styling of the label text. You can also control over aspects of appearance, such as whether the label uses a shadow or draws with a highlight.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **heightThatFits**: **[Float](../gravity/types.md)**
 Calculates and returns a height value that best fits the text. \(read-only\)
@@ -73,7 +73,7 @@ he preferred maximum width (in points) for a multiline label.
 
 
 
-#### Methods
+### Methods
 
 * **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
@@ -88,7 +88,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### TextAlignment
  * .Center

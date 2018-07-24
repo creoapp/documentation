@@ -2,7 +2,7 @@
 
 A Timer object fires after certain time interval has elapsed.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -15,7 +15,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **interval**: **[Float](../gravity/types.md)**
 The number of seconds between firings of the timer. If interval is less than or equal to 0.0, this method chooses the nonnegative value of 0.1 milliseconds instead.
@@ -28,7 +28,7 @@ A Boolean value that indicates whether the timer is currently started and runnin
 
 
 
-#### Initializers
+### Initializers
 
 * **func** **Timer**(): <strong>[instance](#)</strong> 
 Initializes a timer object with a time interval equals to 0.0.
@@ -41,7 +41,7 @@ Initializes a timer object with the specified time interval and repeat option. I
 
 
 
-#### Methods
+### Methods
 
 * **func** **start**()
 Start timer.

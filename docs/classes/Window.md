@@ -2,7 +2,7 @@
 
 A Window object provides the backdrop for your app's user interface and provides important event-handling behaviors. It is responsible for loading and disposing of contained views, for managing interactions with those views, and for coordinating responses with any appropriate data objects. Windows also coordinate their efforts with other controller objects—including other windows and help manage your app's overall interface.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -39,7 +39,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **bounds**: **[Rect](rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
@@ -61,7 +61,7 @@ Returns the subview that is now the first-responder, null if none. \(read-only\)
 
 
 
-#### Methods
+### Methods
 
 * **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
 Open window in currently displayed window or navigation using the destination object default behaviour.
@@ -89,7 +89,7 @@ Converts a rectangle from the Window’s coordinate system to that of another vi
 
 
 
-#### Enumeration
+### Enumeration
 
 #### TransitionStyle
  * .Cards

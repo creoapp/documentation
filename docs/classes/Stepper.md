@@ -2,7 +2,7 @@
 
 A stepper control provides a user interface for incrementing or decrementing a value. A stepper displays two buttons, one with a minus (“–”) symbol and one with a plus (“+”) symbol. If you set stepper behavior to “autorepeat” (which is the default), pressing and holding one of its buttons increments or decrements the stepper’s value repeatedly. The rate of change depends on how long the user continues pressing the control. The maximum value must be greater than or equal to the minimum value. If you set a maximum or minimum value that would make break this invariant, both values are set to the new value. For example, if the minimum value is 200 and you set a maximum value of 100, then both the minimum and maximum become 200.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -15,7 +15,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **value**: **[Float](../gravity/types.md)**
 The numeric value of the stepper.
@@ -40,7 +40,7 @@ The wrap vs. no-wrap state of the stepper. If true, incrementing beyond maximumV
 
 
 
-#### Methods
+### Methods
 
 * **func** **backgroundImageForState**(**state**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Image](image.md)</strong> 
 Returns the background image associated with the specified control state.
@@ -79,7 +79,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ControlState
  * .Application

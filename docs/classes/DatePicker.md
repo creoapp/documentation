@@ -2,7 +2,7 @@
 
 A DatePicker object is a control used for the inputting of date and time values. You can use a date picker to allow a user to enter either a point in time (calendar date, time value or both) or a time interval (for example for a timer).
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -15,7 +15,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **datePickerMode**: **DatePickerMode**
 The date picker mode. Determines whether the date picker should display a time, a date, a time and date or a countdown interval. For modes that include date or time values, you can also configure the locale, calendar, and time zone information as appropriate.
@@ -40,7 +40,7 @@ The interval at which the date picker should display minutes. You can use this p
 
 
 
-#### Methods
+### Methods
 
 * **func** **setDateAnimated**(**date**: <strong>[Date](date.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md)</strong>)
 Sets the date to display in the date picker, with an option to animate the setting.
@@ -58,7 +58,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### DatePickerMode
  * .CountDownTimer

@@ -2,7 +2,7 @@
 
 PanGesture is a concrete gesture recognizer that looks for panning (dragging) gestures. The user must be pressing one or more fingers on a view while they pan it. Clients implementing the action method for this gesture recognizer can ask it for the current translation and velocity of the gesture. A panning gesture is continuous. It begins (GestureRecognizerState.Began) when the minimum number of fingers allowed (minimumNumberOfTouches) has moved enough to be considered a pan. It changes (GestureRecognizerState.Changed) when a finger moves while at least the minimum number of fingers are pressed down. It ends (GestureRecognizerState.Ended) when all fingers are lifted.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **maximumNumberOfTouches**: **[Int](../gravity/types.md)**
 The maximum number of fingers that can be touching the view for this gesture to be recognized.
@@ -34,7 +34,7 @@ The minimum number of fingers that can be touching the view for this gesture to 
 
 
 
-#### Methods
+### Methods
 
 * **func** **translationInView**(**view**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Point](point.md)</strong> 
 The translation of the pan gesture in the coordinate system of the specified view. The x and y values report the total translation over time.

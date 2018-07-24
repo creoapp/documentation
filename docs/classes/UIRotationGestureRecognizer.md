@@ -2,7 +2,7 @@
 
 This class is reserved and cannot be directly instantiated.
 
-#### Events
+### Events
 
 * **Action**()
 This event is called when the object recognizes its gesture or, in some cases, a change in the gesture.

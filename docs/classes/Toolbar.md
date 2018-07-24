@@ -2,7 +2,7 @@
 
 A toolbar is a control that displays one or more buttons, called toolbar items. A toolbar momentarily highlights or does not change the appearance of an item when tapped. Toolbar images that represent normal and highlighted states of an item derive from the image you set, the image is automatically colored with the toolbar’s tintColor.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -12,7 +12,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **barStyle**: **BarStyle**
 The toolbar style that specifies its appearance.
@@ -28,7 +28,7 @@ The items displayed on the toolbar.
 
 
 
-#### Methods
+### Methods
 
 * **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
@@ -43,7 +43,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### BarStyle
  * .Black

@@ -2,7 +2,7 @@
 
 The GPS class is the central point for configuring the delivery of location and heading related events to your app. You use an instance of this class to establish the parameters that determine when location and heading events should be delivered and to start and stop the actual delivery of those events. You can also use a GPS object to retrieve the most recent location and heading data.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **distanceFilter**: **[Float](../gravity/types.md)**
 The minimum distance (measured in meters) a device must move horizontally before an update event is generated. This distance is measured relative to the previously delivered location. Use the value kCLDistanceFilterNone to be notified of all movements. The default value of this property is -1.0. This property is used only in conjunction with the standard location services and is not used when monitoring significant location changes.
@@ -37,7 +37,7 @@ The type of user activity associated with the location updates. The location man
 
 
 
-#### Methods
+### Methods
 
 * **func** **locationServicesEnabled**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether location services are enabled on the device.
@@ -58,7 +58,7 @@ Returns the app’s authorization status for using location services. The author
 
 
 
-#### Enumeration
+### Enumeration
 
 #### ActivityType
  * .AutomotiveNavigation

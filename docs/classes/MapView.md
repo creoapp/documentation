@@ -2,7 +2,7 @@
 
 Display map or satellite imagery from the windows and views of your custom apps.
 
-#### Events
+### Events
 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
@@ -24,7 +24,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-#### Properties
+### Properties
 
 * **var** **address**: **[String](../gravity/types.md)**
 A string describing the location you want to center the map to.
@@ -70,7 +70,7 @@ Sets the mode used to track the user location.
 
 
 
-#### Methods
+### Methods
 
 * **func** **addAnnotation**(**annotationPoint**: <strong>[MapPointAnnotation](MapPointAnnotation.md)</strong>)
 Adds the specified annotation to the map view.
@@ -88,7 +88,7 @@ Clear focus from selected control
 
 
 
-#### Enumeration
+### Enumeration
 
 #### MapType
  * .Hybrid
