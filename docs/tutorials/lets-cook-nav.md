@@ -2,18 +2,18 @@
 The LetsCookNav tutorial will show you how to navigate between two windows (using a Navigation Bar). A first window will show a list of options inside a TableView and a second window will show the details of the item selected in the TableView.<br>This example makes extensive use of CustomViews and DataSet bindings. Some advanced concepts are also illustrated like computed properties to show a graphical representation of a recipe's difficulty level and a runtime query performed when recipe's details need to be displayed.
 
 #### Classes
-[../classes/SQLiteDatabase.md](SQLite Database)
-[../classes/SQLiteRecordSet.md](SQLite RecordSet)
-[../classes/CustomView.md](CustomView)
-[../classes/TableView.md](TableView)
-[../classes/ImageView.md](ImageView)
-[../classes/TextView.md](TextView)
-[../classes/View.md](View)
+* [SQLite Database](../classes/SQLiteDatabase.md)
+* [SQLite RecordSet](../classes/SQLiteRecordSet.md)
+* [CustomView](../classes/CustomView.md)
+* [TableView](../classes/TableView.md)
+* [ImageView](../classes/ImageView.md)
+* [TextView](../classes/TextView.md)
+* [View](../classes/View.md)
 
 #### Assets
-[Recipes SQLite database](../assets/letscooknav_assets.zip) (images credits to [https://www.lorenzobocchi.com](Lorenzo Bocchi))
-[PNG Launch Image](../assets/letscooknav_assets.zip) (credits to [https://www.lorenzobocchi.com"](Lorenzo Bocchi))
-[PNG Icon](../assets/letscooknav_assets.zip) (credits to [https://dribbble.com/shots/338811-Cook](Jenya Tkach))
+* [Recipes SQLite database](../assets/letscooknav_assets.zip) (images credits to [https://www.lorenzobocchi.com](Lorenzo Bocchi))
+* [PNG Launch Image](../assets/letscooknav_assets.zip) (credits to [https://www.lorenzobocchi.com"](Lorenzo Bocchi))
+* [PNG Icon](../assets/letscooknav_assets.zip) (credits to [https://dribbble.com/shots/338811-Cook](Jenya Tkach))
 						
 #### Steps
 --1-- Create a new empty Creo project and start by dragging the Recipes.sqlite database into the Assets folder (then press Yes to the object conversion question).
