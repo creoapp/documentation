@@ -44,5 +44,5 @@ The permitted direction of the swipe for this gesture recognizer. The default di
  * .Right
  * .Up
 
-<br><br>
+
 

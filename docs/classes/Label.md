@@ -97,7 +97,7 @@ Clear focus from selected control
  * .Natural
  * .Right
 
-<br><br>#### LineBreakMode
+#### LineBreakMode
  * .CharWrapping
  * .Clipping
  * .TruncatingHead
@@ -105,17 +105,17 @@ Clear focus from selected control
  * .TruncatingTail
  * .WordWrapping
 
-<br><br>#### TextType
+#### TextType
  * .HTML
  * .Markdown
  * .Text
 
-<br><br>#### BaselineAdjustment
+#### BaselineAdjustment
  * .AlignBaselines
  * .AlignCenters
  * .None
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -139,5 +139,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

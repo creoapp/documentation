@@ -174,7 +174,7 @@ Clear focus from selected control
  * .TimeMachine
  * .Wheel
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -198,5 +198,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

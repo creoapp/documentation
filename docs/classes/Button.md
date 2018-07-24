@@ -106,7 +106,7 @@ Clear focus from selected control
  * .RoundedRect
  * .System
 
-<br><br>#### ControlState
+#### ControlState
  * .Application
  * .Disabled
  * .Focused
@@ -114,7 +114,7 @@ Clear focus from selected control
  * .Normal
  * .Selected
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -138,5 +138,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

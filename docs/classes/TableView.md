@@ -146,21 +146,21 @@ Clear focus from selected control
  * .Insert
  * .None
 
-<br><br>#### TableViewStyle
+#### TableViewStyle
  * .Grouped
  * .Plain
 
-<br><br>#### TableViewCellSeparatorStyle
+#### TableViewCellSeparatorStyle
  * .None
  * .SingleLine
 
-<br><br>#### TableViewScrollPosition
+#### TableViewScrollPosition
  * .Bottom
  * .Middle
  * .None
  * .Top
 
-<br><br>#### TableViewRowAnimation
+#### TableViewRowAnimation
  * .Automatic
  * .Bottom
  * .Fade
@@ -170,7 +170,7 @@ Clear focus from selected control
  * .Right
  * .Top
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -194,5 +194,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

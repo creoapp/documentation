@@ -50,5 +50,5 @@ Sets the value for the specified characteristic and notify the change if needed.
  * .Unknown
  * .Unsupported
 
-<br><br>
+
 

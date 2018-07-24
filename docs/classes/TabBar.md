@@ -81,12 +81,12 @@ Close window if modally opened.
  * .Hidden
  * .Visible
 
-<br><br>#### StatusBarStyle
+#### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
 
-<br><br>#### TransitionStyle
+#### TransitionStyle
  * .Cards
  * .CoverVertical
  * .CrossDissolve
@@ -103,5 +103,5 @@ Close window if modally opened.
  * .Portal
  * .Turn
 
-<br><br>
+
 

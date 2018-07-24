@@ -109,12 +109,12 @@ Clear focus from selected control
  * .Front
  * .Rear
 
-<br><br>#### CameraFlashMode
+#### CameraFlashMode
  * .Auto
  * .Off
  * .On
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -138,5 +138,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

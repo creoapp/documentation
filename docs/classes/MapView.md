@@ -97,12 +97,12 @@ Clear focus from selected control
  * .SatelliteFlyover
  * .Standard
 
-<br><br>#### MapUserTrackingMode
+#### MapUserTrackingMode
  * .Follow
  * .FollowWithHeading
  * .None
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -126,5 +126,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

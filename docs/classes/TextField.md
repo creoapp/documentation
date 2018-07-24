@@ -118,24 +118,24 @@ Clear focus from selected control
  * .Natural
  * .Right
 
-<br><br>#### TextBorderStyle
+#### TextBorderStyle
  * .Bezel
  * .Line
  * .None
  * .RoundedRect
 
-<br><br>#### TextType
+#### TextType
  * .HTML
  * .Markdown
  * .Text
 
-<br><br>#### TextFieldViewMode
+#### TextFieldViewMode
  * .Always
  * .Never
  * .UnlessEditing
  * .WhileEditing
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -159,5 +159,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

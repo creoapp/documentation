@@ -66,12 +66,12 @@ Returns the app’s authorization status for using location services. The author
  * .Other
  * .OtherNavigation
 
-<br><br>#### AuthorizationStatus
+#### AuthorizationStatus
  * .AuthorizedAlways
  * .AuthorizedWhenInUse
  * .Denied
  * .NotDetermined
  * .Restricted
 
-<br><br>
+
 

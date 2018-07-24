@@ -61,7 +61,7 @@ Clear focus from selected control
  * .TopLeft
  * .TopRight
 
-<br><br>#### BorderStyle
+#### BorderStyle
  * .All
  * .Bottom
  * .Left
@@ -69,7 +69,7 @@ Clear focus from selected control
  * .Right
  * .Top
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -93,5 +93,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

@@ -92,9 +92,9 @@ Enables or disables notifications/indications for the characteristic. If <i>char
  * .Unknown
  * .Unsupported
 
-<br><br>#### CharacteristicWriteType
+#### CharacteristicWriteType
  * .WriteWithResponse
  * .WriteWithoutResponse
 
-<br><br>
+
 

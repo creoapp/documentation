@@ -108,15 +108,15 @@ Converts a rectangle from the Window’s coordinate system to that of another vi
  * .Portal
  * .Turn
 
-<br><br>#### StatusBarVisibility
+#### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
-<br><br>#### StatusBarStyle
+#### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
 
-<br><br>
+
 

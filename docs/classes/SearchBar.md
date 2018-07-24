@@ -125,34 +125,34 @@ Clear focus from selected control
  * .ResultsList
  * .Search
 
-<br><br>#### SearchBarStyle
+#### SearchBarStyle
  * .Default
  * .Minimal
  * .Prominent
 
-<br><br>#### BarStyle
+#### BarStyle
  * .Black
  * .BlackOpaque
  * .BlackTranslucent
  * .Default
 
-<br><br>#### TextAutocapitalizationType
+#### TextAutocapitalizationType
  * .AllCharacters
  * .None
  * .Sentences
  * .Words
 
-<br><br>#### TextAutocorrectionType
+#### TextAutocorrectionType
  * .Default
  * .No
  * .Yes
 
-<br><br>#### TextSpellCheckingType
+#### TextSpellCheckingType
  * .Default
  * .No
  * .Yes
 
-<br><br>#### KeyboardType
+#### KeyboardType
  * .ASCIICapable
  * .Alphabet
  * .DecimalPad
@@ -166,7 +166,7 @@ Clear focus from selected control
  * .URL
  * .WebSearch
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -190,5 +190,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

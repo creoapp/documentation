@@ -53,5 +53,5 @@ Compare two Gradient objects.
  * .Linear
  * .Radial
 
-<br><br>
+
 

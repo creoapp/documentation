@@ -74,10 +74,10 @@ Creates and returns a new image object with the specified rendering mode.
  * .Stretch
  * .Tile
 
-<br><br>#### ImageRenderingMode
+#### ImageRenderingMode
  * .AlwaysOriginal
  * .AlwaysTemplate
  * .Automatic
 
-<br><br>
+
 

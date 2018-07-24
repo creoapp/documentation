@@ -82,18 +82,18 @@ Clear focus from selected control
  * .Pie
  * .Scatter
 
-<br><br>#### ChartPointStyle
+#### ChartPointStyle
  * .Circle
  * .None
  * .Square
 
-<br><br>#### ChartDecorationStyle
+#### ChartDecorationStyle
  * .Glossy1
  * .Glossy2
  * .Gradient
  * .None
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -117,5 +117,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

@@ -48,11 +48,11 @@ Indicates to the system that the status bar attributes have changed.
  * .Portrait
  * .PortraitUpsideDown
 
-<br><br>#### InterfaceOrientation
+#### InterfaceOrientation
  * .LandscapeLeft
  * .LandscapeRight
  * .Portrait
  * .PortraitUpsideDown
 
-<br><br>
+
 

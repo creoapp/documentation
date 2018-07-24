@@ -104,14 +104,14 @@ Clear focus from selected control
  * .Markdown
  * .Text
 
-<br><br>#### TextAlignment
+#### TextAlignment
  * .Center
  * .Justified
  * .Left
  * .Natural
  * .Right
 
-<br><br>#### DataDetectorTypes
+#### DataDetectorTypes
  * .Address
  * .All
  * .CalendarEvent
@@ -119,7 +119,7 @@ Clear focus from selected control
  * .None
  * .PhoneNumber
 
-<br><br>#### AnimationOption
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse
@@ -143,5 +143,5 @@ Clear focus from selected control
  * .TransitionFlipFromTop
  * .TransitionNone
 
-<br><br>
+
 

@@ -74,5 +74,5 @@ Displays the scroll indicators momentarily. You should call this method whenever
  * .Default
  * .White
 
-<br><br>
+
 
