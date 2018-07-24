@@ -1,4 +1,4 @@
-**super**: [UIDatePicker](UIDatePicker.md) on iOS
+**super**: **[UIDatePicker](UIDatePicker.md)** (on iOS)
 
 A DatePicker object is a control used for the inputting of date and time values. You can use a date picker to allow a user to enter either a point in time (calendar date, time value or both) or a time interval (for example for a timer).
 
@@ -42,10 +42,10 @@ The interval at which the date picker should display minutes. You can use this p
 
 ### Methods
 
-* **func** **setDateAnimated**(**date**: <strong>[Date](date.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md)</strong>)
+* **func** **setDateAnimated**(**date**: **[Date](date.md)**, **animated**: **[Bool](../gravity/types.md)**)
 Sets the date to display in the date picker, with an option to animate the setting.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

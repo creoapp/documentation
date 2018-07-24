@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 Represents an offset.
 
@@ -14,7 +14,7 @@ vertical field.
 
 ### Initializers
 
-* **func** **Offset**(**horizontal**: <strong>[Float](../gravity/types.md)</strong>, **vertical**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **Offset**(**horizontal**: **[Float](../gravity/types.md)**, **vertical**: **[Float](../gravity/types.md)**)
 Create a new Offset object.
 
 

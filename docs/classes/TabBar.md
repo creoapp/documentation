@@ -1,4 +1,4 @@
-**super**: [UITabBarController](UITabBarController.md) on iOS
+**super**: **[UITabBarController](UITabBarController.md)** (on iOS)
 
 A container window that manages a radio-style selection interface where one item is selected at a time. The selection determines which child window to display.
 
@@ -54,17 +54,17 @@ The index of the Window associated with the currently selected tab item.
 
 ### Methods
 
-* **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **open**(**completion**: **[Closure](../gravity/closures.md) = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour.
 
-* **func** **openIn**(**window**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openIn**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **completion**: **[Closure](../gravity/closures.md) = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
-* **func** **openWindow**(**window**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openWindow**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **completion**: **[Closure](../gravity/closures.md) = null**)
 If the Window is already contained in the TabBar window list, the TabBar set it as the selected Window. Otherwise, the TabBar add the new Window to its windows and set it as the selected Window.
 
-* **func** **openModal**(**TransitionStyle**: <strong><a href="#_enum_TransitionStyle">TransitionStyle</a></strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closures.md) = null**)
 Open window modally usign the specified transition style.
 
 * **func** **close**()

@@ -1,4 +1,4 @@
-**super**: [UIActivityIndicatorView](UIActivityIndicatorView.md) on iOS
+**super**: **[UIActivityIndicatorView](UIActivityIndicatorView.md)** (on iOS)
 
 Use an activity indicator to show that a task is in progress. An activity indicator appears as a "gear" that is either spinning or stopped.
 
@@ -36,7 +36,7 @@ Stops the animation of the activity indicator.
 * **func** **isAnimating**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns true if the animation is active, false if it isn't.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

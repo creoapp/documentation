@@ -1,4 +1,4 @@
-**super**: [UIApplication](UIApplication.md) on iOS
+**super**: **[UIApplication](UIApplication.md)** (on iOS)
 
 The Application class provides a centralized point of control and coordination for apps running on your device. Every running app has exactly one instance of Application. When an app is launched, the system calls its various events in order to notify its running status. Current running application can be accessed through the App global instance.
 
@@ -41,7 +41,7 @@ A Boolean value that controls whether the idle timer is disabled for the app. Th
 
 ### Methods
 
-* **func** **loadContainer**(**container**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>)
+* **func** **loadContainer**(**container**: **[Window](window.md) or [Navigation](navigation.md)**)
 Container can be a Window or a Navigation. When you set a Startup Window into Creo IDE you are setting the container parameter of this method. The new container is configured to track the window size, changing as the window size changes. If the window has an existing view hierarchy, the old views are removed before the new ones are installed.
 
 If you do not set any First Window into Creo IDE then you are responsible to manually call this method passing the right parameter (probably in the DidStart or FinishLaunching event).

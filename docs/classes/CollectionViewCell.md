@@ -1,4 +1,4 @@
-**super**: [UICollectionViewCell](UICollectionViewCell.md) on iOS
+**super**: **[UICollectionViewCell](UICollectionViewCell.md)** (on iOS)
 
 This class is reserved and cannot be directly instantiated.
 

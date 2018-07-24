@@ -1,4 +1,4 @@
-**super**: [UIScrollView](UIScrollView.md) on iOS
+**super**: **[UIScrollView](UIScrollView.md)** (on iOS)
 
 The View class defines a rectangular area on the screen and the interfaces for managing the content in that area. At runtime, a view object handles the rendering of any content in its area and also handles any interactions with that content. The View class itself provides basic behavior for filling its rectangular area with a background color.
 
@@ -7,25 +7,25 @@ The View class defines a rectangular area on the screen and the interfaces for m
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **Draw**(**rect**: <strong>[Rect](rect.md)</strong>)
+* **Draw**(**rect**: **[Rect](rect.md)**)
 Draws the receiver’s image within the passed-in rectangle.
 
-* **TouchesBegan**(**touches**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **TouchesBegan**(**touches**: **[Object](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 This event is called when one or more new touches occurred in this view and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
-* **TouchesMoved**(**touches**: <strong>[Object](../gravity/types.md)</strong>, **touchInside**: <strong>[Bool](../gravity/types.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **TouchesMoved**(**touches**: **[Object](../gravity/types.md)**, **touchInside**: **[Bool](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 This event is called when the location or force of a touch changes and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
-* **TouchesEnded**(**touches**: <strong>[Object](../gravity/types.md)</strong>, **touchInside**: <strong>[Bool](../gravity/types.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **TouchesEnded**(**touches**: **[Object](../gravity/types.md)**, **touchInside**: **[Bool](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 This event is called when one or more fingers are raised and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
-* **TouchesCancelled**(**touches**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **TouchesCancelled**(**touches**: **[Object](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 This event is called when the sysyem receives a system interruption (such as a system alert) requiring cancellation of the touch sequence and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
 * **DidScroll**()
 This event is called when the user scrolls the content view.
 
-* **DidEndDragging**(**decelerate**: <strong>[Bool](../gravity/types.md)</strong>)
+* **DidEndDragging**(**decelerate**: **[Bool](../gravity/types.md)**)
 This event is called when dragging ended in the scroll view. The scroll view sends this event when the user’s finger touches up after dragging content. The decelerating property of the scroll view controls deceleration. The decelerate value is true if the scrolling movement will continue, but decelerate, after a touch-up gesture during a dragging operation. If the value is NO, scrolling stops immediately upon touch-up.
 
 * **DidEndDecelerating**()
@@ -54,13 +54,13 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 
 ### Methods
 
-* **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md)</strong>)
+* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/types.md)**)
 Reloads the content of the view.
 
 * **func** **image**(): <strong>[Image](image.md)</strong> 
 Returns the rasterized Image of the current view.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

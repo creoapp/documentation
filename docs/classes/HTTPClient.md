@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 The HTTPClient class and <a href="HTTPRequest.html">HTTPRequest</a> class enable you to downloading content via HTTP. With an HTTPClient object you can configure the common connection parameters that can be used by one or more HTTPRequest, each of which represents a request for a specific URL.
 

@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 Represents a rectangle.
 
@@ -20,7 +20,7 @@ Rect height size value.
 
 ### Initializers
 
-* **func** **Rect**(**x**: <strong>[Float](../gravity/types.md)</strong>, **y**: <strong>[Float](../gravity/types.md)</strong>, **width**: <strong>[Float](../gravity/types.md)</strong>, **height**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **Rect**(**x**: **[Float](../gravity/types.md)**, **y**: **[Float](../gravity/types.md)**, **width**: **[Float](../gravity/types.md)**, **height**: **[Float](../gravity/types.md)**)
 Create a new Rect object.
 
 
@@ -30,25 +30,25 @@ Create a new Rect object.
 * **func** **copy**(): <strong>[Rect](rect.md)</strong> 
 Copy a Rect object by value (duplicate).
 
-* **func** **rectWithInset**(**point**: <strong>[Point](point.md)</strong>): <strong>[Rect](rect.md)</strong> 
+* **func** **rectWithInset**(**point**: **[Point](point.md)**): <strong>[Rect](rect.md)</strong> 
 Create a new Rect object with the specified inset.
 
-* **func** **rectWithOffset**(**point**: <strong>[Point](point.md)</strong>): <strong>[Rect](rect.md)</strong> 
+* **func** **rectWithOffset**(**point**: **[Point](point.md)**): <strong>[Rect](rect.md)</strong> 
 Create a new Rect object with the specified offset
 
-* **func** **rectByUnion**(**rect**: <strong>[Rect](rect.md)</strong>): <strong>[Rect](rect.md)</strong> 
+* **func** **rectByUnion**(**rect**: **[Rect](rect.md)**): <strong>[Rect](rect.md)</strong> 
 Create a new Rect object by performing the union operation between two specified Rect objects.
 
-* **func** **rectByIntersection**(**rect**: <strong>[Rect](rect.md)</strong>): <strong>[Rect](rect.md)</strong> 
+* **func** **rectByIntersection**(**rect**: **[Rect](rect.md)**): <strong>[Rect](rect.md)</strong> 
 Create a new Rect object by performing intersection between two specified Rect objects.
 
-* **func** **containsPoint**(**point**: <strong>[Point](point.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **containsPoint**(**point**: **[Point](point.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Check if it contains a specified Point.
 
-* **func** **containsRect**(**rect**: <strong>[Rect](rect.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **containsRect**(**rect**: **[Rect](rect.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Check if it contains a specified Rect.
 
-* **func** **intersectsRect**(**rect**: <strong>[Rect](rect.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **intersectsRect**(**rect**: **[Rect](rect.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns whether two rectangles intersect.
 
 * **func** **minX**(): <strong>[Float](../gravity/types.md)</strong> 

@@ -1,4 +1,4 @@
-**super**: [UIBarButtonItem](UIBarButtonItem.md) on iOS
+**super**: **[UIBarButtonItem](UIBarButtonItem.md)** (on iOS)
 
 A button specialized for placement on a toolbar or navigation bar.
 

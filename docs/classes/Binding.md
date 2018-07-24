@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 This class is reserved and cannot be directly instantiated.
 
@@ -6,7 +6,7 @@ A Binding object is automatically created by the CREO runtime each time you bind
 
 ### Events
 
-* **ConvertValue**(**value**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
+* **ConvertValue**(**value**: **[Object](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
 Handle this event if you want to convert a value (or an array of values in case of multiple sources).
 
 * **OnError**()

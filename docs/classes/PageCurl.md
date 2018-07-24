@@ -1,4 +1,4 @@
-**super**: [UIPageViewController](UIPageViewController.md) on iOS
+**super**: **[UIPageViewController](UIPageViewController.md)** (on iOS)
 
 A page curl lets the user navigate between pages of content, where each page is managed by its own <a href="Window.html">Window</a> object. Navigation can be controlled programmatically by your app or directly by the user using gestures. When navigating from page to page, it displays a page-turning animation. The vertical style is not simulated in the Creo simulator for Mac
 
@@ -51,23 +51,23 @@ Represents the current window index inside the navigation.
 
 ### Methods
 
-* **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **open**(**completion**: **[Closure](../gravity/closures.md) = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour.
 
-* **func** **openIn**(**window**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openIn**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **completion**: **[Closure](../gravity/closures.md) = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
-* **func** **openWindow**(**window**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openWindow**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **completion**: **[Closure](../gravity/closures.md) = null**)
 Add the Window to the PageCurl and set it as the selected Window.
 
-* **func** **selectWindow**(**window**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **selectWindow**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closures.md) = null**)
 Set the Window as the new selected Window, optionally animating the curl transition (this animation in not simulated in the Creo simulator for Mac).
 
-* **func** **selectIndex**(**index**: <strong>[Int](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **selectIndex**(**index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closures.md) = null**)
 Set the Window at the specified index as the new selected Window, optionally animating the curl transition (this animation in not simulated in the Creo simulator for Mac).
 
-* **func** **openModal**(**TransitionStyle**: <strong><a href="#_enum_TransitionStyle">TransitionStyle</a></strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closures.md) = null**)
 Open window modally usign the specified transition style.
 
 * **func** **close**()

@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 This class is reserved and cannot be directly instantiated.
 
@@ -9,7 +9,7 @@ This class is reserved and cannot be directly instantiated.
 * **DidStart**()
 Event raised when DataSet started retrieving data.
 
-* **NewValue**(**value**: <strong>[Object](../gravity/types.md)</strong>)
+* **NewValue**(**value**: **[Object](../gravity/types.md)**)
 Event raised when a new value becomes available.
 
 * **DidFinish**()
@@ -47,7 +47,7 @@ Start current DataSet.
 * **func** **stop**()
 Stop current DataSet.
 
-* **func** **valueForKeyPath**(**baseKeyPath**: <strong>[String](../gravity/types.md)</strong>, **row**: <strong>[Int](../gravity/types.md)</strong>, **keyPath**: <strong>[String](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
+* **func** **valueForKeyPath**(**baseKeyPath**: **[String](../gravity/types.md)**, **row**: **[Int](../gravity/types.md)**, **keyPath**: **[String](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
 Retrieve DataSet value based on combination of key path.
 
 

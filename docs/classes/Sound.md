@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 Provides playback of audio data from a file, an url or memory. A Sound object is usually a representation of an audio asset.
 
@@ -44,17 +44,17 @@ By setting this property you can seek to a specific point in a sound file or imp
 
 ### Class Methods
 
-* **func** **open**(**srcfile**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
+* **func** **open**(**srcfile**: **[Object](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
 Initializes and returns the Sound object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
 
 
 ### Initializers
 
-* **func** **Sound**(**nameOrURL**: <strong>[String](../gravity/types.md)</strong>)
+* **func** **Sound**(**nameOrURL**: **[String](../gravity/types.md)**)
 Creates and initializes a new sound resource.
 
-* **func** **Sound**(**nameOrURL**: <strong>[String](../gravity/types.md)</strong>, **globalInstance**: <strong>[Bool](../gravity/types.md)</strong>)
+* **func** **Sound**(**nameOrURL**: **[String](../gravity/types.md)**, **globalInstance**: **[Bool](../gravity/types.md)**)
 Creates and initializes a new sound resource.
 
 

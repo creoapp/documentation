@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 The BluetoothPeripheral class enables you to publish services and to advertise these services to central devices which support Bluetooth 4.0 low-energy.
 
@@ -7,7 +7,7 @@ The BluetoothPeripheral class enables you to publish services and to advertise t
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **UpdatedState**(**state**: <strong><a href="#_enum_BluetoothState">BluetoothState</a></strong>)
+* **UpdatedState**(**state**: **<a href="#_enum_BluetoothState">BluetoothState</a>**)
 Event raised when the blueetooth central changes its state
 
 * **Unload**()
@@ -33,7 +33,7 @@ Activates the configured services and starts advertising them
 * **func** **stop**()
 Stops advertising and removes the active services.
 
-* **func** **write**(**value**: <strong>[Object](../gravity/types.md)</strong>, **characteristicUUID**: <strong>[String](../gravity/types.md)</strong>)
+* **func** **write**(**value**: **[Object](../gravity/types.md)**, **characteristicUUID**: **[String](../gravity/types.md)**)
 Sets the value for the specified characteristic and notify the change if needed. If the value is a Data object it is written as is, otherwise (Number, String, etc.) the BluetoothPeripheral tries to encode the value for known characteristis.
 
 

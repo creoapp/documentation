@@ -1,4 +1,4 @@
-**super**: [UIView](UIView.md) on iOS
+**super**: **[UIView](UIView.md)** (on iOS)
 
 Carousel is a class designed to simplify the implementation of various types of carousel (paged, scrolling views). Carousel implements a number of common effects such as cylindrical, flat and CoverFlow style carousels, as well as providing hooks to implement your own bespoke effects. Unlike many other CoverFlow libraries, Carousel can work with any kind of view, not just images, so it is ideal for presenting paged data in a fluid and impressive way in your app. It also makes it extremely easy to swap between different carousel effects with minimal code changes.
 
@@ -9,7 +9,7 @@ Carousel is a class designed to simplify the implementation of various types of 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **DidSelectCell**(**cell**: <strong>[CarouselCell](CarouselCell.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>)
+* **DidSelectCell**(**cell**: **[CarouselCell](CarouselCell.md)**, **index**: **[Int](../gravity/types.md)**)
 Handle this event if you need to execute some code when a new cell is selected by the user.
 
 * **Unload**()
@@ -122,31 +122,31 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 
 ### Methods
 
-* **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/types.md) = true**)
 Reload the content of the carousel.
 
-* **func** **removeItemAtIndex**(**index**: <strong>[Int](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **removeItemAtIndex**(**index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 This removes an item from the carousel. The remaining items will slide across to fill the gap. Note that the data source is not automatically updated when this method is called, so a subsequent call to reloadData will restore the removed item.
 
-* **func** **insertItemAtIndex**(**index**: <strong>[Int](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **insertItemAtIndex**(**index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 This inserts an item into the carousel. The new item will be requested from the dataSource, so make sure that the new item has been added to the data source data before calling this method, or you will get duplicate items in the carousel, or other weirdness.
 
-* **func** **reloadItemAtIndex**(**index**: <strong>[Int](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **reloadItemAtIndex**(**index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 This method will reload the specified item view. The new item will be requested from the dataSource. If the animated argument is true, it will cross-fade from the old to the new item view, otherwise it will swap instantly.
 
-* **func** **scrollByOffset**(**offset**: <strong>[Float](../gravity/types.md)</strong>, **duration**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **scrollByOffset**(**offset**: **[Float](../gravity/types.md)**, **duration**: **[Float](../gravity/types.md)**)
 This works the same way as scrollByNumberOfItems, but allows you to scroll by a fractional number of items. This may be useful if you wish to achieve a very precise animation effect. Note that if the scrollToItemBoundary property is set to true, the carousel will automatically scroll to the nearest item index after you call this method anyway.
 
-* **func** **scrollToOffset**(**offset**: <strong>[Float](../gravity/types.md)</strong>, **duration**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **scrollToOffset**(**offset**: **[Float](../gravity/types.md)**, **duration**: **[Float](../gravity/types.md)**)
 This works the same way as scrollToItemAtIndex, but allows you to scroll to a fractional offset. This may be useful if you wish to achieve a very precise animation effect. Note that if the scrollToItemBoundary property is set to true, the carousel will automatically scroll to the nearest item index after you call this method. anyway.
 
-* **func** **scrollByNumberOfItems**(**itemCount**: <strong>[Int](../gravity/types.md)</strong>, **duration**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **scrollByNumberOfItems**(**itemCount**: **[Int](../gravity/types.md)**, **duration**: **[Float](../gravity/types.md)**)
 This method allows you to scroll the carousel by a fixed distance, measured in carousel item widths. Positive or negative values may be specified for itemCount, depending on the direction you wish to scroll. Carousel gracefully handles bounds issues, so if you specify a distance greater than the number of items in the carousel, scrolling will either be clamped when it reaches the end of the carousel (if wrapping is disabled) or wrap around seamlessly.
 
-* **func** **scrollToItemAtIndex**(**index**: <strong>[Int](../gravity/types.md)</strong>, **duration**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **scrollToItemAtIndex**(**index**: **[Int](../gravity/types.md)**, **duration**: **[Float](../gravity/types.md)**)
 This method allows you to control how long the carousel takes to scroll to the specified index.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

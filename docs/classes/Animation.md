@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 It is a graphics rendering and animation infrastructure that you use to animate the views and other visual elements of your app. On iOS it is a Core Animation. An animation object is implicity created by the runtime system and it represents an instance of an animation created within the Animation Editor inside CREO IDE.
 

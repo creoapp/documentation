@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 Date objects encapsulate a single point in time, independent of any particular calendrical system or time zone. The Date class provides methods for comparing dates, calculating the time interval between two dates, and creating a new date from a time interval relative to another date.
 
@@ -66,10 +66,10 @@ Extract the ISO Week Date from current date. \(read-only\)
 
 ### Class Methods
 
-* **func** **dateWithTimeIntervalSince1970**(**timeInterval**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateWithTimeIntervalSince1970**(**timeInterval**: **[Float](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set to a given number of seconds from 00:00:00 UTC on 1 January 1970.
 
-* **func** **dateWithTimeIntervalSinceReferenceDate**(**timeInterval**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateWithTimeIntervalSinceReferenceDate**(**timeInterval**: **[Float](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set to a given number of seconds from 00:00:00 UTC on 1 January 2001.
 
 * **func** **knownTimeZoneNames**(): <strong>[List](../gravity/lists.md)</strong> 
@@ -81,48 +81,48 @@ Creates and returns a Date object set to tomorrow.
 * **func** **yesterday**(): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set to yesterday.
 
-* **func** **dateWithDaysFromNow**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateWithDaysFromNow**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set by adding reference days to the current date and time.
 
-* **func** **dateWithDaysBeforeNow**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateWithDaysBeforeNow**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set by subtracting reference days to the current date and time.
 
-* **func** **dateWithHoursFromNow**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateWithHoursFromNow**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set by adding reference hours to the current date and time.
 
-* **func** **dateWithHoursBeforeNow**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateWithHoursBeforeNow**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set by subtracting reference hours to the current date and time.
 
-* **func** **dateWithMinutesFromNow**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateWithMinutesFromNow**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set by adding reference minutes to the current date and time.
 
-* **func** **dateWithMinutesBeforeNow**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateWithMinutesBeforeNow**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a Date object set by subtracting reference minutes to the current date and time.
 
 
 
 ### Initializers
 
-* **func** **Date**(**timeInterval**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **Date**(**timeInterval**: **[Float](../gravity/types.md)**)
 Returns a Date object relative to the current date and time by a given number of seconds.
 
-* **func** **Date**(**timeInterval**: <strong>[Float](../gravity/types.md)</strong>, **date**: <strong>[Date](date.md)</strong>)
+* **func** **Date**(**timeInterval**: **[Float](../gravity/types.md)**, **date**: **[Date](date.md)**)
 Returns a Date object relative to another given date by a given number of seconds.
 
-* **func** **Date**(**string**: <strong>[String](../gravity/types.md)</strong>, **format**: <strong>[String](../gravity/types.md)</strong>, **timeZone**: <strong>[String](../gravity/types.md)</strong>)
+* **func** **Date**(**string**: **[String](../gravity/types.md)**, **format**: **[String](../gravity/types.md)**, **timeZone**: **[String](../gravity/types.md)**)
 Returns a Date object converted from a textual representations of dates and times.
 
 
 
 ### Methods
 
-* **func** **isEqualToDate**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isEqualToDate**(**refDate**: **[Date](date.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date object is exactly equal to a reference date.
 
-* **func** **diff**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Float](../gravity/types.md)</strong> 
+* **func** **diff**(**refDate**: **[Date](date.md)**): <strong>[Float](../gravity/types.md)</strong> 
 Returns the interval between the receiver and the reference Date parameter. If the receiver is earlier than reference Date, the return value is negative.
 
-* **func** **isEqualToDateIgnoringTime**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isEqualToDateIgnoringTime**(**refDate**: **[Date](date.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date object is equal to a reference Date ignoring the time value.
 
 * **func** **isToday**(): <strong>[Bool](../gravity/types.md)</strong> 
@@ -134,7 +134,7 @@ Returns a Boolean value that indicates whether a given Date is set to tomorrow.
 * **func** **isYesterday**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date is set to yesterday.
 
-* **func** **isSameWeekAsDate**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isSameWeekAsDate**(**refDate**: **[Date](date.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date object has the same week as a reference Date.
 
 * **func** **isThisWeek**(): <strong>[Bool](../gravity/types.md)</strong> 
@@ -146,7 +146,7 @@ Returns a Boolean value that indicates whether a given Date is set to next week.
 * **func** **isLastWeek**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date is set to last week.
 
-* **func** **isSameMonthAsDate**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isSameMonthAsDate**(**refDate**: **[Date](date.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date object has the same month than a reference Date.
 
 * **func** **isThisMonth**(): <strong>[Bool](../gravity/types.md)</strong> 
@@ -158,7 +158,7 @@ Returns a Boolean value that indicates whether a given Date is set to next month
 * **func** **isLastMonth**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date is set to last month.
 
-* **func** **isSameYearAsDate**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isSameYearAsDate**(**refDate**: **[Date](date.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date object has the same year as a reference Date.
 
 * **func** **isThisYear**(): <strong>[Bool](../gravity/types.md)</strong> 
@@ -170,10 +170,10 @@ Returns a Boolean value that indicates whether a given Date is set to next year.
 * **func** **isLastYear**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date is set to last year.
 
-* **func** **isEarlierThanDate**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isEarlierThanDate**(**refDate**: **[Date](date.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date object is earlier than a reference Date.
 
-* **func** **isLaterThanDate**(**refDate**: <strong>[Date](date.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isLaterThanDate**(**refDate**: **[Date](date.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date object is later thana reference Date.
 
 * **func** **isInFuture**(): <strong>[Bool](../gravity/types.md)</strong> 
@@ -182,37 +182,37 @@ Returns a Boolean value that indicates whether a given Date is set to sometime i
 * **func** **isInPast**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether a given Date is set to sometime in the past.
 
-* **func** **dateByAddingYears**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateByAddingYears**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by adding reference years to the current date.
 
-* **func** **dateBySubtractingYears**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateBySubtractingYears**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by subtracting reference years to the current date.
 
-* **func** **dateByAddingMonths**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateByAddingMonths**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by adding reference months to the current date.
 
-* **func** **dateBySubtractingMonths**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateBySubtractingMonths**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by subtracting reference months to the current date.
 
-* **func** **dateByAddingDays**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateByAddingDays**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by adding reference days to the current date.
 
-* **func** **dateBySubtractingDays**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateBySubtractingDays**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by subtracting reference days to the current date.
 
-* **func** **dateByAddingHours**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateByAddingHours**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by adding reference hours to the current date.
 
-* **func** **dateBySubtractingHours**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateBySubtractingHours**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by subtracting reference hours to the current date.
 
-* **func** **dateByAddingMinutes**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateByAddingMinutes**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by adding reference minutes to the current date.
 
-* **func** **dateBySubtractingMinutes**(**reference**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Date](date.md)</strong> 
+* **func** **dateBySubtractingMinutes**(**reference**: **[Int](../gravity/types.md)**): <strong>[Date](date.md)</strong> 
 Creates and returns a new Date object set by subtracting reference minutes to the current date.
 
-* **func** **format**(**format**: <strong>[String](../gravity/types.md)</strong>, **timeZone**: <strong>[String](../gravity/types.md) = null</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **format**(**format**: **[String](../gravity/types.md)**, **timeZone**: **[String](../gravity/types.md) = null**): <strong>[String](../gravity/types.md)</strong> 
 Returns a textual representations of the Date. Parameters: <code>format</code> is the date format string (use the <a href="http://www.unicode.org/reports/tr35/tr35-19.html#Date_Format_Patterns">Unicode Date Format Patterns</a>, for example "yyyy-MM-dd HH:mm:ss"), <code>timezone</code> is the name (for example "America/Los_Angeles", see the <code>knownTimeZoneNames</code> class method for more infomation) or the abbreviation (for example "PDT") of the time zone to be used. If unspecified or invalid, the system time zone is used.
 
 

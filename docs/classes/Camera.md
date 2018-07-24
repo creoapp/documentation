@@ -1,4 +1,4 @@
-**super**: [UIView](UIView.md) on iOS
+**super**: **[UIView](UIView.md)** (on iOS)
 
 A Camera object represents a physical capture device and the properties associated with that device. You use a capture device to configure the properties of the underlying hardware. A capture device also provides input data, such as audio or video.
 
@@ -7,10 +7,10 @@ A Camera object represents a physical capture device and the properties associat
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **NewImage**(**image**: <strong>[Image](image.md)</strong>)
+* **NewImage**(**image**: **[Image](image.md)**)
 This event is triggered when a new still picture is available.
 
-* **NewVideo**(**videoPath**: <strong>[String](../gravity/types.md)</strong>)
+* **NewVideo**(**videoPath**: **[String](../gravity/types.md)**)
 This event is triggered when a new recordered movie is available.
 
 * **Unload**()
@@ -90,7 +90,7 @@ Start recording a video.
 * **func** **stopRecording**()
 Stop recording a video.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

@@ -1,4 +1,4 @@
-**super**: [UITableViewCell](UITableViewCell.md) on iOS
+**super**: **[UITableViewCell](UITableViewCell.md)** (on iOS)
 
 This class is reserved and cannot be directly instantiated.
 

@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 
 
@@ -42,17 +42,17 @@ The logical floor of the building in which the user is located. \(read-only\)
 
 ### Initializers
 
-* **func** **Location**(**latitude**: <strong>[Float](../gravity/types.md)</strong>, **longitude**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **Location**(**latitude**: **[Float](../gravity/types.md)**, **longitude**: **[Float](../gravity/types.md)**)
 Description not yet ready.
 
-* **func** **Location**(**latitude**: <strong>[Float](../gravity/types.md)</strong>, **longitude**: <strong>[Float](../gravity/types.md)</strong>, **altitude**: <strong>[Float](../gravity/types.md)</strong>, **horizontalAccuracy**: <strong>[Float](../gravity/types.md)</strong>, **verticalAccuracy**: <strong>[Float](../gravity/types.md)</strong>, **timestamp**: <strong>[Date](date.md)</strong>)
+* **func** **Location**(**latitude**: **[Float](../gravity/types.md)**, **longitude**: **[Float](../gravity/types.md)**, **altitude**: **[Float](../gravity/types.md)**, **horizontalAccuracy**: **[Float](../gravity/types.md)**, **verticalAccuracy**: **[Float](../gravity/types.md)**, **timestamp**: **[Date](date.md)**)
 Description not yet ready.
 
 
 
 ### Methods
 
-* **func** **distanceFromLocation**(**location**: <strong>[Location](Location.md)</strong>): <strong>[Float](../gravity/types.md)</strong> 
+* **func** **distanceFromLocation**(**location**: **[Location](Location.md)**): <strong>[Float](../gravity/types.md)</strong> 
 Returns the distance (in meters) from the receiver’s location to the specified location. This method measures the distance between the two locations by tracing a line between them that follows the curvature of the Earth. The resulting arc is a smooth curve and does not take into account specific altitude changes between the two locations.
 
 

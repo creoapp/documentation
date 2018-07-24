@@ -1,4 +1,4 @@
-**super**: [UIButton](UIButton.md) on iOS
+**super**: **[UIButton](UIButton.md)** (on iOS)
 
 A Button object is a view that executes your custom code in response to user interactions. You communicate the purpose of a button using a text label, an image, or both.
 
@@ -45,44 +45,44 @@ Returns the background image for the current button state. \(read-only\)
 
 ### Initializers
 
-* **func** **Button**(**buttonType**: <strong><a href="#_enum_ButtonType">ButtonType</a></strong>)
+* **func** **Button**(**buttonType**: **<a href="#_enum_ButtonType">ButtonType</a>**)
 Creates and returns a new button of the specified type.
 
 
 
 ### Methods
 
-* **func** **titleForState**(**state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **titleForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[String](../gravity/types.md)</strong> 
 Returns the title associated with the specified state.
 
-* **func** **setTitleForState**(**title**: <strong>[String](../gravity/types.md)</strong>, **state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>)
+* **func** **setTitleForState**(**title**: **[String](../gravity/types.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the title associated with the specified state. At a minimum, you should set the value for the normal state. If a title is not specified for a state, the default behavior is to use the title associated with the normal state. If the value for normal is not set, then the property defaults to a system value.
 
-* **func** **titleColorForState**(**state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>): <strong>[Color](color.md)</strong> 
+* **func** **titleColorForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Color](color.md)</strong> 
 Returns the title color used for the specified state.
 
-* **func** **setTitleColorForState**(**color**: <strong>[Color](color.md)</strong>, **state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>)
+* **func** **setTitleColorForState**(**color**: **[Color](color.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the color of the title to use for the specified state.
 
-* **func** **titleShadowColorForState**(**state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>): <strong>[Color](color.md)</strong> 
+* **func** **titleShadowColorForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Color](color.md)</strong> 
 Returns the shadow color of the title used for the specified state.
 
-* **func** **setTitleShadowColorForState**(**color**: <strong>[Color](color.md)</strong>, **state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>)
+* **func** **setTitleShadowColorForState**(**color**: **[Color](color.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the color of the title shadow to use for the specified state.
 
-* **func** **imageForState**(**state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>): <strong>[Image](image.md)</strong> 
+* **func** **imageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Image](image.md)</strong> 
 Returns the image used for the specified state.
 
-* **func** **setImageForState**(**image**: <strong>[Image](image.md)</strong>, **state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>)
+* **func** **setImageForState**(**image**: **[Image](image.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the image to use for the specified state.
 
-* **func** **backgroundImageForState**(**state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>): <strong>[Image](image.md)</strong> 
+* **func** **backgroundImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Image](image.md)</strong> 
 Returns the background image used for the specified state.
 
-* **func** **setBackgroundImageForState**(**image**: <strong>[Image](image.md)</strong>, **state**: <strong><a href="#_enum_ControlState">ControlState</a></strong>)
+* **func** **setBackgroundImageForState**(**image**: **[Image](image.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the background image to use for the specified state.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 The HTTPServer class provides a small, lightweight, embeddable HTTP server for your applications.
 
@@ -16,19 +16,19 @@ The attempt to start the server has failed.
 * **DidStop**()
 The server has been successfully stopped.
 
-* **DidReceiveRequest**(**method**: <strong>[String](../gravity/types.md)</strong>, **path**: <strong>[String](../gravity/types.md)</strong>, **body**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
+* **DidReceiveRequest**(**method**: **[String](../gravity/types.md)**, **path**: **[String](../gravity/types.md)**, **body**: **[Object](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
 This event is called to get a response for a request. You may return a String containing the HTML code of the response, an url or a file path to redirect the request or the Data to send. If the return value is invalid or null, the HTTPServer will use the default behavior, looking for the requested path in the specified document root.
 
-* **WillSendResponse**(**host**: <strong>[String](../gravity/types.md)</strong>, **method**: <strong>[String](../gravity/types.md)</strong>, **path**: <strong>[String](../gravity/types.md)</strong>, **statusCode**: <strong>[Int](../gravity/types.md)</strong>, **contentLength**: <strong>[Int](../gravity/types.md)</strong>)
+* **WillSendResponse**(**host**: **[String](../gravity/types.md)**, **method**: **[String](../gravity/types.md)**, **path**: **[String](../gravity/types.md)**, **statusCode**: **[Int](../gravity/types.md)**, **contentLength**: **[Int](../gravity/types.md)**)
 Notifies that the server is about to send a respose for a successful request.
 
-* **WillSendResponseError**(**host**: <strong>[String](../gravity/types.md)</strong>, **method**: <strong>[String](../gravity/types.md)</strong>, **path**: <strong>[String](../gravity/types.md)</strong>, **statusCode**: <strong>[Int](../gravity/types.md)</strong>)
+* **WillSendResponseError**(**host**: **[String](../gravity/types.md)**, **method**: **[String](../gravity/types.md)**, **path**: **[String](../gravity/types.md)**, **statusCode**: **[Int](../gravity/types.md)**)
 The server is about to send an error response.
 
-* **DidPublishBonjour**(**domain**: <strong>[String](../gravity/types.md)</strong>, **type**: <strong>[String](../gravity/types.md)</strong>, **name**: <strong>[String](../gravity/types.md)</strong>)
+* **DidPublishBonjour**(**domain**: **[String](../gravity/types.md)**, **type**: **[String](../gravity/types.md)**, **name**: **[String](../gravity/types.md)**)
 The service has been successfully published via Bonjour.
 
-* **DidFailBonjour**(**domain**: <strong>[String](../gravity/types.md)</strong>, **type**: <strong>[String](../gravity/types.md)</strong>, **name**: <strong>[String](../gravity/types.md)</strong>, **errorCode**: <strong>[String](../gravity/types.md)</strong>, **errorDomain**: <strong>[String](../gravity/types.md)</strong>)
+* **DidFailBonjour**(**domain**: **[String](../gravity/types.md)**, **type**: **[String](../gravity/types.md)**, **name**: **[String](../gravity/types.md)**, **errorCode**: **[String](../gravity/types.md)**, **errorDomain**: **[String](../gravity/types.md)**)
 The attempt to publish the service via Bonjour has failed.
 
 * **Unload**()

@@ -1,4 +1,4 @@
-**super**: [DataSet](DataSet.md)
+**super**: **[DataSet](DataSet.md)**
 
 A Preferences object lets you manage persistent app's preferences in a convenient key/value form.
 
@@ -10,7 +10,7 @@ This event is called when the object becames available in the current runtime sy
 * **DidStart**()
 Event raised when DataSet started retrieving data.
 
-* **NewValue**(**value**: <strong>[Object](../gravity/types.md)</strong>)
+* **NewValue**(**value**: **[Object](../gravity/types.md)**)
 Event raised when a new value becomes available.
 
 * **DidFinish**()
@@ -26,10 +26,10 @@ This event is called when the object has been removed from the current runtime s
 
 ### Methods
 
-* **func** **read**(**key**: <strong>[String](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
+* **func** **read**(**key**: **[String](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
 Reads the value specified by a previously saved key.
 
-* **func** **write**(**key**: <strong>[String](../gravity/types.md)</strong>, **value**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **write**(**key**: **[String](../gravity/types.md)**, **value**: **[Object](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether the specified key/value entry has been succesfully written to app's preferences. Accepts and writes properly Map, List, Int, Float, String, Bool and Null objects.
 
 * **func** **reset**()

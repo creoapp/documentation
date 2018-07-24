@@ -1,4 +1,4 @@
-**super**: [UISegmentedControl](UISegmentedControl.md) on iOS
+**super**: **[UISegmentedControl](UISegmentedControl.md)** (on iOS)
 
 A SegmentedControl object is a horizontal control made of multiple segments, each segment functioning as a discrete button. A segmented control affords a compact means to group together a number of controls. A segmented control can display a title (an String object) or an image (Image object). The SegmentedControl object automatically resizes segments to fit proportionally within their superview unless they have a specific width set. When you add and remove segments, you can request that the action be animated with sliding and fading effects.
 
@@ -36,19 +36,19 @@ Array of items presented by the SegmentedControl.
 * **func** **removeAllItems**()
 Removes all items of the receiver.
 
-* **func** **insertItem**(**item**: <strong>[SegmentedControlItem](SegmentedControlItem.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **insertItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Inserts the item at the specified position, optionally animating the transition.
 
-* **func** **addItem**(**item**: <strong>[SegmentedControlItem](SegmentedControlItem.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **addItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Inserts the item at the end of the existing items, optionally animating the transition.
 
-* **func** **removeItemAtIndex**(**index**: <strong>[Int](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **removeItemAtIndex**(**index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Removes the specified item, optionally animating the transition.
 
-* **func** **removeItem**(**item**: <strong>[SegmentedControlItem](SegmentedControlItem.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **removeItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Removes the specified item, optionally animating the transition.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

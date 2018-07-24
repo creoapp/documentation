@@ -1,4 +1,4 @@
-**super**: [UINavigationItem](UINavigationItem.md) on iOS
+**super**: **[UINavigationItem](UINavigationItem.md)** (on iOS)
 
 The items to be displayed by a navigation bar when the associated window is visible.
 

@@ -1,4 +1,4 @@
-**super**: [UIWKWebView](UIWKWebView.md) on iOS
+**super**: **[UIWKWebView](UIWKWebView.md)** (on iOS)
 
 A WebView object displays interactive web content, such as for an in-app browser. You can also use this class to move back and forward in the history of webpages, and you can even set some web content properties programmatically.
 
@@ -10,7 +10,7 @@ This event is called when the object becames available in the current runtime sy
 * **DidStart**()
 This event is called when a mainframe page load starts.
 
-* **DidFail**(**error**: <strong>[String](../gravity/types.md)</strong>)
+* **DidFail**(**error**: **[String](../gravity/types.md)**)
 This event is called when an error occurs while starting to load data for the mainframe.
 
 * **DidStartReceiving**()
@@ -75,10 +75,10 @@ Reloads the current page, performing end-to-end revalidation using cache-validat
 * **func** **stopLoading**()
 Stops loading all resources on the current page.
 
-* **func** **runJavaScript**(**javaScript**: <strong>[String](../gravity/types.md)</strong>, **onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **runJavaScript**(**javaScript**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**)
 Evaluates a JavaScript code.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

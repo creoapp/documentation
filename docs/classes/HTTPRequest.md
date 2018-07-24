@@ -1,4 +1,4 @@
-**super**: [DataSet](DataSet.md)
+**super**: **[DataSet](DataSet.md)**
 
 The HTTPRequest class and the <a href="HTTPClient.html">HTTPClient</a> class enable you to downloading content via HTTP. An HTTPRequest is always part of an <a href="HTTPClient.html">HTTPClient</a> and defines the request specific properties like the HTTP method, the path of the resource with the possibility to use dynamic values for header, path, query and body parameters.
 
@@ -10,7 +10,7 @@ This event is called when the object becames available in the current runtime sy
 * **DidStart**()
 Event raised when DataSet started retrieving data.
 
-* **NewValue**(**value**: <strong>[Object](../gravity/types.md)</strong>)
+* **NewValue**(**value**: **[Object](../gravity/types.md)**)
 Event raised when a new value becomes available.
 
 * **DidFinish**()

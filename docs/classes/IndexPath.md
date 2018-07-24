@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 The IndexPath class represents the path to a specific node in a tree of nested array collections. Each index in an index path represents the index into an array of children from one node in the tree to another, deeper, node.
 
@@ -30,17 +30,17 @@ The number of indexes in the index path. \(read-only\)
 
 ### Initializers
 
-* **func** **IndexPath**(**item**: <strong>[Int](../gravity/types.md)</strong>, **section**: <strong>[Int](../gravity/types.md)</strong>)
+* **func** **IndexPath**(**item**: **[Int](../gravity/types.md)**, **section**: **[Int](../gravity/types.md)**)
 Returns an index-path object initialized with the indexes of a specific item and section.
 
 
 
 ### Methods
 
-* **func** **index**(**position**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **index**(**position**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
 The index at a particular node in the index path.
 
-* **func** **indexPathByAddingIndex**(**index**: <strong>[Int](../gravity/types.md)</strong>): <strong>[IndexPath](IndexPath.md)</strong> 
+* **func** **indexPathByAddingIndex**(**index**: **[Int](../gravity/types.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
 Returns a new index path by adding the new index to the current indexes.
 
 * **func** **indexPathByRemovingLastIndex**(): <strong>[IndexPath](IndexPath.md)</strong> 

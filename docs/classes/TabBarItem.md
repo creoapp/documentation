@@ -1,4 +1,4 @@
-**super**: [UITabBarItem](UITabBarItem.md) on iOS
+**super**: **[UITabBarItem](UITabBarItem.md)** (on iOS)
 
 An item in a tab bar.
 

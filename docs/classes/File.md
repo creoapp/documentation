@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 The File class is an object-oriented wrapper for a file descriptor. You use file handle objects to access data associated with files. You can read, write, and seek within the file.
 
@@ -33,7 +33,7 @@ File current offset. \(read-only\)
 
 ### Class Methods
 
-* **func** **open**(**filePath**: <strong>[Object](../gravity/types.md)</strong>, **mode**: <strong><a href="#_enum_FileMode">FileMode</a> = 0</strong>): <strong>[File](File.md)</strong> 
+* **func** **open**(**filePath**: **[Object](../gravity/types.md)**, **mode**: **<a href="#_enum_FileMode">FileMode</a> = 0**): <strong>[File](File.md)</strong> 
 Opens the specified file using the optional FileMode and returns a File object.
 
 
@@ -52,19 +52,19 @@ Reads the available data up to the end of file or maximum number of bytes. Retur
 * **func** **readString**(): <strong>[String](../gravity/types.md)</strong> 
 Reads the available data up to the end of file or maximum number of bytes. Returns a String object.
 
-* **func** **seekTo**(**position**: <strong>[Int](../gravity/types.md)</strong>)
+* **func** **seekTo**(**position**: **[Int](../gravity/types.md)**)
 Moves the file pointer to the specified offset within the file represented by the receiver.
 
-* **func** **readDataOfLength**(**length**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Data](data.md)</strong> 
+* **func** **readDataOfLength**(**length**: **[Int](../gravity/types.md)**): <strong>[Data](data.md)</strong> 
 Reads data up to the specified number of bytes. Returns a Data object.
 
-* **func** **readStringOfLength**(**length**: <strong>[Int](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **readStringOfLength**(**length**: **[Int](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Reads data up to the specified number of bytes. Returns a String object.
 
-* **func** **writeData**(**data**: <strong>[Data](data.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **writeData**(**data**: **[Data](data.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Writes the specified data to the receiver. Returns true if the operation was successfully.
 
-* **func** **writeString**(**string**: <strong>[String](../gravity/types.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **writeString**(**string**: **[String](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Writes the specified string to the receiver. Returns true if the operation was successfully.
 
 

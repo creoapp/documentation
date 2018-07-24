@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 Defines inset distances for views.
 
@@ -20,7 +20,7 @@ right field.
 
 ### Initializers
 
-* **func** **EdgeInsets**(**top**: <strong>[Float](../gravity/types.md)</strong>, **left**: <strong>[Float](../gravity/types.md)</strong>, **bottom**: <strong>[Float](../gravity/types.md)</strong>, **right**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **EdgeInsets**(**top**: **[Float](../gravity/types.md)**, **left**: **[Float](../gravity/types.md)**, **bottom**: **[Float](../gravity/types.md)**, **right**: **[Float](../gravity/types.md)**)
 Create a new EdgeInsets object.
 
 

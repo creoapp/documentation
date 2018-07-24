@@ -1,4 +1,4 @@
-**super**: [UIView](UIView.md) on iOS
+**super**: **[UIView](UIView.md)** (on iOS)
 
 Display map or satellite imagery from the windows and views of your custom apps.
 
@@ -16,7 +16,7 @@ Tells that an attempt to locate the user’s position failed.
 * **DidStop**()
 Tells that map view stopped tracking the user’s location.
 
-* **LocationDidChange**(**value**: <strong>[Map](../gravity/maps.md)</strong>)
+* **LocationDidChange**(**value**: **[Map](../gravity/maps.md)**)
 The location of the user was updated.
 
 * **Unload**()
@@ -72,10 +72,10 @@ Sets the mode used to track the user location.
 
 ### Methods
 
-* **func** **addAnnotation**(**annotationPoint**: <strong>[MapPointAnnotation](MapPointAnnotation.md)</strong>)
+* **func** **addAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**)
 Adds the specified annotation to the map view.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

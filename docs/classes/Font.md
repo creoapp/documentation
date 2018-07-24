@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 The Font class provides the interface for getting and setting font information. The class provides you with access to the font's characteristics and also provides the system with access to the font’s glyph information, which is used during layout. You use font objects by passing them to methods that accept them as a parameter.
 
@@ -36,19 +36,19 @@ The height of text lines (measured in points). \(read-only\)
 
 ### Class Methods
 
-* **func** **systemFont**(**size**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Font](font.md)</strong> 
+* **func** **systemFont**(**size**: **[Float](../gravity/types.md)**): <strong>[Font](font.md)</strong> 
 Returns the font object used for standard interface items in the specified size.
 
-* **func** **boldSystemFont**(**size**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Font](font.md)</strong> 
+* **func** **boldSystemFont**(**size**: **[Float](../gravity/types.md)**): <strong>[Font](font.md)</strong> 
 Returns the font object used for standard interface items that are rendered in boldface type in the specified size.
 
-* **func** **italicSystemFont**(**size**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Font](font.md)</strong> 
+* **func** **italicSystemFont**(**size**: **[Float](../gravity/types.md)**): <strong>[Font](font.md)</strong> 
 Returns the font object used for standard interface items that are rendered in italic type in the specified size.
 
 * **func** **familyNames**(): <strong>[List](../gravity/lists.md)</strong> 
 Returns an array of font family names available on the system.
 
-* **func** **fontNames**(**familyName**: <strong>[String](../gravity/types.md)</strong>): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **fontNames**(**familyName**: **[String](../gravity/types.md)**): <strong>[List](../gravity/lists.md)</strong> 
 Returns an array of font names available in a particular font family.
 
 * **func** **systemFontSize**(): <strong>[Float](../gravity/types.md)</strong> 
@@ -58,7 +58,7 @@ Returns the size of the standard small system font.
 
 ### Initializers
 
-* **func** **Font**(**name**: <strong>[String](../gravity/types.md)</strong>, **size**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **Font**(**name**: **[String](../gravity/types.md)**, **size**: **[Float](../gravity/types.md)**)
 A new font object with the given PostScript name and point size.
 
 <pre><code class="swift">var font = Font("Helvetica", 12.0);</code></pre>

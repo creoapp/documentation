@@ -1,4 +1,4 @@
-**super**: [DataSet](DataSet.md)
+**super**: **[DataSet](DataSet.md)**
 
 The GPS class is the central point for configuring the delivery of location and heading related events to your app. You use an instance of this class to establish the parameters that determine when location and heading events should be delivered and to start and stop the actual delivery of those events. You can also use a GPS object to retrieve the most recent location and heading data.
 
@@ -7,7 +7,7 @@ The GPS class is the central point for configuring the delivery of location and 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **NewValue**(**value**: <strong>[Map](../gravity/maps.md)</strong>)
+* **NewValue**(**value**: **[Map](../gravity/maps.md)**)
 Event raised when a new value becomes available. The value parameter is map.
 
 * **DidStart**()

@@ -1,4 +1,4 @@
-**super**: [UIToolbar](UIToolbar.md) on iOS
+**super**: **[UIToolbar](UIToolbar.md)** (on iOS)
 
 A toolbar is a control that displays one or more buttons, called toolbar items. A toolbar momentarily highlights or does not change the appearance of an item when tapped. Toolbar images that represent normal and highlighted states of an item derive from the image you set, the image is automatically colored with the toolbar’s tintColor.
 
@@ -30,7 +30,7 @@ The items displayed on the toolbar.
 
 ### Methods
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

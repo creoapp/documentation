@@ -1,4 +1,4 @@
-**super**: [UIView](UIView.md) on iOS
+**super**: **[UIView](UIView.md)** (on iOS)
 
 The Chart class offers a built-in and ready to use control to easely display graphical representation of data. Chart supports five type of graphs representation: Bar, Pie, Line, Area and Scatter.
 
@@ -57,10 +57,10 @@ If true, shows the Y axis labels; otherwise, does not.
 
 ### Methods
 
-* **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md)</strong>)
+* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/types.md)**)
 Reload the content of the chart.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

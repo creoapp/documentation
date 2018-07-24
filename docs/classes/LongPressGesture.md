@@ -1,4 +1,4 @@
-**super**: [UILongPressGestureRecognizer](UILongPressGestureRecognizer.md) on iOS
+**super**: **[UILongPressGestureRecognizer](UILongPressGestureRecognizer.md)** (on iOS)
 
 LongPressGesture is a concrete gesture recognizer that looks for long-press gestures. The user must press one or more fingers on a view and hold them there for a minimum period of time before the action triggers. While down, the user’s fingers may not move more than a specified distance; if they move beyond the specified distance, the gesture fails. Long-press gestures are continuous. The gesture begins (GestureRecognizerState.Began) when the number of allowable fingers (numberOfTouchesRequired) have been pressed for the specified period (minimumPressDuration) and the touches do not move beyond the allowable range of movement (allowableMovement). The gesture recognizer transitions to the Change state whenever a finger moves, and it ends (GestureRecognizerState.Ended) when any of the fingers are lifted.
 
@@ -10,13 +10,13 @@ This event is called when the object becames available in the current runtime sy
 * **Action**()
 This event is called when the object recognizes its gesture or, in some cases, a change in the gesture.
 
-* **ShouldRecognizeSimultaneously**(**otherGesture**: <strong>[UIGestureRecognizer](UIGestureRecognizer.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **ShouldRecognizeSimultaneously**(**otherGesture**: **[UIGestureRecognizer](UIGestureRecognizer.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Asks if two gesture recognizers should be allowed to recognize gestures simultaneously. This event is called when recognition of a gesture by either this gesture recognizer or the other gesture recognizer passed as the parameter would block the other gesture recognizer from recognizing its gesture. Note that returning <i>true</i> is guaranteed to allow simultaneous recognition; returning <i>false</i>, on the other hand, is not guaranteed to prevent simultaneous recognition because the other gesture recognizer's event may return <i>true</i>. The default value is <i>false</i>.
 
 * **ShouldBegin**(): <strong>[Bool](../gravity/types.md)</strong> 
 Asks if a gesture recognizer should begin interpreting touches. This method is called when a gesture recognizer attempts to transition out of the GestureRecognizerState.Possible state. Returning <i>false</i> causes the gesture recognizer to transition to the GestureRecognizerState.Failed state. The default value is <i>true</i>.
 
-* **ShouldReceiveTouch**(**touch**: <strong>[UITouch](UITouch.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **ShouldReceiveTouch**(**touch**: **[UITouch](UITouch.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Ask the delegate if a gesture recognizer should receive an object representing a touch. The default value is true.
 
 * **Unload**()

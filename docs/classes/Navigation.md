@@ -1,4 +1,4 @@
-**super**: [UINavigationController](UINavigationController.md) on iOS
+**super**: **[UINavigationController](UINavigationController.md)** (on iOS)
 
 The Navigation class implements a specialized view controller that manages the navigation of hierarchical content. This navigation interface makes it possible to present your data efficiently and makes it easier for the user to navigate that content. You generally use this class as-is but you may also subclass to customize the class behavior.
 
@@ -65,31 +65,31 @@ A Boolean value indicating whether the title should be displayed in a large form
 
 ### Methods
 
-* **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **open**(**completion**: **[Closure](../gravity/closures.md) = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour .
 
-* **func** **openIn**(**window**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openIn**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **completion**: **[Closure](../gravity/closures.md) = null**)
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation. Example: <code class="swift">TargetWindow.openIn(ContainerWindow);</code>
 
-* **func** **openWindow**(**window**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openWindow**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closures.md) = null**)
 Pushes a Window/Navigation onto the receiver’s stack and updates the display.
 
-* **func** **openModal**(**TransitionStyle**: <strong><a href="#_enum_TransitionStyle">TransitionStyle</a></strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closures.md) = null**)
 Open window modally usign the specified transition style.
 
 * **func** **close**()
 Close window if modally opened.
 
-* **func** **pop**(**animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **pop**(**animated**: **[Bool](../gravity/types.md) = true**)
 Pops the top Windows/Navigations from the navigation stack and updates the display.
 
-* **func** **popToWindow**(**window**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **popToWindow**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Pops Windows/Navigations until the specified Window is at the top of the navigation stack.
 
-* **func** **popToRootWindow**(**animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **popToRootWindow**(**animated**: **[Bool](../gravity/types.md) = true**)
 Pops all the Windows/Navigations on the stack except the root Window/Navigation and updates the display.
 
-* **func** **setNavigationBarHidden**(**hidden**: <strong>[Bool](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **setNavigationBarHidden**(**hidden**: **[Bool](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Sets whether the navigation bar is hidden.
 
 

@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 A Color object represents color and sometimes opacity (alpha value). You can use Color objects to store color data, and during drawing you can use them to set the current fill and stroke colors.
 Many methods require you to specify color data using a Color object, and for general color needs it should be your main way of specifying colors.
@@ -95,39 +95,39 @@ Returns luminance component (only valid if isRGB is true). \(read-only\)
 
 ### Class Methods
 
-* **func** **colorWithPatternImage**(**image**: <strong>[Image](image.md)</strong>): <strong>[Color](color.md)</strong> 
+* **func** **colorWithPatternImage**(**image**: **[Image](image.md)**): <strong>[Color](color.md)</strong> 
 Creates and returns a color object using the specified image. You can use pattern colors to set the fill or stroke color just as you would a solid color. During drawing, the image in the pattern color is tiled as necessary to cover the given area.
 
-* **func** **hsba**(**hue**: <strong>[Float](../gravity/types.md)</strong>, **saturation**: <strong>[Float](../gravity/types.md)</strong>, **brightness**: <strong>[Float](../gravity/types.md)</strong>, **alpha**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Color](color.md)</strong> 
+* **func** **hsba**(**hue**: **[Float](../gravity/types.md)**, **saturation**: **[Float](../gravity/types.md)**, **brightness**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](color.md)</strong> 
 Creates and returns a color object using the specified opacity and HSB color space component values.
 
-* **func** **rgba**(**red**: <strong>[Float](../gravity/types.md)</strong>, **green**: <strong>[Float](../gravity/types.md)</strong>, **blue**: <strong>[Float](../gravity/types.md)</strong>, **alpha**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Color](color.md)</strong> 
+* **func** **rgba**(**red**: **[Float](../gravity/types.md)**, **green**: **[Float](../gravity/types.md)**, **blue**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](color.md)</strong> 
 Creates and returns a color object using the specified opacity and RGB component values.
 
-* **func** **whiteWithAlpha**(**white**: <strong>[Float](../gravity/types.md)</strong>, **alpha**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Color](color.md)</strong> 
+* **func** **whiteWithAlpha**(**white**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](color.md)</strong> 
 Initializes and returns a color object using the specified opacity and grayscale values.
 
 
 
 ### Initializers
 
-* **func** **Color**(**red**: <strong>[Float](../gravity/types.md)</strong>, **green**: <strong>[Float](../gravity/types.md)</strong>, **blue**: <strong>[Float](../gravity/types.md)</strong>, **alpha**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **Color**(**red**: **[Float](../gravity/types.md)**, **green**: **[Float](../gravity/types.md)**, **blue**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**)
 Creates a color object using the specified opacity and RGB component values.
 
-* **func** **Color**(**red**: <strong>[Float](../gravity/types.md)</strong>, **green**: <strong>[Float](../gravity/types.md)</strong>, **blue**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **Color**(**red**: **[Float](../gravity/types.md)**, **green**: **[Float](../gravity/types.md)**, **blue**: **[Float](../gravity/types.md)**)
 Creates a color object using the specified RGB component values (alphs set to 1.0).
 
-* **func** **Color**(**string**: <strong>[String](../gravity/types.md)</strong>)
+* **func** **Color**(**string**: **[String](../gravity/types.md)**)
 Creates a color using the specified HEX string.
 
 
 
 ### Methods
 
-* **func** **hex**(**withAlpha**: <strong>[Bool](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **hex**(**withAlpha**: **[Bool](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Returns hex string representing the color (with an optional alpha value speciafied in the parameter, this method is valid only if isRGB is true).
 
-* **func** **darkerColor**(**amount**: <strong>[Float](../gravity/types.md)</strong>): <strong>[Color](color.md)</strong> 
+* **func** **darkerColor**(**amount**: **[Float](../gravity/types.md)**): <strong>[Color](color.md)</strong> 
 Returns a darker color with the amount specified in the parameter (only valid if isRGB is true).
 
 

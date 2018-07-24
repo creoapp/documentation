@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 A single action to present when the user swipes horizontally in a table row.
 
@@ -7,7 +7,7 @@ A single action to present when the user swipes horizontally in a table row.
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **Action**(**cell**: <strong>[TableViewCell](TableViewCell.md)</strong>, **section**: <strong>[Int](../gravity/types.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>)
+* **Action**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
 This event is called in response to the selection of the row action
 
 * **Unload**()
@@ -33,7 +33,7 @@ The background color for the action button. The default color depends on the sty
 
 ### Initializers
 
-* **func** **TableViewRowAction**(**style**: <strong><a href="#_enum_TableViewRowActionStyle">TableViewRowActionStyle</a></strong>, **title**: <strong>[String](../gravity/types.md)</strong>)
+* **func** **TableViewRowAction**(**style**: **<a href="#_enum_TableViewRowActionStyle">TableViewRowActionStyle</a>**, **title**: **[String](../gravity/types.md)**)
 Create a new TableViewRowAction object.
 
 

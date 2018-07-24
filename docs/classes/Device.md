@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 Use a Device object to get information about the device such as assigned name, device model, operating-system name and version, battery state and device orientation.
 
@@ -63,10 +63,10 @@ Check if current device is an iPad. \(read-only\)
 
 ### Methods
 
-* **func** **sizeInches**(**size**: <strong><a href="#_enum_DeviceSize">DeviceSize</a></strong>): <strong>[Float](../gravity/types.md)</strong> 
+* **func** **sizeInches**(**size**: **<a href="#_enum_DeviceSize">DeviceSize</a>**): <strong>[Float](../gravity/types.md)</strong> 
 Convert a value from the DeviceSize enum to the numeric value of the screen size (diagonal).
 
-* **func** **sizeName**(**size**: <strong><a href="#_enum_DeviceSize">DeviceSize</a></strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **sizeName**(**size**: **<a href="#_enum_DeviceSize">DeviceSize</a>**): <strong>[String](../gravity/types.md)</strong> 
 Convert a value from the DeviceSize enum to its string representation.
 
 

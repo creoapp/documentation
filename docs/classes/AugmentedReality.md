@@ -1,4 +1,4 @@
-**super**: [UIView](UIView.md) on iOS
+**super**: **[UIView](UIView.md)** (on iOS)
 
 Augmented reality is the integration of digital information with the user's environment in real time. Unlike virtual reality, which creates a totally artificial environment, augmented reality uses the existing environment and overlays new information on top of it. CREO offers a built-in and ready to use control to easely add Augmented reality capabilities to your app.
 
@@ -9,7 +9,7 @@ Augmented reality is the integration of digital information with the user's envi
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **LocationDidChange**(**location**: <strong>[Location](Location.md)</strong>)
+* **LocationDidChange**(**location**: **[Location](Location.md)**)
 This event is called when the current location changes.
 
 * **DidReload**()

@@ -1,4 +1,4 @@
-**super**: [UIResponder](UIResponder.md) on iOS
+**super**: **[UIResponder](UIResponder.md)** (on iOS)
 
 This class is reserved and cannot be directly instantiated.
 
@@ -68,19 +68,19 @@ The array of subviews.
 * **func** **refresh**()
 Notify the system that your view’s contents need to be redrawn. This method makes a note of the request and returns immediately. The view is not actually redrawn until the next drawing cycle, at which point all invalidated views are updated.
 
-* **func** **addGestureRecognizer**(**gestureRecognizer**: <strong>[UIGestureRecognizer](UIGestureRecognizer.md)</strong>)
+* **func** **addGestureRecognizer**(**gestureRecognizer**: **[UIGestureRecognizer](UIGestureRecognizer.md)**)
 Attaches a gesture recognizer to the view.
 
-* **func** **removeGestureRecognizer**(**gestureRecognizer**: <strong>[UIGestureRecognizer](UIGestureRecognizer.md)</strong>)
+* **func** **removeGestureRecognizer**(**gestureRecognizer**: **[UIGestureRecognizer](UIGestureRecognizer.md)**)
 Detaches a gesture recognizer from the view.
 
-* **func** **addSubview**(**view**: <strong>[UIView](UIView.md)</strong>)
+* **func** **addSubview**(**view**: **[UIView](UIView.md)**)
 Adds a view to the end of the list of subviews.
 
 * **func** **removeFromSuperview**()
 Unlinks the view from its superview and its window, and removes it from the responder chain.
 
-* **func** **insertSubview**(**view**: <strong>[UIView](UIView.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>)
+* **func** **insertSubview**(**view**: **[UIView](UIView.md)**, **index**: **[Int](../gravity/types.md)**)
 Inserts a subview at the specified index.
 
 

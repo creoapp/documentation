@@ -1,4 +1,4 @@
-**super**: [DataSet](DataSet.md)
+**super**: **[DataSet](DataSet.md)**
 
 The Gyro object is the gateway to the motion services provided by OS. These services provide an app with accelerometer data, rotation rate data, magnetometer data, altitude related data, pedestrian related data, activity type data and other device motion data such as attitude. These types of data originate with a device’s accelerometers and (on some models) its magnetometer, gyroscope and barometer.
 
@@ -12,7 +12,7 @@ This event is called when the object becames available in the current runtime sy
 * **DidStart**()
 Event raised when DataSet started retrieving data.
 
-* **NewValue**(**value**: <strong>[Object](../gravity/types.md)</strong>)
+* **NewValue**(**value**: **[Object](../gravity/types.md)**)
 Event raised when a new value becomes available.
 
 * **DidFinish**()

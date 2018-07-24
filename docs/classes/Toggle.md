@@ -1,4 +1,4 @@
-**super**: [UISwitch](UISwitch.md) on iOS
+**super**: **[UISwitch](UISwitch.md)** (on iOS)
 
 You use the Toggle class to create and manage the On/Off buttons used, for example, in the Settings app for options such as Airplane Mode and Bluetooth. These objects are known as switches. The Toggle class declares a property and a method to control its on/off state. You can customize the appearance of the switch by changing the color used to tint the switch when it is on or off.
 
@@ -7,7 +7,7 @@ You use the Toggle class to create and manage the On/Off buttons used, for examp
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **Changed**(**value**: <strong>[Bool](../gravity/types.md)</strong>)
+* **Changed**(**value**: **[Bool](../gravity/types.md)**)
 Use this event to be notified when value changes.
 
 * **Unload**()
@@ -36,10 +36,10 @@ The image displayed while the switch is in the off position.
 
 ### Methods
 
-* **func** **setOnAnimated**(**value**: <strong>[Bool](../gravity/types.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md)</strong>)
+* **func** **setOnAnimated**(**value**: **[Bool](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md)**)
 Set the state of the switch to On or Off, optionally animating the transition.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

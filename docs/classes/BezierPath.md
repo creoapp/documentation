@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 The BezierPath class lets you define a path consisting of straight and curved line segments and render that path in your views. You use this class initially to specify just the geometry for your path. Paths can define simple shapes such as rectangles, ovals, and arcs or they can define complex polygons that incorporate a mixture of straight and curved line segments. After defining the shape, you can use additional methods of this class to render the path in the current drawing context. Default stroke color is black and default fill color is not set.
 
@@ -48,10 +48,10 @@ Draws a line along the receiver’s path using the current drawing properties. T
 * **func** **fill**()
 Paints the region enclosed by the receiver’s path using the current drawing properties. This method fills the path using the current fill color and drawing properties. If the path contains any open subpaths, this method implicitly closes them before painting the fill region. The painted region includes the pixels right up to, but not including, the path line itself. For paths with large line widths, this can result in overlap between the fill region and the stroked path (which is itself centered on the path line).
 
-* **func** **moveToPoint**(**point**: <strong>[Point](point.md)</strong>)
+* **func** **moveToPoint**(**point**: **[Point](point.md)**)
 Moves the receiver’s current point to the specified location. This method implicitly ends the current subpath (if any) and sets the current point to the value in the point parameter. When ending the previous subpath, this method does not actually close the subpath. Therefore, the first and last points of the previous subpath are not connected to each other.
 
-* **func** **addLineToPoint**(**point**: <strong>[Point](point.md)</strong>)
+* **func** **addLineToPoint**(**point**: **[Point](point.md)**)
 Appends a straight line to the receiver’s path. This method creates a straight line segment starting at the current point and ending at the point specified by the point parameter. After adding the line segment, this method updates the current point to the value in point.
 
 * **func** **close**()
@@ -60,37 +60,37 @@ Closes the most recent subpath. This method closes the current subpath by creati
 * **func** **removeAllPoints**()
 Removes all points from the receiver, effectively deleting all subpaths.
 
-* **func** **fillWithBlendMode**(**blendMode**: <strong><a href="#_enum_BlendMode">BlendMode</a></strong>, **alpha**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **fillWithBlendMode**(**blendMode**: **<a href="#_enum_BlendMode">BlendMode</a>**, **alpha**: **[Float](../gravity/types.md)**)
 Paints the region enclosed by the receiver’s path using the specified blend mode and transparency values.
 
-* **func** **strokeWithBlendMode**(**blendMode**: <strong><a href="#_enum_BlendMode">BlendMode</a></strong>, **alpha**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **strokeWithBlendMode**(**blendMode**: **<a href="#_enum_BlendMode">BlendMode</a>**, **alpha**: **[Float](../gravity/types.md)**)
 Draws a line along the receiver’s path using the specified blend mode and transparency values.
 
-* **func** **containsPoint**(**point**: <strong>[Point](point.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **containsPoint**(**point**: **[Point](point.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether the area enclosed by the receiver contains the specified point.
 
-* **func** **addArc**(**point**: <strong>[Point](point.md)</strong>, **radius**: <strong>[Float](../gravity/types.md)</strong>, **startAngle**: <strong>[Float](../gravity/types.md)</strong>, **endAngle**: <strong>[Float](../gravity/types.md)</strong>, **clockwise**: <strong>[Bool](../gravity/types.md)</strong>)
+* **func** **addArc**(**point**: **[Point](point.md)**, **radius**: **[Float](../gravity/types.md)**, **startAngle**: **[Float](../gravity/types.md)**, **endAngle**: **[Float](../gravity/types.md)**, **clockwise**: **[Bool](../gravity/types.md)**)
 This method adds the specified arc beginning at the current point. The created arc lies on the perimeter of the specified circle. Specifying a start angle of 0 radians, an end angle of π radians, and setting the clockwise parameter to true draws the bottom half of the circle. However, specifying the same start and end angles but setting the clockwise parameter set to false draws the top half of the circle.
 
-* **func** **addCurve**(**point**: <strong>[Point](point.md)</strong>, **controlPoint**: <strong>[Point](point.md)</strong>, **controlPoint2**: <strong>[Point](point.md)</strong>)
+* **func** **addCurve**(**point**: **[Point](point.md)**, **controlPoint**: **[Point](point.md)**, **controlPoint2**: **[Point](point.md)**)
 This method appends a cubic Bézier curve from the current point to the end point specified by the endPoint parameter. The two control points define the curvature of the segment.
 
-* **func** **addQuadCurve**(**point**: <strong>[Point](point.md)</strong>, **controlPoint**: <strong>[Point](point.md)</strong>)
+* **func** **addQuadCurve**(**point**: **[Point](point.md)**, **controlPoint**: **[Point](point.md)**)
 This method appends a quadratic Bézier curve from the current point to the end point specified by the endPoint parameter.
 
-* **func** **addRect**(**rect**: <strong>[Rect](rect.md)</strong>)
+* **func** **addRect**(**rect**: **[Rect](rect.md)**)
 This method appends a rectangular path.
 
-* **func** **addOval**(**rect**: <strong>[Rect](rect.md)</strong>)
+* **func** **addOval**(**rect**: **[Rect](rect.md)**)
 This method appends an oval path inscribed in the specified rectangle.
 
-* **func** **addRoundedRect**(**rect**: <strong>[Rect](rect.md)</strong>, **radius**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **addRoundedRect**(**rect**: **[Rect](rect.md)**, **radius**: **[Float](../gravity/types.md)**)
 This method appends a rounded rectangular path.
 
-* **func** **addRoundedRectWithCorners**(**rect**: <strong>[Rect](rect.md)</strong>, **roundingCorners**: <strong><a href="#_enum_RectCorner">RectCorner</a></strong>, **size**: <strong>[Size](size.md)</strong>)
+* **func** **addRoundedRectWithCorners**(**rect**: **[Rect](rect.md)**, **roundingCorners**: **<a href="#_enum_RectCorner">RectCorner</a>**, **size**: **[Size](size.md)**)
 This method appends a rounded rectangular path by specifying the radius of each corner oval.
 
-* **func** **appendPath**(**path**: <strong>[BezierPath](BezierPath.md)</strong>)
+* **func** **appendPath**(**path**: **[BezierPath](BezierPath.md)**)
 Appends the contents of the specified path object to the receiver’s path.
 
 

@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 Represents a two-dimensional size.
 
@@ -14,7 +14,7 @@ height field.
 
 ### Initializers
 
-* **func** **Size**(**width**: <strong>[Float](../gravity/types.md)</strong>, **height**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **Size**(**width**: **[Float](../gravity/types.md)**, **height**: **[Float](../gravity/types.md)**)
 Create a new Size object.
 
 

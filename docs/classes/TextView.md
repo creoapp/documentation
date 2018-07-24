@@ -1,4 +1,4 @@
-**super**: [UITextView](UITextView.md) on iOS
+**super**: **[UITextView](UITextView.md)** (on iOS)
 
 The TextView class implements the behavior for a scrollable, multiline text region. The class supports the display of text using custom style information and also supports text editing. You typically use a text view to display multiple lines of text, such as when displaying the body of a large text document.
 
@@ -22,7 +22,7 @@ Use this event to be notified when text selection changed in the specified text 
 * **DidScroll**()
 This event is called when the user scrolls the content view.
 
-* **DidEndDragging**(**decelerate**: <strong>[Bool](../gravity/types.md)</strong>)
+* **DidEndDragging**(**decelerate**: **[Bool](../gravity/types.md)**)
 This event is called when dragging ended in the scroll view. The scroll view sends this event when the user’s finger touches up after dragging content. The decelerating property of the scroll view controls deceleration. The decelerate value is true if the scrolling movement will continue, but decelerate, after a touch-up gesture during a dragging operation. If the value is NO, scrolling stops immediately upon touch-up.
 
 * **DidEndDecelerating**()
@@ -78,13 +78,13 @@ The custom accessory view to display when the text view becomes the first respon
 * **func** **hasText**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether the text view currently contains any text.
 
-* **func** **appendText**(**text**: <strong>[String](../gravity/types.md)</strong>)
+* **func** **appendText**(**text**: **[String](../gravity/types.md)**)
 Appends a given string to the receiver.
 
-* **func** **scrollRangeToVisible**(**range**: <strong>[Range](range.md)</strong>)
+* **func** **scrollRangeToVisible**(**range**: **[Range](range.md)**)
 Scrolls the receiver until the text in the specified range is visible.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

@@ -1,4 +1,4 @@
-**super**: [UITableViewHeaderFooterView](UITableViewHeaderFooterView.md) on iOS
+**super**: **[UITableViewHeaderFooterView](UITableViewHeaderFooterView.md)** (on iOS)
 
 This class is reserved and cannot be directly instantiated.
 

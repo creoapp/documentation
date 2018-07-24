@@ -1,4 +1,4 @@
-**super**: [UIAlertController](UIAlertController.md) on iOS
+**super**: **[UIAlertController](UIAlertController.md)** (on iOS)
 
 The Alert class displays a customizable alert message to the user.
 
@@ -13,7 +13,7 @@ Use this event to be notified when navigation is about to be added to a view hie
 * **DidShow**()
 Use this event to be notified when navigation was added to a view hierarchy.
 
-* **Action**(**index**: <strong>[Int](../gravity/types.md)</strong>, **title**: <strong>[String](../gravity/types.md)</strong>)
+* **Action**(**index**: **[Int](../gravity/types.md)**, **title**: **[String](../gravity/types.md)**)
 Use this event to be notified when user selects a button.
 
 * **WillHide**()
@@ -29,23 +29,23 @@ This event is called when the object has been removed from the current runtime s
 
 ### Initializers
 
-* **func** **Alert**(**title**: <strong>[String](../gravity/types.md)</strong>)
+* **func** **Alert**(**title**: **[String](../gravity/types.md)**)
 Create a new Alert message with a specified title.
 
-* **func** **Alert**(**title**: <strong>[String](../gravity/types.md)</strong>, **message**: <strong>[String](../gravity/types.md)</strong>)
+* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**)
 Create a new Alert message with a specified title and message.
 
-* **func** **Alert**(**title**: <strong>[String](../gravity/types.md)</strong>, **message**: <strong>[String](../gravity/types.md)</strong>, **buttons**: <strong>[List](../gravity/lists.md)</strong>)
+* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**, **buttons**: **[List](../gravity/lists.md)**)
 Create a new Alert message with a specified title and message plus an array of buttons titles.
 
-* **func** **Alert**(**title**: <strong>[String](../gravity/types.md)</strong>, **message**: <strong>[String](../gravity/types.md)</strong>, **buttons**: <strong>[List](../gravity/lists.md)</strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**, **buttons**: **[List](../gravity/lists.md)**, **closure**: **[Closure](../gravity/closures.md)**)
 Create a new Alert message with a specified title and message plus an array of buttons titles. The closure parameter enables you to specify an action to be executed when user press a button (button index is passed as parameter).
 
 
 
 ### Methods
 
-* **func** **addActionWithTitle**(**title**: <strong>[String](../gravity/types.md)</strong>)
+* **func** **addActionWithTitle**(**title**: **[String](../gravity/types.md)**)
 Use this method to add a button to a newly created Alert.
 
 * **func** **show**()

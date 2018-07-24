@@ -1,4 +1,4 @@
-**super**: [UISearchBar](UISearchBar.md) on iOS
+**super**: **[UISearchBar](UISearchBar.md)** (on iOS)
 
 The SearchBar class implements a text field control for text-based searches. The control provides a text field for entering text, a search button, a bookmark button, and a cancel button. The SearchBar object does not actually perform any searches. You use the events to implement the actions when text is entered and buttons are clicked.
 
@@ -15,13 +15,13 @@ This event is called when the user begins editing the search text.
 * **DidEndEditing**()
 This event is called when user finished editing the search text.
 
-* **Changed**(**searchText**: <strong>[String](../gravity/types.md)</strong>)
+* **Changed**(**searchText**: **[String](../gravity/types.md)**)
 This event is called to notify that the user changed the search text
 
-* **Action**(**action**: <strong><a href="#_enum_SearchBarAction">SearchBarAction</a></strong>)
+* **Action**(**action**: **<a href="#_enum_SearchBarAction">SearchBarAction</a>**)
 This event is called when a button  was tapped.
 
-* **DidSelectCell**(**selectedScopeIndex**: <strong>[Int](../gravity/types.md)</strong>)
+* **DidSelectCell**(**selectedScopeIndex**: **[Int](../gravity/types.md)**)
 This event is called when the scope button selection changed.
 
 * **Unload**()
@@ -104,7 +104,7 @@ The custom accessory view to display when the text field becomes the first respo
 
 ### Methods
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

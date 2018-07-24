@@ -1,4 +1,4 @@
-**super**: [UISplitViewController](UISplitViewController.md) on iOS
+**super**: **[UISplitViewController](UISplitViewController.md)** (on iOS)
 
 The SplitView class is a container that presents a master-detail interface. In a master-detail interface, changes in the master window drive changes in the detail window. The two windows can be arranged so that they are side-by-side, so that only one at a time is visible, or so that one only partially hides the other. You can use the SplitView class on all devices. When building your app’s user interface, the split view  is typically the root container of your app. The split view has no significant appearance of its own. Most of its appearance is defined by the child windows you set.
 
@@ -69,17 +69,17 @@ The width (in points) of the primary view controller’s content. \(read-only\)
 
 ### Methods
 
-* **func** **open**(**completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **open**(**completion**: **[Closure](../gravity/closures.md) = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour.
 
-* **func** **openIn**(**window**: <strong>[Window](window.md) or [Navigation](navigation.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openIn**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **completion**: **[Closure](../gravity/closures.md) = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
-* **func** **openDetailWindowAtIndex**(**index**: <strong>[Int](../gravity/types.md)</strong>)
+* **func** **openDetailWindowAtIndex**(**index**: **[Int](../gravity/types.md)**)
 Open the detail window of the PageSplit at the specified index. The first window inside a PageSplit is used as the <i>master</i> window, the next window(s) will be used as <i>detail</i> window(s). If the PageSplit has more than one detail window then this method opens the window at the specified index from the array of configured windows (skipping the first <i>master</i> window). If the PageSplit is configured with two subwindows - one master and one details - this method opens the detail window and set the value of the <i>index</i> parameter to the <i>rowIndex</i> property of the first custom <i>View</i> inside the detail window.
 
-* **func** **openModal**(**TransitionStyle**: <strong><a href="#_enum_TransitionStyle">TransitionStyle</a></strong>, **completion**: <strong>[Closure](../gravity/closures.md) = null</strong>)
+* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closures.md) = null**)
 Open window modally usign the specified transition style.
 
 * **func** **close**()

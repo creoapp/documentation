@@ -1,4 +1,4 @@
-**super**: [DataSet](DataSet.md)
+**super**: **[DataSet](DataSet.md)**
 
 This class is reserved and cannot be directly instantiated.
 
@@ -10,7 +10,7 @@ Rows and columns are 0-based indexed.
 * **DidStart**()
 Event raised when DataSet started retrieving data.
 
-* **NewValue**(**value**: <strong>[Object](../gravity/types.md)</strong>)
+* **NewValue**(**value**: **[Object](../gravity/types.md)**)
 Event raised when a new value becomes available.
 
 * **DidFinish**()
@@ -42,22 +42,22 @@ Number of columns in the RecordSet. \(read-only\)
 * **func** **run**()
 Perform query specified in the current RecordSet (specified by the sql property).
 
-* **func** **columnType**(**index**: <strong>[Int](../gravity/types.md)</strong>): <strong><a href="#_enum_DatabaseFieldType">DatabaseFieldType</a></strong> 
+* **func** **columnType**(**index**: **[Int](../gravity/types.md)**): <strong><a href="#_enum_DatabaseFieldType">DatabaseFieldType</a></strong> 
 Returns column type specified by the index parameter.
 
-* **func** **columnName**(**index**: <strong>[Int](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **columnName**(**index**: **[Int](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Returns column name specified by the index parameter.
 
-* **func** **stringValue**(**index**: <strong>[Int](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **stringValue**(**index**: **[Int](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Returns column value converted to String specified by the index parameter.
 
-* **func** **blobValue**(**index**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Data](data.md)</strong> 
+* **func** **blobValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Data](data.md)</strong> 
 Returns column value (not converted) specified by the index parameter.
 
 * **func** **isCached**(): <strong>[Bool](../gravity/types.md)</strong> 
 Check if RecordSet is actually in cache (and moveTo method can be used).
 
-* **func** **moveTo**(**index**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **moveTo**(**index**: **[Int](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Move current record pointer specified by the index parameter. Returns true is operation succedd.
 
 * **func** **moveNext**(): <strong>[Bool](../gravity/types.md)</strong> 

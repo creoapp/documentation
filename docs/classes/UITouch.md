@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 This class is reserved and cannot be directly instantiated.
 
@@ -17,7 +17,7 @@ The view to which touches are being delivered, if any. \(read-only\)
 
 ### Methods
 
-* **func** **locationInView**(**view**: <strong>[UIView](UIView.md)</strong>): <strong>[Point](point.md)</strong> 
+* **func** **locationInView**(**view**: **[UIView](UIView.md)**): <strong>[Point](point.md)</strong> 
 Returns the current location of the touch in the coordinate system of the given view.
 
 

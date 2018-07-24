@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 The Crypto module provides cryptographic functionality.
 
@@ -14,16 +14,16 @@ This event is called when the object has been removed from the current runtime s
 
 ### Class Methods
 
-* **func** **md5**(**string**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **md5**(**string**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Compute MD5 digest algorithm.
 
-* **func** **sha1**(**string**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **sha1**(**string**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Compute SHA1 digest algorithm.
 
-* **func** **sha256**(**string**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **sha256**(**string**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Compute SHA256 digest algorithm.
 
-* **func** **sha512**(**string**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **sha512**(**string**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Compute SHA512 digest algorithm.
 
 * **func** **UUID**(): <strong>[String](../gravity/types.md)</strong> 

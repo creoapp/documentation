@@ -1,4 +1,4 @@
-**super**: [Object](Object.md)
+**super**: **[Object](Object.md)**
 
 Represents a point in a Cartesian coordinate system.
 
@@ -14,7 +14,7 @@ y coordinate.
 
 ### Initializers
 
-* **func** **Point**(**x**: <strong>[Float](../gravity/types.md)</strong>, **y**: <strong>[Float](../gravity/types.md)</strong>)
+* **func** **Point**(**x**: **[Float](../gravity/types.md)**, **y**: **[Float](../gravity/types.md)**)
 Create a new Point object.
 
 

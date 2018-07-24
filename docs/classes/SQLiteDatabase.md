@@ -1,4 +1,4 @@
-**super**: [Database](Database.md)
+**super**: **[Database](Database.md)**
 
 SQLite is an embedded relational database management system. It is ACID-compliant and implements most of the SQL standard, using a dynamically and weakly typed SQL syntax. SQLite is a popular choice as embedded database software for local/client storage in application software such as web browsers. It is arguably the most widely deployed database engine, as it is used today by several widespread browsers, operating systems, and embedded systems (such as mobile phones), among others.
 
@@ -57,38 +57,38 @@ A flag to check if current database engines supports schemas. \(read-only\)
 
 ### Class Methods
 
-* **func** **open**(**srcfile**: <strong>[Object](../gravity/types.md)</strong>): <strong>[Object](../gravity/types.md)</strong> 
+* **func** **open**(**srcfile**: **[Object](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
 Initializes and returns the SQLiteDatabase object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
 
 
 ### Methods
 
-* **func** **connect**(**onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **connect**(**onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
 Connect to the specified database.
 
-* **func** **select**(**sql**: <strong>[String](../gravity/types.md)</strong>, **onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
+* **func** **select**(**sql**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
 Perform a SQL query.
 
-* **func** **execute**(**sql**: <strong>[String](../gravity/types.md)</strong>, **onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **execute**(**sql**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
 Execute a INSERT, UPDATE, DELETE SQL statement.
 
-* **func** **schemas**(**onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
+* **func** **schemas**(**onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
 Retrieve a list of database schemas.
 
-* **func** **tables**(**onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
+* **func** **tables**(**onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
 Retrieve a list of database tables.
 
-* **func** **tablesWithSchema**(**schema**: <strong>[String](../gravity/types.md)</strong>, **onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **tablesWithSchema**(**schema**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[List](../gravity/lists.md)</strong> 
 Retrieve a list of database tables within the specified schema.
 
-* **func** **columnsForTableAndSchema**(**table**: <strong>[String](../gravity/types.md)</strong>, **schema**: <strong>[String](../gravity/types.md)</strong>, **extended**: <strong>[Bool](../gravity/types.md)</strong>, **onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **columnsForTableAndSchema**(**table**: **[String](../gravity/types.md)**, **schema**: **[String](../gravity/types.md)**, **extended**: **[Bool](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[List](../gravity/lists.md)</strong> 
 Retrieve information about a given table in the specified schema.
 
 * **func** **close**()
 Close connection to the database.
 
-* **func** **escape**(**identifier**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **escape**(**identifier**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Escape an identifier.
 
 

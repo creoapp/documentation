@@ -1,4 +1,4 @@
-**super**: [Database](Database.md)
+**super**: **[Database](Database.md)**
 
 PostgreSQL is an object-relational database management system with an emphasis on extensibility and standards-compliance. As a database server, its primary function is to store data securely and to allow for retrieval at the request of other software applications. It can handle workloads ranging from small single-machine applications to large Internet-facing applications with many concurrent users.
 
@@ -71,31 +71,31 @@ A flag to check if current database engines supports schemas. \(read-only\)
 
 ### Methods
 
-* **func** **connect**(**onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **connect**(**onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
 Connect to the specified database.
 
-* **func** **select**(**sql**: <strong>[String](../gravity/types.md)</strong>, **onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[PostgreSQLRecordSet](PostgreSQLRecordSet.md)</strong> 
+* **func** **select**(**sql**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[PostgreSQLRecordSet](PostgreSQLRecordSet.md)</strong> 
 Perform a SQL query.
 
-* **func** **execute**(**sql**: <strong>[String](../gravity/types.md)</strong>, **onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **execute**(**sql**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
 Execute a INSERT, UPDATE, DELETE SQL statement.
 
-* **func** **schemas**(**onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[PostgreSQLRecordSet](PostgreSQLRecordSet.md)</strong> 
+* **func** **schemas**(**onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[PostgreSQLRecordSet](PostgreSQLRecordSet.md)</strong> 
 Retrieve a list of database schemas.
 
-* **func** **tables**(**onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[PostgreSQLRecordSet](PostgreSQLRecordSet.md)</strong> 
+* **func** **tables**(**onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[PostgreSQLRecordSet](PostgreSQLRecordSet.md)</strong> 
 Retrieve a list of database tables.
 
-* **func** **tablesWithSchema**(**schema**: <strong>[String](../gravity/types.md)</strong>, **onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **tablesWithSchema**(**schema**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[List](../gravity/lists.md)</strong> 
 Retrieve a list of database tables within the specified schema.
 
-* **func** **columnsForTableAndSchema**(**table**: <strong>[String](../gravity/types.md)</strong>, **schema**: <strong>[String](../gravity/types.md)</strong>, **extended**: <strong>[Bool](../gravity/types.md)</strong>, **onSuccess**: <strong>[Closure](../gravity/closures.md) = null</strong>, **onError**: <strong>[Closure](../gravity/closures.md) = null</strong>): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **columnsForTableAndSchema**(**table**: **[String](../gravity/types.md)**, **schema**: **[String](../gravity/types.md)**, **extended**: **[Bool](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[List](../gravity/lists.md)</strong> 
 Retrieve information about a given table in the specified schema.
 
 * **func** **close**()
 Close connection to the database.
 
-* **func** **escape**(**identifier**: <strong>[String](../gravity/types.md)</strong>): <strong>[String](../gravity/types.md)</strong> 
+* **func** **escape**(**identifier**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Escape an identifier.
 
 

@@ -1,4 +1,4 @@
-**super**: [UICollectionView](UICollectionView.md) on iOS
+**super**: **[UICollectionView](UICollectionView.md)** (on iOS)
 
 The CollectionView class manages an ordered collection of data items and presents them using customizable layouts. Collection views provide the same general function as <a href="TableView.html">TableView(s)</a> except that a collection view is able to support more than just single-column layouts. The collection view presents items onscreen using the built-in cell or a user-defined <a href="CustomView.html">CustomView</a>.
 
@@ -7,28 +7,28 @@ The CollectionView class manages an ordered collection of data items and present
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **CellSize**(**section**: <strong>[Int](../gravity/types.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Size](size.md)</strong> 
+* **CellSize**(**section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**): <strong>[Size](size.md)</strong> 
 This event asks for the size of the specified item’s cell. If you do not implement this method, the collection view uses the values in its itemSize property to set the size of items instead. Your implementation of this method can return a fixed set of sizes or dynamically adjust the sizes based on the cell’s content. Only applies to the normal flow layout type.
 
-* **DidSelectCell**(**cell**: <strong>[CollectionViewCell](CollectionViewCell.md)</strong>, **section**: <strong>[Int](../gravity/types.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>)
+* **DidSelectCell**(**cell**: **[CollectionViewCell](CollectionViewCell.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
 This event is called when the specified cell is selected.
 
-* **DidDeselectCell**(**cell**: <strong>[CollectionViewCell](CollectionViewCell.md)</strong>, **section**: <strong>[Int](../gravity/types.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>)
+* **DidDeselectCell**(**cell**: **[CollectionViewCell](CollectionViewCell.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
 This event is called when the specified cell is deselected.
 
-* **ShouldShowMenu**(**section**: <strong>[Int](../gravity/types.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>)
+* **ShouldShowMenu**(**section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
 Asks if an action menu should be displayed for the specified item. This event is not called in the Creo simulator for Mac.
 
-* **CanPerformAction**(**action**: <strong>[String](../gravity/types.md)</strong>, **section**: <strong>[Int](../gravity/types.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>)
+* **CanPerformAction**(**action**: **[String](../gravity/types.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
 Asks if it can perform the specified action on an item in the collection view. This method is invoked after the ShouldShowMenu event. It gives you the opportunity to exclude commands from the editing menu. For example, the user might have copied some content from one item and wants to paste it into another item that cannot accept the content. In such a case, your method could return false to prevent the display of the relevant command. The default actions are <code>cut:</code>, <code>copy:</code> and <code>paste:</code>. This event is not called in the CREO simulator for Mac.
 
-* **PerformAction**(**action**: <strong>[String](../gravity/types.md)</strong>, **section**: <strong>[Int](../gravity/types.md)</strong>, **index**: <strong>[Int](../gravity/types.md)</strong>)
+* **PerformAction**(**action**: **[String](../gravity/types.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
 This event lets you perform the specified action on an item in the collection view. This event is not called in the Creo simulator for Mac.
 
 * **DidScroll**()
 This event is called when the user scrolls the content view.
 
-* **DidEndDragging**(**decelerate**: <strong>[Bool](../gravity/types.md)</strong>)
+* **DidEndDragging**(**decelerate**: **[Bool](../gravity/types.md)**)
 This event is called when dragging ended in the scroll view. The scroll view sends this event when the user’s finger touches up after dragging content. The decelerating property of the scroll view controls deceleration. The decelerate value is true if the scrolling movement will continue, but decelerate, after a touch-up gesture during a dragging operation. If the value is NO, scrolling stops immediately upon touch-up.
 
 * **DidEndDecelerating**()
@@ -77,22 +77,22 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 
 ### Methods
 
-* **func** **reload**(**reloadDataSet**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/types.md) = true**)
 Reloads the content of the collection view.
 
 * **func** **numberOfSections**(): <strong>[Int](../gravity/types.md)</strong> 
 Returns the number of sections displayed by the collection view.
 
-* **func** **numberOfItemsInSection**(**section**: <strong>[Int](../gravity/types.md)</strong>): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **numberOfItemsInSection**(**section**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
 Returns the number of items in the specified section.
 
-* **func** **selectItem**(**indexPath**: <strong>[IndexPath](IndexPath.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>, **scrollPosition**: <strong><a href="#_enum_CollectionViewScrollPosition">CollectionViewScrollPosition</a> = 0</strong>)
+* **func** **selectItem**(**indexPath**: **[IndexPath](IndexPath.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **scrollPosition**: **<a href="#_enum_CollectionViewScrollPosition">CollectionViewScrollPosition</a> = 0**)
 Selects the item at the specified index path and optionally scrolls it into view.
 
-* **func** **deselectItem**(**indexPath**: <strong>[IndexPath](IndexPath.md)</strong>, **animated**: <strong>[Bool](../gravity/types.md) = true</strong>)
+* **func** **deselectItem**(**indexPath**: **[IndexPath](IndexPath.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Deselects the item at the specified index.
 
-* **func** **animate**(**duration**: <strong>[Float](../gravity/types.md)</strong>, **delay**: <strong>[Float](../gravity/types.md)</strong>, **options**: <strong><a href="#_enum_AnimationOption">AnimationOption</a></strong>, **closure**: <strong>[Closure](../gravity/closures.md)</strong>, **completion**: <strong>[Closure](../gravity/closures.md)</strong>)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
