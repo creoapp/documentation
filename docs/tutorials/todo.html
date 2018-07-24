@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Creo ToDo class description">
+    <title>Creo: ToDo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+    <link rel="stylesheet" href="../scripts/highlight/styles/github-gist.css">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+     <nav class="navbar navbar-default navbar-fixed-top">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="http://creolabs.com"><img src="../images/logo.png" width="36" height="36" alt="Creolabs"></a>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+             <li><a href="../creo/what-is-creo.html">Creo</a></li>
+             <li><a href="../classes/ActivityIndicator.html">Classes</a></li>
+             <li><a href="../gravity/getting-started.html">Gravity</a></li>
+             <li class="active"><a href="../tutorials/lets-cook-nav.html">Tutorials</a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </nav>
+
+     <div class="container body-container">
+       <div class="main-content">
+       	<div class="row">
+       		<div class="col-sm-3 border-right section-left">
+       			<div saveheight="1" class="sidebar-nav">
+       			<h4>TUTORIALS</h4>
+				<ul>
+					<li><a href="browser.html"><span>Browser</span></a></li>
+					<li><a href="lets-cook-nav.html"><span>Lets Cook Nav</span></a></li>
+					<li><a href="lets-cook-split.html"><span>Lets Cook Split</span></a></li>
+					<li><a href="spotify.html"><span>Spotify</span></a></li>
+					<li><a href="ebook.html"><span>eBook</span></a></li>
+					<li><a href="heart-rate.html"><span>Heart Rate</span></a></li>
+					<li><a href="photo-gallery.html"><span>Photo Gallery</span></a></li>
+					<li><a href="file-manager.html"><span>File Manager</span></a></li>
+					<li><a href="gesture-recognizer.html"><span>Gesture Recognizer</span></a></li>
+					<li><a href="freehand-drawing.html"><span>Freehand Drawing</span></a></li>
+					<li><a href="todo.html" class="active"><span>ToDo</span></a></li>
+				</ul>
+
+       			</div>
+       		</div>
+
+       		<div class="col-sm-9 border-left section-right">
+         	<h1 class="section-header">ToDo</h1>
+			<hr>
+			
+			<!-- INTRO -->			
+			<p class="section-content">
+			<span class="label label-tutorial">Concepts</span><br>
+			<ul style="list-style: none;">
+			<li>The ToDo tutorial implements a simple productivity app that it is able to handle tasks and subtasks. It will show you how to manage (read and write) data contained into a sqlite database and it will introduce you nice features like bindings and window's transactions.
+			</li>
+			</ul>
+			<br>
+			</p>
+			
+			<!-- ABOUT -->			
+			<p class="section-content">
+			<span class="label label-tutorial">Database</span><br>
+			<ul style="list-style: none;">
+			<li>In this simple tutorial we have prepared a pre-filled sqlite database that contains two tables:</li>
+			<li><strong>Task</strong> (id INT PRIMARY KEY, name TEXT, color TEXT).</li>
+			<li><strong>Subtask</strong> (id INT PRIMARY KEY, task_id INT, name TEXT).</li>
+			<li>Each subtask is related to its main task by the task_id field. The color field in the Task table is of type TEXT because Creo has built-in color conversion capabilities between an hex string and a color.</li>
+			</ul>
+			<br>
+			</p>
+			
+			<!-- OVERVIEW -->			
+			<p class="section-content">
+			<span class="label label-tutorial">Overview</span><br>
+			<ul style="list-style: none;">
+			<li>ToDo application will have three windows. Window1 will be used to list all the main tasks from the Tasks table. Window2 will list all the subtasks related to the task selected by the user in Window1. Window3 will be used to create new task with an associated color. Window3 will be a modal window opened when the user will press the + button from the Window1 navigation bar.
+			</li>
+			</ul>
+			<br>
+			</p>
+			
+			<!-- USED CLASSES -->		
+			<p class="section-content">
+			<span class="label label-tutorial">Classes</span><br>
+			<ul style="list-style: none;">
+				<li><a href="../classes/SQLiteDatabase.html">SQLite Database</a></li>
+				<li><a href="../classes/SQLiteRecordSet.html">SQLite RecordSet</a></li>
+				<li><a href="../classes/CustomView.html">CustomView</a></li>
+				<li><a href="../classes/TableView.html">TableView</a></li>
+				<li><a href="../classes/Binding.html">Binding</a></li>
+				<li><a href="../classes/TextField.html">TextField</a></li>
+				<li><a href="../classes/View.html">View</a></li>
+			</ul>
+			<br>
+			</p>
+						
+			<!-- ASSETS TO DOWNLOAD -->
+			<p class="section-content">
+			<span class="label label-tutorial">Assets</span><br>
+			<ul style="list-style: none;">
+			<li><a href="../assets/todo_assets.zip">todo SQLite database</a></li>
+			</ul>
+			<br>
+			</p>
+			
+			<!-- TUTORIAL -->
+			<p class="section-content">
+			<span class="number-badge"><span>1</span></span> Create a new empty Creo project and start by dragging the todo.sqlite database into the Assets folder (then press Yes to the object conversion question).
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>2</span></span> Create a new <strong>database query</strong> object by selecting "New Database Query" from the database contextual menu:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-2.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>3</span></span> In the Query Editor just drag the Task table into the SQL edit field and the sql query will be automatically created for you (you can also manually enter it). You can optionally press the Run button to test the result of your query:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-3.png" width="800" height="584" alt="todo">
+			<br>
+			Rename Query to TaskQuery.
+			<br><br>
+			<span class="number-badge"><span>4</span></span> Create another <strong>database query</strong> object. In the Query Editor drag the Subtask table into the SQL edit field and then modify it to "SELECT * FROM main."Subtask" WHERE task_id=1;" (we use 1 as an example just to be able to visualize the query at design time) but at runtime that query will change the task_id according to user's selection):
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-4.png" width="800" height="584" alt="todo">
+			<br>
+			Rename Query to SubtaskQuery.
+			<br><br>
+			<span class="number-badge"><span>5</span></span> Create a CustomView by dragging a View object from the Object panel to the Templates folder:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-5.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>6</span></span> Rename CustomView to CategoryView and the modify its frame with width:375 height:46. Drop a RectShape and a Label into the CustomView and apply to them the following settings from the Inspector:<br>
+			<ul style="list-style: none;">
+			<li>RectShape1 x:6, y:6, width: 4, height:35</li>
+			<li>RectShape1 tickness: 0</li>
+			<li>Label1 x:16, y:1, width: 309, height:44</li>
+			</ul>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-6.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>7</span></span> A CustomView is an object and so it can have its own properties and methods. It is now time to expose some properties to the outside. Select the Exposed Properties panel from the Inspector and drag the binding knob from the RectShape1. Configure the exposed property to be named <strong>Color</strong> and to be internally bound to the <strong>RectShape1.fillColor</strong> property: 
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-7.png" width="800" height="582" alt="todo">
+			<br>
+			<span class="number-badge"><span>8</span></span> Do the same for the Label and drag the binding knob from the Label1 to the Exposed Properties Inspector. Configure the exposed property to be named <strong>Name</strong> and to be internally bound to the <strong>Label1.text</strong> property:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-8.png" width="800" height="582" alt="todo">
+			<br>
+			<span class="number-badge"><span>9</span></span> Our CategoryView object is now ready to be used. Drag a TableView control from the Objects panel into the Window1 and resize it to be as big as the Window:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-9.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>10</span></span> <strong>Here is where the magic happens.</strong> Connect your TableView with a CustomView and a DataSet. All you have to do is to configure the Cell and Cell Properties sections into the Inspector. Identifier is a cell property that should be used to bind DataSet unique identifier, in the case of a database it is usually its primary key column. Name and Color are the two properties you just exposed from the CategoryView custom view.
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-10.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>11</span></span> As you can see from the Navigation Bar, the Window1 title is inherited from the current window name. It would be better to have a more appropriate title. Select Window1 and change the property Title in the Navigation Bar section to ToDo.
+			<br><br>
+			<span class="number-badge"><span>12</span></span> Time for NavigationBar customization. Select Navigation1 and set Title Attributes color and Tint Color to 656565FF.
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-11.png" width="800" height="583" alt="todo">
+			<br>
+			<span class="number-badge"><span>13</span></span> Select Window1 and in Navigation Items add a new System Add right button.
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-12.png" width="800" height="584" alt="todo">
+			<br>
+			
+			<!-- WINDOW 2 -->
+			<span class="number-badge"><span>14</span></span> The first Task window is now completed, we now need to create a window that can contains the subtasks of the selected task. Start by creating a new Window:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-13.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>15</span></span> Drop a TextField (TextField1) control into Window2 and set the following properties:
+			<ul>
+			<li><strong>Placeholder:</strong> New Entry...</li>
+			<li><strong>Border Style:</strong> None</li>
+			<li><strong>Frame:</strong> (5, 64, 344, 30)</li>
+			</ul>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-14.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>16</span></span> Drop a Button (Button1) control into Window2 and set the following properties:
+			<ul>
+			<li><strong>Title:</strong> +</li>
+			<li><strong>Typography:</strong> size: 18, color: C0C0C0FF</li>
+			<li><strong>Frame:</strong> (351, 70, 24, 24)</li>
+			</ul>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-15.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>17</span></span> Drop a TableView (TableView1) control into Window2 and set the following properties:
+			<ul>
+			<li><strong>Cell Template:</strong> Subtitle</li>
+			<li><strong>Cell DataSet:</strong> todo.SubtaskQuery</li>
+			<li><strong>Height:</strong> 44</li>
+			<li><strong>Cell Properties Text:</strong> name</li>
+			<li><strong>Cell Properties Identifier:</strong> id</li>
+			<li><strong>Frame:</strong> (0, 94, 375, 573)</li>
+			</ul>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-16.png" width="800" height="584" alt="todo">
+			<br>
+			Select Window2 and change its Title under Navigation Bar to Details.
+			<br><br>
+			<span class="number-badge"><span>18</span></span> So far so good but there are some important steps missed out from our tutorial. A way to connect user's selection in Window1 to sub-tasks details in Window2, a way to create new subtasks and a way to remove a subtask from the list. Let's start from the beginning.<br><br>
+			What we would like to achieve is to list all the subtasks related to the task the user selected in Window1, so we need a way to tell Window2 what task the user selected. A Window is an object (like any others in Creo) that can have methods and properties and a property is what we really need here. Start by selecting Window2 and then open the Code Editor.<br><br>
+			To create a new property press the <strong>+</strong> button near the Properties label. A var1 <strong>property</strong> is created, rename it to <strong>identifier</strong> (editing its name near the var label).
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-17.png" width="800" height="584" alt="todo">
+			<br>
+			Window2 object has now an <strong>identifier</strong> property that you can access via code using the dot notation: <strong>Window2.identifier</strong>. This property will be used to store the identifier of the selected task from Window1.
+			<br><br>
+			<span class="number-badge"><span>19</span></span> We now need to find a way to be notified every time a user selects a row into a TableView. If you read the <a href="../classes/TableView.html">TableView</a> documentation you can see that it has a <strong>DidSelectCell</strong> event. So, select TableView1 inside Window1, expand the Events tab and select the DidSelectCell event.<br><br>The first parameter is the cell that the user selected and it has an identifier property (bound to the query identifier in this case). Write the following code to set Window2 identifier property and to open Window2 inside the current navigation (if any):
+			<pre><code class="swift">
+			Window2.identifier = cell.identifier;
+			Window2.open();</code></pre>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-18.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>20</span></span> With the above code each time a user selects a row into the TableView1, the Window2 identifier property is set to the cell's identifier and Window2 is then opened. We now need to perform a query to extract the right row from the database based on this identifier. If you read the <a href="../classes/Window.html">Window</a> documentation you can see that it has a <strong>WillShow</strong> event called each time the Window is about to be displayed. It seems the perfect place to write our code. So, select Window2, expand the Events tab and select the WillShow event.<br><br>The following code will perform a new query based on the current identifier property:
+			<pre><code class="swift">
+			// build sql based on identifier instance variable set by Window1
+			var sql = "SELECT * FROM Subtask WHERE task_id=\(identifier);";
+			
+			// update query sql and re-run it
+			// there is no need to tell TableView1 to reload its DataSet
+			todo.SubtaskQuery.sql = sql;
+			todo.SubtaskQuery.run();
+			
+			// reset editfield
+			TextField1.text = "";
+			</code></pre>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-19.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>21</span></span> At this point we should start adding code to write to the sqlite database because we would need to both delete a subtask and add a new one in Window2. We could write all the sql write statement into the various actions (as we did in the previous WillShow event) but I prefer to isolate the code in a central point for easier readability and maintenance. So select the todo database object and add the following methods:<br>
+			<pre><code class="swift">
+			// add a new named subtask associated with a taskid
+			func addSubtask (taskID, name) {
+				var sql = 'INSERT INTO Subtask (task_id, name) VALUES (\(taskID), "\(name)")';
+				todo.execute(sql);
+			}
+			
+			// add a new main task with a specified color
+			func addSubtask (name, color) {
+				var sql = 'INSERT INTO Task (name, color) VALUES ("\(name)", "\(color)")';
+				todo.execute(sql);
+			}
+			
+			// removed a subtask specified by its id
+			func removeSubtask (subtaskID) {
+				var sql = "DELETE FROM Subtask WHERE id = \(subtaskID)";
+				todo.execute(sql);
+			}
+			
+			// remove a task and all its associated subtasks
+			func removeTask (taskID) {
+				// delete from the task table
+				var sql = "DELETE FROM Task WHERE id = \(taskID)";
+				todo.execute(sql);
+			
+				// remove entries from the subtask table
+				sql = "DELETE FROM Subtask WHERE task_id = \(taskID)";
+				todo.execute(sql);
+			}
+			</code></pre>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-20.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>22</span></span> We now have all the required code to write to a database, we just need to call it in the right place. Select Button1 in Window2 and in the Action event write the following code:<br>
+			<pre><code class="swift">
+			// sanity check
+			var value = TextField1.text;
+			if (value.length == 0) return;
+			
+			// inser new subtask
+			todo.addSubtask(identifier, value);
+			
+			// force table reload
+			TableView1.reload(true);
+			
+			// reset insert
+			TextField1.text = "";
+			Keyboard.hide();
+			</code></pre>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-21.png" width="800" height="584" alt="todo">
+			<br>
+			<span class="number-badge"><span>23</span></span> Select TableView1 in Window2 and in the CommitEdit event write the following code (the CommitEdit event is called each time a swipe gesture is used inside a TableView):<br>
+			<pre><code class="swift">
+			if (editingMode == TableViewCellEditingStyle.Delete) {
+				todo.removeSubtask(cell.identifier);
+				return true;
+			}
+			</code></pre>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-22.png" width="800" height="584" alt="todo">
+			<br>
+			
+			<span class="number-badge"><span>24</span></span> We now have finished our work in Window2. Just one final part is missed for a fully featured app, a way to create new main Task, so as we did in step 14 create a new Window3 and set Visibility setting to Hidden in its Navigation Bar inspector. <br>It is now time to fill Window3, so drop 12 controls with the following properties:
+			<ul>
+			
+			<br>
+			<li><strong>EditField</strong> (NameField)</li>
+			<ul style="list-style: none;">
+			<li><strong>Placeholder:</strong> Task Name</li>
+			<li><strong>Border Style:</strong> Rond Rect</li>
+			<li><strong>Frame:</strong> 5, 45, 362, 30</li>
+			</ul>
+			
+			<br>
+			<li><strong>Label</strong> (ColorLabel)</li>
+			<ul style="list-style: none;">
+			<li><strong>Text:</strong> Task Color</li>
+			<li><strong>Typography:</strong> Style Bold, Size 17, Alignment Center, Color 656565FF</li>
+			<li><strong>Frame:</strong> 107, 102, 157, 44</li>
+			</ul>
+			
+			<br>
+			<li><strong>View</strong> (ColorView)</li>
+			<ul style="list-style: none;">
+			<li><strong>Frame:</strong> 200, 166, 132, 132</li>
+			</ul>
+			
+			<br>
+			<li><strong>Label</strong> (RedLabel)</li>
+			<ul style="list-style: none;">
+			<li><strong>Text:</strong> R</li>
+			<li><strong>Typography:</strong> Style Bold, Size 15, Alignment Right, Color 656565FF</li>
+			<li><strong>Frame:</strong> 6, 156, 28, 44</li>
+			</ul>
+			
+			<br>
+			<li><strong>Label</strong> (GreenLabel)</li>
+			<ul style="list-style: none;">
+			<li><strong>Text:</strong> G</li>
+			<li><strong>Typography:</strong> Style Bold, Size 15, Alignment Right, Color 656565FF</li>
+			<li><strong>Frame:</strong> 6, 206, 28, 44</li>
+			</ul>
+			
+			<br>
+			<li><strong>Label</strong> (BlueLabel)</li>
+			<ul style="list-style: none;">
+			<li><strong>Text:</strong> B</li>
+			<li><strong>Typography:</strong> Style Bold, Size 15, Alignment Right, Color 656565FF</li>
+			<li><strong>Frame:</strong> 6, 256, 28, 44</li>
+			</ul>
+			
+			<br>
+			<li><strong>Slider</strong> (RedSlider)</li>
+			<ul style="list-style: none;">
+			<li><strong>Frame:</strong> 44, 166, 118, 31</li>
+			</ul>
+			
+			<br>
+			<li><strong>Slider</strong> (GreenSlider)</li>
+			<ul style="list-style: none;">
+			<li><strong>Frame:</strong> 44, 216, 118, 31</li>
+			</ul>
+			
+			<br>
+			<li><strong>Slider</strong> (BlueSlider)</li>
+			<ul style="list-style: none;">
+			<li><strong>Frame:</strong> 44, 266, 118, 31</li>
+			</ul>
+			
+			<br>
+			<li><strong>RectShape</strong> (BottomRect)</li>
+			<ul style="list-style: none;">
+			<li><strong>Fill Color:</strong> F9F9F9</li>
+			<li><strong>Border Color:</strong> A4A4A4B9</li>
+			<li><strong>Border Mask:</strong> Top only</li>
+			<li><strong>Frame:</strong> 0, 623, 375, 46</li>
+			</ul>
+			
+			<br>
+			<li><strong>Button</strong> (CancelButton)</li>
+			<ul style="list-style: none;">
+			<li><strong>Title:</strong> Cancel</li>
+			<li><strong>Typography:</strong> Color 656565FF</li>
+			<li><strong>Frame:</strong> 0, 622, 74, 44</li>
+			</ul>
+			
+			<br>
+			<li><strong>Button</strong> (SaveButton)</li>
+			<ul style="list-style: none;">
+			<li><strong>Title:</strong> Save</li>
+			<li><strong>Typography:</strong> Style Bold, Color 656565FF</li>
+			<li><strong>Frame:</strong> 301, 622, 74, 44</li>
+			</ul>
+			
+			</ul>
+			At the end of this long step Window3 should looks like:<br>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-23.png" width="800" height="584" alt="todo">
+			<br>
+			
+			<span class="number-badge"><span>25</span></span> User interface for Window3 is almost finished, we now need to write some code and connect some logic. Select CancelButton and in the Action event write the following code:<br>
+			<pre><code class="swift">
+			Window3.close();
+			</code></pre>
+			<br>
+			Then select the SaveButton and in the Action event write the following code:<br>
+			<pre><code class="swift">
+			// get values entered by user
+			var name = NameField.text;
+			var color = ColorView.backgroundColor.hex();
+			
+			// sanity check
+			if (name.length == 0) return;
+			
+			// write values to database
+			todo.addTask(name, color);
+			
+			// close window
+			Window3.close();
+			</code></pre>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-24.png" width="800" height="584" alt="todo">
+			<br>
+			
+			<span class="number-badge"><span>25</span></span> Everything seems to be correctly setup but one important step is missed. <strong>How can the user select a custom color for the task?</strong> Using a Binding! A Binding is a connection between values from different objects and Creo extends even more this powerful concept. Start by connecting RedSlider to ColorView:<br>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-25.png" width="800" height="584" alt="todo">
+			<br>
+			A new Binding object will be automatically created for you (connect RedSlider.value to ColorView.backgroundColor). To create a multibinding connect GreenSlider to Source area of the newly created Binding:<br>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-26.png" width="800" height="584" alt="todo">
+			<br>
+			Do the same with the BlueSlider:<br>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-27.png" width="800" height="584" alt="todo">
+			<br>
+			
+			<span class="number-badge"><span>26</span></span> We just created a connection (a Binding) between the values for 3 sliders to the background color of a View. Each slider will send a value between 0.0 and 1.0 to a destination that expects a Color. How can we transform that float values into a Color? It is actually pretty easy. Select Binding and in the SourceConversion event write the following code:<br>
+			<pre><code class="swift">
+			// in case of multibinding the value parameter is an array
+			var c = Color(value[0],value[1],value[2]);
+			return c;
+			</code></pre>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-28.png" width="800" height="584" alt="todo">
+			Now every time the user change a slider value, the View will change color in real time to reflect the actual color to use for the new task.
+			<br><br>
+			
+			<span class="number-badge"><span>27</span></span> We now need to open Window3 (modally) each time the user selects the + sign on Window1, to do so, select Window1 and in the Action event write the following code:<br>
+			<pre><code class="swift">
+			// no need to check the buttonTag property
+			// because there is just one button on the NavigationnBar
+			Window3.openModal(TransitionStyle.CoverVertical);
+			</code></pre>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-29.png" width="800" height="584" alt="todo">
+			<br>
+			We have just added the code to open Window3 and in Window3 there is the code to add new Task to our database. How can we make sure that TableView1 is refreshed each time that Task table is modified? There is a simple solution for that and it involves forcing a refresh each time Window1 is shows. Select Window1 and in the WillShow event write the following code:<br>
+			<pre><code class="swift">
+			// refresh TableView and reload its DataSet
+			TableView1.reload(true);
+			</code></pre>
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/todo-30.png" width="800" height="584" alt="todo">
+			<br>
+			
+			<span class="number-badge"><span>30</span></span> Press RUN and enjoy the ToDo app!
+			<br><br>
+			<video width="700" height="494" autoplay loop controls>
+			<source src="../images/tutorials/todo.mp4" type="video/mp4">
+			</video>
+			<br>
+			You can now send the app to <a href="../creo/creoplayer.html">CreoPlayer</a> or <a href="../creo/build-your-app.html">build it</a> and then submit to the App Store.
+			</p>
+					
+			<!-- FINAL PROJECT -->
+			<p class="section-content">
+			<br><br>
+			<span class="label label-tutorial">Project</span><br>
+			<ul style="list-style: none;">
+				<li><a href="../assets/todo.zip">ToDo.creoproject</a> (29KB)</li>
+			</ul>
+			<br>
+			</p>
+						
+			<p class="section-footer"></p>
+         	</div>
+       	</div> <!-- /row -->
+       </div> <!-- /main-content -->
+     </div> <!-- /container -->
+
+	<footer class="navbar-fixed-bottom">
+      <div class="container footer">
+      	<p>
+      	<span class="footer-left">Documentation version 20180719</span>
+        <span class="footer-right"><a href="http://community.creolabs.com">Community</a> | <a href="http://blog.creolabs.com">Blog</a> | &copy;2018 Creolabs Inc.</span>
+        </p>
+      </div>
+    </footer>
+	
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!-- Highlights JS -->
+    <script src="../scripts/highlight/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-6839205-1', 'auto');
+    ga('send', 'pageview');
+	</script>
+	</body>
+</html>

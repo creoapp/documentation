@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Creo Lets Cook Split class description">
+    <title>Creo: Lets Cook Split</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+    <link rel="stylesheet" href="../scripts/highlight/styles/github-gist.css">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+     <nav class="navbar navbar-default navbar-fixed-top">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="http://creolabs.com"><img src="../images/logo.png" width="36" height="36" alt="Creolabs"></a>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+             <li><a href="../creo/what-is-creo.html">Creo</a></li>
+             <li><a href="../classes/ActivityIndicator.html">Classes</a></li>
+             <li><a href="../gravity/getting-started.html">Gravity</a></li>
+             <li class="active"><a href="../tutorials/lets-cook-nav.html">Tutorials</a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </nav>
+
+     <div class="container body-container">
+       <div class="main-content">
+       	<div class="row">
+       		<div class="col-sm-3 border-right section-left">
+       			<div saveheight="1" class="sidebar-nav">
+       			<h4>TUTORIALS</h4>
+				<ul>
+					<li><a href="browser.html"><span>Browser</span></a></li>
+					<li><a href="lets-cook-nav.html"><span>Lets Cook Nav</span></a></li>
+					<li><a href="lets-cook-split.html" class="active"><span>Lets Cook Split</span></a></li>
+					<li><a href="spotify.html"><span>Spotify</span></a></li>
+					<li><a href="ebook.html"><span>eBook</span></a></li>
+					<li><a href="heart-rate.html"><span>Heart Rate</span></a></li>
+					<li><a href="photo-gallery.html"><span>Photo Gallery</span></a></li>
+					<li><a href="file-manager.html"><span>File Manager</span></a></li>
+					<li><a href="gesture-recognizer.html"><span>Gesture Recognizer</span></a></li>
+					<li><a href="freehand-drawing.html"><span>Freehand Drawing</span></a></li>
+					<li><a href="todo.html"><span>ToDo</span></a></li>
+				</ul>
+
+       			</div>
+       		</div>
+
+       		<div class="col-sm-9 border-left section-right">
+         	<h1 class="section-header">Lets Cook Split</h1>
+			<hr>
+			
+			<!-- INTRO -->			
+			<p class="section-content">
+			<span class="label label-tutorial">Concepts</span><br>
+			<ul style="list-style: none;">
+			<li>This tutorial assumes that you already followed the <a href="lets-cook-nav.html">LetsCookNav</a> tutorial and so it will skip some details. Assets used in this tutorial are the same as the LetsCookNav ones. The purpose of this example is to introduce the PageSplit navigation control.
+			</li>
+			</ul>
+			<br>
+			</p>
+			
+			<!-- USED CLASSES -->		
+			<p class="section-content">
+			<span class="label label-tutorial">Classes</span><br>
+			<ul style="list-style: none;">
+				<li><a href="../classes/PageSplit.html">PageSplit</a></li>
+				<li><a href="../classes/SQLiteDatabase.html">SQLite Database</a></li>
+				<li><a href="../classes/SQLiteRecordSet.html">SQLite RecordSet</a></li>
+				<li><a href="../classes/CustomView.html">CustomView</a></li>
+				<li><a href="../classes/TableView.html">TableView</a></li>
+				<li><a href="../classes/ImageView.html">ImageView</a></li>
+				<li><a href="../classes/TextView.html">TextView</a></li>
+				<li><a href="../classes/View.html">View</a></li>
+			</ul>
+			<br>
+			</p>
+						
+			<!-- ASSETS TO DOWNLOAD -->
+			<p class="section-content">
+			<span class="label label-tutorial">Assets</span><br>
+			<ul style="list-style: none;">
+			<li><a href="../assets/letscooknav_assets.zip">Recipes SQLite database</a> (images credits to <a href="https://www.lorenzobocchi.com">Lorenzo Bocchi</a>)</li>
+			<li><a href="../assets/letscooknav_assets.zip">PNG Launch Image</a> (credits to <a href="https://www.lorenzobocchi.com">Lorenzo Bocchi</a>)</li>
+			<li><a href="../assets/letscooknav_assets.zip">PNG Icon</a> (credits to <a href="https://dribbble.com/shots/338811-Cook">Jenya Tkach</a>)</li>
+			</ul>
+			<br>
+			</p>
+						
+			<!-- TUTORIAL -->
+			<p class="section-content">
+			<span class="number-badge"><span>1</span></span> Create a new empty Creo project, start by dragging the Recipes.sqlite database into the Assets folder (then press Yes to the object conversion question) and then create a new query (as the one created in the <a href="lets-cook-nav.html">LetsCookNav</a> tutorial).
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/lets-cook-split.png" width="800" height="584" alt="lets-cook-split">
+			<br>
+			<span class="number-badge"><span>2</span></span> PageSplit looks better on bigger devices, so switch to iPhone 7 Plus:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/lets-cook-split-2.png" width="800" height="584" alt="lets-cook-split">
+			<br>
+			<span class="number-badge"><span>3</span></span> Change orientation from Portrait to Landscape Right:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/lets-cook-split-3.png" width="800" height="584" alt="lets-cook-split">
+			<br>
+			<span class="number-badge"><span>4</span></span> Delete Navigation1 (and Window1) from the Layout panel and create a new PageSplit navigation:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/lets-cook-split-4.png" width="800" height="584" alt="lets-cook-split">
+			<br>
+			<span class="number-badge"><span>5</span></span> The first Window inside a PageSplit is considered a Master window. Creo automatically adds a TableView to the Master Window. Select the TableView and set its DataSet to Recipes.Query (please note that cell height and others cell related properties has been changed):
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/lets-cook-split-5.png" width="800" height="584" alt="lets-cook-split">
+			<br>
+			<span class="number-badge"><span>6</span></span> Rename Master Window in Layout panel to Recipes (notice that Title changes in the Design Board) and rename the sqlite database from Recipes to RecipesDB (otherwise you'll receive a compilation error because you cannot have two objects with the same name in the same scope).
+			<br><br>
+			<span class="number-badge"><span>7</span></span> Create a new CustomView with 3 controls (an ImageView, a Label and a TextView). <a href="lets-cook-nav.html">LetsCookNav</a> tutorial will show you in details how to create a CustomView and how to expose its properties:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/lets-cook-split-6.png" width="800" height="584" alt="lets-cook-split">
+			<br>
+			<span class="number-badge"><span>8</span></span> Drop a View from the Objects panel to the Details Window and set its Template, DataSet and Custom View Properties as in the screenshot:
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/lets-cook-split-7.png" width="800" height="584" alt="lets-cook-split">
+			<br>
+			<span class="number-badge"><span>9</span></span> Press RUN and enjoy the LetsCookSplit app!
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/lets-cook-split-8.png" width="800" height="584" alt="lets-cook-split">
+			You can now send the app to <a href="../creo/creoplayer.html">CreoPlayer</a> or <a href="../creo/build-your-app.html">build it</a> and then submit to the App Store.
+			<br>
+			<br>
+			<strong>How can everything work without any code?</strong><br>
+			If you try the runtime mode you'll see that each time you select a recipe in the Master window, the right recipe is correctly displayed in the Details window without any information passed between the two Windows.<br>
+			The trick here is to connect the MasterTable in the Master window and the View1 in the Details window to the same query and then seek the query to the right position.<br><br>
+			A query is like a table where each row is numbered from 0 to the total number of row minus 1. A quick way to display the content of a given record is just to set its index inside the query. The code is automatically added for you in Creo and you can find (and modify) it in the MasterTable.<br><br>
+			What happens here is that the Details window is opened and the index of the View bounds to a DataSet is set to the index passed as parameter. Using the index property a View can show the right data from a DataSet that contains multiple rows. 
+			<img class="section-image fullscreen-shadow"src="../images/tutorials/lets-cook-split-9.png" width="800" height="584" alt="lets-cook-split">
+			</p>
+					
+			<!-- FINAL PROJECT -->
+			<p class="section-content">
+			<br><br>
+			<span class="label label-tutorial">Project</span><br>
+			<ul style="list-style: none;">
+				<li><a href="../assets/letscooksplit.zip">LetsCookSplit.creoproject</a> (12MB)</li>
+			</ul>
+			<br>
+			</p>
+						
+			<p class="section-footer"></p>
+         	</div>
+       	</div> <!-- /row -->
+       </div> <!-- /main-content -->
+     </div> <!-- /container -->
+
+	<footer class="navbar-fixed-bottom">
+      <div class="container footer">
+      	<p>
+      	<span class="footer-left">Documentation version 20180719</span>
+        <span class="footer-right"><a href="http://community.creolabs.com">Community</a> | <a href="http://blog.creolabs.com">Blog</a> | &copy;2018 Creolabs Inc.</span>
+        </p>
+      </div>
+    </footer>
+	
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!-- Highlights JS -->
+    <script src="../scripts/highlight/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-6839205-1', 'auto');
+    ga('send', 'pageview');
+	</script>
+	</body>
+</html>

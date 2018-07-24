@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Creo User Interface Creation class description">
+    <title>Creo: User Interface Creation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+    <link rel="stylesheet" href="../scripts/highlight/styles/github-gist.css">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+     <nav class="navbar navbar-default navbar-fixed-top">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="http://creolabs.com"><img src="../images/logo.png" width="36" height="36" alt="Creolabs"></a>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="../creo/what-is-creo.html">Creo</a></li>
+             <li><a href="../classes/ActivityIndicator.html">Classes</a></li>
+             <li><a href="../gravity/getting-started.html">Gravity</a></li>
+             <li><a href="../tutorials/lets-cook-nav.html">Tutorials</a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </nav>
+
+     <div class="container body-container">
+       <div class="main-content">
+       	<div class="row">
+       		<div class="col-sm-3 border-right section-left">
+       			<div saveheight="1" class="sidebar-nav">
+       			<h4>INTRODUCTION</h4>
+				<ul>
+					<li><a href="what-is-creo.html"><span>What Is Creo</span></a></li>
+					<li><a href="how-creo-works.html"><span>How Creo Works</span></a></li>
+					<li><a href="ui-overview.html"><span>UI Overview</span></a></li>
+				</ul>
+<h4>QUICK START</h4>
+				<ul>
+					<li><a href="../tutorials/browser.html"><span>Hello Browser</span></a></li>
+				</ul>
+<h4>DOCUMENTATION</h4>
+				<ul>
+					<li><a href="user-interface-creation.html" class="active"><span>User Interface Creation</span></a></li>
+					<li><a href="objects-and-events.html"><span>Objects and Events</span></a></li>
+					<li><a href="controls-customization.html"><span>Controls Customization</span></a></li>
+					<li><a href="bindings.html"><span>Bindings</span></a></li>
+					<li><a href="animations.html"><span>Animations</span></a></li>
+					<li><a href="dataset.html"><span>DataSet</span></a></li>
+					<li><a href="runtime-mode.html"><span>Runtime Mode</span></a></li>
+					<li><a href="creoplayer.html"><span>CreoPlayer</span></a></li>
+					<li><a href="build-your-app.html"><span>Build your App</span></a></li>
+				</ul>
+<h4>OTHERS</h4>
+				<ul>
+					<li><a href="version-history.html"><span>Version History</span></a></li>
+					<li><a href="feedback.html"><span>Feedback</span></a></li>
+				</ul>
+
+       			</div>
+       		</div>
+
+       		<div class="col-sm-9 border-left section-right">
+         	<h1 class="section-header">User Interface Creation</h1><hr>
+			<p>Setting up a user interface for a mobile application usually involves the creation of a navigation hierarchy and then the creation of controls that can interact with the end user. Using a traditional design tool you are usually forced to use static objects that can simulate an UI and then the developers should translate these static representations into objects and other software components. With <strong>Creo</strong> there are no differences between design and development and so once you created a user interface you'll end up having a ready to use system without any further development.<br><br>Setting up the main navigation hierarchy using a traditional system involves a considerable amount of time because it requires you to know the underline architecture of such components. With <strong>Creo</strong> the entire process is greatly simplified and you just need to use drag and drop to setup your navigation hierarchy that will be ready to use as soon as you'll release the mouse button.  
+			</p>
+			
+			<h4 class="subhead">Setting up navigation hierarchy</h4>
+			<p class="section-content">
+			To setup the navigation hierarchy add new windows and navigations into the <strong>LAYOUT</strong> panel. Everything is explicit and really intuitive. Navigations are containers for Windows and Windows are containers for objects. Navigations and Windows can be moved or rearranged inside the Layout panel enabling you to perform test and experiments without writing a single line of code. A Window can contain controls (UI objects) and objects (objects without an UI like databases, classes, HTTP connections and so on).
+			</p>
+			<img class="section-image"src="../images/creo/user-interface-creation.png" width="240" height="258" alt="user-interface-creation">
+			You add Navigations and Windows using the containers panel located below the Layout section:
+			<img class="section-image"src="../images/creo/user-interface-creation-3.png" width="240" height="30" alt="user-interface-creation">
+			
+			<h4 class="subhead">Adding controls and objects</h4>
+			<p class="section-content">
+			As we already said a Window is a container for controls and objects and in order to create objects you just need to use drag and drop from the Objects panel to the currently selected Window displayed in the Design Board.
+			<img class="section-image"src="../images/creo/user-interface-creation-4.png" width="269" height="351" alt="user-interface-creation">
+			
+			Once a control has been instantiated using drag and drop, you can customize its appearance and behaviour using the Inspector Panel. The same inspector can be used to configure navigations, windows and more generally every object listed in the Layout panel.
+			<img class="section-image fullscreen-shadow"src="../images/creo/user-interface-creation-5.png" width="800" height="584" alt="user-interface-creation">
+			</p>
+			
+			<h4 class="subhead">Startup Window</h4>
+			<p class="section-content">
+			Startup Window is important because it instructs your app about what is the first window to display at startup. A Startup Window can be set using a contextual menu, if you do not set a Startup Window then you’ll need to setup it using the code. The appropriate way to setup a Startup Window is inside the DidStart Application event.
+			</p>
+			<img class="section-image"src="../images/creo/user-interface-creation-2.png" width="351" height="286" alt="user-interface-creation">
+			
+			<p class="section-footer"></p>
+         	</div>
+       	</div> <!-- /row -->
+       </div> <!-- /main-content -->
+     </div> <!-- /container -->
+
+	<footer class="navbar-fixed-bottom">
+      <div class="container footer">
+      	<p>
+      	<span class="footer-left">Documentation version 20180719</span>
+        <span class="footer-right"><a href="http://community.creolabs.com">Community</a> | <a href="http://blog.creolabs.com">Blog</a> | &copy;2018 Creolabs Inc.</span>
+        </p>
+      </div>
+    </footer>
+	
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!-- Highlights JS -->
+    <script src="../scripts/highlight/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-6839205-1', 'auto');
+    ga('send', 'pageview');
+	</script>
+	</body>
+</html>

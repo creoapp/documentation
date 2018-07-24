@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Creo Animations class description">
+    <title>Creo: Animations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+    <link rel="stylesheet" href="../scripts/highlight/styles/github-gist.css">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+     <nav class="navbar navbar-default navbar-fixed-top">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="http://creolabs.com"><img src="../images/logo.png" width="36" height="36" alt="Creolabs"></a>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="../creo/what-is-creo.html">Creo</a></li>
+             <li><a href="../classes/ActivityIndicator.html">Classes</a></li>
+             <li><a href="../gravity/getting-started.html">Gravity</a></li>
+             <li><a href="../tutorials/lets-cook-nav.html">Tutorials</a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </nav>
+
+     <div class="container body-container">
+       <div class="main-content">
+       	<div class="row">
+       		<div class="col-sm-3 border-right section-left">
+       			<div saveheight="1" class="sidebar-nav">
+       			<h4>INTRODUCTION</h4>
+				<ul>
+					<li><a href="what-is-creo.html"><span>What Is Creo</span></a></li>
+					<li><a href="how-creo-works.html"><span>How Creo Works</span></a></li>
+					<li><a href="ui-overview.html"><span>UI Overview</span></a></li>
+				</ul>
+<h4>QUICK START</h4>
+				<ul>
+					<li><a href="../tutorials/browser.html"><span>Hello Browser</span></a></li>
+				</ul>
+<h4>DOCUMENTATION</h4>
+				<ul>
+					<li><a href="user-interface-creation.html"><span>User Interface Creation</span></a></li>
+					<li><a href="objects-and-events.html"><span>Objects and Events</span></a></li>
+					<li><a href="controls-customization.html"><span>Controls Customization</span></a></li>
+					<li><a href="bindings.html"><span>Bindings</span></a></li>
+					<li><a href="animations.html" class="active"><span>Animations</span></a></li>
+					<li><a href="dataset.html"><span>DataSet</span></a></li>
+					<li><a href="runtime-mode.html"><span>Runtime Mode</span></a></li>
+					<li><a href="creoplayer.html"><span>CreoPlayer</span></a></li>
+					<li><a href="build-your-app.html"><span>Build your App</span></a></li>
+				</ul>
+<h4>OTHERS</h4>
+				<ul>
+					<li><a href="version-history.html"><span>Version History</span></a></li>
+					<li><a href="feedback.html"><span>Feedback</span></a></li>
+				</ul>
+
+       			</div>
+       		</div>
+
+       		<div class="col-sm-9 border-left section-right">
+         	<h1 class="section-header">Animations</h1><hr>
+			<p class="section-content">
+			User experience in modern mobile apps is boosted by animations, they are used everywhere to increase usability and to give you the touch and feeling of important tasks being performed.
+			</p>
+			<p class="section-content">
+			Unfortunately creating efficient animations is not an easy task, you need to know a lot of implementation details, you need to spend time performing complex math operations and most of the time you don't have a real time feedback about what is happening. 
+			</p>
+			<img class="section-image fullscreen-shadow"src="../images/creo/animations.png" width="800" height="584" alt="animations">
+			<p class="section-content">
+			<strong>Creo</strong> introduces a new way to create animations with an intuitive timeline interface like the one you can find in professional video maker tool. Just drop the object you want to animate into the animation panel and start experimenting with properties, settings and timing. Once done the result will be a native Core Animation object that will be executed at native speed on your device.
+			</p>
+			<p class="section-footer"></p>
+         	</div>
+       	</div> <!-- /row -->
+       </div> <!-- /main-content -->
+     </div> <!-- /container -->
+
+	<footer class="navbar-fixed-bottom">
+      <div class="container footer">
+      	<p>
+      	<span class="footer-left">Documentation version 20180719</span>
+        <span class="footer-right"><a href="http://community.creolabs.com">Community</a> | <a href="http://blog.creolabs.com">Blog</a> | &copy;2018 Creolabs Inc.</span>
+        </p>
+      </div>
+    </footer>
+	
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!-- Highlights JS -->
+    <script src="../scripts/highlight/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-6839205-1', 'auto');
+    ga('send', 'pageview');
+	</script>
+	</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Creo UI Overview class description">
+    <title>Creo: UI Overview</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+    <link rel="stylesheet" href="../scripts/highlight/styles/github-gist.css">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+     <nav class="navbar navbar-default navbar-fixed-top">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="http://creolabs.com"><img src="../images/logo.png" width="36" height="36" alt="Creolabs"></a>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="../creo/what-is-creo.html">Creo</a></li>
+             <li><a href="../classes/ActivityIndicator.html">Classes</a></li>
+             <li><a href="../gravity/getting-started.html">Gravity</a></li>
+             <li><a href="../tutorials/lets-cook-nav.html">Tutorials</a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </nav>
+
+     <div class="container body-container">
+       <div class="main-content">
+       	<div class="row">
+       		<div class="col-sm-3 border-right section-left">
+       			<div saveheight="1" class="sidebar-nav">
+       			<h4>INTRODUCTION</h4>
+				<ul>
+					<li><a href="what-is-creo.html"><span>What Is Creo</span></a></li>
+					<li><a href="how-creo-works.html"><span>How Creo Works</span></a></li>
+					<li><a href="ui-overview.html" class="active"><span>UI Overview</span></a></li>
+				</ul>
+<h4>QUICK START</h4>
+				<ul>
+					<li><a href="../tutorials/browser.html"><span>Hello Browser</span></a></li>
+				</ul>
+<h4>DOCUMENTATION</h4>
+				<ul>
+					<li><a href="user-interface-creation.html"><span>User Interface Creation</span></a></li>
+					<li><a href="objects-and-events.html"><span>Objects and Events</span></a></li>
+					<li><a href="controls-customization.html"><span>Controls Customization</span></a></li>
+					<li><a href="bindings.html"><span>Bindings</span></a></li>
+					<li><a href="animations.html"><span>Animations</span></a></li>
+					<li><a href="dataset.html"><span>DataSet</span></a></li>
+					<li><a href="runtime-mode.html"><span>Runtime Mode</span></a></li>
+					<li><a href="creoplayer.html"><span>CreoPlayer</span></a></li>
+					<li><a href="build-your-app.html"><span>Build your App</span></a></li>
+				</ul>
+<h4>OTHERS</h4>
+				<ul>
+					<li><a href="version-history.html"><span>Version History</span></a></li>
+					<li><a href="feedback.html"><span>Feedback</span></a></li>
+				</ul>
+
+       			</div>
+       		</div>
+
+       		<div class="col-sm-9 border-left section-right">
+         	<h1 class="section-header">User Interface Overview</h1><hr>
+			<img class="section-image"src="../images/creo/ui-overview.png" width="600" height="445" alt="ui-overview">
+			<div class="container">
+			    <div class="row">
+			       <div class="col-lg-6">
+			       <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;ACTIONS</h4>
+			       <p style="color: #9e9e9e; margin-left: 36px;">Use to perform global actions for the current project.</p>
+			       <ul>
+			       		<li>Run project in Creo Simulator</li>
+			       		<li>Send project to a real device (via WiFi or USB)</li>
+			       		<li>Build application</li>
+			       		<li>Show 3D preview</li>
+			       </ul>
+			       </div>
+			       <div class="col-lg-6">
+			       <h4 class="title-badge"><span class="number-badge"><span>2</span></span>&nbsp;&nbsp;&nbsp;INFO PANEL</h4>
+			       <p style="color: #9e9e9e; margin-left: 36px;">Dynamically updated based on current container object. This section can also be used to select a different device and orientation.</p>
+			       <ul>
+			       		<li>Current container</li>
+			       		<li>Current device (editable)</li>
+			       		<li>Current orientation (editable)</li>
+			       </ul>
+			       </div>
+				</div>
+			    <div class="row">
+			       <div class="col-lg-6">
+			       <h4 class="title-badge"><span class="number-badge"><span>3</span></span>&nbsp;&nbsp;&nbsp;WORKSPACE</h4>
+			       <p style="color: #9e9e9e; margin-left: 36px;">Provides options to hide/change document sections.</p>
+			       <ul>
+			       		<li>Toggle code editor</li>
+			       		<li>Toggle animation editor</li>
+			       		<li>Toggle log panel</li>
+			       		<li>Toggle left pane</li>
+			       		<li>Toggle right pane</li>
+			       </ul>
+			       </div>
+			       <div class="col-lg-6">
+			       <h4 class="title-badge"><span class="number-badge"><span>4</span></span>&nbsp;&nbsp;&nbsp;CONTAINERS PANEL</h4>
+			       <p style="color: #9e9e9e; margin-left: 36px;">Provides shortcut for Layout objects creation.</p>
+			       <ul>
+			       		<li>Create a new Window</li>
+			       		<li>Create a new Navigation</li>
+			       		<li>Create a new Animation</li>
+			       </ul>
+			       </div>
+			    </div>
+			    <div class="row">
+			    	<div class="col-lg-6">
+			    	<h4 class="title-badge"><span class="number-badge"><span>5</span></span>&nbsp;&nbsp;&nbsp;DESIGN BOARD</h4>
+			    	<p style="color: #9e9e9e; margin-left: 36px;">Offers a visual representation of your app that can be easily modified with drag and drop.</p>
+			    	<ul>
+			    		<li>Selected Window preview</li>
+			    	</ul>
+			    	</div>
+			    	<div class="col-lg-6">
+			    	<h4 class="title-badge"><span class="number-badge"><span>6</span></span>&nbsp;&nbsp;&nbsp;INSPECTOR</h4>
+			    	<p style="color: #9e9e9e; margin-left: 36px;">Provides common configuration options for currently selected objects.</p>
+			    	<ul>
+			    		<li>Object inspector</li>
+			    		<li>Control inspector</li>
+			    		<li>Actions</li>
+			    		<li>Bindings</li>
+			    	</ul>
+			    	</div>
+			    </div>
+			    <div class="row">
+			    	<div class="col-lg-6">
+			    	<h4 class="title-badge"><span class="number-badge"><span>7</span></span>&nbsp;&nbsp;&nbsp;OBJECTS and CONTROLS</h4>
+			    	<p style="color: #9e9e9e; margin-left: 36px;">Provides all the controls and objects that can be used in your app.</p>
+			    	<ul>
+			    		<li>Controls</li>
+			    		<li>Non-UI Objects</li>
+			    	</ul>
+			    	</div>
+					<div class="col-lg-6">
+					<h4 class="title-badge"><span class="number-badge"><span>8</span></span>&nbsp;&nbsp;&nbsp;PROJECT</h4>
+					<p style="color: #9e9e9e; margin-left: 36px;">Collect global resources available to all objects inside the app.</p>
+					<ul>
+						<li>Application object</li>
+						<li>Assets</li>
+						<li>Globals</li>
+						<li>Templates</li>
+					</ul>
+					</div>
+			    </div>
+			    <div class="row">
+			    	<div class="col-lg-6">
+			    	<h4 class="title-badge"><span class="number-badge"><span>9</span></span>&nbsp;&nbsp;&nbsp;LAYOUT</h4>
+			    	<p style="color: #9e9e9e; margin-left: 36px;">Offers an app hierarchy overview.</p>
+			    	</div>
+			    	<div class="col-lg-6"></div>
+			    </div>
+			</div>
+			<p class="section-footer"></p>
+			    
+			
+         	</div>
+       	</div> <!-- /row -->
+       </div> <!-- /main-content -->
+     </div> <!-- /container -->
+
+	<footer class="navbar-fixed-bottom">
+      <div class="container footer">
+      	<p>
+      	<span class="footer-left">Documentation version 20180719</span>
+        <span class="footer-right"><a href="http://community.creolabs.com">Community</a> | <a href="http://blog.creolabs.com">Blog</a> | &copy;2018 Creolabs Inc.</span>
+        </p>
+      </div>
+    </footer>
+	
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!-- Highlights JS -->
+    <script src="../scripts/highlight/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-6839205-1', 'auto');
+    ga('send', 'pageview');
+	</script>
+	</body>
+</html>
