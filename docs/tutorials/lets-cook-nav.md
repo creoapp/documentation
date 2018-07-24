@@ -11,9 +11,9 @@ The LetsCookNav tutorial will show you how to navigate between two windows (usin
 * [View](../classes/View.md)
 
 #### Assets
-* [Recipes SQLite database](../assets/letscooknav_assets.zip) (images credits to [https://www.lorenzobocchi.com](Lorenzo Bocchi))
-* [PNG Launch Image](../assets/letscooknav_assets.zip) (credits to [https://www.lorenzobocchi.com"](Lorenzo Bocchi))
-* [PNG Icon](../assets/letscooknav_assets.zip) (credits to [https://dribbble.com/shots/338811-Cook](Jenya Tkach))
+* [Recipes SQLite database](../assets/letscooknav_assets.zip) - images credits to [Lorenzo Bocchi](https://www.lorenzobocchi.com)
+* [PNG Launch Image](../assets/letscooknav_assets.zip) - credits to [Lorenzo Bocchi](https://www.lorenzobocchi.com)
+* [PNG Icon](../assets/letscooknav_assets.zip) - credits to [Jenya Tkach](https://dribbble.com/shots/338811-Cook)
 						
 #### Steps
 --1-- Create a new empty Creo project and start by dragging the Recipes.sqlite database into the Assets folder (then press Yes to the object conversion question).
