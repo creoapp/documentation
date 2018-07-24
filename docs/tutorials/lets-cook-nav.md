@@ -68,6 +68,7 @@ The LetsCookNav tutorial will show you how to navigate between two windows (usin
 ![LetsCookNav](../images/tutorials/lets-cook-nav-16.png)
 
 ++18++ Drag an ImageView, a TextView and a View into Window2 and set the following properties:
+
 | Object | Value |
 | ------ | ----- |
 | **ImageView1** | Mode: Aspect Fill |
@@ -122,6 +123,7 @@ This code contains several advanced concepts:
 ++25++ What we'll create here is a CustomView to show three numeric fields from the Recipe table: preparation_time, cooking_time and difficulty. These columns contains numeric values but we'd like to display them with their proper unit of measure, that's the reason why we'll use computed properties here.
 
 Start by dragging six Labels into the custom view and set the following properties:
+
 | Object | Value |
 | ------ | ----- |
 | **Label1** | Text: PREPARATION |
@@ -211,6 +213,7 @@ If you run the app in the Creo Simulator you'll now see that labels are correctl
 ![LetsCookNav](../images/tutorials/lets-cook-nav-30.png)
 
 ++29++ Lets Cook app could be declared completed but we'd like to show you one more very useful trick, so lets continue with the very latest step. Wouldn't be cool if instead of a numeric value for the difficulty level a graphical star indicator was used? That's exactly what we are going to do.<br><br>Select Label6 inside InfoView and delete it. Drop 5 ImageView to InfoView and set the following properties:
+
 | Object | Value |
 | ------ | ----- |
 | **ImageView1** | Rendering Tinted |
