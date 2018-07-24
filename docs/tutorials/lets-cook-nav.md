@@ -69,14 +69,14 @@ The LetsCookNav tutorial will show you how to navigate between two windows (usin
 
 ++18++ Drag an ImageView, a TextView and a View into Window2 and set the following properties:
 
-| Object | Value |
-| ---------- | --------- |
-| **ImageView1** | Mode: Aspect Fill |
-| **ImageView1** | x:0 y:0 w:375 h:317 |
-| **TextView1** | Type: Markdown |
-| **TextView1** | x:5 y:374 w:370 h:292 |
-| **TextView1** | Typography: System Regular, 13 color: 5D2801FF |
-| **View1** | x:4 y:321 w:365 h:43 |
+| Object | Property | Value |
+| ---------- | --------- | --------- |
+| **ImageView1** | Mode | Aspect Fill |
+| **ImageView1** | Frame | x:0 y:0 w:375 h:317 |
+| **TextView1** | Type | Markdown |
+| **TextView1** | Frame | x:5 y:374 w:370 h:292 |
+| **TextView1** | Typography | System Regular, 13 color: 5D2801FF |
+| **View1** | Frame | x:4 y:321 w:365 h:43 |
 
 Window2 should look like:
 ![LetsCookNav](../images/tutorials/lets-cook-nav-17.png)
@@ -124,23 +124,23 @@ This code contains several advanced concepts:
 
 Start by dragging six Labels into the custom view and set the following properties:
 
-| Object | Value |
-| ---------- | --------- |
-| **Label1** | Text: PREPARATION |
-| **Label1** | Typography: System Bold, 12 Color: 703B14FF |
-| **Label1** | x:0 y:0 w:100 h:32 |
-| **Label2** | Text: COOKING |
-| **Label2** | Typography: System Bold, 12 Alignment: center Color: 703B14FF |
-| **Label2** | x:150 y:0 w:100 h:32 |
-| **Label3** | Text: DIFFICULTY |
-| **Label3** | Typography: System Bold, 12 Alignment: right Color: 703B14FF |
-| **Label3** | x:300 y:0 w:100 h:32 |
-| **Label4** | Typography: System Regular, 12 Color: 703B14FF |
-| **Label4** | x:0 y:17 w:100 h:32 |
-| **Label5** | Typography: System Regular, 12 Color: 703B14FF |
-| **Label5** | x:170 y:17 w:100 h:32 |
-| **Label6** | Typography: System Regular, 12 Color: 703B14FF |
-| **Label6** | x:330 y:17 w:70 h:32 |
+| Object | Property | Value |
+| ---------- | --------- | --------- |
+| **Label1** | Text | PREPARATION |
+| **Label1** | Typography | System Bold, 12 Color: #703B14 |
+| **Label1** | Frame | x:0 y:0 w:100 h:32 |
+| **Label2** | Text | COOKING |
+| **Label2** | Typography | System Bold, 12 Alignment: center Color: #703B14 |
+| **Label2** | Frame | x:150 y:0 w:100 h:32 |
+| **Label3** | Text | DIFFICULTY |
+| **Label3** | Typography | System Bold, 12 Alignment: right Color: #703B14 |
+| **Label3** | Frame | x:300 y:0 w:100 h:32 |
+| **Label4** | Typography | System Regular, 12 Color: #703B14 |
+| **Label4** | Frame | x:0 y:17 w:100 h:32 |
+| **Label5** | Typography | System Regular, 12 Color: #703B14 |
+| **Label5** | Frame | x:170 y:17 w:100 h:32 |
+| **Label6** | Typography | System Regular, 12 Color: #703B14 |
+| **Label6** | Frame | x:330 y:17 w:70 h:32 |
 
 Label1, Label2 and Label3 will be used to display a title, while Label4, Label5 and Label6 will be used to display the value from the database query. Your custom view should looks like:
 ![LetsCookNav](../images/tutorials/lets-cook-nav-24.png)
@@ -215,22 +215,22 @@ If you run the app in the Creo Simulator you'll now see that labels are correctl
 ++29++ Lets Cook app could be declared completed but we'd like to show you one more very useful trick, so lets continue with the very latest step. Wouldn't be cool if instead of a numeric value for the difficulty level a graphical star indicator was used? That's exactly what we are going to do.<br><br>Select Label6 inside InfoView and delete it. Drop 5 ImageView to InfoView and set the following properties:
 
 | Object | Property | Value |
-| ---------- | --------- | --------- 
-| **ImageView1** | Rendering: | Tinted |
-| **ImageView1** | Tint Color: | #703B14 |
-| **ImageView1** | Frame: | x:328 y:27 w:12 h:12 |
-| **ImageView2** | Rendering: | Tinted |
-| **ImageView2** | Tint Color: | #703B14 |
-| **ImageView2** | Frame: | x:342 y:27 w:12 h:12 |
-| **ImageView3** | Rendering: | Tinted |
-| **ImageView3** | Tint Color: | #703B14 |
-| **ImageView3** | Frame: | x:356 y:27 w:12 h:12 |
-| **ImageView4** | Rendering: | Tinted |
-| **ImageView4** | Tint Color: | #703B14 |
-| **ImageView4** | Frame:  | x:370 y:27 w:12 h:12 |
-| **ImageView5** | Rendering: | Tinted |
-| **ImageView5** | Tint Color: | #703B14 |
-| **ImageView5** | Frame: | x:384 y:27 w:12 h:12 |
+| ---------- | --------- | --------- |
+| **ImageView1** | Rendering | Tinted |
+| **ImageView1** | Tint Color | #703B14 |
+| **ImageView1** | Frame | x:328 y:27 w:12 h:12 |
+| **ImageView2** | Rendering | Tinted |
+| **ImageView2** | Tint Color | #703B14 |
+| **ImageView2** | Frame | x:342 y:27 w:12 h:12 |
+| **ImageView3** | Rendering | Tinted |
+| **ImageView3** | Tint Color | #703B14 |
+| **ImageView3** | Frame | x:356 y:27 w:12 h:12 |
+| **ImageView4** | Rendering | Tinted |
+| **ImageView4** | Tint Color | #703B14 |
+| **ImageView4** | Frame | x:370 y:27 w:12 h:12 |
+| **ImageView5** | Rendering | Tinted |
+| **ImageView5** | Tint Color | #703B14 |
+| **ImageView5** | Frame | x:384 y:27 w:12 h:12 |
 
 In Inspector for ImageView1 image select the start built-in icon and re-select the same image for all the remaining ImageViews.
 ![LetsCookNav](../images/tutorials/lets-cook-nav-31.png)
