@@ -214,23 +214,23 @@ If you run the app in the Creo Simulator you'll now see that labels are correctl
 
 ++29++ Lets Cook app could be declared completed but we'd like to show you one more very useful trick, so lets continue with the very latest step. Wouldn't be cool if instead of a numeric value for the difficulty level a graphical star indicator was used? That's exactly what we are going to do.<br><br>Select Label6 inside InfoView and delete it. Drop 5 ImageView to InfoView and set the following properties:
 
-| Object | Value |
-| ---------- | --------- |
-| **ImageView1** | Rendering Tinted |
-| **ImageView1** | Tint Color: 703B14FF |
-| **ImageView1** | x:328 y:27 w:12 h:12 |
-| **ImageView2** | Rendering Tinted |
-| **ImageView2** | Tint Color: 703B14FF |
-| **ImageView2** | x:342 y:27 w:12 h:12 |
-| **ImageView3** | Rendering Tinted |
-| **ImageView3** | Tint Color: 703B14FF |
-| **ImageView3** | x:356 y:27 w:12 h:12 |
-| **ImageView4** | Rendering Tinted |
-| **ImageView4** | Tint Color: 703B14FF |
-| **ImageView4** | x:370 y:27 w:12 h:12 |
-| **ImageView5** | Rendering Tinted |
-| **ImageView5** | Tint Color: 703B14FF |
-| **ImageView5** | x:384 y:27 w:12 h:12 |
+| Object | Property | Value |
+| ---------- | --------- | --------- 
+| **ImageView1** | Rendering: | Tinted |
+| **ImageView1** | Tint Color: | #703B14 |
+| **ImageView1** | Frame: | x:328 y:27 w:12 h:12 |
+| **ImageView2** | Rendering: | Tinted |
+| **ImageView2** | Tint Color: | #703B14 |
+| **ImageView2** | Frame: | x:342 y:27 w:12 h:12 |
+| **ImageView3** | Rendering: | Tinted |
+| **ImageView3** | Tint Color: | #703B14 |
+| **ImageView3** | Frame: | x:356 y:27 w:12 h:12 |
+| **ImageView4** | Rendering: | Tinted |
+| **ImageView4** | Tint Color: | #703B14 |
+| **ImageView4** | Frame:  | x:370 y:27 w:12 h:12 |
+| **ImageView5** | Rendering: | Tinted |
+| **ImageView5** | Tint Color: | #703B14 |
+| **ImageView5** | Frame: | x:384 y:27 w:12 h:12 |
 
 In Inspector for ImageView1 image select the start built-in icon and re-select the same image for all the remaining ImageViews.
 ![LetsCookNav](../images/tutorials/lets-cook-nav-31.png)
