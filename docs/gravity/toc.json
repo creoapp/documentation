@@ -26,11 +26,11 @@
     },
     {
       "name": "Lists",
-      "file": "lists.md"
+      "file": "list.md"
     },
     {
       "name": "Maps",
-      "file": "maps.md"
+      "file": "map.md"
     },
     {
       "name": "Enums",
@@ -38,23 +38,23 @@
     },
     {
       "name": "Functions",
-      "file": "functions.md"
+      "file": "func.md"
     },
     {
       "name": "Closures",
-      "file": "closures.md"
+      "file": "closure.md"
     },
     {
       "name": "Classes",
-      "file": "classes.md"
+      "file": "class.md"
     },
     {
       "name": "Control Flow",
-      "file": "control-flow.md"
+      "file": "controlflow.md"
     },
     {
       "name": "Loops",
-      "file": "loops.md"
+      "file": "loop.md"
     },
     
     {
@@ -62,7 +62,7 @@
     },
     {
       "name": "Fibers",
-      "file": "fibers.md"
+      "file": "fiber.md"
     },
     {
       "name": "System",
