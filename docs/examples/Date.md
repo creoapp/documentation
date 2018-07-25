@@ -1,4 +1,3 @@
-### Examples
 #### Allocate a Date object with the current date and time:
 ```
 var d = Date();
@@ -8,11 +7,15 @@ Result:
 2017-08-12 12:57:00 +0000
 ```
 
+
+
 #### Allocate a Date object relative to the current date and time by a given number of seconds:
 ```
 var d = Date(120);
 ```
 Result: ```2017-08-12 12:59:00 +0000```
+
+
 
 #### Convert a String to a Date object using a given format and timezone:
 ```
@@ -21,12 +24,15 @@ var d = Date(s, "yyyy-dd-MM", "PST");
 ```
 Result: ```2017-12-08 08:00:00 +0000```
 
+
+
 #### Convert a Date to a String using a given format and timezone:
 ```
 var d = Date(); // d is 2018-07-06 06:58:26 +0000
 var s = d.format("yyyy-MM-dd");
 ```
 Result: ```"2018-07-06"```
+
 
 
 **To specify a custom fixed format for a date string use the format patterns from the <a href="http://www.unicode.org/reports/tr35/tr35-19.html#Date_Format_Patterns" target="_blank">Unicode Technical Standard #35</a>**

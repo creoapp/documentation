@@ -17,3 +17,4 @@ newAction.bind("Action",closure);
 // add the new action to the cell array of actions (left o right)
 cell.leftActions = [newAction];
 ```
+

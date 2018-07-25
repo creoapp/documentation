@@ -14,3 +14,4 @@ img = img.resizableImageWithCapInsets(edge, ImageResizingMode.Stretch);
 // Set the image as the new background image for the current button
 self.setBackgroundImageForState(img, ControlState.Normal);
 ```
+

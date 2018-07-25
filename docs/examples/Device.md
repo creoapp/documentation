@@ -1,4 +1,3 @@
-### Examples
 #### Log Device information:
 ```
 Device.batteryMonitoringEnabled = true;
@@ -26,3 +25,4 @@ Device Name: Xinantécatl
 Device Model: iPhone
 Battery: Enabled=true, State=3, Charge=100%
 ```
+

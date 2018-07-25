@@ -15,3 +15,4 @@ newItem.bind("Action",closure)
 // add the new item to your SegmentedControl, in this case SegmentedControl1
 SegmentedControl1.addItem(newItem)
 ```
+

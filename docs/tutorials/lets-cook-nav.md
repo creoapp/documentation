@@ -75,7 +75,7 @@ The LetsCookNav tutorial will show you how to navigate between two windows (usin
 | **ImageView1** | Frame | x:0 y:0 w:375 h:317 |
 | **TextView1** | Type | Markdown |
 | **TextView1** | Frame | x:5 y:374 w:370 h:292 |
-| **TextView1** | Typography | System Regular, 13 color: 5D2801FF |
+| **TextView1** | Typography | System Regular, 13 color: #5D2801 |
 | **View1** | Frame | x:4 y:321 w:365 h:43 |
 
 Window2 should look like:
