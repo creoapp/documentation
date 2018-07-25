@@ -38,59 +38,59 @@ Result: ```"2018-07-06"```
 **To specify a custom fixed format for a date string use the format patterns from the <a href="http://www.unicode.org/reports/tr35/tr35-19.html#Date_Format_Patterns" target="_blank">Unicode Technical Standard #35</a>**
 
 #### The following timezone abbreviation strings can be used:
-| Abbreviation | Timezone |
-| -------- | -------- |
-| "ADT" | "America/Halifax" |
-| "AKDT" | "America/Juneau" |
-| "AKST" | "America/Juneau" |
-| "ART" | "America/Argentina/Buenos_Aires" |
-| "AST" | "America/Halifax" |
-| "BDT" | "Asia/Dhaka" |
-| "BRST" | "America/Sao_Paulo" |
-| "BRT" | "America/Sao_Paulo" |
-| "BST" | "Europe/London" |
-| "CAT" | "Africa/Harare" |
-| "CDT" | "America/Chicago" |
-| "CEST" | "Europe/Paris" |
-| "CET" | "Europe/Paris" |
-| "CLST" | "America/Santiago" |
-| "CLT" | "America/Santiago" |
-| "COT" | "America/Bogota" |
-| "CST" | "America/Chicago" |
-| "EAT" | "Africa/Addis_Ababa" |
-| "EDT" | "America/New_York" |
-| "EEST" | "Europe/Istanbul" |
-| "EET" | "Europe/Istanbul" |
-| "EST" | "America/New_York" |
-| "GMT" | GMT |
-| "GST" | "Asia/Dubai" |
-| "HKT" | "Asia/Hong_Kong" |
-| "HST" | "Pacific/Honolulu" |
-| "ICT" | "Asia/Bangkok" |
-| "IRST" | "Asia/Tehran" |
-| "IST" | "Asia/Calcutta" |
-| "JST" | "Asia/Tokyo" |
-| "KST" | "Asia/Seoul" |
-| "MDT" | "America/Denver" |
-| "MSD" | "Europe/Moscow" |
-| "MSK" | "Europe/Moscow" |
-| "MST" | "America/Denver" |
-| "NZDT" | "Pacific/Auckland" |
-| "NZST" | "Pacific/Auckland" |
-| "PDT" | "America/Los_Angeles" |
-| "PET" | "America/Lima" |
-| "PHT" | "Asia/Manila" |
-| "PKT" | "Asia/Karachi" |
-| "PST" | "America/Los_Angeles" |
-| "SGT" | "Asia/Singapore" |
-| "UTC" | UTC |
-| "WAT" | "Africa/Lagos" |
-| "WEST" | "Europe/Lisbon" |
-| "WET" | "Europe/Lisbon" |
-| "WIT" | "Asia/Jakarta" |
+```
+"ADT" | "America/Halifax"
+"AKDT" | "America/Juneau"
+"AKST" | "America/Juneau"
+"ART" | "America/Argentina/Buenos_Aires"
+"AST" | "America/Halifax"
+"BDT" | "Asia/Dhaka"
+"BRST" | "America/Sao_Paulo"
+"BRT" | "America/Sao_Paulo"
+"BST" | "Europe/London"
+"CAT" | "Africa/Harare"
+"CDT" | "America/Chicago"
+"CEST" | "Europe/Paris"
+"CET" | "Europe/Paris"
+"CLST" | "America/Santiago"
+"CLT" | "America/Santiago"
+"COT" | "America/Bogota"
+"CST" | "America/Chicago"
+"EAT" | "Africa/Addis_Ababa"
+"EDT" | "America/New_York"
+"EEST" | "Europe/Istanbul"
+"EET" | "Europe/Istanbul"
+"EST" | "America/New_York"
+"GMT" | GMT
+"GST" | "Asia/Dubai"
+"HKT" | "Asia/Hong_Kong"
+"HST" | "Pacific/Honolulu"
+"ICT" | "Asia/Bangkok"
+"IRST" | "Asia/Tehran"
+"IST" | "Asia/Calcutta"
+"JST" | "Asia/Tokyo"
+"KST" | "Asia/Seoul"
+"MDT" | "America/Denver"
+"MSD" | "Europe/Moscow"
+"MSK" | "Europe/Moscow"
+"MST" | "America/Denver"
+"NZDT" | "Pacific/Auckland"
+"NZST" | "Pacific/Auckland"
+"PDT" | "America/Los_Angeles"
+"PET" | "America/Lima"
+"PHT" | "Asia/Manila"
+"PKT" | "Asia/Karachi"
+"PST" | "America/Los_Angeles"
+"SGT" | "Asia/Singapore"
+"UTC" | UTC
+"WAT" | "Africa/Lagos"
+"WEST" | "Europe/Lisbon"
+"WET" | "Europe/Lisbon"
+"WIT" | "Asia/Jakarta"
+```
 
 #### Alternatively a timezone name can be used:
----
+```
 "Africa/Abidjan"
 "Africa/Accra"
 "Africa/Addis_Ababa"
@@ -528,3 +528,5 @@ Result: ```"2018-07-06"```
 "Pacific/Truk"
 "Pacific/Wake"
 "Pacific/Wallis"
+```
+
