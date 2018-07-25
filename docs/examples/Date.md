@@ -61,7 +61,7 @@ Result: ```"2018-07-06"```
 "EEST" | "Europe/Istanbul"
 "EET" | "Europe/Istanbul"
 "EST" | "America/New_York"
-"GMT" | GMT
+"GMT" | "GMT"
 "GST" | "Asia/Dubai"
 "HKT" | "Asia/Hong_Kong"
 "HST" | "Pacific/Honolulu"
@@ -82,7 +82,7 @@ Result: ```"2018-07-06"```
 "PKT" | "Asia/Karachi"
 "PST" | "America/Los_Angeles"
 "SGT" | "Asia/Singapore"
-"UTC" | UTC
+"UTC" | "UTC"
 "WAT" | "Africa/Lagos"
 "WEST" | "Europe/Lisbon"
 "WET" | "Europe/Lisbon"
