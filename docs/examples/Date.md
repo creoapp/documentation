@@ -38,6 +38,7 @@ Result: ```"2018-07-06"```
 **To specify a custom fixed format for a date string use the format patterns from the <a href="http://www.unicode.org/reports/tr35/tr35-19.html#Date_Format_Patterns" target="_blank">Unicode Technical Standard #35</a>**
 
 #### The following timezone abbreviation strings can be used:
+| Abbreviation | Timezone |
 | -------- | -------- |
 | "ADT" | "America/Halifax" |
 | "AKDT" | "America/Juneau" |
