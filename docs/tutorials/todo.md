@@ -122,7 +122,8 @@ Window2 object has now an **identifier** property that you can access via code u
 ++19++ We now need to find a way to be notified every time a user selects a row into a TableView. If you read the [TableView](../classes/TableView.html) documentation you can see that it has a **DidSelectCell** event. So, select TableView1 inside Window1, expand the Events tab and select the DidSelectCell event.The first parameter is the cell that the user selected and it has an identifier property (bound to the query identifier in this case). Write the following code to set Window2 identifier property and to open Window2 inside the current navigation (if any):
 ```
 Window2.identifier = cell.identifier;
-Window2.open();```
+Window2.open();
+```
 
 ![ToDO](../images/tutorials/todo-18.png)
 
