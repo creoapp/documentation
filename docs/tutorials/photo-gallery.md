@@ -1,5 +1,5 @@
 #### Concepts
-<li>So far in the tutorials we have used DataSet from a variety of sources. From a Database in the **[LetsCook](lets-cook-nav.md)** tutorial, to a REST service in the **[Spotify](spotify.md)** tutorial and from an images folder in the **[eBook](ebook.md)** example. In this example we'll show use how easily a CameraRoll can be used as a DataSet.
+So far in the tutorials we have used DataSet from a variety of sources. From a Database in the **[LetsCook](lets-cook-nav.md)** tutorial, to a REST service in the **[Spotify](spotify.md)** tutorial and from an images folder in the **[eBook](ebook.md)** example. In this example we'll show use how easily a CameraRoll can be used as a DataSet.
 
 #### Classes
 * [CameraRoll](../classes/CameraRoll.md)
