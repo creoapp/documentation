@@ -43,11 +43,13 @@ Rename Query to SubtaskQuery.
 ![ToDO](../images/tutorials/todo-5.png)
 
 ++6++ Rename CustomView to CategoryView and the modify its frame with width:375 height:46. Drop a RectShape and a Label into the CustomView and apply to them the following settings from the Inspector:
-<ul style="list-style: none;">
-<li>RectShape1 x:6, y:6, width: 4, height:35</li>
-<li>RectShape1 tickness: 0</li>
-<li>Label1 x:16, y:1, width: 309, height:44</li>
-</ul>
+
+| Object | Property | Value |
+| ---------- | --------- | --------- |
+| **RectShape1** | Frame | 6, 6, 4, 35 |
+| **RectShape1** | Tickness | 0 |
+| **Label1** | Frame | 16, 1, 309, 44 |
+
 
 ![ToDO](../images/tutorials/todo-6.png)
 
@@ -71,38 +73,40 @@ Rename Query to SubtaskQuery.
 ++13++ Select Window1 and in Navigation Items add a new System Add right button.
 ![ToDO](../images/tutorials/todo-12.png)
 
-
 <!-- WINDOW 2 -->
 ++14++ The first Task window is now completed, we now need to create a window that can contains the subtasks of the selected task. Start by creating a new Window:
 ![ToDO](../images/tutorials/todo-13.png)
 
 ++15++ Drop a TextField (TextField1) control into Window2 and set the following properties:
-<ul>
-<li>**Placeholder:** New Entry...</li>
-<li>**Border Style:** None</li>
-<li>**Frame:** (5, 64, 344, 30)</li>
-</ul>
+
+| Object | Property | Value |
+| ---------- | --------- | --------- |
+| **TextField1** | Placeholder | New Entry... |
+| **TextField1** | Border Style | None |
+| **TextField1** | Frame | 5, 64, 344, 30 |
 
 ![ToDO](../images/tutorials/todo-14.png)
 
 ++16++ Drop a Button (Button1) control into Window2 and set the following properties:
-<ul>
-<li>**Title:** +</li>
-<li>**Typography:** size: 18, color: C0C0C0FF</li>
-<li>**Frame:** (351, 70, 24, 24)</li>
-</ul>
+
+| Object | Property | Value |
+| ---------- | --------- | --------- |
+| **Button1** | Typography | Size: 18, Color: #C0C0C0 |
+| **Button1** | Frame | 351, 70, 24, 24 |
+
 
 ![ToDO](../images/tutorials/todo-15.png)
 
 ++17++ Drop a TableView (TableView1) control into Window2 and set the following properties:
-<ul>
-<li>**Cell Template:** Subtitle</li>
-<li>**Cell DataSet:** todo.SubtaskQuery</li>
-<li>**Height:** 44</li>
-<li>**Cell Properties Text:** name</li>
-<li>**Cell Properties Identifier:** id</li>
-<li>**Frame:** (0, 94, 375, 573)</li>
-</ul>
+
+| Object | Property | Value |
+| ---------- | --------- | --------- |
+| **TableView1** | Cell Template | Subtitle |
+| **TableView1** | Cell DataSet | todo.SubtaskQuery |
+| **TableView1** | Height | 44 |
+| **TableView1** | Cell Properties Text | name |
+| **TableView1** | Cell Properties Identifier | id |
+| **TableView1** | Frame | 0, 94, 375, 573 |
 
 ![ToDO](../images/tutorials/todo-16.png)
 
@@ -135,6 +139,7 @@ todo.SubtaskQuery.run();
 // reset editfield
 TextField1.text = "";
 ```
+
 ![ToDO](../images/tutorials/todo-19.png)
 
 ++21++ At this point we should start adding code to write to the sqlite database because we would need to both delete a subtask and add a new one in Window2. We could write all the sql write statement into the various actions (as we did in the previous WillShow event) but I prefer to isolate the code in a central point for easier readability and maintenance. So select the todo database object and add the following methods:
@@ -168,6 +173,7 @@ func removeTask (taskID) {
 	todo.execute(sql);
 }
 ```
+
 ![ToDO](../images/tutorials/todo-20.png)
 
 ++22++ We now have all the required code to write to a database, we just need to call it in the right place. Select Button1 in Window2 and in the Action event write the following code:
@@ -186,6 +192,7 @@ TableView1.reload(true);
 TextField1.text = "";
 Keyboard.hide();
 ```
+
 ![ToDO](../images/tutorials/todo-21.png)
 
 ++23++ Select TableView1 in Window2 and in the CommitEdit event write the following code (the CommitEdit event is called each time a swipe gesture is used inside a TableView):
@@ -195,6 +202,7 @@ if (editingMode == TableViewCellEditingStyle.Delete) {
 	return true;
 }
 ```
+
 ![ToDO](../images/tutorials/todo-22.png)
 
 
@@ -203,34 +211,34 @@ if (editingMode == TableViewCellEditingStyle.Delete) {
 | Object | Property | Value |
 | ---------- | --------- | --------- |
 | **NameField** | Placeholder | Task Name |
-|  | Border Style | Round Rect |
-|  | Frame | 5, 45, 362, 30 |
+| **NameField** | Border Style | Round Rect |
+| **NameField** | Frame | 5, 45, 362, 30 |
 | **ColorLabel** | Text | Task Color |
-|  | Typography | Style Bold, Size 17, Alignment Center, Color #656565 |
-|  | Frame | 107, 102, 157, 44 |
+| **ColorLabel** | Typography | Style Bold, Size 17, Alignment Center, Color #656565 |
+| **ColorLabel** | Frame | 107, 102, 157, 44 |
 | **ColorView** | Frame | 200, 166, 132, 132 |
 | **RedLabel** | Text | R |
-|  | Typography | Style Bold, Size 15, Alignment Right, Color #656565 |
-|  | Frame | 6, 156, 28, 44 |
+| **RedLabel** | Typography | Style Bold, Size 15, Alignment Right, Color #656565 |
+| **RedLabel** | Frame | 6, 156, 28, 44 |
 | **GreenLabel** | Text | G |
-|  | Typography | Style Bold, Size 15, Alignment Right, Color #656565 |
-|  | Frame | 6, 206, 28, 44 |
+| **GreenLabel** | Typography | Style Bold, Size 15, Alignment Right, Color #656565 |
+| **GreenLabel** | Frame | 6, 206, 28, 44 |
 | **BlueLabel** | Text | B |
-|  | Typography | Style Bold, Size 15, Alignment Right, Color #656565 |
-|  | Frame | 6, 256, 28, 44 |
+| **BlueLabel** | Typography | Style Bold, Size 15, Alignment Right, Color #656565 |
+| **BlueLabel** | Frame | 6, 256, 28, 44 |
 | **RedSlider** | Frame | 44, 166, 118, 31 |
 | **GreenSlider** | Frame | 44, 216, 118, 31 |
 | **BlueSlider** | Frame | 44, 266, 118, 31 |
 | **BottomRect** | Fill Color | #F9F9F9 |
-|  | Border Color | #A4A4A4B9 |
-|  | Border Mask | Top only |
-|  | Frame | 0, 623, 375, 46 |
+| **BottomRect** | Border Color | #A4A4A4B9 |
+| **BottomRect** | Border Mask | Top only |
+| **BottomRect** | Frame | 0, 623, 375, 46 |
 | **CancelButton** | Title | Cancel |
-|  | Typography | #Color 656565FF |
-|  | Frame | 0, 622, 74, 44 |
+| **CancelButton** | Typography | #Color 656565FF |
+| **CancelButton** | Frame | 0, 622, 74, 44 |
 | **SaveButton** | Title | Save |
-|  | Typography | Style Bold, Color 656565FF |
-|  | Frame | 301, 622, 74, 44 |
+| **SaveButton** | Typography | Style Bold, Color 656565FF |
+| **SaveButton** | Frame | 301, 622, 74, 44 |
 
 
 At the end of this long step Window3 should looks like:
@@ -256,6 +264,7 @@ todo.addTask(name, color);
 // close window
 Window3.close();
 ```
+
 ![ToDO](../images/tutorials/todo-24.png)
 
 ++25++ Everything seems to be correctly setup but one important step is missed. **How can the user select a custom color for the task?** Using a Binding! A Binding is a connection between values from different objects and Creo extends even more this powerful concept. Start by connecting RedSlider to ColorView:
@@ -273,6 +282,7 @@ Do the same with the BlueSlider:
 var c = Color(value[0],value[1],value[2]);
 return c;
 ```
+
 ![ToDO](../images/tutorials/todo-28.png)
 Now every time the user change a slider value, the View will change color in real time to reflect the actual color to use for the new task.
 
@@ -283,6 +293,7 @@ Now every time the user change a slider value, the View will change color in rea
 // because there is just one button on the NavigationnBar
 Window3.openModal(TransitionStyle.CoverVertical);
 ```
+
 ![ToDO](../images/tutorials/todo-29.png)
 
 We have just added the code to open Window3 and in Window3 there is the code to add new Task to our database. How can we make sure that TableView1 is refreshed each time that Task table is modified? There is a simple solution for that and it involves forcing a refresh each time Window1 is shows. Select Window1 and in the WillShow event write the following code:
@@ -290,6 +301,7 @@ We have just added the code to open Window3 and in Window3 there is the code to 
 // refresh TableView and reload its DataSet
 TableView1.reload(true);
 ```
+
 ![ToDO](../images/tutorials/todo-30.png)
 
 
