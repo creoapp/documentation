@@ -7,6 +7,7 @@ Keyboard class is a singleton used to perform operations on the system Keyboard.
 
 * **var isVisible**: **[Bool](../gravity/types.md)**
 A Boolean value used to get Keyboard visibility. (read-only)
+
 ### Class Methods
 
 * **func close()**
