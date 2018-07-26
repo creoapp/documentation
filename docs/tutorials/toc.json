@@ -54,6 +54,10 @@
       "entry": "ADVANCED"
     },
     {
+      "name": "Parking Car",
+      "file": "parking-car.md"
+    },
+    {
       "name": "Game Engine (Part 1)",
       "file": "game_tutorial_part1.md"
     }
