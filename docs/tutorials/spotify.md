@@ -11,7 +11,7 @@ The Spotify tutorial will show you how to use the powerful HTTPClient class to p
 * [Button](../classes/Button.md)
 
 #### Assets
-<li>None</li>
+* None
 
 #### Steps
 ++1++ Create a new empty Creo project and start by dragging a TableView from Objects to Window1. In TableView1 Cell Inspector section set Height to 90 and Template to Subtitle (in this example we will not create a CustomView object but we'll use a built-in one, a Subtitle template gives an Image, a Title and a Subtitle field):
@@ -49,11 +49,11 @@ Rename the object HTTPClient1 in the Layout section with a more appropriate Spot
 
 | Object | Property | Value |
 | ---------- | --------- | --------- |
-| **Cell** | DataSet | Spotify.Request</li>
-| **Cell** | KeyPath | albums.items</li>
-| **Cell** | Text | name</li>
-| **Cell** | Detail Text | albums_type</li>
-| **Cell** | Image | images.[0].url</li>
+| **Cell** | DataSet | Spotify.Request |
+| **Cell** | KeyPath | albums.items |
+| **Cell** | Text | name |
+| **Cell** | Detail Text | albums_type |
+| **Cell** | Image | images.[0].url |
 
 and lets the magic happens...
 ![Spotify](../images/tutorials/spotify-7.png)
