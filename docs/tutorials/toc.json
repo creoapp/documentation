@@ -4,6 +4,10 @@
       "entry": "TUTORIALS"
     },
     {
+      "name": "Browser",
+      "file": "browser.md"
+    },
+    {
       "name": "Lets Cook Navigation",
       "file": "lets-cook-nav.md"
     },
