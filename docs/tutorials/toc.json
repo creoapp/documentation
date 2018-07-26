@@ -28,6 +28,14 @@
       "file": "photo-gallery.md"
     },
     {
+      "name": "Gesture Recognizer",
+      "file": "gesture-recognizer.md"
+    },
+    {
+      "name": "Freehand Drawing",
+      "file": "freehand-drawing.md"
+    },
+    {
       "entry": "NAVIGATIONS"
     },
     {
