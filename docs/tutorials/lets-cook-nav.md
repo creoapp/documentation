@@ -260,8 +260,9 @@ set {
 
 ++31++ Press RUN and enjoy the LetsCookNav app!
 ![LetsCookNav](../images/tutorials/lets-cook-nav-35.png)
+
 You can now send the app to [CreoPlayer](https://docs.creolabs.com/creo/creoplayer.html) or [build it](https://docs.creolabs.com/creo/build-your-app.html) and then submit to the App Store.
 						
 #### Project
-[LetsCookNav.creoproject](../assets/letscooknav.zip) (12MB)
+* [LetsCookNav.creoproject](../assets/letscooknav.zip) (12MB)
 
