@@ -29,14 +29,14 @@ Once imported your Assets folder should look like:
 
 ++5++ Now set TableView1 properties the following:
 
-| Property | Value |
+| Object | Property | Value |
 | ---------- | --------- |
-| DataSet | FileManager1 |
-| Cell Height | 60 |
-| Cell Text | name |
-| Cell Detail Text | typeIdentifier |
-| Cell Image | icon |
-| Cell Identifier | path |
+| TableView1 | DataSet | FileManager1 |
+| Cell | Height | 60 |
+| Cell | Text | name |
+| Cell | Detail Text | typeIdentifier |
+| Cell | Image | icon |
+| Cell | Identifier | path |
 
 ![FileManager](../images/tutorials/file-manager-7.png)
 
