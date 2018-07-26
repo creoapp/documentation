@@ -28,14 +28,16 @@ Once imported your Assets folder should look like:
 ![FileManager](../images/tutorials/file-manager-6.png)
 
 ++5++ Now set TableView1 properties the following:
-<ul>
-<li><strong>DataSet</strong> FileManager1</li>
-<li><strong>Cell Height</strong> 60</li>
-<li><strong>Cell Text</strong> name</li>
-<li><strong>Cell Detail Text</strong> typeIdentifier</li>
-<li><strong>Cell Image</strong> icon</li>
-<li><strong>Cell Identifier</strong> path</li>
-</ul>
+
+| Property | Value |
+| ---------- | --------- |
+| DataSet | FileManager1 |
+| Cell Height | 60 |
+| Cell Text | name |
+| Cell Detail Text | typeIdentifier |
+| Cell Image | icon |
+| Cell Identifier | path |
+
 ![FileManager](../images/tutorials/file-manager-7.png)
 
 ++6++ If you press Run you'll see that the TaleView will be automatically filled by the content of the Assets folder. What we would like to achieve is to offer some kind of preview for the user selected file.
