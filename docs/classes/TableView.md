@@ -53,7 +53,7 @@ The height of each row.
 * **var** **separatorStyle**: **TableViewCellSeparatorStyle**
 The style for table cells used as separators. By default it uses a single line running across its width.
 
-* **var** **separatorColor**: **[Color](color.md)**
+* **var** **separatorColor**: **[Color](Color.md)**
 The color of separator rows in the table view.
 
 * **var** **sectionHeaderHeight**: **[Float](../gravity/types.md)**
@@ -83,13 +83,13 @@ A Boolean value that controls whether the dataSet and the table must be reloaded
 * **var** **pullTitle**: **[String](../gravity/types.md)**
 The text to display in the refresh control.
 
-* **var** **pullColor**: **[Color](color.md)**
+* **var** **pullColor**: **[Color](Color.md)**
 The tint color for the title and the activity indicator of the refresh control. If nil, the title and the activity indicator will use their default color.
 
 * **var** **selectedRow**: **[IndexPath](IndexPath.md)**
 Returns an index path identifying the row and section at the given point. \(read-only\)
 
-* **var** **selectedRows**: **[List](../gravity/lists.md)**
+* **var** **selectedRows**: **[List](../gravity/list.md)**
 The index paths of the selected rows. \(read-only\)
 
 * **var** **keyPath**: **[String](../gravity/types.md)**
@@ -111,7 +111,7 @@ Returns the number of rows in a specified section.
 * **func** **numberOfSections**(): <strong>[Int](../gravity/types.md)</strong> 
 The number of sections in the table view.
 
-* **func** **indexPathForRowAtPoint**(**point**: **[Point](point.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
+* **func** **indexPathForRowAtPoint**(**point**: **[Point](Point.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
 Returns an index path identifying the row and section at the given point.
 
 * **func** **selectRow**(**indexPath**: **[IndexPath](IndexPath.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **scrollPosition**: **<a href="#_enum_TableViewScrollPosition">TableViewScrollPosition</a> = 0**)
@@ -123,10 +123,10 @@ Deselects a given row identified by index path, with an option to animate the de
 * **func** **scrollToRow**(**indexPath**: **[IndexPath](IndexPath.md)**, **scrollPosition**: **<a href="#_enum_TableViewScrollPosition">TableViewScrollPosition</a> = 0**, **animated**: **[Bool](../gravity/types.md) = true**)
 Scrolls through the table view until a row identified by index path is at a particular location on the screen.
 
-* **func** **deleteRows**(**indexPaths**: **[List](../gravity/lists.md)**, **rowAnimation**: **<a href="#_enum_TableViewRowAnimation">TableViewRowAnimation</a> = 100**)
+* **func** **deleteRows**(**indexPaths**: **[List](../gravity/list.md)**, **rowAnimation**: **<a href="#_enum_TableViewRowAnimation">TableViewRowAnimation</a> = 100**)
 Deletes the rows specified by an array of index paths, with an option to animate the deletion (the animation is not simulated in the Creo Simulator for Mac).
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

@@ -23,10 +23,10 @@ Destructive (default) or normal style. \(read-only\)
 * **var** **title**: **[String](../gravity/types.md)**
 Title of the button.
 
-* **var** **image**: **[Image](image.md)**
+* **var** **image**: **[Image](Image.md)**
 The image to display in the button. Only available on iOS 11.0+
 
-* **var** **backgroundColor**: **[Color](color.md)**
+* **var** **backgroundColor**: **[Color](Color.md)**
 The background color for the action button. The default color depends on the style.
 
 

@@ -64,25 +64,25 @@ Initializes and returns the SQLiteDatabase object with the content of the source
 
 ### Methods
 
-* **func** **connect**(**onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **connect**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
 Connect to the specified database.
 
-* **func** **select**(**sql**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
+* **func** **select**(**sql**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
 Perform a SQL query.
 
-* **func** **execute**(**sql**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **execute**(**sql**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
 Execute a INSERT, UPDATE, DELETE SQL statement.
 
-* **func** **schemas**(**onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
+* **func** **schemas**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
 Retrieve a list of database schemas.
 
-* **func** **tables**(**onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
+* **func** **tables**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[SQLiteRecordSet](SQLiteRecordSet.md)</strong> 
 Retrieve a list of database tables.
 
-* **func** **tablesWithSchema**(**schema**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **tablesWithSchema**(**schema**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[List](../gravity/list.md)</strong> 
 Retrieve a list of database tables within the specified schema.
 
-* **func** **columnsForTableAndSchema**(**table**: **[String](../gravity/types.md)**, **schema**: **[String](../gravity/types.md)**, **extended**: **[Bool](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **columnsForTableAndSchema**(**table**: **[String](../gravity/types.md)**, **schema**: **[String](../gravity/types.md)**, **extended**: **[Bool](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[List](../gravity/list.md)</strong> 
 Retrieve information about a given table in the specified schema.
 
 * **func** **close**()

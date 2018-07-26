@@ -7,7 +7,7 @@ The View class defines a rectangular area on the screen and the interfaces for m
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **Draw**(**rect**: **[Rect](rect.md)**)
+* **Draw**(**rect**: **[Rect](Rect.md)**)
 Draws the receiver’s image within the passed-in rectangle.
 
 * **TouchesBegan**(**touches**: **[Object](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
@@ -57,10 +57,10 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 * **func** **reload**(**reloadDataSet**: **[Bool](../gravity/types.md)**)
 Reloads the content of the view.
 
-* **func** **image**(): <strong>[Image](image.md)</strong> 
+* **func** **image**(): <strong>[Image](Image.md)</strong> 
 Returns the rasterized Image of the current view.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

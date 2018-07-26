@@ -75,10 +75,10 @@ Reloads the current page, performing end-to-end revalidation using cache-validat
 * **func** **stopLoading**()
 Stops loading all resources on the current page.
 
-* **func** **runJavaScript**(**javaScript**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closures.md) = null**, **onError**: **[Closure](../gravity/closures.md) = null**)
+* **func** **runJavaScript**(**javaScript**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
 Evaluates a JavaScript code.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

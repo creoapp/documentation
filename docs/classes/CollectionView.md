@@ -7,7 +7,7 @@ The CollectionView class manages an ordered collection of data items and present
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **CellSize**(**section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**): <strong>[Size](size.md)</strong> 
+* **CellSize**(**section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**): <strong>[Size](Size.md)</strong> 
 This event asks for the size of the specified item’s cell. If you do not implement this method, the collection view uses the values in its itemSize property to set the size of items instead. Your implementation of this method can return a fixed set of sizes or dynamically adjust the sizes based on the cell’s content. Only applies to the normal flow layout type.
 
 * **DidSelectCell**(**cell**: **[CollectionViewCell](CollectionViewCell.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
@@ -55,7 +55,7 @@ The minimum spacing to use between lines of items in the grid. For a vertically 
 * **var** **preferredRowSize**: **[Float](../gravity/types.md)**
 The preferred size for each row measured in the scroll direction. Only applies to the balanced flow layout type.
 
-* **var** **itemSize**: **[Size](size.md)**
+* **var** **itemSize**: **[Size](Size.md)**
 The default size to use for cells. This results in cells that all have the same size. The default size value is (50.0, 50.0). Only applies to the simple flow layout type.
 
 * **var** **scrollDirection**: **CollectionViewScrollDirection**
@@ -67,7 +67,7 @@ A Boolean value that indicates whether users can select items in the collection 
 * **var** **allowsMultipleSelection**: **[Bool](../gravity/types.md)**
 A Boolean value that determines whether users can select more than one item in the collection view. The default value is false.
 
-* **var** **selectedItems**: **[List](../gravity/lists.md)**
+* **var** **selectedItems**: **[List](../gravity/list.md)**
 Returns nil or an array of selected index paths. \(read-only\)
 
 * **var** **keyPath**: **[String](../gravity/types.md)**
@@ -92,7 +92,7 @@ Selects the item at the specified index path and optionally scrolls it into view
 * **func** **deselectItem**(**indexPath**: **[IndexPath](IndexPath.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Deselects the item at the specified index.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

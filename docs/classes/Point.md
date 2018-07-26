@@ -21,7 +21,7 @@ Create a new Point object.
 
 ### Methods
 
-* **func** **copy**(): <strong>[Point](point.md)</strong> 
+* **func** **copy**(): <strong>[Point](Point.md)</strong> 
 Copy a Point object by value (duplicate).
 
 

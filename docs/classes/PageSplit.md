@@ -26,10 +26,10 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **bounds**: **[Rect](rect.md)**
+* **var** **bounds**: **[Rect](Rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
 
-* **var** **frame**: **[Rect](rect.md)**
+* **var** **frame**: **[Rect](Rect.md)**
 The frame rectangle, which describes the view’s location and size in its superview’s coordinate system.
 
 * **var** **statusBarVisibility**: **StatusBarVisibility**
@@ -38,10 +38,10 @@ A value indicating whether the status bar should be visible.
 * **var** **statusBarStyle**: **StatusBarStyle**
 The style of the status bar.
 
-* **var** **windows**: **[List](../gravity/lists.md)**
+* **var** **windows**: **[List](../gravity/list.md)**
 Array of windows currently managed by the navigation.
 
-* **var** **selectedWindow**: **[Window](window.md) or [Navigation](navigation.md)**
+* **var** **selectedWindow**: **[Window](Window.md) or [Navigation](Navigation.md)**
 Current Window in the details view. If the Window does not exit in the view hierarchy then it is automatically added.
 
 * **var** **collapsed**: **[Bool](../gravity/types.md)**
@@ -69,17 +69,17 @@ The width (in points) of the primary view controller’s content. \(read-only\)
 
 ### Methods
 
-* **func** **open**(**completion**: **[Closure](../gravity/closures.md) = null**)
+* **func** **open**(**completion**: **[Closure](../gravity/closure.md) = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour.
 
-* **func** **openIn**(**window**: **[Window](window.md) or [Navigation](navigation.md)**, **completion**: **[Closure](../gravity/closures.md) = null**)
+* **func** **openIn**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
 * **func** **openDetailWindowAtIndex**(**index**: **[Int](../gravity/types.md)**)
 Open the detail window of the PageSplit at the specified index. The first window inside a PageSplit is used as the <i>master</i> window, the next window(s) will be used as <i>detail</i> window(s). If the PageSplit has more than one detail window then this method opens the window at the specified index from the array of configured windows (skipping the first <i>master</i> window). If the PageSplit is configured with two subwindows - one master and one details - this method opens the detail window and set the value of the <i>index</i> parameter to the <i>rowIndex</i> property of the first custom <i>View</i> inside the detail window.
 
-* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closures.md) = null**)
+* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Open window modally usign the specified transition style.
 
 * **func** **close**()

@@ -35,10 +35,10 @@ Returns the number of touches involved in the gesture represented by the receive
 
 ### Methods
 
-* **func** **locationInView**(**view**: **[UIView](UIView.md)**): <strong>[Point](point.md)</strong> 
+* **func** **locationInView**(**view**: **[UIView](UIView.md)**): <strong>[Point](Point.md)</strong> 
 Returns a generic single-point location for the gesture, usually the centroid of the touches involved, in the coordinate system of the given view.
 
-* **func** **locationOfTouch**(**touchIndex**: **[Int](../gravity/types.md)**, **view**: **[UIView](UIView.md)**): <strong>[Point](point.md)</strong> 
+* **func** **locationOfTouch**(**touchIndex**: **[Int](../gravity/types.md)**, **view**: **[UIView](UIView.md)**): <strong>[Point](Point.md)</strong> 
 Returns the location of one of the gesture’s touches in the local coordinate system of a given view.
 
 

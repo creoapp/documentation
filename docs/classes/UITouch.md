@@ -17,7 +17,7 @@ The view to which touches are being delivered, if any. \(read-only\)
 
 ### Methods
 
-* **func** **locationInView**(**view**: **[UIView](UIView.md)**): <strong>[Point](point.md)</strong> 
+* **func** **locationInView**(**view**: **[UIView](UIView.md)**): <strong>[Point](Point.md)</strong> 
 Returns the current location of the touch in the coordinate system of the given view.
 
 

@@ -20,17 +20,17 @@ The toolbar style that specifies its appearance.
 * **var** **translucent**: **[Bool](../gravity/types.md)**
 A Boolean value that indicates whether the toolbar is translucent (true) or not (false). If the toolbar has a custom background image, the default is true if any pixel of the image has an alpha value of less than 1.0, and false otherwise. If you set this property to true on a toolbar with an opaque custom background image, the toolbar will apply a system opacity less than 1.0 to the image.
 
-* **var** **barTintColor**: **[Color](color.md)**
+* **var** **barTintColor**: **[Color](Color.md)**
 The tint color to apply to the toolbar background. This color is made translucent by default unless you set the translucent property to false.
 
-* **var** **items**: **[List](../gravity/lists.md)**
+* **var** **items**: **[List](../gravity/list.md)**
 The items displayed on the toolbar.
 
 
 
 ### Methods
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

@@ -26,7 +26,7 @@ A Boolean value that determines whether segments in the receiver show selected s
 * **var** **adjustWidthsByContent**: **[Bool](../gravity/types.md)**
 Indicates whether the control attempts to adjust segment widths based on their content widths.
 
-* **var** **items**: **[List](../gravity/lists.md)**
+* **var** **items**: **[List](../gravity/list.md)**
 Array of items presented by the SegmentedControl.
 
 
@@ -48,7 +48,7 @@ Removes the specified item, optionally animating the transition.
 * **func** **removeItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Removes the specified item, optionally animating the transition.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

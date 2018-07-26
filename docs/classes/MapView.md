@@ -16,7 +16,7 @@ Tells that an attempt to locate the user’s position failed.
 * **DidStop**()
 Tells that map view stopped tracking the user’s location.
 
-* **LocationDidChange**(**value**: **[Map](../gravity/maps.md)**)
+* **LocationDidChange**(**value**: **[Map](../gravity/map.md)**)
 The location of the user was updated.
 
 * **Unload**()
@@ -50,7 +50,7 @@ A Boolean value indicating whether the map camera’s pitch information is used.
 * **var** **rotateEnabled**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the map camera’s heading information is used.
 
-* **var** **visibleMapRect**: **[Rect](rect.md)**
+* **var** **visibleMapRect**: **[Rect](Rect.md)**
 The area currently displayed by the map view.
 
 * **var** **showsPointsOfInterest**: **[Bool](../gravity/types.md)**
@@ -68,6 +68,15 @@ A Boolean value indicating whether the device’s current location is visible in
 * **var** **userTrackingMode**: **MapUserTrackingMode**
 Sets the mode used to track the user location.
 
+* **var** **annotationVisibleRect**: **[Rect](Rect.md)**
+The visible rectangle where annotation views are currently being displayed. \(read-only\)
+
+* **var** **annotations**: **[List](../gravity/list.md)**
+The complete list of annotations associated with the map. \(read-only\)
+
+* **var** **selectedAnnotations**: **[List](../gravity/list.md)**
+The annotations that are currently selected. Assigning a new array to this property selects only the first annotation in the array.
+
 
 
 ### Methods
@@ -75,7 +84,25 @@ Sets the mode used to track the user location.
 * **func** **addAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**)
 Adds the specified annotation to the map view.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **removeAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**)
+Removes the specified annotation object from the map view.
+
+* **func** **annotationsInRect**(**regionRect**: **[Rect](Rect.md)**): <strong>[List](../gravity/list.md)</strong> 
+Returns the annotation objects located in the specified map rectangle.
+
+* **func** **addAnnotations**(**annotations**: **[List](../gravity/list.md)**)
+Adds an array of annotation objects to the map view.
+
+* **func** **removeAnnotations**(**annotations**: **[List](../gravity/list.md)**)
+Removes an array of annotation objects from the map view.
+
+* **func** **selectAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+Selects the specified annotation and displays a callout view for it.
+
+* **func** **deselectAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+Deselects the specified annotation and hides its callout view.
+
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

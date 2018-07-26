@@ -35,13 +35,13 @@ Full URL of the request. \(read-only\)
 * **var** **method**: **HTTPMethod**
 HTTP method.
 
-* **var** **headerParameters**: **[Map](../gravity/maps.md)**
+* **var** **headerParameters**: **[Map](../gravity/map.md)**
 The key-value pairs of this Map are added to the HTTP header section of the request. Values must be strings. Each value of the Map can also be accessed programmatically as a dynamic property of the HTTPRequest instance. The dynamic properties are automatically exposed using the Map key as the property name if the key contains only alphanumeric characters.
 
-* **var** **pathParameters**: **[Map](../gravity/maps.md)**
+* **var** **pathParameters**: **[Map](../gravity/map.md)**
 A Map used to replace tokens in the path string. When you add a key-value pair from the inspector, a new token named after the key is added to path string. Values must be strings. Each value of the Map can also be accessed programmatically as a dynamic property of the HTTPRequest instance. The dynamic properties are automatically exposed using the Map key as the property name if the key contains only alphanumeric characters. For example, you can programmatically set the value of a token named "userid" with the following code:<p> <code>HTTPClient1.Request1.userid = "my_user_id";<br />HTTPClient1.Request1.run();</code></p>If you programmatically set a custom value for the path property the pathParameters property is ignored.
 
-* **var** **queryParameters**: **[Map](../gravity/maps.md)**
+* **var** **queryParameters**: **[Map](../gravity/map.md)**
 The key-value pairs of this Map are used to create the query string part of the URL. For example, if the value is <code>["count" : "10", "screen_name" : "getcreo"] </code>, the HTTPRequest adds the following string to the original path: <code>?count=10&screen_name=getcreo</code>. Values must be strings. Each value of the Map can also be accessed programmatically as a dynamic property of the HTTPRequest instances. The dynamic properties are automatically exposed using the Map key as the property name if the key contains only alphanumeric characters. If you programmatically set a custom value for the path property the queryParameters property is ignored.
 
 * **var** **bodyParameters**: **[Object](../gravity/types.md)**
@@ -74,7 +74,7 @@ The name of the text encoding provided by the response’s originating source. I
 * **var** **suggestedFilename**: **[String](../gravity/types.md)**
 A suggested filename for the response data. Accessing this property attempts to generate a filename using the following information, in order: A filename specified using the content disposition header, the last path component of the URL, the host of the URL. If the host of URL can't be converted to a valid filename, the filename "unknown" is used. In most cases, this property appends the proper file extension based on the MIME type. Accessing this property always returns a valid filename regardless of whether the resource is saved to disk. \(read-only\)
 
-* **var** **allHeaderFields**: **[Map](../gravity/maps.md)**
+* **var** **allHeaderFields**: **[Map](../gravity/map.md)**
 A dictionary containing all the HTTP header fields received as part of the server’s response. By examining this dictionary clients can see the “raw” header information returned by the HTTP server. The keys in this dictionary are the header field names, as received from the server. See RFC 2616 for a list of commonly used HTTP header fields. HTTP headers are case insensitive. To simplify your code, certain header field names are canonicalized into their standard form. For example, if the server sends a content-length header, it is automatically adjusted to be Content-Length. The returned dictionary of headers is configured to be case-preserving during the set operation (unless the key already exists with a different case), and case-insensitive when looking up keys. \(read-only\)
 
 * **var** **statusCode**: **[Int](../gravity/types.md)**

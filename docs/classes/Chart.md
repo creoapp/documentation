@@ -29,7 +29,7 @@ Distance between the center of two items, measured in points. If 0, the system a
 * **var** **itemBorderWidth**: **[Float](../gravity/types.md)**
 The width of the border line of the items, measured in points.
 
-* **var** **itemBorderColor**: **[Color](color.md)**
+* **var** **itemBorderColor**: **[Color](Color.md)**
 The color of the border line of the items.
 
 * **var** **itemPointStyle**: **ChartPointStyle**
@@ -60,7 +60,7 @@ If true, shows the Y axis labels; otherwise, does not.
 * **func** **reload**(**reloadDataSet**: **[Bool](../gravity/types.md)**)
 Reload the content of the chart.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

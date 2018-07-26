@@ -21,7 +21,7 @@ Create a new Offset object.
 
 ### Methods
 
-* **func** **copy**(): <strong>[Offset](offset.md)</strong> 
+* **func** **copy**(): <strong>[Offset](Offset.md)</strong> 
 Copy a Offset object by value (duplicate).
 
 

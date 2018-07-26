@@ -32,7 +32,7 @@ The accuracy of the altitude value in meters. The value in the altitude property
 * **var** **course**: **[Float](../gravity/types.md)**
 The direction in which the device is traveling. Course values are measured in degrees starting at due north and continuing clockwise around the compass. Thus, north is 0 degrees, east is 90 degrees, south is 180 degrees, and so on. Course values may not be available on all devices. A negative value indicates that the direction is invalid. \(read-only\)
 
-* **var** **timestamp**: **[Date](date.md)**
+* **var** **timestamp**: **[Date](Date.md)**
 The time at which this location was determined. \(read-only\)
 
 * **var** **floor**: **[Int](../gravity/types.md)**
@@ -45,7 +45,7 @@ The logical floor of the building in which the user is located. \(read-only\)
 * **func** **Location**(**latitude**: **[Float](../gravity/types.md)**, **longitude**: **[Float](../gravity/types.md)**)
 Description not yet ready.
 
-* **func** **Location**(**latitude**: **[Float](../gravity/types.md)**, **longitude**: **[Float](../gravity/types.md)**, **altitude**: **[Float](../gravity/types.md)**, **horizontalAccuracy**: **[Float](../gravity/types.md)**, **verticalAccuracy**: **[Float](../gravity/types.md)**, **timestamp**: **[Date](date.md)**)
+* **func** **Location**(**latitude**: **[Float](../gravity/types.md)**, **longitude**: **[Float](../gravity/types.md)**, **altitude**: **[Float](../gravity/types.md)**, **horizontalAccuracy**: **[Float](../gravity/types.md)**, **verticalAccuracy**: **[Float](../gravity/types.md)**, **timestamp**: **[Date](Date.md)**)
 Description not yet ready.
 
 

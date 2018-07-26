@@ -20,7 +20,7 @@ This event is called when the object has been removed from the current runtime s
 * **var** **title**: **[String](../gravity/types.md)**
 The title assigned to item. An Item can only have image or title, not both.
 
-* **var** **image**: **[Image](image.md)**
+* **var** **image**: **[Image](Image.md)**
 The image assigned to item. An Item can only have image or title, not both.
 
 * **var** **width**: **[Float](../gravity/types.md)**

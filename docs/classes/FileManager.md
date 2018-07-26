@@ -68,10 +68,10 @@ Returns a Boolean value that indicates whether the specified file appears to be 
 * **func** **isDirectory**(**sourceFilePath**: **[String](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether the specified file is a directory.
 
-* **func** **contentsOfDirectory**(**sourceFilePath**: **[String](../gravity/types.md)**): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **contentsOfDirectory**(**sourceFilePath**: **[String](../gravity/types.md)**): <strong>[List](../gravity/list.md)</strong> 
 Returs a List of url that contains all the files/folders inside the specified directory.
 
-* **func** **readData**(**sourceFilePath**: **[String](../gravity/types.md)**): <strong>[Data](data.md)</strong> 
+* **func** **readData**(**sourceFilePath**: **[String](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 
 Returns a Data value that contains the content of the file specified as parameter.
 
 * **func** **readString**(**sourceFilePath**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 

@@ -8,10 +8,10 @@ The BezierPath class lets you define a path consisting of straight and curved li
 
 ### Properties
 
-* **var** **strokeColor**: **[Color](color.md)**
+* **var** **strokeColor**: **[Color](Color.md)**
 The color of subsequent stroke operations to the color
 
-* **var** **fillColor**: **[Color](color.md)**
+* **var** **fillColor**: **[Color](Color.md)**
 The color of subsequent fill operations to the color.
 
 * **var** **lineWidth**: **[Float](../gravity/types.md)**
@@ -39,7 +39,7 @@ A Boolean value indicating whether the path has any valid elements. \(read-only\
 
 ### Methods
 
-* **func** **image**(): <strong>[Image](image.md)</strong> 
+* **func** **image**(): <strong>[Image](Image.md)</strong> 
 Convert the BezierPath to an Image.
 
 * **func** **stroke**()
@@ -48,10 +48,10 @@ Draws a line along the receiver’s path using the current drawing properties. T
 * **func** **fill**()
 Paints the region enclosed by the receiver’s path using the current drawing properties. This method fills the path using the current fill color and drawing properties. If the path contains any open subpaths, this method implicitly closes them before painting the fill region. The painted region includes the pixels right up to, but not including, the path line itself. For paths with large line widths, this can result in overlap between the fill region and the stroked path (which is itself centered on the path line).
 
-* **func** **moveToPoint**(**point**: **[Point](point.md)**)
+* **func** **moveToPoint**(**point**: **[Point](Point.md)**)
 Moves the receiver’s current point to the specified location. This method implicitly ends the current subpath (if any) and sets the current point to the value in the point parameter. When ending the previous subpath, this method does not actually close the subpath. Therefore, the first and last points of the previous subpath are not connected to each other.
 
-* **func** **addLineToPoint**(**point**: **[Point](point.md)**)
+* **func** **addLineToPoint**(**point**: **[Point](Point.md)**)
 Appends a straight line to the receiver’s path. This method creates a straight line segment starting at the current point and ending at the point specified by the point parameter. After adding the line segment, this method updates the current point to the value in point.
 
 * **func** **close**()
@@ -66,28 +66,28 @@ Paints the region enclosed by the receiver’s path using the specified blend mo
 * **func** **strokeWithBlendMode**(**blendMode**: **<a href="#_enum_BlendMode">BlendMode</a>**, **alpha**: **[Float](../gravity/types.md)**)
 Draws a line along the receiver’s path using the specified blend mode and transparency values.
 
-* **func** **containsPoint**(**point**: **[Point](point.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **containsPoint**(**point**: **[Point](Point.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether the area enclosed by the receiver contains the specified point.
 
-* **func** **addArc**(**point**: **[Point](point.md)**, **radius**: **[Float](../gravity/types.md)**, **startAngle**: **[Float](../gravity/types.md)**, **endAngle**: **[Float](../gravity/types.md)**, **clockwise**: **[Bool](../gravity/types.md)**)
+* **func** **addArc**(**point**: **[Point](Point.md)**, **radius**: **[Float](../gravity/types.md)**, **startAngle**: **[Float](../gravity/types.md)**, **endAngle**: **[Float](../gravity/types.md)**, **clockwise**: **[Bool](../gravity/types.md)**)
 This method adds the specified arc beginning at the current point. The created arc lies on the perimeter of the specified circle. Specifying a start angle of 0 radians, an end angle of π radians, and setting the clockwise parameter to true draws the bottom half of the circle. However, specifying the same start and end angles but setting the clockwise parameter set to false draws the top half of the circle.
 
-* **func** **addCurve**(**point**: **[Point](point.md)**, **controlPoint**: **[Point](point.md)**, **controlPoint2**: **[Point](point.md)**)
+* **func** **addCurve**(**point**: **[Point](Point.md)**, **controlPoint**: **[Point](Point.md)**, **controlPoint2**: **[Point](Point.md)**)
 This method appends a cubic Bézier curve from the current point to the end point specified by the endPoint parameter. The two control points define the curvature of the segment.
 
-* **func** **addQuadCurve**(**point**: **[Point](point.md)**, **controlPoint**: **[Point](point.md)**)
+* **func** **addQuadCurve**(**point**: **[Point](Point.md)**, **controlPoint**: **[Point](Point.md)**)
 This method appends a quadratic Bézier curve from the current point to the end point specified by the endPoint parameter.
 
-* **func** **addRect**(**rect**: **[Rect](rect.md)**)
+* **func** **addRect**(**rect**: **[Rect](Rect.md)**)
 This method appends a rectangular path.
 
-* **func** **addOval**(**rect**: **[Rect](rect.md)**)
+* **func** **addOval**(**rect**: **[Rect](Rect.md)**)
 This method appends an oval path inscribed in the specified rectangle.
 
-* **func** **addRoundedRect**(**rect**: **[Rect](rect.md)**, **radius**: **[Float](../gravity/types.md)**)
+* **func** **addRoundedRect**(**rect**: **[Rect](Rect.md)**, **radius**: **[Float](../gravity/types.md)**)
 This method appends a rounded rectangular path.
 
-* **func** **addRoundedRectWithCorners**(**rect**: **[Rect](rect.md)**, **roundingCorners**: **<a href="#_enum_RectCorner">RectCorner</a>**, **size**: **[Size](size.md)**)
+* **func** **addRoundedRectWithCorners**(**rect**: **[Rect](Rect.md)**, **roundingCorners**: **<a href="#_enum_RectCorner">RectCorner</a>**, **size**: **[Size](Size.md)**)
 This method appends a rounded rectangular path by specifying the radius of each corner oval.
 
 * **func** **appendPath**(**path**: **[BezierPath](BezierPath.md)**)

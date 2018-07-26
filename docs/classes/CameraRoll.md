@@ -7,7 +7,7 @@ A CameraRoll class manages system-supplied user interfaces for choosing saved im
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **NewImage**(**image**: **[Image](image.md)**)
+* **NewImage**(**image**: **[Image](Image.md)**)
 Event raised when a new Image is available from the CameraRoll.
 
 * **NewVideo**(**videoPath**: **[String](../gravity/types.md)**)
@@ -16,7 +16,7 @@ Event raised when a new Video is available from the CameraRoll.
 * **DidCancel**()
 Event raised when last operation has been cancelled from the user.
 
-* **SavedImage**(**image**: **[Image](image.md)**, **error**: **[String](../gravity/types.md)**)
+* **SavedImage**(**image**: **[Image](Image.md)**, **error**: **[String](../gravity/types.md)**)
 Event raised when an Image has been saved to the CameraRoll.
 
 * **SavedVideo**(**videoPath**: **[String](../gravity/types.md)**, **error**: **[String](../gravity/types.md)**)
@@ -41,10 +41,10 @@ This event is called when the object has been removed from the current runtime s
 
 ### Class Methods
 
-* **func** **saveImage**(**image**: **[Image](image.md)**)
+* **func** **saveImage**(**image**: **[Image](Image.md)**)
 Save an Image to the CameraRoll.
 
-* **func** **saveVideo**(**videoPath**: **[Image](image.md)**)
+* **func** **saveVideo**(**videoPath**: **[Image](Image.md)**)
 Save a Video to the CameraRoll.
 
 
@@ -54,16 +54,16 @@ Save a Video to the CameraRoll.
 * **func** **open**()
 Open CameraRoll and let the user choose saved images and movies for use in your app.
 
-* **func** **saveImage**(**image**: **[Image](image.md)**)
+* **func** **saveImage**(**image**: **[Image](Image.md)**)
 Save an Image to the CameraRoll.
 
-* **func** **saveVideo**(**videoPath**: **[Image](image.md)**)
+* **func** **saveVideo**(**videoPath**: **[Image](Image.md)**)
 Save a Video to the CameraRoll.
 
 * **func** **openAsset**(**index**: **[Int](../gravity/types.md)**)
 Open the asset at the specified index from the DataSet. The chosen image or video will be returned asynchronously with the NewImage or NewVideo event.
 
-* **func** **openAssetResized**(**index**: **[Int](../gravity/types.md)**, **imageSize**: **[Size](size.md)**, **CameraRollContentMode**: **[Int](../gravity/types.md)**)
+* **func** **openAssetResized**(**index**: **[Int](../gravity/types.md)**, **imageSize**: **[Size](Size.md)**, **CameraRollContentMode**: **[Int](../gravity/types.md)**)
 Open the asset at the specified index from the DataSet. The chosen image or video will be returned asynchronously with the NewImage (scaled with the specified size and content mode) or NewVideo event.
 
 

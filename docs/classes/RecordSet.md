@@ -51,7 +51,7 @@ Returns column name specified by the index parameter.
 * **func** **stringValue**(**index**: **[Int](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Returns column value converted to String specified by the index parameter.
 
-* **func** **blobValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Data](data.md)</strong> 
+* **func** **blobValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 
 Returns column value (not converted) specified by the index parameter.
 
 * **func** **isCached**(): <strong>[Bool](../gravity/types.md)</strong> 

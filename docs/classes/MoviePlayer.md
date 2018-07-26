@@ -55,7 +55,7 @@ Specifies whetever the movie player allows AirPlay movie playback.
 * **var** **airPlayVideoActive**: **[Bool](../gravity/types.md)**
 Indicates whetever the movie player is currently playing video via AirPlay. \(read-only\)
 
-* **var** **naturalSize**: **[Size](size.md)**
+* **var** **naturalSize**: **[Size](Size.md)**
 The width and height of the movie frame. \(read-only\)
 
 * **var** **fullscreen**: **[Bool](../gravity/types.md)**
@@ -101,7 +101,7 @@ Obtains the most recent time-based metadata provided by the streamed movie.
 * **func** **setFullscreenAnimated**(**fullscreen**: **[Bool](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md)**)
 Description not yet ready.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

@@ -27,7 +27,7 @@ Hostname of the HTTP server.
 * **var** **authType**: **HTTPAuth**
 Type of authentication.
 
-* **var** **authDetails**: **[Map](../gravity/maps.md)**
+* **var** **authDetails**: **[Map](../gravity/map.md)**
 A dictionary containing the authentication details.
 
 * **var** **requestCachePolicy**: **HTTPRequestCachePolicy**

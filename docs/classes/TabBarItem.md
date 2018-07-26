@@ -17,10 +17,10 @@ This event is called when the object has been removed from the current runtime s
 * **var** **title**: **[String](../gravity/types.md)**
 The title of the button.
 
-* **var** **image**: **[Image](image.md)**
+* **var** **image**: **[Image](Image.md)**
 The image used to represent the item.
 
-* **var** **selectedImage**: **[Image](image.md)**
+* **var** **selectedImage**: **[Image](Image.md)**
 The image displayed when the tab bar item is selected.
 
 * **var** **badgeValue**: **[String](../gravity/types.md)**

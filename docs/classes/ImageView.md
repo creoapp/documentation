@@ -26,16 +26,16 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **image**: **[Image](image.md)**
+* **var** **image**: **[Image](Image.md)**
 The image displayed in the image view.
 
-* **var** **highlightedImage**: **[Image](image.md)**
+* **var** **highlightedImage**: **[Image](Image.md)**
 The highlighted image displayed in the image view.
 
-* **var** **animationImages**: **[List](../gravity/lists.md)**
+* **var** **animationImages**: **[List](../gravity/list.md)**
 An array of Image objects to use for an animation.
 
-* **var** **highlightedAnimationImages**: **[List](../gravity/lists.md)**
+* **var** **highlightedAnimationImages**: **[List](../gravity/list.md)**
 An array of Image objects to use for an animation when the view is highlighted.
 
 * **var** **animationDuration**: **[Float](../gravity/types.md)**
@@ -69,7 +69,7 @@ Stops animating the images in the receiver.
 * **func** **isAnimating**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether the animation is running.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

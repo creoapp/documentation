@@ -36,13 +36,13 @@ The minimum number of fingers that can be touching the view for this gesture to 
 
 ### Methods
 
-* **func** **translationInView**(**view**: **[Object](../gravity/types.md)**): <strong>[Point](point.md)</strong> 
+* **func** **translationInView**(**view**: **[Object](../gravity/types.md)**): <strong>[Point](Point.md)</strong> 
 The translation of the pan gesture in the coordinate system of the specified view. The x and y values report the total translation over time.
 
-* **func** **setTranslationInView**(**translation**: **[Point](point.md)**, **view**: **[Object](../gravity/types.md)**)
+* **func** **setTranslationInView**(**translation**: **[Point](Point.md)**, **view**: **[Object](../gravity/types.md)**)
 Sets the translation value in the coordinate system of the specified view. Changing the translation value resets the velocity of the pan.
 
-* **func** **velocityInView**(**view**: **[Object](../gravity/types.md)**): <strong>[Point](point.md)</strong> 
+* **func** **velocityInView**(**view**: **[Object](../gravity/types.md)**): <strong>[Point](Point.md)</strong> 
 The velocity of the pan gesture, expressed in points per second, in the coordinate system of the specified view. The velocity is broken into horizontal and vertical components.
 
 

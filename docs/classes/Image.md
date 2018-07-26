@@ -8,13 +8,13 @@ A Image object manages image data in your app. You use image objects to represen
 
 ### Properties
 
-* **var** **size**: **[Size](size.md)**
+* **var** **size**: **[Size](Size.md)**
 The logical dimensions of the image, measured in points. Multiply the size values by the value in the scale property to get the pixel dimensions of the image. \(read-only\)
 
 * **var** **scale**: **[Float](../gravity/types.md)**
 The scale factor of the image. If you multiply the logical size of the image (stored in the size property) by the value in this property, you get the dimensions of the image in pixels. \(read-only\)
 
-* **var** **capInsets**: **[EdgeInsets](edgeinsets.md)**
+* **var** **capInsets**: **[EdgeInsets](EdgeInsets.md)**
 The end-cap insets. End caps specify the portion of an image that should not be resized when an image is stretched. This technique is used to implement buttons and other resizable image-based interface elements. When a button with end caps is resized, the resizing occurs only in the middle of the button, in the region between the end caps. The end caps themselves keep their original size and appearance.
 
 This property specifies the sizes of all four end caps. The middle (stretchable) portion consists of all the pixels that are not included in the end caps. These pixels are tiled, left-to-right, top-to-bottom to fill the remaining space. \(read-only\)
@@ -39,29 +39,29 @@ Initializes and returns the image object with the content of the source file. Th
 * **func** **Image**(**name**: **[String](../gravity/types.md)**)
 Initializes and returns the image object with the specified name.
 
-* **func** **Image**(**data**: **[Data](data.md)**, **scale**: **[Float](../gravity/types.md)**)
+* **func** **Image**(**data**: **[Data](Data.md)**, **scale**: **[Float](../gravity/types.md)**)
 Initializes and returns the image object with the specified data and scale factor. 
 
 
 
 ### Methods
 
-* **func** **resizableImageWithCapInsets**(**capInsets**: **[EdgeInsets](edgeinsets.md)**, **resizingMode**: **<a href="#_enum_ImageResizingMode">ImageResizingMode</a>**): <strong>[Image](image.md)</strong> 
+* **func** **resizableImageWithCapInsets**(**capInsets**: **[EdgeInsets](EdgeInsets.md)**, **resizingMode**: **<a href="#_enum_ImageResizingMode">ImageResizingMode</a>**): <strong>[Image](Image.md)</strong> 
 Creates and returns a new image object with the specified cap insets and options.
 
-* **func** **PNGRepresentation**(): <strong>[Data](data.md)</strong> 
+* **func** **PNGRepresentation**(): <strong>[Data](Data.md)</strong> 
 Returns the data for the specified image in PNG format.
 
-* **func** **JPEGRepresentation**(**compressionQuality**: **[Float](../gravity/types.md)**): <strong>[Data](data.md)</strong> 
+* **func** **JPEGRepresentation**(**compressionQuality**: **[Float](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 
 Returns the data for the specified image in JPEG format using the specified compression quality.
 
-* **func** **scaleImageToFillSize**(**size**: **[Size](size.md)**): <strong>[Image](image.md)</strong> 
+* **func** **scaleImageToFillSize**(**size**: **[Size](Size.md)**): <strong>[Image](Image.md)</strong> 
 Returns a scaled version of the image that fill the specified size, preserving the aspect ratio of the original image (as "aspect fill")
 
-* **func** **scaleImageToFitSize**(**size**: **[Size](size.md)**): <strong>[Image](image.md)</strong> 
+* **func** **scaleImageToFitSize**(**size**: **[Size](Size.md)**): <strong>[Image](Image.md)</strong> 
 Returns a scaled version of the image that fit into the specified size, preserving the aspect ratio of the original image (as "aspect fit")
 
-* **func** **imageWithRenderingMode**(**renderingMode**: **<a href="#_enum_ImageRenderingMode">ImageRenderingMode</a>**): <strong>[Image](image.md)</strong> 
+* **func** **imageWithRenderingMode**(**renderingMode**: **<a href="#_enum_ImageRenderingMode">ImageRenderingMode</a>**): <strong>[Image](Image.md)</strong> 
 Creates and returns a new image object with the specified rendering mode.
 
 

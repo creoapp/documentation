@@ -7,7 +7,7 @@ The GPS class is the central point for configuring the delivery of location and 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **NewValue**(**value**: **[Map](../gravity/maps.md)**)
+* **NewValue**(**value**: **[Map](../gravity/map.md)**)
 Event raised when a new value becomes available. The value parameter is map.
 
 * **DidStart**()

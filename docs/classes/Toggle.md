@@ -20,16 +20,16 @@ This event is called when the object has been removed from the current runtime s
 * **var** **value**: **[Bool](../gravity/types.md)**
 A Boolean value that determines the off/on state of the switch. This property allows you to retrieve and set (without animation) a value determining whether the UISwitch object is on or off.
 
-* **var** **onTintColor**: **[Color](color.md)**
+* **var** **onTintColor**: **[Color](Color.md)**
 The color used to tint the appearance of the switch when it is turned on.
 
-* **var** **thumbTintColor**: **[Color](color.md)**
+* **var** **thumbTintColor**: **[Color](Color.md)**
 The color used to tint the appearance of the thumb.
 
-* **var** **onImage**: **[Image](image.md)**
+* **var** **onImage**: **[Image](Image.md)**
 The image displayed when the switch is in the on position.
 
-* **var** **offImage**: **[Image](image.md)**
+* **var** **offImage**: **[Image](Image.md)**
 The image displayed while the switch is in the off position.
 
 
@@ -39,7 +39,7 @@ The image displayed while the switch is in the off position.
 * **func** **setOnAnimated**(**value**: **[Bool](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md)**)
 Set the state of the switch to On or Off, optionally animating the transition.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

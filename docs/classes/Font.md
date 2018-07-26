@@ -36,19 +36,19 @@ The height of text lines (measured in points). \(read-only\)
 
 ### Class Methods
 
-* **func** **systemFont**(**size**: **[Float](../gravity/types.md)**): <strong>[Font](font.md)</strong> 
+* **func** **systemFont**(**size**: **[Float](../gravity/types.md)**): <strong>[Font](Font.md)</strong> 
 Returns the font object used for standard interface items in the specified size.
 
-* **func** **boldSystemFont**(**size**: **[Float](../gravity/types.md)**): <strong>[Font](font.md)</strong> 
+* **func** **boldSystemFont**(**size**: **[Float](../gravity/types.md)**): <strong>[Font](Font.md)</strong> 
 Returns the font object used for standard interface items that are rendered in boldface type in the specified size.
 
-* **func** **italicSystemFont**(**size**: **[Float](../gravity/types.md)**): <strong>[Font](font.md)</strong> 
+* **func** **italicSystemFont**(**size**: **[Float](../gravity/types.md)**): <strong>[Font](Font.md)</strong> 
 Returns the font object used for standard interface items that are rendered in italic type in the specified size.
 
-* **func** **familyNames**(): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **familyNames**(): <strong>[List](../gravity/list.md)</strong> 
 Returns an array of font family names available on the system.
 
-* **func** **fontNames**(**familyName**: **[String](../gravity/types.md)**): <strong>[List](../gravity/lists.md)</strong> 
+* **func** **fontNames**(**familyName**: **[String](../gravity/types.md)**): <strong>[List](../gravity/list.md)</strong> 
 Returns an array of font names available in a particular font family.
 
 * **func** **systemFontSize**(): <strong>[Float](../gravity/types.md)</strong> 

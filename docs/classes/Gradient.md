@@ -15,10 +15,10 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **colors**: **[List](../gravity/lists.md)**
+* **var** **colors**: **[List](../gravity/list.md)**
 Returns an array of colors \(read-only\)
 
-* **var** **locations**: **[List](../gravity/lists.md)**
+* **var** **locations**: **[List](../gravity/list.md)**
 Returns an array of location \(read-only\)
 
 * **var** **gradientType**: **GradientType**
@@ -28,19 +28,19 @@ Gradient type.
 
 ### Methods
 
-* **func** **addColorStop**(**color**: **[Color](color.md)**, **location**: **[Float](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **addColorStop**(**color**: **[Color](Color.md)**, **location**: **[Float](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
 Add a new color stop to the gradient at the specified location.
 
 * **func** **removeColorStop**(**index**: **[Int](../gravity/types.md)**)
 Remove color stop at the specified index.
 
-* **func** **updateColor**(**index**: **[Int](../gravity/types.md)**, **color**: **[Color](color.md)**)
+* **func** **updateColor**(**index**: **[Int](../gravity/types.md)**, **color**: **[Color](Color.md)**)
 Update stop color at the specified index (with a new color).
 
 * **func** **updateLocation**(**index**: **[Int](../gravity/types.md)**, **location**: **[Float](../gravity/types.md)**)
 Update stop color at the specified index (with a new location).
 
-* **func** **isEqual**(**gradient**: **[Gradient](gradient.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isEqual**(**gradient**: **[Gradient](Gradient.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Compare two Gradient objects.
 
 

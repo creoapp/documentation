@@ -70,7 +70,7 @@ Returns true if user has started scrolling the carousel and has not yet released
 * **var** **scrollToItemBoundary**: **[Bool](../gravity/types.md)**
 By default, the carousel will come to rest at an exact item boundary when it is flicked. If you set this property to NO, it will stop naturally and then - if scrollToItemBoundary is set to YES - scroll back or forwards to the nearest boundary.
 
-* **var** **itemBackgroundColor**: **[Color](color.md)**
+* **var** **itemBackgroundColor**: **[Color](Color.md)**
 The background color of items displayed in the carousel.
 
 * **var** **itemBorderWidth**: **[Float](../gravity/types.md)**
@@ -146,7 +146,7 @@ This method allows you to scroll the carousel by a fixed distance, measured in c
 * **func** **scrollToItemAtIndex**(**index**: **[Int](../gravity/types.md)**, **duration**: **[Float](../gravity/types.md)**)
 This method allows you to control how long the carousel takes to scroll to the specified index.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

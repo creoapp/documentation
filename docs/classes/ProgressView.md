@@ -20,16 +20,16 @@ The current graphical style of the receiver.
 * **var** **value**: **[Float](../gravity/types.md)**
 The current progress shown by the receiver. The current progress is represented by a floating-point value between 0.0 and 1.0, inclusive, where 1.0 indicates the completion of the task. The default value is 0.0. Values less than 0.0 and greater than 1.0 are pinned to those limits.
 
-* **var** **progressTintColor**: **[Color](color.md)**
+* **var** **progressTintColor**: **[Color](Color.md)**
 The color shown for the portion of the progress bar that is filled.
 
-* **var** **trackTintColor**: **[Color](color.md)**
+* **var** **trackTintColor**: **[Color](Color.md)**
 The color shown for the portion of the progress bar that is not filled.
 
-* **var** **progressImage**: **[Image](image.md)**
+* **var** **progressImage**: **[Image](Image.md)**
 An image to use for the portion of the progress bar that is filled.
 
-* **var** **trackImage**: **[Image](image.md)**
+* **var** **trackImage**: **[Image](Image.md)**
 An image to use for the portion of the track that is not filled.
 
 
@@ -39,7 +39,7 @@ An image to use for the portion of the track that is not filled.
 * **func** **setProgress**(**progress**: **[Float](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Adjusts the current progress shown by the receiver, optionally animating the change.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

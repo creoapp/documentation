@@ -35,10 +35,10 @@ The text displayed by the label.
 * **var** **rawText**: **[String](../gravity/types.md)**
 The raw text currently set in the label. \(read-only\)
 
-* **var** **font**: **[Font](font.md)**
+* **var** **font**: **[Font](Font.md)**
 The font of the text.
 
-* **var** **textColor**: **[Color](color.md)**
+* **var** **textColor**: **[Color](Color.md)**
 The color of the text.
 
 * **var** **textAlignment**: **TextAlignment**
@@ -75,7 +75,7 @@ he preferred maximum width (in points) for a multiline label.
 
 ### Methods
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

@@ -31,7 +31,7 @@ The latitude currenly used by the control. \(read-only\)
 * **var** **longitude**: **[Float](../gravity/types.md)**
 The longitude currenly used by the control. \(read-only\)
 
-* **var** **radarPosition**: **[Point](point.md)**
+* **var** **radarPosition**: **[Point](Point.md)**
 Radar position inside the control.
 
 * **var** **showRadar**: **[Bool](../gravity/types.md)**
@@ -40,7 +40,7 @@ A Boolean indicating whether the augmented reality control displays radar inform
 * **var** **isRunning**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the control is running. \(read-only\)
 
-* **var** **angleOfView**: **[Size](size.md)**
+* **var** **angleOfView**: **[Size](Size.md)**
 The angle of view of the device. \(read-only\)
 
 * **var** **keyPath**: **[String](../gravity/types.md)**

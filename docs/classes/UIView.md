@@ -13,13 +13,13 @@ This class is reserved and cannot be directly instantiated.
 * **var** **rotationAngle**: **[Float](../gravity/types.md)**
 Set the transform applied to the view with an affine transformation matrix constructed from the provided rotation value.
 
-* **var** **backgroundColor**: **[Color](color.md)**
+* **var** **backgroundColor**: **[Color](Color.md)**
 The view’s background color.
 
 * **var** **borderWidth**: **[Float](../gravity/types.md)**
 The width of the view's border. When this value is greater than 0.0, the layer draws a border using the current borderColor value. The border is drawn inset from the receiver’s bounds by the value specified in this property. It is composited above the receiver’s contents and sublayers and includes the effects of the cornerRadius property.
 
-* **var** **borderColor**: **[Color](color.md)**
+* **var** **borderColor**: **[Color](Color.md)**
 The color of the view’s border.
 
 * **var** **cornerRadius**: **[Float](../gravity/types.md)**
@@ -34,22 +34,22 @@ The view’s alpha value. The value of this property is a floating-point number 
 * **var** **opaque**: **[Bool](../gravity/types.md)**
 A Boolean value that determines whether the view is opaque. An opaque view is expected to fill its bounds with entirely opaque content—that is, the content should have an alpha value of 1.0. If the view is opaque and either does not fill its bounds or contains wholly or partially transparent content, the results are unpredictable. You should always set the value of this property to false if the view is fully or partially transparent.
 
-* **var** **tintColor**: **[Color](color.md)**
+* **var** **tintColor**: **[Color](Color.md)**
 The first nondefault tint color value in the view’s hierarchy, ascending from and starting with the view itself. If the system cannot find a nondefault color in the hierarchy, this property’s value is a system-defined color instead.
 
-* **var** **bounds**: **[Rect](rect.md)**
+* **var** **bounds**: **[Rect](Rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system. On the screen, the bounds rectangle represents the same visible portion of the view as its frame rectangle. By default, the origin of the bounds rectangle is set to (0, 0) but you can change this value to display different portions of the view. The size of the bounds rectangle is coupled to the size of the frame rectangle, so that changes to one affect the other. Changing the bounds size grows or shrinks the view relative to its center point. The coordinates of the bounds rectangle are always specified in points.
 
-* **var** **frame**: **[Rect](rect.md)**
+* **var** **frame**: **[Rect](Rect.md)**
 The frame rectangle, which describes the view’s location and size in its superview’s coordinate system.
 
 * **var** **userInteractionEnabled**: **[Bool](../gravity/types.md)**
 A Boolean value that determines whether user events are ignored.
 
-* **var** **shadowColor**: **[Color](color.md)**
+* **var** **shadowColor**: **[Color](Color.md)**
 The color of the view's shadow.
 
-* **var** **shadowOffset**: **[Size](size.md)**
+* **var** **shadowOffset**: **[Size](Size.md)**
 The offset (in points) of the view's shadow.
 
 * **var** **shadowOpacity**: **[Float](../gravity/types.md)**
@@ -58,7 +58,7 @@ The opacity of the view's shadow.
 * **var** **shadowRadius**: **[Float](../gravity/types.md)**
 The blur radius (in points) used to render the view's shadow
 
-* **var** **subviews**: **[List](../gravity/lists.md)**
+* **var** **subviews**: **[List](../gravity/list.md)**
 The array of subviews.
 
 

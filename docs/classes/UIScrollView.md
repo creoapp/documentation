@@ -19,13 +19,13 @@ This event is called when the scroll view ends decelerating the scrolling moveme
 
 ### Properties
 
-* **var** **contentOffset**: **[Point](point.md)**
+* **var** **contentOffset**: **[Point](Point.md)**
 The point at which the origin of the content view is offset from the origin of the scroll view.
 
-* **var** **contentSize**: **[Size](size.md)**
+* **var** **contentSize**: **[Size](Size.md)**
 The size of the content view.
 
-* **var** **contentInset**: **[EdgeInsets](edgeinsets.md)**
+* **var** **contentInset**: **[EdgeInsets](EdgeInsets.md)**
 The distance that the content view is inset from the enclosing scroll view. Use this property to add to the scrolling area around the content.
 
 * **var** **bounces**: **[Bool](../gravity/types.md)**
@@ -49,7 +49,7 @@ A Boolean value that controls whether the horizontal scroll indicator is visible
 * **var** **showsVerticalScrollIndicator**: **[Bool](../gravity/types.md)**
 A Boolean value that controls whether the vertical scroll indicator is visible. The indicator is visible while tracking is underway and fades out after tracking.
 
-* **var** **scrollIndicatorInsets**: **[EdgeInsets](edgeinsets.md)**
+* **var** **scrollIndicatorInsets**: **[EdgeInsets](EdgeInsets.md)**
 The distance the scroll indicators are inset from the edge of the scroll view.
 
 * **var** **indicatorStyle**: **ScrollViewIndicatorStyle**

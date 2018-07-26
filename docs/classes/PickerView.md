@@ -51,7 +51,7 @@ Selects a row in a specified component of the picker view.
 * **func** **selectedRowInComponent**(**identifier**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
 Returns the index of the selected row in a given component. A zero-indexed number identifying the selected row, or -1 if no row is selected.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

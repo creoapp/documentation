@@ -9,49 +9,49 @@ Many methods require you to specify color data using a Color object, and for gen
 
 ### Class Properties
 
-* **var** **black**: **[Color](color.md)**
+* **var** **black**: **[Color](Color.md)**
 Returns a color object whose grayscale value is 0.0 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **darkGray**: **[Color](color.md)**
+* **var** **darkGray**: **[Color](Color.md)**
 Returns a color object whose grayscale value is 1/3 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **lightGray**: **[Color](color.md)**
+* **var** **lightGray**: **[Color](Color.md)**
 Returns a color object whose grayscale value is 2/3 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **white**: **[Color](color.md)**
+* **var** **white**: **[Color](Color.md)**
 Returns a color object whose grayscale value is 1.0 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **gray**: **[Color](color.md)**
+* **var** **gray**: **[Color](Color.md)**
 Returns a color object whose grayscale value is 0.5 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **red**: **[Color](color.md)**
+* **var** **red**: **[Color](Color.md)**
 Returns a color object whose RGB values are 1.0, 0.0, and 0.0 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **green**: **[Color](color.md)**
+* **var** **green**: **[Color](Color.md)**
 Returns a color object whose RGB values are 0.0, 1.0, and 0.0 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **blue**: **[Color](color.md)**
+* **var** **blue**: **[Color](Color.md)**
 Returns a color object whose RGB values are 0.0, 0.0, and 1.0 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **cyan**: **[Color](color.md)**
+* **var** **cyan**: **[Color](Color.md)**
 Returns a color object whose RGB values are 0.0, 1.0, and 1.0 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **yellow**: **[Color](color.md)**
+* **var** **yellow**: **[Color](Color.md)**
 Returns a color object whose RGB values are 1.0, 1.0, and 0.0 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **magenta**: **[Color](color.md)**
+* **var** **magenta**: **[Color](Color.md)**
 Returns a color object whose RGB values are 1.0, 0.0, and 1.0 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **orange**: **[Color](color.md)**
+* **var** **orange**: **[Color](Color.md)**
 Returns a color object whose RGB values are 1.0, 0.5, and 0.0 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **purple**: **[Color](color.md)**
+* **var** **purple**: **[Color](Color.md)**
 Returns a color object whose RGB values are 0.5, 0.0, and 0.5 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **brown**: **[Color](color.md)**
+* **var** **brown**: **[Color](Color.md)**
 Returns a color object whose RGB values are 0.6, 0.4, and 0.2 and whose alpha value is 1.0. \(read-only\)
 
-* **var** **clear**: **[Color](color.md)**
+* **var** **clear**: **[Color](Color.md)**
 Returns a color object whose grayscale and alpha values are both 0.0. \(read-only\)
 
 
@@ -95,16 +95,16 @@ Returns luminance component (only valid if isRGB is true). \(read-only\)
 
 ### Class Methods
 
-* **func** **colorWithPatternImage**(**image**: **[Image](image.md)**): <strong>[Color](color.md)</strong> 
+* **func** **colorWithPatternImage**(**image**: **[Image](Image.md)**): <strong>[Color](Color.md)</strong> 
 Creates and returns a color object using the specified image. You can use pattern colors to set the fill or stroke color just as you would a solid color. During drawing, the image in the pattern color is tiled as necessary to cover the given area.
 
-* **func** **hsba**(**hue**: **[Float](../gravity/types.md)**, **saturation**: **[Float](../gravity/types.md)**, **brightness**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](color.md)</strong> 
+* **func** **hsba**(**hue**: **[Float](../gravity/types.md)**, **saturation**: **[Float](../gravity/types.md)**, **brightness**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](Color.md)</strong> 
 Creates and returns a color object using the specified opacity and HSB color space component values.
 
-* **func** **rgba**(**red**: **[Float](../gravity/types.md)**, **green**: **[Float](../gravity/types.md)**, **blue**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](color.md)</strong> 
+* **func** **rgba**(**red**: **[Float](../gravity/types.md)**, **green**: **[Float](../gravity/types.md)**, **blue**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](Color.md)</strong> 
 Creates and returns a color object using the specified opacity and RGB component values.
 
-* **func** **whiteWithAlpha**(**white**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](color.md)</strong> 
+* **func** **whiteWithAlpha**(**white**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](Color.md)</strong> 
 Initializes and returns a color object using the specified opacity and grayscale values.
 
 
@@ -127,7 +127,7 @@ Creates a color using the specified HEX string.
 * **func** **hex**(**withAlpha**: **[Bool](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Returns hex string representing the color (with an optional alpha value speciafied in the parameter, this method is valid only if isRGB is true).
 
-* **func** **darkerColor**(**amount**: **[Float](../gravity/types.md)**): <strong>[Color](color.md)</strong> 
+* **func** **darkerColor**(**amount**: **[Float](../gravity/types.md)**): <strong>[Color](Color.md)</strong> 
 Returns a darker color with the amount specified in the parameter (only valid if isRGB is true).
 
 

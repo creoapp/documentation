@@ -20,7 +20,7 @@ This event is called when the object has been removed from the current runtime s
 * **var** **title**: **[String](../gravity/types.md)**
 The title of the button.
 
-* **var** **image**: **[Image](image.md)**
+* **var** **image**: **[Image](Image.md)**
 The image used to represent the item.
 
 * **var** **width**: **[Float](../gravity/types.md)**

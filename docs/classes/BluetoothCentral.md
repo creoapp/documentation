@@ -7,7 +7,7 @@ The BluetoothCentral class enables you to discover, connect to and communicate w
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **NewValue**(**value**: **[Map](../gravity/maps.md)**)
+* **NewValue**(**value**: **[Map](../gravity/map.md)**)
 Event raised when a new value becomes available. The value parameter is map.
 
 * **UpdatedState**(**state**: **<a href="#_enum_BluetoothState">BluetoothState</a>**)
@@ -35,7 +35,7 @@ This event is called when the object has been removed from the current runtime s
 * **var** **state**: **BluetoothState**
 Returns the current state of the central manager. The PoweredOn state indicates that the central device (your iPhone or iPad, for instance) supports Bluetooth low energy and that Bluetooth is on and available to use.
 
-* **var** **data**: **[Data](data.md)**
+* **var** **data**: **[Data](Data.md)**
 Returs the row data of the last value received from a pheripheral. \(read-only\)
 
 * **var** **characteristicUUID**: **[String](../gravity/types.md)**

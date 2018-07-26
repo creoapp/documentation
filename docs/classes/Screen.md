@@ -8,10 +8,10 @@ An object that defines the properties associated with a hardware-based display.
 
 ### Properties
 
-* **var** **bounds**: **[Rect](rect.md)**
+* **var** **bounds**: **[Rect](Rect.md)**
 The bounding rectangle of the screen, measured in points. \(read-only\)
 
-* **var** **nativeBounds**: **[Rect](rect.md)**
+* **var** **nativeBounds**: **[Rect](Rect.md)**
 The bounding rectangle of the physical screen, measured in pixels. \(read-only\)
 
 * **var** **scale**: **[Float](../gravity/types.md)**

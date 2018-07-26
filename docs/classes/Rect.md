@@ -27,28 +27,28 @@ Create a new Rect object.
 
 ### Methods
 
-* **func** **copy**(): <strong>[Rect](rect.md)</strong> 
+* **func** **copy**(): <strong>[Rect](Rect.md)</strong> 
 Copy a Rect object by value (duplicate).
 
-* **func** **rectWithInset**(**point**: **[Point](point.md)**): <strong>[Rect](rect.md)</strong> 
+* **func** **rectWithInset**(**point**: **[Point](Point.md)**): <strong>[Rect](Rect.md)</strong> 
 Create a new Rect object with the specified inset.
 
-* **func** **rectWithOffset**(**point**: **[Point](point.md)**): <strong>[Rect](rect.md)</strong> 
+* **func** **rectWithOffset**(**point**: **[Point](Point.md)**): <strong>[Rect](Rect.md)</strong> 
 Create a new Rect object with the specified offset
 
-* **func** **rectByUnion**(**rect**: **[Rect](rect.md)**): <strong>[Rect](rect.md)</strong> 
+* **func** **rectByUnion**(**rect**: **[Rect](Rect.md)**): <strong>[Rect](Rect.md)</strong> 
 Create a new Rect object by performing the union operation between two specified Rect objects.
 
-* **func** **rectByIntersection**(**rect**: **[Rect](rect.md)**): <strong>[Rect](rect.md)</strong> 
+* **func** **rectByIntersection**(**rect**: **[Rect](Rect.md)**): <strong>[Rect](Rect.md)</strong> 
 Create a new Rect object by performing intersection between two specified Rect objects.
 
-* **func** **containsPoint**(**point**: **[Point](point.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **containsPoint**(**point**: **[Point](Point.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Check if it contains a specified Point.
 
-* **func** **containsRect**(**rect**: **[Rect](rect.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **containsRect**(**rect**: **[Rect](Rect.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Check if it contains a specified Rect.
 
-* **func** **intersectsRect**(**rect**: **[Rect](rect.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **intersectsRect**(**rect**: **[Rect](Rect.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns whether two rectangles intersect.
 
 * **func** **minX**(): <strong>[Float](../gravity/types.md)</strong> 

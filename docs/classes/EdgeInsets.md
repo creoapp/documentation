@@ -27,7 +27,7 @@ Create a new EdgeInsets object.
 
 ### Methods
 
-* **func** **copy**(): <strong>[EdgeInsets](edgeinsets.md)</strong> 
+* **func** **copy**(): <strong>[EdgeInsets](EdgeInsets.md)</strong> 
 Copy a EdgeInsets object by value (duplicate).
 
 

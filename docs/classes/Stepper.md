@@ -42,31 +42,31 @@ The wrap vs. no-wrap state of the stepper. If true, incrementing beyond maximumV
 
 ### Methods
 
-* **func** **backgroundImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](image.md)</strong> 
+* **func** **backgroundImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](Image.md)</strong> 
 Returns the background image associated with the specified control state.
 
-* **func** **setBackgroundImageForState**(**image**: **[Image](image.md)**, **state**: **[Int](../gravity/types.md)**)
+* **func** **setBackgroundImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/types.md)**)
 Sets the background image for the control when it is in the specified state.
 
-* **func** **dividerImageForStates**(**leftSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**, **rightSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Image](image.md)</strong> 
+* **func** **dividerImageForStates**(**leftSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**, **rightSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Image](Image.md)</strong> 
 Returns the divider image for the given combination of left and right states.
 
-* **func** **setDividerImageForStates**(**image**: **[Image](image.md)**, **leftSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**, **rightSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**)
+* **func** **setDividerImageForStates**(**image**: **[Image](Image.md)**, **leftSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**, **rightSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the image to use for the given combination of left and right states.
 
-* **func** **incrementImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](image.md)</strong> 
+* **func** **incrementImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](Image.md)</strong> 
 Returns the image used for the increment glyph of the control.
 
-* **func** **setIncrementImageForState**(**image**: **[Image](image.md)**, **state**: **[Int](../gravity/types.md)**)
+* **func** **setIncrementImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/types.md)**)
 Sets the image to use for the increment glyph of the control.
 
-* **func** **decrementImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](image.md)</strong> 
+* **func** **decrementImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](Image.md)</strong> 
 Returns the image used for the decrement glyph of the control.
 
-* **func** **setDecrementImageForState**(**image**: **[Image](image.md)**, **state**: **[Int](../gravity/types.md)**)
+* **func** **setDecrementImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/types.md)**)
 Sets the image to use for the decrement glyph of the control.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

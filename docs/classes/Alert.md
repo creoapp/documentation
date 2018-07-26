@@ -35,10 +35,10 @@ Create a new Alert message with a specified title.
 * **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**)
 Create a new Alert message with a specified title and message.
 
-* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**, **buttons**: **[List](../gravity/lists.md)**)
+* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**, **buttons**: **[List](../gravity/list.md)**)
 Create a new Alert message with a specified title and message plus an array of buttons titles.
 
-* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**, **buttons**: **[List](../gravity/lists.md)**, **closure**: **[Closure](../gravity/closures.md)**)
+* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**, **buttons**: **[List](../gravity/list.md)**, **closure**: **[Closure](../gravity/closure.md)**)
 Create a new Alert message with a specified title and message plus an array of buttons titles. The closure parameter enables you to specify an action to be executed when user press a button (button index is passed as parameter).
 
 

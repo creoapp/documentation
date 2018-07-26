@@ -35,10 +35,10 @@ The text displayed by the text field.
 * **var** **rawText**: **[String](../gravity/types.md)**
 The raw text currently set in the text field. \(read-only\)
 
-* **var** **textColor**: **[Color](color.md)**
+* **var** **textColor**: **[Color](Color.md)**
 The color of the text.
 
-* **var** **font**: **[Font](font.md)**
+* **var** **font**: **[Font](Font.md)**
 The font of the text.
 
 * **var** **textAlignment**: **TextAlignment**
@@ -65,10 +65,10 @@ A value that specifies how text must be interpreted and rendered.
 * **var** **minimumFontSize**: **[Float](../gravity/types.md)**
 The size of the smallest permissible font with which to draw the text field’s text.
 
-* **var** **background**: **[Image](image.md)**
+* **var** **background**: **[Image](Image.md)**
 The image that represents the background appearance of the text field when it is enabled.
 
-* **var** **disabledBackground**: **[Image](image.md)**
+* **var** **disabledBackground**: **[Image](Image.md)**
 The image that represents the background appearance of the text field when it is disabled.
 
 * **var** **editing**: **[Bool](../gravity/types.md)**
@@ -96,7 +96,7 @@ The overlay view displayed on the right (or trailing) side of the text field.
 
 ### Methods
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

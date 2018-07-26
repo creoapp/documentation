@@ -20,16 +20,16 @@ This event is called when the object has been removed from the current runtime s
 * **var** **datePickerMode**: **DatePickerMode**
 The date picker mode. Determines whether the date picker should display a time, a date, a time and date or a countdown interval. For modes that include date or time values, you can also configure the locale, calendar, and time zone information as appropriate.
 
-* **var** **date**: **[Date](date.md)**
+* **var** **date**: **[Date](Date.md)**
 The date displayed by the date picker.
 
 * **var** **localDate**: **[String](../gravity/types.md)**
 The date displayed by the date picker computed with timezone and locale.
 
-* **var** **minimumDate**: **[Date](date.md)**
+* **var** **minimumDate**: **[Date](Date.md)**
 The minimum date that a date picker can show.
 
-* **var** **maximumDate**: **[Date](date.md)**
+* **var** **maximumDate**: **[Date](Date.md)**
 The maximum date that a date picker can show.
 
 * **var** **countDownDuration**: **[Float](../gravity/types.md)**
@@ -42,10 +42,10 @@ The interval at which the date picker should display minutes. You can use this p
 
 ### Methods
 
-* **func** **setDateAnimated**(**date**: **[Date](date.md)**, **animated**: **[Bool](../gravity/types.md)**)
+* **func** **setDateAnimated**(**date**: **[Date](Date.md)**, **animated**: **[Bool](../gravity/types.md)**)
 Sets the date to display in the date picker, with an option to animate the setting.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

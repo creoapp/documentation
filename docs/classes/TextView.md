@@ -41,19 +41,19 @@ The text displayed by the text view.
 * **var** **rawText**: **[String](../gravity/types.md)**
 The raw text currently set in the text view. \(read-only\)
 
-* **var** **textColor**: **[Color](color.md)**
+* **var** **textColor**: **[Color](Color.md)**
 The color of the text.
 
 * **var** **textType**: **TextType**
 A value that specifies how text must be interpreted and rendered.
 
-* **var** **font**: **[Font](font.md)**
+* **var** **font**: **[Font](Font.md)**
 The font of the text.
 
 * **var** **textAlignment**: **TextAlignment**
 The technique to use for aligning the text.
 
-* **var** **selectedRange**: **[Range](range.md)**
+* **var** **selectedRange**: **[Range](../gravity/types.md)**
 The current selection range of the receiver.
 
 * **var** **editable**: **[Bool](../gravity/types.md)**
@@ -81,10 +81,10 @@ Returns a Boolean value indicating whether the text view currently contains any 
 * **func** **appendText**(**text**: **[String](../gravity/types.md)**)
 Appends a given string to the receiver.
 
-* **func** **scrollRangeToVisible**(**range**: **[Range](range.md)**)
+* **func** **scrollRangeToVisible**(**range**: **[Range](../gravity/types.md)**)
 Scrolls the receiver until the text in the specified range is visible.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

@@ -46,7 +46,7 @@ Puts the file pointer at the end of the file referenced by the receiver and retu
 * **func** **close**()
 Disallows further access to the represented file.
 
-* **func** **readData**(): <strong>[Data](data.md)</strong> 
+* **func** **readData**(): <strong>[Data](Data.md)</strong> 
 Reads the available data up to the end of file or maximum number of bytes. Returns a Data object.
 
 * **func** **readString**(): <strong>[String](../gravity/types.md)</strong> 
@@ -55,13 +55,13 @@ Reads the available data up to the end of file or maximum number of bytes. Retur
 * **func** **seekTo**(**position**: **[Int](../gravity/types.md)**)
 Moves the file pointer to the specified offset within the file represented by the receiver.
 
-* **func** **readDataOfLength**(**length**: **[Int](../gravity/types.md)**): <strong>[Data](data.md)</strong> 
+* **func** **readDataOfLength**(**length**: **[Int](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 
 Reads data up to the specified number of bytes. Returns a Data object.
 
 * **func** **readStringOfLength**(**length**: **[Int](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Reads data up to the specified number of bytes. Returns a String object.
 
-* **func** **writeData**(**data**: **[Data](data.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **writeData**(**data**: **[Data](Data.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Writes the specified data to the receiver. Returns true if the operation was successfully.
 
 * **func** **writeString**(**string**: **[String](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 

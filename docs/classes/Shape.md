@@ -26,13 +26,13 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **fillColor**: **[Color](color.md)**
+* **var** **fillColor**: **[Color](Color.md)**
 Color used to fill the shape.
 
-* **var** **fillGradient**: **[Gradient](gradient.md)**
+* **var** **fillGradient**: **[Gradient](Gradient.md)**
 Gradient used to fill the shape.
 
-* **var** **strokeColor**: **[Color](color.md)**
+* **var** **strokeColor**: **[Color](Color.md)**
 Color used to stoke shape border.
 
 * **var** **strokeThickness**: **[Float](../gravity/types.md)**

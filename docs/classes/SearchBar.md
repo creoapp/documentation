@@ -61,7 +61,7 @@ A Boolean value indicating whether the search results button is selected.
 * **var** **translucent**: **[Bool](../gravity/types.md)**
 A Boolean value that indicates whether the search bar is translucent (true) or not (false).
 
-* **var** **barTintColor**: **[Color](color.md)**
+* **var** **barTintColor**: **[Color](Color.md)**
 The tint color to apply to the search bar background.
 
 * **var** **autocapitalizationType**: **TextAutocapitalizationType**
@@ -76,7 +76,7 @@ The spell-checking style for the text object.
 * **var** **keyboardType**: **KeyboardType**
 The keyboard style associated with the text object.
 
-* **var** **scopeButtonTitles**: **[List](../gravity/lists.md)**
+* **var** **scopeButtonTitles**: **[List](../gravity/list.md)**
 An array of strings indicating the titles of the scope buttons.
 
 * **var** **selectedScopeButtonIndex**: **[Int](../gravity/types.md)**
@@ -85,16 +85,16 @@ The index of the selected scope button.
 * **var** **showsScopeBar**: **[Bool](../gravity/types.md)**
 Specifies whether the scope bar is displayed.
 
-* **var** **backgroundImage**: **[Image](image.md)**
+* **var** **backgroundImage**: **[Image](Image.md)**
 The background image for the search bar.
 
-* **var** **scopeBarBackgroundImage**: **[Image](image.md)**
+* **var** **scopeBarBackgroundImage**: **[Image](Image.md)**
 The background image for the scope bar.
 
-* **var** **searchFieldBackgroundPositionAdjustment**: **[Offset](offset.md)**
+* **var** **searchFieldBackgroundPositionAdjustment**: **[Offset](Offset.md)**
 The offset of the search text field background in the search bar.
 
-* **var** **searchTextPositionAdjustment**: **[Offset](offset.md)**
+* **var** **searchTextPositionAdjustment**: **[Offset](Offset.md)**
 The offset of the text within the search text field background.
 
 * **var** **inputAccessoryView**: **[UIView](UIView.md)**
@@ -104,7 +104,7 @@ The custom accessory view to display when the text field becomes the first respo
 
 ### Methods
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closures.md)**, **completion**: **[Closure](../gravity/closures.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
