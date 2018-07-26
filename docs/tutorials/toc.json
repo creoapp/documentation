@@ -16,6 +16,13 @@
       "file": "file-manager.md"
     },
     {
+      "name": "Photo Gallery",
+      "file": "photo-gallery.md"
+    },
+    {
+      "entry": "NAVIGATIONS"
+    },
+    {
       "name": "Lets Cook Navigation",
       "file": "lets-cook-nav.md"
     },
@@ -25,14 +32,6 @@
     {
       "name": "Game Engine (Part 1)",
       "file": "game_tutorial_part1.md"
-    },
-    {
-      "name": "Game Engine (Part 2)",
-      "file": "game_tutorial_part2.md"
-    },
-    {
-      "name": "Game Engine (Part 3)",
-      "file": "game_tutorial_part3.md"
     }
   ]
 }
