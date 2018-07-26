@@ -152,9 +152,9 @@ timer.start()
 
 The second use of **bind** is to ensure the linking of an implicit **self**, inside a closure, to the needed object. See **Closures**
 
-## Part I - GameEngine and animated background
+---
 
-### Basic game loop
+#### Basic game loop
 Game objects usually have some kind of logic that needs to be updated each frame to simulate some kind of behaviour.
 For instance a missile moves a small step toward a direction each frame; we want this update to be called as often as possible to generare as much frames as possible. The more frames per second we have the better feeling a game produces for the player and the place where this updating is done is usually called **game loop**.
 
@@ -163,7 +163,7 @@ At the core of our game engire there is a Timer fired every 0,01 seconds. The id
 
 **Note:** Gravity/Creo has no Fiber scheduler integrated, this is why we need to simulate one using a timer.
 
-### 1. Class Fibers
+#### Class Fibers
 
 Our first class is used to:
 1. store all fibers created by the game logic
@@ -230,7 +230,7 @@ class Fibers {
 }
 ```
 
-### 2. GameEngine
+#### GameEngine
 
 To store an instance of the new **Fibers** class and create the base for a game loop we add a new class called **GameEngine**. It offers the main method to add fibers through a new class called **GameBehaviour**.
 
@@ -258,7 +258,7 @@ class GameEngine {
 }
 ```
 
-### 3. GameBehaviour
+#### GameBehaviour
 
 A **GameBehaviour** is the base class from which every game object derives. It's usually connected to a **View** but is not necessary; for instance a behaviour could play a sound or do other things that do not require a view.
 
@@ -318,7 +318,7 @@ class GameBehaviour {
 }
 ```
 
-### 4. Time 
+#### Time 
 
 For keeping a smooth experience for the player the time in seconds it took to complete the last frame is available with `time.deltaTime`:
 ```
@@ -350,13 +350,13 @@ class ExampleClass : GameBehaviour {
 
 We are now ready to start building the game itself.
 
-### 5. GameEngine instance
+#### GameEngine instance
 
 1. start with an empty project and add a Window
 1. add `Fibers` `GameEngine` `Time` `GameBehaviour` classes
 1. under the window properties add a new variable `gameEngine = GameEngine()`
 
-### 6. GameBehaviour: Background and Level
+#### GameBehaviour: Background and Level
 
 1. create a 2 new classes, name it `Level` and `Background`; both subclass `GameBehaviour`
 1. add a `MapView` name it `LayerBackground`; from the inspector configure the map:
