@@ -99,15 +99,15 @@ path.stroke();	// stroke current path
 path = BezierPath();	// initialize a BezierPath object
 path.lineWidth = 2.0;	// set initial line width
 path.strokeColor = currentColor;	// set initial color based on user selection
-</code></pre>
+```
 
 We also need to add some code to the OvalShape(s) objects in order to updated currently selected color. Just add this line of code to each OvalShape TouchesBegan event:
-<pre><code class="swift">
+```
 View1.currentColor = self.fillColor; // set current color to be used in path.stroke()
-</code></pre>
+```
 
 Finally if we want to save current drawing into the CameraRoll, add the following code to the Action event of the Save button:
-<pre><code class="swift">
+```
 var image = View1.image();	// get View1 raster image representation
 CameraRoll.saveImage(image); // save image to CameraRoll
 ```
