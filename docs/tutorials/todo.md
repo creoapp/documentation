@@ -308,7 +308,7 @@ TableView1.reload(true);
 
 ++30++ Press RUN and enjoy the ToDo app!
 
-<video width="700" height="494" autoplay loop controls>
+<video class="creovideo" width="700" height="494" autoplay loop controls>
 <source src="../documentation/docs/images/tutorials/todo.mp4" type="video/mp4">
 </video>
 
