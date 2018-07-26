@@ -309,7 +309,7 @@ TableView1.reload(true);
 ++30++ Press RUN and enjoy the ToDo app!
 
 <video width="700" height="494" autoplay loop controls>
-<source src="../images/tutorials/todo.mp4" type="video/mp4">
+<source src="../documentation/docs/images/tutorials/todo.mp4" type="video/mp4">
 </video>
 
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.

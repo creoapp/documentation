@@ -72,4 +72,4 @@ You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build 
 
 
 #### Project
-[Browser.creoproject](../assets/browser.zip) (12KB)
+* [Browser.creoproject](../assets/browser.zip) (12KB)
