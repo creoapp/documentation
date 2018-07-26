@@ -30,7 +30,7 @@ Once imported your Assets folder should look like:
 ++5++ Now set TableView1 properties the following:
 
 | Object | Property | Value |
-| ---------- | --------- |
+| ---------- | --------- | --------- |
 | TableView1 | DataSet | FileManager1 |
 | Cell | Height | 60 |
 | Cell | Text | name |
