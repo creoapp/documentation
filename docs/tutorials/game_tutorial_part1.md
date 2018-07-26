@@ -1,9 +1,4 @@
-++Concepts++
-
-==Tutorial==
-
---1--
-
+#### Concepts
 We start building a little and generic game engine, making use of some advanced topics from Gravity:
 1. Threads with Fibers
 1. Object-oriented programming
@@ -17,34 +12,31 @@ From Creo we use
 1. Sound
 1. MapView
 
-Pre-requisites:
+#### Pre-requisites
 1. Being able to create a simple Creo project
 1. Basic object oriented programming skills are required
 
-Tutorial 1 of 3 goals:
+#### Tutorial 1 of 3 goals
 1. Creating a "game like" updating loop, using Fibers and Closures
 1. Presenting a generic GameBehaviour Gravity class that can be inherited to build specific game objects
 1. Creating an animated background using the MapView
 
-![Game screen](../images/tutorials/gameScreen.png)
+![Game screen](../images/tutorials/game1_screen.png)
 
-### Concepts
+#### Assets
+* None
 
-### Closures
-A closure is an anonymous function that can be defined and used like a variable; an important aspect of a closure is the possibility to access the scope of the surrounding variables of its definition.
-
-ie.
-```swift
+#### Theory: Closures
+A closure is an anonymous function that can be defined and used like a variable; an important aspect of a closure is the possibility to access the scope of the surrounding variables of its definition:
+```
 var frame = 0
 var update = { frame = frame + 1 }
 update()
 Console.write(frame)
 ```
 
-you can also pass parameters to the closure
-
-ie.
-```swift
+you can also pass parameters to the closure:
+```
 var frame = 0
 var update = func(inc) { frame = frame + inc }
 update(10)
@@ -52,9 +44,8 @@ Console.write(frame)
 ```
 
 Please note:
-when the closure is defined inside a class method and later used to access class methods or properties the implicit `self` may not be what expected. Use the function `bind` to avoid this situation.
-
-```swift
+when the closure is defined inside a class method and later used to access class methods or properties the implicit **self** may not be what expected. Use the function **bind** to avoid this situation:
+```
 class Parent {
     var update = null
     var frame = 0
@@ -71,21 +62,17 @@ var update = parent.update
 update()
 ```
 
-### Fibers
+#### Theory: Fibers
 Fibers are user-space threads without a scheduler; a Fiber can yield and resume its execution from the place it has exited.
-A Fiber is created with `create`:
-
-ie.
-```swift
+A Fiber is created with **create**:
+```
  Fiber.create( {
    Console.log("/(self) is the current fiber")
  })
  ```
  
- and executed till the next `yield` with `fiber.call()`
-
-ie.
-```swift
+and executed till the next **yield** with **fiber.call()**:
+```
 var closure = {
     Console.log("1")
     Fiber.yield()
@@ -118,15 +105,15 @@ Console.log(fiber.isDone())
 ```
 
 There are 2 types of yield:
-1. `Fiber.yield()` it returns the controll to the function calling `call()`
-1. `Fiber.yieldWaitTime(seconds)` it returns the controll to the function calling `call()` and also store the current time internally.
+1. **Fiber.yield()** it returns the controll to the function calling **call()**
+1. **Fiber.yieldWaitTime(seconds)** it returns the controll to the function calling **call()** and also store the current time internally.
 
-The later enable a call check of the total time in seconds passed since last `call()`. If the time amount is not enough the call is void and the fiber is not entered.
+The later enable a call check of the total time in seconds passed since last **call()**. If the time amount is not enough the call is void and the fiber is not entered.
 
 Example:
 
-To implement a function that do some stuff every second, like a timer, a way is to use `Fiber.yieldWaitTime(seconds)`
-```swift
+To implement a function that do some stuff every second, like a timer, a way is to use **Fiber.yieldWaitTime(seconds)**:
+```
 var fiber = Fiber.create({
   var keepGoing = true
   while (keepGoing) {
@@ -142,18 +129,16 @@ var fiber = Fiber.create({
 while (!fiber.isDone()) {
   fiber.call()
 }
-
 ```
 
-### Bind
-In Creo+Gravity there are 2 types of `bind` methods that can be used.
+#### Theory: Bind
+In Creo+Gravity there are 2 types of **bind** methods that can be used.
 1. is to bind an object event to a function/closure
-1. is to bind the implicit `self` of a closure to a value
+1. is to bind the implicit **self** of a closure to a value
 
-The first is used when an object (ie a `Timer`) emit an event like `Action` and, in response, we need to run our code.
+The first is used when an object (ie a **Timer**) emit an event like **Action** and, in response, we need to run our code:
 
-ie
-```swift
+```
 var timer = Timer(1.0/100.0, true)
 var action = { Console.log("Timer fired") }
 timer.bind("Action", action)
@@ -165,7 +150,7 @@ timer.start()
 
 ```
 
-The second use of `bind` is to ensure the linking of an implicit `self`, inside a closure, to the needed object. See **Closures**
+The second use of **bind** is to ensure the linking of an implicit **self**, inside a closure, to the needed object. See **Closures**
 
 ## Part I - GameEngine and animated background
 
@@ -194,9 +179,9 @@ To create new class:
 1. drag `Class` from the objects `Code` to `Globals`
 1. click on it and press Enter to rename
 
-![How to add new a Class](../images/tutorials/newClass.png)
+![How to add new a Class](../images/tutorials/game1_newclass.png)
 
-```swift
+```
 class Fibers {
   public var fibers
   public var timer
@@ -247,9 +232,9 @@ class Fibers {
 
 ### 2. GameEngine
 
-To store an instance of the new `Fibers` class and create the base for a game loop we add a new class called `GameEngine`. It offers the main method to add fibers through a new class called `GameBehaviour`.
+To store an instance of the new **Fibers** class and create the base for a game loop we add a new class called **GameEngine**. It offers the main method to add fibers through a new class called **GameBehaviour**.
 
-```swift
+```
 class GameEngine {
   public var fibers = Fibers();
   
@@ -275,20 +260,20 @@ class GameEngine {
 
 ### 3. GameBehaviour
 
-A `GameBehaviour` is the base class from which every game object derives. It's usually connected to a `View` but is not necessary; for instance a behaviour could play a sound or do other things that do not require a view.
+A **GameBehaviour** is the base class from which every game object derives. It's usually connected to a **View** but is not necessary; for instance a behaviour could play a sound or do other things that do not require a view.
 
-When you use `GameBehaviour` you have to explicitily derive from it
+When you use **GameBehaviour** you have to explicitily derive from it
 
-![How to class derive in Creo](../images/tutorials/imageDerive.png) 
+![How to class derive in Creo](../images/tutorials/game1_derive.png) 
 
-The `GameBehaviour` has 3 important methods:
+The **GameBehaviour** has 3 important methods:
 
 1. `start` is called by `GameEngine` once on the frame before the `update` functions is called the first time
 1. `update` is called every frame until the flag `destroy` is set to `true`
 1. `onDestroy` is called once when the the flag `destroy` is set
 
 
-```swift
+```
 class GameBehaviour {
   // Set to true to kill this behaviour
   public var destroy=false;
@@ -335,9 +320,8 @@ class GameBehaviour {
 
 ### 4. Time 
 
-For keeping a smooth experience for the player the time in seconds it took to complete the last frame is available with `time.deltaTime`.
-
-```swift
+For keeping a smooth experience for the player the time in seconds it took to complete the last frame is available with `time.deltaTime`:
+```
 class Time {
   public var deltaTime=0.0;
   func since(value) {
@@ -351,10 +335,8 @@ class Time {
 }
 ```
 
-Use this value to make your game frame rate independent.
-
-ie.
-```swift
+Use this value to make your game frame rate independent:
+```
 class ExampleClass : GameBehaviour {
   public var direction=Point(0.0, -1.0);
 
@@ -384,7 +366,7 @@ We are now ready to start building the game itself.
   - pick an address; this is going to be your game background so any some fancy location will work
 1. add `gameEngine.addInstance(Level())` in you Window `DidShow` event
 
-```swift
+```
 class Background : GameBehaviour {
   public var speed=0.0015
   func start() {
