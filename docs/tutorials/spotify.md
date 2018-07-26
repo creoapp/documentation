@@ -24,7 +24,7 @@ The Spotify tutorial will show you how to use the powerful HTTPClient class to p
 ![Spotify](../images/tutorials/spotify-3.png)
 Rename the object HTTPClient1 in the Layout section with a more appropriate Spotify name.
 
-++4++ Starting from 29th May 2017 Spotify changes authentications for the API we used in this example so we need to add support for OAuth2. Start by connecting to <a href="https://developer.spotify.com">https://developer.spotify.com</a> (create a new account if needed) and then create a new App:
+++4++ Starting from 29th May 2017 Spotify changes authentications for the API we used in this example so we need to add support for OAuth2. Start by connecting to **[https://developer.spotify.com](https://developer.spotify.com)** (create a new account if needed) and then create a new App:
 ![Spotify](../images/tutorials/spotify-10.png)
 
 ++5++ Setup Redirect URIs and Bundle IDs and you'll receive a Client ID and a Client Secret. Two different Redirect URI are needed: one custom Redirect URI specific for your App (in this example: "com.creolabs.spotifydemo://oauth2Callback") that is used when the App runs in a real device and the Creo default redirect URI "com.creolabs.creo://oauth2Callback" used to be able to test the App in the Creo simulator within the Mac IDE and in the CreoPlayer.
@@ -74,6 +74,7 @@ This very short code performs some importants steps:
 1. Hide the Keyboard because each time the user enters text into a TextField the Keyboard appears automatically
 2. Do you remember that Creo automatically created the q dynamic property based on the HTTPRequest? It is a very powerful shortcut because it allows you to modify its value (default to Adele) with the text the user just entered without the needs to rewrite the entire HTTP request.
 3. The HTTPRequest object has a run method that automatically refresh all connected objects (in this case TableView1).
+
 ![Spotify](../images/tutorials/spotify-9.png)
 
 ++14++ Press RUN and enjoy the Spotify app!
@@ -83,5 +84,5 @@ You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build 
 
 #### Project
 Please note that in the downloadable project there is **no support for Auth2 authentication** (we cannot share the Client ID and the Client Secret, so you need to follow steps 4, 5 and 6 in order to obtain a fully functional project).
-* [Spotify.creoproject](../assets/spotify.zip) (78KB)
+* **[Spotify.creoproject](../assets/spotify.zip)** (78KB)
 
