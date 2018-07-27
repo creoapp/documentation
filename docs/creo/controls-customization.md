@@ -34,6 +34,8 @@ These configurations can be easily created using drag and drop from the control 
 Once a property has been exposed you can access it from the containers inspector or from the code editor using the dot notation.
 
 
+
+
 ![Creo](../images/creo/controls-customization-3.png)
 
 ![Creo](../images/creo/controls-customization-4.png)
