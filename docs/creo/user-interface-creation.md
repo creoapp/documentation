@@ -8,7 +8,7 @@ Setting up the main navigation hierarchy using a traditional system involves a c
 #### Setting up navigation hierarchy
 To setup the navigation hierarchy add new windows and navigations into the **LAYOUT** panel. Everything is explicit and really intuitive. Navigations are containers for Windows and Windows are containers for objects. Navigations and Windows can be moved or rearranged inside the Layout panel enabling you to perform test and experiments without writing a single line of code. A Window can contain controls (UI objects) and objects (objects without an UI like databases, classes, HTTP connections and so on).
 
-![Creo](../images/creo/user-interface-creation.png)
+![Creo](../images/creo/user-interface-creation-1.png)
 You add Navigations and Windows using the containers panel located below the Layout section:
 ![Creo](../images/creo/user-interface-creation-3.png)
 

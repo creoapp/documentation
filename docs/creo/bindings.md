@@ -2,7 +2,7 @@ A binding is a **continuous** connection between 2 values. Continuous means that
 
 
 Binding is a very powerful concept in software development but it usually forces developers to learn new programming paradigms or to write some not very intuitive code. **Creo** offers a very intuitive way to create binding and all you have to do is graphically connects two objects using the Binding knob anchor point:
-![Creo](../images/creo/bindings.png)
+![Creo](../images/creo/bindings-1.png)
 
 Once two objects are connected then you can configure the Binding using its Inspector:
 ![Creo](../images/creo/bindings-2.png)

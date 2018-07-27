@@ -4,7 +4,7 @@ Controls can usually be customized using the Inspector pane. In that pane you ca
 
 
 Start by dragging a View from the Objects pane into the Templates folder.
-![Creo](../images/creo/controls-customization.png)
+![Creo](../images/creo/controls-customization-1.png)
 
 Once dropped a new CustomView will be created into the CustomViews folder.
 
@@ -32,6 +32,8 @@ In this case what you want is a CustomView with three properties:
 * Title bound to **Label1.text**
 These configurations can be easily created using drag and drop from the control **[binding anchor point](bindings.html)** to the Exposed Properties inspector panel.
 Once a property has been exposed you can access it from the containers inspector or from the code editor using the dot notation.
+
+
 ![Creo](../images/creo/controls-customization-3.png)
 
 ![Creo](../images/creo/controls-customization-4.png)

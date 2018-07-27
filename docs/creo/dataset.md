@@ -4,7 +4,7 @@ Every object that can read and/or write data is a subclass of the DataSet class,
 
 
 A DataSet object can be created just dragging a Class from the Objects pane:
-![Creo](../images/creo/dataset.png)
+![Creo](../images/creo/dataset-1.png)
 
 Several objects implement the DataSet specs, for example Assets, Databases, HTTPClient (REST), BTCentral, Location, Motion and many others. We prepared detailed tutorials that show you how to create, configure and use each of them:
 * For SQLite Database DataSet read the **[LetsCook tutorial](https://docs.creolabs.com/tutorials/lets-cook-nav.html)**.

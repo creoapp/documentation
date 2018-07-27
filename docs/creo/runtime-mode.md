@@ -13,4 +13,4 @@ Once pressed a new CreoKit instance will be created and all your runtime code wi
 
 #### Switching between design mode and runtime mode
 When you drop a control into the Design Board you can resize it because you are in Design Mode, if you want to really interact with it you need to enter the Runtime Mode just pressing key combination ALT + CMD:
-![Creo](../images/creo/runtime-mode.png)
+![Creo](../images/creo/runtime-mode-1.png)

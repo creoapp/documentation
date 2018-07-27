@@ -7,6 +7,6 @@ Let's try to answer the question: **what is a mobile application?** If you think
 2. A powerful **[DataSet](dataset.md)** subsystem that enables you to read and write data from a different variety of sources like network, databases, files, Bluetooth devices, sensors, camera and many others.
 3. A very intuitive **[Events](objects-and-events.md)** based system where you can write the connection code between your user interface objects and your data objects.
 
-![Creo](../images/creo/how-creo-works.png)
+![Creo](../images/creo/how-creo-works-1.png)
 
 **Creo** is a next generation tool that lets you combine design and development in order to build better applications in a fraction of time compared to traditional tools.

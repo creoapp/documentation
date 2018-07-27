@@ -5,7 +5,7 @@ CreoPlayer is a free iOS application that you can use to preview your apps in re
 
 
 Start by opening the CreoPlayer iOS app:
-![Creo](../images/creo/creoplayer.png)
+![Creo](../images/creo/creoplayer-1.png)
 
 Then press the paper plane icon in the Creo's toolbar:
 ![Creo](../images/creo/creoplayer-2.png)
