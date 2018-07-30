@@ -21,7 +21,7 @@ The Parking Car tutorial will show you how to navigate between two windows (usin
 ++1++ Create a new empty Creo project and start by dragging the Database.sqlite database into the Assets folder (then press Yes to the object conversion question).
 
 ++2++ Create a new database query object by using the contextual menu over the Database sqlite database. In the Query Editor just drag the Location table into the SQL edit field and the sql query will be automatically created for you (you can also manually enter it). You can optionally press the Run button to test the result of your query (data in the instructions column is in Markdown format). The SQL query looks like:
-```SELECT * FROM "Location" ORDER BY "Date‚Äù;```
+```SELECT * FROM "Location" ORDER BY "Date”;```
 
 ++3++ From the Objects inspector panel drag a Class object into the Globals folder and rename it to LocationInfo name. From the Code Editor add new properties named date, latitude, longitude, notes and title
 
@@ -151,4 +151,4 @@ Keyboard.hide()
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [ParkingCar.creoproject](../assets/parkingcar.zip) (125KB)
+* [ParkingCar.creoproject]({{github_raw_link}}/assets/parkingcar.zip) (125KB)

@@ -58,5 +58,5 @@ Animation1.play();
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [HeartRate.creoproject](../assets/heartrate.zip) (84KB)
+* [HeartRate.creoproject]({{github_raw_link}}/assets/heartrate.zip) (84KB)
 

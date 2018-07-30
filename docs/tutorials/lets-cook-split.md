@@ -54,4 +54,4 @@ What happens here is that the Details window is opened and the index of the View
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [LetsCookSplit.creoproject](../assets/letscooksplit.zip) (12MB)
+* [LetsCookSplit.creoproject]({{github_raw_link}}/assets/letscooksplit.zip) (12MB)

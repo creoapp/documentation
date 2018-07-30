@@ -97,4 +97,4 @@ Please note that icons preview will differ between MacOS and a real iOS device.
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [FileManager.creoproject](../assets/filemanager.zip) (1.4MB)
+* [FileManager.creoproject]({{github_raw_link}}/assets/filemanager.zip) (1.4MB)

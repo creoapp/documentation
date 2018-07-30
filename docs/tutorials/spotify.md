@@ -84,5 +84,5 @@ You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build 
 
 #### Project
 Please note that in the downloadable project there is **no support for Auth2 authentication** (we cannot share the Client ID and the Client Secret, so you need to follow steps 4, 5 and 6 in order to obtain a fully functional project).
-* **[Spotify.creoproject](../assets/spotify.zip)** (78KB)
+* [Spotify.creoproject]({{github_raw_link}}/assets/spotify.zip) (78KB)
 

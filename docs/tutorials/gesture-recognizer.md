@@ -51,4 +51,4 @@ if (self.state == GestureRecognizerState.Changed) {
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [GestureRecognizer.creoproject](../assets/gesture.zip) (12KB)
+* [GestureRecognizer.creoproject]({{github_raw_link}}/assets/gesture.zip) (12KB)

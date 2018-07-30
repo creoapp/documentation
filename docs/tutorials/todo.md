@@ -315,4 +315,4 @@ TableView1.reload(true);
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [ToDo.creoproject](../assets/todo.zip) (29KB)
+* [ToDo.creoproject]({{github_raw_link}}/assets/todo.zip) (29KB)

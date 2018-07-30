@@ -118,4 +118,4 @@ CameraRoll.saveImage(image); // save image to CameraRoll
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [FreehandDrawing2.creoproject](../assets/drawing2.zip) (16KB)
+* [FreehandDrawing2.creoproject]({{github_raw_link}}/assets/drawing2.zip) (16KB)

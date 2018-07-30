@@ -53,4 +53,4 @@ What is a ContainerControl? So far we manually created the Windows for our app, 
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [eBook.creoproject](../assets/ebook.zip) (6.6MB)
+* [eBook.creoproject]({{github_raw_link}}/assets/ebook.zip) (6.6MB)

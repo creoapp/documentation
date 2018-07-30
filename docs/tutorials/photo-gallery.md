@@ -61,4 +61,4 @@ CameraRoll1.openAsset(0);
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [PhotoGallery.creoproject](../assets/photogallery.zip) (12KB)
+* [PhotoGallery.creoproject]({{github_raw_link}}/assets/photogallery.zip) (12KB)
