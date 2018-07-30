@@ -1,0 +1,2 @@
+#### Why Creo does not support iPhone 4/4s and 5?
+We made the decision to support iPhone 5S and higher with Creo because Apple officially dropped support for 32 bit apps with iOS 11. Unfortunately iPhone 4, 4s, 5, 5C and iPad 4th Generation use a 32bit only processor and cannot run iOS 11.

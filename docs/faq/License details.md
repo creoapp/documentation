@@ -1,0 +1,2 @@
+#### Can I have more details about Creo license?
+Your license is valid for a year from the date you purchase it. To receive updates after that date, you’ll need to renew your license. You can find more information about licensing in the **[pricing](https://creolabs.com/pricing)** page.
