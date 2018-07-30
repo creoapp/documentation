@@ -1,4 +1,4 @@
-#  Main repository for https://docs.creolabs.com
+##  Main repository for https://docs.creolabs.com
 
 ### How it works
 A script on our docs.creolabs.com server process documentation each time a new commit is pushed into this repository.
