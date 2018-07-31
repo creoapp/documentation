@@ -8,18 +8,15 @@
       "file": "autoresizing.md"
     },
     {
+      "name": "Exposed events",
+      "file": "exposed-events.md"
+    },
+    {
       "entry": "DATASET"
     },
     {
       "name": "From HTTP to Database",
       "file": "http-to-database.md"
-    },
-    {
-      "entry": "CUSTOM VIEW"
-    },
-    {
-      "name": "Exposed events",
-      "file": "exposed-events.md"
     }
   ]
 }
