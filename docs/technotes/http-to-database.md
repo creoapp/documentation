@@ -43,7 +43,7 @@ For this example we'll use a test JSON file from [https://media.creolabs.com/tes
 ]
 ```
 
-In our example we setup an HTTPRequest and we can verify that data exists and it is in the format we expects.
+In our example we setup an HTTPRequest and we can verify that data exists and it is in the format we expect.
 
 ![HTTP2Database](../images/technotes/http2database-1.png)
 
