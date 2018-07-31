@@ -4,6 +4,8 @@ Struts can be fixed so they can't change or they can be flexible and allow chang
 
 Creo offers a visual way to set Autoresizing masks but under the hood it is just a bitwise OR of values.
 
+![Autosize](../images/technotes/autosize.png)
+
 Here's a breakdown of what each option does:
 * **Autoresizing.FlexibleBottomMargin:** Allow the distance between the bottom of the view and its container to change.
 * **Autoresizing.FlexibleHeight:** Allow the height of the view to change in order to preserve the top and bottom struts (distances to the edge of the superview).
