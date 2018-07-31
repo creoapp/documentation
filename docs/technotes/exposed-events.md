@@ -1,4 +1,4 @@
-Exposed events from a control inside a CustomView. 
+Exposed events from a control inside a CustomView.
 If you want to fire an action from a control inside a CustomView and to know which cell - for example which cell of the TableView - has fired that action then you should use the CustomView's `exposed` events.
 
 Add a TableView:
@@ -27,6 +27,10 @@ Label4.text = cell.text
 ```
 
 ![exposed_events_5](../images/technotes/exposed_events_5.png)
+
+This is what happen in the Simulator when you click on the button of the first row:
+
+![exposed_events_6](../images/technotes/exposed_events_6.png)
 
 **Project**
 * [ExposedEventInTable.creoproject]({{github_raw_link}}/assets/exposed_events.creoproject.zip) (14KB)
