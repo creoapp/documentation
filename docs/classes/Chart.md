@@ -53,6 +53,9 @@ If true, shows the Y axis line; otherwise, does not.
 * **var** **showsLabelY**: **[Bool](../gravity/types.md)**
 If true, shows the Y axis labels; otherwise, does not.
 
+* **var** **dataSet**: **[Object](../gravity/types.md)**
+The <a href="DataSet.html">DataSet</a> object provides information that Chart needs to construct its content.
+
 
 
 ### Methods

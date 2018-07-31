@@ -115,6 +115,9 @@ The distance over which the fadeout occurs, measured in multiples of an item wid
 * **var** **fadeMinAlpha**: **[Float](../gravity/types.md)**
 The minimum alpha value to which the views will fade (defaults to 0.0 - fully transparent).
 
+* **var** **dataSet**: **[Object](../gravity/types.md)**
+The <a href="DataSet.html">DataSet</a> object provides information that Carousel needs to construct its content. The dataSet must return a List of objects and each object represents a different row. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath property defines the list of keys used to browse the data tree to get a List node.
+
 * **var** **keyPath**: **[String](../gravity/types.md)**
 The base keyPath to get a particular node of the <a href="DataSet.html">DataSet</a> value. The DataSet must provide a List of objects and each object represents a different item. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
 

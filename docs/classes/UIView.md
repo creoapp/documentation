@@ -61,6 +61,9 @@ The blur radius (in points) used to render the view's shadow
 * **var** **subviews**: **[List](../gravity/list.md)**
 The array of subviews.
 
+* **var** **autoresizingMask**: **Autoresizing**
+An integer bit mask that determines how the receiver resizes itself when its superview’s bounds change.
+
 
 
 ### Methods
@@ -84,6 +87,19 @@ Unlinks the view from its superview and its window, and removes it from the resp
 Inserts a subview at the specified index.
 
 
+
+
+
+### Enumeration
+
+#### Autoresizing
+ * .FlexibleBottomMargin
+ * .FlexibleHeight
+ * .FlexibleLeftMargin
+ * .FlexibleRightMargin
+ * .FlexibleTopMargin
+ * .FlexibleWidth
+ * .None
 
 
 

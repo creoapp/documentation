@@ -16,6 +16,9 @@ This event is called when a row is selected. The parameters contain the instance
 * **DidDeselectCell**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
 This event is called when a row is deselected. The parameters contain the instance of the <a href="TableViewCell.html">TableViewCell</a>, the section index and the row index of the deselected cell.
 
+* **WillShowCell**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
+This event is called when the table is about to draw a cell for a particular row. The parameters contain the instance of the <a href="TableViewCell.html">TableViewCell</a>, the section index and the row index of the cell.
+
 * **CanEditCell**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 The event allows you to exclude individual rows from being treated as editable. Editable rows display the insertion or deletion control in their cells. If this event is not implemented, all rows are assumed to be editable. Return true if you want the cell to be editable, false otherwise.
 
@@ -76,6 +79,9 @@ A Boolean value that controls whether users can select more than one cell simult
 
 * **var** **allowsMultipleSelectionDuringEditing**: **[Bool](../gravity/types.md)**
 Description not yet ready.
+
+* **var** **dataSet**: **[Object](../gravity/types.md)**
+The <a href="DataSet.html">DataSet</a> object provides information that TableView needs to construct its content. The dataSet must return a List of objects and each object represents a different row. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath property defines the list of keys used to browse the data tree to get a List node.
 
 * **var** **reloadOnPull**: **[Bool](../gravity/types.md)**
 A Boolean value that controls whether the dataSet and the table must be reloaded when the user drags the table over the top.

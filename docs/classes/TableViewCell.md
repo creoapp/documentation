@@ -11,7 +11,16 @@ The TableViewCell class defines the attributes and behavior of the cells that ap
 ### Properties
 
 * **var** **identifier**: **[String](../gravity/types.md)**
-Identifier set in the cell property inspector. \(read-only\)
+Identifier set in the cell property inspector.
+
+* **var** **text**: **[String](../gravity/types.md)**
+The main textual content.
+
+* **var** **detailText**: **[String](../gravity/types.md)**
+The text of the secondary label of the cell.
+
+* **var** **image**: **[Image](Image.md)**
+The image of the cell.
 
 * **var** **customView**: **[CustomView](CustomView.md)**
 Custom view instance presented in the contentView of the cell.

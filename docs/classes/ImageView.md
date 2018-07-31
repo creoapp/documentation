@@ -53,7 +53,7 @@ Asynchronously downloads an image from the specified URL (both local and remote 
 * **var** **contentMode**: **ContentMode**
 Options to specify how a view adjusts its content when its size changes.
 
-* **var** **imagesRenderingMode**: **[Int](../gravity/types.md)**
+* **var** **imagesRenderingMode**: **ImageRenderingMode**
 Options to specify how a view adjusts its content when its size changes.
 
 
@@ -98,6 +98,11 @@ Clear focus from selected control
  * .Top
  * .TopLeft
  * .TopRight
+
+#### ImageRenderingMode
+ * .AlwaysOriginal
+ * .AlwaysTemplate
+ * .Automatic
 
 #### AnimationOption
  * .AllowAnimatedContent
