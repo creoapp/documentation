@@ -1,3 +1,18 @@
+**<span class="label label-release label-version">Creo 1.0.8</span>July 31st 2018 (Build 14201)**
+* Improved NavigationBar class with new blur layer and others internal improvements
+* Improved Window class with exposed firstResponder and new methods to convert from/to the Window's view coordinate system
+* Improved TableView
+* Improved Open/OpenIn/OpenModal methods
+* Improved ChartView
+* Improved Map with new Annotations related methods and properties
+* Improved performance for large projects
+* Added an optional closure parameter to the Open method (that will be executed by the newly opened Window/Navigation)
+* Exposed autoresizingMask property to all UIView subclasses
+* Fixed an issue with ExposedEvents
+* Fixed an issue with Image class
+* Others internal improvements and fixes
+* New documentation engine, users can submit examples, articles or any other improvement via GitHub via the public repo **[https://github.com/creoapp/documentation/](https://github.com/creoapp/documentation/)**. Official documentation can be found at **[https://docs.creolabs.com/](https://docs.creolabs.com/)**
+
 **<span class="label label-release label-version">Creo 1.0.7</span>July 19th 2018 (Build 14057)**
 * Improved WebView
 * Improved String.split method and added new String.replace and String.contains methods
@@ -55,7 +70,7 @@
 * Several crashes has been fixed thanks to the feedback from our users
 * Several others internal fixes and improvements
 
-**<span class="label label-release label-version">Creo 1.0.2</span>June 21th 2018 (Build 13657)**
+**<span class="label label-release label-version">Creo 1.0.2</span>June 21st 2018 (Build 13657)**
 * Added TestFlight support
 * Small improvements in the Animation panel
 * Improved performance of ImageView control
