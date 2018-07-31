@@ -24,10 +24,3 @@ The same view with this mask
 would indicate that that view's width and height should remain fixed, as well as the top distance to the superview and the left distance to the superview. This means that a square of 50x50 would always be located at 10,10 no matter the size of the super view. The bottom and right margins were flexible, but nothing else was.
 
 ![Autoresizing](../images/technotes/autoresizing.gif)
-
-
-
-**References:**
-* [Reddit Article](https://www.reddit.com/r/iOSProgramming/comments/3f88uh/autoresizing_masks_what_are_they/)
-* [Apple Documentation](https://developer.apple.com/documentation/uikit/uiview/1622559-autoresizingmask?language=objc)
-* [Animated GIF](http://www.thecodedself.com/autoresizing-masks/)
