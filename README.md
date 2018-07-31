@@ -74,7 +74,7 @@ Every file in the examples folder is automatically appended to its main file if 
 If you need to attach some file (like the zip project files founds in the tutorials) then prepend the special `{{github_raw_link}}` tag to its relative path. This tag will be replaced by our script with the proper GitHub link.
 
 ### Images
-All images should be stored in the images folder within a subfolder with the same name of the folders that contains a `toc.json` file.
+All images should be stored in the images folder within a subfolder with the same name of the folders that contains the `toc.json` file. All images are optimized for Retina display so they are shown at half width and half height. A fullscreen screenshot should be no wider than 1600px. A CSS class ensures that no image can be wider (or taller) than 800px.
 
 ### Tutorials
 All the tags used in the documentation are standard Markdown tags with the only exception of the **++N++** tag used to denote a step in the tutorial section (where **N** is a number).
