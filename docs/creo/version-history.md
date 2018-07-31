@@ -11,7 +11,7 @@
 * Fixed an issue with ExposedEvents
 * Fixed an issue with Image class
 * Others internal improvements and fixes
-* New documentation engine at at **[https://docs.creolabs.com/](https://docs.creolabs.com/)**. Users can submit examples, articles or any other improvement via our new public **[GitHub](https://github.com/creoapp/documentation/)** repo.
+* New documentation engine at **[https://docs.creolabs.com/](https://docs.creolabs.com/)**. Users can submit examples, articles or any other improvement via our new public **[GitHub](https://github.com/creoapp/documentation/)** repo.
 
 **<span class="label label-release label-version">Creo 1.0.7</span>July 19th 2018 (Build 14057)**
 * Improved WebView
