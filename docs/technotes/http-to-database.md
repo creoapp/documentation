@@ -1,26 +1,84 @@
-Autosize constraints (iOS Autoresizing masks) are based on the layout concept of `Struts and Springs`. You define which edges can change and which dimensions can change. Width and height are the `springs` they can stretch (if allowed) to keep the struts satisfied. The distance from left, top, right, and bottom are the `struts`.
+There is often the needs to download data from an HTTPRequest and then filter that data using some custom search criteria. Searching and filtering is a problem easily solvable by a sql database so the best approach is to use data download from the HTTP to fill an in-memory database and then use that database as a DataSet to be filtered.
 
-Struts can be fixed so they can't change or they can be flexible and allow change. You combine these options as a bit mask to create an Autoresizing mask to describe how you want the struts and springs to behave.
+For this example we'll use a test JSON file from [https://media.creolabs.com/test/sample_data.json](https://media.creolabs.com/test/sample_data.json) that contains data in the form (an array of maps):
+```
+[
+	{
+	Description = "3 Lockers";
+	Eastings = "414683.701260896";
+	Lat = "53.6980959";
+	Location = "Brighouse Railway Station Westbound";
+	Long = "-1.7790804";
+	Northing = "422428.970465386";
+	Number = 3;
+	Town = Brighouse;
+	"json_featuretype" = "Sample Data";
+	"json_geometry" =         {
+		coordinates =             (
+			"-1.7790804",
+			"53.6980959"
+		);
+		type = Point;
+	};
+	},
+		{
+		Description = "4 Stands";
+		Eastings = "414729.492310424";
+		Lat = "53.7010035";
+		Location = "Brighouse Sainsbury's";
+		Long = "-1.7783716";
+		Northing = "422752.60949517";
+		Number = 4;
+		Town = Brighouse;
+		"json_featuretype" = "Sample Data";
+		"json_geometry" =         {
+			coordinates =             (
+				"-1.7783716",
+				"53.7010035"
+			);
+			type = Point;
+		};
+	},
+	...
+]
+```
 
-Creo offers a visual way to set Autoresizing masks but under the hood it is just a bitwise OR of values.
+In our example we setup an HTTPRequest and we can verify that data exists and it is in the format we expects.
 
-![Autosize](../images/technotes/autosize.png)
+![HTTP2Database](../images/technotes/http2database-1.png)
 
-Here's a breakdown of what each option does:
-* **Autoresizing.FlexibleBottomMargin:** Allow the distance between the bottom of the view and its container to change.
-* **Autoresizing.FlexibleHeight:** Allow the height of the view to change in order to preserve the top and bottom struts (distances to the edge of the superview).
-* **Autoresizing.FlexibleLeftMargin:** Allow the distance between the left side of the view and its container to change.
-* **Autoresizing.FlexibleRightMargin:** Allow the distance between the right side of the view and its container to change.
-* **Autoresizing.FlexibleTopMargin:** Allow the distance between the top of the view and its container to change.
-* **Autoresizing.FlexibleWidth:** Allow the width of the view to change in order to preserve the top and bottom struts (distances to the edge of the superview).
+We should create an in-memory SQLite database with all the fields we need:
 
-You can combine these options with a bitwise OR operator '|'. This allows a very primitive `automatic` layout system that can respond to changes in the size of a containing view.
-For example, a view with frame rect of (10, 10, 50, 50) and a superview bounds of (0, 0, 70, 70)
-**Autoresizing.FlexibleWidth | Autoresizing.FlexibleHeight**
-would mean that no matter what the superview's size is, the view should always remain exactly 10pts from the top, left, bottom, and right of the superview. This means that the width and height must be able to change, which means they're flexible.
+![HTTP2Database](../images/technotes/http2database-2.png)
 
-The same view with this mask
-**Autoresizing.FlexibleBottomMargin | Autoresizing.FlexibleRightMargin**
-would indicate that that view's width and height should remain fixed, as well as the top distance to the superview and the left distance to the superview. This means that a square of 50x50 would always be located at 10,10 no matter the size of the super view. The bottom and right margins were flexible, but nothing else was.
+A TableView should be created with the SQLite query set as its DataSet and with some properties bound to cell properties:
 
-![Autoresizing](../images/technotes/autoresizing.gif)
+![HTTP2Database](../images/technotes/http2database-3.png)
+
+The core of this article is to show you how to transfer data from an HTTP request to an SQLite database. The requested code should be written in the DidFinish event of the HTTPClient1.Request object and it looks like:
+
+```
+var r = self.value;
+// r is an array of maps
+for (var data in r) {
+	// each map can be accessed using the key we can see from the JSON file
+	var description = data.Description;
+	var number = data.Number;
+	var location = data.Location;
+	var town = data.Town;
+	var long = data.Long;
+	var lat = data.Lat;
+	
+	// build an sql insert statement and execute it in the in-memory database
+	var sql = "INSERT INTO Properties (description, number, location, town, long, lat) VALUES ('\(description)', \(number), '\(location)', '\(town)', \(long), \(lat));";
+	SQLite1.execute(sql);
+}
+
+// once finished tell the Table to reload and refresh
+TableView1.reload(true);
+```
+
+As a bonus code in the attached example you can see how to present a simple "Loading data..." view and how to filter that data using input from a SearchBar.
+
+**Project**
+* [FilterTable.creoproject]({{github_raw_link}}/assets/filtertable.zip) (16KB)
