@@ -12,11 +12,19 @@
       "file": "exposed-events.md"
     },
     {
+      "name": "Keyboard avoiding TextFields",
+      "file": "keyboard_avoiding_textfields.md"
+    },
+    {
       "entry": "DATASET"
     },
     {
       "name": "From HTTP to Database",
       "file": "http-to-database.md"
+    },
+    {
+      "name": "New DataSet in each row",
+      "file": "new-dataset-in-each-row.md"
     }
   ]
 }
