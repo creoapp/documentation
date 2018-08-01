@@ -2,7 +2,7 @@ How to use a new Database query that depends on the cell identifier as the Datas
 
 For this example we'll use a test SQLite DB file from [https://github.com/lerocha/chinook-database](https://github.com/lerocha/chinook-database)
 
-The SQLiteRecordSet `chinook.customers` is used as the DataSet of the `TableView1` to show a row for each customers.
+The SQLiteRecordSet `chinook.customers` is used as the DataSet of the `TableView1` to show a row for each customer.
 
 ![new_dataset_in_each_row_1](../images/technotes/new_dataset_in_each_row_1.png)
 

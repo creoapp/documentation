@@ -4,7 +4,7 @@ TextFields are added as subviews inside a View object (which is a view that allo
 
 ![keyboard_avoiding_textfields_1](../images/technotes/keyboard_avoiding_textfields_1.png)
 
-The automatic scrolling action to keep the active TextField visible when the keyboard is presented is performed by the following code in the `KeyboardWillShow` event of the `Window1`
+The automatic scrolling action to keep the active TextField visible when the keyboard is presented is performed by the following code in the `KeyboardWillShow` event of the `Window1`:
 
 ```
 var duration = keyboard.duration;
