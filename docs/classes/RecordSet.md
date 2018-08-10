@@ -40,7 +40,7 @@ Number of columns in the RecordSet. \(read-only\)
 ### Methods
 
 * **func** **run**()
-Perform query specified in the current RecordSet (specified by the sql property).
+Perform the query specified in the current RecordSet (specified by the sql property). Each control which uses this RecordSet for it <code>dataSet</code> property is notified when new rows are available and when the run is completed, and updates itself to show the new data. This method automatically connects the parent <a href="Database.html">Database</a> instance if needed.
 
 * **func** **columnType**(**index**: **[Int](../gravity/types.md)**): <strong><a href="#_enum_DatabaseFieldType">DatabaseFieldType</a></strong> 
 Returns column type specified by the index parameter.
