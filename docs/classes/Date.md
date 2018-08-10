@@ -21,37 +21,37 @@ The interval between the date object and the current date and time. \(read-only\
 The interval between the date object and 00:00:00 UTC on 1 January 1970. \(read-only\)
 
 * **var** **era**: **[Int](../gravity/types.md)**
-Extract era from current date. \(read-only\)
+Extract era from the date. \(read-only\)
 
 * **var** **year**: **[Int](../gravity/types.md)**
-Extract year from current date. \(read-only\)
+Extract year from the date. \(read-only\)
 
 * **var** **month**: **[Int](../gravity/types.md)**
-Extract month from current date. \(read-only\)
+Extract month from the date. \(read-only\)
 
 * **var** **day**: **[Int](../gravity/types.md)**
-Extract day from current date. \(read-only\)
+Extract day from the date. \(read-only\)
 
 * **var** **hour**: **[Int](../gravity/types.md)**
-Extract hour from current date. \(read-only\)
+Extract hour from the date. \(read-only\)
 
 * **var** **minute**: **[Int](../gravity/types.md)**
-Extract minute from current date. \(read-only\)
+Extract minute from the date. \(read-only\)
 
 * **var** **second**: **[Int](../gravity/types.md)**
-Extract second from current date. \(read-only\)
+Extract second from the date. \(read-only\)
 
 * **var** **nanosecond**: **[Int](../gravity/types.md)**
-Extract nanosecond from current date. \(read-only\)
+Extract nanosecond from the date. \(read-only\)
 
 * **var** **weekday**: **[Int](../gravity/types.md)**
-Extract weekday from current date. The weekday units are the numbers 1 through N (where for the Gregorian calendar N=7 and 1 is Sunday). \(read-only\)
+Extract weekday from the date. The weekday units are the numbers 1 through N (where for the Gregorian calendar N=7 and 1 is Sunday). \(read-only\)
 
 * **var** **weekdayOrdinal**: **[Int](../gravity/types.md)**
 The weekday ordinal unit describes ordinal position within the month unit of the corresponding weekday unit. For example, in the Gregorian calendar a weekday ordinal unit of 2 for a weekday unit 3 indicates "the second Tuesday in the month". \(read-only\)
 
 * **var** **quarter**: **[Int](../gravity/types.md)**
-Extract quarter from current date. \(read-only\)
+Extract quarter from the date. \(read-only\)
 
 * **var** **weekOfMonth**: **[Int](../gravity/types.md)**
 Extract the original week of a month calendar unit. \(read-only\)
@@ -60,7 +60,7 @@ Extract the original week of a month calendar unit. \(read-only\)
 Extract the original week of the year calendar unit. \(read-only\)
 
 * **var** **yearForWeekOfYear**: **[Int](../gravity/types.md)**
-Extract the ISO Week Date from current date. \(read-only\)
+Extract the ISO Week Date from the date. \(read-only\)
 
 
 

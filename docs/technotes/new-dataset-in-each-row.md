@@ -12,21 +12,18 @@ The SQLiteRecordSet `chinook.invoices`, with a statically configured filter for 
 
 The `dataSet` property of the `Chart1` in each cell will be overridden at runtime to use a specific query depending on the custemerId of each row. The new SQLiteRecordSet for each row is done with the following code in the `WillShowCell` event of the `TableView1`:
 ```
-var sql = 'SELECT "Total" FROM main."invoices" where CustomerId = \(cell.identifier)'
-
-//Console.write("cell text \(cell.text)")
+var sql = 'SELECT Total FROM main."invoices" where CustomerId = \(cell.identifier)'
 
 func onSuccess(db,rs) {
-	//Console.write("onSuccess \(cell.identifier) \(rs)")
-
-	if (rs) cell.CustomView1.Chart1.dataSet = rs
-	else cell.CustomView1.Chart1.dataSet = null
-
+	// the new RecordSet is the second argument of the closure
+	cell.CustomView1.Chart1.dataSet = rs
 	cell.CustomView1.Chart1.reload(false)
 }
 
-func onError() {
-	Console.write("Error: \(sql)")
+func onError(db) {
+	cell.CustomView1.Chart1.dataSet = null
+	cell.CustomView1.Chart1.reload(false)
+	Console.write("Error: \(db.errorMessage)")
 }
 
 chinook.select(sql, onSuccess, onError)
@@ -39,4 +36,4 @@ This is what is shown when running the App in the Simulator:
 ![new_dataset_in_each_row_4](../images/technotes/new_dataset_in_each_row_4.png)
 
 **Project**
-* [newDatasetInEachRow.creoproject]({{github_raw_link}}/assets/new_dataset_in_each_row.creoproject.zip) (389KB)
+* [newDatasetInEachRow.creoproject]({{github_raw_link}}/assets/new_dataset_in_each_row.creoproject.zip) (353KB)
