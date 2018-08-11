@@ -20,7 +20,7 @@ Each subtask is related to its main task by the task_id field. The color field i
 * [View](../classes/View.md)
 
 #### Assets
-* [ToDo SQLite database](../assets/todo_assets.zip)
+* [ToDo SQLite database]({{github_raw_link}}/assets/todo_assets.zip)
 
 #### Steps
 ++1++ Create a new empty Creo project and start by dragging the todo.sqlite database into the Assets folder (then press Yes to the object conversion question).

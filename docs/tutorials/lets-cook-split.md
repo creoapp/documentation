@@ -12,9 +12,9 @@ This tutorial assumes that you already followed the [LetsCookNav](lets-cook-nav.
 * [View](../classes/View.md)
 
 #### Assets
-* [Recipes SQLite database](../assets/letscooknav_assets.zip) - images credits to [Lorenzo Bocchi](https://www.lorenzobocchi.com)
-* [PNG Launch Image](../assets/letscooknav_assets.zip) - credits to [Lorenzo Bocchi](https://www.lorenzobocchi.com)
-* [PNG Icon](../assets/letscooknav_assets.zip) - credits to [Jenya Tkach](https://dribbble.com/shots/338811-Cook)
+* [Recipes SQLite database]({{github_raw_link}}/assets/letscooknav_assets.zip) - images credits to [Lorenzo Bocchi](https://www.lorenzobocchi.com)
+* [PNG Launch Image]({{github_raw_link}}/assets/letscooknav_assets.zip) - credits to [Lorenzo Bocchi](https://www.lorenzobocchi.com)
+* [PNG Icon]({{github_raw_link}}/assets/letscooknav_assets.zip) - credits to [Jenya Tkach](https://dribbble.com/shots/338811-Cook)
 
 #### Steps
 ++1++ Create a new empty Creo project, start by dragging the Recipes.sqlite database into the Assets folder (then press Yes to the object conversion question) and then create a new query (as the one created in the <a href="lets-cook-nav.html">LetsCookNav</a> tutorial).

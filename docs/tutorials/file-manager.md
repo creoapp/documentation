@@ -9,7 +9,7 @@ Managing files and directories are very important tasks in a mobile application.
 * [Alert](../classes/Alert.md)
 
 #### Assets
-* [Various resources](../assets/filemananger_assets.zip) like a jpeg image, a mp4 movie, a sqlite database, a text file and an aiff sound.
+* [Various resources]({{github_raw_link}}/assets/filemananger_assets.zip) like a jpeg image, a mp4 movie, a sqlite database, a text file and an aiff sound.
 
 #### Steps
 ++1++ Create a new empty Creo project and expose Window1 as "Assets Library" in the main Navigation1:

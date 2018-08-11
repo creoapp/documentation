@@ -8,7 +8,7 @@ The eBook tutorial will show you how to use the powerful PageContainer control b
 * [View](../classes/View.md)	
 		
 #### Assets
-* [Images](../assets/ebook_assets.zip) - images credits to [freephotos.cc](https://freephotos.cc)
+* [Images]({{github_raw_link}}/assets/ebook_assets.zip) - images credits to [freephotos.cc](https://freephotos.cc)
 
 
 #### Steps
