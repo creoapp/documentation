@@ -62,16 +62,18 @@ Rename Query to SubtaskQuery.
 ++9++ Our CategoryView object is now ready to be used. Drag a TableView control from the Objects panel into the Window1 and resize it to be as big as the Window:
 ![ToDo](../images/tutorials/todo-9.png)
 
-++10++ **Here is where the magic happens.** Connect your TableView with a CustomView and a DataSet. All you have to do is to configure the Cell and Cell Properties sections into the Inspector. Identifier is a cell property that should be used to bind DataSet unique identifier, in the case of a database it is usually its primary key column. Name and Color are the two properties you just exposed from the CategoryView custom view.
-![ToDo](../images/tutorials/todo-10.png)
+++10++ **Here is where the magic happens.** Connect your TableView with a CustomView and a DataSet. All you have to do is to configure the Custom View property of the Cell1 with the CategoryView value and the Cell Properties and Cell CustomView Properties sections into the Inspector of the TableView1. Identifier is a cell property that should be used to bind DataSet unique identifier, in the case of a database it is usually its primary key column. Name and Color are the two properties you just exposed from the CategoryView custom view.
+![ToDo](../images/tutorials/todo-10_1.png)
+![ToDo](../images/tutorials/todo-10_2.png)
 
-++11++ As you can see from the Navigation Bar, the Window1 title is inherited from the current window name. It would be better to have a more appropriate title. Select Window1 and change the property Title in the Navigation Bar section to ToDo.
+++11++ As you can see from the Navigation Bar, the Window1 title is inherited from the current window name. It would be better to have a more appropriate title. Press the + button near the Window1 item in the layout and add a customized Title Item, then change the property Title to ToDo.
+![ToDo](../images/tutorials/todo-11_1.png)
 
 ++12++ Time for NavigationBar customization. Select Navigation1 and set Title Attributes color and Tint Color to 656565FF.
 ![ToDo](../images/tutorials/todo-11.png)
 
-++13++ Select Window1 and in Navigation Items add a new System Add right button.
-![ToDo](../images/tutorials/todo-12.png)
+++13++ Press the + button near the Window1 item in the layout and add a customized Right Item, then select the "Add" System Item in the inspector.
+![ToDo](../images/tutorials/todo-12_1_.png)
 
 <!-- WINDOW 2 -->
 ++14++ The first Task window is now completed, we now need to create a window that can contains the subtasks of the selected task. Start by creating a new Window:
@@ -91,6 +93,7 @@ Rename Query to SubtaskQuery.
 
 | Object | Property | Value |
 | ---------- | --------- | --------- |
+| **Button1** | Title | + |
 | **Button1** | Typography | Size: 18, Color: #C0C0C0 |
 | **Button1** | Frame | 351, 70, 24, 24 |
 
@@ -110,7 +113,7 @@ Rename Query to SubtaskQuery.
 
 ![ToDo](../images/tutorials/todo-16.png)
 
-Select Window2 and change its Title under Navigation Bar to Details.
+Select Window2 and change its Title by adding a custom Title Item.
 
 ++18++ So far so good but there are some important steps missed out from our tutorial. A way to connect user's selection in Window1 to sub-tasks details in Window2, a way to create new subtasks and a way to remove a subtask from the list. Let's start from the beginning.
 What we would like to achieve is to list all the subtasks related to the task the user selected in Window1, so we need a way to tell Window2 what task the user selected. A Window is an object (like any others in Creo) that can have methods and properties and a property is what we really need here. Start by selecting Window2 and then open the Code Editor.
@@ -211,33 +214,33 @@ if (editingMode == TableViewCellEditingStyle.Delete) {
 
 | Object | Property | Value |
 | ---------- | --------- | --------- |
-| **NameField** | Placeholder | Task Name |
+| **NameField** (EditField) | Placeholder | Task Name |
 | **NameField** | Border Style | Round Rect |
 | **NameField** | Frame | 5, 45, 362, 30 |
-| **ColorLabel** | Text | Task Color |
+| **ColorLabel** (Label) | Text | Task Color |
 | **ColorLabel** | Typography | Style Bold, Size 17, Alignment Center, Color #656565 |
 | **ColorLabel** | Frame | 107, 102, 157, 44 |
-| **ColorView** | Frame | 200, 166, 132, 132 |
-| **RedLabel** | Text | R |
+| **ColorView** (View) | Frame | 200, 166, 132, 132 |
+| **RedLabel** (Label) | Text | R |
 | **RedLabel** | Typography | Style Bold, Size 15, Alignment Right, Color #656565 |
 | **RedLabel** | Frame | 6, 156, 28, 44 |
-| **GreenLabel** | Text | G |
+| **GreenLabel** (Label) | Text | G |
 | **GreenLabel** | Typography | Style Bold, Size 15, Alignment Right, Color #656565 |
 | **GreenLabel** | Frame | 6, 206, 28, 44 |
-| **BlueLabel** | Text | B |
+| **BlueLabel** (Label) | Text | B |
 | **BlueLabel** | Typography | Style Bold, Size 15, Alignment Right, Color #656565 |
 | **BlueLabel** | Frame | 6, 256, 28, 44 |
-| **RedSlider** | Frame | 44, 166, 118, 31 |
-| **GreenSlider** | Frame | 44, 216, 118, 31 |
-| **BlueSlider** | Frame | 44, 266, 118, 31 |
-| **BottomRect** | Fill Color | #F9F9F9 |
+| **RedSlider** (Slider) | Frame | 44, 166, 118, 31 |
+| **GreenSlider** (Slider) | Frame | 44, 216, 118, 31 |
+| **BlueSlider** (Slider) | Frame | 44, 266, 118, 31 |
+| **BottomRect** (RectShape) | Fill Color | #F9F9F9 |
 | **BottomRect** | Border Color | #A4A4A4B9 |
 | **BottomRect** | Border Mask | Top only |
 | **BottomRect** | Frame | 0, 623, 375, 46 |
-| **CancelButton** | Title | Cancel |
+| **CancelButton** (Button) | Title | Cancel |
 | **CancelButton** | Typography | #Color 656565FF |
 | **CancelButton** | Frame | 0, 622, 74, 44 |
-| **SaveButton** | Title | Save |
+| **SaveButton** (Button) | Title | Save |
 | **SaveButton** | Typography | Style Bold, Color 656565FF |
 | **SaveButton** | Frame | 301, 622, 74, 44 |
 
@@ -288,14 +291,14 @@ return c;
 Now every time the user change a slider value, the View will change color in real time to reflect the actual color to use for the new task.
 
 
-++27++ We now need to open Window3 (modally) each time the user selects the + sign on Window1, to do so, select Window1 and in the Action event write the following code:
+++27++ We now need to open Window3 (modally) each time the user selects the + sign on Window1, to do so, select the NavRightItem1 inside the Window1 and in the Action event write the following code:
 ```
 // no need to check the buttonTag property
 // because there is just one button on the NavigationnBar
 Window3.openModal(TransitionStyle.CoverVertical);
 ```
 
-![ToDo](../images/tutorials/todo-29.png)
+![ToDo](../images/tutorials/todo-29_1.png)
 
 We have just added the code to open Window3 and in Window3 there is the code to add new Task to our database. How can we make sure that TableView1 is refreshed each time that Task table is modified? There is a simple solution for that and it involves forcing a refresh each time Window1 is shows. Select Window1 and in the WillShow event write the following code:
 ```
