@@ -27,7 +27,7 @@ The shape of the joints between connected segments of a stroked path.
 The limiting value that helps avoid spikes at junctions between connected line segments.
 
 * **var** **flatness**: **[Float](../gravity/types.md)**
-The factor that determines the rendering accuracy for curved path segments.
+The factor that determines the rendering accuracy for curved path segments. The flatness value measures the largest permissible distance (measured in pixels) between a point on the true curve and a point on the rendered curve. Smaller values result in smoother curves but require more computation time. Larger values result in more jagged curves but are rendered much faster. The default flatness value is 0.6.
 
 * **var** **usesEvenOddFillRule**: **[Bool](../gravity/types.md)**
 A Boolean indicating whether the even-odd winding rule is in use for drawing paths.
@@ -40,7 +40,7 @@ A Boolean value indicating whether the path has any valid elements. \(read-only\
 ### Methods
 
 * **func** **image**(): <strong>[Image](Image.md)</strong> 
-Convert the BezierPath to an Image.
+Convert the BezierPath to an Image. The size of the image is the smallest rectangle that completely encloses all points in the path.
 
 * **func** **stroke**()
 Draws a line along the receiver’s path using the current drawing properties. The drawn line is centered on the path with its sides parallel to the path segment. This method applies the current drawing properties to the rendered path.
