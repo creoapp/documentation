@@ -22,7 +22,7 @@ The Parking Car tutorial will show you how to navigate between two windows (usin
 ++1++ Create a new empty Creo project and start by dragging a new SQLite database into the Globals folder, from the opened dialog select Assets, click on the plus button, insert the Database name, click Create File and than click Save. Open the database configurator double clicking over the Database item inside the Assets folder, than create a new table named Location. In the right area of the configuration you can add fields to your Location table. Adds the following fields configured as the following example than click Save.
 ```
 Name			Type			Constraints
-ID			INTEGER			PA
+ID				INTEGER			PA
 Date			TEXT			
 Title			TEXT
 Notes			TEXT
