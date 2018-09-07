@@ -26,7 +26,13 @@ The point at which the origin of the content view is offset from the origin of t
 The size of the content view.
 
 * **var** **contentInset**: **[EdgeInsets](EdgeInsets.md)**
-The distance that the content view is inset from the enclosing scroll view. Use this property to add to the scrolling area around the content.
+The custom distance that the content view is inset from the safe area or scroll view edges.
+
+* **var** **adjustedContentInset**: **[EdgeInsets](EdgeInsets.md)**
+The insets derived from the content insets and the safe area of the scroll view. Available on iOS 11.0+. \(read-only\)
+
+* **var** **contentInsetAdjustmentBehavior**: **[Int](../gravity/types.md)**
+The behavior for determining the adjusted content offsets. Available on iOS 11.0+. <code>Automatic</code>: Similar to ScrollableAxes, but for backward compatibility (iOS < 11.0) will also adjust the top & bottom contentInset when the scroll view is owned by a view controller with automaticallyAdjustsScrollViewInsets = YES inside a navigation controller, regardless of whether the scroll view is scrollable. <code>ScrollableAxes</code>: Adjust the insets only in the scrollable directions. <code>Never</code>: Do not adjust the scroll view insets. <code>Always</code>: Always include the safe area insets in the content adjustment.
 
 * **var** **bounces**: **[Bool](../gravity/types.md)**
 Boolean value that controls whether the scroll view bounces past the edge of content and back again. Bouncing visually indicates that scrolling has reached an edge of the content.

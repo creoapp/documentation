@@ -48,12 +48,6 @@ Returns the background image associated with the specified control state.
 * **func** **setBackgroundImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/types.md)**)
 Sets the background image for the control when it is in the specified state.
 
-* **func** **dividerImageForStates**(**leftSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**, **rightSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Image](Image.md)</strong> 
-Returns the divider image for the given combination of left and right states.
-
-* **func** **setDividerImageForStates**(**image**: **[Image](Image.md)**, **leftSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**, **rightSegmentState**: **<a href="#_enum_ControlState">ControlState</a>**)
-Sets the image to use for the given combination of left and right states.
-
 * **func** **incrementImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](Image.md)</strong> 
 Returns the image used for the increment glyph of the control.
 
@@ -80,14 +74,6 @@ Clear focus from selected control
 
 
 ### Enumeration
-
-#### ControlState
- * .Application
- * .Disabled
- * .Focused
- * .Highlighted
- * .Normal
- * .Selected
 
 #### AnimationOption
  * .AllowAnimatedContent

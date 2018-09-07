@@ -1,3 +1,20 @@
+**<span class="label label-release label-version">Creo 1.1.0</span>September 7th 2018 (Build 14633)**
+* Added support for Safe Area (with preview)
+* Added new DatabaseRecord class
+* Added Toolbar item subnodes to NavigationBar
+* New inspectors for all objects
+* New subnodes added to several controls
+* Improved Simulator performance
+* Several fixes and enhancements to ScrollView
+* Several fixes to PickerView
+* Several fixes to SQLite database built-in inspector
+* Several fixes to TableView
+* Fix for SystemButton in iPhone X
+* Fix for BezierPath image method
+* Fix for RefreshControl position in NavigationBar
+* Tons of others internal fixes and improvements
+* **[CreoPlayer](http://creoplayer.creolabs.com)** has been updated and it is now available through the TestFlight program
+
 **<span class="label label-release label-version">Creo 1.0.8</span>July 31st 2018 (Build 14201)**
 * Improved NavigationBar class with new blur layer and others internal improvements
 * Improved Window class with exposed firstResponder and new methods to convert from/to the Window's view coordinate system
