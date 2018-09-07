@@ -1,4 +1,4 @@
-This example assumes that you have a valid connection with a [Database](Database.md).
+This example assumes that you have a valid connection with a [Database](Database.html).
 That DB database object should contain an **images** table (id int column as primary key and a data column as BLOB):
 ```
 // INSERT EXAMPLE
