@@ -1,3 +1,7 @@
+**<span class="label label-release label-version">Creo 1.1.1</span>September 10th 2018 (Build 14655)**
+* Fixed several ScrollView issues (introduced in the 1.1.0 version). These issues affect several controls like PickerView, DatePicker and TableView.
+* Increased compatibility with the upcoming MacOS 10.14 Mojave release.
+
 **<span class="label label-release label-version">Creo 1.1.0</span>September 7th 2018 (Build 14633)**
 * Added support for Safe Area (with preview)
 * Added new DatabaseRecord class
