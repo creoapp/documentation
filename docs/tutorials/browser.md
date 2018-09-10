@@ -29,22 +29,22 @@ You'll end up with a new empty project:
 
 ++6++ Drop a Button from the Objects panel to the Design Board (and adjust its size according to the screenshot). Change its Title property in the Inspector panel from Button to Go:
 ![Browser](../images/tutorials/browser-6.png)
-			
+
 Application user interface is now completed and so far you have already learned how to setup a Navigation Hierarchy, how to instantiate Objects and how to modify their settings using the Inspector.
-			
+
 ++7++ We now need to connect user interface with user's actions and in this particular case we want to load into the WebView1 control the URL entered by the user in the TextField1. All we need to do is to write the **connection code** into the Button1 action event. More information can be found in the **[objects and events](../creo/objects-and-events.html)** section.
 According to **[TextField](../classes/TextField.html)** documentation, the text property contains the text entered by the user, while according to the **[WebView](../classes/WebView.html)** documentation the url property is the value to set to force the WebView to navigates to that specific URL. What we need to find out is a way to set the **WebView1.url** property to the **TextField1.text** value each time the user touches the Button1 button. According to the **[Button](../classes/Button.html)** documentation the **Action** event is what we are looking for.
 
 ++8++ With all these information we can reveal the Code Editor pressing the Code Editor button on Creo's toolbar, then select Button1 on the Layout pane and expand the Events outline view. The Action event is where we need to write our code.
 ![Browser](../images/tutorials/browser-7.png)
-			
+
 ++9++ Code is written in **[Gravity](../gravity/getting-started.html)** programming language, which is an open source language that you can find on **[GitHub](https://github.com/marcobambini/gravity/)**.
 Code required to assign two values is really simple and if you know JavaScript or Swift or any other programming language you should immediately recognize a very common pattern in this assignment.
 ```WebView1.url = TextField1.text;```
 ![Browser](../images/tutorials/browser-8.png)
 This code is executed every time a user presses the Go button.
 
-			
+
 Your first **Creo** app is finished and you can now executes it inside the **[Creo Simulator](../creo/runtime-mode.md)**, or send it to **[CreoPlayer](../creo/creoplayer.md)** or **[build an app](../creo/build-your-app.md)** ready to be submitted to the App Store.
 
 #### Finishing your application		
@@ -57,10 +57,10 @@ Your first **Creo** app is finished and you can now executes it inside the **[Cr
 ![Browser](../images/tutorials/browser-10.png)
 Run your project again and you'll notice that everything works as expected now.
 
-++12++ So far we created and tested our application only on iPhone7, what happens if you try to run your app on an iPad? Just select iPad from the Info Panel and you'll notice that there are some UI issues that need to be fixed:
+++12++ So far we created and tested our application only on iPhone 6/7/8, what happens if you try to run your app on an iPad? Just select an iPad from the Info Panel and you'll notice that there are some UI issues that need to be fixed:
 ![Browser](../images/tutorials/browser-11.png)
 
-++13++ Again, all these issues can be easily fixed. Switch back to iPhone7 and then apply the following constraints to the three controls:
+++13++ Again, all these issues can be easily fixed. Switch back to iPhone 6/7/8 and then apply the following constraints to the three controls:
 ![Browser](../images/tutorials/browser-12.png)
 ![Browser](../images/tutorials/browser-13.png)
 ![Browser](../images/tutorials/browser-14.png)
