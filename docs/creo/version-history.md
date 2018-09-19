@@ -1,4 +1,5 @@
-**<span class="label label-release label-version">Creo 1.1.5</span>September 19th 2018 (Build 15032)*** Added Search panel
+**<span class="label label-release label-version">Creo 1.1.5</span>September 19th 2018 (Build 15032)**
+* Added Search panel
 * Greatly improved compiler and runtime error reporting
 * SQLite databases can now be automatically copied on a read-write directory on real iOS devices
 * Added a new Advanced preference to control message sent to NULL behaviours
