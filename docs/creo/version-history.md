@@ -1,3 +1,18 @@
+**<span class="label label-release label-version">Creo 1.1.5</span>September 19th 2018 (Build 15032)*** Added Search panel
+* Greatly improved compiler and runtime error reporting
+* SQLite databases can now be automatically copied on a read-write directory on real iOS devices
+* Added a new Advanced preference to control message sent to NULL behaviours
+* Application events are now correctly raised within the Simulator
+* Console.write on a real device now log directly to system log
+* Added the ability to schedule local notifications
+* Added the NetworkReachability class to check the network status
+* Added Device.vibrate() method
+* Fixed an issue with Large Title in NavigationBar
+* Fixed an issue with WebView
+* Fixed minor issues with TableView header and footer
+* A lot of other internal fixes and improvements
+* An updated [CreoPlayer](http://creoplayer.creolabs.com) app should be available via TestFlight within the next 48 hours
+
 **<span class="label label-release label-version">Creo 1.1.1</span>September 10th 2018 (Build 14655)**
 * Fixed several ScrollView issues (introduced in the 1.1.0 version). These issues affect several controls like PickerView, DatePicker and TableView.
 * Increased compatibility with the upcoming MacOS 10.14 Mojave release.

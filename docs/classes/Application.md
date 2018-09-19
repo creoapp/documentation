@@ -24,6 +24,15 @@ This method is called to let your app know that it is about to move from the act
 * **DidEnterBackground**()
 Use this method to release shared resources, invalidate timers, and store enough app state information to restore your app to its current state in case it is terminated later. You should also disable updates to your app’s user interface and avoid using some types of shared system resources (such as the user’s contacts database).  Your implementation of this method has approximately five seconds to perform any tasks and return.  In practice, you should return from a DidEnterBackground event as quickly as possible. If the method does not return before time runs out your app is terminated and purged from memory.
 
+* **WillPresentNotification**(**identifier**: **[String](../gravity/types.md)**, **userInfo**: **[Map](../gravity/map.md)**)
+Asks the application how to handle a notification that arrived while the app was running in the foreground.
+
+* **DidReceiveNotification**(**identifier**: **[String](../gravity/types.md)**, **userInfo**: **[Map](../gravity/map.md)**, **threadIdentifier**: **[String](../gravity/types.md)**, **actionIdentifier**: **[String](../gravity/types.md)**)
+Asks the application to process the user's response to a delivered notification.
+
+* **OpenSettingsForNotification**(**identifier**: **[String](../gravity/types.md)**, **userInfo**: **[Map](../gravity/map.md)**)
+Asks the application to display the in-app notification settings.
+
 * **WillTerminate**()
 This method lets your app know that it is about to be terminated and purged from memory entirely. You should use this method to perform any final clean-up tasks for your app, such as freeing shared resources, saving user data, and invalidating timers. Your implementation of this method has approximately five seconds to perform any tasks and return. If the method does not return before time expires, the system may kill the process altogether.
 
@@ -43,6 +52,21 @@ A Boolean value that controls whether the idle timer is disabled for the app. Th
 
 * **func** **loadContainer**(**container**: **[Window](Window.md) or [Navigation](Navigation.md)**)
 Container can be a Window or a Navigation. When you set a Startup Window into Creo IDE you are setting the container parameter of this method. The new container is configured to track the window size, changing as the window size changes. If the window has an existing view hierarchy, the old views are removed before the new ones are installed.
+
+* **func** **scheduleNotification**(**identifier**: **[String](../gravity/types.md)**, **title**: **[String](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **body**: **[String](../gravity/types.md) = null**, **subtitle**: **[String](../gravity/types.md) = null**, **badge**: **[Int](../gravity/types.md) = null**, **userInfo**: **[Map](../gravity/map.md) = null**, **threadIdentifier**: **[String](../gravity/types.md) = null**, **actions**: **[List](../gravity/list.md) = null**, **repeats**: **[Bool](../gravity/types.md) = null**)
+Schedule a notification.
+
+* **func** **removePendingNotifications**(**identifiers**: **[List](../gravity/list.md)**)
+Unschedules the specified notification requests.
+
+* **func** **removeAllPendingNotifications**()
+Unschedules all pending notification requests.
+
+* **func** **removeDeliveredNotifications**(**identifiers**: **[List](../gravity/list.md)**)
+Removes the specified notification requests from Notification Center.
+
+* **func** **removeAllDeliveredNotifications**()
+Removes all of the app’s delivered notifications from Notification Center.
 
 
 

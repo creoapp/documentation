@@ -69,6 +69,9 @@ Convert a value from the DeviceSize enum to the numeric value of the screen size
 * **func** **sizeName**(**size**: **<a href="#_enum_DeviceSize">DeviceSize</a>**): <strong>[String](../gravity/types.md)</strong> 
 Convert a value from the DeviceSize enum to its string representation.
 
+* **func** **vibrate**()
+Invoke a brief device vibration.
+
 
 
 
