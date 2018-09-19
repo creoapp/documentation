@@ -1,4 +1,4 @@
-**super**: **[AFNetworkReachabilityManager](AFNetworkReachabilityManager.md)**
+**super**: **[NetworkReachabilityManager](NetworkReachabilityManager.md)**
 
 NetworkReachability monitors the reachability of domains, and addresses for both WWAN and WiFi network interfaces. It allows an application to determine the status of a system's current network configuration and the reachability of a target host. A remote host is considered reachable when a data packet, sent by an application into the network stack, can leave the local device. Reachability does not guarantee that the data packet will actually be received by the host. Reachability can be used to determine background information about why a network operation failed, or to trigger a network operation retrying when a connection is established. It should not be used to prevent a user from initiating a network request, as it's possible that an initial request may be required to establish reachability.
 
