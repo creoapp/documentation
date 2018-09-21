@@ -52,7 +52,7 @@ path.stroke();	// stroke resulted path
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [FreehandDrawing1.creoproject](../assets/drawing1.zip) (12KB)
+* [FreehandDrawing1.creoproject]({{github_raw_link}}/assets/drawing1.zip) (12KB)
 
 
 #### Enhancements
