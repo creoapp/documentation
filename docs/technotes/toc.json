@@ -8,22 +8,22 @@
       "file": "autoresizing.md"
     },
     {
-      "name": "Exposed events",
+      "name": "Expose events from a CustomView",
       "file": "exposed-events.md"
     },
     {
-      "name": "Keyboard scrolling",
+      "name": "Scrolling interface when Keyboard appears",
       "file": "keyboard-avoiding-textfields.md"
     },
     {
       "entry": "DATASET"
     },
     {
-      "name": "From HTTP to Database",
+      "name": "Filtering HTTP requests",
       "file": "http-to-database.md"
     },
     {
-      "name": "New DataSet in each row",
+      "name": "Different DataSet for each row",
       "file": "new-dataset-in-each-row.md"
     }
   ]
