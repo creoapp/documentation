@@ -1,5 +1,16 @@
 {
   "TOC": [
+  	{
+      "entry": "APPLICATION"
+    },
+    {
+      "name": "Support URL",
+      "file": "open-url.md"
+    },
+    {
+      "name": "Local notification",
+      "file": "local-notifications.md"
+    },
     {
       "entry": "USER INTERFACE"
     },
