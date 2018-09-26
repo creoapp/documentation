@@ -33,6 +33,9 @@ Asks the application to process the user's response to a delivered notification.
 * **OpenSettingsForNotification**(**identifier**: **[String](../gravity/types.md)**, **userInfo**: **[Map](../gravity/map.md)**)
 Asks the application to display the in-app notification settings.
 
+* **OpenUrl**(**url**: **[String](../gravity/types.md)**, **options**: **[Map](../gravity/map.md)**)
+Asks the application to open a resource specified by a URL, and provides a dictionary of launch options.
+
 * **WillTerminate**()
 This method lets your app know that it is about to be terminated and purged from memory entirely. You should use this method to perform any final clean-up tasks for your app, such as freeing shared resources, saving user data, and invalidating timers. Your implementation of this method has approximately five seconds to perform any tasks and return. If the method does not return before time expires, the system may kill the process altogether.
 
@@ -67,6 +70,12 @@ Removes the specified notification requests from Notification Center.
 
 * **func** **removeAllDeliveredNotifications**()
 Removes all of the app’s delivered notifications from Notification Center.
+
+* **func** **openURL**(**url**: **[String](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+Attempts to open the resource at the specified URL.
+
+* **func** **canOpenURL**(**url**: **[String](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+Returns a Boolean value indicating whether an app is available to handle a URL scheme.
 
 
 
