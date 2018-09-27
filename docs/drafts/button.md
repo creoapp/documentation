@@ -22,7 +22,7 @@ How to open the `Code Editor` using the application menu.
 ![The `Code Editor` where to interact with events and write custom code](images/button4.png)
 The `Code Editor` where to interact with events and write custom code.
 
-#### Examples
+#### Example
 How to show an `Alert` via source code.
 ```
 var alert = Alert("Title", "Message")
