@@ -6,9 +6,9 @@ A container `Window` that defines a stack-based scheme for navigating hierarchic
 - [Apple documentation](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
 
 ### Overview
-A `Navigation Window` is a container that manages one or more `Window` in a navigation interface. In this type of interface, only one `Window` is visible at a time. Tapping the back button in the navigation bar at the top of the interface removes the top `Window`, thereby revealing the `Window` underneath.
+A navigation bar appears at the top of an app screen, below the status bar, and enables navigation through a series of hierarchical screens. When a new screen is displayed, a back button, often labeled with the title of the previous screen, appears on the left side of the bar. Sometimes, the right side of a navigation bar contains a control, like an Edit or a Done button, for managing the content within the active view. In a split view, a navigation bar may appear in a single pane of the split view. Navigation bars are translucent, may have a background tint, and can be configured to hide when the keyboard is onscreen, a gesture occurs, or a view resizes.
 
-![Simple navigation controller](images/navigation3.png)
+![Simple navigation controller](images/navigation8.png)
 A simple navigation controller with a single child `Window`.
 
 ### When to use
@@ -63,7 +63,7 @@ Navigation1.popToRootWindow()
 1. select _In_ -> _Current_
 1. select _Using_ -> _Default_
 
-![Simple navigation controller](images/navigation7.png)
+![Simple navigation controller](images/navigation10.png)
 
 ### Subnodes of a child `Window`
 The navigation bar can be customised by tapping the `Window` subnode icons (+).
@@ -77,19 +77,21 @@ Any child `Window` `Navigation Bar` may have:
 - 1 or more right button
 - A custom back button
 
+![Customizations](images/navigation13.png)
+
 The buttons can both be custom (with a user provided title/image) or selected from the list of the iconic system buttons.
 ![System buttons](images/navigation2.png)
 
 #### Note:
-Without the _Title subnode_ the tile itself is automatically retrieved from the name of the current children `Window`
+Without the _Title subnode_ the tile itself is automatically retrieved from the name of the current children `Window`.
 
 ### UI Properties
 Several UI aspects can be configured but (see the inspector) but the `Navigation` title bar color and title size are the more importants.
 
-![Inspector](images/navigation6.png)
+![Inspector](images/navigation11.png)
 
-![Large navigation bar](images/navigation4.png)
+![Large navigation bar](images/navigation12.png)
 Compact navigation bar.
 
-![Large navigation bar](images/navigation5.png)
+![Large navigation bar](images/navigation9.png)
 Large navigation bar.
