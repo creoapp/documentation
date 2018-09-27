@@ -4,14 +4,12 @@ A navigation bar appears at the top of an app screen, below the status bar, and 
 A simple navigation controller with a single child `Window`.
 
 
-### When to use
+### Best practices
 Horizontal navigation is a popular navigation pattern widely used to display hierarchical content, ie:
 - the setting of an app, and the user taps an element to open its subsettings
 - a social item, and the user taps a preview to open its full description and details
 
 A common App schema is to have a root `Window` like a [TabBar](tabbar) and a `Navigation Window` for each of its child.
-
-### When not to use
 If the navigation is not in a single direction (from generic to detail and viceversa) then the `Navigation Window` may not be appropriate.
 
 ### How to use
