@@ -10,11 +10,11 @@ A button is tipically used by the user to execute custom actions like open a `Wi
 ### How to use
 1. Add a button to a `Window`
 2. Configure every desired propery from the `Inspector` like `Title` and `Style`
-3. From the `View` application menu open the `Actions Panel`  and click the `Code Editor` menu item
-4. Select the `Action` item over the `Events` area and add your custom code in the `Code Editor`
+3. Open the `Code Editor` clicking the `View` ->  `Actions Panel`  -> `Code Editor` menu item
+4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![The inspector where to configure the `Button` class](images/button2.png)
-The inspector where to configure the `Button` class.
+![The `Button` inspector](images/button2.png)
+The inspector where the `Button` class can be configured.
 
 ![How to open the `Code Editor` using the application menu](images/button3.png)
 How to open the `Code Editor` using the application menu.
@@ -31,6 +31,14 @@ alert.show()
 
 ### Most important properties
 Several UI aspects can be configured in the `Button` class but the `Title` and `Style` are the most populars to be configured.
+- TItle
+You can specify a button’s title as a plain string or attributed string.
+
+- Style
+Specifies the style of a button.
+
+![The `Button` styles](images/button5.png)
+[The `Button` styles.
 
 ### Links
 - [Creo class documentation](../classes/Button)
