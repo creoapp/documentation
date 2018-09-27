@@ -16,10 +16,7 @@ A button is tipically used by the user to execute custom actions like open a `Wi
 ![The `Button` inspector](images/button2.png)
 The inspector where the `Button` class can be configured.
 
-![How to open the `Code Editor` using the application menu](images/button3.png)
-How to open the `Code Editor` using the application menu.
-
-![The `Code Editor` where to interact with events and write custom code](images/button4.png)
+![The `Code Editor` where to interact with events and write custom code](images/button3.png)
 The `Code Editor` where to interact with events and write custom code.
 
 #### Example
@@ -37,7 +34,7 @@ You can specify a button’s title as a plain string or attributed string.
 - Style
 Specifies the style of a button.
 
-![The `Button` styles](images/button5.png)
+![The `Button` styles](images/button4.png)
 [The `Button` styles.
 
 ### Links
