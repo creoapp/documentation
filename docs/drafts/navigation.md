@@ -18,6 +18,8 @@ If the navigation is not in a single direction (from generic to detail and vicev
 1. for each child `Window` customize its `Navigation Bar` subsettings (bar visibility, title, prompt and buttons)
 1. add or remove `Window` by _code_ or by _actions_
 
+
+
 #### Example
 Let's say you have a hierarchy like this, and your _Root_ is the startup window
 ```
@@ -81,11 +83,11 @@ Several UI aspects can be configured but (see the inspector) but the `Navigation
 
 ![Inspector](images/navigation11.png)
 
-Compact navigation bar.
 ![Large navigation bar](images/navigation12.png)
+Compact navigation bar.
 
-Large navigation bar.
 ![Large navigation bar](images/navigation9.png)
+Large navigation bar.
 
 ### Links
 - [Creo class documentation](../classes/Navigation)
