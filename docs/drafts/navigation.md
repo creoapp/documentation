@@ -9,11 +9,11 @@ Horizontal navigation is a popular navigation pattern widely used to display hie
 - the setting of an app, and the user taps an element to open its subsettings
 - a social item, and the user taps a preview to open its full description and details
 
-A common App schema is to have a root `Window` like a [TabBar](tabbar) and a `Navigation Window` for each of its child.
-If the navigation is not in a single direction (from generic to detail and viceversa) then the `Navigation Window` may not be appropriate.
+A common App schema is to have a root `Window` like a [TabBar](tabbar) and a `Navigation` for each of its child.
+If the navigation is not in a single direction (from generic to detail and viceversa) then the `Navigation` may not be appropriate.
 
 ### How to use
-1. add a `Navigation Window` and customise the main `Navigation Bar`
+1. add a `Navigation` and customise the main `Navigation Bar`
 1. add 1 or more child `Window`
 1. for each child `Window` customize its `Navigation Bar` subsettings (bar visibility, title, prompt and buttons)
 1. add or remove `Window` by _code_ or by _actions_
@@ -81,11 +81,11 @@ Several UI aspects can be configured but (see the inspector) but the `Navigation
 
 ![Inspector](images/navigation11.png)
 
-![Large navigation bar](images/navigation12.png)
 Compact navigation bar.
+![Large navigation bar](images/navigation12.png)
 
-![Large navigation bar](images/navigation9.png)
 Large navigation bar.
+![Large navigation bar](images/navigation9.png)
 
 ### Links
 - [Creo class documentation](../classes/Navigation)
