@@ -1,6 +1,3 @@
-## Button
-
-### Overview + Screenshot
 Buttons initiate app-specific actions, have customizable backgrounds, and can include a title or an icon. The system provides a number of predefined button styles for most use cases. You can also design fully custom buttons.
 
 A simple `Button`.
@@ -10,7 +7,7 @@ A simple `Button`.
 When you tap a button, the button performs an action where the user can execute custom source code.
 A button is tipically used by the user to execute custom actions like open a `Window` or just play an `Animation`.
 
-### How to use + Example
+### How to use
 1. Add a button to a `Window`
 2. 
 
