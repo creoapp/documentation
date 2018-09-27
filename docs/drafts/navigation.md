@@ -1,15 +1,8 @@
-## Navigation window
-A container `Window` that defines a stack-based scheme for navigating hierarchical content.
-
-### Links
-- [Creo class documentation](../classes/Navigation)
-- [Apple documentation](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
-
-### Overview
 A navigation bar appears at the top of an app screen, below the status bar, and enables navigation through a series of hierarchical screens. When a new screen is displayed, a back button, often labeled with the title of the previous screen, appears on the left side of the bar. Sometimes, the right side of a navigation bar contains a control, like an Edit or a Done button, for managing the content within the active view. In a split view, a navigation bar may appear in a single pane of the split view. Navigation bars are translucent, may have a background tint, and can be configured to hide when the keyboard is onscreen, a gesture occurs, or a view resizes.
 
 ![Simple navigation controller](images/navigation8.png)
 A simple navigation controller with a single child `Window`.
+
 
 ### When to use
 Horizontal navigation is a popular navigation pattern widely used to display hierarchical content, ie:
@@ -95,3 +88,7 @@ Compact navigation bar.
 
 ![Large navigation bar](images/navigation9.png)
 Large navigation bar.
+
+### Links
+- [Creo class documentation](../classes/Navigation)
+- [Apple documentation](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
