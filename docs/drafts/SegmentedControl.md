@@ -14,14 +14,18 @@ A simple `SegmentedControl`.
 
 ### How to use
 1. Add a `SegmentedControl` to a `Window`
-//2. Configure every desired propery from the `Inspector` like `Title` and `Style`
-//3. Open the `Code Editor` clicking the `View` ->  `Actions Panel`  -> `Code Editor` menu item
-//4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
+2. Add one or more `SegmentedControl` items by clicking on the `+` button on the right side of the selected `SegmentedControl` item into the layout area
+3. Select the `SegmentedControl` item you want to configure and from the inspector change every property as requested
+3. Open the `Code Editor` clicking the `View` ->  `Actions Panel`  -> `Code Editor` menu item
+4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
 ![The `SegmentedControl` inspector](images/segmentedcontrol2.png)
-The inspector where the `SegmentedControl` class can be configured.
+The inspector where the `SegmentedControl` can be configured.
 
-![The `Code Editor` where to interact with events and write custom code](images/segmentedcontrol3.png)
+![The `SegmentedControl` item inspector](images/segmentedcontrol3.png)
+The inspector where the `SegmentedControl` item can be configured.
+
+![The `Code Editor` where to interact with events and write custom code](images/segmentedcontrol4.png)
 The `Code Editor` where to interact with events and write custom code.
 
 #### Example
