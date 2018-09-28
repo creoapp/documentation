@@ -19,6 +19,9 @@ A simple `SegmentedControl`.
 3. Open the `Code Editor` clicking the `View` ->  `Actions Panel`  -> `Code Editor` menu item
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
+![The 'Add' button where the user can add `SegmentedControl` items](images/segmentedcontrol5.png)
+The 'Add' button where the user can add `SegmentedControl` items.
+
 ![The `SegmentedControl` inspector](images/segmentedcontrol2.png)
 The inspector where the `SegmentedControl` can be configured.
 
