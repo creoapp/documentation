@@ -8,7 +8,7 @@ When you tap a button, the button performs an action where the user can execute 
 A button is tipically used by the user to execute custom actions like open a `Window` or just play an `Animation`.
 
 ### How to use
-1. Add a button to a `Window`
+1. Add a `Button` to a `Window`
 2. Configure every desired propery from the `Inspector` like `Title` and `Style`
 3. Open the `Code Editor` clicking the `View` ->  `Actions Panel`  -> `Code Editor` menu item
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
