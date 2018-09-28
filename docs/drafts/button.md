@@ -33,7 +33,3 @@ Several UI aspects can be configured in the `Button` class but the `Title` and `
 
 ![The `Button` styles](images/button4.png)
 The `Button` styles.
-
-### Links
-- [Creo class documentation](../classes/Button)
-- [Apple documentation](https://developer.apple.com/documentation/uikit/uibutton)
