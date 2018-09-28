@@ -36,9 +36,14 @@ How to show an `Alert` via source code by selecting different `SegmentedControl`
 
 1. Select `Item1` from the layout area
 2. From the `Source Code` area select `Events` -> `Action`  and place the code below in he code editor
-
 ```
 var alert = Alert("Title", "You have selected '" + Item1.title + "'")
+alert.show()
+```
+3. Select `Item2` from the layout area
+4. From the `Source Code` area select `Events` -> `Action`  and place the code below in he code editor
+```
+var alert = Alert("Title", "You have selected '" + Item2.title + "'")
 alert.show()
 ```
 
