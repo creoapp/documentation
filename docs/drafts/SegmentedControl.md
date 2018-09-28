@@ -49,7 +49,7 @@ alert.show()
 
 ### SegmentedControl most important properties
 Several UI aspects can be configured in the `SegmentedControl` class but the `Momentary` is the most popular to be configured.
-- Momentary: A Boolean value that determines whether segments in the receiver show selected state.
+- `Momentary`: A Boolean value that determines whether segments in the receiver show selected state.
 
 ### SegmentedControlItem most important properties
 Several UI aspects can be configured in the `SegmentedControlItem` class but the `Title` and `Image` are the most populars to be configured.
