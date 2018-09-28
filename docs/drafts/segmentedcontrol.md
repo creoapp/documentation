@@ -4,13 +4,13 @@ A segmented control is a linear set of two or more segments, each of which funct
 A simple `SegmentedControl`.
 
 ### Best practices
-*Limit the number of segments to improve usability.* Wider segments are easier to tap. On iPhone, a segmented control should have five or fewer segments.
+**Limit the number of segments to improve usability.** Wider segments are easier to tap. On iPhone, a segmented control should have five or fewer segments.
 
-*Try to keep segment content size consistent.* Because all segments have equal width, it doesn’t look great if content fills some segments but not others.
+**Try to keep segment content size consistent.** Because all segments have equal width, it doesn’t look great if content fills some segments but not others.
 
-*Avoid mixing text and images in a segmented control.* Although individual segments can contain text or images, mixing the two in a single control can lead to a disconnected and confusing interface.
+**Avoid mixing text and images in a segmented control.** Although individual segments can contain text or images, mixing the two in a single control can lead to a disconnected and confusing interface.
 
-*Position content appropriately in a custom segmented control.* If you change the background appearance of a segmented control, make sure content still looks good and doesn’t appear misaligned.
+**Position content appropriately in a custom segmented control.** If you change the background appearance of a segmented control, make sure content still looks good and doesn’t appear misaligned.
 
 ### How to use
 1. Add a `SegmentedControl` to a `Window`
