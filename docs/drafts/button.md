@@ -32,7 +32,7 @@ Several UI aspects can be configured in the `Button` class but the `Title` and `
 - Style: specifies the style of a button.
 
 ![The `Button` styles](images/button4.png)
-[The `Button` styles.
+The `Button` styles.
 
 ### Links
 - [Creo class documentation](../classes/Button)
