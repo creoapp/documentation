@@ -3,9 +3,11 @@ Buttons initiate app-specific actions, have customizable backgrounds, and can in
 ![Simple button](images/button1.png)
 A simple `Button`.
 
+
 ### Best practices
 When you tap a button, the button performs an action where the user can execute custom source code.
 A button is tipically used by the user to execute custom actions like open a `Window` or just play an `Animation`.
+
 
 ### How to use
 1. Add a button to a `Window`
@@ -19,12 +21,14 @@ The inspector where the `Button` class can be configured.
 ![The `Code Editor` where to interact with events and write custom code](images/button3.png)
 The `Code Editor` where to interact with events and write custom code.
 
+
 #### Example
 How to show an `Alert` via source code.
 ```
 var alert = Alert("Title", "Message")
 alert.show()
 ```
+
 
 ### Most important properties
 Several UI aspects can be configured in the `Button` class but the `Title` and `Style` are the most populars to be configured.
@@ -33,6 +37,7 @@ Several UI aspects can be configured in the `Button` class but the `Title` and `
 
 ![The `Button` styles](images/button4.png)
 [The `Button` styles.
+
 
 ### Links
 - [Creo class documentation](../classes/Button)
