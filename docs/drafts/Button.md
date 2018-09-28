@@ -28,8 +28,8 @@ alert.show()
 
 ### Most important properties
 Several UI aspects can be configured in the `Button` class but the `Title` and `Style` are the most populars to be configured.
-- TItle: you can specify a button’s title as a plain string or attributed string.
-- Style: specifies the style of a button.
+- `TItle`: you can specify a button’s title as a plain string or attributed string.
+- `Style`: specifies the style of a button.
 
 ![The `Button` styles](images/button4.png)
 The `Button` styles.

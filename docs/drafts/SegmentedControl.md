@@ -42,11 +42,11 @@ var alert = Alert("Title", "You have selected '" + Item1.title + "'")
 alert.show()
 ```
 
-### `SegmentedControl` most important properties
+### SegmentedControl most important properties
 Several UI aspects can be configured in the `SegmentedControl` class but the `Momentary` is the most popular to be configured.
 - Momentary: A Boolean value that determines whether segments in the receiver show selected state.
 
-### `SegmentedControlItem` most important properties
+### SegmentedControlItem most important properties
 Several UI aspects can be configured in the `SegmentedControlItem` class but the `Title` and `Image` are the most populars to be configured.
 - `Title`: The title assigned to item. An Item can only have image or title, not both.
 - `Image`: The image assigned to item. An Item can only have image or title, not both.
