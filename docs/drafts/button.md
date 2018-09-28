@@ -19,7 +19,7 @@ The inspector where the `Button` class can be configured.
 ![The `Code Editor` where to interact with events and write custom code](images/button3.png)
 The `Code Editor` where to interact with events and write custom code.
 
-**Example**
+#### Example
 How to show an `Alert` via source code.
 ```
 var alert = Alert("Title", "Message")
