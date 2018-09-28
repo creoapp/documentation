@@ -32,16 +32,21 @@ The inspector where the `SegmentedControl` item can be configured.
 The `Code Editor` where to interact with events and write custom code.
 
 #### Example
-How to show an `Alert` via source code.
+How to show an `Alert` via source code by selecting different `SegmentedControl` items.
+
+1. Select `Item1` from the layout area
+2. From the `Source Code` area select `Events` -> `Action`  and place the code below in he code editor
+
 ```
-var alert = Alert("Title", "Message")
+var alert = Alert("Title", "You have selected '" + Item1.title + "'")
 alert.show()
 ```
 
-### Most important properties
-Several UI aspects can be configured in the `Button` class but the `Title` and `Style` are the most populars to be configured.
-- TItle: you can specify a button’s title as a plain string or attributed string.
-- Style: specifies the style of a button.
+### `SegmentedControl` most important properties
+Several UI aspects can be configured in the `SegmentedControl` class but the `Momentary` is the most popular to be configured.
+- Momentary: A Boolean value that determines whether segments in the receiver show selected state.
 
-![The `Button` styles](images/button4.png)
-The `Button` styles.
+### `SegmentedControlItem` most important properties
+Several UI aspects can be configured in the `SegmentedControlItem` class but the `Title` and `Image` are the most populars to be configured.
+- `Title`: The title assigned to item. An Item can only have image or title, not both.
+- `Image`: The image assigned to item. An Item can only have image or title, not both.
