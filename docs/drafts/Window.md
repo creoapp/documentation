@@ -41,6 +41,8 @@ func completion() {
 Window2.open(completion)
 ```
 
+The `open` method returns immediately - it doesn't wait the presentation of the `Window` to complete - so it is not safe to write any code that uses subnodes of the opening `Window` below the `open(completion)` if the `Window2` has not yet been presented before.
+
 The following sequence of steps is performed during the presentation of a `Window`:
 1. if the Window's content has not yet been loaded (the first time that the `Window` is presented) all its subnodes are created and added to the `Window`'s hierarchy if needed.
 2. the `WillShow` event of the `Window` is called.
