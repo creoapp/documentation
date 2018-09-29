@@ -65,7 +65,7 @@ Rename Query to SubtaskQuery.
 ++10++ **Here is where the magic happens.** Connect your TableView with a CustomView and a DataSet. All you have to do is to configure the Custom View property of the Cell1 with the Cell1.CustomView1 value and the following properties of the TableView1:
 
 | Object | Inspector Section | Property | Value |
-| ---------- | --------- | --------- | --------- |
+| ---------- | ---------- | ---------- | ---------- |
 | **TableView1** | Cell | DataSet | todo.TaskQuery |
 | **TableView1** | Cell Properties | Text | <empty value> |
 | **TableView1** | Cell Properties | Detail Text | <empty value> |
