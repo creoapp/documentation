@@ -4,15 +4,15 @@ Buttons initiate app-specific actions, have customizable backgrounds, and can in
 A simple `Button`.
 
 ### Best practices
-* ***Use verbs in titles.** An action-specific title shows that a button is interactive and says what happens when you tap it.
+* **Use verbs in titles.** An action-specific title shows that a button is interactive and says what happens when you tap it.
 * **Use title-case for titles.** Capitalize every word except articles, coordinating conjunctions, and prepositions of four or fewer letters.
 * **Keep titles short.** Overly long text can crowd your interface and may get truncated on smaller screens.
 * **Consider adding a border or a background only when necessary.** By default, a system button has no border or background. In some content areas, however, a border or background is necessary to denote interactivity. In the Phone app, bordered number keys reinforce the traditional model of making a call, and the background of the Call button provides an eye-catching target that’s easy to hit.
 
 ### How to use
-1. Add a `Button` to a `Window`
-2. Configure every desired propery from the `Inspector` like `Title` and `Style`
-3. Open the `Code Editor` clicking the `View` ->  `Actions Panel`  -> `Code Editor` menu item
+1. Drop a `Button` control from the object panel to a `Window`
+2. Configure desired propery from the `Inspector` like `Title` and `Style`
+3. Open the `Code Editor`
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
 ![The `Button` inspector](images/button2.png)
