@@ -20,7 +20,7 @@ If the navigation is not in a single direction (from generic to detail and vicev
 
 
 
-#### Example
+### Example
 Let's say you have a hierarchy like this, and your _Root_ is the startup window
 ```
 - Navigation1
@@ -30,7 +30,7 @@ Let's say you have a hierarchy like this, and your _Root_ is the startup window
  - Details2
 ```
 
-#### Interacting using Gravity
+### Interacting using Gravity
 
 To push a new `Window` into the hierarchy, ie from a button `Action` call
 ```
@@ -48,7 +48,7 @@ or to pop to the root level:
 Navigation1.popToRootWindow()
 ```
 
-#### Interacting using Actions
+### Interacting using Actions
 
 1. select the `Button1` _Actions_ tab
 1. select _Event_ -> _Action_ and tap _Add_
@@ -58,7 +58,7 @@ Navigation1.popToRootWindow()
 
 ![Simple navigation controller](images/navigation10.png)
 
-### Subnodes of a child `Window`
+### Customize a navigation bar
 The navigation bar can be customised by tapping the `Window` subnode icons (+).
 
 ![Custom navigation controller](images/navigation1.png)
@@ -75,7 +75,7 @@ Any child `Window` `Navigation Bar` may have:
 The buttons can both be custom (with a user provided title/image) or selected from the list of the iconic system buttons.
 ![System buttons](images/navigation2.png)
 
-#### Note:
+### Note:
 Without the _Title subnode_ the tile itself is automatically retrieved from the name of the current children `Window`.
 
 ### UI Properties
@@ -88,6 +88,3 @@ Compact navigation bar.
 
 ![Large navigation bar](images/navigation9.png)
 Large navigation bar.
-
-### Links
-- [Apple documentation](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
