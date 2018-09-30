@@ -21,7 +21,7 @@ The `Code Editor` where to interact with events and write custom code.
 #### Example
 How to log a `value` change via source code when the user intrement or decrement the value from the `Stepper`.
 ```
-Console.write("Stepper value: " + self.value)
+Console.write("Stepper value: \(value)")
 ```
 
 ### Most important properties
