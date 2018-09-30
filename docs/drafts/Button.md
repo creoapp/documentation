@@ -4,13 +4,10 @@ Buttons initiate app-specific actions, have customizable backgrounds, and can in
 A simple `Button`.
 
 ### Best practices
-**Use verbs in titles.** An action-specific title shows that a button is interactive and says what happens when you tap it.
-
-**Use title-case for titles.** Capitalize every word except articles, coordinating conjunctions, and prepositions of four or fewer letters.
-
-**Keep titles short.** Overly long text can crowd your interface and may get truncated on smaller screens.
-
-**Consider adding a border or a background only when necessary.** By default, a system button has no border or background. In some content areas, however, a border or background is necessary to denote interactivity. In the Phone app, bordered number keys reinforce the traditional model of making a call, and the background of the Call button provides an eye-catching target that’s easy to hit.
+* ***Use verbs in titles.** An action-specific title shows that a button is interactive and says what happens when you tap it.
+* **Use title-case for titles.** Capitalize every word except articles, coordinating conjunctions, and prepositions of four or fewer letters.
+* **Keep titles short.** Overly long text can crowd your interface and may get truncated on smaller screens.
+* **Consider adding a border or a background only when necessary.** By default, a system button has no border or background. In some content areas, however, a border or background is necessary to denote interactivity. In the Phone app, bordered number keys reinforce the traditional model of making a call, and the background of the Call button provides an eye-catching target that’s easy to hit.
 
 ### How to use
 1. Add a `Button` to a `Window`
@@ -21,10 +18,10 @@ A simple `Button`.
 ![The `Button` inspector](images/button2.png)
 The inspector where the `Button` class can be configured.
 
-![The `Code Editor` where to interact with events and write custom code](images/button3.png)
-The `Code Editor` where to interact with events and write custom code.
+![The `Code Editor` where to interact with events and write custom code](images/button3.png)
+The `Code Editor` where to interact with events and write custom code.
 
-#### Example
+### Example
 How to show an `Alert` via source code.
 ```
 var alert = Alert("Title", "Message")
