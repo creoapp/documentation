@@ -28,7 +28,7 @@ var alert = Alert("Title", "Message")
 alert.show()
 ```
 
-### Properties
+### Most important properties
 Several UI aspects can be configured in the `Button` class but the `Title` and `Style` are the most populars to be configured.
 - `Title`: you can specify a button’s title and customize its typographic properties.
 - `Style`: specifies the style of a button.
