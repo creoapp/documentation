@@ -3,7 +3,7 @@ A slider is a horizontal track with a control called a thumb, which you can slid
 ![Simple button](images/slider1.png)
 
 ### Best practices
-* ***Customize a slider’s appearance if it adds value.** A slider’s appearance, including track color, thumb image, and left and right icons, can be adjusted to blend with your app’s design and to communicate intent. A slider that adjusts image size, for example, could show a small image icon on the left and a large image icon on the right.
+* **Customize a slider’s appearance if it adds value.** A slider’s appearance, including track color, thumb image, and left and right icons, can be adjusted to blend with your app’s design and to communicate intent. A slider that adjusts image size, for example, could show a small image icon on the left and a large image icon on the right.
 
 ### How to use
 1. Drop a `Slider` control from the object panel to a `Window`
