@@ -24,8 +24,8 @@ The inspector where the `SegmentedControl` can be configured.
 ![The `SegmentedControl` item inspector](images/segmentedcontrol3.png)
 The inspector where the `SegmentedControl` item can be configured.
 
-![The Code Editor where to interact with events and write custom code](images/segmentedcontrol4.png)
-The Code Editor` where to interact with events and write custom code.
+![The `Code Editor` where to interact with events and write custom code](images/segmentedcontrol4.png)
+The Code Editor where to interact with events and write custom code.
 
 ### Example
 How to show an `Alert` via source code by selecting different `SegmentedControl` items.
