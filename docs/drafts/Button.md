@@ -1,7 +1,6 @@
 Buttons initiate app-specific actions, have customizable backgrounds, and can include a title or an icon. The system provides a number of predefined button styles for most use cases. You can also design fully custom buttons.
 
 ![Simple button](images/button1.png)
-A simple `Button`.
 
 ### Best practices
 * **Use verbs in titles.** An action-specific title shows that a button is interactive and says what happens when you tap it.
@@ -11,7 +10,7 @@ A simple `Button`.
 
 ### How to use
 1. Drop a `Button` control from the object panel to a `Window`
-2. Configure desired propery from the `Inspector` like `Title` and `Style`
+2. Use the `Button Inspector` to customize its properties like `Title` and `Style`
 3. Open the `Code Editor`
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
