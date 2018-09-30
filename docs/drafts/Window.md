@@ -1,13 +1,13 @@
-A `Window` present and manage a hierarchy of views and controls. Each `Window` owns a portion of your app’s user interface. For example, one Window might display a table of items while a different `Window` displays the selected item from that table. Usually, only the views from one `Window` are visible at a time. A `Window` can be presented by another window as a modal window or inside a window container. The window containers natively provided by Creo are: `Navigation`, `TabBar`, `PageScroll`, `PageCurl` and `PageSplit`.
+A `Window` present and manage a hierarchy of views and controls. Each `Window` owns a portion of your app’s user interface. For example, one Window might display a table of items while a different `Window` displays the selected item from that table. Usually, only the views from one `Window` are visible at a time. A `Window` can be presented by another window as a modal window or inside a window container.
 
 ![A simple Window inside a Navigation](images/Window1.png)
 A simple `Window` inside a `Navigation`.
 
 ### How to use
 
-#### Create a new Window
+### Create a new Window
 
-#### Open a Window
+### Open a Window
 
 Windows can be accessed in Gravity through a variable with the name of the `Window` which is univocal in the project realm. These `Window` variables are globally defined and are created during the launching of the App so a `Window` instance can be used anywhere and anytime from Gravity code.
 For example, if your project has two Windows, named `Window1` and `Window2`, you can use the following code to open the `Window2` from the code of an event (for example the `Action` event of a `Button`) inside `Window1`:
