@@ -1,33 +1,31 @@
 A stepper is a two-segment control used to increase or decrease an incremental value. By default, one segment of a stepper displays a plus symbol and the other displays a minus symbol. These symbols can be replaced with custom images, if desired.
 
 ![Simple stepper](images/stepper1.png)
-A simple `Stepper`.
 
 ### Best practices
-**Make the value affected by the stepper obvious.** A stepper itself doesn’t display any values, so make sure people know which value they’re changing when they use a stepper.
-
-**Don’t use a stepper when large value changes are likely.** Steppers work well for making small changes that require a few taps. On a printing screen, for example, it makes sense to use a stepper to set the number of copies because people rarely change this setting by much. On the other hand, it doesn’t make sense to use a stepper to choose a page range because even a reasonable page range would require lots of taps.
+* **Make the value affected by the stepper obvious.** A stepper itself doesn’t display any values, so make sure people know which value they’re changing when they use a stepper.
+* **Don’t use a stepper when large value changes are likely.** Steppers work well for making small changes that require a few taps. On a printing screen, for example, it makes sense to use a stepper to set the number of copies because people rarely change this setting by much. On the other hand, it doesn’t make sense to use a stepper to choose a page range because even a reasonable page range would require lots of taps.
 
 ### How to use
-1. Add a `Stepper` to a `Window`
-2. Configure every desired propery from the `Inspector` like `Value`, `Min Value`, `Max Value` and `Increment`
-3. Open the `Code Editor` clicking the `View` ->  `Actions Panel`  -> `Code Editor` menu item
+1. Drop a `Stepper` control from the object panel to a `Window`
+2. Use the `Stepper Inspector` to customize its properties like `Value`, `Min Value`, `Max Value` and `Increment`
+3. Open the `Code Editor`
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
 ![The `Stepper` inspector](images/stepper2.png)
 The inspector where the `Stepper` class can be configured.
 
-![The `Code Editor` where to interact with events and write custom code](images/stepper3.png)
-The `Code Editor` where to interact with events and write custom code.
+![The `Code Editor` where to interact with events and write custom code](images/stepper3.png)
+The `Code Editor` where to interact with events and write custom code.
 
 #### Example
 How to log a `value` change via source code when the user intrement or decrement the value from the `Stepper`.
 ```
-Console.write("Stepper value: " + Stepper1.value)
+Console.write("Stepper value: " + self.value)
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Button` class but the `Value`, `Min Value`, `Max Value` and `Increment` are the most populars to be configured.
+Several UI aspects can be configured in the `Stepper` class but the `Value`, `Min Value`, `Max Value` and `Increment` are the most populars to be configured.
 - `Value`: The numeric value of the stepper.
 - `Min Value`: The lowest possible numeric value for the stepper.
 - `Max Value`: The highest possible numeric value for the stepper.
