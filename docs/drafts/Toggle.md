@@ -24,7 +24,6 @@ The inspector where the `Toggle` class can be configured.
 The `Code Editor` where to interact with events and write custom code.
 
 ### Example
-A very simple example about Toggle. Sample code should be as simple as possible, a Console.write most of the time makes a lot of sense. DO NOT USE Control1.value if value is passed as parameter and in any case use self.value. DO NOT HARDCODE control's name otherwise you'll end up with NON PORTABLE CODE,
 ```
 Console.write("Toggle value: \(self.value)")
 ```
