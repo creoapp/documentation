@@ -140,6 +140,10 @@
       "file": "SegmentedControl.md"
     },
     {
+      "name": "TextField",
+      "file": "TextField.md"
+    },
+    {
       "entry": "OBJECTS"
     },
     {
