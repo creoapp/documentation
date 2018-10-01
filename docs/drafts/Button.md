@@ -1,6 +1,6 @@
 Buttons initiate app-specific actions, have customizable backgrounds, and can include a title or an icon. The system provides a number of predefined button styles for most use cases. You can also design fully custom buttons.
 
-![Simple button](images/button1.png)
+![Button](images/button1.png)
 
 ### Best practices
 * **Use verbs in titles.** An action-specific title shows that a button is interactive and says what happens when you tap it.
@@ -11,17 +11,19 @@ Buttons initiate app-specific actions, have customizable backgrounds, and can in
 ### How to use
 1. Drop a `Button` control from the object panel to a `Window`
 2. Use the `Button Inspector` to customize its properties like `Title` and `Style`
-3. Open the `Code Editor`
+
+If you need to write code for Button:
+
+3. Open the `Code Editor` (cmd + 6)
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![The `Button` inspector](images/button2.png)
+![`Button` inspector](images/button2.png)
 The inspector where the `Button` class can be configured.
 
-![The `Code Editor` where to interact with events and write custom code](images/button3.png)
+![`Code Editor` where to interact with events and write custom code](images/button3.png)
 The `Code Editor` where to interact with events and write custom code.
 
 ### Example
-How to show an `Alert` via source code.
 ```
 var alert = Alert("Title", "Message")
 alert.show()
@@ -29,8 +31,11 @@ alert.show()
 
 ### Most important properties
 Several UI aspects can be configured in the `Button` class but the `Title` and `Style` are the most populars to be configured.
-- `Title`: you can specify a button’s title and customize its typographic properties.
-- `Style`: specifies the style of a button.
+- `Title`: You can specify a button’s title and customize its typographic properties.
+- `Style`: Specifies the style of a button.
 
 ![The `Button` styles](images/button4.png)
 The `Button` styles.
+
+### References
+[Button class reference](../classes/Button.html) contains a complete list of properties and methods that can be used to customize a `Button` object.

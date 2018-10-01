@@ -1,6 +1,6 @@
 A stepper is a two-segment control used to increase or decrease an incremental value. By default, one segment of a stepper displays a plus symbol and the other displays a minus symbol. These symbols can be replaced with custom images, if desired.
 
-![Simple stepper](images/stepper1.png)
+![Stepper](images/stepper1.png)
 
 ### Best practices
 * **Make the value affected by the stepper obvious.** A stepper itself doesn’t display any values, so make sure people know which value they’re changing when they use a stepper.
@@ -9,19 +9,21 @@ A stepper is a two-segment control used to increase or decrease an incremental v
 ### How to use
 1. Drop a `Stepper` control from the object panel to a `Window`
 2. Use the `Stepper Inspector` to customize its properties like `Value`, `Min Value`, `Max Value` and `Increment`
+
+If you need to write code for Stepper:
+
 3. Open the `Code Editor`
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![The `Stepper` inspector](images/stepper2.png)
+![`Stepper` inspector](images/stepper2.png)
 The inspector where the `Stepper` class can be configured.
 
-![The `Code Editor` where to interact with events and write custom code](images/stepper3.png)
+![`Code Editor` where to interact with events and write custom code](images/stepper3.png)
 The `Code Editor` where to interact with events and write custom code.
 
 #### Example
-How to log a `value` change via source code when the user intrement or decrement the value from the `Stepper`.
 ```
-Console.write("Stepper value: \(value)")
+Console.write("Stepper value: \(self.value)")
 ```
 
 ### Most important properties
@@ -30,3 +32,6 @@ Several UI aspects can be configured in the `Stepper` class but the `Value`, `Mi
 - `Min Value`: The lowest possible numeric value for the stepper.
 - `Max Value`: The highest possible numeric value for the stepper.
 - `Increment`: The step, or increment, value for the stepper.
+
+### References
+[Stepper class reference](../classes/Stepper.html) contains a complete list of properties and methods that can be used to customize a `Stepper` object.
