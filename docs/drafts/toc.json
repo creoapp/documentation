@@ -101,8 +101,12 @@
       "file": "TabBar.md"
     },
     {
-      "name": "PageCurl and PageScroll",
-      "file": "PageCurlScroll.md"
+      "name": "PageCurl",
+      "file": "PageCurl.md"
+    },
+    {
+      "name": "PageScroll",
+      "file": "PageScroll.md"
     },
     {
       "name": "PageSplit",
