@@ -120,6 +120,10 @@
       "file": "Button.md"
     },
     {
+      "name": "Label",
+      "file": "Label.md"
+    },
+    {
       "name": "ProgressView",
       "file": "ProgressView.md"
     },
