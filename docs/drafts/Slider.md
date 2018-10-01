@@ -9,7 +9,7 @@ A slider is a horizontal track with a control called a thumb, which you can slid
 1. Drop a `Slider` control from the object panel to a `Window`
 2. Use the `Slider Inspector` to customize its properties
 
-If you need to write code for Button:
+If you need to write code for Slider:
 
 3. Open the `Code Editor` (cmd + 6)
 4. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
