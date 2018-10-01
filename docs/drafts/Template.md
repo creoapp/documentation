@@ -1,6 +1,7 @@
 // CLASS_NAME DESCRIPTION HERE
 
-![CLASS_NAME](images/CLASS_NAME.png)
+![CLASS_NAME](images/CLASS_NAME_main.png)
+// The first screenshot should not have an explanation (avoid "A simple control")
 
 ### Best practices
 * Item1
@@ -19,7 +20,7 @@ The inspector where the `CLASS_NAME` class can be configured.
 ![`Code Editor` where to interact with events and write custom code](images/CLASS_NAME_code.png)
 The `Code Editor` where to interact with events and write custom code.
 
-#### Example
+### Example
 A very simple example about CLASS_NAME. Sample code should be as simple as possible, a Console.write most of the time makes a lot of sense. DO NOT USE Control1.value if value is passed as parameter and in any case use self.value. DO NOT HARDCODE control's name otherwise you'll end up with NON PORTABLE CODE,
 ```
 Console.write("CLASS_NAME value: \(self.value)")
