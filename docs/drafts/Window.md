@@ -34,7 +34,7 @@ Let's say you have a hierarchy like this
   - Window1
 ```
 
-If your want to open a `Window` named _Window2_ in the current context of your App (push the _Window2_ at the top of the stack of the _Navigation1_, with a back button to return to _Window1_)), you can use the following code:
+If your want to open a `Window` named _Window2_ in the current context of your App (in this case, push the _Window2_ at the top of the stack of the _Navigation1_, with a back button to return to _Window1_), you can use the following code:
 ```
 // for example from within the `Action` event of a `Button`
 Window2.open()
@@ -50,7 +50,7 @@ or with this code:
 Navigation1.openWindow(Window2)
 ```
 
-If you want to open the _Window2_ as a modal window instead as inside the _Navigatin1_, use the following code:
+If you want to open the _Window2_ as a modal window instead of as inside the _Navigatin1_, use the following code:
 ```
 // you can use any of the supported transition styles
 Window2.openModal(TransitionStyle.Default)
