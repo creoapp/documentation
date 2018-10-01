@@ -1,10 +1,153 @@
 {
   "TOC": [
     {
-      "entry": "Manual"
+      "entry": "INTRODUCTION"
     },
     {
-      "regex": "*"
+      "name": "Getting Started",
+      "file": "getting-started.md"
+    },
+    {
+      "name": "User Interface Overview",
+      "file": "ui-overview.md"
+    },
+    {
+      "name": "How to use Creo",
+      "file": "how-to-use-creo.md"
+    },
+    {
+      "entry": "INTERFACE"
+    },
+    {
+      "name": "Project",
+      "file": "project.md"
+    },
+    {
+      "name": "Layout",
+      "file": "layout.md"
+    },
+    {
+      "name": "Design Board",
+      "file": "design-board.md"
+    },
+    {
+      "name": "Inspector",
+      "file": "inspector.md"
+    },
+    {
+      "name": "Objects",
+      "file": "objects.md"
+    },
+    {
+      "name": "Code Editor",
+      "file": "code-editor.md"
+    },
+    {
+      "name": "Log Panel",
+      "file": "log-panel.md"
+    },
+    {
+      "name": "Animation Editor",
+      "file": "animation-editor.md"
+    },
+    {
+      "entry": "CREO"
+    },
+    {
+      "name": "User Interface Creation",
+      "file": "user-interface-creation.md"
+    },
+    {
+      "name": "Objects and Events",
+      "file": "objects-and-events.md"
+    },
+    {
+      "name": "Controls Customization",
+      "file": "controls-customization.md"
+    },
+    {
+      "name": "Bindings",
+      "file": "bindings.md"
+    },
+    {
+      "name": "DataSet",
+      "file": "dataset.md"
+    },
+    {
+      "name": "Simulator",
+      "file": "simulator.md"
+    },
+    {
+      "name": "Build your App",
+      "file": "build-your-app.md"
+    },
+    {
+      "name": "CreoPlayer",
+      "file": "creoplayer.md"
+    },
+    {
+      "entry": "CONTAINERS"
+    },
+    {
+      "name": "Window",
+      "file": "Window.md"
+    },
+    {
+      "name": "NavigationBar",
+      "file": "Navigation.md"
+    },
+    {
+      "name": "TabBar",
+      "file": "TabBar.md"
+    },
+    {
+      "name": "PageCurl and PageScroll",
+      "file": "PageCurlScroll.md"
+    },
+    {
+      "name": "PageSplit",
+      "file": "PageSplit.md"
+    },
+    {
+      "entry": "CONTROLS"
+    },
+    {
+      "name": "Button",
+      "file": "Button.md"
+    },
+    {
+      "name": "Slider",
+      "file": "Slider.md"
+    },
+    {
+      "name": "Stepper",
+      "file": "Stepper.md"
+    },
+    {
+      "name": "SegmentedControl",
+      "file": "SegmentedControl.md"
+    },
+    {
+      "entry": "OBJECTS"
+    },
+    {
+      "name": "Database",
+      "file": "Database.md"
+    },
+    {
+      "name": "HTTPClient",
+      "file": "HTTPClient.md"
+    },
+    {
+      "entry": "OTHERS"
+    },
+    {
+      "name": "Version History",
+      "file": "version-history.md"
+    },
+    {
+      "name": "Feedback",
+      "file": "feedback.md"
     }
   ]
 }
