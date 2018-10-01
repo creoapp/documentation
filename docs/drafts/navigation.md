@@ -10,31 +10,43 @@ Horizontal navigation is a popular navigation pattern widely used to display hie
 - a social item, and the user taps a preview to open its full description and details
 
 A common App schema is to have a root `Window` like a [TabBar](tabbar) and a `Navigation` for each of its child.
-If the navigation is not in a single direction (from generic to detail and viceversa) then the `Navigation` may not be appropriate.
+If the navigation is not in a single direction (from generic to detail and viceversa) then `Navigation` may not be appropriate.
 
 ### How to use
-1. add a `Navigation` and customise the main `Navigation Bar`
+1. add a `Navigation` and customize the main `Navigation Bar`
 1. add 1 or more child `Window`
 1. for each child `Window` customize its `Navigation Bar` subsettings (bar visibility, title, prompt and buttons)
 1. add or remove `Window` by _code_ or by _actions_
 
 
+#### Example
+- start adding a `Navigation` by tapping the _New Navigation_ button on the _bottom bar_
 
-### Example
-Let's say you have a hierarchy like this, and your _Root_ is the startup window
+![New Navigation](images/navigation14.png)
+
+- configure the `Navigation` appearance and the application hierarchy by adding `Window`child screens
+- configure each screen to add a `TABBAR Item`
+- keep doing the same until you have a hierarchy like this
+
 ```
 - Navigation1
-  - Root (startup window)
+  - Window1 (startup window)
     - Button1
- - Details1
- - Details2
+ - Window2
+ - Window3
 ```
 
 ### Interacting using Gravity
 
 To push a new `Window` into the hierarchy, ie from a button `Action` call
 ```
-Navigation1.push(Details1)
+Navigation1.push(Window2)
+```
+
+equivalent to
+
+```
+Window2.openIn(Navigation1)
 ```
 
 To pop one level:
@@ -43,7 +55,13 @@ To pop one level:
 Navigation1.pop()
 ```
 
-or to pop to the root level:
+equivalent to
+
+```
+Window2.close()
+```
+
+To pop to the root level:
 ```
 Navigation1.popToRootWindow()
 ```
@@ -75,8 +93,7 @@ Any child `Window` `Navigation Bar` may have:
 The buttons can both be custom (with a user provided title/image) or selected from the list of the iconic system buttons.
 ![System buttons](images/navigation2.png)
 
-### Note:
-Without the _Title subnode_ the tile itself is automatically retrieved from the name of the current children `Window`.
+**Note:** without the _Title subnode_ the title itself is automatically retrieved from the name of the current children `Window`.
 
 ### UI Properties
 Several UI aspects can be configured but (see the inspector) but the `Navigation` title bar color and title size are the more importants.
