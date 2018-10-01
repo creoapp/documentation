@@ -3,10 +3,10 @@ A progress view includes a track that fills from left to right to show the progr
 ![ProgressView](images/progressview1.png)
 
 ### Best practices
-* **Always report progress accurately.** Don’t display inaccurate progress information just to make your app appear busy. Only use progress bars for tasks that are quantifiable. Otherwise, use an activity indicator.
-* **Use progress bars for tasks with a well-defined duration.** Progress bars are great for showing the status of a task, especially when it helps convey how much longer the task needs to complete.
-* **Hide the unfilled portion of track in navigation bars and toolbars.** By default, a progress bar’s track includes both filled and unfilled portions. When used in a navigation bar or toolbar, such as to denote a page loading, a progress bar should be configured to hide the unfilled portion of the track.
-* **Consider customizing a progress bar’s appearance to match your app.** A progress bar’s appearance can be adjusted to match your app’s design. You can specify, for example, a custom tint or image for both the track and fill.
+* **Always report progress accurately.** Don’t display inaccurate progress information just to make your app appear busy. Only use progress views for tasks that are quantifiable. Otherwise, use an activity indicator.
+* **Use progress views for tasks with a well-defined duration.** Progress views are great for showing the status of a task, especially when it helps convey how much longer the task needs to complete.
+* **Hide the unfilled portion of track in navigation bars and toolbars.** By default, a progress view’s track includes both filled and unfilled portions. When used in a navigation bar or toolbar, such as to denote a page loading, a progress view should be configured to hide the unfilled portion of the track.
+* **Consider customizing a progress view’s appearance to match your app.** A progress view’s appearance can be adjusted to match your app’s design. You can specify, for example, a custom tint or image for both the track and fill.
 
 ### How to use
 1. Drop a `ProgressView` control from the object panel to a `Window`
