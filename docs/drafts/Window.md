@@ -7,8 +7,8 @@ A `Window` presents and manages a hierarchy of views and controls. Each `Window`
 2. Add a new `Window` with the _new window_ button in the containers panel located below the Layout section (see the following screenshot).
 3. Use the `Window Inspector` to customize its properties like `Background Color`, `Tint Color`, and `Supported Orientation`.
 
-![How to add create a new Window](images/Window_create.png)
-How to add create a new Window.
+![How to create a new Window](images/Window_create.png)
+How to create a new Window.
 
 ### Events
 * `Load`, `Unload`: use these events to customise properties of the `Window` when the object is created.
