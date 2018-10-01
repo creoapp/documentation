@@ -28,7 +28,7 @@ Another way to open a Window is to use the `openWindow(window,completion)` of an
 If the `Window` is already contained in the container, the `Window` is presented by selecting it between the contained windows.
 
 ### Example
-Let's say you have a hierarchy like this, and your Root is the startup window
+Let's say you have a hierarchy like this
 ```
 - Navigation1
   - Window1
