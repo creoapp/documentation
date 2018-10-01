@@ -10,7 +10,7 @@ A text field is a single-line, fixed-height field, often with rounded corners, t
 
 ### How to use
 1. Drop a `TextField` control from the object panel to a `Window`
-2. Use the `TextField Inspector` to customize its properties like `prop1`, `prop2`, and `prop3`
+2. Use the `TextField Inspector` to customize its properties like `Text`, `Placeholder`, and `Keyboard Type`
 
 ![`TextField` inspector](images/textfield2.png)
 The inspector where the `TextField` class can be configured.
@@ -20,7 +20,7 @@ The inspector where the `TextField` class can be configured.
 3. Open the `Code Editor` (cmd + 6)
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
-Console.write("TextField value: \(self.value)")
+TextField1.text = "Text"
 ```
 
 ### Most important properties
