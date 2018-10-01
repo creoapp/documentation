@@ -38,7 +38,7 @@ The TabBar items and Navigation Bar items can be added to a `Window` by pressing
 ![How to add TabBar items and Navigation Bar items](images/Window3.png)
 How to add TabBar items and Navigation Bar items
 
-<a name>Availability</a>### Availability
+### <a name>Availability</a>Availability
 A `Window` is created during the loading of the App and its properties are immediately configured with the values specified through its inspectors. All its properties and methods can be used anytime inside the App. (NOT TRUE, a Window is created during App startup ONLY if it is a Startup Window, if you try to use properties and methods of a never opened Window you'll end up with NULL values. WE SHOULD CLARIFY WHEN controls CAN BE USED.)
 
 
