@@ -18,9 +18,6 @@ If you need to write code for Stepper:
 ![`Stepper` inspector](images/stepper2.png)
 The inspector where the `Stepper` class can be configured.
 
-![`Code Editor` where to interact with events and write custom code](images/stepper3.png)
-The `Code Editor` where to interact with events and write custom code.
-
 #### Example
 ```
 Console.write("Stepper value: \(self.value)")

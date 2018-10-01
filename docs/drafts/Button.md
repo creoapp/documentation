@@ -20,9 +20,6 @@ If you need to write code for Button:
 ![`Button` inspector](images/button2.png)
 The inspector where the `Button` class can be configured.
 
-![`Code Editor` where to interact with events and write custom code](images/button3.png)
-The `Code Editor` where to interact with events and write custom code.
-
 ### Example
 ```
 var alert = Alert("Title", "Message")
@@ -34,7 +31,7 @@ Several UI aspects can be configured in the `Button` class but the `Title` and `
 - `Title`: You can specify a button’s title and customize its typographic properties.
 - `Style`: Specifies the style of a button.
 
-![The `Button` styles](images/button4.png)
+![The `Button` styles](images/button3.png)
 The `Button` styles.
 
 ### References

@@ -20,9 +20,6 @@ If you need to write code for ProgressView:
 ![`ProgressView` inspector](images/progressview2.png)
 The inspector where the `ProgressView` class can be configured.
 
-![`Code Editor` where to interact with events and write custom code](images/progressview3.png)
-The `Code Editor` where to interact with events and write custom code.
-
 ### Example
 ```
 Console.write("ProgressView value: \(self.value)")
