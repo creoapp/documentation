@@ -30,7 +30,7 @@ Console.write("Toggle value: \(self.value)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Toggle` class but the `PROP1`, `PROP2`, and `PROP3` are the most populars to be configured.
+Several UI aspects can be configured in the `Toggle` class but the `selected` is the most popular to be configured.
 - `selected`: A Boolean value that determines the off/on state of the switch. This property allows you to retrieve and set (without animation) a value determining whether the UISwitch object is on or off.
 
 ### References
