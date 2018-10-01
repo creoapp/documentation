@@ -39,7 +39,7 @@ Objects configured inside the `Window`'s hierarchy (controls, views, databases, 
 Controls, views and other non-UI objects can be added by dragging the desired object class from the Objects collection in the bottom-right section of the Creo interface.
 
 THE FOLLOWING SECTION IS NOT CLEAR
-If you want to open a `Window` and get/set a property of an object of the second group, you have to be sure that `Window` has been presented at least once before accessing that object. You can achieve this by writing the code in the `WillShow` event of the `Window` or in the completion [closure]({{github_raw_link}}/gravity/closure.html) of the `open` method. The following example shows how to reliably set the `text` of a `Label` in `Window2`:
+If you want to open a `Window` and get/set a property of an object of the second group, you have to be sure that `Window` has been presented at least once before accessing that object. You can achieve this by writing the code in the `WillShow` event of the `Window` or in the completion [closure](../gravity/closure.html) of the `open` method. The following example shows how to reliably set the `text` of a `Label` in `Window2`:
 
 ```
 func completion() {
@@ -59,11 +59,11 @@ The following sequence of steps is performed during the presentation of a `Windo
 4. the `Window` is added to a view hierarchy and the presenting animation is performed.
 5. when the presenting animation ends the `DidShow` event of the `Window` is called.
 
-For the complete list of the open methods, please refer to the documentation of the [Window]({{github_raw_link}}/classes/Window.md) class and to the documentation of the window containers.
+For the complete list of the open methods, please refer to the documentation of the [Window](../classes/Window.html) class and to the documentation of the window containers.
 
 ### Classes
-- [Window]({{github_raw_link}}/classes/Window.md)
+- [Window](../classes/Window.html)
 
 ### Tutorials
-- [ToDo]({{github_raw_link}}/tutorials/todo.html)
-- [Lets Cook Navigation]({{github_raw_link}}/tutorials/lets-cook-nav.html)
+- [ToDo](../tutorials/todo.html)
+- [Lets Cook Navigation](../tutorials/lets-cook-nav.html)

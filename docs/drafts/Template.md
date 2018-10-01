@@ -33,4 +33,4 @@ Several UI aspects can be configured in the `CLASS_NAME` class but the `PROP1`, 
 - `PROP3`: A PROP3 description.
 
 ### References
-[CLASS_NAME class reference](https://docs.creolabs.com/classes/CLASS_NAME.html) contains a complete list of properties and methods that can be used to customize a `CLASS_NAME` object.
+[CLASS_NAME class reference](../classes/CLASS_NAME.html) contains a complete list of properties and methods that can be used to customize a `CLASS_NAME` object.
