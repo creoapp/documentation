@@ -10,7 +10,7 @@ A switch is a visual toggle between two mutually exclusive states—on and off.
 
 ### How to use
 1. Drop a `Toggle` control from the object panel to a `Window`
-2. Use the `Toggle Inspector` to customize its properties like `prop1`, `prop2`, and `prop3`
+2. Use the `Toggle Inspector` to customize its properties like `selected`
 
 If you need to write code for Toggle:
 
@@ -31,9 +31,7 @@ Console.write("Toggle value: \(self.value)")
 
 ### Most important properties
 Several UI aspects can be configured in the `Toggle` class but the `PROP1`, `PROP2`, and `PROP3` are the most populars to be configured.
-- `PROP1`: A PROP1 description.
-- `PROP2`: A PROP2 description.
-- `PROP3`: A PROP3 description.
+- `selected`: A Boolean value that determines the off/on state of the switch. This property allows you to retrieve and set (without animation) a value determining whether the UISwitch object is on or off.
 
 ### References
 [Toggle class reference](../classes/Toggle.html) contains a complete list of properties and methods that can be used to customize a `Toggle` object.
