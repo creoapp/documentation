@@ -20,9 +20,6 @@ If you need to write code for Toggle:
 ![`Toggle` inspector](images/toggle2.png)
 The inspector where the `Toggle` class can be configured.
 
-![`Code Editor` where to interact with events and write custom code](images/toggle3.png)
-The `Code Editor` where to interact with events and write custom code.
-
 ### Example
 ```
 Console.write("Toggle value: \(self.value)")

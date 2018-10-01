@@ -18,7 +18,7 @@ If you need to write code for SegmentedControl:
 4. Open the `Code Editor` (cmd + 6)
 5. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`Add` button where the user can add `SegmentedControl` items](images/segmentedcontrol5.png)
+![`Add` button where the user can add `SegmentedControl` items](images/segmentedcontrol4.png)
 The 'Add' button where the user can add `SegmentedControl` items.
 
 ![`SegmentedControl` inspector](images/segmentedcontrol2.png)
@@ -26,9 +26,6 @@ The inspector where the `SegmentedControl` can be configured.
 
 ![`SegmentedControl` item inspector](images/segmentedcontrol3.png)
 The inspector where the `SegmentedControlItem` can be configured.
-
-![`Code Editor` where to interact with events and write custom code](images/segmentedcontrol4.png)
-The Code Editor where to interact with events and write custom code.
 
 ### Example
 ```
