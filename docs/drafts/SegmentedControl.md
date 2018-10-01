@@ -13,7 +13,7 @@ A segmented control is a linear set of two or more segments, each of which funct
 2. Add one or more `SegmentedControl` items by clicking on the `+` button on the right side of the selected `SegmentedControl` item into the layout area
 3. Use the `SegmentedControlItem Inspector` to customize its properties like `Title` and `Image`
 
-If you need to write code for Button:
+If you need to write code for SegmentedControl:
 
 4. Open the `Code Editor` (cmd + 6)
 5. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
