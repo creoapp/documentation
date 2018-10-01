@@ -31,15 +31,6 @@ The inspector where the `SegmentedControlItem` can be configured.
 The Code Editor where to interact with events and write custom code.
 
 ### Example
-How to show an `Alert` via source code by selecting different `SegmentedControl` items.
-
-1. Select `Item1` from the layout area
-2. From the `Source Code` area select `Events` -> `Action`  and place the code below in he code editor
-```
-Console.write("SegmentedControl title: \(self.title)")
-```
-3. Select `Item2` from the layout area
-4. From the `Source Code` area select `Events` -> `Action`  and place the code below in he code editor
 ```
 Console.write("SegmentedControl title: \(self.title)")
 ```

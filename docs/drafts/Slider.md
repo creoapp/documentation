@@ -21,7 +21,6 @@ The inspector where the `Slider` class can be configured.
 The `Code Editor` where to interact with events and write custom code.
 
 ### Example
-How to display a `Slider` value in Console.
 ```
 Console.write("Slider value: \(self.value)")
 ```
