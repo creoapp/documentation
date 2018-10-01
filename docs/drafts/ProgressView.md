@@ -10,19 +10,17 @@ A progress view includes a track that fills from left to right to show the progr
 
 ### How to use
 1. Drop a `ProgressView` control from the object panel to a `Window`
-2. Use the `ProgressView Inspector` to customize its properties like `progressViewStyle` and `value`
-
-If you need to write code for ProgressView:
-
-3. Open the `Code Editor` (cmd + 6)
-4. Select the `MAIN_ACTION_NAME_HERE` item inside the `Events` area and write your custom code in the `Code Editor`
+2. Use the `ProgressView Inspector` to customize its properties like `progressViewStyle`
 
 ![`ProgressView` inspector](images/progressview2.png)
 The inspector where the `ProgressView` class can be configured.
 
 ### Example
+1. Drop a `Button` control from the object panel to a `Window`
+2. Open the `Code Editor` (cmd + 6)
+3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
-Console.write("ProgressView value: \(self.value)")
+ProgressView1.value = 1
 ```
 
 ### Most important properties
