@@ -20,7 +20,7 @@ The inspector where the `ProgressView` class can be configured.
 2. Open the `Code Editor` (cmd + 6)
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
-ProgressView1.value = 1
+ProgressView1.value = 1.0
 ```
 
 ### Most important properties
