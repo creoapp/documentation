@@ -120,6 +120,10 @@
       "file": "Button.md"
     },
     {
+      "name": "ProgressView",
+      "file": "ProgressView.md"
+    },
+    {
       "name": "Slider",
       "file": "Slider.md"
     },
