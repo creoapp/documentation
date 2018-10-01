@@ -11,7 +11,7 @@ Buttons initiate app-specific actions, have customizable backgrounds, and can in
 ### How to use
 1. Drop a `Button` control from the object panel to a `Window`
 2. Use the `Button Inspector` to customize its properties like `Title` and `Style`
-If you need to write code for SegmentedControl:
+If you need to write code for Button:
 3. Open the `Code Editor` (cmd + 6)
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
