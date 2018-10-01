@@ -19,13 +19,41 @@ How to add create a new Window.
 ### Open a Window
 Windows can be accessed in Gravity through a variable with the name of the `Window` which is unique in the project. Windows are globally defined and are created during the App startup process. A `Window` instance can be used anywhere and anytime from Gravity code.
 
-// FEW WORDS TO INTRODUCE THE VARIOUS OPEN METHODS, REFERENCE TO THE CLASS DOCUMENTATION FOR DETAILS
+A window can be programmatically opened using one of the following methods of the `Window` object that you want to open:
+* openIn(destination, completion): opens the calling `Window` in the specified destination. If the destination is a `Window`, the calling `Window` is presented modally with the default transition. If the destination is a window container (`Navigation`,`TabBar`,`PageSplit`,`PageCurl` or `PageSplit`), the `Window` is presented by the destination's specific implementation of the `openWindow(window,closure)` method. If the destination object is not contained in the currently presented stack of windows/containers, the `openIn` has no visible effects until the destination object is presented on screen. The completion [closure](../gravity/closure.html) parameter is optional.
+* open(completion): opens the calling `Window` in the current top-most container, if any, or as a modal `Window` if the currently presented `Window` is the root object or is presented as a modal `Window`. The completion [closure](../gravity/closure.html) parameter is optional.
+* openModal(TransitionStyle, completion): the calling `Window` is presented modally in the current top-most window or container, using the specified transition. The completion [closure](../gravity/closure.html) parameter is optional.
+
+Another way to open a Window is to use the `openWindow(window,completion)` of an existing container.
+If the `Window` is already contained in the container, the `Window` is presented by selecting it between the contained windows.
 
 ### Example
-If your project has two Windows, `Window1` and `Window2`, you can use the following code to open the `Window2` inside `Window1`: (WHAT DOES INSIDE MEANS)
+Let's say you have a hierarchy like this, and your Root is the startup window
+```
+- Navigation1
+  - Window1
+```
+
+If your want to open a `Window` named _Window2_ in the current context of your App (push the _Window2_ at the top of the stack of the _Navigation1_, with a back button to return to _Window1_)), you can use the following code:
 ```
 // for example from within the `Action` event of a `Button`
-Window1.open()
+Window2.open()
+```
+
+The same result could be achieved with the this code:
+```
+Window2.openIn(Navigation1)
+```
+
+or with this code:
+```
+Navigation1.openWindow(Window2)
+```
+
+If you want to open the _Window2_ as a modal window instead as inside the _Navigatin1_, use the following code:
+```
+// you can use any of the supported transition styles
+Window2.openModal(TransitionStyle.Default)
 ```
 
 ### Customization
@@ -38,7 +66,7 @@ The TabBar items and Navigation Bar items can be added to a `Window` by pressing
 ![How to add TabBar items and Navigation Bar items](images/Window3.png)
 How to add TabBar items and Navigation Bar items
 
-### <a name="Availability"></a>Availability
+### <a id="Availability"></a>Availability
 A `Window` is created during the loading of the App and its properties are immediately configured with the values specified through its inspectors. All its properties and methods can be used anytime inside the App. (NOT TRUE, a Window is created during App startup ONLY if it is a Startup Window, if you try to use properties and methods of a never opened Window you'll end up with NULL values. WE SHOULD CLARIFY WHEN controls CAN BE USED.)
 
 
