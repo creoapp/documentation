@@ -4,10 +4,10 @@ A tab bar appears at the bottom of an app screen and provides the ability to qui
 A `TabBar` with 4 child `Window`.
 
 ### Best practices
-When an application has multiple sections then `TabBar` is usually the start-up window and is used to organize informations at the app level:
+When an application has multiple sections then `TabBar` is usually the start-up window and is used to organize informations at the app level, ie:
 
-* the sections of a social app: 1 screen for the feeds, 1 screen for the user profile, 1 for creating new posts and so on
-* the sections of a navigator app: 1 screen for driving informations, 1 screen to explore your surrounding and 1 for the public transport
+* **the sections of a social app**: 1 screen for the feeds, 1 screen for the user profile, 1 for creating new posts and so on
+* **the sections of a navigator app**: 1 screen for driving informations, 1 screen to explore your surrounding and 1 for the public transport
 
 ### How to use
 1. add a `TabBar` as a root screen and customize the appearance, ie translucent, tint and so on
