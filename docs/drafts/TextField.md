@@ -22,21 +22,25 @@ The `TextField` can be customized by tapping the subnode icons (+).
 The `TextField` customizations.
 
 ### Input View
+The custom input view to display when the text field becomes active. The user can drop one or more controls in order to create the custom inout view.
 
 ![`TextField` input view](images/textfield4.png)
 The `TextField` input view customization.
 
 ### Keyboard Accessory View
+The custom accessory view to display when the text field becomes active. The user can drop one or more controls in order to extends the default keyboard.
 
 ![`TextField` keyboard accessory view](images/textfield5.png)
 The `TextField` keyboard accessory view customization.
 
 ### Left View
+The overlay view displayed on the left (or leading) side of the text field.
 
 ![`TextField` left view](images/textfield6.png)
 The `TextField` left view customization.
 
 ### Right View
+The overlay view displayed on the right (or trailing) side of the text field.
 
 ![`TextField` right view](images/textfield7.png)
 The `TextField` right view customization.
