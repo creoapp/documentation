@@ -17,9 +17,6 @@ If you need to write code for Slider:
 ![`Slider` inspector](images/slider2.png)
 The inspector where the `Slider` class can be configured.
 
-![`Code Editor` where to interact with events and write custom code](images/slider3.png)
-The `Code Editor` where to interact with events and write custom code.
-
 ### Example
 ```
 Console.write("Slider value: \(self.value)")

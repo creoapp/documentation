@@ -120,6 +120,18 @@
       "file": "Button.md"
     },
     {
+      "name": "ImageView",
+      "file": "ImageView.md"
+    },
+    {
+      "name": "Label",
+      "file": "Label.md"
+    },
+    {
+      "name": "ProgressView",
+      "file": "ProgressView.md"
+    },
+    {
       "name": "Slider",
       "file": "Slider.md"
     },
@@ -130,6 +142,10 @@
     {
       "name": "SegmentedControl",
       "file": "SegmentedControl.md"
+    },
+    {
+      "name": "TextField",
+      "file": "TextField.md"
     },
     {
       "entry": "OBJECTS"
