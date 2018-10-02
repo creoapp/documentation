@@ -31,12 +31,12 @@ The `SegmentedControl` customizations.
 
 ### Example
 1. Open the `Code Editor` (cmd + 6)
-2. Select the `SegmentedControlItem` named `Item1`
+2. Select the `SegmentedControl` item named `Item1`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("SegmentedControl title: \(self.title)")
 ```
-4. Select the `SegmentedControlItem` named `Item2`
+4. Select the `SegmentedControl` item named `Item2`
 5. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("SegmentedControl title: \(self.title)")
