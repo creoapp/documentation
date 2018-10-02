@@ -1,8 +1,7 @@
 A navigation bar appears at the top of an app screen, below the status bar, and enables navigation through a series of hierarchical screens. When a new screen is displayed, a back button, often labeled with the title of the previous screen, appears on the left side of the bar. Sometimes, the right side of a navigation bar contains a control, like an Edit or a Done button, for managing the content within the active view. In a split view, a navigation bar may appear in a single pane of the split view. Navigation bars are translucent, may have a background tint, and can be configured to hide when the keyboard is onscreen, a gesture occurs, or a view resizes.
 
-![Simple navigation controller](images/navigation8.png)
+![Simple navigation controller](images/Navigation_main.png)
 A simple navigation controller with a single child `Window`.
-
 
 ### Best practices
 Horizontal navigation is a popular navigation pattern widely used to display hierarchical content, ie:
@@ -13,19 +12,18 @@ A common App schema is to have a root `Window` like a [TabBar](tabbar) and a `Na
 If the navigation is not in a single direction (from generic to detail and viceversa) then `Navigation` may not be appropriate.
 
 ### How to use
-1. add a `Navigation` and customize the main `Navigation Bar`
-1. add 1 or more child `Window`
-1. for each child `Window` customize its `Navigation Bar` subsettings (bar visibility, title, prompt and buttons)
-1. add or remove `Window` by _code_ or by _actions_
-
+1. Drop a `Navigation` and customize the main `Navigation Bar`
+1. Drop 1 or more child `Window`
+1. For each child `Window` customize its `Navigation Bar` subsettings (bar visibility, title, prompt and buttons)
+1. Add or remove `Window` by _code_ or by _actions_
 
 #### Example
-- start adding a `Navigation` by tapping the _New Navigation_ button on the _bottom bar_
+- Start adding a `Navigation` by tapping the _New Navigation_ button on the _bottom bar_
 
-![New Navigation](images/navigation14.png)
+![New Navigation](images/Navigation14.png)
 
-- configure the `Navigation` appearance and the application hierarchy by adding `Window`child screens
-- configure each screen to add a `TABBAR Item`
+- Configure the `Navigation` appearance and the application hierarchy by adding `Window`child screens
+- Configure each screen to add a `TABBAR Item`
 - keep doing the same until you have a hierarchy like this
 
 ```
@@ -72,12 +70,12 @@ Navigation1.popToRootWindow()
 1. select _In_ -> _Current_
 1. select _Using_ -> _Default_
 
-![Simple navigation controller](images/navigation10.png)
+![Simple navigation controller](images/Navigation10.png)
 
 ### Customize a navigation bar
 The navigation bar can be customised by tapping the `Window` subnode icons (+).
 
-![Custom navigation controller](images/navigation1.png)
+![Custom navigation controller](images/Navigation1.png)
 
 Any child `Window` `Navigation Bar` may have:
 - A custom title
@@ -86,10 +84,10 @@ Any child `Window` `Navigation Bar` may have:
 - 1 or more right button
 - A custom back button
 
-![Customizations](images/navigation13.png)
+![Customizations](images/Navigation13.png)
 
 The buttons can both be custom (with a user provided title/image) or selected from the list of the iconic system buttons.
-![System buttons](images/navigation2.png)
+![System buttons](images/Navigation2.png)
 
 **Note:** without the _Title subnode_ the title itself is automatically retrieved from the name of the current children `Window`.
 
@@ -101,12 +99,12 @@ Several UI aspects can be configured but the most used are:
 - `Prefer Large Titles`, when set _true_ the title is displayed in a large format.
 - `Hide Navigation Bar`, when set _true_ the navigation bar is hidden, usually just the root screen has the navigation bar hidden.
 
-![Inspector](images/navigation11.png)
+![Inspector](images/Navigation_inspector.png)
 
-![Large navigation bar](images/navigation12.png)
+![Large navigation bar](images/Navigation12.png)
 Compact navigation bar.
 
-![Large navigation bar](images/navigation9.png)
+![Large navigation bar](images/Navigation9.png)
 Large navigation bar.
 
 ### References
