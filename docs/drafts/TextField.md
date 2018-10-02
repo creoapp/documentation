@@ -16,7 +16,7 @@ A text field is a single-line, fixed-height field, often with rounded corners, t
 The inspector where the `TextField` class can be configured.
 
 ### How to customize
-The `TextField` can be customized by tapping the Window subnode icons (+).
+The `TextField` can be customized by tapping the subnode icons (+).
 
 ![`TextField` customizations](images/textfield3.png)
 The `TextField` customizations.
