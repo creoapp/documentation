@@ -28,6 +28,8 @@ The inspector where the `SegmentedControl` can be configured.
 The inspector where the `SegmentedControlItem` can be configured.
 
 ### Example
+1. Open the `Code Editor` (cmd + 6)
+2. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("SegmentedControl title: \(self.title)")
 ```

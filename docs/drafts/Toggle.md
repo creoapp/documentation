@@ -21,6 +21,8 @@ If you need to write code for Toggle:
 The inspector where the `Toggle` class can be configured.
 
 ### Example
+1. Open the `Code Editor` (cmd + 6)
+2. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("Toggle value: \(self.value)")
 ```

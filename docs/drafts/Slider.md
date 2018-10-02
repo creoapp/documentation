@@ -18,6 +18,8 @@ If you need to write code for Slider:
 The inspector where the `Slider` class can be configured.
 
 ### Example
+1. Open the `Code Editor` (cmd + 6)
+2. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("Slider value: \(self.value)")
 ```
