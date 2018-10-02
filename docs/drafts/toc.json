@@ -160,6 +160,10 @@
       "file": "TextField.md"
     },
     {
+      "name": "TextView",
+      "file": "TextView.md"
+    },
+    {
       "name": "WebView",
       "file": "WebView.md"
     },
