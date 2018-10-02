@@ -120,6 +120,10 @@
       "file": "Button.md"
     },
     {
+      "name": "ImageView",
+      "file": "ImageView.md"
+    },
+    {
       "name": "Label",
       "file": "Label.md"
     },
