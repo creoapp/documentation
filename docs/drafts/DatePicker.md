@@ -1,6 +1,6 @@
 A date picker is an efficient interface for selecting a specific date, time, or both. It also provides an interface for displaying a countdown timer.
 
-![DatePicker](images/DatePicker_main.png)
+![DatePicker](images/datepicker1.png)
 
 ### Best practices
 * **Consider providing less granularity when specifying minutes.** By default, a minute list includes 60 values (0 to 59). You can optionally increase the minute interval as long as it divides evenly into 60. For example, you might want quarter-hour intervals (0, 15, 30, and 45).
@@ -16,7 +16,7 @@ If you need to write code for DatePicker:
 3. Open the `Code Editor` (cmd + 6)
 4. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`DatePicker` inspector](images/DatePicker_inspector.png)
+![`DatePicker` inspector](images/datepicker2.png)
 The inspector where the `DatePicker` class can be configured.
 
 ### Example
