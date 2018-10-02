@@ -15,6 +15,12 @@ A text field is a single-line, fixed-height field, often with rounded corners, t
 ![`TextField` inspector](images/textfield2.png)
 The inspector where the `TextField` class can be configured.
 
+### How to customize
+The `TextField` can be customized by tapping the Window subnode icons (+).
+
+![`TextField` customizations](images/textfield3.png)
+The `TextField` customizations.
+
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
 3. Open the `Code Editor` (cmd + 6)
@@ -24,10 +30,11 @@ TextField1.text = "Text"
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `TextField` class but the `PROP1`, `PROP2`, and `PROP3` are the most populars to be configured.
-- `PROP1`: A PROP1 description.
-- `PROP2`: A PROP2 description.
-- `PROP3`: A PROP3 description.
+Several UI aspects can be configured in the `TextField` class but the `text`, `textColor`, `textAlignment` and `nextField` are the most populars to be configured.
+- `text`: The text displayed by the text field.
+- `textColor`: The color of the text.
+- `textAlignment`: The technique to use for aligning the text.
+- `nextField`: Configures the next field to activate, or nil if there is no next field.
 
 ### References
 [TextField class reference](../classes/TextField.html) contains a complete list of properties and methods that can be used to customize a `TextField` object.
