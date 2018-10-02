@@ -3,8 +3,6 @@ A tab bar appears at the bottom of an app screen and provides the ability to qui
 ![TabBarr](images/tabbar1.png)
 A `TabBar` with 4 child `Window`.
 
-[TabBar](#References)
-
 ### Best practices
 When an application has multiple sections then `TabBar` is usually the start-up window and is used to organize informations at the app level:
 
