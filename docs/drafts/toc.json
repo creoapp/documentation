@@ -128,6 +128,10 @@
       "file": "Label.md"
     },
     {
+      "name": "PickerView",
+      "file": "PickerView.md"
+    },
+    {
       "name": "ProgressView",
       "file": "ProgressView.md"
     },
