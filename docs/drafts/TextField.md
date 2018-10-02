@@ -21,6 +21,26 @@ The `TextField` can be customized by tapping the subnode icons (+).
 ![`TextField` customizations](images/textfield3.png)
 The `TextField` customizations.
 
+### Input View
+
+![`TextField` input view](images/textfield4.png)
+The `TextField` input view customization.
+
+### Keyboard Accessory View
+
+![`TextField` keyboard accessory view](images/textfield5.png)
+The `TextField` keyboard accessory view customization.
+
+### Left View
+
+![`TextField` left view](images/textfield6.png)
+The `TextField` left view customization.
+
+### Right View
+
+![`TextField` right view](images/textfield7.png)
+The `TextField` right view customization.
+
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
 3. Open the `Code Editor` (cmd + 6)
