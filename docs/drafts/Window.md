@@ -69,7 +69,7 @@ If the `Window` is presented inside a `NavigationBar`, you can customize the ite
 3. Use the `Inspector` of the selected item to customize its properties.
 
 ![How to customize a NavigationBar item](images/Window_navBarItem.png)
-How to customize a NavigationBar item
+How to customize a NavigationBar item.
 
 If the `Window` is presented inside a `TabBar`, you can customize the `TabBarItem` that represents the `Window` in the `TabBar`:
 1. Press the '+' button near the window's name in the project's layout.
