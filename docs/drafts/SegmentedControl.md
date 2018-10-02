@@ -10,12 +10,7 @@ A segmented control is a linear set of two or more segments, each of which funct
 
 ### How to use
 1. Drop a `SegmentedControl` control from the object panel to a `Window`
-3. Use the `SegmentedControlItem Inspector` to customize its properties like `Title` and `Image`
-
-If you need to write code for SegmentedControl:
-
-4. Open the `Code Editor` (cmd + 6)
-5. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
+2. Use the `SegmentedControlItem Inspector` to customize its properties like `Title` and `Image`
 
 ![`SegmentedControl` inspector](images/segmentedcontrol2.png)
 The inspector where the `SegmentedControl` can be configured.
