@@ -6,8 +6,8 @@ A simple navigation controller with a single child `Window`.
 
 ### Best practices
 Horizontal navigation is a popular navigation pattern widely used to display hierarchical content, ie:
-- the setting of an app, and the user taps an element to open its subsettings
-- a social item, and the user taps a preview to open its full description and details
+* the setting of an app, and the user taps an element to open its subsettings
+* a social item, and the user taps a preview to open its full description and details
 
 A common App schema is to have a root `Window` like a [TabBar](tabbar) and a `Navigation` for each of its child.
 If the navigation is not in a single direction (from generic to detail and viceversa) then `Navigation` may not be appropriate.
@@ -37,7 +37,6 @@ If the navigation is not in a single direction (from generic to detail and vicev
 ```
 
 ### Interacting using Gravity
-
 To push a new `Window` into the hierarchy, ie from a button `Action` call
 ```
 Navigation1.push(Window2)
@@ -67,7 +66,6 @@ Navigation1.popToRootWindow()
 ```
 
 ### Interacting using Actions
-
 1. select the `Button1` _Actions_ tab
 1. select _Event_ -> _Action_ and tap _Add_
 1. select _Open_ -> _Details1_
@@ -95,8 +93,13 @@ The buttons can both be custom (with a user provided title/image) or selected fr
 
 **Note:** without the _Title subnode_ the title itself is automatically retrieved from the name of the current children `Window`.
 
-### UI Properties
-Several UI aspects can be configured but (see the inspector) but the `Navigation` title bar color and title size are the more importants.
+### Most important properties
+Several UI aspects can be configured but the most used are:
+- `Style`, white with dark text or black with light text.
+- `Translucent Navigation Bar`, when set _true_ the background is semitransparent.
+- `Bar Color`, navigation bar background tint color.
+- `Prefer Large Titles`, when set _true_ the title is displayed in a large format.
+- `Hide Navigation Bar`, when set _true_ the navigation bar is hidden, usually just the root screen has the navigation bar hidden.
 
 ![Inspector](images/navigation11.png)
 
@@ -105,3 +108,6 @@ Compact navigation bar.
 
 ![Large navigation bar](images/navigation9.png)
 Large navigation bar.
+
+### References
+[Navigation](../classes/Navigation.html) contains a complete list of properties and methods that can be used to customize a `Navigation` object.

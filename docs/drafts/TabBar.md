@@ -3,17 +3,18 @@ A tab bar appears at the bottom of an app screen and provides the ability to qui
 ![TabBarr](images/tabbar1.png)
 A `TabBar` with 4 child `Window`.
 
+[TabBar](#References)
+
 ### Best practices
-When an application has multiple sections then `TabBar` is usually the root screen and is used to present a clear interface to switch between the sections, ie:
+When an application has multiple sections then `TabBar` is usually the start-up window and is used to organize informations at the app level:
 
-- the sections of a social app: 1 screen for the feeds, 1 screen for the user profile, 1 for creating new posts and so on
-
-- the sections of a navigator app: 1 screen for driving informations, 1 screen to explore your surrounding and 1 for the public transport
+* the sections of a social app: 1 screen for the feeds, 1 screen for the user profile, 1 for creating new posts and so on
+* the sections of a navigator app: 1 screen for driving informations, 1 screen to explore your surrounding and 1 for the public transport
 
 ### How to use
 1. add a `TabBar` as a root screen and customize the appearance, ie translucent, tint and so on
 1. add 1 or more child `Window` or `Navigation`
-1. for each childrencustomize its `TABBAR Item` by tapping the _(+)_ icon
+1. for each children customize its `TABBAR Item` by tapping the _(+)_ icon
 
 #### Example
 - start adding a `TabBar` by tapping the _New Navigation_ button on the _bottom bar_
@@ -21,7 +22,6 @@ When an application has multiple sections then `TabBar` is usually the root scre
 ![New TabBar](images/tabbar0.png)
 
 - configure the `TabBar` by adding `Window` or `Navigation` child screens
-
 - configure each screen to add a `TABBAR Item` 
 - keep doing the same until you have a hierarchy like this
 
@@ -40,21 +40,14 @@ When an application has multiple sections then `TabBar` is usually the root scre
     - Window3
 ```
 
-**Note:**
+**Note:** it is common practice to drop `Navigation` as the child of a `TabBar` and configure the `Navigation Bar` setting `Hide Navigation Bar` to _true_.
 
-it is common practice to drop `Navigation` as the child of a `TabBar` and configure the `Navigation Bar` setting `Hide Navigation Bar` to _true_.
+### TABBAR Item
+The `TABBAR Item` can be created by tapping the subnode icon _(+)_
 
-#### Interacting using Gravity
+![System buttons](images/tabbar2.png)
 
-`TABBAR Item` properties can be set by code, ie
-
-```
-Navigation1.TabbarItem1.badgeValue = "10"
-```
-
-### Subnodes
-The `TABBAR Item` can be created by tapping the subnode icon _(+)_, the top settings include:
-
+The main settings include:
 - A custom title
 - A badge value
 - An icon
@@ -64,7 +57,20 @@ The icon can both be custom (with a user provided image) or selected from the li
 
 **Note:** without the _TABBAR Item_ the title itself is automatically retrieved from the name of the current children `Window`.
 
-### UI Properties
-Several UI aspects can be configured but (see the inspector) but usually you want to set the `TabBar` tint color to match your ui
+#### Interacting using Gravity
+`TABBAR Item` properties can be set by code, ie
+
+```
+Navigation1.TabbarItem1.badgeValue = "10"
+```
+
+### Most important properties
+Several UI aspects can be configured but the most used are:
+- `Style`, white with dark text or black with light text.
+- `Translucent Background`, when set _true_ the tab bar adds a translucent effect to its background image or tint color.
+- `Bar Color`, the tint color to apply to the bar.
 
 ![Inspector](images/tabbar4.png)
+
+### References
+[TabBar](../classes/TabBar.html) contains a complete list of properties and methods that can be used to customize a `TabBar` object.
