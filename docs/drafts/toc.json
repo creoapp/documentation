@@ -128,6 +128,10 @@
       "file": "Label.md"
     },
     {
+      "name": "MapView",
+      "file": "MapView.md"
+    },
+    {
       "name": "PickerView",
       "file": "PickerView.md"
     },
