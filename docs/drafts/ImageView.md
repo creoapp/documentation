@@ -7,21 +7,25 @@ An image view displays a single image or an animated sequence of images over a t
 
 ### How to use
 1. Drop a `ImageView` control from the object panel to a `Window`
-2. Use the `ImageView Inspector` to customize its properties like `prop1`, `prop2`, and `prop3`
+2. Use the `ImageView Inspector` to customize its properties like `Image`, `Highlight`, and `Mode`
 
 ![`ImageView` inspector](images/imageview2.png)
 The inspector where the `ImageView` class can be configured.
 
 ### Example
+1. Drop a desired image to the `Assets` area and name it as `Image1`
+2. Drop a `Button` control from the object panel to a `Window`
+3. Open the `Code Editor` (cmd + 6)
+4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
-Console.write("ImageView value: \(self.value)")
+ImageView1.image = Image("Image1")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `ImageView` class but the `PROP1`, `PROP2`, and `PROP3` are the most populars to be configured.
-- `PROP1`: A PROP1 description.
-- `PROP2`: A PROP2 description.
-- `PROP3`: A PROP3 description.
+Several UI aspects can be configured in the `ImageView` class but the `image`, `highlightedImage`, and `contentMode` are the most populars to be configured.
+- `image`: The image displayed in the image view.
+- `highlightedImage`: The highlighted image displayed in the image view.
+- `contentMode`: Options to specify how a view adjusts its content when its size changes.
 
 ### References
 [ImageView class reference](../classes/ImageView.html) contains a complete list of properties and methods that can be used to customize a `ImageView` object.
