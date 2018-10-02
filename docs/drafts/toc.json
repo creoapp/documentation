@@ -120,6 +120,10 @@
       "file": "Button.md"
     },
     {
+      "name": "DatePicker",
+      "file": "DatePicker.md"
+    },
+    {
       "name": "ImageView",
       "file": "ImageView.md"
     },
