@@ -8,12 +8,12 @@
       "file": "getting-started.md"
     },
     {
-      "name": "Interface Overview",
-      "file": "ui-overview.md"
-    },
-    {
       "name": "How Creo works",
       "file": "how-creo-works.md"
+    },
+    {
+      "name": "Interface Overview",
+      "file": "ui-overview.md"
     },
     {
       "entry": "INTERFACE"
