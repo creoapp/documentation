@@ -10,15 +10,16 @@ A toolbar appears at the bottom of an app screen and contains buttons for perfor
 
 ### How to use
 1. Drop a `Toolbar` control from the object panel to a `Window`
-2. Use the `Toolbar Inspector` to customize its properties like `prop1`, `prop2`, and `prop3`
-
-If you need to write code for Toolbar:
-
-3. Open the `Code Editor` (cmd + 6)
-4. Select the `MAIN_ACTION_NAME_HERE` item inside the `Events` area and write your custom code in the `Code Editor`
+2. Use the `Toolbar Inspector` to customize its properties like `Style` and `Bar Color`
 
 ![`Toolbar` inspector](images/toolbar2.png)
 The inspector where the `Toolbar` class can be configured.
+
+### How to customize
+The `Toolbar` can be customized by tapping the subnode icons (+).
+
+![`Toolbar` customizations](images/toolbar3.png)
+The `Toolbar` customizations.
 
 ### Example
 ```
@@ -26,10 +27,10 @@ Console.write("Toolbar value: \(self.value)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Toolbar` class but the `PROP1`, `PROP2`, and `PROP3` are the most populars to be configured.
-- `PROP1`: A PROP1 description.
-- `PROP2`: A PROP2 description.
-- `PROP3`: A PROP3 description.
+Several UI aspects can be configured in the `Toolbar` class but the `barStyle`, `barTintColor`, and `items` are the most populars to be configured.
+- `barStyle`: The toolbar style that specifies its appearance.
+- `barTintColor`: The tint color to apply to the toolbar background. This color is made translucent by default unless you set the translucent property to false.
+- `items`: The items displayed on the toolbar.
 
 ### References
 [Toolbar class reference](../classes/Toolbar.html) contains a complete list of properties and methods that can be used to customize a `Toolbar` object.
