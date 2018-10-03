@@ -43,6 +43,10 @@
       "file": "code-editor.md"
     },
     {
+      "name": "Search Panel",
+      "file": "search-panel.md"
+    },
+    {
       "name": "Log Panel",
       "file": "log-panel.md"
     },
@@ -66,7 +70,7 @@
       "file": "controls-customization.md"
     },
     {
-      "name": "Bindings",
+      "name": "Binding",
       "file": "bindings.md"
     },
     {
@@ -78,7 +82,7 @@
       "file": "simulator.md"
     },
     {
-      "name": "Build your App",
+      "name": "Build and submit your App",
       "file": "build-your-app.md"
     },
     {
