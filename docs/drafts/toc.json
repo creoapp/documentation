@@ -183,6 +183,14 @@
       "file": "TextView.md"
     },
     {
+      "name": "Toggle",
+      "file": "Toggle.md"
+    },
+    {
+      "name": "Toolbar",
+      "file": "Toolbar.md"
+    },
+    {
       "name": "WebView",
       "file": "WebView.md"
     },
