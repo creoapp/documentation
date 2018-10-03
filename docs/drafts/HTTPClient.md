@@ -48,7 +48,9 @@ The authentication details section depends on the selected authentication type.
 The details are programmatically available through the `authDetails` property, the value of this property is a [Map](../gravity/map.html) where each key is a specific detail property for the selected authentication type.
 
 - _No Auth_: no details are needed
-- _Basic Auth_: _username_ and _password_
+- _Basic Auth_:
+    - _username_
+    - _password_
 - _OAuth 1.0_:
     - _Callback URL_: The callback URL is used during the authorization process. After users authorize your application on the site, they'll be redirected back to your callback URL. The _schema_ of this URL must be added as a custom URL in the App's property list (ref: [Support URL TechNote](https://docs.creolabs.com/technotes/open-url.html)). Typically, you have to use a valid callback URL registered for your App's account in the developer page of your API. When the `HTTPClient` is run in the Creo Simulator or in the CreoPlayer, Creo uses the built-in callback URL *com.creolabs.creo://oauth1Callback* in order to be able to receive the callback, so you need to add this value in the API provider page if you want to test your App in these platforms. Your custom _Callback URL_ is used when your App is installed and executed in a real device. Example: "com.your-company-name.your-app-name://oauth1Callback"
     - _Request Token URL_: the URL, supplied by the site, used for acquiring temporary credentials in the first step of authorization flow (also known as a Request Token).
