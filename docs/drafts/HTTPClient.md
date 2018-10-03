@@ -67,7 +67,7 @@ The details are programmatically available through the `authDetails` property, t
 
 
 ### References
-[HTTPClient class reference](../classes/HTTPClient.html) contains a complete list of properties and methods that can be used to customize a `HTTPClient` object.
-[HTTPRequest class reference](../classes/HTTPRequest.html) contains a complete list of properties and methods that can be used to customize a `HTTPRequest` object.
+- [HTTPClient class reference](../classes/HTTPClient.html) contains a complete list of properties and methods that can be used to customize a `HTTPClient` object.
+- [HTTPRequest class reference](../classes/HTTPRequest.html) contains a complete list of properties and methods that can be used to customize a `HTTPRequest` object.
 
 - [Spotify](../tutorials/spotify.html) contains an example of how to use a Web API with OAuth 2.0 user authentication.
