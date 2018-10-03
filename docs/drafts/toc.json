@@ -113,6 +113,21 @@
       "file": "PageSplit.md"
     },
     {
+      "entry": "DATASET"
+    },
+    {
+      "name": "Overview",
+      "file": "dataset.md"
+    },
+    {
+      "name": "Database",
+      "file": "Database.md"
+    },
+    {
+      "name": "HTTPClient",
+      "file": "HTTPClient.md"
+    },
+    {
       "entry": "CONTROLS"
     },
     {
@@ -166,21 +181,6 @@
     {
       "name": "WebView",
       "file": "WebView.md"
-    },
-    {
-      "entry": "DATASET"
-    },
-    {
-      "name": "Overview",
-      "file": "dataset.md"
-    },
-    {
-      "name": "Database",
-      "file": "Database.md"
-    },
-    {
-      "name": "HTTPClient",
-      "file": "HTTPClient.md"
     },
     {
       "entry": "OTHERS"
