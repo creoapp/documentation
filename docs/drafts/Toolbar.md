@@ -21,6 +21,27 @@ The `Toolbar` can be customized by tapping the subnode icons (+).
 ![`Toolbar` customizations](images/toolbar3.png)
 The `Toolbar` customizations.
 
+### System Item
+Add description here...
+
+![`Toolbar` system item](images/toolbar4.png)
+The `Toolbar` system item customization.
+
+### How to use
+1. Use the `ToolbarItem Inspector` to customize its properties like `System Item`, `Title` and `Image`
+
+![`ToolbarItem` customizations](images/toolbar6.png)
+The `ToolbarItem` customizations.
+
+![`ToolbarItem` syste items](images/toolbar7.png)
+The `ToolbarItem` system items.
+
+### Custom Item
+Add description here...
+
+![`Toolbar` custom item](images/toolbar5.png)
+The `Toolbar` custom item customization.
+
 ### Example
 ```
 Console.write("Toolbar value: \(self.value)")
