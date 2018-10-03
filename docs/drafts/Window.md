@@ -60,7 +60,7 @@ Window2.openModal(TransitionStyle.Default)
 The appearance of a `Window` can be customized based on where it will be presented.
 
 If the `Window` is presented inside a `NavigationBar`, you can customize the items shown in the bar by adding `NavigationBar` items:
-1. Press the '+' button near the window's name in the project's layout.
+1. Press the button (+) near the window's name in the project's layout.
 2. Choose the desired item to customize from the `NavigationBar` section of the pop-up menu:
 	* `Title Item` to customize properties like `Title`, `Large Title Mode` and `Prompt`. You can add only one `Title Item` per `Window`.
 	* `Back Item` to customize the properties of the back button presented when the `Window` is immediately below the top item in the `NavigationBar`'s stack. You can add only one `Back Item` per `Window`.
