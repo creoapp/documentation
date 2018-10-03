@@ -23,4 +23,4 @@ Model–view–controller is an architectural pattern commonly used for developi
 
 1. The Model can be visually built and tested using [DataSet](dataset.md)
 2. Views can be visually constructed using drag'n drop operations in the [Layout](layout.md) or in the [DesignBoard](design-board.md)
-3. Thanks to the [Events](events.md) subsystem , the Controller is much more easier to write
+3. Thanks to the [Events](objects-and-events.md) subsystem , the Controller is much more easier to write

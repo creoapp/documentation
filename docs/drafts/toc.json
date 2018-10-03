@@ -74,10 +74,6 @@
       "file": "bindings.md"
     },
     {
-      "name": "DataSet",
-      "file": "dataset.md"
-    },
-    {
       "name": "Simulator",
       "file": "simulator.md"
     },
@@ -172,7 +168,11 @@
       "file": "WebView.md"
     },
     {
-      "entry": "OBJECTS"
+      "entry": "DATASET"
+    },
+    {
+      "name": "Overview",
+      "file": "dataset.md"
     },
     {
       "name": "Database",
