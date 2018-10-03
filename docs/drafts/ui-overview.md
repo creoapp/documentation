@@ -3,7 +3,7 @@
 <div class="container">
 	<div class="row">
 	   <div class="col-lg-6">
-	   <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;ACTIONS</h4>
+	   <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;ACTION PANEL</h4>
 	   <p style="color: #9e9e9e; margin-left: 36px;">Use to perform global actions for the current project.</p>
 	   <ul>
 			<li>Run project in Simulator</li>
@@ -36,7 +36,7 @@
 	   </ul>
 	   </div>
 	   <div class="col-lg-6">
-	   <h4 class="title-badge"><span class="number-badge"><span>4</span></span>&nbsp;&nbsp;&nbsp;CONTAINERS PANEL</h4>
+	   <h4 class="title-badge"><span class="number-badge"><span>4</span></span>&nbsp;&nbsp;&nbsp;SHORTCUT PANEL</h4>
 	   <p style="color: #9e9e9e; margin-left: 36px;">Provides shortcut for Layout objects creation.</p>
 	   <ul>
 			<li>Create a new Window</li>
