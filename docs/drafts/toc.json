@@ -12,11 +12,11 @@
       "file": "how-creo-works.md"
     },
     {
-      "name": "Interface Overview",
-      "file": "ui-overview.md"
+      "entry": "INTERFACE"
     },
     {
-      "entry": "INTERFACE"
+      "name": "Overview",
+      "file": "ui-overview.md"
     },
     {
       "name": "Project",

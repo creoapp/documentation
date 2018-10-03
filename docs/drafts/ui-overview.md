@@ -1,4 +1,4 @@
-![UI Overview](images/creo_intro_3.png)
+![UI Overview](images/creo_ui_1.png)
 
 <div class="container">
 	<div class="row">
