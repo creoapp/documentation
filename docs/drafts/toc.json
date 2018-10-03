@@ -159,6 +159,10 @@
       "file": "ProgressView.md"
     },
     {
+      "name": "SearchBar",
+      "file": "SearchBar.md"
+    },
+    {
       "name": "Slider",
       "file": "Slider.md"
     },
