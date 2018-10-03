@@ -28,7 +28,7 @@ Add description here...
 The `Toolbar` system item customization.
 
 ### How to use
-1. Use the `ToolbarItem Inspector` to customize its properties like `System Item`, `Title` and `Image`
+1. Use the `ToolbarItem Inspector` to customize its properties like `System Item`, `Title` and `Image`.
 
 ![`ToolbarItem` customizations](images/toolbar6.png)
 The `ToolbarItem` customizations.
@@ -43,8 +43,16 @@ Add description here...
 The `Toolbar` custom item customization.
 
 ### Example
+1. Open the `Code Editor` (cmd + 6)
+2. Select the `Toolbar` item named `Item1`
+3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
-Console.write("Toolbar value: \(self.value)")
+Console.write("Toolbar item title: \(self.title)")
+```
+4. Select the `Toolbar` item named `Item2`
+5. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
+```
+Console.write("Toolbar item title: \(self.title)")
 ```
 
 ### Most important properties
