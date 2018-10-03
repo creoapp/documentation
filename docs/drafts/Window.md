@@ -1,6 +1,6 @@
 A `Window` presents and manages a hierarchy of views and controls. Each `Window` owns a portion of your app’s user interface. For example, one Window might display a table of items while a different `Window` displays the selected item from that table. Usually, only the views from one `Window` are visible at a time. A `Window` can be presented by another window as a modal window or inside a window container.
 
-![A simple Window inside a Navigation](images/Window_main.png)
+![A simple Window inside a NavigationBar](images/Window_main.png)
 
 ### How to use
 1. Select an item in the layout panel where you want to add the new `Window`. If the selected item is a window container, the new `Window` will be created inside the container. If you select a `Window`, the new `Window` will be created in the same container of the selected `Window`. If you don’t have any item selected, the new `Window` will be created at the root level.
@@ -20,7 +20,7 @@ How to create a new Window.
 Windows can be accessed in Gravity through a variable with the name of the `Window` which is unique in the project. Windows are globally defined and are created during the App startup process. A `Window` instance can be used anywhere and anytime from Gravity code.
 
 A window can be programmatically opened using one of the following methods of the `Window` object that you want to open:
-* openIn(destination, completion): opens the calling `Window` in the specified destination. If the destination is a `Window`, the calling `Window` is presented modally with the default transition. If the destination is a window container (`Navigation`,`TabBar`,`PageSplit`,`PageCurl` or `PageSplit`), the `Window` is presented by the destination's specific implementation of the `openWindow(window,closure)` method. If the destination object is not contained in the currently presented stack of windows/containers, the `openIn` has no visible effects until the destination object is presented on screen. The completion [closure](../gravity/closure.html) parameter is optional.
+* openIn(destination, completion): opens the calling `Window` in the specified destination. If the destination is a `Window`, the calling `Window` is presented modally with the default transition. If the destination is a window container (`NavigationBar`,`TabBar`,`PageSplit`,`PageCurl` or `PageSplit`), the `Window` is presented by the destination's specific implementation of the `openWindow(window,closure)` method. If the destination object is not contained in the currently presented stack of windows/containers, the `openIn` has no visible effects until the destination object is presented on screen. The completion [closure](../gravity/closure.html) parameter is optional.
 * open(completion): opens the calling `Window` in the current top-most container, if any, or as a modal `Window` if the currently presented `Window` is the root object or is presented as a modal `Window`. The completion [closure](../gravity/closure.html) parameter is optional.
 * openModal(TransitionStyle, completion): the calling `Window` is presented modally in the current top-most window or container, using the specified transition. The completion [closure](../gravity/closure.html) parameter is optional.
 
@@ -30,11 +30,11 @@ If the `Window` is already contained in the container, the `Window` is presented
 ### Example
 Let's say you have a hierarchy like this
 ```
-- Navigation1
+- NavigationBar1
   - Window1
 ```
 
-If your want to open a `Window` named _Window2_ in the current context of your App (in this case, push the _Window2_ at the top of the stack of the _Navigation1_, with a back button to return to _Window1_), you can use the following code:
+If your want to open a `Window` named _Window2_ in the current context of your App (in this case, push the _Window2_ at the top of the stack of the _NavigationBar1_, with a back button to return to _Window1_), you can use the following code:
 ```
 // for example from within the `Action` event of a `Button`
 Window2.open()
@@ -42,15 +42,15 @@ Window2.open()
 
 The same result could be achieved with the this code:
 ```
-Window2.openIn(Navigation1)
+Window2.openIn(NavigationBar1)
 ```
 
 or with this code:
 ```
-Navigation1.openWindow(Window2)
+NavigationBar1.openWindow(Window2)
 ```
 
-If you want to open the _Window2_ as a modal window instead of as inside the _Navigatin1_, use the following code:
+If you want to open the _Window2_ as a modal window instead of as inside the _NavigationBar1_, use the following code:
 ```
 // you can use any of the supported transition styles
 Window2.openModal(TransitionStyle.Default)
