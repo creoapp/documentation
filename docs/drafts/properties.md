@@ -1,5 +1,5 @@
 Applications built with Creo acts and behave like any other regular iOS app compiled with Xcode. Some technical details and customisations can be configured using an Info.plist file.
-If you choose **Project** **›** **Properties...** from the menu then you can customize your iOS specific settings.
+If you choose **Project** **›** **Properties** from the menu then you can customize your iOS specific settings.
 Please note that Creo take care of configuring and writing a correct Info.plist file for you. You should change these settings only if you really know what you are doing.
 
 ![Creo App](images/creo_properties_1.png)
