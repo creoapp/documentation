@@ -1,4 +1,4 @@
-The App object is centralized point of control and coordination between your code and the underline operating system and frameworks. The App object is responsible to gives you important information about the state of your application like when it starts, when it will terminated, when it will enter/exit background mode and much more.
+The App object is a centralized point of control and coordination between your code and the underline operating system and frameworks. The App object is responsible to notify you important information about the state of your application like when it starts, when it will terminate, when it will enter/exit background mode and much more.
 
 ![Creo App](images/creo_app_1.png)
  
