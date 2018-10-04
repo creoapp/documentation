@@ -23,6 +23,14 @@
       "file": "application.md"
     },
     {
+      "name": "App Icon",
+      "file": "app-icon.md"
+    },
+    {
+      "name": "Launch Images",
+      "file": "app-launch-images.md"
+    },
+    {
       "name": "Assets",
       "file": "assets.md"
     },
