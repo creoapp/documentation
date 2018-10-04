@@ -27,7 +27,7 @@ The `CollectionView` can be customized by tapping the subnode icons (+).
 The `CollectionView` customizations.
 
 ### CollectionViewCell
-A `CollectionViewCell` for placement on a `CollectionView` that can be configured with one or more controls like `ImageView` and `Label`.
+A `CollectionViewCell` for placement on a `CollectionView` that can be configured by dropping a control like `ImageView` and `Label`.
 
 ![`CollectionView` cell](images/collectionview4.png)
 The `CollectionView` cell.
