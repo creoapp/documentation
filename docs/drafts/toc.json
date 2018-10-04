@@ -50,19 +50,19 @@
       "file": "design-board.md"
     },
     {
-      "name": "Inspector",
-      "file": "inspector.md"
-    },
-    {
       "name": "User Interface Creation",
       "file": "user-interface-creation.md"
+    },
+    {
+      "name": "Inspector",
+      "file": "inspector.md"
     },
     {
       "name": "Writing Code",
       "file": "code.md"
     },
     {
-      "name": "Controls Customization",
+      "name": "Customize Controls",
       "file": "controls-customization.md"
     },
     {
