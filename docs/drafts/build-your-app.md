@@ -1,0 +1,10 @@
+Once you are ready to test your application to a real device or once you are ready to submit it to the App Store you can compile your project directly within **Creo**. Just select Build Application from Creo's toolbar and a new dialog will appear.
+![Creo](images/creo_build_your_app_1.png)
+
+The build application process will end up with an IPA file ready to be submitted to the iOS App Store or ready to be transferred to your device. An IPA is a special file that contains iOS executables, resources and certificates needed to run your app on a real device.
+
+
+* ***Bundle ID** lets iOS recognize any updates to your app. Your Bundle ID must be registered with Apple and be unique to your app.
+* In **Package Distribution** choose **iOS App Store Distribution** if you want to create an IPA ready to be submitted to the App Store. Choose **Development Distribution** if you want to create an IPA to install on your development devices (in this case a correct Provisioning Profile is required). Choose **AdHoc Distribution** if you need to build an IPA with your Enterprise certificate (in this case a correct Provisioning Profile is required).
+* A **Signing Identity** is Apple's security mechanism to authenticate your identity. It allows users to trust that the application has been created by an authorized source known to Apple and has not been tampered with. All code must be code signed in order to run on any device or distributed on the app store.
+* A **Provisioning Profile** is a special file that contains a collection of digital entities that uniquely ties developers and devices to an authorized iPhone Development Team and enables a device to be used for testing. A Development Provisioning Profile must be installed on each device on which you wish to run your application code. Each Development Provisioning Profile will contain a set of iPhone Development Certificates, Unique Device Identifiers and an App ID. Devices specified within the provisioning profile can be used for testing only by those individuals whose iPhone Development Certificates are included in the profile. A single device can contain multiple provisioning profiles.

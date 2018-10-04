@@ -31,14 +31,6 @@
       "file": "properties.md"
     },
     {
-      "name": "Preferences",
-      "file": "preferences.md"
-    },
-    {
-      "name": "Post-Build Script",
-      "file": "post-build.md"
-    },
-    {
       "entry": "CREO"
     },
     {
