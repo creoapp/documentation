@@ -1,4 +1,4 @@
-An asset is a resource needed at some point by your application. Common assets are images, sounds, movies and in general any other document. The Assets folder represents the central repository for all your resources. Just drop a resource from the Finder to the Assets folder in order to automatically have it copied into your Creo project.
+An asset is a resource needed at some point by your application. Common assets are images, sounds, movies and in general any other document. The Assets folder represents the central repository for all your resources. Just drop a resource from the Finder to the Assets folder in order to automatically have it copied into your Creo project. For common resources like images, sounds and movies, Creo offers a real-time preview (and play) directly from within the Assets folder.
 
 ![Creo App](images/creo_assets_1.png)
 
@@ -7,6 +7,11 @@ Each time you drop your resources, Creo ask if you want to have them converter t
 ![Creo App](images/creo_assets_2.png)
 
 If you choose No then the file is copied to the Creo project without any further processing and you'll be able to access it using FileManager's functionality like we shown in the [FileManager](tutorials/file-manager.md) tutorial. If you reply Yes then the assets is internally converted to the appropriate Creo object (Image and Sound for example) and you'll be able to use it directly from Gravity code.
+
+```
+// play a sound from the Assets folder
+sound1.play();
+```
 
 ### Images
 
