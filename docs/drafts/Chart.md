@@ -1,6 +1,6 @@
 The Chart class offers a built-in and ready to use control to easely display graphical representation of data. Chart supports five type of graphs representation: Bar, Pie, Line, Area and Scatter.
 
-![Chart](images/Chart_main.png)
+![Chart](images/chart1.png)
 
 ### Best practices
 * Item1
@@ -15,7 +15,7 @@ If you need to write code for Chart:
 3. Open the `Code Editor` (cmd + 6)
 4. Select the `MAIN_ACTION_NAME_HERE` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`Chart` inspector](images/Chart_inspector.png)
+![`Chart` inspector](images/chart2.png)
 The inspector where the `Chart` class can be configured.
 
 ### Example
