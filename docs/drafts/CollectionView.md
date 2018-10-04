@@ -26,11 +26,11 @@ The `CollectionView` can be customized by tapping the subnode icons (+).
 ![`CollectionView` customizations](images/collectionview3.png)
 The `CollectionView` customizations.
 
-### `CollectionViewCell`
-A `CollectionViewItem` for placement on a `CollectionView` that can be configured with one or more controls like `ImageView` and `Label`.
+### CollectionViewCell
+A `CollectionViewCell` for placement on a `CollectionView` that can be configured with one or more controls like `ImageView` and `Label`.
 
-![`CollectionView` item](images/collectionview4.png)
-The `CollectionView` item.
+![`CollectionView` cell](images/collectionview4.png)
+The `CollectionView` cell.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
