@@ -154,6 +154,10 @@
       "file": "Button.md"
     },
     {
+      "name": "Chart",
+      "file": "Chart.md"
+    },
+    {
       "name": "DatePicker",
       "file": "DatePicker.md"
     },
