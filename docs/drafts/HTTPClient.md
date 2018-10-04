@@ -98,7 +98,7 @@ Most important properties for `HTTPRequest`:
 
 The values of the following [Map](../gravity/map.html) parameters can also be accessed programmatically as a dynamic property of the HTTPRequest instance.
 
-| Object | Property |
+| Class | Property |
 | ---------- | --------- |
 | HTTPClient | Auth Details |
 | HTTPRequest | Header Parameters |
