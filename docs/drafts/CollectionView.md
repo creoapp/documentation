@@ -32,6 +32,13 @@ A `CollectionViewCell` for placement on a `CollectionView` that can be configure
 ![`CollectionView` cell](images/collectionview4.png)
 The `CollectionView` cell.
 
+### How to use
+1. Select the `CollectionView Custom Cell` from the layout panel
+2. Drop a control from the object panel to the custom `View` like the `ImageView` and `Label`
+
+![`CollectionView` cell](images/collectionview5.png)
+The `CollectionView` cell.
+
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
 2. Open the `Code Editor` (cmd + 6)
