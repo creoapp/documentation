@@ -19,7 +19,7 @@
       "entry": "PROJECT"
     },
     {
-      "name": "Application",
+      "name": "App",
       "file": "application.md"
     },
     {
@@ -27,7 +27,11 @@
       "file": "assets.md"
     },
     {
-      "name": "Globals and Templates",
+      "name": "Globals",
+      "file": "globals.md"
+    },
+    {
+      "name": "Templates",
       "file": "templates.md"
     },
     {
@@ -39,7 +43,7 @@
       "file": "preferences.md"
     },
     {
-      "name": "Post Build Script",
+      "name": "Post-Build Script",
       "file": "post-build.md"
     },
     {
