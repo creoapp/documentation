@@ -9,8 +9,8 @@ Each time you drop your resources, Creo ask if you want to have them converter t
 If you choose No then the file is copied to the Creo project without any further processing and you'll be able to access it using FileManager's functionality like we shown in the [FileManager](tutorials/file-manager.md) tutorial. If you reply Yes then the assets is internally converted to the appropriate Creo object (Image and Sound for example) and you'll be able to use it directly from Gravity code.
 
 ```
-// play a sound from the Assets folder
-sound1.play();
+// play the submarine sound from the Assets folder
+submarine.play()
 ```
 
 ### Images
