@@ -158,6 +158,10 @@
       "file": "Chart.md"
     },
     {
+      "name": "CollectionView",
+      "file": "CollectionView.md"
+    },
+    {
       "name": "DatePicker",
       "file": "DatePicker.md"
     },
