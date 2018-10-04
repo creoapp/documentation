@@ -28,7 +28,7 @@ A standard item for placement on a `Toolbar` that can be configured with a syste
 The `Toolbar` system item.
 
 ### How to use
-1. Use the `ToolbarItem Inspector` to customize its properties like `System Item`, `Title` and `Image`.
+1. Use the `Toolbar System Item Inspector` to customize its properties like `System Item`, `Title` and `Image`.
 
 ![`Toolbar` item customizations](images/toolbar6.png)
 The `Toolbar` item customizations.
@@ -40,7 +40,14 @@ The `Toolbar` item system styles.
 A custom item for placement on a `Toolbar` that can be configured for different purposes exposing and configuring a custom `View`.
 
 ![`Toolbar` custom item](images/toolbar5.png)
-The `Toolbar` custom item customization.
+The `Toolbar` custom item.
+
+### How to use
+1. Select the `Toolbar Custom Item` item from the layout panel
+2. Drop a control from the object panel to the custom `View`
+
+![`Toolbar Custom Item` item custom view](images/toolbar8.png)
+The `Toolbar Custom Item` item custom view.
 
 ### Example
 1. Open the `Code Editor` (cmd + 6)
