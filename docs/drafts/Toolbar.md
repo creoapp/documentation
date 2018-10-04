@@ -22,10 +22,10 @@ The `Toolbar` can be customized by tapping the subnode icons (+).
 The `Toolbar` customizations.
 
 ### System Item
-A standard button for placement on a `Toolbar` that can be configured with a system style.
+A standard item for placement on a `Toolbar` that can be configured with a system style.
 
 ![`Toolbar` system item](images/toolbar4.png)
-The `Toolbar` system item customization.
+The `Toolbar` system item.
 
 ### How to use
 1. Use the `ToolbarItem Inspector` to customize its properties like `System Item`, `Title` and `Image`.
@@ -34,10 +34,10 @@ The `Toolbar` system item customization.
 The `Toolbar` item customizations.
 
 ![`Toolbar` system items](images/toolbar7.png)
-The `Toolbar` system items.
+The `Toolbar` item system styles.
 
 ### Custom Item
-A custom button for placement on a `Toolbar` that can be configured for different purposes with a custom `View`.
+A custom item for placement on a `Toolbar` that can be configured for different purposes exposing and configuring a custom `View`.
 
 ![`Toolbar` custom item](images/toolbar5.png)
 The `Toolbar` custom item customization.
