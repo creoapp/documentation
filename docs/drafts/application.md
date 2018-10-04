@@ -2,3 +2,6 @@ The App object is a centralized point of control and coordination between your c
 
 ![Creo App](images/creo_app_1.png)
  
+Using the App object you can also:
+* Process external url (see [TechNote](https://docs.creolabs.com/technotes/open-url.html))
+* Schedule local notifications (see [TechNote](https://docs.creolabs.com/technotes/local-notifications.html))
