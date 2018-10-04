@@ -12,15 +12,38 @@
       "file": "how-creo-works.md"
     },
     {
-      "entry": "INTERFACE"
-    },
-    {
-      "name": "Overview",
+      "name": "UI Overview",
       "file": "ui-overview.md"
     },
     {
-      "name": "Project",
-      "file": "project.md"
+      "entry": "PROJECT"
+    },
+    {
+      "name": "Application",
+      "file": "application.md"
+    },
+    {
+      "name": "Assets",
+      "file": "assets.md"
+    },
+    {
+      "name": "Globals and Templates",
+      "file": "templates.md"
+    },
+    {
+      "name": "Properties",
+      "file": "properties.md"
+    },
+    {
+      "name": "Preferences",
+      "file": "preferences.md"
+    },
+    {
+      "name": "Post Build Script",
+      "file": "post-build.md"
+    },
+    {
+      "entry": "CREO"
     },
     {
       "name": "Layout",
@@ -35,12 +58,16 @@
       "file": "inspector.md"
     },
     {
-      "name": "Controls and Objects",
-      "file": "objects.md"
+      "name": "User Interface Creation",
+      "file": "user-interface-creation.md"
     },
     {
-      "name": "Code Editor",
-      "file": "code-editor.md"
+      "name": "Writing Code",
+      "file": "code.md"
+    },
+    {
+      "name": "Controls Customization",
+      "file": "controls-customization.md"
     },
     {
       "name": "Search Panel",
@@ -51,23 +78,8 @@
       "file": "log-panel.md"
     },
     {
-      "name": "Animation Editor",
+      "name": "Animations",
       "file": "animations.md"
-    },
-    {
-      "entry": "CREO"
-    },
-    {
-      "name": "User Interface Creation",
-      "file": "user-interface-creation.md"
-    },
-    {
-      "name": "Objects and Events",
-      "file": "objects-and-events.md"
-    },
-    {
-      "name": "Controls Customization",
-      "file": "controls-customization.md"
     },
     {
       "name": "Binding",
@@ -78,11 +90,22 @@
       "file": "simulator.md"
     },
     {
-      "name": "Build and submit your App",
+      "entry": "FINALYZE YOUR APP"
+    },
+    {
+      "name": "Build your app",
       "file": "build-your-app.md"
     },
     {
-      "name": "CreoPlayer",
+      "name": "Submit your app",
+      "file": "submit-your-app.md"
+    },
+    {
+      "name": "Transfer to a device",
+      "file": "transfer-to-device.md"
+    },
+    {
+      "name": "Send to CreoPlayer",
       "file": "creoplayer.md"
     },
     {
