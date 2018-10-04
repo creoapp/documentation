@@ -21,4 +21,4 @@ Creo automatically choose the best resolution image for the device when it is ru
 
 ![Creo App](images/creo_assets_4.png)
 
-In this example the Desktop image is provided only at @1x resolution and you can see the missing resolutions in red in the top-left corner of the image box.
+In this example the Desktop image is provided only at @1x resolution and you can see the missing @2x and @3x resolutions in red in the top-left corner of the image box.
