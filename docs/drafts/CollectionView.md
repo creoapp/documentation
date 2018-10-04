@@ -20,16 +20,27 @@ If you need to write code for CollectionView:
 ![`CollectionView` inspector](images/collectionview2.png)
 The inspector where the `CollectionView` class can be configured.
 
+### How to customize
+The `CollectionView` can be customized by tapping the subnode icons (+).
+
+![`CollectionView` customizations](images/collectionview3.png)
+The `CollectionView` customizations.
+
 ### Example
+1. Drop a `Button` control from the object panel to a `Window`
+2. Open the `Code Editor` (cmd + 6)
+3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("CollectionView value: \(self.value)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `CollectionView` class but the `PROP1`, `PROP2`, and `PROP3` are the most populars to be configured.
-- `PROP1`: A PROP1 description.
-- `PROP2`: A PROP2 description.
-- `PROP3`: A PROP3 description.
+Several UI aspects can be configured in the `CollectionView` class but the `layoutType`, `itemSize`, `allowsSelection`, `dataSet`, and `keyPath` are the most populars to be configured.
+- `layoutType`: A PROP1 description.
+- `itemSize`: A PROP2 description.
+- `allowsSelection`: A PROP3 description.
+- `dataSet`: A PROP3 description.
+- `keyPath`: A PROP3 description.
 
 ### References
 [CollectionView class reference](../classes/CollectionView.html) contains a complete list of properties and methods that can be used to customize a `CollectionView` object.
