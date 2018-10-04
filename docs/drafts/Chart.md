@@ -3,7 +3,7 @@ The Chart class offers a built-in and ready to use control to easely display gra
 ![Chart](images/chart1.png)
 
 ### Best practices
-* **Select the chart type that represents better your dataset.** You can change a chart from one type to another—for example, from a pie chart to a bar chart, or from a line chart to a area chart.
+* **Select the chart type that represents better your data.** You can change a chart from one type to another—for example, from a pie chart to a bar chart, or from a line chart to a area chart.
 
 ### How to use
 1. Drop a `Chart` control from the object panel to a `Window`
