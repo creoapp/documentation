@@ -3,8 +3,7 @@ The Chart class offers a built-in and ready to use control to easely display gra
 ![Chart](images/chart1.png)
 
 ### Best practices
-* Item1
-* Item2
+* **Select the chart type that represents better your dataset.** You can change a chart from one type to another—for example, from a pie chart to a bar chart, or from a line chart to a area chart.
 
 ### How to use
 1. Drop a `Chart` control from the object panel to a `Window`
@@ -12,6 +11,9 @@ The Chart class offers a built-in and ready to use control to easely display gra
 
 ![`Chart` inspector](images/chart2.png)
 The inspector where the `Chart` class can be configured.
+
+![`Chart` types](images/chart3.png)
+The  `Chart` types.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
