@@ -90,13 +90,38 @@ Most important properties for `HTTPRequest`:
     - Plist: set the `self.value` property with the property list object corresponding to the Plist representation from the response.
     - Text: set  the `self.value` property with [String](../gravity/types.html) representation of the response.
 - `Header Parameters`: each key/value pair is set as a field of the HTTP header of the request.
-- `Path Parameters`: each segment of the path, separated by a slash, is automatically added to this [Map](../gravity/map.html). When the request is performed, the `HTTPRequest` replaces each path segment from the `Path` property with the value associated with path segment key. This feature let you change dynamically one or more path segments. For example, if your API have the URL 'https://www.your-api.com/CLIENT_ID/request?' and the _CLIENT_ID_ segment depends on an input value from your user, you can set the 'CLIENT_ID/request' string in the `Path` property and the 'CLIENT_ID' : '123456' pair in the `Path Parameters` property; in this example the 'CLIENT_ID' path segment will be replaced with the '123456' value or with another custom value if dynamically changed during the execution of the App (ref: [Dynamic properties section](#Dynamic-properties)).
+- `Path Parameters`: each segment of the path, separated by a slash, is automatically added to this [Map](../gravity/map.html). When the request is performed, the `HTTPRequest` replaces each path segment from the `Path` property with the value associated with path segment key. This feature let you change dynamically one or more path segments. For example, if your API have the URL 'https://www.your-api.com/USER_ID/request?' and the _USER_ID_ segment depends on an input value from your user, you can set the 'CLIENT_ID/request' string in the `Path` property and the 'USER_ID' : '123' pair in the `Path Parameters` property; in this example the 'USER_ID' path segment will be replaced with the '123' value or with another custom value if dynamically changed during the execution of the App (ref: [Dynamic properties section](#Dynamic-properties)).
 - `Query Parameters`: key/value pairs used to compose the query component of the URL. This property is automatically syncronized with the content of the `Path` property.  
 - `Body Parameters` (only available for _Post_, _Put_ and _Patch_ methods): each key/value pair is added to the body of the request. The IDE inspector of this property let you just configure [String](../gravity/types.html) values, if you need to set object values (bool, numbers, maps, lists, null) you can do it programmatically by overriding the `bodyParameters` property or the [dynamic properties](#Dynamic-properties).
 
 ### <a id="Dynamic-properties"></a>Dynamic properties
 
+The values of the following [Map](../gravity/map.html) parameters can also be accessed programmatically as a dynamic property of the HTTPRequest instance.
 
+| Object | Property |
+| ---------- | --------- |
+| HTTPClient | Auth Details |
+| HTTPRequest | Header Parameters |
+| HTTPRequest | Path Parameters |
+| HTTPRequest | Query Parameters |
+| HTTPRequest | Body Parameters |
+
+The dynamic properties are automatically exposed using the Map key as the property name if the key is a valid property name in Gravity (starts with a letter and contains only alphanumeric characters).
+
+For example, if you have an `HTTPClient` named _HTTPClient1_ with an `HTTPRequest` named _Request1_ as a subnode and the _Request1_ as the `['userid' : 'xxx']` value for the `Path Parameters` property, you can programmatically set a new value for the 'userid' with the following code:
+```
+// Update the value of the 'userid' dynamic property.
+// For example, if the Path property has value '/userid/request'
+// and 'userid' is a key in the Path Paramentes property,
+// then the next time the Request1 is executed its composed URL will be:
+// '<protocol>://<host>/123/request' (where the <protocol> and <host> are defined
+// by the HTTPClient1 parent object)
+HTTPClient1.Request1.userid = "123"
+
+// Force the execution of the HTTPRequest
+if (HTTPClient1.Request1.running) HTTPClient1.Request1.stop()
+HTTPClient1.Request1.run()
+```
 
 ### References
 - [HTTPClient class reference](../classes/HTTPClient.html) contains a complete list of properties and methods that can be used to customize a `HTTPClient` object.
