@@ -108,6 +108,10 @@
       "file": "Navigation.md"
     },
     {
+      "name": "OvalShape",
+      "file": "OvalShape.md"
+    },
+    {
       "name": "TabBar",
       "file": "TabBar.md"
     },
