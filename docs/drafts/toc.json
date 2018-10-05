@@ -58,8 +58,8 @@
       "file": "code.md"
     },
     {
-      "name": "Customize Controls",
-      "file": "controls-customization.md"
+      "name": "Subnodes",
+      "file": "subnodes.md"
     },
     {
       "name": "Search Panel",
@@ -102,6 +102,10 @@
     },
     {
       "entry": "CONTAINERS"
+    },
+    {
+      "name": "View",
+      "file": "view.md"
     },
     {
       "name": "Window",
