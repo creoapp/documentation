@@ -108,12 +108,12 @@
       "file": "Navigation.md"
     },
     {
-      "name": "OvalShape",
-      "file": "OvalShape.md"
-    },
-    {
       "name": "TabBar",
       "file": "TabBar.md"
+    },
+    {
+      "name": "OvalShape",
+      "file": "OvalShape.md"
     },
     {
       "name": "PageCurl",
