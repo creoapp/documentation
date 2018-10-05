@@ -4,7 +4,7 @@ Every object that can read and/or write data is a subclass of the DataSet class,
 
 
 A DataSet object can be created just dragging a Class from the Objects pane:
-![Creo](../images/creo/dataset-1.png)
+![Creo](images/dataset_1.png)
 
 Several objects implement the DataSet specs, for example Assets, Databases, HTTPClient (REST), BTCentral, Location, Motion and many others. We prepared detailed tutorials that show you how to create, configure and use each of them:
 * For SQLite Database DataSet read the **[LetsCook tutorial](https://docs.creolabs.com/tutorials/lets-cook-nav.html)**.
@@ -16,4 +16,4 @@ Please note that the sqlite tutorials can be applied for others Databases subcla
 
 #### DataGrid
 Controls that can accept data are bound to a Built-in DataSet which is a static representation of the data that can be displayed. A static built-in DataSet is represented by a DataGrid which is equivalent to an Excel/Numbers spreadsheet that you can fill with your data. That data can be edited just double clicking over the object.
-![Creo](../images/creo/dataset-2.png)
+![Creo](images/dataset_2.png)
