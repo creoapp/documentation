@@ -8,7 +8,7 @@ Under the View menu there are several options that can change Design Board defau
 ![Creo](images/design_board_2.png)
 
 ### Safe area
+People generally want to be able to use their favorite apps on all of their devices and in any context. In iOS, interface elements and layouts can be configured to automatically change shape and size on different devices, during multitasking on iPad, in split view, when the screen is rotated, and more. It’s essential that you design an adaptable interface that provides a great experience in any environment. Safe areas help you place your views within the visible portion of the overall interface.
+Starting from Creo version 1.1.0, under the View menu there is also the option to enable preview of the Safe Area. Safe Area is a representation 
 
 ![Creo](images/design_board_3.png)
-
-### Technical note
