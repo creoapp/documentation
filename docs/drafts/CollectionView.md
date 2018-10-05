@@ -40,11 +40,13 @@ The `CollectionView` cell.
 The `CollectionView` cell.
 
 ### Example
-1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
-3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
+1. Drop a `CameraRoll` control from the object panel to a `Window`
+2. Drop a `Button` control from the object panel to a `Window`
+3. Open the `Code Editor` (cmd + 6)
+4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
-Console.write("CollectionView value: \(self.value)")
+CollectionView1.dataSet = CameraRoll1
+CollectionView1.reload(true)
 ```
 
 ### Most important properties
