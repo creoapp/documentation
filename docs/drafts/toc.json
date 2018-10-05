@@ -112,10 +112,6 @@
       "file": "TabBar.md"
     },
     {
-      "name": "OvalShape",
-      "file": "OvalShape.md"
-    },
-    {
       "name": "PageCurl",
       "file": "PageCurl.md"
     },
@@ -176,6 +172,10 @@
     {
       "name": "MapView",
       "file": "MapView.md"
+    },
+    {
+      "name": "OvalShape",
+      "file": "OvalShape.md"
     },
     {
       "name": "PickerView",
