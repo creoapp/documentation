@@ -182,6 +182,10 @@
       "file": "ProgressView.md"
     },
     {
+      "name": "RectShape",
+      "file": "RectShape.md"
+    },
+    {
       "name": "SearchBar",
       "file": "SearchBar.md"
     },
