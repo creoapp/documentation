@@ -12,9 +12,6 @@ When a `PageCurl` or `PageScroll` is used, pages flow sequentially and there’s
 ![PageScroll inspector](images/PageScroll_inspector.png)
 The inspector where the `PageSroll` class can be configured.
 
-![`Code Editor` where to interact with events and write custom code](images/CLASS_NAME_code.png)
-The `Code Editor` where to interact with events and write custom code.
-
 ### Example
 - Start adding a `PageScroll` by tapping the _New Navigation_ button on the _bottom bar_
 
