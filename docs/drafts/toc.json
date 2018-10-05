@@ -166,6 +166,10 @@
       "file": "Label.md"
     },
     {
+      "name": "LineShape",
+      "file": "LineShape.md"
+    },
+    {
       "name": "MapView",
       "file": "MapView.md"
     },
