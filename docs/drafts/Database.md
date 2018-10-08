@@ -152,7 +152,7 @@ Both methods works like the connect, they accept one parameter with the plain sq
 Synchronous
 ```
 var sql = "SELECT * FROM users"
-var recordSet = SQLite1.execute(sql)
+var recordSet = SQLite1.select(sql)
 ...
 ```
 
