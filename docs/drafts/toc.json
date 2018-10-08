@@ -178,6 +178,10 @@
       "file": "MapView.md"
     },
     {
+      "name": "MoviePlayer",
+      "file": "MoviePlayer.md"
+    },
+    {
       "name": "OvalShape",
       "file": "OvalShape.md"
     },
