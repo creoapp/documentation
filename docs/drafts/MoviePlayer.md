@@ -14,7 +14,7 @@ The inspector where the `MoviePlayer` class can be configured.
 2. Open the `Code Editor` (cmd + 6)
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
-MoviePlayer1.contentPath = "Add your movie URL path here..."
+MoviePlayer1.contentPath = "Add your movie path here..."
 ```
 
 ### Most important properties
