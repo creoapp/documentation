@@ -18,6 +18,18 @@ If you need to write code for Carousel:
 ![`Carousel` inspector](images/carousel2.png)
 The inspector where the `Carousel` class can be configured.
 
+### How to customize
+The `Carousel` can be customized by tapping the subnode icons (+).
+
+![`Carousel` customizations](images/carousel3.png)
+The `Carousel` customizations.
+
+### CarouselCell
+A `CarouselCell` for placement on a `Carousel` that can be configured by dropping a control like `ImageView` and `Label`.
+
+![`Carousel` cell](images/carousel4.png)
+The `Carousel` cell.
+
 ### Example
 1. Drop a `Slider` control from the object panel to a `Window`
 2. Open the `Code Editor` (cmd + 6)
