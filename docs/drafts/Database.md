@@ -75,7 +75,7 @@ Binding by code is not mandatory, you can also write the code directly in the co
 
 ![Database finish](images/Database_didfinish.png)
 
-**Note:** anytime you call `run` on a query, all controll that use that as a dataset gets refreshed.
+**Note:** anytime you call `run` on a query, all controll that use that as a dataset get refreshed.
 
 **Beware, `run` is an async call:** sometimes you may be tempted to write:
 
@@ -89,7 +89,7 @@ while (SQLite1.users.hasRow) {
 
 unfortunately this is an **error** and is not guaranteed to work; `run` is an asynchronous call and the _while condtion_ will most of the time return _false_ if executed just after `run`. The proper way is to _bind_ to the `DidFinish` event and execute any logic from there.
 
-#### RecorSet
+#### RecordSet
 
 `RecordSet` has several methods and provides an easy way to change the plain sql code too:
 
