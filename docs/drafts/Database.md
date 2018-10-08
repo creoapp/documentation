@@ -46,14 +46,14 @@ In _Creo_ any database query is also a `Dataset` and can be used as an input to 
 For instance, controls like `TableView`, `CollectionView` and `PageProvider` all requires a `Dataset`.
 
 ### Gravity code
-Gravity can be used to interact with the database; you can use a query object created with the UI or write plain sql.
+Gravity can be used to interact with databases by code; you can call methods of a query object created by the UI or use the methods provided by the database object to write and execute plain sql.
 
 ### Using Gravity with an UI generated query
 Let's say you have a database named `SQLite1` and a query named `users`.
 
 From Gravity `SQLite1.users` is an object of type [RecordSet](../classes/RecordSet.html)
 
-to run the query and wait for the result you have to _bind_ the `DidFinish` event of the object:
+to run the query and wait for the result you have to _bind_ the `DidFinish` event of the object and then all `run`:
 
 ```
 var finish = {
@@ -132,7 +132,7 @@ if (SQLite1.connect() == true) {
 }
 ```
 
-Asynchronus, we also pass 2 params that are the functions called when the connection attemp complete.
+Asynchronus, we also pass 2 params that are the functions called when the connection attempt complete.
 
 ```
 var onSuccess = func(db) {
