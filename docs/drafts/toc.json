@@ -146,6 +146,10 @@
       "file": "Button.md"
     },
     {
+      "name": "Camera",
+      "file": "Camera.md"
+    },
+    {
       "name": "Carousel",
       "file": "Carousel.md"
     },
