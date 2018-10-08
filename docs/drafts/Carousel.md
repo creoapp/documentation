@@ -8,26 +8,35 @@ Carousel is a class designed to simplify the implementation of various types of 
 
 ### How to use
 1. Drop a `Carousel` control from the object panel to a `Window`
-2. Use the `Carousel Inspector` to customize its properties like `prop1`, `prop2`, and `prop3`
+2. Use the `Carousel Inspector` to customize its properties like `Type`, `Perspective`, `Spacing` and `DataSet`
 
 If you need to write code for Carousel:
 
 3. Open the `Code Editor` (cmd + 6)
-4. Select the `MAIN_ACTION_NAME_HERE` item inside the `Events` area and write your custom code in the `Code Editor`
+4. Select the `DidSelectCell` item inside the `Events` area and write your custom code in the `Code Editor`
 
 ![`Carousel` inspector](images/Carousel_inspector.png)
 The inspector where the `Carousel` class can be configured.
 
 ### Example
+1. Drop a `Slider` control from the object panel to a `Window`
+2. Open the `Code Editor` (cmd + 6)
+3. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
-Console.write("Carousel value: \(self.value)")
+Carousel1.currentItemIndex = Slider1.value
+```
+4. Drop a `Button` control from the object panel to a `Window`
+5. Open the `Code Editor` (cmd + 6)
+6. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
+```
+Slider1.maximumValue = Carousel1.numberOfItems
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Carousel` class but the `PROP1`, `PROP2`, and `PROP3` are the most populars to be configured.
-- `PROP1`: A PROP1 description.
-- `PROP2`: A PROP2 description.
-- `PROP3`: A PROP3 description.
+Several UI aspects can be configured in the `Carousel` class but the `type`, `currentItemIndex`, and `numberOfItems` are the most populars to be configured.
+- `type`: Used to switch the carousel display type.
+- `currentItemIndex`: The index of the currently centered item in the carousel. Setting this property is equivalent to calling scrollToItemAtIndex with the animated argument set to false.
+- `numberOfItems`: The number of items in the carousel (read only). Note that not all of these item views will be loaded or visible at a given point in time - the carousel loads item views on demand as it scrolls. 
 
 ### References
 [Carousel class reference](../classes/Carousel.html) contains a complete list of properties and methods that can be used to customize a `Carousel` object.
