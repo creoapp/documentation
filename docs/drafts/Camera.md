@@ -2,10 +2,6 @@ A Camera object represents a physical capture device and the properties associat
 
 ![Camera](images/camera1.png)
 
-### Best practices
-* Item1
-* Item2
-
 ### How to use
 1. Drop a `Camera` control from the object panel to a `Window`
 2. Use the `Camera Inspector` to customize its properties like `Crop Image`, `AutoFocus on Tap`, and `AutoExposure on Tap`
