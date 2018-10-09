@@ -14,11 +14,6 @@ If you need to write code for TableView:
 ![`TableView` inspector](images/TableView_inspector.png)
 The inspector where the `TableView` class can be configured.
 
-If you need to write code for CollectionView:
-
-3. Open the `Code Editor` (cmd + 6)
-4. Select the `DidSelectCell` item inside the `Events` area and write your custom code in the `Code Editor`
-
 Several UI aspects can be configured in the `TableView` class but  `Template`, `DataSet`, and the Cell Properties (`Text`, `Detail Text`, `Image`) are the most populars to be configured.
 - `Template`: The `TableViewCell` used as the template that will be duplicated to create each single row of the `TableView`.
 - `DataSet`: The source of the data presented by the `TableView`. It must be an object that implements the [DataSet](./dataset.html) specs, for example Assets, Databases, HTTPClient (REST), BTCentral, Location, Motion and many others.
@@ -29,7 +24,7 @@ Several UI aspects can be configured in the `TableView` class but  `Template`, `
 The appearance of the content of a `TableView` can be customized by tapping the subnode icon (+).
 
 ![`TableView` available subnode](images/TableView_subnodes.png)
-`TableView` available subnodes.
+Available subnodes in a `TableView`.
 
 The available types of subnodes are:
 - _Header_: An accessory `CustomView` that is displayed above the table.
