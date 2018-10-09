@@ -1,8 +1,8 @@
 **super**: **[Object](Object.md)**
 
-The HTTPClient class and <a href="HTTPRequest.html">HTTPRequest</a> class enable you to downloading content via HTTP. With an HTTPClient object you can configure the common connection parameters that can be used by one or more HTTPRequest, each of which represents a request for a specific URL.
+The HTTPClient class and <a href="HTTPRequest.html">HTTPRequest</a> class enable you to download content via HTTP. With an HTTPClient object you can configure the common connection parameters that can be used by one or more HTTPRequest, each of which represents a request for a specific URL.
 
-The HTTPClient defines the protocol, the server host, the authenticaion parameters and the configuration of the connection behavior, such as whether to allow connections over a cellular network, the cookie policy, the cache policy and so on.
+The HTTPClient defines the protocol, the server host, the authentication parameters and the configuration of the connection behavior, such as whether to allow connections over a cellular network, the cookie policy, the cache policy and so on.
 
 An <a href="HTTPRequest.html">HTTPRequest</a> is always part of an HTTPClient and defines the request specific properties like the HTTP method, the path of the resource with the possibility to use dynamic values for header, path, query and body parameters.
 

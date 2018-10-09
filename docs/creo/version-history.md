@@ -1,3 +1,12 @@
+**<span class="label label-release label-version">Creo 1.1.7</span>October 9th 2018 (Build 15242)**
+* Several UI fixes for 10.14 Mojave
+* Improved TableView
+* Improved Label, TextField and TextView
+* Improved SQLite support
+* Navigation has been renamed to NavigationBar
+* A lot of other internal fixes and improvements
+* An updated **[CreoPlayer](http://creoplayer.creolabs.com)** app should be available via TestFlight within the next 48 hours
+
 **<span class="label label-release label-version">Creo 1.1.6</span>September 26th 2018 (Build 15134)**
 * Improved error reporting
 * Improved DataSet selection from Inspectors

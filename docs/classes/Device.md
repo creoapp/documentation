@@ -111,6 +111,9 @@ Invoke a brief device vibration.
  * .iPhone8Plus
  * .iPhoneSE
  * .iPhoneX
+ * .iPhoneXR
+ * .iPhoneXS
+ * .iPhoneXSMax
 
 #### DeviceSize
  * .Screen10Dot5inch
@@ -120,6 +123,8 @@ Invoke a brief device vibration.
  * .Screen4inch
  * .Screen5Dot5inch
  * .Screen5Dot8inch
+ * .Screen6Dot1inch
+ * .Screen6Dot5inch
  * .Screen7Dot9inch
  * .Screen9Dot7inch
  * .Unknown

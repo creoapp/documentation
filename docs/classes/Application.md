@@ -53,7 +53,7 @@ A Boolean value that controls whether the idle timer is disabled for the app. Th
 
 ### Methods
 
-* **func** **loadContainer**(**container**: **[Window](Window.md) or [Navigation](Navigation.md)**)
+* **func** **loadContainer**(**container**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**)
 Container can be a Window or a Navigation. When you set a Startup Window into Creo IDE you are setting the container parameter of this method. The new container is configured to track the window size, changing as the window size changes. If the window has an existing view hierarchy, the old views are removed before the new ones are installed.
 
 * **func** **scheduleNotification**(**identifier**: **[String](../gravity/types.md)**, **title**: **[String](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **body**: **[String](../gravity/types.md) = null**, **subtitle**: **[String](../gravity/types.md) = null**, **badge**: **[Int](../gravity/types.md) = null**, **userInfo**: **[Map](../gravity/map.md) = null**, **threadIdentifier**: **[String](../gravity/types.md) = null**, **actions**: **[List](../gravity/list.md) = null**, **repeats**: **[Bool](../gravity/types.md) = null**)

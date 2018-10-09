@@ -1,6 +1,6 @@
 **super**: **[UINavigationController](UINavigationController.md)** (on iOS)
 
-The Navigation class implements a specialized view controller that manages the navigation of hierarchical content. This navigation interface makes it possible to present your data efficiently and makes it easier for the user to navigate that content. You generally use this class as-is but you may also subclass to customize the class behavior.
+The NavigationBar class implements a specialized view controller that manages the navigation of hierarchical content. This navigation interface makes it possible to present your data efficiently and makes it easier for the user to navigate that content. You generally use this class as-is but you may also subclass to customize the class behavior.
 
 The screens presented by a navigation interface typically mimic the hierarchical organization of your data. At each level of the hierarchy, you provide an appropriate Window to display the content at that level.
 
@@ -40,11 +40,11 @@ A value indicating whether the status bar should be visible.
 * **var** **statusBarStyle**: **StatusBarStyle**
 The style of the status bar.
 
-* **var** **topWindow**: **[Window](Window.md) or [Navigation](Navigation.md)**
+* **var** **topWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
 Returns Window/Navigation positioned on top of the receiver’s stack. \(read-only\)
 
 * **var** **windows**: **[List](../gravity/list.md)**
-Array of windows currently managed by the Navigation.
+Array of windows currently managed by the NavigationBar.
 
 * **var** **navigationBarHidden**: **[Bool](../gravity/types.md)**
 A Boolean value that indicates whether the navigation bar is hidden.
@@ -55,7 +55,7 @@ A Boolean value indicating whether the navigation bar is translucent (true) or n
 * **var** **navigationBarTintColor**: **[Color](Color.md)**
 The tint color to apply to the navigation bar background.
 
-* **var** **selectedWindow**: **[Window](Window.md) or [Navigation](Navigation.md)**
+* **var** **selectedWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
 Returns the currently selected Window or Navigation. \(read-only\)
 
 * **var** **prefersLargeTitles**: **[Bool](../gravity/types.md)**
@@ -68,10 +68,10 @@ A Boolean value indicating whether the title should be displayed in a large form
 * **func** **open**(**completion**: **[Closure](../gravity/closure.md) = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour .
 
-* **func** **openIn**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation. Example: <code class="swift">TargetWindow.openIn(ContainerWindow);</code>
 
-* **func** **openWindow**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Pushes a Window/Navigation onto the receiver’s stack and updates the display.
 
 * **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closure.md) = null**)
@@ -83,7 +83,7 @@ Close window if modally opened.
 * **func** **pop**(**animated**: **[Bool](../gravity/types.md) = true**)
 Pops the top Windows/Navigations from the navigation stack and updates the display.
 
-* **func** **popToWindow**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **popToWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Pops Windows/Navigations until the specified Window is at the top of the navigation stack.
 
 * **func** **popToRootWindow**(**animated**: **[Bool](../gravity/types.md) = true**)

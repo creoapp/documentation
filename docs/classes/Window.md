@@ -69,7 +69,7 @@ Open window in currently displayed window or navigation using the destination ob
 * **func** **close**()
 Close window (and remove from current navigation if any).
 
-* **func** **openIn**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 

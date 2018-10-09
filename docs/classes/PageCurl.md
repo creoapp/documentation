@@ -41,7 +41,7 @@ The style of the status bar.
 * **var** **windows**: **[List](../gravity/list.md)**
 Array of windows currently managed by the navigation.
 
-* **var** **selectedWindow**: **[Window](Window.md) or [Navigation](Navigation.md)**
+* **var** **selectedWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
 Represents the current Window in the navigation.
 
 * **var** **selectedIndex**: **[Int](../gravity/types.md)**
@@ -54,14 +54,14 @@ Represents the current window index inside the navigation.
 * **func** **open**(**completion**: **[Closure](../gravity/closure.md) = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour.
 
-* **func** **openIn**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
-* **func** **openWindow**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Add the Window to the PageCurl and set it as the selected Window.
 
-* **func** **selectWindow**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **selectWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Set the Window as the new selected Window, optionally animating the curl transition (this animation in not simulated in the Creo simulator for Mac).
 
 * **func** **selectIndex**(**index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)

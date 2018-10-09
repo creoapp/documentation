@@ -41,7 +41,7 @@ The style of the status bar.
 * **var** **windows**: **[List](../gravity/list.md)**
 Array of windows currently managed by the navigation.
 
-* **var** **selectedWindow**: **[Window](Window.md) or [Navigation](Navigation.md)**
+* **var** **selectedWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
 Current Window in the details view. If the Window does not exit in the view hierarchy then it is automatically added.
 
 * **var** **collapsed**: **[Bool](../gravity/types.md)**
@@ -72,7 +72,7 @@ The width (in points) of the primary view controller’s content. \(read-only\)
 * **func** **open**(**completion**: **[Closure](../gravity/closure.md) = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour.
 
-* **func** **openIn**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 

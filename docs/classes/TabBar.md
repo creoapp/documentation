@@ -44,7 +44,7 @@ Description not yet ready.
 * **var** **windows**: **[List](../gravity/list.md)**
 Array of windows currently managed by the TabBar.
 
-* **var** **selectedWindow**: **[Window](Window.md) or [Navigation](Navigation.md)**
+* **var** **selectedWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
 Returns the currently selected Window or Navigation.
 
 * **var** **selectedIndex**: **[Int](../gravity/types.md)**
@@ -57,11 +57,11 @@ The index of the Window associated with the currently selected tab item.
 * **func** **open**(**completion**: **[Closure](../gravity/closure.md) = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour.
 
-* **func** **openIn**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
-* **func** **openWindow**(**window**: **[Window](Window.md) or [Navigation](Navigation.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 If the Window is already contained in the TabBar window list, the TabBar set it as the selected Window. Otherwise, the TabBar add the new Window to its windows and set it as the selected Window.
 
 * **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closure.md) = null**)
