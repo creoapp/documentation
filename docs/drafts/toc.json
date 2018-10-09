@@ -226,6 +226,10 @@
       "file": "SegmentedControl.md"
     },
     {
+      "name": "TableView",
+      "file": "TableView.md"
+    },
+    {
       "name": "TextField",
       "file": "TextField.md"
     },
