@@ -51,11 +51,11 @@ CollectionView1.reload(true)
 
 ### Most important properties
 Several UI aspects can be configured in the `CollectionView` class but the `layoutType`, `itemSize`, `allowsSelection`, `dataSet`, and `keyPath` are the most commons to be configured.
-- `layoutType`: A PROP1 description.
-- `itemSize`: A PROP2 description.
-- `allowsSelection`: A PROP3 description.
-- `dataSet`: A PROP3 description.
-- `keyPath`: A PROP3 description.
+- `layoutType`: The layout defines the organization and location of all cells and supplementary views inside the collection view. The layout type property allows you to choose between two mail styles (the simple flow and the balanced flow) while other layout properties (minimumLineSpacing, preferredRowSize, etc.) enable you to configure some details of the choosen layout style. With the simple flow the items in the collection view flow from one row or column (depending on the scrolling direction) to the next, with each row comprising as many cells as will fit. Cells can be the same sizes or different sizes (see the ItemSize event). With the balanced flow, the collection view displays items of different sizes in a grid without wasting any visual space.
+- `itemSize`: The default size to use for cells. This results in cells that all have the same size. The default size value is (50.0, 50.0). Only applies to the simple flow layout type.
+- `allowsSelection`: A Boolean value that indicates whether users can select items in the collection view. The default value is true.
+- `dataSet`: The DataSet object provides information that CollectionView needs to construct its content. The dataSet must return a List of objects and each object represents a different row. If the DataSet value is not flat, for example a Map from a JSON result of an HTTPRequest, the keyPath property defines the list of keys used to browse the data tree to get a List node.
+- `keyPath`: The base keyPath to get a particular node of the DataSet value. The DataSet must provide a List of objects and each object represents a different item. If the DataSet value is not flat, for example a Map from a JSON result of an HTTPRequest, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
 
 ### References
 [CollectionView class reference](../classes/CollectionView.html) contains a complete list of properties and methods that can be used to customize a `CollectionView` object.
