@@ -20,7 +20,7 @@ OvalShape1.strokeThickness = 4
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `OvalShape` class but the `fillColor`, `strokeColor`, and `strokeThickness` are the most populars to be configured.
+Several UI aspects can be configured in the `OvalShape` class but the `fillColor`, `strokeColor`, and `strokeThickness` are the most commons to be configured.
 - `fillColor`: Color used to fill the shape.
 - `strokeColor`: Color used to stoke shape border.
 - `strokeThickness`: Border thickness.

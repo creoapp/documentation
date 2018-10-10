@@ -20,7 +20,7 @@ RectShape1.borderWidth = 4
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `RectShape` class but the `radius`, `fillColor`, `borderColor`  and `borderWidth` are the most populars to be configured.
+Several UI aspects can be configured in the `RectShape` class but the `radius`, `fillColor`, `borderColor`  and `borderWidth` are the most commons to be configured.
 - `radius`: Radius value in case of rounded rect.
 - `fillColor`: Color used to fill the shape.
 - `borderColor`: The color of the view’s border.

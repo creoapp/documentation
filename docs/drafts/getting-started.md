@@ -1,6 +1,6 @@
 ![Getting Started with Creo](images/creo_intro_1.png)
 
-Welcome to the user manual for Creo. This documentation will help you become familiar with the powerful set of features available in Creo. Creo is an advanced MacOS application that help you create native mobile applications much faster than with others traditional tools. Creo combines the traditional design and development phases process into one highly optimized and easy-to-use tool. 
+Welcome to the user manual for Creo. This documentation will help you become familiar with the powerful set of features available in Creo. Creo is an advanced MacOS application that helps you create native mobile applications much faster than with others traditional tools. Creo combines the traditional design and development phases process into one highly optimized and easy-to-use tool. 
 
 ### Minimum Requirements
 

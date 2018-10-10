@@ -3,7 +3,7 @@ A `PageCurl` provides a way to implement linear navigation between pages of cont
 ![PageCurl](images/PageCurl_main.png)
 
 ### Best practices
-When a `PageCurl` or `PageScroll` is used, pages flow sequentially and there’s no way to jump between nonadjoining pages. If people may need to access pages out of sequence in your app, implement a custom control that provides this functionality.
+When a `PageCurl` or `PageScroll` is used, pages flow sequentially and there’s no way to jump between nonadjacent pages. If people may need to access pages out of sequence in your app, implement a custom control that provides this functionality.
 
 ### How to use
 1. Drop a `PageCurl`

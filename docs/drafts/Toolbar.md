@@ -63,7 +63,7 @@ Console.write("Toolbar item title: \(self.title)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Toolbar` class but the `barStyle`, `barTintColor`, and `items` are the most populars to be configured.
+Several UI aspects can be configured in the `Toolbar` class but the `barStyle`, `barTintColor`, and `items` are the most commons to be configured.
 - `barStyle`: The toolbar style that specifies its appearance.
 - `barTintColor`: The tint color to apply to the toolbar background. This color is made translucent by default unless you set the translucent property to false.
 - `items`: The items displayed on the toolbar.

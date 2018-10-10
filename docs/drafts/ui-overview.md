@@ -4,7 +4,7 @@
 	<div class="row">
 	   <div class="col-lg-6">
 	   <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;ACTION PANEL</h4>
-	   <p style="color: #9e9e9e; margin-left: 36px;">Use to perform global actions for the current project.</p>
+	   <p style="color: #9e9e9e; margin-left: 36px;">Used to perform global actions in the current project.</p>
 	   <ul>
 			<li>Run project in Simulator</li>
 			<li>Send project to an iOS device (via WiFi or USB)</li>
@@ -37,7 +37,7 @@
 	   </div>
 	   <div class="col-lg-6">
 	   <h4 class="title-badge"><span class="number-badge"><span>4</span></span>&nbsp;&nbsp;&nbsp;SHORTCUT PANEL</h4>
-	   <p style="color: #9e9e9e; margin-left: 36px;">Provides shortcut for Layout objects creation.</p>
+	   <p style="color: #9e9e9e; margin-left: 36px;">Provides shortcuts for Layout objects creation.</p>
 	   <ul>
 			<li>Create a new Window</li>
 			<li>Create a new Navigation</li>
@@ -87,7 +87,7 @@
 	<div class="row">
 		<div class="col-lg-6">
 		<h4 class="title-badge"><span class="number-badge"><span>9</span></span>&nbsp;&nbsp;&nbsp;LAYOUT</h4>
-		<p style="color: #9e9e9e; margin-left: 36px;">Offers an app hierarchy overview.</p>
+		<p style="color: #9e9e9e; margin-left: 36px;">Offers the app hierarchy overview.</p>
 		</div>
 		<div class="col-lg-6"></div>
 	</div>

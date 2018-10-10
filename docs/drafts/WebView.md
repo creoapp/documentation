@@ -27,7 +27,7 @@ WebView1.url = "https://www.creolabs.com"
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `WebView` class but the `url`, `allowsBackForwardNavigationGestures`, and `allowsLinkPreview` are the most populars to be configured.
+Several UI aspects can be configured in the `WebView` class but the `url`, `allowsBackForwardNavigationGestures`, and `allowsLinkPreview` are the most commons to be configured.
 - `url`: Navigates to a requested URL.
 - `allowsBackForwardNavigationGestures`: A Boolean value indicating whether horizontal swipe gestures will trigger back-forward list navigations.
 - `allowsLinkPreview`: A Boolean value that determines whether pressing on a link displays a preview of the destination for the link. In iOS this property is available on devices that support 3D Touch. Default value is false in iOS.

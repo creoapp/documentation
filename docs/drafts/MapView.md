@@ -26,7 +26,7 @@ Console.write("MapView value: \(self.value)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `MapView` class but the `address`, `latitude`, and `longitude` are the most populars to be configured.
+Several UI aspects can be configured in the `MapView` class but the `address`, `latitude`, and `longitude` are the most commons to be configured.
 - `address`: A string describing the location you want to center the map to.
 - `latitude`: The latitude of the center point of the visible area.
 - `longitude`: The longitude of the center point of the map.

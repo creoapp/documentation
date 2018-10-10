@@ -1,4 +1,4 @@
-A `SplitView` manages the presentation of two side-by-side panes of content, with persistent content in the primary pane and related information in the secondary pane. Each pane can contain any variety of elements, including navigation bars, toolbars, tab bars, tables, collections, images, maps, and custom views.
+A `PageSplit` manages the presentation of two side-by-side panes of content, with persistent content in the primary pane and related information in the secondary pane. Each pane can contain any variety of elements, including navigation bars, toolbars, tab bars, tables, collections, images, maps, and custom views.
 
 ![PageSplit](images/PageSplit_main.png)
 
@@ -14,7 +14,7 @@ Split views are often used with filterable content; a list of filter categories 
 
 ### How to use
 There are 2 ways to use `PageSplit`:
-1. using the default template by dropping `PageSplit` as the layout root screen and and using the provided `MasterTable`. The table populates the master pane with all childrens `Window` and you just need to tap the cells to open the selected window on the detail pane.
+1. using the default template by dropping `PageSplit` as the layout root screen and using the provided `MasterTable`. The table populates the master pane with all children `Window` and you just need to tap the cells to open the selected window on the detail pane.
 
 1. Dropping `PageSplit` as the layout root screen and replacing the whole `MasterTable` with any custom control or by just replacing its _dataset_.
 
@@ -46,8 +46,8 @@ where index zero is the first `Window` below `Master` (in the default template i
 ![PageSplit custom](images/PageSplit3.png)
 
 ### Most important properties
-Several UI aspects can be configured in the `PageSplit` class but the `Display Mode`, and `Bar Color` are the most populars to be configured.
-- `Display Mode`: The visual configuration of a `PageSplit`, its behaviour changes with each device orientation and family (ie _iPad_ and _iPhone_).
+Several UI aspects can be configured in the `PageSplit` class but the `Display Mode` and `Bar Color` are the most popular to be configured.
+- `Display Mode`: The visual configuration of a `PageSplit`, its behavior changes with each device orientation and family (ie _iPad_ and _iPhone_).
 - `Bar Color`: The bar tint color
 
 ![PageSplit inspector](images/PageSplit_inspector.png)

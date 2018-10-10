@@ -28,7 +28,7 @@ The `SearchBar` can be customized by tapping the subnode icons (+).
 The `SearchBar` customizations.
 
 ### Keyboard Accessory View
-The custom accessory view to display when the search bar becomes active. The user can drop one or more controls in order to extends the default keyboard.
+The custom accessory view to display when the search bar becomes active. The user can drop one or more controls in order to extend the default keyboard.
 
 ![`SearchBar` keyboard accessory view](images/searchbar4.png)
 The `SearchBar` keyboard accessory view customization.
@@ -41,7 +41,7 @@ Console.write("SearchBar searchText: \(searchText)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `SearchBar` class but the `text`, `prompt`, `placeholder` and `showsCancelButton` are the most populars to be configured.
+Several UI aspects can be configured in the `SearchBar` class but the `text`, `prompt`, `placeholder` and `showsCancelButton` are the most commons to be configured.
 - `text`: The current or starting search text.
 - `prompt`: A single line of text displayed at the top of the search bar.
 - `placeholder`: The string that is displayed when there is no other text in the text field.

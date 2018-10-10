@@ -25,10 +25,10 @@ Console.write("Slider value: \(self.value)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Slider` class but the values related properties are the most populars to be configured.
+Several UI aspects can be configured in the `Slider` class but the values related properties are the most commons to be configured.
 - `Value`: The slider’s current value.
 - `Maximum`: The maximum value of the slider.
-- `Minumum`: The minimum value of the slider.
+- `Minimum`: The minimum value of the slider.
 
 ### References
 [Slider class reference](../classes/Slider.html) contains a complete list of properties and methods that can be used to customize a `Slider` object.

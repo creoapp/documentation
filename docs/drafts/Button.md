@@ -29,7 +29,7 @@ alert.show()
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Button` class but the `Title` and `Style` are the most populars to be configured.
+Several UI aspects can be configured in the `Button` class but the `Title` and `Style` are the most commons to be configured.
 - `Title`: You can specify a button’s title and customize its typographic properties.
 - `Style`: Specifies the style of a button.
 

@@ -2,11 +2,11 @@ An asset is a resource needed at some point by your application. Common assets a
 
 ![Creo App](images/creo_assets_1.png)
 
-Each time you drop your resources, Creo ask if you want to have them converter to Object.
+Each time you drop your resources, Creo ask if you want to have them converted to Object.
 
 ![Creo App](images/creo_assets_2.png)
 
-If you choose No then the file is copied to the Creo project without any further processing and you'll be able to access it using FileManager's functionality like we shown in the [FileManager](tutorials/file-manager.md) tutorial. If you reply Yes then the assets is internally converted to the appropriate Creo object (Image and Sound for example) and you'll be able to use it directly from Gravity code.
+If you choose No then the file is copied to the Creo project without any further processing and you'll be able to access it using FileManager's functionality as we show in the [FileManager](tutorials/file-manager.md) tutorial. If you reply Yes then the assets are internally converted to the appropriate Creo object (Image and Sound for example) and you'll be able to use it directly from Gravity code.
 
 ```
 // play the submarine sound from the Assets folder
@@ -26,4 +26,4 @@ Creo automatically choose the best resolution image for the device when it is ru
 
 ![Creo App](images/creo_assets_4.png)
 
-In this example the Desktop image is provided only at @1x resolution and you can see the missing @2x and @3x resolutions in red in the top-left corner of the image box.
+In this example, the Desktop image is provided only at @1x resolution and you can see the missing @2x and @3x resolutions in red in the top-left corner of the image box.

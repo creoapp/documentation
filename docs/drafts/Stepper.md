@@ -26,7 +26,7 @@ Console.write("Stepper value: \(self.value)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Stepper` class but the `Value`, `Min Value`, `Max Value` and `Increment` are the most populars to be configured.
+Several UI aspects can be configured in the `Stepper` class but the `Value`, `Min Value`, `Max Value` and `Increment` are the most commons to be configured.
 - `Value`: The numeric value of the stepper.
 - `Min Value`: The lowest possible numeric value for the stepper.
 - `Max Value`: The highest possible numeric value for the stepper.

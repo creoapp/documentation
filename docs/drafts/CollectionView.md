@@ -50,7 +50,7 @@ CollectionView1.reload(true)
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `CollectionView` class but the `layoutType`, `itemSize`, `allowsSelection`, `dataSet`, and `keyPath` are the most populars to be configured.
+Several UI aspects can be configured in the `CollectionView` class but the `layoutType`, `itemSize`, `allowsSelection`, `dataSet`, and `keyPath` are the most commons to be configured.
 - `layoutType`: A PROP1 description.
 - `itemSize`: A PROP2 description.
 - `allowsSelection`: A PROP3 description.

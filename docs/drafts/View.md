@@ -1,7 +1,7 @@
-View is probably one of the most powerful controls. Views are the fundamental building blocks of your app's user interface, and the View class defines the behaviors that are common to all views. A view object renders content within its bounds rectangle and handles any interactions with that content. A View in Creo can be used in many different ways:
+The View is probably one of the most powerful controls. Views are the fundamental building blocks of your app's user interface, and the View class defines the behaviors that are common to all views. A view object renders content within its bounds rectangle and handles any interactions with that content. A View in Creo can be used in many different ways:
 
 ### Containers for other controls
-A View is the only control that can include others controls. Just drop a control over its icon and it will automatically be included inside its hierarchy. This represents a very powerful way to centralize the logic (and the code) for a more complex controls.
+A View is the only control that can include others controls. Just drop a control over its icon and it will automatically be included inside its hierarchy. This represents a very powerful way to centralize the logic (and the code) for more complex controls.
 
 ![Creo](images/view1.png)
 
@@ -11,14 +11,14 @@ View1.Label1.text = "Hello World"
 ```
 
 ### Scroll content
-A scroll view allows users to browse content that’s larger than the visible area. As people swipe, flick, drag, tap, and pinch, a scroll view follows the gesture, revealing or zooming content in a way that feels natural. A scroll view itself has no appearance, but does display transient scrolling indicators as people interact with it.
+A scroll view allows users to browse content that’s larger than the visible area. As people swipe, flick, drag, tap, and pinch, a scroll view follows the gesture, revealing or zooming content in a way that feels natural. A scroll view itself has no appearance but does display transient scrolling indicators as people interact with it.
 
 ![Creo](images/view2.png)
 
-In order to configure ScrollView you need to set a template for a View (see CustomView below) and then uncheck the **Auto Content Size** setting. By using the Size and Scroll setting (in the Geometry panel) you'll be able to configure scrollview behaviour.
+In order to configure ScrollView, you need to set a template for a View (see CustomView below) and then uncheck the **Auto Content Size** setting. By using the Size and Scroll setting (in the Geometry panel) you'll be able to configure ScrollView behavior.
 
 ### Draw Programmatically
-There are times when you really need to use code in order to draw inside a View. In this case you can use the Draw event. We use that event to implement the [Freehand Drawing](https://docs.creolabs.com/tutorials/freehand-drawing.html) tutorial.
+There are times when you really need to use Gravity code in order to draw inside a View. In this case, you can use the Draw event. We use that event to implement the [Freehand Drawing](https://docs.creolabs.com/tutorials/freehand-drawing.html) tutorial.
 
 ![Creo](images/view3.png)
 

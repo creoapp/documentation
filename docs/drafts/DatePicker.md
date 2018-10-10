@@ -27,7 +27,7 @@ Console.write("DatePicker value: \(self.date)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `DatePicker` class but the `datePickerMode`, `date`, and `localDate` are the most populars to be configured.
+Several UI aspects can be configured in the `DatePicker` class but the `datePickerMode`, `date`, and `localDate` are the most commons to be configured.
 - `datePickerMode`: The date picker mode. Determines whether the date picker should display a time, a date, a time and date or a countdown interval. For modes that include date or time values, you can also configure the locale, calendar, and time zone information as appropriate.
 - `date`: The date displayed by the date picker.
 - `localDate`: The date displayed by the date picker computed with timezone and locale.

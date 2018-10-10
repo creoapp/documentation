@@ -27,7 +27,7 @@ Console.write("PickerView Column: \(column) Row: \(row)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `PickerView` class but the `dataSet` is the most popular to be configured.
+Several UI aspects can be configured in the `PickerView` class but the `dataSet` is the most common to be configured.
 - `dataSet`: The dataset object provides information that PickerView needs to construct its content.
 
 ### References

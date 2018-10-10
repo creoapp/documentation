@@ -25,13 +25,13 @@ The `TextView` can be customized by tapping the subnode icons (+).
 The `TextView` customizations.
 
 ### Input View
-The custom input view to display when the text view becomes active. The user can drop one or more controls in order to create the custom inout view.
+The custom input view to display when the text view becomes active. The user can drop one or more controls in order to create the custom input view.
 
 ![`TextView` input view](images/textview4.png)
 The `TextView` input view customization.
 
 ### Keyboard Accessory View
-The custom accessory view to display when the text view becomes active. The user can drop one or more controls in order to extends the default keyboard.
+The custom accessory view to display when the text view becomes active. The user can drop one or more controls in order to extend the default keyboard.
 
 ![`TextView` keyboard accessory view](images/textview5.png)
 The `TextView` keyboard accessory view customization.
@@ -45,7 +45,7 @@ TextView1.text = "Text"
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `TextView` class but the `text`, `textColor`, and `editable` are the most populars to be configured.
+Several UI aspects can be configured in the `TextView` class but the `text`, `textColor`, and `editable` are the most commons to be configured.
 - `text`: The text displayed by the text view.
 - `textColor`: The color of the text.
 - `editable`: A Boolean value indicating whether the receiver is editable.

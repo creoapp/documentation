@@ -24,7 +24,7 @@ ProgressView1.value = 1.0
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `ProgressView` class but the `progressViewStyle`, and `value` are the most populars to be configured.
+Several UI aspects can be configured in the `ProgressView` class but the `progressViewStyle`, and `value` are the most commons to be configured.
 - `progressViewStyle`: The current graphical style of the receiver.
 - `value`: The current progress shown by the receiver. The current progress is represented by a floating-point value between 0.0 and 1.0, inclusive, where 1.0 indicates the completion of the task. The default value is 0.0. Values less than 0.0 and greater than 1.0 are pinned to those limits.
 

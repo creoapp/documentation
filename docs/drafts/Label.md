@@ -1,4 +1,4 @@
-A label describes an onscreen interface element or provides a short message. Although people can’t edit labels, they can sometimes copy the content of labels. Labels can display any amount of static text, but are best kept short.
+A label describes an onscreen interface element or provides a short message. Although people can’t edit labels, they can sometimes copy the content of labels. Labels can display any amount of static text but are best kept short.
 
 ![Label](images/label1.png)
 
@@ -21,7 +21,7 @@ Label1.text = "Label Text"
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Label` class but the `text`, `font`, and `textColor` are the most populars to be configured.
+Several UI aspects can be configured in the `Label` class but the `text`, `font`, and `textColor` are the most commons to be configured.
 - `text`: The text displayed by the label.
 - `font`: The font of the text.
 - `textColor`: The color of the text.

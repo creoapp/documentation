@@ -38,7 +38,7 @@ Console.write("SegmentedControl title: \(self.title)")
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `SegmentedControl` class but the `Momentary` is the most popular to be configured.
+Several UI aspects can be configured in the `SegmentedControl` class but the `Momentary` is the most common to be configured.
 - `Momentary`: A Boolean value that determines whether segments in the receiver show selected state.
 
 ### References

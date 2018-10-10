@@ -72,7 +72,7 @@ Navigation1.popToRootWindow()
 ![Simple navigation controller](images/Navigation10.png)
 
 ### Customize a navigation bar
-The navigation bar can be customised by tapping the `Window` subnode icons (+).
+The navigation bar can be customized by tapping the `Window` subnode icons (+).
 
 ![Custom navigation controller](images/Navigation1.png)
 

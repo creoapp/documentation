@@ -22,7 +22,7 @@ LineShape1.lineColor = Color.red
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `LineShape` class but the `isHorizontal` and `lineColor` are the most populars to be configured.
+Several UI aspects can be configured in the `LineShape` class but the `isHorizontal` and `lineColor` are the most commons to be configured.
 - `isHorizontal`: Flag to set line position from horizontal to vertical.
 - `lineColor`: Main line color.
 

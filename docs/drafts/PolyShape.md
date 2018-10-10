@@ -20,7 +20,7 @@ PolyShape1.strokeThickness = 2
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `PolyShape` class but the `sides`, `internalRadius`, and `strokeThickness` are the most populars to be configured.
+Several UI aspects can be configured in the `PolyShape` class but the `sides`, `internalRadius`, and `strokeThickness` are the most commons to be configured.
 - `sides`: Number of sides of the polygon.
 - `internalRadius`: Polygon internal radius value.
 - `strokeThickness`: Border thickness.

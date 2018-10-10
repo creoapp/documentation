@@ -3,7 +3,7 @@ A `Window` presents and manages a hierarchy of views and controls. Each `Window`
 ![A simple Window inside a NavigationBar](images/Window_main.png)
 
 ### How to use
-1. Select an item in the layout panel where you want to add the new `Window`. If the selected item is a window container, the new `Window` will be created inside the container. If you select a `Window`, the new `Window` will be created in the same container of the selected `Window`. If you don’t have any item selected, the new `Window` will be created at the root level.
+1. Select an item in the layout panel where you want to add the new `Window`. If the selected item is a window container, the new `Window` will be created inside the container. If you select a `Window`, the new `Window` will be created in the same container as the selected `Window`. If you don’t have any item selected, the new `Window` will be created at the root level.
 2. Add a new `Window` with the _new window_ button in the containers panel located below the Layout section (see the following screenshot).
 3. Use the `Window Inspector` to customize its properties like `Background Color`, `Tint Color`, and `Supported Orientation`.
 
@@ -11,16 +11,16 @@ A `Window` presents and manages a hierarchy of views and controls. Each `Window`
 How to create a new Window.
 
 ### Events
-* `Load`, `Unload`: use these events to customise properties of the `Window` when the object is created.
-* `WillShow`, `DidShow`, `WillHide`, `DidHide`: use these events to customise the content of the `Window`, all the content of the `Window` is loaded when these events are called (ref: [Availability](#Availability) section).
+* `Load`, `Unload`: use these events to customize properties of the `Window` when the object is created.
+* `WillShow`, `DidShow`, `WillHide`, `DidHide`: use these events to customize the content of the `Window`, all the content of the `Window` is loaded when these events are called (ref: [Availability](#Availability) section).
 * `KeyboadWillShow`, `KeyboadDidShow`, `KeyboadWillHide`, `KeyboadDidHide`: use these events to update the interface of the `Window` in response to the appearing/disappearing of the keyboard, for example [Scrolling interface when Keyboard appears](../technotes/keyboard-avoiding-textfields.html).
-* `DidShake`: receives a notification when the user perform a shake gesture.
+* `DidShake`: receives a notification when the user performs a shake gesture.
 
 ### Open a Window
 Windows can be accessed in Gravity through a variable with the name of the `Window` which is unique in the project. Windows are globally defined and are created during the App startup process. A `Window` instance can be used anywhere and anytime from Gravity code.
 
 A window can be programmatically opened using one of the following methods of the `Window` object that you want to open:
-* openIn(destination, completion): opens the calling `Window` in the specified destination. If the destination is a `Window`, the calling `Window` is presented modally with the default transition. If the destination is a window container (`NavigationBar`,`TabBar`,`PageSplit`,`PageCurl` or `PageSplit`), the `Window` is presented by the destination's specific implementation of the `openWindow(window,closure)` method. If the destination object is not contained in the currently presented stack of windows/containers, the `openIn` has no visible effects until the destination object is presented on screen. The completion [closure](../gravity/closure.html) parameter is optional.
+* openIn(destination, completion): opens the calling `Window` in the specified destination. If the destination is a `Window`, the calling `Window` is presented modally with the default transition. If the destination is a window container (`NavigationBar`, `TabBar`, `PageSplit`, `PageCurl` or `PageSplit`), the `Window` is presented by the destination's specific implementation of the `openWindow(window, closure)` method. If the destination object is not contained in the currently presented stack of windows/containers, the `openIn` has no visible effects until the destination object is presented on screen. The completion [closure](../gravity/closure.html) parameter is optional.
 * open(completion): opens the calling `Window` in the current top-most container, if any, or as a modal `Window` if the currently presented `Window` is the root object or is presented as a modal `Window`. The completion [closure](../gravity/closure.html) parameter is optional.
 * openModal(TransitionStyle, completion): the calling `Window` is presented modally in the current top-most window or container, using the specified transition. The completion [closure](../gravity/closure.html) parameter is optional.
 
@@ -34,13 +34,13 @@ Let's say you have a hierarchy like this
   - Window1
 ```
 
-If your want to open a `Window` named _Window2_ in the current context of your App (in this case, push the _Window2_ at the top of the stack of the _NavigationBar1_, with a back button to return to _Window1_), you can use the following code:
+If you want to open a `Window` named _Window2_ in the current context of your App (in this case, push the _Window2_ at the top of the stack of the _NavigationBar1_, with a back button to return to _Window1_), you can use the following code:
 ```
 // for example from within the `Action` event of a `Button`
 Window2.open()
 ```
 
-The same result could be achieved with the this code:
+The same result could be achieved with this code:
 ```
 Window2.openIn(NavigationBar1)
 ```
@@ -96,7 +96,7 @@ func completion() {
 Window2.open(completion)
 ```
 
-The `open` method is executed asynchronously and it returns immediately (that means that it doesn't wait for `Window2` to be presented and available). It is not right to write any code that access _Window2_'s content immediately after its open method.
+The `open` method is executed asynchronously and it returns immediately (that means that it doesn't wait for `Window2` to be presented and available). It is not right to write any code that accesses _Window2_'s content immediately after its open method.
 
 The following sequence of steps is performed during the presentation of a `Window`:
 1. if the Window's content has not yet been loaded (the first time that the `Window` is presented) all its subnodes are created and added to the `Window`.

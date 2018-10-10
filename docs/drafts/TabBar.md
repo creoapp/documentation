@@ -1,17 +1,17 @@
 A tab bar appears at the bottom of an app screen and provides the ability to quickly switch between different sections of an app. Tab bars are translucent, may have a background tint, maintain the same height in all screen orientations, and are hidden when a keyboard is displayed. A tab bar may contain any number of tabs, but the number of visible tabs varies based on the device size and orientation. If some tabs can’t be displayed due to limited horizontal space, the final visible tab becomes a More tab, which reveals the additional tabs in a list on a separate screen.
 
-![TabBarr](images/TabBar_main.png)
+![TabBar](images/TabBar_main.png)
 
 ### Best practices
-When an application has multiple sections then `TabBar` is usually the start-up window and is used to organize informations at the app level, ie:
+When an application has multiple sections then `TabBar` is usually the start-up window and is used to organize information at the app level, ie:
 
 * **the sections of a social app**: 1 screen for the feeds, 1 screen for the user profile, 1 for creating new posts and so on
-* **the sections of a navigator app**: 1 screen for driving informations, 1 screen to explore your surrounding and 1 for the public transport
+* **the sections of a navigator app**: 1 screen for driving information, 1 screen to explore your surrounding and 1 for the public transport
 
 ### How to use
 1. Drop a `TabBar` as a root screen and customize the appearance, ie translucent, tint and so on
 1. Drop 1 or more child `Window` or `Navigation`
-1. For each children customize its `TABBAR Item` by tapping the _(+)_ icon
+1. For each child customize its `TABBAR Item` by tapping the _(+)_ icon
 
 #### Example
 - Start dropping a `TabBar` into the _LAYOUT_ by tapping the _New Navigation_ button on the _bottom bar_

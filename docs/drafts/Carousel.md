@@ -44,7 +44,7 @@ Slider1.maximumValue = Carousel1.numberOfItems
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Carousel` class but the `type`, `currentItemIndex`, and `numberOfItems` are the most populars to be configured.
+Several UI aspects can be configured in the `Carousel` class but the `type`, `currentItemIndex`, and `numberOfItems` are the most commons to be configured.
 - `type`: Used to switch the carousel display type.
 - `currentItemIndex`: The index of the currently centered item in the carousel. Setting this property is equivalent to calling scrollToItemAtIndex with the animated argument set to false.
 - `numberOfItems`: The number of items in the carousel (read only). Note that not all of these item views will be loaded or visible at a given point in time - the carousel loads item views on demand as it scrolls. 

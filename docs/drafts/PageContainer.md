@@ -3,7 +3,7 @@ A `PageContainer` control is an onscreen element that provides a way to implemen
 ![PageContainer](images/PageContainer_main.png)
 
 ### Best practices
-When a `PageContainer`is used, pages flow sequentially and there’s no way to jump between nonadjoining pages. If people may need to access pages out of sequence in your app, implement a custom control that provides this functionality.
+When a `PageContainer`is used, pages flow sequentially and there’s no way to jump between nonadjacent pages. If people may need to access pages out of sequence in your app, implement a custom control that provides this functionality.
 
 ### How to use
 1. Drop a `PageContainer` control from the object panel to a `Window`
@@ -16,7 +16,7 @@ The inspector where the `PageContainer` class can be configured.
 1. Drop a `PageContainer` control from the object panel to a `Window`
 1. Create a _DataSet_ of pictures by dropping images in the _Project_ -> _Assets_ folder
 1. Set the `PageContainer` _DataSet_ property to _Asset_; now you can test the pages transition by tapping _Play_
-1. Drop an `ImageView` and a `Label` onto the `PageContainer` -> `CustomView1`. The ending hierarchy should looks like
+1. Drop an `ImageView` and a `Label` onto the `PageContainer` -> `CustomView1`. The ending hierarchy should look like
 
 ```
 - Navigation1
@@ -30,7 +30,7 @@ The inspector where the `PageContainer` class can be configured.
 5. Select `CustomView1` and tap the _Custom Properties_ button on the _Inspector_ topbar.
 1. Right click and select _New Property_
 1. Add a property named "_Image_" and bind it to _ImageView1.image_
-1. Add a property name d"_Label_" and bind it to _Label1.text_
+1. Add a property named "_Label_" and bind it to _Label1.text_
 
 ![PageContainer binding](images/PageContainer3.png)
 

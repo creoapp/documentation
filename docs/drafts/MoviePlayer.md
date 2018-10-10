@@ -18,9 +18,9 @@ MoviePlayer1.contentPath = "Add your movie path here..."
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `MoviePlayer` class but the `contentPath`, `fullscreen`, and `scalingMode` are the most populars to be configured.
+Several UI aspects can be configured in the `MoviePlayer` class but the `contentPath`, `fullscreen`, and `scalingMode` are the most commons to be configured.
 - `contentPath`: The path/URL that points to the local/remote movie file.
-- `fullscreen`: A Boolean that indicates whetever the movie player is in full-screen mode.
+- `fullscreen`: A Boolean that indicates whether the movie player is in full-screen mode.
 - `scalingMode`: The scaling mode to use when displaying the movie.
 
 ### References

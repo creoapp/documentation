@@ -22,13 +22,13 @@ The `TextField` can be customized by tapping the subnode icons (+).
 The `TextField` customizations.
 
 ### Input View
-The custom input view to display when the text field becomes active. The user can drop one or more controls in order to create the custom inout view.
+The custom input view to display when the text field becomes active. The user can drop one or more controls in order to create the custom input view.
 
 ![`TextField` input view](images/textfield4.png)
 The `TextField` input view customization.
 
 ### Keyboard Accessory View
-The custom accessory view to display when the text field becomes active. The user can drop one or more controls in order to extends the default keyboard.
+The custom accessory view to display when the text field becomes active. The user can drop one or more controls in order to extend the default keyboard.
 
 ![`TextField` keyboard accessory view](images/textfield5.png)
 The `TextField` keyboard accessory view customization.
@@ -54,7 +54,7 @@ TextField1.text = "Text"
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `TextField` class but the `text`, `textColor`, `textAlignment` and `nextField` are the most populars to be configured.
+Several UI aspects can be configured in the `TextField` class but the `text`, `textColor`, `textAlignment` and `nextField` are the most commons to be configured.
 - `text`: The text displayed by the text field.
 - `textColor`: The color of the text.
 - `textAlignment`: The technique to use for aligning the text.

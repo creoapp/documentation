@@ -23,7 +23,7 @@ Camera1.capture()
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Camera` class but the `whiteBalance`, `mirror`, and `maxScale` are the most populars to be configured.
+Several UI aspects can be configured in the `Camera` class but the `whiteBalance`, `mirror`, and `maxScale` are the most commons to be configured.
 - `whiteBalance`: White balance mode.
 - `mirror`: Camera mirror mode.
 - `maxScale`: Maximum scaling factor.

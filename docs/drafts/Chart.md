@@ -1,9 +1,9 @@
-The Chart class offers a built-in and ready to use control to easely display graphical representation of data. Chart supports five type of graphs representation: Bar, Pie, Line, Area and Scatter.
+The Chart class offers a built-in and ready to use control to easily display a graphical representation of data. Chart supports five type of graphs representation: Bar, Pie, Line, Area and Scatter.
 
 ![Chart](images/chart1.png)
 
 ### Best practices
-* **Select the chart type that represents better your data.** You can change a chart from one type to another—for example, from a pie chart to a bar chart, or from a line chart to a area chart.
+* **Select the chart type that represents better your data.** You can change a chart from one type to another—for example, from a pie chart to a bar chart, or from a line chart to an area chart.
 
 ### How to use
 1. Drop a `Chart` control from the object panel to a `Window`
@@ -24,7 +24,7 @@ Chart1.chartType = ChartType.Area
 ```
 
 ### Most important properties
-Several UI aspects can be configured in the `Chart` class but the `chartType` and `dataSet` are the most populars to be configured.
+Several UI aspects can be configured in the `Chart` class but the `chartType` and `dataSet` are the most commons to be configured.
 - `chartType`:  The graphical representation type
 - `dataSet`: The `DataSet` object provides information that Chart needs to construct its content.
 

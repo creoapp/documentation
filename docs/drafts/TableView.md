@@ -14,11 +14,11 @@ If you need to write code for TableView:
 ![`TableView` inspector](images/TableView_inspector.png)
 The inspector where the `TableView` class can be configured.
 
-Several UI aspects can be configured in the `TableView` class but  `Template`, `DataSet`, and the Cell Properties (`Text`, `Detail Text`, `Image`) are the most populars to be configured.
-- `Template`: The `TableViewCell` used as the template that will be duplicated to create each single row of the `TableView`.
+Several UI aspects can be configured in the `TableView` class but  `Template`, `DataSet`, and the Cell Properties (`Text`, `Detail Text`, `Image`) are the most commons to be configured.
+- `Template`: The `TableViewCell` used as the template that will be duplicated to create every single row of the `TableView`.
 - `DataSet`: The source of the data presented by the `TableView`. It must be an object that implements the [DataSet](./dataset.html) specs, for example Assets, Databases, HTTPClient (REST), BTCentral, Location, Motion and many others.
 - `KeyPath`: The `TableView` can present only lists of data, so the `DataSet` must return an object of type [List](../gravity/list.html) or a `RecordSet`.  If the `DataSet` is representing complex hierarchical data (see the `treeData` property of the `DataSet` class), for example a JSON object returned by an `HTTPRequest`, the `KeyPath` property defines the base keypath used to extract a `List` object from the `self.value` property of the `DataSet`.
-- `Text`,`Detail Text`, `Image` and custom properties exposed by the configured `CustomView` (if any): The database column or the keypath, depending of the type of the `DataSet`, used to retrieve the data for each property of the cell from the value of the `DataSet` at a specific index.
+- `Text`,`Detail Text`, `Image` and custom properties exposed by the configured `CustomView` (if any): The database column or the keypath, depending on the type of the `DataSet`, used to retrieve the data for each property of the cell from the value of the `DataSet` at a specific index.
 
 ### Customization
 The appearance of the content of a `TableView` can be customized by tapping the subnode icon (+).
@@ -29,7 +29,7 @@ Available subnodes in a `TableView`.
 The available types of subnodes are:
 - _Header_: An accessory `CustomView` that is displayed above the table.
 - _Footer_: An accessory `CustomView` that is displayed below the table.
-- _Cell_: The template used to create one `TableViewCell` instance for each row (the number of rows and the data for each row are provided by the `DataSet`). You can add more than one _Cell_ subnodes, but only the _Cell_ set in the `Template` property of the `TableView` is used.
+- _Cell_: The template used to create one `TableViewCell` instance for each row (the number of rows and the data for each row is provided by the `DataSet`). You can add more than one _Cell_ subnodes, but only the _Cell_ set in the `Template` property of the `TableView` is used.
 
 ### TableViewCell
 A `TableViewCell` defines the attributes and behavior of the cells that appear in a TableView. Use the `TableViewCell` inspector to customize its properties like
