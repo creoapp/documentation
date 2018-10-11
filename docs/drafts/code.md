@@ -1,5 +1,16 @@
 Creo greatly reduces app development time by automating the most common tasks with a simple drag'n drop interface but there are times where you need to write Gravity code in order to customize behaviors or to enhance default cases.
 <br><br>
+Gravity is a programming language developed from scratch for Creo. It is dynamically typed, as such, its main advantages are that:
+* The language is simple and easy to learn.
+* Most code can be written and changed quickly and without hassle.
+* Less code written means less errors & mistakes to fix.
+* Easier to read the code (less clutter).
+* No compilation is required to test.
+* Runtime is tiny.
+* Duck-typing and polymorphism by nature. 
+You can get more information about Gravity in its dedicated documentation [section](https://docs.creolabs.com/gravity/).
+Gravity is an open source project and you can find its complete source code on [GitHub](https://github.com/marcobambini/gravity).
+<br><br>
 In Creo **everything is an object**. That means that every object can be selected and modified using both the Inspector or the Code Editor on the bottom. You usually use the Code Editor to modify values that can change at runtime while the Inspector is usually used to modify values that change at design time.
 ![Creo](images/code_1.png)
 
