@@ -4,6 +4,10 @@
       "entry": "INTRODUCTION"
     },
     {
+      "name": "This is just a test with a long title",
+      "file": "test.md"
+    },
+    {
       "name": "Getting Started",
       "file": "getting-started.md"
     },
