@@ -2,7 +2,7 @@ A database is a collection of information organized so that they can be easily a
 Data is organized into rows, columns and tables, and it is indexed to make it faster to find relevant information. Data gets updated, expanded and deleted as new information are added.
 
 ### Supported databases
-_Creo_ supports connection to relational databases such as `SQLite`, `MySQL` and `Postgres` and provides specific tools to easily create and test queries.
+Creo supports connection to relational databases such as `SQLite`, `MySQL` and `PostgreSQL` and provides specific tools to easily create and test queries.
 
 The common companion of an application is usually an `SQLite` database to benefit from locally stored data that does not require a connection to an external resource like a `MySQL` or `Postgres` servers.
 
@@ -19,7 +19,7 @@ Then using the _Inspector_ is possible to configure the database specific proper
 * **persistent on a file**, the original provided DB is _copied once_ to a writeable folder and then opened.
 * **in-memory**, the DB is lost when the application quits.
 
-When it comes to SQLite databases _Creo_ provides an extra tool to create tables and rows.
+When it comes to SQLite databases Creo provides an extra tool to create tables and rows.
 
 Tap _DB Configurator_ from the database _Inspector_ panel to open the tool.
 
@@ -32,7 +32,7 @@ The tool is not limited to creating rows and tables but can also be used to setu
 **Note:** a table primary key could be set using both ways but just one is needed. In case of miss configurations a yellow _Warning sign_ is shown at the top, click on it to read the problem's description.
 
 ### Database queries and dataset
-For all supported databases, _Creo_ provides a tool to create and test static SQL queries.
+For all supported databases, Creo provides a tool to create and test static SQL queries.
 A query can also be created from code when they depend on user inputs or other parameters.
 
 Using the UI a new SQL query is created by tapping the (+) button of a database.
@@ -41,7 +41,7 @@ Using the UI a new SQL query is created by tapping the (+) button of a database.
 
 **Note:** to help writing correct queries the tool supports dragging fields from the left pane to the right pane.
 
-In _Creo_ any database query is also a `Dataset` and can be used as an input to populate any UI control that requires one. 
+In Creo any database query is also a `Dataset` and can be used as an input to populate any UI control that requires one. 
 
 For instance, controls like `TableView`, `CollectionView` and `PageProvider` all requires a `Dataset`.
 
