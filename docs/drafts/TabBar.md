@@ -13,7 +13,7 @@ When an application has multiple sections then `TabBar` is usually the start-up 
 1. Drop 1 or more child `Window` or `Navigation`
 1. For each child customize its `TABBAR Item` by tapping the _(+)_ icon
 
-#### Example
+### Example
 - Start dropping a `TabBar` into the _LAYOUT_ by tapping the _New Navigation_ button on the _bottom bar_
 
 ![New TabBar](images/TabBar0.png)
@@ -54,7 +54,7 @@ The icon can both be custom (with a user provided image) or selected from the li
 
 **Note:** without the _TABBAR Item_ the title itself is automatically retrieved from the name of the current children `Window`.
 
-#### Interacting using Gravity
+### Interacting using Gravity
 `TABBAR Item` properties can be set by code, ie
 
 ```

@@ -89,7 +89,7 @@ while (SQLite1.users.hasRow) {
 
 unfortunately, this is an **error** and is not guaranteed to work; `run` is an asynchronous call and the _while condition_ will most of the time return _false_ if executed just after `run`. The proper way is to _bind_ to the `DidFinish` event and execute any logic from there.
 
-#### RecordSet
+### RecordSet
 
 `RecordSet` has several methods and provides an easy way to change the plain sql code too:
 

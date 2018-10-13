@@ -16,7 +16,7 @@ If the navigation is not in a single direction (from generic to detail and vicev
 1. For each child `Window` customize its `Navigation Bar` subsettings (bar visibility, title, prompt and buttons)
 1. Add or remove `Window` by _code_ or by _actions_
 
-#### Example
+### Example
 - Start adding a `Navigation` by tapping the _New Navigation_ button on the _bottom bar_
 
 ![New Navigation](images/Navigation14.png)
