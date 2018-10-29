@@ -22,7 +22,7 @@ When TextField is in editing mode we want to prevent user from entering text, so
 return !(self.isEditing)
 ```
 
-Just one final step is now required, we need to reset the editing flag and we need to set the TextField1 value to the value entered in the DatePicker. We'll use the `DidEndditing` event:
+Just one final step is now required, we need to reset the editing flag and we need to set the TextField1 value to the value entered in the DatePicker. We'll use the `DidEndEditing` event:
 
 ```
 var datePicker = self.InputView.DatePicker1
