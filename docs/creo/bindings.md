@@ -1,6 +1,5 @@
 A binding is a **continuous** connection between 2 values. Continuous means that each time a value from Object1 changes than the updated value is propagated to the connected Object2 (if the two objects are connected with a Binding).
 
-
 Binding is a very powerful concept in software development but it usually forces developers to learn new programming paradigms or to write some not very intuitive code. **Creo** offers a very intuitive way to create binding and all you have to do is graphically connects two objects using the Binding knob anchor point:
 ![Creo](../images/creo/bindings-1.png)
 
@@ -8,9 +7,8 @@ Once two objects are connected then you can configure the Binding using its Insp
 ![Creo](../images/creo/bindings-2.png)
 In the above example we just continuously connected the value of the Slider1.value property to the Label1.text property. A Binding is just another object in the Layout pane that you can select and customize.
 
-#### Advanced Binding
+### Advanced Binding
 You usually create a Binding when you need to connect the properties of two objects. **Creo** greatly enhances binding functionalities enabling you to connect more than one object in a single binding. Suppose for example that you'd like to add to the user the ability to create a new Color, a **[Color](../classes/Color.html)** is a class that can be instantiated using an RGB value.
-
 
 Start by dragging 3 Sliders and a View into the Design Board:
 ![Creo](../images/creo/bindings-3.png)

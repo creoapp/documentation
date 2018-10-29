@@ -4,55 +4,250 @@
       "entry": "INTRODUCTION"
     },
     {
-      "name": "What Is Creo",
-      "file": "what-is-creo.md"
+      "name": "Getting Started",
+      "file": "getting-started.md"
     },
     {
-      "name": "How Creo Works",
+      "name": "How Creo works",
       "file": "how-creo-works.md"
     },
     {
-      "name": "User Interface Overview",
+      "name": "UI Overview",
       "file": "ui-overview.md"
     },
     {
-      "entry": "DOCUMENTATION"
+      "entry": "PROJECT"
     },
     {
-      "name": "User Interface Creation",
-      "file": "user-interface-creation.md"
+      "name": "App",
+      "file": "application.md"
     },
     {
-      "name": "Objects and Events",
-      "file": "objects-and-events.md"
+      "name": "Icon",
+      "file": "app-icon.md"
     },
     {
-      "name": "Controls Customization",
-      "file": "controls-customization.md"
+      "name": "Launch Images",
+      "file": "app-launch-images.md"
     },
     {
-      "name": "Bindings",
-      "file": "bindings.md"
+      "name": "Assets",
+      "file": "assets.md"
     },
-     {
+    {
+      "name": "Properties",
+      "file": "properties.md"
+    },
+    {
+      "entry": "CREO"
+    },
+    {
+      "name": "Layout",
+      "file": "layout.md"
+    },
+    {
+      "name": "Design Board",
+      "file": "design-board.md"
+    },
+    {
+      "name": "Inspector",
+      "file": "inspector.md"
+    },
+    {
+      "name": "Writing Code",
+      "file": "code.md"
+    },
+    {
+      "name": "Subnodes",
+      "file": "subnodes.md"
+    },
+    {
       "name": "Animations",
       "file": "animations.md"
     },
     {
-      "name": "DataSet",
-      "file": "dataset.md"
+      "name": "Binding",
+      "file": "bindings.md"
     },
     {
-      "name": "Runtime Mode",
-      "file": "runtime-mode.md"
+      "name": "Simulator",
+      "file": "simulator.md"
+    },
+    {
+      "entry": "FINALYZE YOUR APP"
     },
     {
       "name": "Build your App",
       "file": "build-your-app.md"
     },
     {
-      "name": "CreoPlayer",
+      "name": "Submit to AppStore",
+      "file": "submit-your-app.md"
+    },
+    {
+      "name": "Transfer to a Device",
+      "file": "transfer-to-device.md"
+    },
+    {
+      "name": "Send to CreoPlayer",
       "file": "creoplayer.md"
+    },
+    {
+      "entry": "CONTAINERS"
+    },
+    {
+      "name": "View",
+      "file": "View.md"
+    },
+    {
+      "name": "Window",
+      "file": "Window.md"
+    },
+    {
+      "name": "NavigationBar",
+      "file": "Navigation.md"
+    },
+    {
+      "name": "TabBar",
+      "file": "TabBar.md"
+    },
+    {
+      "name": "PageCurl",
+      "file": "PageCurl.md"
+    },
+    {
+      "name": "PageScroll",
+      "file": "PageScroll.md"
+    },
+    {
+      "name": "PageSplit",
+      "file": "PageSplit.md"
+    },
+    {
+      "entry": "DATASET"
+    },
+    {
+      "name": "Overview",
+      "file": "dataset.md"
+    },
+    {
+      "name": "Database",
+      "file": "Database.md"
+    },
+    {
+      "name": "HTTPClient",
+      "file": "HTTPClient.md"
+    },
+    {
+      "entry": "CONTROLS"
+    },
+    {
+      "name": "Button",
+      "file": "Button.md"
+    },
+    {
+      "name": "Camera",
+      "file": "Camera.md"
+    },
+    {
+      "name": "Carousel",
+      "file": "Carousel.md"
+    },
+    {
+      "name": "Chart",
+      "file": "Chart.md"
+    },
+    {
+      "name": "CollectionView",
+      "file": "CollectionView.md"
+    },
+    {
+      "name": "DatePicker",
+      "file": "DatePicker.md"
+    },
+    {
+      "name": "ImageView",
+      "file": "ImageView.md"
+    },
+    {
+      "name": "Label",
+      "file": "Label.md"
+    },
+    {
+      "name": "LineShape",
+      "file": "LineShape.md"
+    },
+    {
+      "name": "MapView",
+      "file": "MapView.md"
+    },
+    {
+      "name": "MoviePlayer",
+      "file": "MoviePlayer.md"
+    },
+    {
+      "name": "OvalShape",
+      "file": "OvalShape.md"
+    },
+    {
+      "name": "PageContainer",
+      "file": "PageContainer.md"
+    },
+    {
+      "name": "PickerView",
+      "file": "PickerView.md"
+    },
+    {
+      "name": "PolyShape",
+      "file": "PolyShape.md"
+    },
+    {
+      "name": "ProgressView",
+      "file": "ProgressView.md"
+    },
+    {
+      "name": "RectShape",
+      "file": "RectShape.md"
+    },
+    {
+      "name": "SearchBar",
+      "file": "SearchBar.md"
+    },
+    {
+      "name": "Slider",
+      "file": "Slider.md"
+    },
+    {
+      "name": "Stepper",
+      "file": "Stepper.md"
+    },
+    {
+      "name": "SegmentedControl",
+      "file": "SegmentedControl.md"
+    },
+    {
+      "name": "TableView",
+      "file": "TableView.md"
+    },
+    {
+      "name": "TextField",
+      "file": "TextField.md"
+    },
+    {
+      "name": "TextView",
+      "file": "TextView.md"
+    },
+    {
+      "name": "Toggle",
+      "file": "Toggle.md"
+    },
+    {
+      "name": "Toolbar",
+      "file": "Toolbar.md"
+    },
+    {
+      "name": "WebView",
+      "file": "WebView.md"
     },
     {
       "entry": "OTHERS"

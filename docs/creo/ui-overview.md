@@ -1,13 +1,13 @@
-![UI Overview](../images/creo/ui-overview-1.png)
+![UI Overview](../images/creo/creo_ui_1.png)
 
 <div class="container">
 	<div class="row">
 	   <div class="col-lg-6">
-	   <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;ACTIONS</h4>
-	   <p style="color: #9e9e9e; margin-left: 36px;">Use to perform global actions for the current project.</p>
+	   <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;ACTION PANEL</h4>
+	   <p style="color: #9e9e9e; margin-left: 36px;">Used to perform global actions in the current project.</p>
 	   <ul>
-			<li>Run project in Creo Simulator</li>
-			<li>Send project to a real device (via WiFi or USB)</li>
+			<li>Run project in Simulator</li>
+			<li>Send project to an iOS device (via WiFi or USB)</li>
 			<li>Build application</li>
 			<li>Show 3D preview</li>
 	   </ul>
@@ -29,18 +29,19 @@
 	   <ul>
 			<li>Toggle code editor</li>
 			<li>Toggle animation editor</li>
+			<li>Toggle search panel</li>
 			<li>Toggle log panel</li>
 			<li>Toggle left pane</li>
 			<li>Toggle right pane</li>
 	   </ul>
 	   </div>
 	   <div class="col-lg-6">
-	   <h4 class="title-badge"><span class="number-badge"><span>4</span></span>&nbsp;&nbsp;&nbsp;CONTAINERS PANEL</h4>
-	   <p style="color: #9e9e9e; margin-left: 36px;">Provides shortcut for Layout objects creation.</p>
+	   <h4 class="title-badge"><span class="number-badge"><span>4</span></span>&nbsp;&nbsp;&nbsp;SHORTCUT PANEL</h4>
+	   <p style="color: #9e9e9e; margin-left: 36px;">Provides shortcuts for Layout objects creation.</p>
 	   <ul>
 			<li>Create a new Window</li>
 			<li>Create a new Navigation</li>
-			<li>Create a new Animation</li>
+			<li>Create a new Animation/Camera</li>
 	   </ul>
 	   </div>
 	</div>
@@ -86,7 +87,7 @@
 	<div class="row">
 		<div class="col-lg-6">
 		<h4 class="title-badge"><span class="number-badge"><span>9</span></span>&nbsp;&nbsp;&nbsp;LAYOUT</h4>
-		<p style="color: #9e9e9e; margin-left: 36px;">Offers an app hierarchy overview.</p>
+		<p style="color: #9e9e9e; margin-left: 36px;">Offers the app hierarchy overview.</p>
 		</div>
 		<div class="col-lg-6"></div>
 	</div>

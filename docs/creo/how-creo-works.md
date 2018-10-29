@@ -1,12 +1,26 @@
-Let's try to answer the question: **what is a mobile application?** If you think a bit about mobile development or software development in general, you'll end up with a very simple answer. It is a **user interface**, **connected** with some **data**.
+![How to use Creo](../images/creo/creo_intro_2.png)
 
+**Creo** is the next generation tool that lets you combine design and development in order to build better applications in a fraction of time compared to traditional tools.
 
-**Creo** offers an intuitive and efficient way to build mobile applications using these three main components:
+### How to develop a mobile application
 
-1. A very intuitive **[Drag and Drop](user-interface-creation.md)** system that lets you build application's user interfaces in a very intuitive way.
-2. A powerful **[DataSet](dataset.md)** subsystem that enables you to read and write data from a different variety of sources like network, databases, files, Bluetooth devices, sensors, camera and many others.
-3. A very intuitive **[Events](objects-and-events.md)** based system where you can write the connection code between your user interface objects and your data objects.
+Every mobile application requires three basic fundamental ingredients:
 
-![Creo](../images/creo/how-creo-works-1.png)
+1. a way to display and navigate between different parts of your application
+2. a way to present information to the end user
+3. a way to retrieve and transform data from very different sources
 
-**Creo** is a next generation tool that lets you combine design and development in order to build better applications in a fraction of time compared to traditional tools.
+**Creo** lets you: 
+
+1. compose complex navigation hierarchy in the [Layout](layout.md) section
+2. build fully featured and rich interface in the [Design Board](design-board.md) section
+3. connect data to the user interface using [DataSet](data-set.md) like databases, HTTP requests, files, sensors and much more
+
+### MVC pattern, the right way
+
+Model–view–controller is an architectural pattern commonly used for developing user interfaces that divides an application into three interconnected parts. There is a Model where your data structure resides, View which represents how data is visualized to end user and Controller which is the logic code between the input data (from the Model) and the output data (to the View).
+**Creo** adopts this common pattern in a way that lets you visualize in real time both the Model and the View parts and greatly reduce the amount of code required in the Controller step. With **Creo** you'll be able to develop mobile applications much faster than with any other tool.
+
+1. The Model can be visually built and tested using [DataSet](dataset.md)
+2. Views can be visually constructed using drag'n drop operations in the [Layout](layout.md) or in the [DesignBoard](design-board.md)
+3. Thanks to the [Events](code.md) subsystem, the Controller is much easier to write
