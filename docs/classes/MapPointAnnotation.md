@@ -26,6 +26,9 @@ The coordinate point (latitude) of the annotation.
 * **var** **longitude**: **[Float](../gravity/types.md)**
 The coordinate point (longitude) of the annotation.
 
+* **var** **tag**: **[Int](../gravity/types.md)**
+An integer number that you can use to identify your objects in your map.
+
 
 
 

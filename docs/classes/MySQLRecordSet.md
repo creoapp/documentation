@@ -51,6 +51,21 @@ Returns column name specified by the index parameter.
 * **func** **stringValue**(**index**: **[Int](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Returns column value converted to String specified by the index parameter.
 
+* **func** **intValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
+Returns column value converted to Int32 specified by the index parameter.
+
+* **func** **int64Value**(**index**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
+Returns column value converted to Int64 specified by the index parameter.
+
+* **func** **floatValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Float](../gravity/types.md)</strong> 
+Returns column value converted to Float specified by the index parameter.
+
+* **func** **doubleValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Float](../gravity/types.md)</strong> 
+Returns column value converted to Double specified by the index parameter.
+
+* **func** **boolValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+Returns column value converted to Boolean specified by the index parameter.
+
 * **func** **blobValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 
 Returns column value (not converted) specified by the index parameter.
 

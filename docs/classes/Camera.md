@@ -71,6 +71,9 @@ Boolean value to indicate if zooming is enabled.
 * **var** **maxScale**: **[Float](../gravity/types.md)**
 Maximum scaling factor.
 
+* **var** **lensAperture**: **[Float](../gravity/types.md)**
+The value of this property is a float indicating the size (the f number) of the lens diaphragm. \(read-only\)
+
 
 
 ### Methods

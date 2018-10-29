@@ -1,3 +1,24 @@
+**<span class="label label-release label-version">Creo 1.1.8</span>October 29th 2018 (Build 15378)**
+* Improved error reporting on App building panel
+* Improved Math.random
+* Improved NavigationBar emulation
+* Improved Toolbar and BarButtons
+* Extended RecordSet with intValue, int64Value, floatValue, doubleValue and boolValue
+* Exposed lensAperture to Camera
+* Exposed a new valueForIndex method to DataSet
+* Exposed TimeZone class
+* Added DidSelectAnnotation/DidDeselectAnnotation events to MapView
+* Exposed ShouldChangeText event to TextField (see )
+* Query editor is now able to succesfully execute non select statements
+* TableView dataSet can now be set to null
+* Fixed a FileManager issue
+* Fixed a Map annotation issue
+* Fixed a HTTPRequest issue
+* Several issues fixed in Gesture objects
+* New general Creo documentation available on **[https://docs.creolabs.com/creo](https://docs.creolabs.com/creo)**
+* A lot of other internal fixes and improvements
+* An updated **[CreoPlayer](http://creoplayer.creolabs.com)** app should be available via TestFlight within the next 48 hours
+
 **<span class="label label-release label-version">Creo 1.1.7</span>October 9th 2018 (Build 15242)**
 * Several UI fixes for 10.14 Mojave
 * Improved TableView

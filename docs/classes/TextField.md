@@ -13,6 +13,9 @@ This event is called when the user performs an action that would normally initia
 * **ShouldEndEditing**(): <strong>[Bool](../gravity/types.md)</strong> 
 This event is called when the control is asked to resign the first responder status. Return true if editing should stop or false if it should continue. Normally, you would return true from this method to allow the text field to resign the first responder status. You might return false, however, in cases where your delegate detects invalid contents in the text field. Returning false prevents the user from switching to another control until the text field contains a valid value.
 
+* **ShouldChangeText**(**text**: **[String](../gravity/types.md)**, **range**: **[Range](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+This event is called when the control is asked to check if the specified text should be changed. Return true if you accept the change or false to reject the change. Returning false prevents the user from changing the text. If you do not implement this method, the text field acts as if this method had returned true.
+
 * **DidBeginEditing**()
 Use this event to be notified when editing began in the specified text field.
 

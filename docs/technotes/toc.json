@@ -23,7 +23,7 @@
       "file": "exposed-events.md"
     },
     {
-      "name": "Scrolling interface when Keyboard appears",
+      "name": "Scroll interface with Keyboard",
       "file": "keyboard-avoiding-textfields.md"
     },
     {
@@ -36,6 +36,13 @@
     {
       "name": "Different DataSet for each row",
       "file": "new-dataset-in-each-row.md"
+    },
+    {
+      "entry": "DATA ENTRY"
+    },
+    {
+      "name": "Force Date entry",
+      "file": "datepicker-input.md"
     }
   ]
 }

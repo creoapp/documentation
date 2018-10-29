@@ -50,6 +50,9 @@ Stop current DataSet.
 * **func** **valueForKeyPath**(**baseKeyPath**: **[String](../gravity/types.md)**, **row**: **[Int](../gravity/types.md)**, **keyPath**: **[String](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
 Retrieve DataSet value based on combination of key path.
 
+* **func** **valueForIndex**(**row**: **[Int](../gravity/types.md)**, **column**: **[Int](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
+Retrieve DataSet value based on row/column indexes.
+
 
 
 

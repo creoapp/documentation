@@ -19,6 +19,12 @@ Tells that map view stopped tracking the user’s location.
 * **LocationDidChange**(**value**: **[Map](../gravity/map.md)**)
 The location of the user was updated.
 
+* **DidSelectAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**)
+Raised when one of its annotation views was selected.
+
+* **DidDeselectAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**)
+Raised when one of its annotation views was deselected.
+
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
