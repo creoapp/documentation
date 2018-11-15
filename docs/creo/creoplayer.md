@@ -1,4 +1,4 @@
-CreoPlayer is a free iOS application that you can use to preview your apps in real time on a real iOS device (iPhone and iPad). The latest version is available through the **[TestFlight](http://creoplayer.creolabs.com)** program. Applications can be transferred to the CreoPlayer using both WiFi or USB.
+CreoPlayer is a free iOS application that you can use to preview your apps in real time on a real iOS device (iPhone and iPad). The latest version is available through the **[TestFlight](https://creolabs.com/creoplayer)** program. Applications can be transferred to the CreoPlayer using both WiFi or USB.
 
 
 Start by opening the CreoPlayer iOS app:
