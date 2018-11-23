@@ -1,3 +1,19 @@
+**<span class="label label-release label-version">Creo 1.2.0</span>November 23th 2018 (Build 15544)**
+* Exposed a lot of new properties and methods to Camera control
+* Extended Camera control with barcode scanning capabilities
+* Extended CameraRoll (it can now save metadata)
+* Extended Crypto class with base64 encoding methods
+* Added IP address methods to NetworkReachability class
+* Improved autocompletion for some classes
+* Exposed new events to all UI controls: WillShow, DidShow, WillHide, DidHide
+* Added a second ndigits precision parameter to the Math.round method
+* Fixed an old issue with the TextField in secure mode
+* Fixed a Mojave specific issue that affects the Font class
+* Several issues fixed related to Undo/Redo
+* Several issue fixed in the HTTPServer class
+* A lot of other internal fixes and improvements
+* An updated **[CreoPlayer](https://creolabs.com/creoplayer)** app should be available via TestFlight within the next 48 hours
+
 **<span class="label label-release label-version">Creo 1.1.8</span>October 29th 2018 (Build 15378)**
 * Improved error reporting on App building panel
 * Improved Math.random
@@ -17,7 +33,7 @@
 * Several issues fixed in Gesture objects
 * New general Creo documentation available on **[https://docs.creolabs.com/creo](https://docs.creolabs.com/creo)**
 * A lot of other internal fixes and improvements
-* An updated **[CreoPlayer](http://creoplayer.creolabs.com)** app should be available via TestFlight within the next 48 hours
+* An updated **[CreoPlayer](https://creolabs.com/creoplayer)** app should be available via TestFlight within the next 48 hours
 
 **<span class="label label-release label-version">Creo 1.1.7</span>October 9th 2018 (Build 15242)**
 * Several UI fixes for 10.14 Mojave
@@ -26,7 +42,7 @@
 * Improved SQLite support
 * Navigation has been renamed to NavigationBar
 * A lot of other internal fixes and improvements
-* An updated **[CreoPlayer](http://creoplayer.creolabs.com)** app should be available via TestFlight within the next 48 hours
+* An updated **[CreoPlayer](https://creolabs.com/creoplayer)** app should be available via TestFlight within the next 48 hours
 
 **<span class="label label-release label-version">Creo 1.1.6</span>September 26th 2018 (Build 15134)**
 * Improved error reporting
@@ -39,7 +55,7 @@
 * Fixed a potential crash bug introduced in 1.1.5 version
 * Fixed some potential issue due to race conditions
 * A lot of other internal fixes and improvements
-* An updated **[CreoPlayer](http://creoplayer.creolabs.com)** app should be available via TestFlight within the next 48 hours
+* An updated **[CreoPlayer](https://creolabs.com/creoplayer)** app should be available via TestFlight within the next 48 hours
 
 **<span class="label label-release label-version">Creo 1.1.5</span>September 19th 2018 (Build 15032)**
 * Added Search panel
@@ -55,7 +71,7 @@
 * Fixed an issue with WebView
 * Fixed minor issues with TableView header and footer
 * A lot of other internal fixes and improvements
-* An updated **[CreoPlayer](http://creoplayer.creolabs.com)** app should be available via TestFlight within the next 48 hours
+* An updated **[CreoPlayer](https://creolabs.com/creoplayer)** app should be available via TestFlight within the next 48 hours
 
 **<span class="label label-release label-version">Creo 1.1.1</span>September 10th 2018 (Build 14655)**
 * Fixed several ScrollView issues (introduced in the 1.1.0 version). These issues affect several controls like PickerView, DatePicker and TableView.
@@ -76,7 +92,7 @@
 * Fix for BezierPath image method
 * Fix for RefreshControl position in NavigationBar
 * Tons of others internal fixes and improvements
-* **[CreoPlayer](http://creoplayer.creolabs.com)** has been updated and it is now available through the TestFlight program
+* **[CreoPlayer](https://creolabs.com/creoplayer)** has been updated and it is now available through the TestFlight program
 
 **<span class="label label-release label-version">Creo 1.0.8</span>July 31st 2018 (Build 14201)**
 * Improved NavigationBar class with new blur layer and others internal improvements
@@ -140,7 +156,7 @@
 * Others internal improvements
 
 **<span class="label label-release label-version">Creo 1.0.3</span>July 3rd 2018 (Build 13867)**
-* **[CreoPlayer](http://creoplayer.creolabs.com)** is now available through the TestFlight program
+* **[CreoPlayer](https://creolabs.com/creoplayer)** is now available through the TestFlight program
 * Added a new Properties and Privacy panel
 * Added support for class properties and methods in custom classes
 * Improved StatusBar support
@@ -168,4 +184,4 @@
 
 **<span class="label label-release label-version">Creo 1.0.0</span>June 13th 2018 (Build 13600)**
 * First official release
-* **[CreoPlayer](http://creoplayer.creolabs.com)** version 1.1 or higher is now required
+* **[CreoPlayer](https://creolabs.com/creoplayer)** version 1.1 or higher is now required

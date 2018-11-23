@@ -7,6 +7,12 @@ A TableView displays a list of items in a single column. The TableView uses a Ta
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
 * **RowHeight**(**section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**): <strong>[Float](../gravity/types.md)</strong> 
 This event lets you specify a different height depending of the section and row indexes. If this event is implemented, the return value of this event is used to define the height of the specified row instead of the <code>rowHeight</code> property of the TableView.
 
@@ -39,6 +45,12 @@ This event is called when dragging ended in the scroll view. The scroll view sen
 
 * **DidEndDecelerating**()
 This event is called when the scroll view ends decelerating the scrolling movement.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).

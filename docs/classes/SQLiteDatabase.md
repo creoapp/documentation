@@ -38,8 +38,8 @@ Returns the rowid of the most recent successful INSERT into a rowid table. \(rea
 * **var** **errorCode**: **[Int](../gravity/types.md)**
 Returns a numeric error code if the latest sql operation failed. \(read-only\)
 
-* **var** **secure**: **[Bool](../gravity/types.md)**
-Use this property to set a secure database connection.
+* **var** **encryption**: **[Int](../gravity/types.md)**
+Use this property to set an encryption database connection.
 
 * **var** **isError**: **[Bool](../gravity/types.md)**
 Check if latest operation failed. \(read-only\)

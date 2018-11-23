@@ -7,11 +7,32 @@ A Camera object represents a physical capture device and the properties associat
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **NewImage**(**image**: **[Image](Image.md)**)
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
+* **Ready**()
+This event is triggered when the physical capture device has been configured, the device properites (lensAperture, minExposureDuration, maxExposureDuration, etc) are available and the camera is ready to capture. This event is also called when a new physical capture device is configured, for example after switching between the front and the back camera.
+
+* **DeniedAuthorization**(**cameraAuthorizationType**: **[Int](../gravity/types.md)**)
+
+
+* **NewImage**(**image**: **[Image](Image.md)**, **metadata**: **[Map](../gravity/map.md)**)
 This event is triggered when a new still picture is available.
 
 * **NewVideo**(**videoPath**: **[String](../gravity/types.md)**)
 This event is triggered when a new recordered movie is available.
+
+* **RecognizedObjects**(**objects**: **[List](../gravity/list.md)**)
+This event is triggered any time the array of recognized metadata objects changes or the position of a recognized object changes. The 'objects' parameter is a List of RecognizedObject.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
@@ -20,16 +41,19 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
+* **var** **cameraQuality**: **CameraPosition**
+Current position of a capture device.
+
 * **var** **position**: **CameraPosition**
 Current position of a capture device. \(read-only\)
 
-* **var** **whiteBalance**: **[Int](../gravity/types.md)**
+* **var** **whiteBalance**: **WhiteBalanceMode**
 White balance mode.
 
-* **var** **mirror**: **[Int](../gravity/types.md)**
+* **var** **mirror**: **CameraMirrorMode**
 Camera mirror mode.
 
-* **var** **flash**: **[Int](../gravity/types.md)**
+* **var** **flash**: **CameraFlashMode**
 Current flash mode of a capture device. \(read-only\)
 
 * **var** **recording**: **[Bool](../gravity/types.md)**
@@ -43,9 +67,6 @@ If set to true then captured Image is cropped usign the exact View size.
 
 * **var** **zoomingEnabled**: **[Bool](../gravity/types.md)**
 Boolean value to indicate if zooming is enabled.
-
-* **var** **fixOrientationAfterCapture**: **[Bool](../gravity/types.md)**
-Boolean value to indicate if the image must be rasterized according to device orientation.
 
 * **var** **useDeviceOrientation**: **[Bool](../gravity/types.md)**
 Boolean value to indicate if device orientation should be taken into account.
@@ -72,7 +93,92 @@ Boolean value to indicate if zooming is enabled.
 Maximum scaling factor.
 
 * **var** **lensAperture**: **[Float](../gravity/types.md)**
-The value of this property is a float indicating the size (the f number) of the lens diaphragm. \(read-only\)
+The value of this property is a float indicating the size (the f number) of the lens diaphragm. This method returns 0.0 if the device is not yet ready (see the Ready event). The Creo simulator for Mac returns 1.8 like the latest iPhone models, not the real lens aperture of the camera on the Mac. \(read-only\)
+
+* **var** **exposureDuration**: **[Float](../gravity/types.md)**
+The length of time in seconds over which exposure takes place.
+
+* **var** **minExposureDuration**: **[Float](../gravity/types.md)**
+The minimum supported exposure duration. \(read-only\)
+
+* **var** **maxExposureDuration**: **[Float](../gravity/types.md)**
+The maximum supported exposure duration. \(read-only\)
+
+* **var** **ISO**: **[Float](../gravity/types.md)**
+The current exposure ISO value.
+
+* **var** **minISO**: **[Float](../gravity/types.md)**
+The minimum supported exposure ISO value. \(read-only\)
+
+* **var** **maxISO**: **[Float](../gravity/types.md)**
+The maximum supported exposure ISO value. \(read-only\)
+
+* **var** **exposureMode**: **CameraExposureMode**
+The camera exposure mode.
+
+* **var** **exposurePointOfInterestSupported**: **[Bool](../gravity/types.md)**
+Indicates whether the device supports a point of interest for exposure. \(read-only\)
+
+* **var** **exposurePointOfInterest**: **[Point](Point.md)**
+The point of interest for exposure. Setting a value for this property does not initiate an exposure rebalancing operation. To set exposure using a point of interest, first set this property's value, then set the exposureMode property to CameraExposureMode.AutoExpose or CameraExposureMode.ContinuousAutoExposure. This property's Point value uses a coordinate system where {0,0} is the top left of the picture area and {1,1} is the bottom right. This coordinate system is always relative to a landscape device orientation with the home button on the right, regardless of the actual device orientation.
+
+* **var** **adjustingExposure**: **[Bool](../gravity/types.md)**
+Indicates whether the device is currently adjusting its exposure setting. \(read-only\)
+
+* **var** **exposureTargetOffset**: **[Float](../gravity/types.md)**
+The metered exposure level's offset from the target exposure value, in EV units. The Creo simulator for Mac return 0.0. \(read-only\)
+
+* **var** **exposureTargetBias**: **[Float](../gravity/types.md)**
+Bias applied to the target exposure value, in EV units. When exposureMode is CameraExposureMode.AutoExpose or CameraExposureMode.Locked, the bias will affect both metering (exposureTargetOffset), and the actual exposure level (exposureDuration and ISO). When the exposure mode is AVCaptureExposureModeCustom, it will only affect metering. The Creo simulator for Mac return 0.0.
+
+* **var** **minExposureTargetBias**: **[Float](../gravity/types.md)**
+The minimum supported exposure bias, in EV units. The Creo simulator for Mac return 0.0. \(read-only\)
+
+* **var** **maxExposureTargetBias**: **[Float](../gravity/types.md)**
+The maximum supported exposure bias, in EV units. \(read-only\)
+
+* **var** **focusMode**: **CameraFocusMode**
+The camera focus mode.
+
+* **var** **focusPointOfInterestSupported**: **[Bool](../gravity/types.md)**
+Indicates whether the device supports a point of interest for focus. \(read-only\)
+
+* **var** **focusPointOfInterest**: **[Point](Point.md)**
+The point of interest for focusing. Setting a value for this property does not initiate a focusing operation. To focus the camera on a point of interest, first set this property's value, then set the focusMode property to CameraFocusMode.AutoFocus or CameraFocusMode.ContinuousAutoFocus. This property's Point value uses a coordinate system where {0,0} is the top left of the picture area and {1,1} is the bottom right. This coordinate system is always relative to a landscape device orientation with the home button on the right, regardless of the actual device orientation. You can convert between this coordinate system and view coordinates using AVCaptureVideoPreviewLayer methods.
+
+* **var** **adjustingFocus**: **[Bool](../gravity/types.md)**
+Indicates whether the device is currently adjusting its focus setting. \(read-only\)
+
+* **var** **autoFocusRangeRestrictionSupported**: **[Bool](../gravity/types.md)**
+A Boolean value that indicates whether the device supports focus range restrictions. \(read-only\)
+
+* **var** **autoFocusRangeRestriction**: **CameraAutoFocusRangeRestriction**
+A value controlling the allowable range for automatic focusing.
+
+* **var** **smoothAutoFocusSupported**: **[Bool](../gravity/types.md)**
+A Boolean value that indicates whether the device supports smooth autofocus. \(read-only\)
+
+* **var** **smoothAutoFocusEnabled**: **[Bool](../gravity/types.md)**
+A Boolean value that determines whether smooth autofocus is enabled. On capable devices, you can enable a “smooth” focusing mode in which lens movements are made more slowly. This mode make focus transitions less visually intrusive, a behavior that you may want for video capture.
+
+* **var** **lowLightBoostSupported**: **[Bool](../gravity/types.md)**
+A Boolean value that indicates whether the capture device supports boosting images in low light conditions. \(read-only\)
+
+* **var** **lowLightBoostEnabled**: **[Bool](../gravity/types.md)**
+A Boolean value that indicates whether the capture device’s low light boost feature is enabled. \(read-only\)
+
+* **var** **automaticallyEnablesLowLightBoostWhenAvailable**: **[Bool](../gravity/types.md)**
+A Boolean value that indicates whether the capture device should automatically switch to low light boost mode when necessary.
+
+* **var** **machineReadableObjectTypes**: **MachineReadableObjectType**
+A bitmask used to filter the metadata objects reported by the RecognizedObjects event.
+
+
+
+### Class Methods
+
+* **func** **exposureString**(**seconds**: **[Float](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
+Return a readable string representation of the exposure value.
 
 
 
@@ -86,6 +192,9 @@ Toggle the position of a capture device.
 
 * **func** **toggleFlashMode**(): <strong><a href="#_enum_CameraFlashMode">CameraFlashMode</a></strong> 
 Toggle the flash mode of the capture device. Returns the new flash mode.
+
+* **func** **setFlashMode**(**flashMode**: **[Int](../gravity/types.md)**): <strong><a href="#_enum_CameraFlashMode">CameraFlashMode</a></strong> 
+Set the flash mode of the capture device. Returns true if the camera supports the new flash mode, false otherwise.
 
 * **func** **startRecording**()
 Start recording a video.
@@ -112,10 +221,51 @@ Clear focus from selected control
  * .Front
  * .Rear
 
+#### WhiteBalanceMode
+ * .Auto
+ * .Continuous
+ * .Locked
+
+#### CameraMirrorMode
+ * .Auto
+ * .Off
+ * .On
+
 #### CameraFlashMode
  * .Auto
  * .Off
  * .On
+
+#### CameraExposureMode
+ * .AutoFocus
+ * .ContinuousAutoExposure
+ * .Custom
+ * .Locked
+
+#### CameraFocusMode
+ * .AutoFocus
+ * .ContinuousAutoFocus
+ * .Locked
+
+#### CameraAutoFocusRangeRestriction
+ * .Far
+ * .Near
+ * .None
+
+#### MachineReadableObjectType
+ * .AztecCode
+ * .Code128Code
+ * .Code39Code
+ * .Code39Mod43Code
+ * .Code93Code
+ * .DataMatrixCode
+ * .EAN13Code
+ * .EAN8Code
+ * .ITF14Code
+ * .Interleaved2of5Code
+ * .PDF417Code
+ * .QRCode
+ * .UPCECode
 
 #### AnimationOption
  * .AllowAnimatedContent

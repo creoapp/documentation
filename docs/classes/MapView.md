@@ -7,6 +7,12 @@ Display map or satellite imagery from the windows and views of your custom apps.
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
 * **WillStart**()
 Tells that the map view will start tracking the user's position.
 
@@ -24,6 +30,12 @@ Raised when one of its annotation views was selected.
 
 * **DidDeselectAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**)
 Raised when one of its annotation views was deselected.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).

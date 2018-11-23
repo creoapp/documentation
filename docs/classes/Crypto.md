@@ -1,6 +1,6 @@
 **super**: **[Object](Object.md)**
 
-The Crypto module provides cryptographic functionality.
+The Crypto module provides cryptographic and encoding functionalities.
 
 ### Events
 
@@ -28,6 +28,18 @@ Compute SHA512 digest algorithm.
 
 * **func** **UUID**(): <strong>[String](../gravity/types.md)</strong> 
 Create and returns a new UUID with RFC 4122 version 4 random bytes.
+
+* **func** **encodeStringToBase64**(**string**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
+Encode string to base64 string.
+
+* **func** **decodeStringFromBase64**(**string**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
+Decode string from base64 string.
+
+* **func** **encodeDataToBase64**(**data**: **[Data](Data.md)**): <strong>[String](../gravity/types.md)</strong> 
+Encode data to base64 string.
+
+* **func** **decodeDataFromBase64**(**string**: **[String](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 
+Decode data from base64 string.
 
 
 

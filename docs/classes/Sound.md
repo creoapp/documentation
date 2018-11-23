@@ -51,10 +51,10 @@ Initializes and returns the Sound object with the content of the source file. Th
 
 ### Initializers
 
-* **func** **Sound**(**nameOrURL**: **[String](../gravity/types.md)**)
+* **func** **Sound**(**nameOrURL**: **[Object](../gravity/types.md)**)
 Creates and initializes a new sound resource.
 
-* **func** **Sound**(**nameOrURL**: **[String](../gravity/types.md)**, **globalInstance**: **[Bool](../gravity/types.md)**)
+* **func** **Sound**(**nameOrURL**: **[Object](../gravity/types.md)**, **globalInstance**: **[Bool](../gravity/types.md)**)
 Creates and initializes a new sound resource.
 
 

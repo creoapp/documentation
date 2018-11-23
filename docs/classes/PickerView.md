@@ -7,6 +7,12 @@ The PickerView class implements objects, called picker views, that use a spinnin
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
 * **DidSelectCell**(**column**: **[Int](../gravity/types.md)**, **row**: **[Int](../gravity/types.md)**)
 This event is called by the picker view when the user selects a row in a column.
 
@@ -15,6 +21,12 @@ This event is called by the picker view when it needs the row height to use for 
 
 * **ColumnWidth**(**column**: **[Int](../gravity/types.md)**): <strong>[Float](../gravity/types.md)</strong> 
 This event is called by the picker view when it needs the column width.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
