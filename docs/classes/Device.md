@@ -59,6 +59,18 @@ Check if current device is an iPhone. \(read-only\)
 * **var** **isPad**: **[Bool](../gravity/types.md)**
 Check if current device is an iPad. \(read-only\)
 
+* **var** **isCreoKit**: **[Bool](../gravity/types.md)**
+Check if current app is running on CreoKit. \(read-only\)
+
+* **var** **isCreoPlayer**: **[Bool](../gravity/types.md)**
+Check if current app is running on CreoPlayer. \(read-only\)
+
+* **var** **isAppleSimulator**: **[Bool](../gravity/types.md)**
+Check if current app is running on Apple Simulator. \(read-only\)
+
+* **var** **isRealDevice**: **[Bool](../gravity/types.md)**
+Check if current app is running on a real iOS device. \(read-only\)
+
 
 
 ### Methods

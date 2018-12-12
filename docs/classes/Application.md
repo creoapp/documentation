@@ -36,6 +36,9 @@ Asks the application to display the in-app notification settings.
 * **OpenUrl**(**url**: **[String](../gravity/types.md)**, **options**: **[Map](../gravity/map.md)**)
 Asks the application to open a resource specified by a URL, and provides a dictionary of launch options.
 
+* **DidReceiveMemoryWarning**()
+This event is called when the app receives a memory warning from the system. If your app does not release enough memory during low-memory conditions, the system may terminate it outright.
+
 * **WillTerminate**()
 This method lets your app know that it is about to be terminated and purged from memory entirely. You should use this method to perform any final clean-up tasks for your app, such as freeing shared resources, saving user data, and invalidating timers. Your implementation of this method has approximately five seconds to perform any tasks and return. If the method does not return before time expires, the system may kill the process altogether.
 

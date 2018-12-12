@@ -1,3 +1,16 @@
+**<span class="label label-release label-version">Creo 1.2.2</span>December 12th 2018 (Build 15618)**
+* Added cubeSQL support
+* Added isCreoKit, isCreoPlayer and isRealDevice to Device class
+* Improved readString method in FileManager class
+* Fix a crash that occurred with a NULL font 
+* Fixed random issue with registered creo versions not correctly recognized
+* Fixed ipa builder
+* Several fixes related to TableView
+* Several fixes related to TabBar
+* Updated Gravity to the latest version
+* A lot of other internal fixes and improvements
+* **[CreoPlayer 1.2.7](https://creolabs.com/creoplayer)** is required and it should be available via TestFlight within the next 48 hours
+
 **<span class="label label-release label-version">Creo 1.2.0</span>November 23th 2018 (Build 15544)**
 * Exposed a lot of new properties and methods to Camera control
 * Extended Camera control with barcode scanning capabilities
