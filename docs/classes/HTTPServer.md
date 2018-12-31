@@ -17,7 +17,7 @@ The attempt to start the server has failed.
 The server has been successfully stopped.
 
 * **DidReceiveRequest**(**method**: **[String](../gravity/types.md)**, **path**: **[String](../gravity/types.md)**, **body**: **[Object](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
-This event is called to get a response for a request. You may return a String containing the HTML code of the response, an url or a file path to redirect the request or the Data to send. If the return value is invalid or null, the HTTPServer will use the default behavior, looking for the requested path in the specified document root.
+This event is called to get a response for a request. You may return a String containing an url or a file path to redirect the request or the Data to send. If the return value is invalid or null, the HTTPServer will use the default behavior, looking for the requested path in the specified document root.
 
 * **WillSendResponse**(**host**: **[String](../gravity/types.md)**, **method**: **[String](../gravity/types.md)**, **path**: **[String](../gravity/types.md)**, **statusCode**: **[Int](../gravity/types.md)**, **contentLength**: **[Int](../gravity/types.md)**)
 Notifies that the server is about to send a respose for a successful request.
@@ -56,14 +56,20 @@ The default port number is zero, meaning the server will automatically use any a
 * **var** **listeningPort**: **[Int](../gravity/types.md)**
 The listeningPort method will always return the port number the running server is listening for connections on. If the server is not running this method returns 0. \(read-only\)
 
-* **var** **name**: **[String](../gravity/types.md)**
+* **var** **documentRoot**: **[String](../gravity/types.md)**
+Specifies the document root to serve files from. If you change the documentRoot while the server is running, the change will affect future incoming http connections.
+
+* **var** **bonjourName**: **[String](../gravity/types.md)**
 The name to use for this service via Bonjour. The default name is an empty string, which should result in the published name being the host name of the computer.
 
 * **var** **publishedName**: **[String](../gravity/types.md)**
 The name actually published via Bonjour. \(read-only\)
 
-* **var** **type**: **[String](../gravity/types.md)**
+* **var** **bonjourType**: **[String](../gravity/types.md)**
 The type of service to publish via Bonjour. No type is set by default, and one must be set in order for the service to be published.
+
+* **var** **bonjourDomain**: **[String](../gravity/types.md)**
+Bonjour domain for publishing the service. The default value is 'local.'.
 
 
 

@@ -9,6 +9,12 @@ The SearchBar class implements a text field control for text-based searches. The
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
 * **DidBeginEditing**()
 This event is called when the user begins editing the search text.
 
@@ -23,6 +29,12 @@ This event is called when a button  was tapped.
 
 * **DidSelectCell**(**selectedScopeIndex**: **[Int](../gravity/types.md)**)
 This event is called when the scope button selection changed.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).

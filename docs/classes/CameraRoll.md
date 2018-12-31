@@ -41,7 +41,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Class Methods
 
-* **func** **saveImage**(**image**: **[Image](Image.md)**)
+* **func** **saveImage**(**image**: **[Image](Image.md)**, **metadata**: **[Map](../gravity/map.md) = null**)
 Save an Image to the CameraRoll.
 
 * **func** **saveVideo**(**videoPath**: **[Image](Image.md)**)
@@ -54,7 +54,7 @@ Save a Video to the CameraRoll.
 * **func** **open**()
 Open CameraRoll and let the user choose saved images and movies for use in your app.
 
-* **func** **saveImage**(**image**: **[Image](Image.md)**)
+* **func** **saveImage**(**image**: **[Image](Image.md)**, **metadata**: **[Map](../gravity/map.md) = null**)
 Save an Image to the CameraRoll.
 
 * **func** **saveVideo**(**videoPath**: **[Image](Image.md)**)

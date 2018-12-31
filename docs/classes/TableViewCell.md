@@ -6,7 +6,19 @@ The TableViewCell class defines the attributes and behavior of the cells that ap
 
 ### Events
 
-* None
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
+
+
 
 ### Properties
 

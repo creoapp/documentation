@@ -31,6 +31,19 @@ A localized string representation of the current network reachability status. \(
 
 
 
+### Class Methods
+
+* **func** **allAddresses**(): <strong>[Map](../gravity/map.md)</strong> 
+Returns all network interfaces and the their relative IPv4 or IPv6 address.
+
+* **func** **ipAddress**(**IPv4**: **[Bool](../gravity/types.md) = true**): <strong>[String](../gravity/types.md)</strong> 
+Returns the string representation of the IPv4 or IPv6 address of the device.
+
+* **func** **ipAddressForInterface**(**NetworkInterface**: **[String](../gravity/types.md) = null**): <strong>[String](../gravity/types.md)</strong> 
+Returns the string representation of the IPv4 or IPv6 address of the specified network interface.
+
+
+
 ### Initializers
 
 * **func** **NetworkReachability**(**domain**: **[String](../gravity/types.md)**)

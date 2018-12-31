@@ -66,7 +66,7 @@ Compute SHA256 digest algorithm.
 Compute SHA512 digest algorithm.
 
 * **func** **base64**(): <strong>[String](../gravity/types.md)</strong> 
-Convert data to base64 string.
+Encode data to base64 string.
 
 
 

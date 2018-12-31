@@ -9,6 +9,12 @@ A MoviePlayer manages the playback of a movie from a file or a network stream. P
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
 * **DidEnterFullscreen**()
 Posted when the movie player has entered full-screen mode.
 
@@ -32,6 +38,12 @@ Posted when the movie has finished playing.
 
 * **PlaybackStateDidChange**()
 Posted when the movie player's playback state has changed.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).

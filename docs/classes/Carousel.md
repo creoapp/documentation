@@ -9,8 +9,20 @@ Carousel is a class designed to simplify the implementation of various types of 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
 * **DidSelectCell**(**cell**: **[CarouselCell](CarouselCell.md)**, **index**: **[Int](../gravity/types.md)**)
 Handle this event if you need to execute some code when a new cell is selected by the user.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
