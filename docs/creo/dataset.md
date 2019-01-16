@@ -4,7 +4,7 @@ A DataSet object can be created just dragging one of the available BaseDataSet s
 ![Creo](../images/creo/dataset_1v2.png)
 
 ### DataSet
-A DataSet is a programmatically customizable BaseDataSet. The number of rows, number of columns and the value for a specific row/column pair is defined by the return value of the `Rows`, `Columns` and `Value` events.
+A [DataSet](../classes/DataSet.html) is a programmatically customizable BaseDataSet. The number of rows, number of columns and the value for a specific row/column pair is defined by the return value of the `Rows`, `Columns` and `Value` events.
 Example of a DataSet from a List of values:
 1. Drop a `DataSet` object from the DATASET group of the objects panel to a `Window` and call it "DataSet1"
 2. Open the `Code Editor` (cmd + 4)
@@ -37,9 +37,11 @@ DataSet1.run()
 ```
 12. Execute the project in the Simulator (cmd + R) and click on the "Button1" to set the "content" variable of the DataSet and to reload it, the TableView1 will show the specified content.
 
+### FileDataSet
+A [FileDataSet](../classes/FileDataSet.html) is a DataSet that reads data from a file. The supported file formats are JSON, Plist, CSV and XML.
 
 ### GridDataSet
-A GridDataSet is equivalent to an Excel/Numbers spreadsheet that you can fill with your data, to edit the data just select the GridDataSet object in the layout panel and press the "Configure..." button from the inspector. Controls that can accept data are bound to a Built-in GridDataSet added as a subnode of the control.
+A [GridDataSet](../classes/GridDataSet.html) is equivalent to an Excel/Numbers spreadsheet that you can fill with your data, to edit the data just select the GridDataSet object in the layout panel and press the "Configure..." button from the inspector. Controls that can accept data are bound to a Built-in GridDataSet added as a subnode of the control.
 ![Creo](../images/creo/dataset_2v2.png)
 
 ### Others
