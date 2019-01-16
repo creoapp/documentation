@@ -74,6 +74,14 @@
       "file": "simulator.md"
     },
     {
+      "name": "Exporter",
+      "file": "exported.md"
+    },
+    {
+      "name": "Flex",
+      "file": "flex.md"
+    },
+    {
       "entry": "FINALYZE YOUR APP"
     },
     {
@@ -132,7 +140,7 @@
     },
     {
       "name": "Database",
-      "file": "Database.md"
+      "file": "database.md"
     },
     {
       "name": "HTTPClient",
