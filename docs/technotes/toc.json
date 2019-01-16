@@ -19,10 +19,6 @@
       "file": "autoresizing.md"
     },
     {
-      "name": "Flex Layout",
-      "file": "flexbox.md"
-    },
-    {
       "name": "Expose events from a CustomView",
       "file": "exposed-events.md"
     },
