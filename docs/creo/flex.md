@@ -1,7 +1,3 @@
-# FlexBox
-
-## Introduction
-
 Creo adopts the widely used [Yoga](https://yogalayout.com/docs) library for advanced and dynamic layouts. This library implements **flex-box** a rinomated multi-platform layout engine adapted from the web world to help solving layout of complex interfaces across different screen size and idioms (ie. ios, ipad, landscape, portrait).
 
 **Note:** in Creo the yoga engine coexistes with the iOS Autoresizing masks and nothing change for developers satisfied by the autosize layout engine. Even better, from CREO 2.x they also get **supports for the safe area** to properly support the new top-notch and rounded corners.

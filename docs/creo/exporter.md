@@ -1,9 +1,3 @@
-# Creo Code Exporter
-##### Timeline: revision 1, September 2018
-
-
-## Introduction
-
 Creo exporter's mission is being able to generate a __readable__ and __simple to mantain__ native project (ie. for XCode) that any developer can open and build with native tools.
 
 Look at our [Roadmap](#roadmap) and a glimpse into what to expect in 2019.

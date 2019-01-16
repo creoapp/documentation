@@ -75,8 +75,8 @@
     },
     {
       "name": "Exporter",
-      "file": "exported.md"
-    },
+      "file": "exporter.md"
+    }
     {
       "name": "Flex",
       "file": "flex.md"
