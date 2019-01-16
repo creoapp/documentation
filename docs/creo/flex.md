@@ -57,7 +57,7 @@ When the parent view space is not big enough or is just to large to contain all 
 
 ##### Step 1, create a root view container
 
-![Step1](../images/technotes/flex_form_1.png)
+![Step1](../images/creo/flex_form_1.png)
 
 1. start with a new project
 
@@ -79,7 +79,7 @@ When the parent view space is not big enough or is just to large to contain all 
 
 ##### Step 2, add rows
 
-![Step2](../images/technotes/flex_form_2.png)
+![Step2](../images/creo/flex_form_2.png)
 
 Let's create 4 input fields with a describing label: username, email, password and confirm password
 
@@ -101,7 +101,7 @@ Once here you can test different devices and orientations; they should just work
 
 ##### Step 3, configure margins, width and heights
 
-![Step4](../images/technotes/flex_form_5.png)
+![Step4](../images/creo/flex_form_5.png)
 
 Let's put some margins around the fields
 
