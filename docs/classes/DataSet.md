@@ -1,10 +1,23 @@
-**super**: **[Object](Object.md)**
+**super**: **[BaseDataSet](BaseDataSet.md)**
 
-This class is reserved and cannot be directly instantiated.
-
-
+A DataSet is a programmatically customizable BaseDataSet. You can customize the number of rows, columns and the value of each row/column by implementing the specific Event.
 
 ### Events
+
+* **Load**()
+This event is called when the object becames available in the current runtime system.
+
+* **Rows**(): <strong>[Int](../gravity/types.md)</strong> 
+This event lets you specify the number of rows of the DataSet.
+
+* **Columns**(): <strong>[Int](../gravity/types.md)</strong> 
+This event lets you specify the number of columns of the DataSet.
+
+* **NameForColumn**(**column**: **[Int](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
+This event lets you specify the name of each column. The column names are used in the control inspectors to set source column for each property of the template view.
+
+* **Value**(**row**: **[Int](../gravity/types.md)**, **column**: **[Int](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
+This event lets you specify the value for each row/column pair.
 
 * **DidStart**()
 Event raised when DataSet started retrieving data.
@@ -18,40 +31,8 @@ Event raised when DataSet finished retrieving data.
 * **DidFail**()
 Event raised in case of DataSet error.
 
-
-
-### Properties
-
-* **var** **treeData**: **[Bool](../gravity/types.md)**
-Used to check if DataSet is representing complex hierarchical data. \(read-only\)
-
-* **var** **value**: **[Object](../gravity/types.md)**
-Used to retrieve current DataSet value. \(read-only\)
-
-* **var** **running**: **[Bool](../gravity/types.md)**
-Used to check if DataSet is running. \(read-only\)
-
-* **var** **cancelled**: **[Bool](../gravity/types.md)**
-Used to check if DataSet has been cancelled. \(read-only\)
-
-* **var** **error**: **[String](../gravity/types.md)**
-Last Error message. \(read-only\)
-
-
-
-### Methods
-
-* **func** **run**()
-Start current DataSet.
-
-* **func** **stop**()
-Stop current DataSet.
-
-* **func** **valueForKeyPath**(**baseKeyPath**: **[String](../gravity/types.md)**, **row**: **[Int](../gravity/types.md)**, **keyPath**: **[String](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
-Retrieve DataSet value based on combination of key path.
-
-* **func** **valueForIndex**(**row**: **[Int](../gravity/types.md)**, **column**: **[Int](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
-Retrieve DataSet value based on row/column indexes.
+* **Unload**()
+This event is called when the object has been removed from the current runtime system (but not yet deallocated).
 
 
 

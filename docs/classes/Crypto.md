@@ -29,6 +29,9 @@ Compute SHA512 digest algorithm.
 * **func** **UUID**(): <strong>[String](../gravity/types.md)</strong> 
 Create and returns a new UUID with RFC 4122 version 4 random bytes.
 
+* **func** **hmacSHA256**(**string**: **[String](../gravity/types.md)**, **key**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
+Compute HMAC-SHA256.
+
 * **func** **encodeStringToBase64**(**string**: **[String](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Encode string to base64 string.
 

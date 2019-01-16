@@ -71,6 +71,12 @@ Check if current app is running on Apple Simulator. \(read-only\)
 * **var** **isRealDevice**: **[Bool](../gravity/types.md)**
 Check if current app is running on a real iOS device. \(read-only\)
 
+* **var** **deviceMemory**: **[Float](../gravity/types.md)**
+Retrieve current device memory. \(read-only\)
+
+* **var** **usedMemory**: **[Float](../gravity/types.md)**
+Retrieve memory currently used by the process. \(read-only\)
+
 
 
 ### Methods

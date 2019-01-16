@@ -1,4 +1,4 @@
-**super**: **[DataSet](DataSet.md)**
+**super**: **[BaseDataSet](BaseDataSet.md)**
 
 A FileManager object lets you examine the contents of the file system and make changes to it. A file manager object is typically your primary mode of interaction with the file system. You use it to locate, create, copy, and move files and directories. You also use it to get information about a file or directory or change some of its attributes.
 
@@ -68,7 +68,7 @@ Returns a Boolean value that indicates whether the specified file appears to be 
 * **func** **isDirectory**(**sourceFilePath**: **[String](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value that indicates whether the specified file is a directory.
 
-* **func** **contentsOfDirectory**(**sourceFilePath**: **[String](../gravity/types.md)**): <strong>[List](../gravity/list.md)</strong> 
+* **func** **contentsOfDirectory**(**paramDir**: **[String](../gravity/types.md) = null**): <strong>[List](../gravity/list.md)</strong> 
 Returs a List of url that contains all the files/folders inside the specified directory.
 
 * **func** **readData**(**sourceFilePath**: **[String](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 

@@ -64,6 +64,9 @@ The array of subviews.
 * **var** **autoresizingMask**: **Autoresizing**
 An integer bit mask that determines how the receiver resizes itself when its superview’s bounds change.
 
+* **var** **flex**: **[Flex](Flex.md)**
+FlexBox layout. \(read-only\)
+
 
 
 ### Methods

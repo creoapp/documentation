@@ -50,8 +50,8 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **autoContentSize**: **[Bool](../gravity/types.md)**
-A Boolean value that specifies if template view instance must be kept in sync with current view frame, otherwise content view must be set manually.
+* **var** **autoContentSize**: **[Int](../gravity/types.md)**
+A value that specifies how the view should calculate its size to eventually scroll. With Manual you have to specifiy the size via contentSize and the view may scroll if the size in any direction is bigger than the frame; with Fixed the content size always matches the frame, therefore the content can not scroll by user interaction; with Flex (and if flex is enabled) the size depends on how much space the childrens require along the flex main direction, the view may become scrollable if the display does not fit the space required.
 
 * **var** **rowIndex**: **[Int](../gravity/types.md)**
 Use this property to set row index in case of view used in a controls that require an array of views.

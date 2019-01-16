@@ -1,4 +1,4 @@
-**super**: **[DataSet](DataSet.md)**
+**super**: **[BaseDataSet](BaseDataSet.md)**
 
 The BluetoothCentral class enables you to discover, connect to and communicate with Bluetooth 4.0 low-energy devices.
 

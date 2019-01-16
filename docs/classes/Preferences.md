@@ -1,4 +1,4 @@
-**super**: **[DataSet](DataSet.md)**
+**super**: **[BaseDataSet](BaseDataSet.md)**
 
 A Preferences object lets you manage persistent app's preferences in a convenient key/value form.
 

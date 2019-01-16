@@ -69,7 +69,7 @@ If set to true then captured Image is cropped usign the exact View size.
 Boolean value to indicate if zooming is enabled.
 
 * **var** **useDeviceOrientation**: **[Bool](../gravity/types.md)**
-Boolean value to indicate if device orientation should be taken into account.
+Boolean value to indicate whether the orientation of the captured images should be taken from the device orientation (if set to true) or the interface orientation (if set to false).
 
 * **var** **isFlashAvailable**: **[Bool](../gravity/types.md)**
 Checks if flash is available.

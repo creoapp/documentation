@@ -1,4 +1,4 @@
-**super**: **[DataSet](DataSet.md)**
+**super**: **[BaseDataSet](BaseDataSet.md)**
 
 The GPS class is the central point for configuring the delivery of location and heading related events to your app. You use an instance of this class to establish the parameters that determine when location and heading events should be delivered and to start and stop the actual delivery of those events. You can also use a GPS object to retrieve the most recent location and heading data.
 

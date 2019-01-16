@@ -52,6 +52,15 @@ Returns current application language. \(read-only\)
 * **var** **idleTimerDisabled**: **[Bool](../gravity/types.md)**
 A Boolean value that controls whether the idle timer is disabled for the app. The default value of this property is false. When most apps have no touches as user input for a short period, the system puts the device into a sleep state where the screen dims. This is done for the purposes of conserving power. However, apps that don't have user input except for the accelerometer—games, for instance—can, by setting this property to YES, disable the idle timer to avert system sleep.
 
+* **var** **count**: **[Int](../gravity/types.md)**
+Returns the number of times your application has launched. \(read-only\)
+
+* **var** **memoryChecker**: **[Float](../gravity/types.md)**
+A value (in seconds) to set the frequency of the memory checker to run (set to 0 to disable automatic memory checker).
+
+* **var** **memoryThreshold**: **[Float](../gravity/types.md)**
+This value is a suggestion to the memory checker for a threshold value used to compare with the current memory pressure in order to decide if the garbage collector must be started. This value must be a number higher than 0.0 and lower than 1.0. Values next to zero means use an aggressive strategy, while values next to one means use a more relaxed strategy.
+
 
 
 ### Methods

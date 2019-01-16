@@ -28,6 +28,12 @@ Posted immediately prior to the dismissal of the keyboard.
 * **KeyboardDidHide**(**keyboard**: **[Map](../gravity/map.md)**)
 Posted immediately after the dismissal of the keyboard.
 
+* **WillRotate**(**toOrientation**: **[Int](../gravity/types.md)**, **duration**: **[Float](../gravity/types.md)**)
+Posted immediately prior to rotation of the interface.
+
+* **DidRotate**(**fromOrientation**: **[Int](../gravity/types.md)**)
+Posted immediately after the rotation of the interface.
+
 * **WillHide**()
 Use this event to be notified when navigation is about to be removed from a view hierarchy.
 
@@ -84,6 +90,9 @@ Converts a rectangle from the coordinate system of another view to that of the W
 
 * **func** **convertTo**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**): <strong>[Rect](Rect.md)</strong> 
 Converts a rectangle from the Window’s coordinate system to that of another view.
+
+* **func** **reset**(**forceGarbageCollector**: **[Bool](../gravity/types.md) = true**)
+Free the content of the Window, you can call this method on unused Windows to save memory. If the Window is used after calling the reset method, the content is reloaded just before presenting (before the execution of the WillShow event.
 
 
 

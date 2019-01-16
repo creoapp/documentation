@@ -1,4 +1,4 @@
-**super**: **[DataSet](DataSet.md)**
+**super**: **[BaseDataSet](BaseDataSet.md)**
 
 The HTTPRequest class and the <a href="HTTPClient.html">HTTPClient</a> class enable you to download content via HTTP. An HTTPRequest is always part of an <a href="HTTPClient.html">HTTPClient</a> and defines the request specific properties like the HTTP method, the path of the resource with the possibility to use dynamic values for header, path, query and body parameters.
 
