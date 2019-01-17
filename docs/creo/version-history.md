@@ -1,5 +1,4 @@
 **<span class="label label-release label-version">Creo 2.0</span>January 17th 2019 (Build 16612)**
-### CREO 2.0 is now available, with a lot of changes and improvements.
 * Dark and Light Mojave UI
 * Swift code exporter
 * Flex Layout support
