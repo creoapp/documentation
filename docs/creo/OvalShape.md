@@ -1,17 +1,17 @@
 Represents an oval shape.
 
-![OvalShape](../images/creo/ovalshape1.png)
+![OvalShape](../images/creo2/ovalshape1.png)
 
 ### How to use
 1. Drop a `OvalShape` control from the object panel to a `Window`
 2. Use the `OvalShape Inspector` to customize its properties like `Thickness`, `Border Color`, and `Fill Color`
 
-![`OvalShape` inspector](../images/creo/ovalshape2.png)
+![`OvalShape` inspector](../images/creo2/ovalshape2.png)
 The inspector where the `OvalShape` class can be configured.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 OvalShape1.fillColor = Color.red
