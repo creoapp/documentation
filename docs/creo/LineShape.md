@@ -1,6 +1,6 @@
 Represents a line (with an optional shadow).
 
-![LineShape](../images/creo/lineshape1.png)
+![LineShape](../images/creo2/lineshape1.png)
 
 ### Best practices
 * Use the line shape control in your user interface to separates a control between different sections of the user interface.
@@ -9,12 +9,12 @@ Represents a line (with an optional shadow).
 1. Drop a `LineShape` control from the object panel to a `Window`
 2. Use the `LineShape Inspector` to customize its properties like `Line Orientation` and `Line Color`
 
-![`LineShape` inspector](../images/creo/lineshape2.png)
+![`LineShape` inspector](../images/creo2/lineshape2.png)
 The inspector where the `LineShape` class can be configured.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 LineShape1.isHorizontal = false
