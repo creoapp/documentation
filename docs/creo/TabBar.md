@@ -14,12 +14,12 @@ When an application has multiple sections then `TabBar` is usually the start-up 
 1. For each child customize its `TABBAR Item` by tapping the _(+)_ icon
 
 ### Example
-- Start dropping a `TabBar` into the _LAYOUT_ by tapping the _New Navigation_ button on the _bottom bar_
+- Start dropping a `TabBar` into the _LAYOUT_ by tapping the _New Navigation_ button on the _Objects Bar_
 
 ![New TabBar](../images/creo/TabBar0.png)
 
 - Configure the `TabBar` by adding `Window` or `Navigation` child screens
-- Configure each screen to add a `TABBAR Item` 
+- Configure each screen to add a `TABBAR Item`
 - Keep doing the same until you have a hierarchy like this
 
 ![New TabBar](../images/creo/TabBar5.png)
