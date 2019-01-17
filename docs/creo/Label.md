@@ -1,6 +1,6 @@
 A label describes an onscreen interface element or provides a short message. Although people can’t edit labels, they can sometimes copy the content of labels. Labels can display any amount of static text but are best kept short.
 
-![Label](../images/creo/label1.png)
+![Label](../images/creo2/label1.png)
 
 ### Best practices
 * **Keep labels legible.** Labels can include plain or styled text. If you adjust the style of a label or use custom fonts, be sure to not sacrifice legibility. It’s best to adopt Dynamic Type so your labels still look good when a user changes text size on their device.
@@ -9,12 +9,12 @@ A label describes an onscreen interface element or provides a short message. Alt
 1. Drop a `Label` control from the object panel to a `Window`
 2. Use the `Label Inspector` to customize its properties like `Text` and `Multiline`
 
-![`Label` inspector](../images/creo/label2.png)
+![`Label` inspector](../images/creo2/label2.png)
 The inspector where the `Label` class can be configured.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Label1.text = "Label Text"
