@@ -18,4 +18,4 @@ Creo 2.0 requires a registered email and a license key (also for the free versio
 
 Need further help getting started with Creo? If you ever come across any issues relating to registering Creo, or anything else, then you can find more helpful information here as well as in our [Support](https://creolabs.com/support) section.
 
-We hope you enjoy using Creo!
+<strong>We hope you enjoy using Creo!</strong>
