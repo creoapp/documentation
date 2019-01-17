@@ -1,6 +1,6 @@
 Carousel is a class designed to simplify the implementation of various types of carousel (paged, scrolling views). Carousel implements a number of common effects such as cylindrical, flat and CoverFlow style carousels, as well as providing hooks to implement your own bespoke effects. Carousel can work with any kind of view, not just images, so it is ideal for presenting paged data in a fluid and impressive way in your app. It also makes it extremely easy to swap between different carousel effects with minimal code changes.
 
-![Carousel](../images/creo2/carousel2.png)
+![Carousel](../images/creo2/carousel1.png)
 
 ### Best practices
 * **Carousel can work with any kind of view.** Not just images, so it is ideal for presenting paged data in a fluid and impressive way in your app.
