@@ -15,10 +15,11 @@ A scroll view allows users to browse content that’s larger than the visible ar
 
 ![Creo](../images/creo/view2.png)
 
-In order to configure ScrollView, you need to set a template for a View (see CustomView below) and then uncheck the **Auto Content Size** setting. By using the Size and Scroll setting (in the Geometry panel) you'll be able to configure ScrollView behavior.
+In order to configure ScrollView, you can set a template for a View (see CustomView below) and then set the **Auto Content Size** property to `Manual` and the desired value in the **Size** property. By using the Size and Scroll setting (in the Geometry panel) you'll be able to configure ScrollView behavior.
+For advanced and dynamic layouts, you can use [Flex](flex.html).
 
 ### Draw Programmatically
-There are times when you really need to use Gravity code in order to draw inside a View. In this case, you can use the Draw event. We use that event to implement the [Freehand Drawing](https://docs.creolabs.com/tutorials/freehand-drawing.html) tutorial.
+There are times when you really need to use Gravity code in order to draw inside a View. In this case, you can use the Draw event. We use that event to implement the [Freehand Drawing](../tutorials/freehand-drawing.html) tutorial.
 
 ![Creo](../images/creo/view3.png)
 
@@ -31,7 +32,7 @@ If you double click a View or if you drop a View in the Templates folder then yo
 * [Carousel](../classes/Carousel.html)
 
 
-Once a CustomView has been created it will be globally visible from the Inspector for all the controls that can accept it.
+Once a CustomView has been created it will be globally visible from the Inspector for all the controls that can accept it.  
 ![Creo](../images/creo/controls_customization_2.png)
 
 ### Configuring a CustomView
@@ -48,13 +49,10 @@ In this case what you want is a CustomView with three properties:
 These configurations can be easily created using drag and drop from the control **[binding anchor point](bindings.html)** to the Exposed Properties inspector panel.
 Once a property has been exposed you can access it from the containers inspector or from the code editor using the dot notation.
 
-
 ![Creo](../images/creo/controls_customization_3.png)
 
-![Creo](../images/creo/controls_customization_4.png)
-
 ### Connecting a CustomView
-In order to connect a CustomView to a container control just select the container control from the Layout pane (a TableView in this example) and choose the CustomView from the Templates properties inspector. Selected control immediately reflects the user interface change and the inspector will list the CustomView exposed properties under the Cell Properties section.
+In order to connect a CustomView to a container control just select the container control from the Layout pane (a TableView in this example) and choose the CustomView from the Templates properties inspector. Selected control immediately reflects the user interface change and the inspector will list the CustomView exposed properties under the Cell CustomView Properties section.
 ![Creo](../images/creo/controls_customization_5.png)
 
 To display real data you need to connect the container control with a **[DataSet](dataset.html)** and then bound DataSet properties to cell properties directly from the Inspector.
