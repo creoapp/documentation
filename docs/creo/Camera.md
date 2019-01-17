@@ -1,6 +1,6 @@
 A Camera object represents a physical capture device and the properties associated with that device. You use a capture device to configure the properties of the underlying hardware. A capture device also provides input data, such as audio or video.
 
-![Camera](../images/creo/camera1.png)
+![Camera](../images/creo2/camera1.png)
 
 ### How to use
 1. Drop a `Camera` control from the object panel to a `Window`
@@ -8,15 +8,15 @@ A Camera object represents a physical capture device and the properties associat
 
 If you need to write code for Camera:
 
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `NewImage` or `NewVideo` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`Camera` inspector](../images/creo/camera2.png)
+![`Camera` inspector](../images/creo2/camera2.png)
 The inspector where the `Camera` class can be configured.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Camera1.capture()
