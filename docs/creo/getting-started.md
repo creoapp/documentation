@@ -8,11 +8,11 @@ In order to use the latest version of Creo, you must be running OS X El Capitan 
 
 ### Downloading and registering Creo
 
-If you haven’t done so already, you can download a free version of Creo from [https://creolabs.com/download](https://creolabs.com/download). You can use the free version as long as you want and you'll be able to build applications for your devices (no App Store deployment). Some features like Analytics and Code Exporting are disabled. If you need to publish on the App Store or have access to all the features then you need to [purchase a plan](https://creolabs.com/store).
-
-Creo 2.0 requires a registered email and a license key (also for the free version), if you want to test it just select "Use Free" in the Registration Dialog.
+If you haven’t done so already, you can download the latest Creo version from [https://creolabs.com/download](https://creolabs.com/download). You can use Creo for free  as long as you want with some limitations. No App Store deployment, no Analytics and no Code Exporting. If you need to publish on the App Store or have access to all the features then you need to [purchase a plan](https://creolabs.com/store).
 
 ![Register Creo](creo_register.png)
+
+Creo 2.0 requires a registered email and a license key (also for the free version), if you want to test it just select "Use Free" in the Registration Dialog.
 
 ### Contacting Support
 
