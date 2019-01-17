@@ -6,15 +6,15 @@ Creo is the next generation mobile app development tool that lets you combine de
 
 Every mobile application requires three basic fundamental steps:
 
-**1.** a way to navigate between different parts of your application
-**2.** a way to show information to the end user
-**3.** a way to retrieve and transform data from different sources
+1. a way to navigate between different parts of your application
+2. a way to show information to the end user
+3. a way to retrieve and transform data from different sources
 
 Creo lets you: 
 
-**1.** visually compose complex navigation hierarchy in the [Layout](layout.md) panel
-**2.** build fully featured and rich interface in the [Design Board](design-board.md)
-**3.** connect data to the user interface using [DataSet](dataset.md) like databases, HTTP requests, files, sensors and much more
+1. visually compose complex navigation hierarchy in the [Layout](layout.md) panel
+2. build fully featured and rich interface in the [Design Board](design-board.md)
+3. connect data to the user interface using [DataSet](dataset.md) like databases, HTTP requests, files, sensors and much more
 
 ### MVC pattern, the right way
 
