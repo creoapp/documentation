@@ -1,4 +1,4 @@
-![Getting Started with Creo](../images/creo2/creo_intro_1.png)
+![Getting Started with Creo](creo_intro_1.png)
 
 Welcome to the user manual for Creo. This documentation will help you become familiar with the powerful set of features available in Creo. Creo is an advanced macOS application that helps you create native mobile applications much faster than with others traditional tools. Creo combines the traditional design and development phases process into one highly optimized and easy-to-use tool. 
 
@@ -12,7 +12,7 @@ If you haven’t done so already, you can download a free version of Creo from [
 
 Creo 2.0 requires a registered email and a license key (also for the free version), if you want to test it just select "Use Free" in the Registration Dialog.
 
-![Register Creo](../images/creo2/creo_register.png)
+![Register Creo](creo_register.png)
 
 ### Contacting Support
 
