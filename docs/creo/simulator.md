@@ -1,6 +1,6 @@
-Much of the time **Creo** will show runtime data directly into the Design Board without requiring any further interaction from your side. If you want to start executing your app inside the built-in Creo simulator just press the Play button on the toolbar.
+Much of the time Creo will show runtime data directly into the Design Board without requiring any further interaction from your side. If you want to start executing your app inside the built-in Creo simulator just press the Play button on the main toolbar.
 
-![Creo](../images/creo/simulator.png)
+![Creo](simulator.png)
 
 Once pressed a new simulator instance will be created and all your runtime code will be executed immediately. Simulator size and orientation will automatically reflect device type and orientation currently selected into the Design Board.
 
