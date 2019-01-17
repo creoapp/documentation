@@ -117,4 +117,3 @@ Let's put some margins around the fields
 
 That's it! you have the base of form layout. If you add other views between the rows (ie a label to describe a category of fields) you can see the layout adapting.
 
-Next.. flexible content size (coming soon)

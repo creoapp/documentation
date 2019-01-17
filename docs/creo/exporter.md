@@ -1,4 +1,4 @@
-Creo exporter's mission is being able to generate a __readable__ and __simple to mantain__ native project (ie. for XCode) that any developer can open and build with native tools. Any exported project can be customised and re-exported without losing your changes.
+Creo exporter's mission is being able to generate a __readable__ and __simple to mantain__ native project (ie. for XCode) that any developer can open and build with native tools. The exporter generates two set of class files, the private ones containing the exported views and their customisation. These files acts as a base class for the public ones that can be freely edited by the user because they are never overwritten. **Exporting more than once is a safe operation if you don’t modify the private files.**
 
 ### Exported objects
 
@@ -334,7 +334,7 @@ At the moment the exporter is under heavy development and things change fast; no
 
 Animations and color gradients are not exported too.
 
-### Roadmap
+### Year 2019 Roadmap
 
 The general roadmap is the following:
 
