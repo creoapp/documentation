@@ -6,7 +6,6 @@
 	   <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;SEARCH PANEL</h4>
 	   <p style="color: #9e9e9e; margin-left: 36px;">Used to perform global search in the current project.</p>
 	   </div>
-	   
 	   <div class="col-lg-6">
 	   <h4 class="title-badge"><span class="number-badge"><span>2</span></span>&nbsp;&nbsp;&nbsp;TOOLBAR</h4>
 	   <p style="color: #9e9e9e; margin-left: 36px;">The toolbar lets you perform global actions related your project:</p>
