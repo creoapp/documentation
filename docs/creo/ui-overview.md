@@ -4,8 +4,7 @@
 	<div class="row">
 	   <div class="col-lg-6">
 	   <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;SEARCH PANEL</h4>
-	   <p style="color: #9e9e9e; margin-left: 36px;">Used to perform global search in the current project.</p>
-	   <p>Terms are searched in both layout, source code and object names.</p>
+	   <p style="color: #9e9e9e; margin-left: 36px;">Used to perform global search in the current project. Terms are searched in both layout, source code and object names.</p>
 	   </div>
 	   <div class="col-lg-6">
 	   <h4 class="title-badge"><span class="number-badge"><span>2</span></span>&nbsp;&nbsp;&nbsp;TOOLBAR</h4>
