@@ -2,7 +2,6 @@
 
 <div class="container">
 	<div class="row">
-	
 	   <div class="col-lg-6">
 	   <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;SEARCH PANEL</h4>
 	   <p style="color: #9e9e9e; margin-left: 36px;">Used to perform global search in the current project.</p>
