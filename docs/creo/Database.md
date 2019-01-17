@@ -41,7 +41,7 @@ Using the UI a new SQL query is created by tapping the (+) button of a database.
 
 **Note:** to help writing correct queries the tool supports dragging fields from the left pane to the right pane.
 
-In Creo any database query is also a `Dataset` and can be used as an input to populate any UI control that requires one. 
+In Creo any database query is also a `Dataset` and can be used as an input to populate any UI control that requires one.
 
 For instance, controls like `TableView`, `CollectionView` and `PageProvider` all requires a `Dataset`.
 
@@ -49,23 +49,23 @@ For instance, controls like `TableView`, `CollectionView` and `PageProvider` all
 Gravity can be used to interact with databases by code; you can call methods of a query object created by the UI or use the methods provided by the database object to write and execute plain sql.
 
 ### Using Gravity with a UI generated query
-Let's say you have a database named `SQLite1` and a query named `users`.
+Let's say you have a database named `SQLiteDatabase1` and a query named `users`.
 
-From Gravity `SQLite1.users` is an object of type [RecordSet](../classes/RecordSet.html)
+From Gravity `SQLiteDatabase1.users` is an object of type [RecordSet](../classes/RecordSet.html)
 
 to run the query and wait for the result you have to _bind_ the `DidFinish` event of the object and then all `run`:
 
 ```
 var finish = {
     Console.write("Did Finish fired")
-    while (SQLite1.users.hasRow) {
-        Console.write("ID: \(SQLite1.users.id)")
-        SQLite1.users.moveNext()
+    while (SQLiteDatabase1.users.hasRow) {
+        Console.write("ID: \(SQLiteDatabase1.users.id)")
+        SQLiteDatabase1.users.moveNext()
     }
 }
 
-SQLite1.users.bind("DidFinish", finish)
-SQLite1.users.run()
+SQLiteDatabase1.users.bind("DidFinish", finish)
+SQLiteDatabase1.users.run()
 ```
 
 Binding by code is not mandatory, you can also write the code directly in the code editor:
@@ -80,10 +80,10 @@ Binding by code is not mandatory, you can also write the code directly in the co
 **Beware, `run` is an async call:** sometimes you may be tempted to write:
 
 ```
-SQLite1.users.run()
-while (SQLite1.users.hasRow) {
-        Console.write("ID: \(SQLite1.users.id)")
-        SQLite1.users.moveNext()
+SQLiteDatabase1.users.run()
+while (SQLiteDatabase1.users.hasRow) {
+        Console.write("ID: \(SQLiteDatabase1.users.id)")
+        SQLiteDatabase1.users.moveNext()
 }
 ```
 
@@ -94,24 +94,24 @@ unfortunately, this is an **error** and is not guaranteed to work; `run` is an a
 `RecordSet` has several methods and provides an easy way to change the plain sql code too:
 
 ```
-SQLite1.users.sql = "select * from users where name = 'nicola'"
-SQLite1.users.run()
+SQLiteDatabase1.users.sql = "select * from users where name = 'nicola'"
+SQLiteDatabase1.users.run()
 ```
 
 it also offers a convenient way to access the row result by their column's name, ie in this case the table _users_ has 3 columns, _id_, _name_ and _surname_:
 
 ```
 ...
-Console.write("ID: \(SQLite1.users.id)")
-Console.write("Name: \(SQLite1.users.name)")
-Console.write("Surname: \(SQLite1.users.surname)")
+Console.write("ID: \(SQLiteDatabase1.users.id)")
+Console.write("Name: \(SQLiteDatabase1.users.name)")
+Console.write("Surname: \(SQLiteDatabase1.users.surname)")
 ...
 ```
 
-where `SQLite1` is the dabatase, `users` is the query and `id` `name` `surname` are the column's name.
+where `SQLiteDatabase1` is the dabatase, `users` is the query and `id` `name` `surname` are the column's name.
 
 ### Using Gravity with custom sql
-Let's say you have an `SQLite` database named `SQLite1` with a table named `users`.
+Let's say you have an `SQLite` database named `SQLiteDatabase1` with a table named `users`.
 
 For reference in _Gravity_ the database object is of type [SQLiteDatabase](../classes/SQLiteDatabase.html) and we start by connecting to the database.
 
@@ -125,7 +125,7 @@ Both ways use the method `connect`
 Synchronous, no parameters
 
 ```
-if (SQLite1.connect() == true) {
+if (SQLiteDatabase1.connect() == true) {
     Console.write("Connected")
 } else {
     Console.write("Error connecting")
@@ -152,7 +152,7 @@ Both methods works like the connect, they accept one parameter with the plain sq
 Synchronous
 ```
 var sql = "SELECT * FROM users"
-var recordSet = SQLite1.select(sql)
+var recordSet = SQLiteDatabase1.select(sql)
 ...
 ```
 
@@ -167,5 +167,5 @@ var onError = func(db, recordSet) {
 }
 
 var sql = "SELECT * FROM users"
-SQLite1.select(sql, onSuccess, onError)
+SQLiteDatabase1.select(sql, onSuccess, onError)
 ```
