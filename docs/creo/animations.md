@@ -6,7 +6,7 @@ Unfortunately creating efficient animations is not an easy task, you need to kno
 
 By default, once finished, animations will restore all values to the initial state. If you want the animation to remains at the final state, then check the **Preserve final state** setting in the Animation inspector.
 
-![Creo](../images/creo/creo_animations_1.png)
+![Creo](creo_animations_1.png)
 
 ### Creating animation with code
 
