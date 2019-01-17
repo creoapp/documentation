@@ -5,6 +5,7 @@
 	   <div class="col-lg-6">
 	   <h4 class="title-badge"><span class="number-badge"><span>1</span></span>&nbsp;&nbsp;&nbsp;SEARCH PANEL</h4>
 	   <p style="color: #9e9e9e; margin-left: 36px;">Used to perform global search in the current project.</p>
+	   <p>Terms are searched in both layout, source code and object names.</p>
 	   </div>
 	   <div class="col-lg-6">
 	   <h4 class="title-badge"><span class="number-badge"><span>2</span></span>&nbsp;&nbsp;&nbsp;TOOLBAR</h4>
@@ -13,7 +14,7 @@
 			<li>Run project in Simulator</li>
 			<li>Send project to an iOS device (via WiFi or USB)</li>
 			<li>Build application IPA</li>
-			<li>Switch between Design and Code mode</li>
+			<li>Switch between Design and Code</li>
 	   </ul>
 	   </div>
 	</div>
@@ -38,9 +39,6 @@
 		<div class="col-lg-6">
 		<h4 class="title-badge"><span class="number-badge"><span>5</span></span>&nbsp;&nbsp;&nbsp;DESIGN BOARD</h4>
 		<p style="color: #9e9e9e; margin-left: 36px;">Offers a visual representation of your app that can be easily modified with drag and drop.</p>
-		<ul>
-			<li>Selected Window preview</li>
-		</ul>
 		</div>
 		<div class="col-lg-6">
 		<h4 class="title-badge"><span class="number-badge"><span>6</span></span>&nbsp;&nbsp;&nbsp;OBJECTS</h4>
