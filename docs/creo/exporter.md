@@ -1,10 +1,8 @@
-Creo exporter's mission is being able to generate a __readable__ and __simple to mantain__ native project (ie. for XCode) that any developer can open and build with native tools.
+Creo exporter's mission is being able to generate a __readable__ and __simple to mantain__ native project (ie. for XCode) that any developer can open and build with native tools. Any exported project can be customised and re-exported without losing your changes.
 
-Look at our [Roadmap](#roadmap) and a glimpse into what to expect in 2019.
+### Exported objects
 
-## Exported objects
-
-__Creo__ with the 1st exporter release can export a __Swift__ project where all views and windows are in it. **Logic is not exported** yet, just the view hierarchies.
+With this first exporter, Creo can export a __Swift__ project where all views and windows are in it. **Logic is not exported** yet, just the view hierarchies (this feature will be added pretty soon).
 
 - Views becomes native `UIKit` views (ie. `UILabel`, `UITextField` etc) and have all native properties set one by one as configured in Creo inspectors.
 
@@ -320,7 +318,7 @@ view.setImage(UIImage.CREO.min, for: .normal)
 ...
 ```
 
-## Limits
+### Limits
 
 At the moment the exporter is under heavy development and things change fast; non native __UIKit__ views will be exported as simple empty `UIView` until the release of __CREOFramework__ (mid/late 2019)
 
@@ -336,7 +334,7 @@ At the moment the exporter is under heavy development and things change fast; no
 
 Animations and color gradients are not exported too.
 
-## Roadmap
+### Roadmap
 
 The general roadmap is the following:
 
