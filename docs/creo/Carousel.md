@@ -1,6 +1,6 @@
 Carousel is a class designed to simplify the implementation of various types of carousel (paged, scrolling views). Carousel implements a number of common effects such as cylindrical, flat and CoverFlow style carousels, as well as providing hooks to implement your own bespoke effects. Carousel can work with any kind of view, not just images, so it is ideal for presenting paged data in a fluid and impressive way in your app. It also makes it extremely easy to swap between different carousel effects with minimal code changes.
 
-![Carousel](../images/creo/carousel1.png)
+![Carousel](carousel1.png)
 
 ### Best practices
 * **Carousel can work with any kind of view.** Not just images, so it is ideal for presenting paged data in a fluid and impressive way in your app.
@@ -11,7 +11,7 @@ Carousel is a class designed to simplify the implementation of various types of 
 
 If you need to write code for Carousel:
 
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `DidSelectCell` item inside the `Events` area and write your custom code in the `Code Editor`
 
 ![`Carousel` inspector](../images/creo/carousel2.png)
@@ -31,13 +31,13 @@ The `Carousel` cell.
 
 ### Example
 1. Drop a `Slider` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Carousel1.currentItemIndex = Slider1.value
 ```
 4. Drop a `Button` control from the object panel to a `Window`
-5. Open the `Code Editor` (cmd + 6)
+5. Open the `Code Editor`
 6. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Slider1.maximumValue = Carousel1.numberOfItems
