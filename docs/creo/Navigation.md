@@ -11,17 +11,17 @@ A common App schema is to have a root `Window` like a [TabBar](tabbar) and a `Na
 If the navigation is not in a single direction (from generic to detail and viceversa) then `Navigation` may not be appropriate.
 
 ### How to use
-1. Drop a `Navigation` and customize the main `Navigation Bar`
-1. Drop 1 or more child `Window`
+1. Create a new `Navigation` and customize the main `Navigation Bar`
+1. Create 1 or more child `Window`
 1. For each child `Window` customize its `Navigation Bar` subsettings (bar visibility, title, prompt and buttons)
 1. Add or remove `Window` by _code_ or by _actions_
 
 ### Example
-- Start adding a `Navigation` by tapping the _New Navigation_ button on the _bottom bar_
+- Start adding a `Navigation` by tapping the _New Navigation_ button on the _Objects Bar_ over the _Objects Panel_
 
 ![New Navigation](../images/creo/Navigation14.png)
 
-- Configure the `Navigation` appearance and the application hierarchy by adding `Window`child screens
+- Configure the `Navigation` appearance and the application hierarchy by adding `Window` child screens (ref: [Window](Window.html))
 - Configure each screen to add a `TABBAR Item`
 - keep doing the same until you have a hierarchy like this
 
@@ -62,17 +62,9 @@ To pop to the root level:
 Navigation1.popToRootWindow()
 ```
 
-### Interacting using Actions
-1. select the `Button1` _Actions_ tab
-1. select _Event_ -> _Action_ and tap _Add_
-1. select _Open_ -> _Details1_
-1. select _In_ -> _Current_
-1. select _Using_ -> _Default_
-
-![Simple navigation controller](../images/creo/Navigation10.png)
-
 ### Customize a navigation bar
-The navigation bar can be customized by tapping the `Window` subnode icons (+).
+The content of the navigation bar depends on the navigation-related properties of the `Window` subnodes.
+You can customize the navigation-related properties of a `Window` by tapping the `Window` icon (+).
 
 ![Custom navigation controller](../images/creo/Navigation1.png)
 
@@ -100,7 +92,7 @@ Several UI aspects can be configured but the most used are:
 
 ![Inspector](../images/creo/Navigation_inspector.png)
 
-![Large navigation bar](../images/creo/Navigation12.png)
+![Compact navigation bar](../images/creo/Navigation12.png)
 Compact navigation bar.
 
 ![Large navigation bar](../images/creo/Navigation9.png)
