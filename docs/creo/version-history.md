@@ -1,3 +1,12 @@
+**<span class="label label-release label-version">Creo 2.0</span>January 17th 2019 (Build 16612)**
+### CREO 2.0 is now available, with a lot of changes and improvements.
+* Dark and Light Mojave UI
+* Swift code exporter
+* Flex Layout support
+* New DataSet classes for files and user's code
+* Tons of others internal fixes and improvements
+* **[CreoPlayer 2.0](https://creolabs.com/creoplayer)** is available now via TestFlight
+
 **<span class="label label-release label-version">Creo 1.2.2</span>December 12th 2018 (Build 15618)**
 * Added cubeSQL support
 * Added isCreoKit, isCreoPlayer and isRealDevice to Device class
