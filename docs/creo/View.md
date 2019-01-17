@@ -52,7 +52,7 @@ Once a property has been exposed you can access it from the containers inspector
 ![Creo](../images/creo/controls_customization_3.png)
 
 ### Connecting a CustomView
-In order to connect a CustomView to a container control just select the container control from the Layout pane (a TableView in this example) and choose the CustomView from the Templates properties inspector. Selected control immediately reflects the user interface change and the inspector will list the CustomView exposed properties under the Cell Properties section.
+In order to connect a CustomView to a container control just select the container control from the Layout pane (a TableView in this example) and choose the CustomView from the Templates properties inspector. Selected control immediately reflects the user interface change and the inspector will list the CustomView exposed properties under the Cell CustomView Properties section.
 ![Creo](../images/creo/controls_customization_5.png)
 
 To display real data you need to connect the container control with a **[DataSet](dataset.html)** and then bound DataSet properties to cell properties directly from the Inspector.
