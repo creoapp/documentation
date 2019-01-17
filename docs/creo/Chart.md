@@ -1,6 +1,6 @@
 The Chart class offers a built-in and ready to use control to easily display a graphical representation of data. Chart supports five type of graphs representation: Bar, Pie, Line, Area and Scatter.
 
-![Chart](../images/creo/chart1.png)
+![Chart](../images/creo2/chart1.png)
 
 ### Best practices
 * **Select the chart type that represents better your data.** You can change a chart from one type to another—for example, from a pie chart to a bar chart, or from a line chart to an area chart.
@@ -9,15 +9,15 @@ The Chart class offers a built-in and ready to use control to easily display a g
 1. Drop a `Chart` control from the object panel to a `Window`
 2. Use the `Chart Inspector` to customize its properties like `Type`, `Colors`, and `DataSet`
 
-![`Chart` inspector](../images/creo/chart2.png)
+![`Chart` inspector](../images/creo2/chart2.png)
 The inspector where the `Chart` class can be configured.
 
-![`Chart` types](../images/creo/chart3.png)
+![`Chart` types](../images/creo2/chart3.png)
 The  `Chart` types.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Chart1.chartType = ChartType.Area
