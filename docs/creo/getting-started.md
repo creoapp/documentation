@@ -1,16 +1,18 @@
-![Getting Started with Creo](../images/creo/creo_intro_1.png)
+![Getting Started with Creo](../images/creo2/creo_intro_1.png)
 
-Welcome to the user manual for Creo. This documentation will help you become familiar with the powerful set of features available in Creo. Creo is an advanced MacOS application that helps you create native mobile applications much faster than with others traditional tools. Creo combines the traditional design and development phases process into one highly optimized and easy-to-use tool. 
+Welcome to the user manual for Creo. This documentation will help you become familiar with the powerful set of features available in Creo. Creo is an advanced macOS application that helps you create native mobile applications much faster than with others traditional tools. Creo combines the traditional design and development phases process into one highly optimized and easy-to-use tool. 
 
 ### Minimum Requirements
 
-In order to use the latest version of Creo, you must be running Mac OS X Yosemite (version 10.10.0) or higher. Creo is about 140MB in size so you don’t need to have gigabytes of free space, and runs perfectly on any machine from MacBook Air to Mac Pro.
+In order to use the latest version of Creo, you must be running OS X El Capitan (version 10.11) or higher. Creo is about 140MB in size so you don’t need to have gigabytes of free space, and runs perfectly on any machine from MacBook Air to Mac Pro.
 
 ### Downloading and registering Creo
 
-If you haven’t done so already, you can download a free trial of Creo [here](https://creolabs.com/download). You can use the free version as long as you want but if you need access to advanced features and if you want the "Made with Creo" startup splash screen removed from the iOS build then you need to register your copy.
+If you haven’t done so already, you can download a free version of Creo from [https://creolabs.com/download](https://creolabs.com/download). You can use the free version as long as you want and you'll be able to build applications for your devices (no App Store deployment). Some features like Analytics and Code Exporting are disabled. If you need to publish on the App Store or have access to all the features then you need to [purchase a plan](https://creolabs.com/store).
 
-To register your copy of Creo, launch the app and choose **Creo** **›** **Registration** from the menu.
+Creo 2.0 requires a registered email and a license key (also for the free version), if you want to test it just select "Use Free" in the Registration Dialog.
+
+![Register Creo](../images/creo2/creo_register.png)
 
 ### Contacting Support
 
