@@ -1,17 +1,17 @@
 A MoviePlayer manages the playback of a movie from a file or a network stream. Playback occurs in a view owned by the movie player and takes place either fullscreen or inline.
 
-![MoviePlayer](../images/creo/movieplayer1.png)
+![MoviePlayer](../images/creo2/movieplayer1.png)
 
 ### How to use
 1. Drop a `MoviePlayer` control from the object panel to a `Window`
 2. Use the `MoviePlayer Inspector` to customize its properties like `Remote File`, `Local File`, and `Scaling Mode`
 
-![`MoviePlayer` inspector](../images/creo/movieplayer2.png)
+![`MoviePlayer` inspector](../images/creo2/movieplayer2.png)
 The inspector where the `MoviePlayer` class can be configured.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 MoviePlayer1.contentPath = "Add your movie path here..."
