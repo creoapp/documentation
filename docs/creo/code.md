@@ -26,10 +26,10 @@ In order to know which methods and properties an object can respond to you can c
 
 When a property is transformed into a computed property, it can be much more than a simple static value. It can hide a lot of implementation details and it can be used as a way to add a lot of power to your custom classes.
 
-For example, if you add a ```state``` property to a Window then it will represent a static information that you can use later in your programming logic but if you transform that variable to a computed property (right-click on its name) then you can add a lot of logic when it is set (written) or get (read).
+For example, if you add a ```state``` property to a Slider1 object then it will represent a static information that you can use later in your programming logic but if you transform that variable to a computed property (right-click on its name) then you can add a lot of logic when it is set (written) or get (read).
 
 ![Creo](../images/creo/code_2.png)
 
-The ```get``` section represents the code that needs to be executed when your property is read or accessed in your code (for example in ```var myState = Window1.state```). The _set_ section represents the code that needs to be executed when your property is written (for example in ```Window1.state = myState```).
+The ```get``` section represents the code that needs to be executed when your property is read or accessed in your code (for example in ```var myState = Slider1.state```). The _set_ section represents the code that needs to be executed when your property is written (for example in ```Slider1.state = myState```).
 
 ![Creo](../images/creo/code_3.png)
