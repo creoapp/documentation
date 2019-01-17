@@ -12,7 +12,7 @@ If you haven’t done so already, you can download the latest Creo version from 
 
 ![Register Creo](creo_register.png)
 
-Creo 2.0 requires a registered email and a license key (also for the free version), if you want to test it just select "Use Free" in the Registration Dialog.
+Creo 2.0 requires a registered email and a license key (also for the free version), if you want to test Creo for free, then insert a valid email and select <strong>Use Free</strong> in the Registration Dialog.
 
 ### Contacting Support
 
