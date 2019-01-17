@@ -40,7 +40,7 @@
 		<p style="color: #9e9e9e; margin-left: 36px;">Offers a visual representation of your app that can be easily modified with drag and drop.</p>
 		</div>
 		<div class="col-lg-6">
-		<h4 class="title-badge"><span class="number-badge"><span>6</span></span>&nbsp;&nbsp;&nbsp;OBJECTS</h4>
+		<h4 class="title-badge"><span class="number-badge"><span>6</span></span>&nbsp;&nbsp;&nbsp;OBJECTS PANEL</h4>
 		<p style="color: #9e9e9e; margin-left: 36px;">Provides all the controls and objects that can be used in your app.</p>
 		</div>
 	</div>
