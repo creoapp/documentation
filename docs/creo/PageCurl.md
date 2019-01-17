@@ -14,7 +14,7 @@ When a `PageCurl` or `PageScroll` is used, pages flow sequentially and there’s
 The inspector where the `PageCurl` class can be configured.
 
 ### Example
-- Start adding a `PageCurl` by tapping the _New Navigation_ button on the _bottom bar_
+- Start adding a `PageCurl` by tapping the _New Navigation_ button on the _Objects Bar_
 
 ![New Navigation](../images/creo/PageCurl2.png)
 

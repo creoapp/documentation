@@ -6,14 +6,14 @@ A `PageScroll` provides a way to implement linear navigation between pages of co
 When a `PageCurl` or `PageScroll` is used, pages flow sequentially and there’s no way to jump between nonadjacent pages. If people may need to access pages out of sequence in your app, implement a custom control that provides this functionality.
 
 ### How to use
-1. Drop a `PageScroll` 
+1. Drop a `PageScroll`
 2. Use the `PageScroll Inspector` to customize its scrolling direction (`Style`)
 
 ![PageScroll inspector](../images/creo/PageScroll_inspector.png)
 The inspector where the `PageSroll` class can be configured.
 
 ### Example
-- Start adding a `PageScroll` by tapping the _New Navigation_ button on the _bottom bar_
+- Start adding a `PageScroll` by tapping the _New Navigation_ button on the _Objects Bar_
 
 ![New Navigation](../images/creo/PageScroll1.png)
 
