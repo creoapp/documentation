@@ -1,5 +1,5 @@
-Once you are ready to test your application to a real device or once you are ready to submit it to the App Store you can compile your project directly within **Creo**. Just select Build Application from Creo's toolbar and a new dialog will appear.
-![Creo](../images/creo/creo_build_your_app_1.png)
+Once you are ready to test your application to a real device or once you are ready to submit it to the App Store you can compile your project directly within Creo. Just select Build Application from Creo's toolbar and a new dialog will appear.
+![Creo](creo_submit_your_app_1.png)
 
 The build application process will end up with an IPA file ready to be submitted to the iOS App Store or ready to be transferred to your device. An IPA is a special file that contains iOS executables, resources and certificates needed to run your app on a real device.
 
