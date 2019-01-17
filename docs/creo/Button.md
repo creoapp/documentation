@@ -1,6 +1,6 @@
 Buttons initiate app-specific actions, have customizable backgrounds, and can include a title or an icon. The system provides a number of predefined button styles for most use cases. You can also design fully custom buttons.
 
-![Button](../images/creo/button1.png)
+![Button](../images/creo2/button1.png)
 
 ### Best practices
 * **Use verbs in titles.** An action-specific title shows that a button is interactive and says what happens when you tap it.
@@ -14,14 +14,14 @@ Buttons initiate app-specific actions, have customizable backgrounds, and can in
 
 If you need to write code for Button:
 
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`Button` inspector](../images/creo/button2.png)
+![`Button` inspector](../images/creo2/button2.png)
 The inspector where the `Button` class can be configured.
 
 ### Example
-1. Open the `Code Editor` (cmd + 6)
+1. Open the `Code Editor`
 2. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 var alert = Alert("Title", "Message")
@@ -33,7 +33,7 @@ Several UI aspects can be configured in the `Button` class but the `Title` and `
 - `Title`: You can specify a button’s title and customize its typographic properties.
 - `Style`: Specifies the style of a button.
 
-![The `Button` styles](../images/creo/button3.png)
+![The `Button` styles](../images/creo2/button3.png)
 The `Button` styles.
 
 ### References
