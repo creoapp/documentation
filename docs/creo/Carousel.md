@@ -1,6 +1,6 @@
 Carousel is a class designed to simplify the implementation of various types of carousel (paged, scrolling views). Carousel implements a number of common effects such as cylindrical, flat and CoverFlow style carousels, as well as providing hooks to implement your own bespoke effects. Carousel can work with any kind of view, not just images, so it is ideal for presenting paged data in a fluid and impressive way in your app. It also makes it extremely easy to swap between different carousel effects with minimal code changes.
 
-![Carousel](carousel1.png)
+![Carousel](../images/creo2/carousel2.png)
 
 ### Best practices
 * **Carousel can work with any kind of view.** Not just images, so it is ideal for presenting paged data in a fluid and impressive way in your app.
@@ -14,19 +14,19 @@ If you need to write code for Carousel:
 3. Open the `Code Editor`
 4. Select the `DidSelectCell` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`Carousel` inspector](../images/creo/carousel2.png)
+![`Carousel` inspector](../images/creo2/carousel2.png)
 The inspector where the `Carousel` class can be configured.
 
 ### How to customize
 The `Carousel` can be customized by tapping the subnode icons (+).
 
-![`Carousel` customizations](../images/creo/carousel3.png)
+![`Carousel` customizations](../images/creo2/carousel3.png)
 The `Carousel` customizations.
 
 ### CarouselCell
 A `CarouselCell` for placement on a `Carousel` that can be configured by dropping a control like `ImageView` and `Label`.
 
-![`Carousel` cell](../images/creo/carousel4.png)
+![`Carousel` cell](../images/creo2/carousel4.png)
 The `Carousel` cell.
 
 ### Example
