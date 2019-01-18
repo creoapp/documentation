@@ -1,17 +1,17 @@
 Represents a rectangle shape (with optional rounded corners).
 
-![RectShape](../images/creo/rectshape1.png)
+![RectShape](../images/creo2/rectshape1.png)
 
 ### How to use
 1. Drop a `RectShape` control from the object panel to a `Window`
 2. Use the `RectShape Inspector` to customize its properties like `Fill Color`, `Thickness`, `Radius`, and `Border Color`
 
-![`RectShape` inspector](../images/creo/rectshape2.png)
+![`RectShape` inspector](../images/creo2/rectshape2.png)
 The inspector where the `RectShape` class can be configured.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 RectShape1.fillColor = Color.red
