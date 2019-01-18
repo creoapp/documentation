@@ -1,6 +1,6 @@
 A text field is a single-line, fixed-height field, often with rounded corners, that automatically brings up a keyboard when the user taps it. Use a text field to request a small amount of information, such as an email address.
 
-![TextField](../images/creo/textfield1.png)
+![TextField](../images/creo2/textfield1.png)
 
 ### Best practices
 * **Show a hint in a text field to help communicate purpose.** A text field can contain placeholder text—such as "Email" or "Password"—when there’s no other text in the field. Don’t use a separate label to describe a text field when placeholder text is sufficient.
@@ -12,42 +12,42 @@ A text field is a single-line, fixed-height field, often with rounded corners, t
 1. Drop a `TextField` control from the object panel to a `Window`
 2. Use the `TextField Inspector` to customize its properties like `Text`, `Placeholder`, and `Keyboard Type`
 
-![`TextField` inspector](../images/creo/textfield2.png)
+![`TextField` inspector](../images/creo2/textfield2.png)
 The inspector where the `TextField` class can be configured.
 
 ### How to customize
 The `TextField` can be customized by tapping the subnode icons (+).
 
-![`TextField` customizations](../images/creo/textfield3.png)
+![`TextField` customizations](../images/creo2/textfield3.png)
 The `TextField` customizations.
 
 ### Input View
 The custom input view to display when the text field becomes active. The user can drop one or more controls in order to create the custom input view.
 
-![`TextField` input view](../images/creo/textfield4.png)
+![`TextField` input view](../images/creo2/textfield4.png)
 The `TextField` input view customization.
 
 ### Keyboard Accessory View
 The custom accessory view to display when the text field becomes active. The user can drop one or more controls in order to extend the default keyboard.
 
-![`TextField` keyboard accessory view](../images/creo/textfield5.png)
+![`TextField` keyboard accessory view](../images/creo2/textfield5.png)
 The `TextField` keyboard accessory view customization.
 
 ### Left View
 The overlay view displayed on the left (or leading) side of the text field.
 
-![`TextField` left view](../images/creo/textfield6.png)
+![`TextField` left view](../images/creo2/textfield6.png)
 The `TextField` left view customization.
 
 ### Right View
 The overlay view displayed on the right (or trailing) side of the text field.
 
-![`TextField` right view](../images/creo/textfield7.png)
+![`TextField` right view](../images/creo2/textfield7.png)
 The `TextField` right view customization.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 TextField1.text = "Text"
