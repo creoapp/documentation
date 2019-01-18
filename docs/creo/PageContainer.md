@@ -1,6 +1,6 @@
 A `PageContainer` control is an onscreen element that provides a way to implement linear navigation between pages of content, such as in a document, book, notepad, or calendar. Pages fluidly scroll from one to the next or turn like pages in a physical book.
 
-![PageContainer](../images/creo/PageContainer_main.png)
+![PageContainer](../images/creo2/pagecontainer1.png)
 
 ### Best practices
 When a `PageContainer`is used, pages flow sequentially and there’s no way to jump between nonadjacent pages. If people may need to access pages out of sequence in your app, implement a custom control that provides this functionality.
@@ -9,7 +9,7 @@ When a `PageContainer`is used, pages flow sequentially and there’s no way to j
 1. Drop a `PageContainer` control from the object panel to a `Window`
 1. Use the `PageContainer Inspector` to customize its _Navigation style_ properties like `DataSet`, `Style` and its _Page Curl_ properties like `Style`
 
-![PageContainer inspector](../images/creo/PageContainer_inspector.png)
+![PageContainer inspector](../images/creo2/pagecontainer2.png)
 The inspector where the `PageContainer` class can be configured.
 
 ### Example
@@ -32,7 +32,7 @@ The inspector where the `PageContainer` class can be configured.
 1. Add a property named "_Image_" and bind it to _ImageView1.image_
 1. Add a property named "_Label_" and bind it to _Label1.text_
 
-![PageContainer binding](../images/creo/PageContainer3.png)
+![PageContainer binding](../images/creo2/pagecontainer3.png)
 
 9. Open the `PageContainer` inspector and select _Cell Properties_
 1. Assign to _Label_ the value _Name_
