@@ -1,17 +1,17 @@
 Represents a polygon shape (or a star shape).
 
-![PolyShape](../images/creo/polyshape1.png)
+![PolyShape](../images/creo2/polyshape1.png)
 
 ### How to use
 1. Drop a `PolyShape` control from the object panel to a `Window`
 2. Use the `PolyShape Inspector` to customize its properties like `Thickness`, `Slides`, `Shape` and `Border Color`
 
-![`PolyShape` inspector](../images/creo/polyshape2.png)
+![`PolyShape` inspector](../images/creo2/polyshape2.png)
 The inspector where the `PolyShape` class can be configured.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 PolyShape1.sides = 6
