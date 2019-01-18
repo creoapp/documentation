@@ -1,6 +1,6 @@
 A picker includes one or more scrollable lists of distinct values, each of which has a single selected value—appearing in darker text in the center of the view. A picker is often displayed at the bottom of the screen or in a popover when the user is editing a field or tapping a menu. Pickers can also appear inline, such as while editing a date in a Calendar event. The height of a picker is roughly the height of five rows of list values. The width of a picker is either the width of the screen or its enclosing view, depending on the device and context.
 
-![PickerView](../images/creo/pickerview1.png)
+![PickerView](../images/creo2/pickerview1.png)
 
 ### Best practices
 * **Use predictable and logically ordered values.** Many values in a picker may be hidden when the scrollable lists are stationary. It's best when people can predict what these values are, such as with a list of alphabetized countries, so they can move through the lists quickly.
@@ -13,14 +13,14 @@ A picker includes one or more scrollable lists of distinct values, each of which
 
 If you need to write code for PickerView:
 
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `DidSelectCell` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`PickerView` inspector](../images/creo/pickerview2.png)
+![`PickerView` inspector](../images/creo2/pickerview2.png)
 The inspector where the `PickerView` class can be configured.
 
 ### Example
-1. Open the `Code Editor` (cmd + 6)
+1. Open the `Code Editor`
 2. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("PickerView Column: \(column) Row: \(row)")
