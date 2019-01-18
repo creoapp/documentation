@@ -1,6 +1,6 @@
 A table presents data as a scrolling, single-column list of rows. Use a table to display large or small amounts of information cleanly and efficiently in the form of a list. Generally speaking, tables are ideal for text-based content.
 
-![TableView](../images/creo/TableView_main.png)
+![TableView](../images/creo2/TableView_main.png)
 
 ### How to use
 1. Drop a `TableView` control from the object panel to a `Window`
@@ -8,10 +8,10 @@ A table presents data as a scrolling, single-column list of rows. Use a table to
 
 If you need to write code for TableView:
 
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `DidSelectCell` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`TableView` inspector](../images/creo/TableView_inspector.png)
+![`TableView` inspector](../images/creo2/TableView_inspector.png)
 The inspector where the `TableView` class can be configured.
 
 Several UI aspects can be configured in the `TableView` class but  `Template`, `DataSet`, and the Cell Properties (`Text`, `Detail Text`, `Image`) are the most commons to be configured.
@@ -23,7 +23,7 @@ Several UI aspects can be configured in the `TableView` class but  `Template`, `
 ### Customization
 The appearance of the content of a `TableView` can be customized by tapping the subnode icon (+).
 
-![`TableView` available subnode](../images/creo/TableView_subnodes.png)
+![`TableView` available subnode](../images/creo2/TableView_subnodes.png)
 Available subnodes in a `TableView`.
 
 The available types of subnodes are:
@@ -44,7 +44,7 @@ A `TableViewCell` defines the attributes and behavior of the cells that appear i
 - `Alternate`: Background color of the cells at odd indexes. If not set, the `Background` is used.
 - `Custom View` (optional): A `CustomView` added to the `TableViewCell`. The `CustomView` is resized with the size of the `TableViewCell`. You can use a global `CustomView` from the `Templates` folder or the `CustomView` subnode of the `TableViewCell`. The exposed properties of the `CustomView` are presented in the _Cell CustomView Properties_ section of the `TableView`'s inspector, use the inspectors to configure the `DataSet`'s column/keypath for each property.
 
-![`TableViewCell`](../images/creo/TableViewCell_main.png)
+![`TableViewCell`](../images/creo2/TableViewCell_main.png)
 A `TableViewCell`.
 
 The content of a `TableViewCell` can be customized by tapping the subnode icon (+).
@@ -53,7 +53,7 @@ The available subnode types are:
 - `Right Action`: Add a `TableViewRowAction` object. When the user swipes horizontally to the left in a row, the table view moves the row content aside to reveal your right actions. Tapping one of the action buttons executes the action of the `TableViewRowAction`.
 _ `Custom View`: Add a `CustomView` that can be used for the `Custom View` property of the `TableViewCell`.
 
-![`TableViewRowAction`](../images/creo/TableViewRowAction_main.png)
+![`TableViewRowAction`](../images/creo2/TableViewRowAction_main.png)
 An example of a `TableViewCell` with two right `TableViewRowAction`.
 
 ### Example
@@ -61,7 +61,7 @@ An example of a `TableViewCell` with two right `TableViewRowAction`.
 2. Drop some images from the system Finder to the `Assets` folder.
 3. Set the _Assets_ value in the `DataSet` property from the inspector of the _TableView1_.
 4. Set the _Name_ value in the `Text` property from the inspector of the _TableView1_.
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `DidSelectCell` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("Selected Cell \(cell.text) at index \(index)")
