@@ -1,6 +1,6 @@
 A stepper is a two-segment control used to increase or decrease an incremental value. By default, one segment of a stepper displays a plus symbol and the other displays a minus symbol. These symbols can be replaced with custom images, if desired.
 
-![Stepper](../images/creo/stepper1.png)
+![Stepper](../images/creo2/stepper1.png)
 
 ### Best practices
 * **Make the value affected by the stepper obvious.** A stepper itself doesn’t display any values, so make sure people know which value they’re changing when they use a stepper.
@@ -15,11 +15,11 @@ If you need to write code for Stepper:
 3. Open the `Code Editor`
 4. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`Stepper` inspector](../images/creo/stepper2.png)
+![`Stepper` inspector](../images/creo2/stepper2.png)
 The inspector where the `Stepper` class can be configured.
 
 ### Example
-1. Open the `Code Editor` (cmd + 6)
+1. Open the `Code Editor`
 2. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("Stepper value: \(self.value)")
