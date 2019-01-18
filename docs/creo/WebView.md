@@ -1,6 +1,6 @@
 A web view loads and displays rich web content, such as embedded HTML and websites, directly within your app. Mail uses a web view, for example, to show HTML content in messages.
 
-![WebView](../images/creo/webview1.png)
+![WebView](../images/creo2/webview1.png)
 
 ### Best practices
 * **Enable forward and back navigation when appropriate.** Web views support forward and back navigation, but this behavior is disabled by default. If people will use your web view to visit multiple pages, enable forward and back navigation, and provide corresponding controls to initiate these features.
@@ -12,15 +12,15 @@ A web view loads and displays rich web content, such as embedded HTML and websit
 
 If you need to write code for WebView:
 
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `DidFinish` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`WebView` inspector](../images/creo/webview2.png)
+![`WebView` inspector](../images/creo2/webview2.png)
 The inspector where the `WebView` class can be configured.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 WebView1.url = "https://www.creolabs.com"
