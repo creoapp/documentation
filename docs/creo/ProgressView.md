@@ -1,6 +1,6 @@
 A progress view includes a track that fills from left to right to show the progression of a task with a known duration. Progress views are noninteractive, although they are often accompanied by a button for canceling the corresponding operation.
 
-![ProgressView](../images/creo/progressview1.png)
+![ProgressView](../images/creo2/progressview1.png)
 
 ### Best practices
 * **Always report progress accurately.** Don’t display inaccurate progress information just to make your app appear busy. Only use progress views for tasks that are quantifiable. Otherwise, use an activity indicator.
@@ -12,12 +12,12 @@ A progress view includes a track that fills from left to right to show the progr
 1. Drop a `ProgressView` control from the object panel to a `Window`
 2. Use the `ProgressView Inspector` to customize its properties like `progressViewStyle`
 
-![`ProgressView` inspector](../images/creo/progressview2.png)
+![`ProgressView` inspector](../images/creo2/progressview2.png)
 The inspector where the `ProgressView` class can be configured.
 
 ### Example
 1. Drop a `Button` control from the object panel to a `Window`
-2. Open the `Code Editor` (cmd + 6)
+2. Open the `Code Editor`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 ProgressView1.value = 1.0
