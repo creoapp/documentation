@@ -1,6 +1,6 @@
 A switch is a visual toggle between two mutually exclusive states—on and off.
 
-![Toggle](../images/creo/toggle1.png)
+![Toggle](../images/creo2/toggle1.png)
 
 ### Best practices
 * **Consider adjusting a switch’s appearance to match the style of your app.** If it works well in your app, change the colors of a switch in its on and off states or use custom imagery to represent the switch.
@@ -14,14 +14,14 @@ A switch is a visual toggle between two mutually exclusive states—on and off.
 
 If you need to write code for Toggle:
 
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`Toggle` inspector](../images/creo/toggle2.png)
+![`Toggle` inspector](../images/creo2/toggle2.png)
 The inspector where the `Toggle` class can be configured.
 
 ### Example
-1. Open the `Code Editor` (cmd + 6)
+1. Open the `Code Editor`
 2. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("Toggle value: \(self.value)")
