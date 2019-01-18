@@ -1,6 +1,6 @@
 A search bar allows people to search through a large collection of values by typing text into a field. A search bar can be displayed alone, or in a navigation bar or content view. When displayed in a navigation bar, a search bar can be pinned to the navigation bar so it's always accessible, or it can be collapsed until the user swipes down to reveal it.
 
-![SearchBar](../images/creo/searchbar1.png)
+![SearchBar](../images/creo2/searchbar1.png)
 
 ### Best practices
 * **Use a search bar instead of a text field to implement search.** A text field doesn’t have the standard search bar appearance that people expect.
@@ -15,26 +15,26 @@ A search bar allows people to search through a large collection of values by typ
 
 If you need to write code for SearchBar:
 
-3. Open the `Code Editor` (cmd + 6)
+3. Open the `Code Editor`
 4. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 
-![`SearchBar` inspector](../images/creo/searchbar2.png)
+![`SearchBar` inspector](../images/creo2/searchbar2.png)
 The inspector where the `SearchBar` class can be configured.
 
 ### How to customize
 The `SearchBar` can be customized by tapping the subnode icons (+).
 
-![`SearchBar` customizations](../images/creo/searchbar3.png)
+![`SearchBar` customizations](../images/creo2/searchbar3.png)
 The `SearchBar` customizations.
 
 ### Keyboard Accessory View
 The custom accessory view to display when the search bar becomes active. The user can drop one or more controls in order to extend the default keyboard.
 
-![`SearchBar` keyboard accessory view](../images/creo/searchbar4.png)
+![`SearchBar` keyboard accessory view](../images/creo2/searchbar4.png)
 The `SearchBar` keyboard accessory view customization.
 
 ### Example
-1. Open the `Code Editor` (cmd + 6)
+1. Open the `Code Editor`
 2. Select the `Changed` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
 Console.write("SearchBar searchText: \(searchText)")
