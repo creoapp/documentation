@@ -1,6 +1,6 @@
 A segmented control is a linear set of two or more segments, each of which functions as a mutually exclusive button. Within the control, all segments are equal in width. Like buttons, segments can contain text or images. Segmented controls are often used to display different views. In Maps, for example, a segmented control lets you switch between Map, Transit, and Satellite views.
 
-![SegmentedControl](../images/creo/segmentedcontrol1.png)
+![SegmentedControl](../images/creo2/segmentedcontrol1.png)
 
 ### Best practices
 * **Limit the number of segments to improve usability.** Wider segments are easier to tap. On iPhone, a segmented control should have five or fewer segments.
@@ -12,20 +12,20 @@ A segmented control is a linear set of two or more segments, each of which funct
 1. Drop a `SegmentedControl` control from the object panel to a `Window`
 2. Use the `SegmentedControlItem Inspector` to customize its properties like `Title` and `Image`
 
-![`SegmentedControl` inspector](../images/creo/segmentedcontrol2.png)
+![`SegmentedControl` inspector](../images/creo2/segmentedcontrol2.png)
 The inspector where the `SegmentedControl` can be configured.
 
-![`SegmentedControl` item inspector](../images/creo/segmentedcontrol3.png)
+![`SegmentedControl` item inspector](../images/creo2/segmentedcontrol3.png)
 The inspector where the `SegmentedControlItem` can be configured.
 
 ### How to customize
 The `SegmentdControl` can be customized by tapping the subnode icons (+) in order to add one or more `SegmentedControlItem` objects.
 
-![`SegmentedControl` customizations](../images/creo/segmentedcontrol4.png)
+![`SegmentedControl` customizations](../images/creo2/segmentedcontrol4.png)
 The `SegmentedControl` customizations.
 
 ### Example
-1. Open the `Code Editor` (cmd + 6)
+1. Open the `Code Editor`
 2. Select the `SegmentedControl` item named `Item1`
 3. Select the `Action` item inside the `Events` area and write your custom code in the `Code Editor`
 ```
