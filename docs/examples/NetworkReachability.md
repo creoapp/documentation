@@ -9,7 +9,7 @@ var networkReachability = NetworkReachability()
 func onStatusChange(networkReachability,status) {
 		Console.write("NetworkReachability status changed \(status)")
 		Console.write(networkReachability.statusString);
-		Console.write("reachable: \(reachable)");
+		Console.write("reachable: \(networkReachability.reachable)");
 		Console.write("WWAN: \(networkReachability.reachableViaWWAN)");
 		Console.write("WiFi: \(networkReachability.reachableViaWiFi)");
 	}
