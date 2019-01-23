@@ -64,6 +64,9 @@ The style of the scroll indicators.
 * **var** **decelerating**: **[Bool](../gravity/types.md)**
 Returns whether the content is moving in the scroll view after the user lifted their finger. \(read-only\)
 
+* **var** **keyboardDismissMode**: **[Int](../gravity/types.md)**
+The manner in which the keyboard is dismissed when a drag begins in the scroll view.
+
 
 
 ### Methods

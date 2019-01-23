@@ -1,3 +1,14 @@
+**<span class="label label-release label-version">Creo 2.0.1</span>January 23th 2019 (Build 16655)**
+* Exposed dismissMode property to ScrollView
+* Added support for iPad Pro 11"
+* Added a way to change text color for DatePicker and PickerView
+* Updated AFNetworking to the latest version 3
+* Improved registration process
+* Improved memory usage and checker
+* Fixed an issue with app builder process
+* Several internal fixes and improvements
+* **[CreoPlayer 2.0.1](https://creolabs.com/creoplayer)** will be available via TestFlight in 24 hours
+
 **<span class="label label-release label-version">Creo 2.0</span>January 17th 2019 (Build 16612)**
 * Dark and Light Mojave UI
 * Swift code exporter
