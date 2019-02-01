@@ -27,4 +27,4 @@ If you run the project in the Simulator and click on the `TextField7`, the `View
 ![keyboard_avoiding_textfields_3](../images/technotes/keyboard_avoiding_textfields_3.png)
 
 **Project**
-* [KeyboardAvoidingTextFields.creoproject]({{github_raw_link}}/assets/keyboard_avoiding_textfields.creoproject.zip) (389KB)
+* [KeyboardAvoidingTextFields.creoproject]({{github_raw_link}}/assets/keyboard_avoiding_textfields.creoproject.zip) (15KB)
