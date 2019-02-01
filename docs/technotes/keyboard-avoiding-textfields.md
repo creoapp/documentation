@@ -7,16 +7,14 @@ TextFields are added as subviews inside a View object (which is a view that allo
 The automatic scrolling action to keep the active TextField visible when the keyboard is presented is performed by the following code in the `KeyboardWillShow` event of the `Window1`:
 
 ```
-var duration = keyboard.duration;
+var duration = keyboard.animationDuration;
 var activeTextField = Window1.firstResponder
 var max_y = Window1.convertFrom(activeTextField.bounds, activeTextField).maxY()
 
 var delta = max_y - (Window1.bounds.height - keyboard.endRect.height)
 if (delta > 0) {
-	var newOffset = View1.contentOffset
-	newOffset.y += delta + 10;
 	func offsetAnimation() {
-		View1.contentOffset = newOffset
+		View1.contentOffset.y += delta + 10
 	}
 	View1.animate(duration, 0.0, null, offsetAnimation, null)
 }
