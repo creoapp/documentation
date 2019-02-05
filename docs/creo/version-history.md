@@ -1,3 +1,26 @@
+**<span class="label label-release label-version">Creo 2.0.2</span>February 5th 2019 (Build 16782)**
+* Improved error reporting for runtime errors
+* Improved performance of the Design Board
+* Improved Yoga Layout
+* Autocompletion is now case insensitive
+* Added a new simpler way to send HTTPRequest from code
+* Exposed DidTapReturn event and endEditingOnReturn property to TextField
+* Code Editor now remembers selections for each object
+* Double click on DesignBoard or Layout now loads Code Editor
+* Added Keyboard dismiss mode to scrollview
+* Exporter is now able to export Navigation Items, Gradients and Shapes
+* Fixed exposition of iPad Pro 11"
+* Fixed an issue with SegmentedControl
+* Fixed objects toggle (cmd-6 now automatically set focus in SearchField)
+* Fixed the Keyboard event sequences (Will/Did Show/Hide Keyboard and Will/Did Rotate window events) when a keyboard is presented and the interface is rotated
+* Fixed the rotation animation of the Keyboard
+* Several improvements for non-retina displays
+* Several issues fixed in exposed properties for CustomViews
+* Several issues fixed in the Exporter
+* Several autoscroll issues has been fixed
+* Several internal fixes and improvements
+* **[CreoPlayer 2.0.2](https://creolabs.com/creoplayer)** will be available via TestFlight in 24 hours
+
 **<span class="label label-release label-version">Creo 2.0.1</span>January 23th 2019 (Build 16655)**
 * Exposed dismissMode property to ScrollView
 * Added support for iPad Pro 11"

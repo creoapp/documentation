@@ -110,6 +110,7 @@ Invoke a brief device vibration.
  * .iPadMini2
  * .iPadMini3
  * .iPadMini4
+ * .iPadPro101Inch
  * .iPadPro10Dot5Inch
  * .iPadPro12Dot9Inch
  * .iPadPro12Dot9Inch2Gen
@@ -135,6 +136,7 @@ Invoke a brief device vibration.
 
 #### DeviceSize
  * .Screen10Dot5inch
+ * .Screen11inch
  * .Screen12Dot9inch
  * .Screen3Dot5inch
  * .Screen4Dot7inch

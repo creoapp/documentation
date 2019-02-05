@@ -67,6 +67,9 @@ An integer bit mask that determines how the receiver resizes itself when its sup
 * **var** **flex**: **[Flex](Flex.md)**
 FlexBox layout. \(read-only\)
 
+* **var** **clipsToBounds**: **[Bool](../gravity/types.md)**
+Clip content to bounds.
+
 
 
 ### Methods

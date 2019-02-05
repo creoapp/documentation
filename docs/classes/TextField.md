@@ -16,6 +16,9 @@ This event is called when the control is asked to resign the first responder sta
 * **ShouldChangeText**(**text**: **[String](../gravity/types.md)**, **range**: **[Range](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
 This event is called when the control is asked to check if the specified text should be changed. Return true if you accept the change or false to reject the change. Returning false prevents the user from changing the text. If you do not implement this method, the text field acts as if this method had returned true.
 
+* **DidTapReturn**()
+Use this event to implement any custom behavior when the return button is tapped.
+
 * **DidBeginEditing**()
 Use this event to be notified when editing began in the specified text field.
 
@@ -58,6 +61,9 @@ A Boolean value indicating whether the text field removes old text when editing 
 
 * **var** **clearsOnInsertion**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether inserting text replaces the previous contents.
+
+* **var** **endEditingOnReturn**: **[Bool](../gravity/types.md)**
+A Boolean value indicating whether end editing when the user taps the return button.
 
 * **var** **adjustsFontSizeToFitWidth**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the font size should be reduced in order to fit the text string into the text field’s bounding rectangle.

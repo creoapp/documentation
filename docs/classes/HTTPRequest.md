@@ -97,6 +97,13 @@ The number of bytes that the task expects to receive in the response body. This 
 
 
 
+### Initializers
+
+* **func** **HTTPRequest**(**URL**: **[String](../gravity/types.md)**)
+Create a new HTTPRequest for the specified URL.
+
+
+
 ### Methods
 
 * **func** **suspend**()
@@ -107,6 +114,9 @@ Resumes a previously suspended request
 
 * **func** **cancel**()
 Cancel returns immediately, but marks a request as being canceled. The request will invoke a DidFail event. Cancel may be sent to a request that has been suspended
+
+* **func** **send**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
+Send the HTTPRequest. The optional <code>onSuccess</code> and <code>onError</code> <a href="../gravity/closure.html">closures</a> can be used to perform the request in a background thread so that the app remains responsive. The <code>onSuccess</code> closure, if set, is executed when the client receives a success response; this closure is invoked with two arguments: the HTTPRequest itself and the deserialized response content. The <code>onError</code> closure, if set, is executed when the client receives an error response and it is invoked with two arguments: the HTTPRequest itself and the error description. If at least one of the closures is set then the request is performed in a background thread and this method immediately returns a <code>false</code> value; otherwise, the request is executed in the UI thread (not recommended for time-consuming tasks) and the method returns <code>true</code> in case of success, <code>false</code> in case of failure.
 
 
 
