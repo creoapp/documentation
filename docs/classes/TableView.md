@@ -29,7 +29,7 @@ This event is called when the table is about to draw a cell for a particular row
 The event allows you to exclude individual rows from being treated as editable. Editable rows display the insertion or deletion control in their cells. If this event is not implemented, all rows are assumed to be editable. Return true if you want the cell to be editable, false otherwise.
 
 * **CommitEdit**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**, **editingMode**: **<a href="#_enum_TableViewCellEditingStyle">TableViewCellEditingStyle</a>**): <strong>[Bool](../gravity/types.md)</strong> 
-This event is called when users tap the insertion (green plus) control of an editing row or the Delete confirmation button after a left swipe gesture or after pressing the Delete (red minus) button of an editing row. This event lets you commit the change. If the event returns true, the TableView assumes that the DataSet has been updated and proceeds to insert/remove the row depending on the <code>editingMode</code> otherwise, if it returns false, the TableView just dismiss the presented action.
+This event is called when users tap the insertion (green plus) control of an editing row or the Delete confirmation button after a left swipe gesture or after pressing the Delete (red minus) button of an editing row. This event lets you commit the change, for example by performing an insert statement to the DataSet and by invoking the insertRow method of the TableView. In case of Delete editing mode, if the event returns true, the TableView assumes that the DataSet has been updated and proceeds to remove the row; otherwise, if it returns false, the TableView just dismiss the presented action.
 
 * **WillReload**()
 This event is called when the table and its dataSet are about to be reloaded because of the user did perform the pull-to-reload gesture. Only applies if the reloadOnPull property is true.
@@ -132,14 +132,23 @@ The number of sections in the table view.
 * **func** **indexPathForRowAtPoint**(**point**: **[Point](Point.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
 Returns an index path identifying the row and section at the given point.
 
-* **func** **selectRow**(**indexPath**: **[IndexPath](IndexPath.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **scrollPosition**: **<a href="#_enum_TableViewScrollPosition">TableViewScrollPosition</a> = 0**)
+* **func** **selectRow**(**indexPath**: **[Object](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **scrollPosition**: **<a href="#_enum_TableViewScrollPosition">TableViewScrollPosition</a> = 0**)
 Selects a row in the table view identified by index path, optionally scrolling the row to a location in the table view. The scrollPosition is a constant that identifies a relative position in the table view (top, middle, bottom) for the row when scrolling concludes. See TableViewScrollPosition for descriptions of valid constants.
 
-* **func** **deselectRow**(**indexPath**: **[IndexPath](IndexPath.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **deselectRow**(**indexPath**: **[Object](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Deselects a given row identified by index path, with an option to animate the deselection.
 
-* **func** **scrollToRow**(**indexPath**: **[IndexPath](IndexPath.md)**, **scrollPosition**: **<a href="#_enum_TableViewScrollPosition">TableViewScrollPosition</a> = 0**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **scrollToRow**(**indexPath**: **[Object](../gravity/types.md)**, **scrollPosition**: **<a href="#_enum_TableViewScrollPosition">TableViewScrollPosition</a> = 0**, **animated**: **[Bool](../gravity/types.md) = true**)
 Scrolls through the table view until a row identified by index path is at a particular location on the screen.
+
+* **func** **insertRow**(**indexPath**: **[Object](../gravity/types.md)**, **content**: **[Map](../gravity/map.md)**, **rowAnimation**: **<a href="#_enum_TableViewRowAnimation">TableViewRowAnimation</a> = 100**)
+Inserts a row in the table view at the specified location; the location can be an IndexPath (row and section) or an Int (row, in this case it refers to the first section). The content parameter is a Map of keys/values used to configure the new TableViewCell; the keys should be the name of a default property (identifier, text, detailText, image) or an exposed property of the optional CustomView. The optional rowAnimation parameter defines the kind of animation to perform when inserting the cell (the animation is not simulated in the Creo Simulator for Mac).
+
+* **func** **insertRows**(**indexPaths**: **[List](../gravity/list.md)**, **content**: **[List](../gravity/list.md)**, **rowAnimation**: **<a href="#_enum_TableViewRowAnimation">TableViewRowAnimation</a> = 100**)
+Inserts rows in the table view at the specified locations; the IndexPaths parameter is an array of locations, each location can be an IndexPath (row and section) or an Int (row, in this case it refers to the first section). The content parameter is an List of Maps, one for each row,  used to configure the new cells (TableViewCell); the keys should be the name of a default property (identifier, text, detailText, image) or an exposed property of the optional CustomView. The optional rowAnimation parameter defines the kind of animation to perform when inserting the cell (the animation is not simulated in the Creo Simulator for Mac).
+
+* **func** **deleteRow**(**indexPath**: **[Object](../gravity/types.md)**, **rowAnimation**: **<a href="#_enum_TableViewRowAnimation">TableViewRowAnimation</a> = 100**)
+Deletes the row specified by an IndexPath (row and section) or an Int (row, in this case it refers to the first section), with an option to animate the deletion (the animation is not simulated in the Creo Simulator for Mac).
 
 * **func** **deleteRows**(**indexPaths**: **[List](../gravity/list.md)**, **rowAnimation**: **<a href="#_enum_TableViewRowAnimation">TableViewRowAnimation</a> = 100**)
 Deletes the rows specified by an array of index paths, with an option to animate the deletion (the animation is not simulated in the Creo Simulator for Mac).

@@ -61,6 +61,15 @@ The types of media available in the movie.
 * **var** **movieMediaTypes**: **MovieMediaTypeMask**
 The playback type of the movie. \(read-only\)
 
+* **var** **isPreparedToPlay**: **[Bool](../gravity/types.md)**
+Returns true if prepared for playback, otherwise false. \(read-only\)
+
+* **var** **currentPlaybackTime**: **[Float](../gravity/types.md)**
+The current playback time of the now playing item in seconds.
+
+* **var** **currentPlaybackRate**: **[Float](../gravity/types.md)**
+The current playback rate of the now playing item. Default is 1.0 (normal speed). Pausing will set the rate to 0.0. Setting the rate to non-zero implies playing.
+
 * **var** **allowsAirPlay**: **[Bool](../gravity/types.md)**
 Specifies whetever the movie player allows AirPlay movie playback.
 
@@ -111,7 +120,28 @@ Obtains the most recent time-based metadata provided by the streamed movie.
 ### Methods
 
 * **func** **setFullscreenAnimated**(**fullscreen**: **[Bool](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md)**)
-Description not yet ready.
+Causes the movie player to enter or exit full-screen mode.
+
+* **func** **play**()
+Plays items from the current queue, resuming paused playback if possible.
+
+* **func** **pause**()
+Pauses playback if playing.
+
+* **func** **stop**()
+Ends playback. Calling -play again will start from the beginnning of the queue.
+
+* **func** **prepareToPlay**()
+Prepares the current queue for playback, interrupting any active (non-mixible) audio sessions. Automatically invoked when play is called if the player is not already prepared.
+
+* **func** **beginSeekingForward**()
+.
+
+* **func** **beginSeekingBackward**()
+.
+
+* **func** **endSeeking**()
+.
 
 * **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.

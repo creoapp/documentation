@@ -1,3 +1,26 @@
+**<span class="label label-release label-version">Creo 2.0.3</span>February 21th 2019 (Build 16855)**
+* Added a new RegEx class
+* Added a new BonjourBrowser class
+* Exposed several methods to the MoviePlayer
+* Exposed insertRows method to the TableView
+* TextField placeholder can now be customized 
+* Redesigned and improved the Design Board Utility Bar
+* Several UI improvements in MacOS 10.13
+* Several CameraRoll related improvements and fixes
+* Several cubeSQL and Database related fixes
+* Improved OAuth2 HTTP authentication
+* Improved Flex inspector
+* Improved and fixed some issues in the GestureRecognizer
+* Improved Carousel control (new itemHeight property and new DidScrollToCell event)
+* Improved preview of Audio assets
+* Improved exporter
+* Fixed ActivityIndicator exporter
+* Fixed an infinite loop with ActivityIndicator and Flex layout
+* Fixed ghost windows issue
+* Fixed an issue with the HTTPServer class
+* Several internal fixes and improvements
+* [CreoPlayer 2.0.3](https://creolabs.com/creoplayer) is now available on TestFlight
+
 **<span class="label label-release label-version">Creo 2.0.2</span>February 5th 2019 (Build 16782)**
 * Improved error reporting for runtime errors
 * Improved performance of the Design Board

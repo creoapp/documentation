@@ -16,7 +16,10 @@ The view is about to be added to the App's views hierarchy.
 The view is about to be removed from the App's views hierarchy.
 
 * **DidSelectCell**(**cell**: **[CarouselCell](CarouselCell.md)**, **index**: **[Int](../gravity/types.md)**)
-Handle this event if you need to execute some code when a new cell is selected by the user.
+Handle this event if you need to execute some code when a new cell is selected by the user with a tap on an item.
+
+* **DidScrollToCell**(**cell**: **[CarouselCell](CarouselCell.md)**, **index**: **[Int](../gravity/types.md)**)
+This event is called when the carousel ends an animated scroll. You can use this event to execute custom code when the carousel ends scrolling after a drag gesture.
 
 * **DidShow**()
 The view has been added to the App's views hierarchy.
