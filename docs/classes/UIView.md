@@ -44,7 +44,7 @@ The bounds rectangle, which describes the view’s location and size in its own 
 The frame rectangle, which describes the view’s location and size in its superview’s coordinate system.
 
 * **var** **userInteractionEnabled**: **[Bool](../gravity/types.md)**
-A Boolean value that determines whether user events are ignored.
+A Boolean value that determines whether user events are ignored by the view and by its subviews.
 
 * **var** **shadowColor**: **[Color](Color.md)**
 The color of the view's shadow.

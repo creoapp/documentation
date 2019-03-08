@@ -55,6 +55,9 @@ This event is called when the object has been removed from the current runtime s
 * **var** **contentPath**: **[String](../gravity/types.md)**
 The path/URL that points to the local/remote movie file.
 
+* **var** **movie**: **[Movie](Movie.md)**
+Use this property to set the content from a Movie object from the Assets library.
+
 * **var** **movieSourceType**: **MovieSourceType**
 The types of media available in the movie.
 

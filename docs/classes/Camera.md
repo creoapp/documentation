@@ -17,7 +17,7 @@ The view is about to be removed from the App's views hierarchy.
 This event is triggered when the physical capture device has been configured, the device properites (lensAperture, minExposureDuration, maxExposureDuration, etc) are available and the camera is ready to capture. This event is also called when a new physical capture device is configured, for example after switching between the front and the back camera.
 
 * **DeniedAuthorization**(**cameraAuthorizationType**: **[Int](../gravity/types.md)**)
-
+This event is called when user denied your app permission to user camera and/or microphone.
 
 * **NewImage**(**image**: **[Image](Image.md)**, **metadata**: **[Map](../gravity/map.md)**)
 This event is triggered when a new still picture is available.

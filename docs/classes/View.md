@@ -50,6 +50,9 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
+* **var** **passthroughTouches**: **[Bool](../gravity/types.md)**
+A Boolean value that determines whether user events are ignored by the view. This property doesn't affect the user interaction with subviews.
+
 * **var** **autoContentSize**: **[Int](../gravity/types.md)**
 A value that specifies how the view should calculate its size to eventually scroll. With Manual you have to specifiy the size via contentSize and the view may scroll if the size in any direction is bigger than the frame; with Fixed the content size always matches the frame, therefore the content can not scroll by user interaction; with Flex (and if flex is enabled) the size depends on how much space the childrens require along the flex main direction, the view may become scrollable if the display does not fit the space required.
 

@@ -11,7 +11,7 @@ This event is called when the object becames available in the current runtime sy
 Handle this event if you want to perform some operations when audio resource finished playing.
 
 * **OnError**()
-andle this event if you want to take any action in case of error.
+Handle this event if you want to take any action in case of error.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).

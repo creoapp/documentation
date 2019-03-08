@@ -13,6 +13,9 @@ Use this event to be notified when navigation is about to be added to a view hie
 * **DidShow**()
 Use this event to be notified when navigation was added to a view hierarchy.
 
+* **WillChangeToDisplayMode**(**displayMode**: **[Int](../gravity/types.md)**)
+Use this event to be notified when the display mode for the PageSplit is about to change
+
 * **WillHide**()
 Use this event to be notified when navigation is about to be removed from a view hierarchy.
 

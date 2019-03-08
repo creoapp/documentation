@@ -1,3 +1,25 @@
+**<span class="label label-release label-version">Creo 2.0.4</span>March 8th 2019 (Build 16978)**
+* Added new AudioRecorder class
+* Added Horizontal and Vertical centered magnetic guides
+* Added grid view to controls list
+* Added an option to autoclose panel after a project has been sent to a device
+* Added a new option to generate screenshots
+* Added string.trim function
+* Added custom fonts to plist and project in exporter
+* Exposed new WillChangeToDisplayMode event to PageSplit
+* Exposed view and subview to custom view
+* Improved hittest on view controls and added an option to set a view as a passthrough
+* Improved verification of IPA builder
+* Improved Animation Panel
+* Improved Sound class and fixed an issue on iOS devices
+* Updated artworks for DesignBoard align menu and for bar system items
+* Fixed cell height issue in the log panel
+* Fixed several memory leaks in Gradients and Colors
+* Fixed size of TableView header and footer
+* Fixed some issues with movie assets
+* Several internal fixes and improvements
+* **[CreoPlayer 2.0.4](https://creolabs.com/creoplayer)** will be available via TestFlight in 24 hours
+
 **<span class="label label-release label-version">Creo 2.0.3</span>February 21th 2019 (Build 16855)**
 * Added a new RegEx class
 * Added a new BonjourBrowser class
