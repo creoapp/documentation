@@ -7,26 +7,26 @@ Horizontal navigation is a popular navigation pattern widely used to display hie
 * **the setting of an app**, and the user taps an element to open its subsettings
 * **a social item**, and the user taps a preview to open its full description and details
 
-A common App schema is to have a root `Window` like a [TabBar](tabbar) and a `Navigation` for each of its child.
-If the navigation is not in a single direction (from generic to detail and viceversa) then `Navigation` may not be appropriate.
+A common App schema is to have a root `Window` like a [TabBar](tabbar) and a `NavigationBar` for each of its child.
+If the navigation is not in a single direction (from generic to detail and viceversa) then `NavigationBar` may not be appropriate.
 
 ### How to use
-1. Create a new `Navigation` and customize the main `Navigation Bar`
+1. Create a new `NavigationBar` and customize its properties
 1. Create 1 or more child `Window`
 1. For each child `Window` customize its `Navigation Bar` subsettings (bar visibility, title, prompt and buttons)
 1. Add or remove `Window` by _code_ or by _actions_
 
 ### Example
-- Start adding a `Navigation` by tapping the _New Navigation_ button on the _Objects Bar_ over the _Objects Panel_
+- Start adding a `NavigationBar` by tapping the _New Navigation_ button on the _Objects Bar_ over the _Objects Panel_
 
 ![New Navigation](../images/creo/Navigation14.png)
 
-- Configure the `Navigation` appearance and the application hierarchy by adding `Window` child screens (ref: [Window](Window.html))
+- Configure the `NavigationBar` appearance and the application hierarchy by adding `Window` child screens (ref: [Window](Window.html))
 - Configure each screen to add a `TABBAR Item`
 - keep doing the same until you have a hierarchy like this
 
 ```
-- Navigation1
+- NavigationBar1
   - Window1 (startup window)
     - Button1
  - Window2
@@ -36,19 +36,19 @@ If the navigation is not in a single direction (from generic to detail and vicev
 ### Interacting using Gravity
 To push a new `Window` into the hierarchy, ie from a button `Action` call
 ```
-Navigation1.push(Window2)
+NavigationBar1.push(Window2)
 ```
 
 equivalent to
 
 ```
-Window2.openIn(Navigation1)
+Window2.openIn(NavigationBar1)
 ```
 
 To pop one level:
 
 ```
-Navigation1.pop()
+NavigationBar1.pop()
 ```
 
 equivalent to
@@ -59,7 +59,7 @@ Window2.close()
 
 To pop to the root level:
 ```
-Navigation1.popToRootWindow()
+NavigationBar1.popToRootWindow()
 ```
 
 ### Customize a navigation bar
@@ -68,7 +68,7 @@ You can customize the navigation-related properties of a `Window` by tapping the
 
 ![Custom navigation controller](../images/creo/Navigation1.png)
 
-Any child `Window` `Navigation Bar` may have:
+Any child `Window` of the `Navigation Bar` may have:
 - A custom title
 - A custom prompt
 - 1 or more left button
@@ -99,4 +99,4 @@ Compact navigation bar.
 Large navigation bar.
 
 ### References
-[Navigation](../classes/Navigation.html) contains a complete list of properties and methods that can be used to customize a `Navigation` object.
+[NavigationBar](../classes/NavigationBar.html) contains a complete list of properties and methods that can be used to customize a `NavigationBar` object.
