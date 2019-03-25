@@ -1,8 +1,8 @@
 #### Concepts
 
-Flex can be used to create complex views that do not simply adapt to the device screen size but also can automatically resize their content size, to properly respond to live size changes like when keyboard appears and disappears.
+Flex can be used to create complex views that do not simply adapt to the device screen size but also can automatically layout themself to properly respond to live size changes, for instance like when the virtual keyboard appears and disappears.
 
-In this tutorial we see as a correct use of the `View` attribute **"Automatic Content Size = flex"** a simple login form adapts to different device (ie iPhone5 and iPad), orientations and eventually scrolls when the keyboard appears and disappears.
+In this tutorial we see how a correct use of the `View` attribute **"Automatic Content Size = flex"** a simple login form adapts to different device (ie iPhone5 and iPad), orientations and eventually scrolls when the keyboard appears and disappears.
 
 #### Classes
 
@@ -143,9 +143,11 @@ if (formMaxY > endKeyboardY) {
 }
 ```
 
-To have the Flex form scrollable we add to its `contentSize` an extra space needed by the virtual keyboard and save the content; a naive solution would be to just add the keyboard height but that most of the case would be too much. So we calculate the overlapping space and just add it, plus a padding. This is enough to get the Flex form become scrollable by the user to display the form section hidden by the keyboard.
+To make the Flex form scrollable we increase its `contentSize` height of the amount of space required by the virtual keyboard.
 
-We also automatize the "un-hiding" by configuring the `contentOffset` to have the form at the top of the screen.
+A naive solution would be to just add the keyboard height but that, most of the time, is too much. As a proper solution we calculate and add the overlapping space of the keyboard with the form, plus a padding. This is enough to get the Flex form become scrollable and, therefore, the user can scroll to see the section hidden by the keyboard.
+
+We also automatize this by configuring the `contentOffset` to reposition (via scrolling) the form at the top of the screen.
 
 ![ContentSizeFlex](../images/tutorials/content-size-flex-10.png)
 
