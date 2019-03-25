@@ -160,7 +160,7 @@ Flex.contentInset.bottom -= self.keyboardDifference
 
 ![ContentSizeFlex](../images/tutorials/content-size-flex-7.png)
 
-+++ Flex clipping: you may have noticed that the form gets clipped when it scrolls over the bounding of the safe area region. To avoid this, tap `WillShow` from the Flex code tab:
+++22++ Flex clipping: you may have noticed the form getting clipped when it scrolls over the bounding of the safe area region. To avoid this, tap `WillShow` from the Flex code tab and paste this code:
 
 ```
 // 1) we want the form to scroll "through" the safe area zone so the user can
