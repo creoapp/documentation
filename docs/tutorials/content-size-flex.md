@@ -170,7 +170,7 @@ self.clipsToBounds = false
 
 ![ContentSizeFlex](../images/tutorials/content-size-flex-8.png)
 
-++22++ Press RUN and enjoy the eBook app!
+++22++ Press RUN and enjoy the FlexTutorial app!
 
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
