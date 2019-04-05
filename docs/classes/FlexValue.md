@@ -48,10 +48,10 @@ Create a new FlexValue.
 ### Methods
 
 * **func** **setPoint**(**value**: **[Float](../gravity/types.md)**)
-
+Set a new value with point as unit
 
 * **func** **setPercent**(**value**: **[Float](../gravity/types.md)**)
-
+Set a new value with percent as unit
 
 
 

@@ -46,38 +46,35 @@ Has the same options and effect as align items but instead of affecting the chil
 * **var** **wrap**: **Wrap**
 Controls what happens when children overflow the size of the container along the main axis
 
-* **var** **overflow**: **Overflow**
-overflow
-
 * **var** **display**: **Display**
-display
+display is flex or none, with none the view is removed from the flex layout
 
 * **var** **aspectRatio**: **[Float](../gravity/types.md)**
-Aspect ratio
+Aspect ratio, the ratio between the width and the height of a view
 
 * **var** **positionType**: **PositionType**
-Defines how it is positioned within its parent
+Defines how it is positioned within its parent; absolute remove the view from the flex flow and position it at the given position
 
 * **var** **basis**: **[FlexValue](FlexValue.md)**
-Flex basis
+Flex basis, default size of a view along the main axis
 
 * **var** **width**: **[FlexValue](FlexValue.md)**
-Width in FlexValue
+Width in FlexValue, width dimension of the view
 
 * **var** **height**: **[FlexValue](FlexValue.md)**
-Height in FlexValue
+Height in FlexValue, height dimension of the view
 
 * **var** **minWidth**: **[FlexValue](FlexValue.md)**
-Minimum width in FlexValue
+Minimum width in FlexValue, minimum width of the view
 
 * **var** **maxWidth**: **[FlexValue](FlexValue.md)**
-Maximum width in FlexValue
+Maximum width in FlexValue, maximum width of the view
 
 * **var** **minHeight**: **[FlexValue](FlexValue.md)**
-Minimum height in FlexValue
+Minimum height in FlexValue, minimum height of the view
 
 * **var** **maxHeight**: **[FlexValue](FlexValue.md)**
-Maximum height in FlexValue
+Maximum height in FlexValue, maximum height of the view
 
 * **var** **left**: **[FlexValue](FlexValue.md)**
 Left position in FlexValue when position type is absolute.
@@ -86,7 +83,7 @@ Left position in FlexValue when position type is absolute.
 Top position in FlexValue when position type is absolute.
 
 * **var** **right**: **[FlexValue](FlexValue.md)**
-Right position in FlexValue when poosition type is absolute.
+Right position in FlexValue when position type is absolute.
 
 * **var** **bottom**: **[FlexValue](FlexValue.md)**
 Bottom position in FlexValue when position type is absolute.
@@ -95,73 +92,73 @@ Bottom position in FlexValue when position type is absolute.
 Start position in FlexValue when position type is absolute; it depends on text and childrens direction.
 
 * **var** **end**: **[FlexValue](FlexValue.md)**
-End position  in FlexValue when position type is absolute; it depends on text and childrens direction.
+End position in FlexValue when position type is absolute; it depends on text and childrens direction.
 
 * **var** **marginLeft**: **[FlexValue](FlexValue.md)**
-Margin left in FlexValue
+Margin left in FlexValue, affects the spacing around the outside of a view
 
 * **var** **marginTop**: **[FlexValue](FlexValue.md)**
-Margin top in FlexValue
+Margin top in FlexValue, affects the spacing around the outside of a view
 
 * **var** **marginRight**: **[FlexValue](FlexValue.md)**
-Margin right in FlexValue
+Margin right in FlexValue, affects the spacing around the outside of a view
 
 * **var** **marginBottom**: **[FlexValue](FlexValue.md)**
-Margin bottom in FlexValue
+Margin bottom in FlexValue, affects the spacing around the outside of a view
 
 * **var** **marginStart**: **[FlexValue](FlexValue.md)**
-Margin start in FlexValue, it depends on text and childrens direction
+Margin start in FlexValue, it depends on text and childrens direction. Affects the spacing around the outside of a view
 
 * **var** **marginEnd**: **[FlexValue](FlexValue.md)**
-Margin end in FlexValue, it depends on text and childrens direction
+Margin end in FlexValue, it depends on text and childrens direction. Affects the spacing around the outside of a view
 
 * **var** **marginHorizontal**: **[FlexValue](FlexValue.md)**
-Margin horizontal in FlexValue
+Margin horizontal in FlexValue, affects the spacing around the outside of a view
 
 * **var** **marginVertical**: **[FlexValue](FlexValue.md)**
 Margin vertical in FlexValue
 
 * **var** **margin**: **[FlexValue](FlexValue.md)**
-Margin in FlexValue
+Margin in FlexValue, affects the spacing around the outside of a view
 
 * **var** **paddingLeft**: **[FlexValue](FlexValue.md)**
-Padding left in FlexValue
+Padding left in FlexValue, affects the size of the view it is applied to and eventually offset the location of any children
 
 * **var** **paddingTop**: **[FlexValue](FlexValue.md)**
-Padding top in FlexValue
+Padding top in FlexValue, affects the size of the view it is applied to and eventually offset the location of any children
 
 * **var** **paddingRight**: **[FlexValue](FlexValue.md)**
-Padding right in FlexValue
+Padding right in FlexValue, affects the size of the view it is applied to and eventually offset the location of any children
 
 * **var** **paddingBottom**: **[FlexValue](FlexValue.md)**
-Padding bottom in FlexValue
+Padding bottom in FlexValue, affects the size of the view it is applied to and eventually offset the location of any children
 
 * **var** **paddingStart**: **[FlexValue](FlexValue.md)**
-Padding start in FlexValue, it depends on text and childrens direction
+Padding start in FlexValue, affects the size of the view it is applied to and eventually offset the location of any children, it depends on text and childrens direction
 
 * **var** **paddingEnd**: **[FlexValue](FlexValue.md)**
 Padding end in FlexValue, it depends on text and childrens direction
 
 * **var** **paddingHorizontal**: **[FlexValue](FlexValue.md)**
-Padding horizontal in FlexValue
+Padding horizontal in FlexValue, affects the size of the view it is applied to and eventually offset the location of any children
 
 * **var** **paddingVertical**: **[FlexValue](FlexValue.md)**
-Padding vertical in FlexValue
+Padding vertical in FlexValue, affects the size of the view it is applied to and eventually offset the location of any children
 
 * **var** **padding**: **[FlexValue](FlexValue.md)**
-Padding in FlexValue
+Padding in FlexValue, affects the size of the view it is applied to and eventually offset the location of any children
 
 * **var** **borderLeftWidth**: **[Float](../gravity/types.md)**
-Border left width
+Border left width, acts exactly like padding. Does not do any drawing.
 
 * **var** **borderTopWidth**: **[Float](../gravity/types.md)**
-Border top width
+Border top width, acts exactly like padding. Does not do any drawing.
 
 * **var** **borderRightWidth**: **[Float](../gravity/types.md)**
-Border right width
+Border right width, acts exactly like padding. Does not do any drawing.
 
 * **var** **borderBottomWidth**: **[Float](../gravity/types.md)**
-Border bottom width
+Border bottom width, acts exactly like padding. Does not do any drawing.
 
 * **var** **borderStartWidth**: **[Float](../gravity/types.md)**
 Border start width, it depends on text and childrens direction
@@ -170,7 +167,7 @@ Border start width, it depends on text and childrens direction
 Border end width, it depends on text and childrens direction
 
 * **var** **borderWidth**: **[Float](../gravity/types.md)**
-Border width
+Border width, acts exactly like padding. Does not do any drawing.
 
 
 
@@ -224,11 +221,6 @@ Mark that a view's layout needs to be recalculated. Only works for leaf views
 #### Wrap
  * .No
  * .Yes
-
-#### Overflow
- * .Hidden
- * .Scroll
- * .Visible
 
 #### Display
  * .Flex
