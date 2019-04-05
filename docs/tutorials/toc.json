@@ -60,6 +60,10 @@
     {
       "name": "Game Engine (Part 1)",
       "file": "game_tutorial_part1.md"
+    },
+    {
+      "name": "Flexible Content Size",
+      "file": "content-size-flex.md"
     }
   ]
 }
