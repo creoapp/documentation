@@ -56,6 +56,9 @@ The longitude of the center point of the map.
 * **var** **mapType**: **MapType**
 The type of data displayed by the map view.
 
+* **var** **zoomValue**: **[Float](../gravity/types.md)**
+The zoom value used to display the map.
+
 * **var** **zoomEnabled**: **[Bool](../gravity/types.md)**
 A Boolean value that determines whether the user may use pinch gestures to zoom in and out of the map.
 
@@ -110,6 +113,9 @@ Returns the annotation objects located in the specified map rectangle.
 
 * **func** **addAnnotations**(**annotations**: **[List](../gravity/list.md)**)
 Adds an array of annotation objects to the map view.
+
+* **func** **showAnnotations**(**annotations**: **[List](../gravity/list.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+Sets the visible region so that the map displays the specified annotations.
 
 * **func** **removeAnnotations**(**annotations**: **[List](../gravity/list.md)**)
 Removes an array of annotation objects from the map view.

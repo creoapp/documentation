@@ -41,6 +41,9 @@ This event is called when the object has been removed from the current runtime s
 * **var** **image**: **[Image](Image.md)**
 The image displayed in the image view.
 
+* **var** **renderedImage**: **[Image](Image.md)**
+The rendered image as it appears in the ImageView, resized according to its settings. \(read-only\)
+
 * **var** **highlightedImage**: **[Image](Image.md)**
 The highlighted image displayed in the image view.
 
@@ -68,6 +71,9 @@ Options to specify how a view adjusts its content when its size changes.
 * **var** **imagesRenderingMode**: **ImageRenderingMode**
 Options to specify how a view adjusts its content when its size changes.
 
+* **var** **filters**: **[List](../gravity/list.md)**
+A list a ImageFilters to apply to the image or highlighted image of the ImageView.
+
 
 
 ### Methods
@@ -80,6 +86,9 @@ Stops animating the images in the receiver.
 
 * **func** **isAnimating**(): <strong>[Bool](../gravity/types.md)</strong> 
 Returns a Boolean value indicating whether the animation is running.
+
+* **func** **applyFilters**()
+Call this method to commit changes in properties of a the configured filters.
 
 * **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.

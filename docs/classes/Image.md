@@ -25,6 +25,9 @@ The resizing mode of the image. \(read-only\)
 * **var** **renderingMode**: **ImageRenderingMode**
 Determines how an image is rendered. \(read-only\)
 
+* **var** **RGBBuffer**: **[RGBBuffer](RGBBuffer.md)**
+Creates a RGBBuffer for direct pixel inspection and manipulation. This is a costly operation that should not be performed in a loop. \(read-only\)
+
 
 
 ### Class Methods
@@ -63,6 +66,9 @@ Returns a scaled version of the image that fit into the specified size, preservi
 
 * **func** **imageWithRenderingMode**(**renderingMode**: **<a href="#_enum_ImageRenderingMode">ImageRenderingMode</a>**): <strong>[Image](Image.md)</strong> 
 Creates and returns a new image object with the specified rendering mode.
+
+* **func** **imageWithFilters**(**filters**: **[List](../gravity/list.md)**, **completionClosure**: **[Closure](../gravity/closure.md) = null**): <strong>[Image](Image.md)</strong> 
+Applies the list of filters to the source image. You don't need to set the inputImage value for the filters, it is automatically configured. If the completion closure parameter is set the execution is performed in a background thread so the UI stays responsive, the methods immediatly returns with null value and, when the image is ready, it is passed as the only parameter of the closure; otherwise, the execution is performed in the main thread and the methods returns the resulting image
 
 
 

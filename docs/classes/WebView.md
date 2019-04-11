@@ -72,6 +72,9 @@ Reloads the current page.
 * **func** **reloadFromOrigin**()
 Reloads the current page, performing end-to-end revalidation using cache-validating conditionals if possible.
 
+* **func** **reset**()
+Reset WebView content to blank page.
+
 * **func** **stopLoading**()
 Stops loading all resources on the current page.
 

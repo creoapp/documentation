@@ -1,3 +1,42 @@
+**<span class="label label-release label-version">Creo 2.0.5</span>April 11th 2019 (Build 17415)**
+* Added support for latest App Store requirements
+* Added support for Compiled Asset Catalog (app icon CAR builder)
+* Added ImageFilters support (based on CIFilters) to both Image and ImageView
+* Added preliminary support for manifest typing to Gravity (used for local autocompletion in code editor)
+* Added GravityConsole to quickly test Gravity code
+* Added RGBBuffer object to Images in order to access pixel information
+* Added Documents to the list of reserved keywords
+* Exposed renderedImage property to ImageView
+* Exposed clipsToBounds property to View inspectors
+* Exposed reset method to WebView
+* Exposed showAnnotations to MapView
+* Exposed zoomValue property to MapView
+* Exposed convertRect/convertPoint to all View subclasses
+* Improved app builder generator
+* Improved Flex documentation
+* Improved code editor
+* Improved Gravity language and virtual machine
+* Preserved origin points when controls are dragged inside a view
+* Fixed an issue with detached code editor
+* Fixed custom view orientation in the custom view editor
+* Fixed a disappearing bug in design board when resizing the document window with design board context created directly in landscape orientation
+* Fixed visibleRect property and the trackingArea to update correctly the proposed selection frames in each possible interface orientation.
+* Fixed first selected object when opening a detached code editor window
+* Fixed an issue with AppStore.requestReview() method
+* Fixed a couple of issue with TextField in secure mode
+* Fixed a codegen issue
+* Fixed a crash with gradient color
+* Fixed a multiple selection issue after copying/duplicating multiple objects in design board
+* Fixed a flex issue in calculating the content size when the view has flex width/height and content size flex
+* Fixed a bug in resizing a TextView in landscape orientation, particularly evident if the TextView height is small and width is large
+* Fixed a refresh issue with dataset not correctly reloaded when in cache
+* Fixed a Gravity issue with nested for loops
+* Fixed a padding issue in some Button configurations
+* Fixed an issue that prevents two or more gestures to be recognized simultaneously
+* Thanks to a new compilation process Creo should be now about 40% faster
+* Several internal fixes and improvements
+* **[CreoPlayer 2.0.5](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+
 **<span class="label label-release label-version">Creo 2.0.4</span>March 8th 2019 (Build 16978)**
 * Added new AudioRecorder class
 * Added Horizontal and Vertical centered magnetic guides
