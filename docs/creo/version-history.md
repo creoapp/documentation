@@ -1,4 +1,4 @@
-**<span class="label label-release label-version">Creo 2.0.5</span>April 11th 2019 (Build 17415)**
+**<span class="label label-release label-version">Creo 2.0.6</span>April 12th 2019 (Build 17437)**
 * Added support for latest App Store requirements
 * Added support for Compiled Asset Catalog (app icon CAR builder)
 * Added ImageFilters support (based on CIFilters) to both Image and ImageView
@@ -35,7 +35,7 @@
 * Fixed an issue that prevents two or more gestures to be recognized simultaneously
 * Thanks to a new compilation process Creo should be now about 40% faster
 * Several internal fixes and improvements
-* **[CreoPlayer 2.0.5](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+* **[CreoPlayer 2.0.6](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
 
 **<span class="label label-release label-version">Creo 2.0.4</span>March 8th 2019 (Build 16978)**
 * Added new AudioRecorder class
