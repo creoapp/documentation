@@ -1,4 +1,4 @@
-**<span class="label label-release label-version">Creo 2.0.6</span>April 12th 2019 (Build 17437)**
+**<span class="label label-release label-version">Creo 2.0.6</span>April 12th 2019 (Build 17448)**
 * Added support for latest App Store requirements
 * Added support for Compiled Asset Catalog (app icon CAR builder)
 * Added ImageFilters support (based on CIFilters) to both Image and ImageView
