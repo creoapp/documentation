@@ -40,8 +40,8 @@ is undefined \(read-only\)
 
 ### Initializers
 
-* **func** **FlexValue**(**value**: **[Float](../gravity/types.md)**, **unit**: **[Int](../gravity/types.md)**)
-Create a new FlexValue.
+* **func** **FlexValue**(**value**: **[Float](../gravity/types.md)**, **unit**: **<a href="#_enum_FlexUnit">FlexUnit</a>**)
+Create a new FlexValue. The first argument is the value (Float), the second is the unit of the value (FlexUnit, Point or Percent)
 
 
 
@@ -54,6 +54,14 @@ Set a new value with point as unit
 Set a new value with percent as unit
 
 
+
+
+
+### Enumeration
+
+#### FlexUnit
+ * .Percent
+ * .Point
 
 
 
