@@ -50,6 +50,9 @@ The automatic vs. nonautomatic repeat state of the stepper. If true, the user pr
 * **var** **wraps**: **[Bool](../gravity/types.md)**
 The wrap vs. no-wrap state of the stepper. If true, incrementing beyond maximumValue sets value to minimumValue; likewise, decrementing below minimumValue sets value to maximumValue. If false, the stepper does not increment beyond maximumValue nor does it decrement below minimumValue but rather holds at those values.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

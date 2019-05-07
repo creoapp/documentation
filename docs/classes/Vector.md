@@ -35,6 +35,9 @@ The values in the vector as a Point object. \(read-only\)
 * **var** **rectValue**: **[Rect](Rect.md)**
 The values in the vector as a Rect object. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

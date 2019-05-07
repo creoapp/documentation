@@ -70,6 +70,9 @@ Returns a Boolean indicating whether motion data is available on the current dev
 * **var** **showsDeviceMovementDisplay**: **[Bool](../gravity/types.md)**
 Returns a Boolean indicating whether motion data is available on the current device. Motion data is not available on all iOS devices. Use this method to determine if support is available on the current device.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

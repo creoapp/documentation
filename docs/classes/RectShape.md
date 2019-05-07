@@ -47,6 +47,9 @@ A mask representing rounded corners.
 * **var** **borderStyle**: **BorderStyle**
 A mask representing border style.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

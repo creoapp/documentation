@@ -40,6 +40,9 @@ The playback point, in seconds, within the timeline of the sound associated with
 
 By setting this property you can seek to a specific point in a sound file or implement audio fast-forward and rewind functions.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Class Methods

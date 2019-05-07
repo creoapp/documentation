@@ -16,6 +16,9 @@ Identifier set in the cell property inspector. \(read-only\)
 * **var** **customView**: **[CustomView](CustomView.md)**
 Custom view template set in the CollectionView inspector. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

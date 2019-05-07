@@ -35,6 +35,9 @@ Number of rows in the RecordSet. \(read-only\)
 * **var** **columnCount**: **[Int](../gravity/types.md)**
 Number of columns in the RecordSet. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

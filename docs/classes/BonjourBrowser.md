@@ -44,6 +44,9 @@ Default service type used when performing a searchForServices() request if the s
 * **var** **discoveredServices**: **[List](../gravity/list.md)**
 List of discovered network services. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

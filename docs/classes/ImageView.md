@@ -74,6 +74,9 @@ Options to specify how a view adjusts its content when its size changes.
 * **var** **filters**: **[List](../gravity/list.md)**
 A list a ImageFilters to apply to the image or highlighted image of the ImageView.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

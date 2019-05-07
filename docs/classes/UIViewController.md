@@ -25,6 +25,9 @@ A Boolean value indicating whether the view currently allows the user to edit th
 * **var** **automaticallyAdjustsScrollViewInsets**: **[Bool](../gravity/types.md)**
 A Boolean value that indicates whether the view should automatically adjust its scroll view insets.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

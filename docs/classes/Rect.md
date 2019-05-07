@@ -16,6 +16,9 @@ Rect width size value.
 * **var** **height**: **[Float](../gravity/types.md)**
 Rect height size value.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

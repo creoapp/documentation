@@ -50,6 +50,9 @@ This event is called when the object has been removed from the current runtime s
 * **var** **bounds**: **[Rect](Rect.md)**
 The bounds rectangle, which describes the view’s location and size in its own coordinate system.
 
+* **var** **view**: **[UIView](UIView.md)**
+The root view hierarchy.
+
 * **var** **frame**: **[Rect](Rect.md)**
 The frame rectangle, which describes the view’s location and size in its superview’s coordinate system.
 
@@ -64,6 +67,9 @@ The style of the status bar.
 
 * **var** **firstResponder**: **[UIView](UIView.md)**
 Returns the subview that is now the first-responder, null if none. \(read-only\)
+
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
 
 
 

@@ -35,6 +35,12 @@ The basic appearance of the activity indicator.
 * **var** **hidesWhenStopped**: **[Bool](../gravity/types.md)**
 A Boolean value that controls whether the receiver is hidden when the animation is stopped.
 
+* **var** **initiallyStarted**: **[Bool](../gravity/types.md)**
+A Boolean value that controls whether the ActivityIndicator should start in running state or not.
+
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

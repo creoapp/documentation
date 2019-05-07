@@ -26,6 +26,9 @@ The image used to represent the item.
 * **var** **width**: **[Float](../gravity/types.md)**
 The width of the item.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

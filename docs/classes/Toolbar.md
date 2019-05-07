@@ -26,6 +26,9 @@ The tint color to apply to the toolbar background. This color is made translucen
 * **var** **items**: **[List](../gravity/list.md)**
 The items displayed on the toolbar.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

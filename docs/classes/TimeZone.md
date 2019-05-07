@@ -39,6 +39,9 @@ The current difference in seconds between the receiver and Greenwich Mean Time. 
 * **var** **isDaylightSavingTime**: **[Bool](../gravity/types.md)**
 A Boolean value that indicates whether the receiver is currently using daylight saving time. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Class Methods

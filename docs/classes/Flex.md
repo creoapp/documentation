@@ -169,6 +169,9 @@ Border end width, it depends on text and childrens direction
 * **var** **borderWidth**: **[Float](../gravity/types.md)**
 Border width, acts exactly like padding. Does not do any drawing.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

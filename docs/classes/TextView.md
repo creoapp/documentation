@@ -71,6 +71,21 @@ The custom input view to display when the text view becomes the first responder.
 * **var** **inputAccessoryView**: **[UIView](UIView.md)**
 The custom accessory view to display when the text view becomes the first responder.
 
+* **var** **autocapitalizationType**: **TextAutocapitalizationType**
+The auto-capitalization style for the text object.
+
+* **var** **autocorrectionType**: **TextAutocorrectionType**
+The autocorrection style for the text object.
+
+* **var** **spellCheckingType**: **TextSpellCheckingType**
+The spell-checking style for the text object.
+
+* **var** **keyboardType**: **KeyboardType**
+The keyboard style associated with the text object. The keyboard style identifies what keys are available on the keyboard and which ones appear by default.
+
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods
@@ -118,6 +133,36 @@ Clear focus from selected control
  * .Link
  * .None
  * .PhoneNumber
+
+#### TextAutocapitalizationType
+ * .AllCharacters
+ * .None
+ * .Sentences
+ * .Words
+
+#### TextAutocorrectionType
+ * .Default
+ * .No
+ * .Yes
+
+#### TextSpellCheckingType
+ * .Default
+ * .No
+ * .Yes
+
+#### KeyboardType
+ * .ASCIICapable
+ * .ASCIICapableNumberPad
+ * .DecimalPad
+ * .Default
+ * .EmailAddress
+ * .NamePhonePad
+ * .NumberPad
+ * .NumbersAndPunctuation
+ * .PhonePad
+ * .Twitter
+ * .URL
+ * .WebSearch
 
 #### AnimationOption
  * .AllowAnimatedContent

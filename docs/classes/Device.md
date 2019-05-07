@@ -77,6 +77,9 @@ Retrieve current device memory. \(read-only\)
 * **var** **usedMemory**: **[Float](../gravity/types.md)**
 Retrieve memory currently used by the process. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

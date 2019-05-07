@@ -16,6 +16,9 @@ Set the transform applied to the view with an affine transformation matrix const
 * **var** **backgroundColor**: **[Color](Color.md)**
 The view’s background color.
 
+* **var** **backgroundObject**: **[Object](../gravity/types.md)**
+The view’s background color or gradient.
+
 * **var** **borderWidth**: **[Float](../gravity/types.md)**
 The width of the view's border. When this value is greater than 0.0, the layer draws a border using the current borderColor value. The border is drawn inset from the receiver’s bounds by the value specified in this property. It is composited above the receiver’s contents and sublayers and includes the effects of the cornerRadius property.
 
@@ -59,7 +62,7 @@ The opacity of the view's shadow.
 The blur radius (in points) used to render the view's shadow
 
 * **var** **subviews**: **[List](../gravity/list.md)**
-The array of subviews.
+The array of subviews. \(read-only\)
 
 * **var** **autoresizingMask**: **Autoresizing**
 An integer bit mask that determines how the receiver resizes itself when its superview’s bounds change.
@@ -69,6 +72,9 @@ FlexBox layout. \(read-only\)
 
 * **var** **clipsToBounds**: **[Bool](../gravity/types.md)**
 Clip content to bounds.
+
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
 
 
 
@@ -103,6 +109,9 @@ Converts a point from the view's coordinate system to that of another view.
 
 * **func** **convertPointFrom**(**point**: **[Point](Point.md)**, **view**: **[UIView](UIView.md)**): <strong>[Point](Point.md)</strong> 
 Converts a point from the coordinate system of another view to that of the view.
+
+* **func** **hitTest**(**point**: **[Point](Point.md)**): <strong>[UIView](UIView.md)</strong> 
+.
 
 
 

@@ -32,6 +32,9 @@ The rotation of the gesture in degrees. You may set the rotation value to an arb
 * **var** **velocity**: **[Float](../gravity/types.md)**
 The velocity of the rotation gesture in degrees per second. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

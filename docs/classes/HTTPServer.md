@@ -71,6 +71,9 @@ The type of service to publish via Bonjour. No type is set by default, and one m
 * **var** **bonjourDomain**: **[String](../gravity/types.md)**
 Bonjour domain for publishing the service. The default value is 'local.'.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

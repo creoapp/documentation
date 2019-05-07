@@ -29,6 +29,9 @@ Whether or not the network is currently reachable via WiFi. \(read-only\)
 * **var** **statusString**: **[String](../gravity/types.md)**
 A localized string representation of the current network reachability status. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Class Methods

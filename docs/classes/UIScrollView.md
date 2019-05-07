@@ -67,6 +67,9 @@ Returns whether the content is moving in the scroll view after the user lifted t
 * **var** **keyboardDismissMode**: **[Int](../gravity/types.md)**
 The manner in which the keyboard is dismissed when a drag begins in the scroll view.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

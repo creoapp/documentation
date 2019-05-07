@@ -38,6 +38,9 @@ The number of fingers that must be pressed on the view for the gesture to be rec
 * **var** **allowableMovement**: **[Float](../gravity/types.md)**
 The maximum movement of the mouse in the view before the gesture fails. The mouse must move by the specified amount along either axis for the gesture to fail. The distance is measured in points. The default value of this property is the same as the double-click distance.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

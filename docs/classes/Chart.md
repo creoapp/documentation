@@ -68,6 +68,9 @@ If true, shows the Y axis labels; otherwise, does not.
 * **var** **dataSet**: **[Object](../gravity/types.md)**
 The <a href="DataSet.html">DataSet</a> object provides information that Chart needs to construct its content.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

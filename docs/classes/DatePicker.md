@@ -50,6 +50,9 @@ The seconds from which the countdown timer counts down (when the mode property i
 * **var** **minuteInterval**: **[Int](../gravity/types.md)**
 The interval at which the date picker should display minutes. You can use this property to set the interval displayed by the minutes wheel (for example, 15 minutes). The interval value must be evenly divided into 60; if it is not, the default value is used. The default and minimum values are 1; the maximum value is 30.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

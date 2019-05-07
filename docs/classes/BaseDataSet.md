@@ -37,6 +37,9 @@ Used to check if DataSet has been cancelled. \(read-only\)
 * **var** **error**: **[String](../gravity/types.md)**
 Last Error message. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

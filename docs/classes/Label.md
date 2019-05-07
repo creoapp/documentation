@@ -83,6 +83,9 @@ The minimum scale factor supported for the label’s text. Use this property to 
 * **var** **preferredMaxLayoutWidth**: **[Float](../gravity/types.md)**
 he preferred maximum width (in points) for a multiline label.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

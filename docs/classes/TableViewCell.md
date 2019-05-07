@@ -43,6 +43,9 @@ Array of swipe actions to display on the right edge of the row
 * **var** **leftActions**: **[List](../gravity/list.md)**
 Array of swipe actions to display on the left edge of the row
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

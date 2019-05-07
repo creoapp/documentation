@@ -41,6 +41,9 @@ This event is called when the object has been removed from the current runtime s
 * **var** **identifier**: **[String](../gravity/types.md)**
 An string that you can use to identify instances of the CustomView in your application. You can set the value of this property and use that value to identify the view later.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

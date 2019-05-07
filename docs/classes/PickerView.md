@@ -47,6 +47,9 @@ Description not yet ready. \(read-only\)
 * **var** **dataSet**: **[Object](../gravity/types.md)**
 The <a href="DataSet.html">DataSet</a> object provides information that PickerView needs to construct its content.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

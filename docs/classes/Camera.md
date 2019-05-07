@@ -41,11 +41,11 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **cameraQuality**: **CameraPosition**
+* **var** **cameraQuality**: **CameraQuality**
 Current position of a capture device.
 
 * **var** **position**: **CameraPosition**
-Current position of a capture device. \(read-only\)
+Current position of a capture device.
 
 * **var** **whiteBalance**: **WhiteBalanceMode**
 White balance mode.
@@ -173,6 +173,12 @@ A Boolean value that indicates whether the capture device should automatically s
 * **var** **machineReadableObjectTypes**: **MachineReadableObjectType**
 A bitmask used to filter the metadata objects reported by the RecognizedObjects event.
 
+* **var** **filters**: **[List](../gravity/list.md)**
+A list a ImageFilters to apply to the live Camera preview.
+
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Class Methods
@@ -216,6 +222,19 @@ Clear focus from selected control
 
 
 ### Enumeration
+
+#### CameraQuality
+ * .High
+ * .Low
+ * .Medium
+ * .Photo
+ * .cif352x288
+ * .hd1280x720
+ * .hd1920x1080
+ * .hd4K3840x2160
+ * .iFrame1280x720
+ * .iFrame960x540
+ * .vga640x480
 
 #### CameraPosition
  * .Front

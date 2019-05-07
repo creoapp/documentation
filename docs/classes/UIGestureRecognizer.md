@@ -31,6 +31,12 @@ The current state of the gesture recognizer. Some of these states are not applic
 * **var** **numberOfTouches**: **[Int](../gravity/types.md)**
 Returns the number of touches involved in the gesture represented by the receiver. \(read-only\)
 
+* **var** **view**: **[UIView](UIView.md)**
+The view the gesture recognizer is attached to. \(read-only\)
+
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

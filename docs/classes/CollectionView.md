@@ -76,6 +76,9 @@ The <a href="DataSet.html">DataSet</a> object provides information that Collecti
 * **var** **keyPath**: **[String](../gravity/types.md)**
 The base keyPath to get a particular node of the <a href="DataSet.html">DataSet</a> value. The DataSet must provide a List of objects and each object represents a different item. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods
@@ -94,6 +97,18 @@ Selects the item at the specified index path and optionally scrolls it into view
 
 * **func** **deselectItem**(**indexPath**: **[IndexPath](IndexPath.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
 Deselects the item at the specified index.
+
+* **func** **indexPathForItemAtPoint**(**point**: **[Point](Point.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
+Returns the index path of the item at the specified point in the collection view.
+
+* **func** **indexPathsForVisibleItems**(): <strong>[List](../gravity/list.md)</strong> 
+An array of the index paths of the visible items in the collection view.
+
+* **func** **indexPathForCell**(**cell**: **[CollectionViewCell](CollectionViewCell.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
+Returns the index path of the specified cell.
+
+* **func** **cellForItemAtIndexPath**(**indexPath**: **[IndexPath](IndexPath.md)**): <strong>[CollectionViewCell](CollectionViewCell.md)</strong> 
+Returns the visible cell object at the specified index path.
 
 * **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.

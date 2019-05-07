@@ -26,6 +26,9 @@ The image displayed when the tab bar item is selected.
 * **var** **badgeValue**: **[String](../gravity/types.md)**
 Text that is displayed in the upper-right corner of the item with a surrounding red oval.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

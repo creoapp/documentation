@@ -61,6 +61,9 @@ Returns the currently selected Window or Navigation. \(read-only\)
 * **var** **prefersLargeTitles**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the title should be displayed in a large format in the navigation bar. When this property is set to true, the navigation bar allows the title to be displayed out-of-line and using a larger font. The top window must specify whether it wants its title displayed in the large or small format. Use the largeTitleDisplayMode property of the <a href="Window.html">Window</a> to configure the title's appearance. When the property is set to false, the navigation bar displays the title inline with the other bar button items.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

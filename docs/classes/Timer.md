@@ -26,6 +26,9 @@ If true, the timer will repeatedly reschedule itself. If false, the timer will b
 * **var** **isRunning**: **[Bool](../gravity/types.md)**
 A Boolean value that indicates whether the timer is currently started and running.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

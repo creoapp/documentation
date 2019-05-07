@@ -77,6 +77,9 @@ The current audio sample rate, in hertz. \(read-only\)
 * **var** **preferredSampleRate**: **[Float](../gravity/types.md)**
 The preferred sample rate, in hertz. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

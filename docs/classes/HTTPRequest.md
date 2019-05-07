@@ -95,6 +95,9 @@ The number of bytes that the task expects to send in the request body. The URL l
 * **var** **countOfBytesExpectedToReceive**: **[Int](../gravity/types.md)**
 The number of bytes that the task expects to receive in the response body. This value is determined based on the Content-Length header received from the server. If that header is absent, the value is -1LL. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

@@ -29,6 +29,9 @@ A float value specifying the width of the item. If the value is 0.0, SegmentedCo
 * **var** **enabled**: **[Bool](../gravity/types.md)**
 Use this property to enable or disable the item. By default, items are enabled.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

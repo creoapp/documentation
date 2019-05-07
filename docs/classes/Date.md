@@ -62,6 +62,9 @@ Extract the original week of the year calendar unit. \(read-only\)
 * **var** **yearForWeekOfYear**: **[Int](../gravity/types.md)**
 Extract the ISO Week Date from the date. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Class Methods

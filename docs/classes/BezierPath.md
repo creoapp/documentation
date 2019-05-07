@@ -35,6 +35,9 @@ A Boolean indicating whether the even-odd winding rule is in use for drawing pat
 * **var** **isEmpty**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the path has any valid elements. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

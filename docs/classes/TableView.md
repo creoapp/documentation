@@ -113,6 +113,9 @@ The index paths of the selected rows. \(read-only\)
 * **var** **keyPath**: **[String](../gravity/types.md)**
 The base keyPath to get a particular node of the <a href="DataSet.html">DataSet</a> value. The DataSet must provide a List of objects and each object represents a different row. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods
@@ -152,6 +155,18 @@ Deletes the row specified by an IndexPath (row and section) or an Int (row, in t
 
 * **func** **deleteRows**(**indexPaths**: **[List](../gravity/list.md)**, **rowAnimation**: **<a href="#_enum_TableViewRowAnimation">TableViewRowAnimation</a> = 100**)
 Deletes the rows specified by an array of index paths, with an option to animate the deletion (the animation is not simulated in the Creo Simulator for Mac).
+
+* **func** **cellForRowAtIndexPath**(**indexPath**: **[Object](../gravity/types.md)**): <strong>[TableViewCell](TableViewCell.md)</strong> 
+Returns the table cell at the specified index path.
+
+* **func** **visibleCells**(): <strong>[List](../gravity/list.md)</strong> 
+The table cells that are visible in the table view.
+
+* **func** **indexPathsForVisibleRows**(): <strong>[List](../gravity/list.md)</strong> 
+An array of index paths, each identifying a visible row in the table view.
+
+* **func** **indexPathForCell**(**cell**: **[TableViewCell](TableViewCell.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
+Returns an index path representing the row and section of a given table-view cell.
 
 * **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.

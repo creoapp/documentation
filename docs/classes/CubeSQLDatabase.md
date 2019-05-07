@@ -65,6 +65,9 @@ A flag that checks if database is connected. \(read-only\)
 * **var** **useSchema**: **[Bool](../gravity/types.md)**
 A flag to check if current database engines supports schemas. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

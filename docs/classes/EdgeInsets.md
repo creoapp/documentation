@@ -16,6 +16,9 @@ bottom field.
 * **var** **right**: **[Float](../gravity/types.md)**
 right field.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

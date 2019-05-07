@@ -98,6 +98,9 @@ The complete list of annotations associated with the map. \(read-only\)
 * **var** **selectedAnnotations**: **[List](../gravity/list.md)**
 The annotations that are currently selected. Assigning a new array to this property selects only the first annotation in the array.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

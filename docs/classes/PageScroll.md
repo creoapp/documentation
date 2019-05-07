@@ -62,6 +62,9 @@ Description not yet ready.
 * **var** **pageControlIndicatorSpace**: **[Float](../gravity/types.md)**
 Description not yet ready.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

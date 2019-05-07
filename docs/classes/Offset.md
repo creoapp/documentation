@@ -10,6 +10,9 @@ horizontal field.
 * **var** **vertical**: **[Float](../gravity/types.md)**
 vertical field.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

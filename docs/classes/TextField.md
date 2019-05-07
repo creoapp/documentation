@@ -101,6 +101,21 @@ The overlay view displayed on the left (or leading) side of the text field.
 * **var** **rightView**: **[UIView](UIView.md)**
 The overlay view displayed on the right (or trailing) side of the text field.
 
+* **var** **autocapitalizationType**: **TextAutocapitalizationType**
+The auto-capitalization style for the text object.
+
+* **var** **autocorrectionType**: **TextAutocorrectionType**
+The autocorrection style for the text object.
+
+* **var** **spellCheckingType**: **TextSpellCheckingType**
+The spell-checking style for the text object.
+
+* **var** **keyboardType**: **KeyboardType**
+The keyboard style associated with the text object. The keyboard style identifies what keys are available on the keyboard and which ones appear by default.
+
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods
@@ -143,6 +158,36 @@ Clear focus from selected control
  * .Never
  * .UnlessEditing
  * .WhileEditing
+
+#### TextAutocapitalizationType
+ * .AllCharacters
+ * .None
+ * .Sentences
+ * .Words
+
+#### TextAutocorrectionType
+ * .Default
+ * .No
+ * .Yes
+
+#### TextSpellCheckingType
+ * .Default
+ * .No
+ * .Yes
+
+#### KeyboardType
+ * .ASCIICapable
+ * .ASCIICapableNumberPad
+ * .DecimalPad
+ * .Default
+ * .EmailAddress
+ * .NamePhonePad
+ * .NumberPad
+ * .NumbersAndPunctuation
+ * .PhonePad
+ * .Twitter
+ * .URL
+ * .WebSearch
 
 #### AnimationOption
  * .AllowAnimatedContent

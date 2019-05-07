@@ -26,6 +26,9 @@ The index of the root array of nodes. For example, the index number identifying 
 * **var** **length**: **[Int](../gravity/types.md)**
 The number of indexes in the index path. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

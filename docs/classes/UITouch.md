@@ -13,6 +13,9 @@ This class is reserved and cannot be directly instantiated.
 * **var** **view**: **[UIView](UIView.md)**
 The view to which touches are being delivered, if any. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

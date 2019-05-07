@@ -50,6 +50,9 @@ Returns the currently selected Window or Navigation.
 * **var** **selectedIndex**: **[Int](../gravity/types.md)**
 The index of the Window associated with the currently selected tab item.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

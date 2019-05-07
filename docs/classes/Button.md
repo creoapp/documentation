@@ -53,6 +53,9 @@ Returns the image for the current button state. \(read-only\)
 * **var** **currentBackgroundImage**: **[Image](Image.md)**
 Returns the background image for the current button state. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

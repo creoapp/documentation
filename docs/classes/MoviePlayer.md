@@ -118,6 +118,9 @@ A Boolean that indicates whetever the first video frame of the movie is ready to
 * **var** **repeatMode**: **MovieRepeatMode**
 Obtains the most recent time-based metadata provided by the streamed movie.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

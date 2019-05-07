@@ -29,6 +29,9 @@ Check if animation is running. \(read-only\)
 * **var** **speed**: **[Float](../gravity/types.md)**
 The speed of the animation.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

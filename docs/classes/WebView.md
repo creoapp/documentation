@@ -56,6 +56,9 @@ The custom user agent string or null if no custom user agent string has been set
 * **var** **allowsLinkPreview**: **[Bool](../gravity/types.md)**
 A Boolean value that determines whether pressing on a link displays a preview of the destination for the link. In iOS this property is available on devices that support 3D Touch. Default value is false in iOS.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

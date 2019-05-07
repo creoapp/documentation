@@ -23,6 +23,9 @@ The height of the RGBBuffer. \(read-only\)
 * **var** **image**: **[Image](Image.md)**
 Create an Image from the RGBBuffer values. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Class Methods

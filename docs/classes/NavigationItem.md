@@ -20,6 +20,9 @@ The navigation item’s title displayed in the navigation bar.
 * **var** **prompt**: **[String](../gravity/types.md)**
 A single line of text displayed at the top of the navigation bar.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

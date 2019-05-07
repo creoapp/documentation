@@ -19,6 +19,9 @@ The position used for the Read and Write methods. This proprerty is automaticall
 * **var** **littleEndian**: **[Int](../gravity/types.md)**
 The byte order used by the Read and Write methods. If true, values are stored with the least-significant bytes first. The default value is true.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

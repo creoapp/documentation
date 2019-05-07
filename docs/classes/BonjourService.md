@@ -32,6 +32,9 @@ The port on which the service is listening for connections. \(read-only\)
 * **var** **addresses**: **[List](../gravity/list.md)**
 A read-only array containing NSData objects, each of which contains a socket address for the service. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

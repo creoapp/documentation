@@ -65,6 +65,9 @@ Contains the maximum track image currently being used to render the receiver. \(
 * **var** **currentThumbImage**: **[Image](Image.md)**
 Contains the thumb image currently being used to render the receiver. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

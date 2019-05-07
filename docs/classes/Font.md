@@ -32,6 +32,9 @@ The x-height of the receiver. \(read-only\)
 * **var** **lineHeight**: **[Float](../gravity/types.md)**
 The height of text lines (measured in points). \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Class Methods

@@ -48,6 +48,9 @@ The base keyPath to get a particular node of the <a href="DataSet.html">DataSet<
 * **var** **customView**: **[CustomView](CustomView.md)**
 Custom view template set in the PageContainer inspector.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

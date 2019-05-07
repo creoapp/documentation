@@ -47,6 +47,9 @@ Flag used to change shape from polygon to star.
 * **var** **internalRadius**: **[Float](../gravity/types.md)**
 Polygon internal radius value.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

@@ -32,6 +32,9 @@ The number of touches that must be present for the swipe gesture to be recognize
 * **var** **direction**: **SwipeGestureRecognizerDirection**
 The permitted direction of the swipe for this gesture recognizer. The default direction is SwipeGestureRecognizerDirection.Right.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

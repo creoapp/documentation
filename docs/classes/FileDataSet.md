@@ -38,6 +38,9 @@ Defines if the CSV file contains the column names in the first row (CSV type onl
 * **var** **separator**: **[String](../gravity/types.md)**
 The delimiter character to be used when parsing the fields of the CSV file (CSV type only).
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

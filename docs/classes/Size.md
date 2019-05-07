@@ -10,6 +10,9 @@ width field.
 * **var** **height**: **[Float](../gravity/types.md)**
 height field.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

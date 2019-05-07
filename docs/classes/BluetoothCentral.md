@@ -59,6 +59,9 @@ Returs the peripheral name of the last value received from a pheripheral. \(read
 * **var** **decodedValue**: **[Object](../gravity/types.md)**
 Returs the decoded value of the last value received from a pheripheral. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

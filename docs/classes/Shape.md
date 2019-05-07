@@ -41,6 +41,9 @@ Border thickness.
 * **var** **regularShape**: **[Bool](../gravity/types.md)**
 If true then shape is forced to have same width and height.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

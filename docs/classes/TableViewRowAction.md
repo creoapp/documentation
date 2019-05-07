@@ -29,6 +29,9 @@ The image to display in the button. Only available on iOS 11.0+
 * **var** **backgroundColor**: **[Color](Color.md)**
 The background color for the action button. The default color depends on the style.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

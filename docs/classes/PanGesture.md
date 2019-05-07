@@ -32,6 +32,9 @@ The maximum number of fingers that can be touching the view for this gesture to 
 * **var** **minimumNumberOfTouches**: **[Int](../gravity/types.md)**
 The minimum number of fingers that can be touching the view for this gesture to be recognized. The default value is 1.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

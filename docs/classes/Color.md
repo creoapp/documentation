@@ -91,6 +91,9 @@ Returns alpha component. \(read-only\)
 * **var** **luminance**: **[Float](../gravity/types.md)**
 Returns luminance component (only valid if isRGB is true). \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Class Methods

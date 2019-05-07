@@ -1,3 +1,52 @@
+**<span class="label label-release label-version">Creo 2.0.7</span>May 7th 2019 (Build 17756)**
+* Improved autocompletion popover
+* Improved local autocompletion
+* Improved clone method (init constructor, if presents, must be manually called)
+* Improved internal view drawing
+* Improved subview handling
+* Improved CAR file detection and generation 
+* Improved save/restore size in Gravity Console
+* Exposed imageInsets property to NavigationBar items
+* Exposed backgroundObject property of views
+* Exposed keyboardType, autocorrectionType, autocapitalizationType and spellCheckingType properties to TextView and TextField
+* Exposed objectName to all objects
+* Exposed Local to iOS
+* Exposed NumberFormatter class
+* Exposed Locale class
+* Exposed methods indexPathForItemAtPoint, indexPathsForVisibleItems, indexPathForCell and cellForItemAtIndexPath to CollectionView and TableView
+* Exposed view property to GestureRecognizer in order to be able to access the view the gesture recognizer is attached to
+* Exposed view property to Window
+* Exposed hitTest method to View
+* ImageFilters can now be applied to Camera video too
+* String split/loop is now unicode savvy
+* Added initiallyStarted property to ActivityIndicator
+* Added support for local enum
+* Vectors filters are now float values
+* Image/highlightedImage are now automatically updated when user programmatically changes the imagesRenderingMode of an ImageView
+* Several improvements to the Camera control
+* Several issues fixed related to ImageFilters
+* Updated CubeSQL SDK
+* Home/End keys mapped to beginning/end of line in code editor
+* Various improvements to support subclassing of Creo native controls
+* Various improvements to ImageView and ImageFilters:
+* Fixed backgroundColor property of views
+* Fixed an issue with the saveVideoToCameraRoll method
+* Fixed an issue with internal nextCameraRollCount method
+* Fixed an issue with continue keyword and for loops
+* Fixed an issue with filters applied directly to Image (the issue was an infinite computed destination rect)
+* Fixed an issue with views and autoresizing mask
+* Fixed an issue where animation.isRunning always return false
+* Fixed an issue related to clone method
+* Fixed the initial orientation of the simulator when it is started from the design board presenting a custom view
+* Fixed self parameter in complex postfix expression (loadat case)
+* Fixed an issue in the color inspector with rgb/rgba string that only contain digits
+* Fixed checkerboard for ImageView
+* Fixed a layout issue when an object is deleted
+* Fixed an issue with plist builder (bundle and short version switched)
+* Fixed a frame conversion issue related to autoresizing mask
+* Several other internal improvements and enhancements
+* **[CreoPlayer 2.0.7](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+
 **<span class="label label-release label-version">Creo 2.0.6</span>April 12th 2019 (Build 17448)**
 * Added support for latest App Store requirements
 * Added support for Compiled Asset Catalog (app icon CAR builder)

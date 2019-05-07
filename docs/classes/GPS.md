@@ -35,6 +35,9 @@ The desired location accuracy. The location service will try its best to achieve
 * **var** **activityType**: **ActivityType**
 The type of user activity associated with the location updates. The location manager uses the information in this property as a cue to determine when location updates may be automatically paused. Pausing updates gives the system the opportunity to save power in situations where the user's location is not likely to be changing. For example, if the activity type is AutomotiveNavigation and no location changes have occurred recently, the radios might be powered down until movement is detected again.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

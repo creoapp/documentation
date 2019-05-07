@@ -44,6 +44,9 @@ The image displayed when the switch is in the on position.
 * **var** **offImage**: **[Image](Image.md)**
 The image displayed while the switch is in the off position.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

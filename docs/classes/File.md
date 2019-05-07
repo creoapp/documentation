@@ -29,6 +29,9 @@ Current error as String (if any). \(read-only\)
 * **var** **offset**: **[Int](../gravity/types.md)**
 File current offset. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Class Methods

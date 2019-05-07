@@ -47,6 +47,9 @@ Represents the current Window in the navigation.
 * **var** **selectedIndex**: **[Int](../gravity/types.md)**
 Represents the current window index inside the navigation.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

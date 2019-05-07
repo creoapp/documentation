@@ -68,6 +68,9 @@ The maximum width (in points) allowed for the primary view controller’s conten
 * **var** **primaryColumnWidth**: **[Float](../gravity/types.md)**
 The width (in points) of the primary view controller’s content. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

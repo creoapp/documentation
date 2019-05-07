@@ -41,6 +41,9 @@ Indicates whether the control attempts to adjust segment widths based on their c
 * **var** **items**: **[List](../gravity/list.md)**
 Array of items presented by the SegmentedControl.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

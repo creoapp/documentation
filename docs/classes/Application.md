@@ -61,6 +61,9 @@ A value (in seconds) to set the frequency of the memory checker to run (set to 0
 * **var** **memoryThreshold**: **[Float](../gravity/types.md)**
 This value is a suggestion to the memory checker for a threshold value used to compare with the current memory pressure in order to decide if the garbage collector must be started. This value must be a number higher than 0.0 and lower than 1.0. Values next to zero means use an aggressive strategy, while values next to one means use a more relaxed strategy.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

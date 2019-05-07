@@ -51,6 +51,9 @@ Allow the session to set cookies on requests.
 * **var** **HTTPCookieAcceptPolicy**: **HTTPCookieAcceptPolicy**
 Policy for accepting cookies. This overrides the policy otherwise specified by the cookie storage.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

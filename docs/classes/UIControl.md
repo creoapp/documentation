@@ -19,6 +19,9 @@ A Boolean value indicating whether the control draws a highlight. Controls autom
 * **var** **selected**: **[Bool](../gravity/types.md)**
 A Boolean value indicating whether the control is in the selected state. Most controls do not modify their appearance or behavior when selected, but some do.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

@@ -44,6 +44,9 @@ An image to use for the portion of the progress bar that is filled.
 * **var** **trackImage**: **[Image](Image.md)**
 An image to use for the portion of the track that is not filled.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

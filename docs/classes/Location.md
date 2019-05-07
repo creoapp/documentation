@@ -38,6 +38,9 @@ The time at which this location was determined. \(read-only\)
 * **var** **floor**: **[Int](../gravity/types.md)**
 The logical floor of the building in which the user is located. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers

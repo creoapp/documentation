@@ -24,6 +24,9 @@ Returns an array of location \(read-only\)
 * **var** **gradientType**: **GradientType**
 Gradient type.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

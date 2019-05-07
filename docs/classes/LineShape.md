@@ -47,6 +47,9 @@ Main line color.
 * **var** **secondaryLineColor**: **[Color](Color.md)**
 Secondary line color.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

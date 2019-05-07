@@ -112,6 +112,9 @@ The offset of the text within the search text field background.
 * **var** **inputAccessoryView**: **[UIView](UIView.md)**
 The custom accessory view to display when the text field becomes the first responder.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods
@@ -166,7 +169,7 @@ Clear focus from selected control
 
 #### KeyboardType
  * .ASCIICapable
- * .Alphabet
+ * .ASCIICapableNumberPad
  * .DecimalPad
  * .Default
  * .EmailAddress

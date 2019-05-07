@@ -23,6 +23,9 @@ Represents the current state of the peripheral manager. The PoweredOn state indi
 * **var** **isAdvertising**: **[Bool](../gravity/types.md)**
 Represents the current state of the peripheral manager. A Boolean value indicating whether the peripheral is currently advertising data. \(read-only\)
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Methods

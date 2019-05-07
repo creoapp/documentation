@@ -32,6 +32,9 @@ The number of taps for the gesture to be recognized. The default value is 1.
 * **var** **numberOfTouchesRequired**: **[Int](../gravity/types.md)**
 The number of fingers required to tap for the gesture to be recognized. The default value is 1.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 

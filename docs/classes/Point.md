@@ -10,6 +10,9 @@ x coordinate.
 * **var** **y**: **[Float](../gravity/types.md)**
 y coordinate.
 
+* **var** **objectName**: **[String](../gravity/types.md)**
+The name of the object.
+
 
 
 ### Initializers
