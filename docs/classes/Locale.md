@@ -12,6 +12,13 @@ This event is called when the object has been removed from the current runtime s
 
 
 
+### Class Properties
+
+* **var** **preferredLanguages**: **[List](../gravity/list.md)**
+An ordered list of the user's preferred languages. Users choose a primary language when configuring a device. They may also specify one or more secondary languages in order of preference for use when localization is unavailable in a higher priority language. Use this property to obtain the current user's ordered list of languages, presented as an array of locale identifier strings. \(read-only\)
+
+
+
 ### Properties
 
 * **var** **identifier**: **[String](../gravity/types.md)**

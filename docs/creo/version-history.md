@@ -1,3 +1,10 @@
+**<span class="label label-release label-version">Creo 2.0.8</span>May 9th 2019 (Build 17790)**
+* Exposed Locale.preferredLanguages
+* Fixed an issue with class properties/methods autocompletion
+* Fixed an issue with range in shouldChangeCharactersInRange TextField event (still a work in progress)
+* Improved position of autocompletion popover
+* **[CreoPlayer 2.0.8](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+
 **<span class="label label-release label-version">Creo 2.0.7</span>May 7th 2019 (Build 17756)**
 * Improved autocompletion popover
 * Improved local autocompletion
