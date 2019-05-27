@@ -57,10 +57,10 @@ Rename Query to SubtaskQuery.
 ![ToDo](../images/tutorials/todo-7.png)
 
 ++8++ A CustomView is an object and so it can have its own properties and methods. It is now time to expose some properties. Select the Exposed Properties panel from the Inspector and drag the binding knob from the RectShape1. Configure the exposed property to be named **Color** and to be internally bound to the **RectShape1.fillColor** property:
-![ToDo](../images/tutorials/todo-8.png)
+![ToDo](../images/tutorials/todo-9.png)
 
 ++9++ Do the same for the Label and drag the binding knob from the Label1 to the Exposed Properties Inspector. Configure the exposed property to be named **Name** and to be internally bound to the **Label1.text** property:
-![ToDo](../images/tutorials/todo-9.png)
+![ToDo](../images/tutorials/todo-8.png)
 
 ++10++ **Here is where the magic happens.** Connect your TableView with a CustomView and a DataSet. All you have to do is to configure the Custom View property of the Cell1 with the Cell1.CustomView1 value and the following properties of the TableView1:
 
