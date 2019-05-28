@@ -85,4 +85,4 @@ process the redirect URL for the built App.
 ![SendGmail](../images/technotes/sendgmail-3.png)
 
 **Project**
-* [SendGmail.creoproject]({{github_raw_link}}/assets/SendGmail.creoproject.zip) (49KB)
+* [SendGmail.creoproject]({{github_raw_link}}/assets/SendGmail.creoproject.zip) (19KB)
