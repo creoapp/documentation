@@ -5,7 +5,7 @@ The HTTPClient class offers an easy interface to setup the [authentication and a
 
 First of all, you have to enable the Gmail API in [gmail_api-console](https://console.cloud.google.com/apis/library/gmail.googleapis.com), then create a new "ID client OAuth" credential on [google-developers-console](https://console.developers.google.com/apis/credentials) with type "iOS" and your App name and bundle ID.
 Two different Client ID are needed:
-* one Client ID specific for the bundle ID of your App, used when the App runs in a real device
+* one Client ID for the bundle ID of your App, used when the App runs in a real device
 * one Client ID with the "com.creolabs.creo" bundle ID, needed to test the App in the Creo degin board and simulator within the Mac IDE and in the CreoPlayer.
 *Note:* You have to set these Cliend ID values in the inspector of the `SendGmail` (HTTPClient) object of the attached project to make it work.
 
