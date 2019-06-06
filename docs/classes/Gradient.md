@@ -24,6 +24,12 @@ Returns an array of location \(read-only\)
 * **var** **gradientType**: **GradientType**
 Gradient type.
 
+* **var** **minPosition**: **[Point](Point.md)**
+The coordinate that defines the starting point of the gradient (from 0.0 to 1.0).
+
+* **var** **maxPosition**: **[Point](Point.md)**
+The coordinate that defines the ending point of the gradient (from 0.0 to 1.0).
+
 * **var** **objectName**: **[String](../gravity/types.md)**
 The name of the object.
 

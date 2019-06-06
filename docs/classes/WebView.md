@@ -29,6 +29,9 @@ This event is called when the object has been removed from the current runtime s
 * **var** **url**: **[String](../gravity/types.md)**
 Navigates to a requested URL.
 
+* **var** **html**: **[String](../gravity/types.md)**
+Sets the webpage contents.
+
 * **var** **title**: **[String](../gravity/types.md)**
 The page title. \(read-only\)
 
@@ -83,6 +86,9 @@ Stops loading all resources on the current page.
 
 * **func** **runJavaScript**(**javaScript**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
 Evaluates a JavaScript code.
+
+* **func** **loadHTML**(**html**: **[String](../gravity/types.md)**, **baseURL**: **[String](../gravity/types.md) = null**)
+Sets the webpage contents and base URL.
 
 * **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.

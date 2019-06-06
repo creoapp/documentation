@@ -1,3 +1,25 @@
+**<span class="label label-release label-version">Creo 2.1.0</span>June 6th 2019 (Build 18073)**
+* Added new split panel display mode
+* Added new Live Code
+* Added query parameters that may be included in the path of the HTTPClient class
+* Added closures to capture and startRecording Camera methods
+* Added TechDoc about sending an email with gmail
+* Added support for application icon badges
+* Exposed minPosition and maxPosition to Gradient class
+* Exposed Camera position property
+* Exposed the start and stop methods and isRunning property to Camera
+* Exposed html property to WebView
+* Improved Autocompletion
+* Improved Exporter
+* Improved documentation for BluetoothCentral
+* Improved Camera control
+* Fixed an issue with TabBar
+* Fixed the order of calls of WillAppear/DidAppear/WillMoveToWindow/DidMoveToWindow methods 
+* Fixed an issue with drag and drop of customviews to a new project
+* Fixed an incorrect float to string conversion
+* Several internal fixes and improvements
+* **[CreoPlayer 2.1.0](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+
 **<span class="label label-release label-version">Creo 2.0.8</span>May 9th 2019 (Build 17790)**
 * Exposed Locale.preferredLanguages
 * Fixed an issue with class properties/methods autocompletion

@@ -57,7 +57,7 @@ Returs the peripheral ID of the last value received from a pheripheral. \(read-o
 Returs the peripheral name of the last value received from a pheripheral. \(read-only\)
 
 * **var** **decodedValue**: **[Object](../gravity/types.md)**
-Returs the decoded value of the last value received from a pheripheral. \(read-only\)
+Returs the decoded value of the last value received from a pheripheral. Only available for some of the standard bluetooth services (org.bluetooth.service.heart_rate, org.bluetooth.service.battery_service, org.bluetooth.service.blood_pressure, etc.) \(read-only\)
 
 * **var** **objectName**: **[String](../gravity/types.md)**
 The name of the object.

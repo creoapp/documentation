@@ -59,6 +59,9 @@ Current flash mode of a capture device. \(read-only\)
 * **var** **recording**: **[Bool](../gravity/types.md)**
 Boolean value to indicate if the camera is recording a video at the current moment. \(read-only\)
 
+* **var** **isRunning**: **[Bool](../gravity/types.md)**
+Boolean value to indicate if the camera session is running. The camera is automatically started if not hidden and added to a visible view hierarchy, otherwise it is stopped. Use the start/stop method to programmatically change the running status. \(read-only\)
+
 * **var** **videoEnabled**: **[Bool](../gravity/types.md)**
 Check if video mode is enabled in the capture device.
 
@@ -190,7 +193,7 @@ Return a readable string representation of the exposure value.
 
 ### Methods
 
-* **func** **capture**()
+* **func** **capture**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
 Initiates a still image capture action.
 
 * **func** **togglePosition**()
@@ -202,11 +205,17 @@ Toggle the flash mode of the capture device. Returns the new flash mode.
 * **func** **setFlashMode**(**flashMode**: **[Int](../gravity/types.md)**): <strong><a href="#_enum_CameraFlashMode">CameraFlashMode</a></strong> 
 Set the flash mode of the capture device. Returns true if the camera supports the new flash mode, false otherwise.
 
-* **func** **startRecording**()
+* **func** **startRecording**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
 Start recording a video.
 
 * **func** **stopRecording**()
 Stop recording a video.
+
+* **func** **start**()
+Starts running the camera session.
+
+* **func** **stop**()
+Stops running the camera session.
 
 * **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.

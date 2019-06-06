@@ -55,6 +55,9 @@ A Boolean value that controls whether the idle timer is disabled for the app. Th
 * **var** **count**: **[Int](../gravity/types.md)**
 Returns the number of times your application has launched. \(read-only\)
 
+* **var** **iconBadgeNumber**: **[Int](../gravity/types.md)**
+The number currently set as the badge of the app icon in Springboard. Set to 0 to hide the badge number. The default value of this property is 0.
+
 * **var** **memoryChecker**: **[Float](../gravity/types.md)**
 A value (in seconds) to set the frequency of the memory checker to run (set to 0 to disable automatic memory checker).
 
