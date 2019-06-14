@@ -50,6 +50,10 @@
     {
       "name": "Send an email with Gmail",
       "file": "gmail-api.md"
+    },
+    {
+      "name": "Login with Auth0",
+      "file": "login-with-auth0.md"
     }
   ]
 }
