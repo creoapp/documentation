@@ -1,3 +1,12 @@
+**<span class="label label-release label-version">Creo 2.1.1</span>June 14th 2019 (Build 18106)**
+* Added the ability to mark code using Accent color
+* Improved Code Editor
+* Improved Exporter
+* Fixed a couple of issues with split panels introduced in version 2.1.0
+* Two new TechNotes added to https://docs.creolabs.com/technotes/
+* Several internal fixes and improvements
+* **[CreoPlayer 2.1.1](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+
 **<span class="label label-release label-version">Creo 2.1.0</span>June 6th 2019 (Build 18073)**
 * Added new split panel display mode
 * Added new Live Code
