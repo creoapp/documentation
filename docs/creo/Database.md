@@ -4,7 +4,7 @@ Data is organized into rows, columns and tables, and it is indexed to make it fa
 ### Supported databases
 Creo supports connection to relational databases such as `SQLite`, `MySQL` and `PostgreSQL` and provides specific tools to easily create and test queries.
 
-The common companion of an application is usually an `SQLite` database to benefit from locally stored data that does not require a connection to an external resource like a `MySQL` or `Postgres` servers.
+The common companion of an application is usually a `SQLite` database to benefit from locally stored data that does not require a connection to an external resource like a `MySQL` or `Postgres` servers.
 
 ### Database connections
 
@@ -29,7 +29,7 @@ The tool is not limited to creating rows and tables but can also be used to setu
 * by pressing the T button next to a table name.
 * by pressing the constraints buttons next to a field name.
 
-**Note:** a table primary key could be set using both ways but just one is needed. In case of miss configurations a yellow _Warning sign_ is shown at the top, click on it to read the problem's description.
+**Note:** a table primary key could be set using both ways but just one is needed. In case of misconfigurations a yellow _Warning sign_ is shown at the top, click on it to read the problem's description.
 
 ### Database queries and dataset
 For all supported databases, Creo provides a tool to create and test static SQL queries.

@@ -47,7 +47,7 @@
 	<div class="row">
 		<div class="col-lg-6">
 		<h4 class="title-badge"><span class="number-badge"><span>7</span></span>&nbsp;&nbsp;&nbsp;LAYOUT</h4>
-		<p style="color: #9e9e9e; margin-left: 36px;">It gives you an overview of your app hierarchy, including navigations, windows, views and subviews.</p>
+		<p style="color: #9e9e9e; margin-left: 36px;">Gives you an overview of your app hierarchy, including navigations, windows, views and subviews.</p>
 		</div>
 		<div class="col-lg-6">
 		<h4 class="title-badge"><span class="number-badge"><span>8</span></span>&nbsp;&nbsp;&nbsp;PROJECT</h4>
