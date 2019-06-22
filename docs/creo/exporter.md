@@ -1,14 +1,14 @@
-Creo exporter's mission is being able to generate a __readable__ and __simple to mantain__ native project (ie. for XCode) that any developer can open and build with native tools. The exporter generates two set of class files, the private ones containing the exported views and their customisation. These files acts as a base class for the public ones that can be freely edited by the user because they are never overwritten. **Exporting more than once is a safe operation if you don’t modify the private files.**
+Creo exporter generates a __readable__, __simple-to-mantain__ native project that can be opened and built with XCode. The exporter generates two set of class files, the private ones containing the exported views and their customisation. These files acts as a base class for the public ones that can be freely edited by the user because they are are not overwritten by future exports. **Exporting more than once is a safe operation if you don’t modify the private files.**
 
 ### Exported objects
 
-With this first exporter, Creo can export a __Swift__ project where all views and windows are in it. **Logic is not exported** yet, just the view hierarchies (this feature will be added pretty soon).
+Creo can export a __Swift__ project where that includes all views and windows. **Logic is not exported** yet, just the view hierarchies.  Logic export will be added soon.
 
 - Views becomes native `UIKit` views (ie. `UILabel`, `UITextField` etc) and have all native properties set one by one as configured in Creo inspectors.
 
 - Windows are exported as native view controllers inherited from `UIViewController` and eventually configured to support different orientations (*landscape*, *portrait*) and device idioms (*iPhone*, *iPad*).
 
-- Navigation windows are exported to match their native counteparts ie `Navigation` windows become `UINavigationController` or a `TabBar` become a `UUITabBarController`. Also, al navigation windows are exported with the code to load and setup their children relationships.
+- Navigation windows are exported to match their native counteparts ie `Navigation` windows become `UINavigationController` or a `TabBar` become a `UUITabBarController`. Also, all navigation windows are exported with the code to load and setup their children relationships.
 
 - Images are exported as `xcassets` and can referenced by name or by variable via generated `UIImage` extensions.
 
@@ -18,9 +18,9 @@ With this first exporter, Creo can export a __Swift__ project where all views an
 
 Two prominent scenarios have emerged so far during the beta phase:
 
-- The exported code can be used to create the **starting template of a native a application** and it is expecially usefull when there are a lot of different `Window` for different _orientations_ and _idioms_. Building an universal scheleton is definitely easier with Creo than XCode. Also, with the whole views/windows exported as self contained code, with no external dependencies, the code is easy to read and extend.
+- The exported code can be used to create the **starting template of a native a application** and it is expecially usefull when there are many different `Window` objects for different _orientations_ and _idioms_. Building a universal skeleton is significantly easier with Creo than with XCode. The code is easy to read and extend because whole views/windows are exported as self contained code with no external dependencies.
 
-- Views code can be easily copied from the generated project to other projects. Therefore Creo can be used to **mantain a library of pre-configured UI views** and export them ready to be used with your native projects. You could expand your workflow to have a designer importing from Sketch into Creo, configuring native buttons, labels, composing complex tableview cells and then all you have to do is exporting them as code into you project. All native properties are mantained and they just compile.
+- View code can be easily copied from the generated project to other projects. Creo can be used to **mantain a library of pre-configured UI views** and export them ready for use with your native projects. You have a designer importing from Sketch into Creo, configuring native buttons, labels, composing complex tableview cells, and then export them as code into you project. All native properties are mantained and they compile without additional effort.
 
 ## How to export a project
 
@@ -34,12 +34,11 @@ An export output consists of:
 - the generated `swift` files, usually one per `Window`.
 
 ### Note 1
-The exporter will overwrite all generated files but any other file is not tuched or deleted.
+The exporter will overwrite all generated files but other files are not overwritten or deleted.
 
 ### Note 2
-`.swift` file's header __Author Name__ and __Organization Name__ can be customized from the `Preferences` -> `Exporter` panel.
+`.swift` file's header __Author Name__ and __Organization Name__ can be customized from the `Preferences` -> `Exporter` panel: 
 
-ie.
 ```
 //
 //  UIColors+CREO.swift
@@ -52,7 +51,7 @@ ie.
 
 ### Examples of exported hierarchies and classes
 
-Let's examine a simple hierarchy:
+Given a simple hierarchy:
 
 ```
 Navigation1
@@ -60,7 +59,7 @@ Navigation1
     - Button1
 ```
 
-Once exported the generated code contains a `NavigationController` that push `Window1` as the first visible controller:
+Once exported the generated code contains a `NavigationController` that pushes `Window1` as the first visible controller:
 
 ```
 import UIKit
@@ -84,7 +83,7 @@ class Navigation1: UINavigationController {
 }
 ```
 
-`Window1` is a native view controller configured with its children views like `Button1`:
+`Window1` is a native view controller configured with the child view `Button1`:
 
 ```
  class Window1: UIViewController {
@@ -117,7 +116,7 @@ class Navigation1: UINavigationController {
 }
 ```
 
-As you can see, `Button1` properties are exported as well and the view is configured in a single place, the variable name is the same for both `Creo` and the native project; this means you can access the `Button1` variable like in __gravity__:
+`Button1` properties are exported as well and the view is configured in a single place. The variable name is the same for both `Creo` and the native project; this means you can access the `Button1` variable like in __gravity__:
 
 
 ```
@@ -136,7 +135,7 @@ Window1
    - TableView1
 ```
 
-In this scenario the generated Swift code makes use of the `extension` concept to avoid polluting the `Window1` class, it also use __object oriented programming__ to inherit `View1` from `UIView` to fill it with its childrens; the code in this case is:
+The generated Swift code makes use of the `extension` concept to avoid polluting the `Window1` class, it also use __object oriented programming__ to inherit `View1` from `UIView` to fill it with its children;. The code in this case is:
 
 ```
 extension Window1 {
@@ -209,7 +208,7 @@ extension Window1.View1 {
 }
 ```
 
-You may notice how `TableView` cells, and `CollectionView` cells, are exported and automatically registered as well:
+Notice how `TableView` cells, and `CollectionView` cells, are exported and automatically registered as well:
 
 ```
     class Cell1: UITableViewCell {
@@ -244,7 +243,7 @@ You may notice how `TableView` cells, and `CollectionView` cells, are exported a
 
 ### A note about naming convetion and supporting orientations and idimos
 
-By default all views and windows retain the name they have in Creo, but there are case where a postfix is added to a window name to explain and declare his special meaing. This is true when a window has orientations or idioms variations.
+By default all views and windows retain the name they have in Creo, but there are case where a postfix is added to a window name to explain and declare its special meaing. This is true when a window has orientation or idiom variations.
 
 For example, this hierarchy has a Window with 2 variations, one for iPad devices and one for iPhone devices.
 
@@ -278,7 +277,7 @@ The exporter create 3 classes:
 1. `WindowLandscape` is the landscape variation of `Window`
 1. `WindowPortrait` is the portrait variation of `Window`
 
-then inside the generated code for `Window` it tracks the device orientation and present the proper controller according to it.
+then inside the generated code for `Window` it tracks the device orientation and present the proper controller.
 
 To complete the cases, when a `Window` has both an orientation variation and an idiom variation then the postfix is the orientation first and the idiom later, ie:
 
@@ -320,7 +319,7 @@ view.setImage(UIImage.CREO.min, for: .normal)
 
 ### Limits
 
-At the moment the exporter is under heavy development and things change fast; non native __UIKit__ views will be exported as simple empty `UIView` until the release of __CREOFramework__ (mid/late 2019)
+The exporter is under  development and is changing quickly.  Non-native __UIKit__ views will be exported as simple empty `UIView` until the release of __CREOFramework__ (mid/late 2019)
 
 - _CREORectangle_
 - _CREOLine_
@@ -332,7 +331,7 @@ At the moment the exporter is under heavy development and things change fast; no
 - _CREOCarousel_
 - _CREOPageContainer_
 
-Animations and color gradients are not exported too.
+Animations and color gradients are not exported.
 
 ### Year 2019 Roadmap
 
