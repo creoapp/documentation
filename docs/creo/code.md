@@ -30,6 +30,6 @@ For example, if you add a ```state``` property to a Slider1 object then it will 
 
 ![Creo](../images/creo/code_2.png)
 
-The ```get``` section holds the code that is executed when your property is read or accessed (for example in ```var myState = Slider1.state```). The _set_ section holds the code that is executed when your property is written or set (for example in ```Slider1.state = myState```).
+The ```get``` section holds the code that is executed when your property is read or accessed (for example in ```var myState = Slider1.state```). The ```set``` section holds the code that is executed when your property is written or set (for example in ```Slider1.state = myState```).
 
 ![Creo](../images/creo/code_3.png)
