@@ -18,7 +18,7 @@ Gravity is an open source project and you can find its complete source code on [
 In Creo **everything is an object**. That means that every object can be selected and modified using both the Inspector or the Code Editor. Use the Code Editor to modify values that can change at runtime and the Inspector to modify values that change at design time.
 ![Creo](../images/creo/code_1.png)
 
-Each object comes with a predefined set of events and an customizable set of methods and properties. Events notify object about important changes that require interactions. For example, a Slider uses the Changed event to notify that its value has changed, while a Button notifies that it has been touched using the Action event. Use the appropriate events to customize an object’s behaviors to better fit your needs. Every object can be further customized by adding methods and properties.
+Each object comes with a predefined set of events and a customizable set of methods and properties. Events notify object about important changes that require interactions. For example, a Slider uses the Changed event to notify that its value has changed, while a Button notifies that it has been touched using the Action event. Use the appropriate events to customize an object’s behaviors to better fit your needs. Every object can be further customized by adding methods and properties.
 
 Consult the [Classes](https://docs.creolabs.com/classes/) section of the documentation for an object's built-in methods and properties. Objects will will also respond to all the methods and properties of its superclasses.
 
