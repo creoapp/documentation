@@ -1,6 +1,6 @@
 ![How to use Creo](creo_intro_2.png)
 
-Creo is the next generation mobile app development tool that lets you combine design and development in order to build better applications in a fraction of time compared to any other traditional tools.
+Creo is the next generation mobile app development tool that lets you combine design and development in order to build better applications in a fraction of time compared to traditional tools.
 
 ### How to develop a mobile application
 
@@ -20,7 +20,7 @@ Creo lets you:
 
 Model–view–controller is an architectural pattern commonly used for developing user interfaces that divides an application into three interconnected parts. There is a **Model** where your data structure resides, **View** which represents how data is visualized to end user and **Controller** which is the logic code between the input data (from the Model) and the output data (to the View).
 
-Creo adopts this common pattern in a way that lets you visualize in real time both the Model and the View parts and greatly reduce the amount of code required in the Controller step. With Creo you'll be able to develop better mobile applications much faster.
+Creo adopts this common pattern in a way that lets you visualize in real time both the Model and View parts and reduce the amount of code required in the Controller part. With Creo you'll be able to develop better mobile applications faster.
 
 1. The Model can be visually built and tested using [DataSet](dataset.md)
 2. Views can be visually constructed using drag'n drop operations in the [Layout](layout.md) or in the [DesignBoard](design-board.md)
