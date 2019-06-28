@@ -7,7 +7,7 @@ Under the Themes list there is now an `Open...` button that reveals in the Finde
 ![Theme Folder](../images/technotes/themesfolder.png)
 
 
-####Create a Theme file
+###Create a Theme file
 A theme file is a JSON text file with the `.creotheme` extension.
 If you open an existing theme it looks like:
 ```
@@ -44,6 +44,8 @@ If you open an existing theme it looks like:
 }
 
 ```
+
+
 Each entry in the JSON file corresponds to a different part in the code editor as outlined in the following picture.
 ![Theme Outline](../images/technotes/themesoutline.png)
 
