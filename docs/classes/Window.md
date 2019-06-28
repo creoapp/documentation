@@ -68,6 +68,9 @@ The style of the status bar.
 * **var** **firstResponder**: **[UIView](UIView.md)**
 Returns the subview that is now the first-responder, null if none. \(read-only\)
 
+* **var** **modalPresentationStyle**: **[Int](../gravity/types.md)**
+The presentation style determines how a modally presented view controller is displayed onscreen. In a horizontally compact environment, modal view controllers are always presented full-screen. In a horizontally regular environment, there are several different presentation options.
+
 * **var** **objectName**: **[String](../gravity/types.md)**
 The name of the object.
 
@@ -85,7 +88,7 @@ Close window (and remove from current navigation if any).
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
-* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a> = 0**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Open window modally usign the specified transition style.
 
 * **func** **moveToNextField**()

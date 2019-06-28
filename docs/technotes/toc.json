@@ -54,6 +54,10 @@
     {
       "name": "Login with Auth0",
       "file": "login-with-auth0.md"
+    },
+    {
+      "name": "Create a Code Editor theme",
+      "file": "themes.md"
     }
   ]
 }

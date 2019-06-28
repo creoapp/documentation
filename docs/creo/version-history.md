@@ -1,3 +1,16 @@
+**<span class="label label-release label-version">Creo 2.1.2</span>June 28th 2019 (Build 18207)**
+* Improved CubeSQL support
+* Added a deleteAccessToken method to HTTPClient
+* Added support for third party code editor themes
+* Gravity console now support themes
+* Exposed the modalPresentationStyle property to Windows (not simulated)
+* Code Editor detached is now a global setting (and not a per project setting)
+* Fixed a crash with NULL sql
+* Fixed an issue with optional arguments in constructors
+* New TechNote about code editor themes added to https://docs.creolabs.com/technotes/
+* Several internal fixes and improvements
+* **[CreoPlayer 2.1.2](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+
 **<span class="label label-release label-version">Creo 2.1.1</span>June 14th 2019 (Build 18106)**
 * Added the ability to mark code using Accent color
 * Improved Code Editor
