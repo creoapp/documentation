@@ -1,9 +1,9 @@
-###Locate Themes folder
-A code editor theme is a JSON file with the extension `creotheme` added to a special folder.
+###Themes folder
+A code editor theme is a JSON file with the extension `.creotheme` added to a special folder.
 If you open Creo preferences in the Themes tab:
 ![Theme Preferences](../images/technotes/themespref.png)
 
-Under the Themes list there is now an `Open...` button that reveals in the Finder the Themes folder (located under &tilde;/Library/Application Support/Creo/Themes/) 
+Under the Themes list there is now an `Open...` button that reveals in the Finder the Themes folder (located under `&tilde;/Library/Application Support/Creo/Themes/`) 
 ![Theme Folder](../images/technotes/themesfolder.png)
 
 
@@ -44,10 +44,8 @@ If you open an existing theme it looks like:
 }
 
 ```
-
+Each entry in the JSON file corresponds to a different part in the code editor as outlined in the following picture.
 ![Theme Outline](../images/technotes/themesoutline.png)
-
-Each entry in the JSON file corresponds to a different part in the code editor.
 
 
 **Default templates**
