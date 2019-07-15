@@ -1,3 +1,8 @@
+**<span class="label label-release label-version">Creo 2.1.5</span>July 15th 2019 (Build 18328)**
+* Added support for Apple Simulator
+* Several internal fixes and improvements
+* **[CreoPlayer 2.1.5](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+
 **<span class="label label-release label-version">Creo 2.1.2</span>June 28th 2019 (Build 18207)**
 * Improved CubeSQL support
 * Added a deleteAccessToken method to HTTPClient
