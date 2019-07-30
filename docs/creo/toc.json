@@ -261,6 +261,10 @@
       "entry": "OTHERS"
     },
     {
+      "name": "Image Filter Reference",
+      "file": "ImageFilterReference.md"
+    },
+    {
       "name": "Version History",
       "file": "version-history.md"
     },
