@@ -5,9 +5,13 @@ For more information: [Core Image Filter Reference](https://developer.apple.com/
 **CIAttributeFilterAvailable_iOS**: 9
 **CIAttributeFilterDisplayName**: Edges
 **inputImage**:
-CIAttributeDisplayName = Image;
-CIAttributeDescription = The image to use as an input image. For filters that also use a background image, this is the foreground image.;
-CIAttributeClass = CIImage;
-CIAttributeType = CIAttributeTypeImage
-**CIAttributeFilterCategories**: CICategoryStylizeseparatorCICategoryVideoseparatorCICategoryStillImageseparatorCICategoryBuiltIn
-**CIAttributeFilterName**: CIEdges
+CIAttributeDisplayName = Image;<br />
+CIAttributeDescription = The image to use as an input image. For filters that also use a background image, this is the foreground image.;<br />
+CIAttributeClass = CIImage;<br />
+CIAttributeType = CIAttributeTypeImage<br />
+**CIAttributeFilterCategories**:<br />
+CICategoryStylize;<br />
+CICategoryVideo<br />
+CICategoryStillImage<br />
+CICategoryBuiltIn<br />
+**CIAttributeFilterName**: CIEdges<br />
