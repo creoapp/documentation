@@ -6,7 +6,8 @@ var filterBlur = ImageFilter.filterWithName('CIBokehBlur');
 
 // prepare the completion closure
 func completionClosure(image) {
-    // use the filtered image passed as the argument of the closure
+    // Use the filtered image passed as the argument of the closure.
+    // For example, set it to the image property of an ImageView
 	ImageView1.image = image
 }
 
