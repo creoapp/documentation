@@ -189,12 +189,15 @@ The name of the object.
 * **func** **exposureString**(**seconds**: **[Float](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
 Return a readable string representation of the exposure value.
 
+* **func** **toggleTorch**()
+Toggle torch sensor.
+
 
 
 ### Methods
 
 * **func** **capture**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
-Initiates a still image capture action.
+Initiates a still image capture action. The onSuccess closure, if set, is executed when an image is captured without errors; this closure is invoked with two arguments: the captured image (type: Image) and its medatada (type: Map). The onFailure closure, if set, is executed if an error occurs and the description of the error is passed as the only argument.
 
 * **func** **togglePosition**()
 Toggle the position of a capture device.

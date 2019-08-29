@@ -25,6 +25,24 @@ A Boolean value indicating whether the view currently allows the user to edit th
 * **var** **automaticallyAdjustsScrollViewInsets**: **[Bool](../gravity/types.md)**
 A Boolean value that indicates whether the view should automatically adjust its scroll view insets.
 
+* **var** **parent**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
+The parent container (NavigationBar, TabBar, etc.). \(read-only\)
+
+* **var** **presentingWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
+The Window that presented this Window modally. If the Window was not presented modally, but one of its ancestors was, this property contains the Window that presented the ancestor. If neither the current Window or any of its ancestors were presented modally, the value in this property is null. \(read-only\)
+
+* **var** **presentedWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
+The Window that is presented modally by this Window. \(read-only\)
+
+* **var** **navigationBar**: **[UINavigationController](UINavigationController.md)**
+The nearest ancestor in the Window hierarchy that is a NavigationBar. \(read-only\)
+
+* **var** **tabBar**: **[UITabBarController](UITabBarController.md)**
+The nearest ancestor in the Window hierarchy that is a TabBar. \(read-only\)
+
+* **var** **pageSplit**: **[UISplitViewController](UISplitViewController.md)**
+The nearest ancestor in the Window hierarchy that is a PageSplit. \(read-only\)
+
 * **var** **objectName**: **[String](../gravity/types.md)**
 The name of the object.
 

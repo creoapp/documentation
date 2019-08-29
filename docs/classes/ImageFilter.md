@@ -59,10 +59,24 @@ Get the current value for the property specified by the key. Valid values for th
 * **func** **setValue**(**value**: **[Object](../gravity/types.md)**, **key**: **[String](../gravity/types.md)**)
 Set a new value for the property specified by the key. Valid values for the key parameters are listed in the inputKeys properties.
 
-* **func** **outputImage**(**outputImageClosure**: **[Closure](../gravity/closure.md) = null**, **rectToRender**: **[Rect](Rect.md) = null**): <strong>[Image](Image.md)</strong> 
-Executes the filter and produces the rendered image. If the closure parameter is set the execution is performed in a background thread so the UI stays responsive, the methods immediatly returns with null value and, when the image is ready, it is passed as the only parameter of the closure; otherwise, the execution is performed in the main thread and the methods returns the resulting image. The optional rectToRender parameter defines the region of the image to render. If not set, the extent of the filtered image is used instead and the image is completely rendered (if the extent of the image is infinite, the rect is too big to be rendered so the resulting image is NULL).
+* **func** **outputImage**(**outputImageClosure**: **[Closure](../gravity/closure.md) = null**, **rectToRender**: **[Rect](Rect.md) = null**, **scale**: **[Float](../gravity/types.md) = 1**, **orientation**: **<a href="#_enum_ImageOrientation">ImageOrientation</a> = 0**): <strong><a href="#_enum_ImageOrientation">ImageOrientation</a></strong> 
+Executes the filter and produces the rendered image. If the closure parameter is set the execution is performed in a background thread so the UI stays responsive, the methods immediately returns with null value and, when the image is ready, it is passed as the only parameter of the closure; otherwise, the execution is performed in the main thread and the methods returns the resulting image. The optional rectToRender parameter defines the region of the image to render. If not set, the extent of the filtered image is used instead and the image is completely rendered (if the extent of the image is infinite, the rect is too big to be rendered so the resulting image is NULL).
 
 
+
+
+
+### Enumeration
+
+#### ImageOrientation
+ * .Down
+ * .DownMirrored
+ * .Left
+ * .LeftMirrored
+ * .Right
+ * .RightMirrored
+ * .Up
+ * .UpMirrored
 
 
 

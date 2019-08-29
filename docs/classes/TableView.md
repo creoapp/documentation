@@ -14,7 +14,7 @@ The view is about to be added to the App's views hierarchy.
 The view is about to be removed from the App's views hierarchy.
 
 * **RowHeight**(**section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**): <strong>[Float](../gravity/types.md)</strong> 
-This event lets you specify a different height depending of the section and row indexes. If this event is implemented, the return value of this event is used to define the height of the specified row instead of the <code>rowHeight</code> property of the TableView.
+This event lets you specify a different height depending of the section and row indexes. If this event is implemented, the return value of this event is used to define the height of the specified row instead of the <code>rowHeight</code> property of the TableView. If the return value is TableViewDimension.Automatic, the table view uses a height that fits the content of the TableViewCell (and its customView).
 
 * **DidSelectCell**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/types.md)**, **index**: **[Int](../gravity/types.md)**)
 This event is called when a row is selected. The parameters contain the instance of the <a href="TableViewCell.html">TableViewCell</a>, the section index and the row index of the selected cell.

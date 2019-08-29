@@ -16,7 +16,7 @@ Event raised when a new Video is available from the CameraRoll.
 * **DidCancel**()
 Event raised when last operation has been cancelled from the user.
 
-* **SavedImage**(**image**: **[Image](Image.md)**, **error**: **[String](../gravity/types.md)**)
+* **SavedImage**(**image**: **[Image](Image.md)**, **error**: **[String](../gravity/types.md)**, **localIdentifier**: **[Object](../gravity/types.md)**)
 Event raised when an Image has been saved to the CameraRoll.
 
 * **SavedVideo**(**videoPath**: **[String](../gravity/types.md)**, **error**: **[String](../gravity/types.md)**)

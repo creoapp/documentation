@@ -47,6 +47,9 @@ Returns a generic single-point location for the gesture, usually the centroid of
 * **func** **locationOfTouch**(**touchIndex**: **[Int](../gravity/types.md)**, **view**: **[UIView](UIView.md)**): <strong>[Point](Point.md)</strong> 
 Returns the location of one of the gesture’s touches in the local coordinate system of a given view.
 
+* **func** **requireToFail**(**otherGestureRecognizer**: **[UIGestureRecognizer](UIGestureRecognizer.md)**)
+This method creates a relationship with another gesture recognizer that delays the receiver’s transition out of GestureRecognizerState.Possible. The state that the receiver transitions to depends on what happens with otherGestureRecognizer: If otherGestureRecognizer transitions to UIGestureRecognizer.State.failed, the receiver transitions to its normal next state. If otherGestureRecognizer transitions to recognized or GestureRecognizerState.Began, the receiver transitions to GestureRecognizerState.Failed.  An example where this method might be called is when you want a single-tap gesture require that a double-tap gesture fail.
+
 
 
 

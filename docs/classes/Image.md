@@ -28,6 +28,9 @@ Determines how an image is rendered. \(read-only\)
 * **var** **RGBBuffer**: **[RGBBuffer](RGBBuffer.md)**
 Creates a RGBBuffer for direct pixel inspection and manipulation. This is a costly operation that should not be performed in a loop. \(read-only\)
 
+* **var** **imageOrientation**: **ImageOrientation**
+Image orientation affects the way the image data is displayed when drawn. By default, images are displayed in the “up” orientation. \(read-only\)
+
 * **var** **objectName**: **[String](../gravity/types.md)**
 The name of the object.
 
@@ -87,6 +90,16 @@ Applies the list of filters to the source image. You don't need to set the input
  * .AlwaysOriginal
  * .AlwaysTemplate
  * .Automatic
+
+#### ImageOrientation
+ * .Down
+ * .DownMirrored
+ * .Left
+ * .LeftMirrored
+ * .Right
+ * .RightMirrored
+ * .Up
+ * .UpMirrored
 
 
 

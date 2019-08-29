@@ -1,3 +1,23 @@
+**<span class="label label-release label-version">Creo 2.1.6</span>August 28th 2019 (Build 18423)**
+* Added new OSSharing class
+* Added new JSON class
+* Added flex support to cell for automatic height
+* Added localIdentifier (String), location (Map) and other properties to data returned by the CameraRoll dataset
+* Added the possibility to use a multikey keypath for DataSet properties
+* Added explicit toggleTorch method to Camera class
+* Exposed enable, title and image of BarItems
+* Exposed requireGestureRecognizerToFail method
+* Improved OAuth2 authentication
+* Improved syntax highlighter
+* Improved Log Panel
+* Fixed a double invocation of the DidShow event
+* Fixed a TextField crash
+* Fixed closures issues that can lead to a crash
+* Fixed crash in database queries
+* Fixed cubeSQL crash bug and fixed a BLOB related issue
+* Several internal fixes and improvements
+* **[CreoPlayer 2.1.6](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+
 **<span class="label label-release label-version">Creo 2.1.5</span>July 15th 2019 (Build 18328)**
 * Added support for Apple Simulator
 * Several internal fixes and improvements
