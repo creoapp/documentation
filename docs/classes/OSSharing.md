@@ -38,10 +38,6 @@ Share URL with others apps.
 
 
 
-### Initializers
-
-
-
 ### Methods
 
 * **func** **show**()
