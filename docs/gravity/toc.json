@@ -49,6 +49,10 @@
       "file": "null.md"
     },
     {
+      "name": "Range",
+      "file": "range.md"
+    },
+    {
       "name": "List",
       "file": "list.md"
     },
