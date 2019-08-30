@@ -1,3 +1,8 @@
+**<span class="label label-release label-version">Creo 2.1.7</span>August 30th 2019 (Build 18441)**
+* Fixed two issues introduced in the 2.1.6 version
+* **[Gravity documentation](https://docs.creolabs.com/gravity/)** has been updated.
+* **[CreoPlayer 2.1.7](https://creolabs.com/creoplayer)** will be available in about 24 hours via TestFlight
+
 **<span class="label label-release label-version">Creo 2.1.6</span>August 28th 2019 (Build 18423)**
 * Added new OSSharing class
 * Added new JSON class
