@@ -25,27 +25,51 @@
       "file": "types.md"
     },
     {
-      "name": "Lists",
+      "name": "Object",
+      "file": "object.md"
+    },
+    {
+      "name": "Int",
+      "file": "int.md"
+    },
+    {
+      "name": "Float",
+      "file": "float.md"
+    },
+    {
+      "name": "String",
+      "file": "string.md"
+    },
+	{
+      "name": "Bool",
+      "file": "bool.md"
+    },
+    {
+      "name": "Null",
+      "file": "null.md"
+    },
+    {
+      "name": "List",
       "file": "list.md"
     },
     {
-      "name": "Maps",
+      "name": "Map",
       "file": "map.md"
     },
     {
-      "name": "Enums",
+      "name": "Enum",
       "file": "enum.md"
     },
     {
-      "name": "Functions",
+      "name": "Function",
       "file": "func.md"
     },
     {
-      "name": "Closures",
+      "name": "Closure",
       "file": "closure.md"
     },
     {
-      "name": "Classes",
+      "name": "Class",
       "file": "class.md"
     },
     {
@@ -71,6 +95,10 @@
     {
       "name": "Math",
       "file": "math.md"
+    },
+    {
+      "name": "Introspection",
+      "file": "introspection.md"
     }
   ]
 }
