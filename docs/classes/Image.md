@@ -11,7 +11,7 @@ A Image object manages image data in your app. You use image objects to represen
 * **var** **size**: **[Size](Size.md)**
 The logical dimensions of the image, measured in points. Multiply the size values by the value in the scale property to get the pixel dimensions of the image. \(read-only\)
 
-* **var** **scale**: **[Float](../gravity/types.md)**
+* **var** **scale**: **[Float](../gravity/float.md)**
 The scale factor of the image. If you multiply the logical size of the image (stored in the size property) by the value in this property, you get the dimensions of the image in pixels. \(read-only\)
 
 * **var** **capInsets**: **[EdgeInsets](EdgeInsets.md)**
@@ -31,24 +31,24 @@ Creates a RGBBuffer for direct pixel inspection and manipulation. This is a cost
 * **var** **imageOrientation**: **ImageOrientation**
 Image orientation affects the way the image data is displayed when drawn. By default, images are displayed in the “up” orientation. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Class Methods
 
-* **func** **open**(**srcfile**: **[Object](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
+* **func** **open**(**srcfile**: **[Object](../gravity/object.md)**): <strong>[Object](../gravity/object.md)</strong> 
 Initializes and returns the image object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
 
 
 ### Initializers
 
-* **func** **Image**(**name**: **[String](../gravity/types.md)**)
+* **func** **Image**(**name**: **[String](../gravity/string.md)**)
 Initializes and returns the image object with the specified name.
 
-* **func** **Image**(**data**: **[Data](Data.md)**, **scale**: **[Float](../gravity/types.md)**)
+* **func** **Image**(**data**: **[Data](Data.md)**, **scale**: **[Float](../gravity/float.md)**)
 Initializes and returns the image object with the specified data and scale factor. 
 
 
@@ -61,7 +61,7 @@ Creates and returns a new image object with the specified cap insets and options
 * **func** **PNGRepresentation**(): <strong>[Data](Data.md)</strong> 
 Returns the data for the specified image in PNG format.
 
-* **func** **JPEGRepresentation**(**compressionQuality**: **[Float](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 
+* **func** **JPEGRepresentation**(**compressionQuality**: **[Float](../gravity/float.md)**): <strong>[Data](Data.md)</strong> 
 Returns the data for the specified image in JPEG format using the specified compression quality.
 
 * **func** **scaleImageToFillSize**(**size**: **[Size](Size.md)**): <strong>[Image](Image.md)</strong> 
@@ -78,20 +78,20 @@ Applies the list of filters to the source image. You don't need to set the input
 
 
 
-
+* None
 
 ### Enumeration
 
-#### ImageResizingMode
+<div name="_enum_ImageResizingMode"></div>#### ImageResizingMode
  * .Stretch
  * .Tile
 
-#### ImageRenderingMode
+<div name="_enum_ImageRenderingMode"></div>#### ImageRenderingMode
  * .AlwaysOriginal
  * .AlwaysTemplate
  * .Automatic
 
-#### ImageOrientation
+<div name="_enum_ImageOrientation"></div>#### ImageOrientation
  * .Down
  * .DownMirrored
  * .Left

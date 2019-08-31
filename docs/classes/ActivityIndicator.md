@@ -32,13 +32,13 @@ The color of the activity indicator.
 * **var** **style**: **ActivityIndicatorStyle**
 The basic appearance of the activity indicator.
 
-* **var** **hidesWhenStopped**: **[Bool](../gravity/types.md)**
+* **var** **hidesWhenStopped**: **[Bool](../gravity/bool.md)**
 A Boolean value that controls whether the receiver is hidden when the animation is stopped.
 
-* **var** **initiallyStarted**: **[Bool](../gravity/types.md)**
+* **var** **initiallyStarted**: **[Bool](../gravity/bool.md)**
 A Boolean value that controls whether the ActivityIndicator should start in running state or not.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -51,10 +51,10 @@ Starts the animation of the activity indicator.
 * **func** **stopAnimating**()
 Stops the animation of the activity indicator.
 
-* **func** **isAnimating**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isAnimating**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Returns true if the animation is active, false if it isn't.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -65,16 +65,16 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### ActivityIndicatorStyle
+<div name="_enum_ActivityIndicatorStyle"></div>#### ActivityIndicatorStyle
  * .Gray
  * .White
  * .WhiteLarge
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

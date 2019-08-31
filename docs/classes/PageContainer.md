@@ -17,7 +17,7 @@ The view is about to be added to the App's views hierarchy.
 * **WillHide**()
 The view is about to be removed from the App's views hierarchy.
 
-* **DidSelectCell**(**cell**: **[PageContainerCell](PageContainerCell.md)**, **index**: **[Int](../gravity/types.md)**)
+* **DidSelectCell**(**cell**: **[PageContainerCell](PageContainerCell.md)**, **index**: **[Int](../gravity/int.md)**)
 Handle this event if you need to execute some code when a new page is selected by the user.
 
 * **DidShow**()
@@ -33,22 +33,22 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **index**: **[Int](../gravity/types.md)**
+* **var** **index**: **[Int](../gravity/int.md)**
 Current index.
 
 * **var** **style**: **PageContainerStyle**
 Current style.
 
-* **var** **dataSet**: **[Object](../gravity/types.md)**
+* **var** **dataSet**: **[Object](../gravity/object.md)**
 The <a href="DataSet.html">DataSet</a> object provides information that PageContainer needs to construct its content. The dataSet must return a List of objects and each object represents a different row. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath property defines the list of keys used to browse the data tree to get a List node.
 
-* **var** **keyPath**: **[String](../gravity/types.md)**
+* **var** **keyPath**: **[String](../gravity/string.md)**
 The base keyPath to get a particular node of the <a href="DataSet.html">DataSet</a> value. The DataSet must provide a List of objects and each object is shown in a different page. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
 
 * **var** **customView**: **[CustomView](CustomView.md)**
 Custom view template set in the PageContainer inspector.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -62,13 +62,13 @@ Create a new PageContainer with the specified style.
 
 ### Methods
 
-* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/types.md)**)
+* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/bool.md)**)
 Reloads the content of the PageContainer.
 
-* **func** **goToPageAtIndex**(**index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md)**)
+* **func** **goToPageAtIndex**(**index**: **[Int](../gravity/int.md)**, **animated**: **[Bool](../gravity/bool.md)**)
 Go to a specific page inside the PageContainer.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -79,15 +79,15 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### PageContainerStyle
+<div name="_enum_PageContainerStyle"></div>#### PageContainerStyle
  * .Curl
  * .Scroll
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

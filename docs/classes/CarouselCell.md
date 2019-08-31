@@ -10,16 +10,16 @@ The CarouselCell class defines the attributes and behavior of the cells that app
 
 ### Properties
 
-* **var** **identifier**: **[String](../gravity/types.md)**
+* **var** **identifier**: **[String](../gravity/string.md)**
 Identifier set in the cell property inspector. \(read-only\)
 
 * **var** **customView**: **[CustomView](CustomView.md)**
 Custom view template set in the Carousel inspector. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
-
+* None
 

@@ -13,7 +13,7 @@ Use this event to be notified when navigation is about to be added to a view hie
 * **DidShow**()
 Use this event to be notified when navigation was added to a view hierarchy.
 
-* **WillChangeToDisplayMode**(**displayMode**: **[Int](../gravity/types.md)**)
+* **WillChangeToDisplayMode**(**displayMode**: **[Int](../gravity/int.md)**)
 Use this event to be notified when the display mode for the PageSplit is about to change
 
 * **WillHide**()
@@ -47,7 +47,7 @@ Array of windows currently managed by the navigation.
 * **var** **selectedWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
 Current Window in the details view. If the Window does not exit in the view hierarchy then it is automatically added.
 
-* **var** **collapsed**: **[Bool](../gravity/types.md)**
+* **var** **collapsed**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether only one of the child view controllers is displayed. \(read-only\)
 
 * **var** **preferredDisplayMode**: **SplitViewDisplayMode**
@@ -56,19 +56,19 @@ The preferred arrangement of the split view controller interface.
 * **var** **displayMode**: **SplitViewDisplayMode**
 The current arrangement of the split view controller’s contents. \(read-only\)
 
-* **var** **preferredPrimaryColumnWidthFraction**: **[Float](../gravity/types.md)**
+* **var** **preferredPrimaryColumnWidthFraction**: **[Float](../gravity/float.md)**
 The relative width of the primary view controller’s content.
 
-* **var** **minimumPrimaryColumnWidth**: **[Float](../gravity/types.md)**
+* **var** **minimumPrimaryColumnWidth**: **[Float](../gravity/float.md)**
 The minimum width (in points) required for the primary view controller’s content.
 
-* **var** **maximumPrimaryColumnWidth**: **[Float](../gravity/types.md)**
+* **var** **maximumPrimaryColumnWidth**: **[Float](../gravity/float.md)**
 The maximum width (in points) allowed for the primary view controller’s content.
 
-* **var** **primaryColumnWidth**: **[Float](../gravity/types.md)**
+* **var** **primaryColumnWidth**: **[Float](../gravity/float.md)**
 The width (in points) of the primary view controller’s content. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -82,7 +82,7 @@ Open window in currently displayed window or navigation using the destination ob
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
-* **func** **openDetailWindowAtIndex**(**index**: **[Int](../gravity/types.md)**)
+* **func** **openDetailWindowAtIndex**(**index**: **[Int](../gravity/int.md)**)
 Open the detail window of the PageSplit at the specified index. The first window inside a PageSplit is used as the <i>master</i> window, the next window(s) will be used as <i>detail</i> window(s). If the PageSplit has more than one detail window then this method opens the window at the specified index from the array of configured windows (skipping the first <i>master</i> window). If the PageSplit is configured with two subwindows - one master and one details - this method opens the detail window and set the value of the <i>index</i> parameter to the <i>rowIndex</i> property of the first custom <i>View</i> inside the detail window.
 
 * **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closure.md) = null**)
@@ -93,27 +93,27 @@ Close window if modally opened.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### StatusBarVisibility
+<div name="_enum_StatusBarVisibility"></div>#### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
-#### StatusBarStyle
+<div name="_enum_StatusBarStyle"></div>#### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
 
-#### SplitViewDisplayMode
+<div name="_enum_SplitViewDisplayMode"></div>#### SplitViewDisplayMode
  * .AllVisible
  * .Automatic
  * .PrimaryHidden
  * .PrimaryOverlay
 
-#### TransitionStyle
+<div name="_enum_TransitionStyle"></div>#### TransitionStyle
  * .Cards
  * .CoverVertical
  * .CrossDissolve

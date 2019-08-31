@@ -4,20 +4,20 @@ Represents an offset.
 
 ### Properties
 
-* **var** **horizontal**: **[Float](../gravity/types.md)**
+* **var** **horizontal**: **[Float](../gravity/float.md)**
 horizontal field.
 
-* **var** **vertical**: **[Float](../gravity/types.md)**
+* **var** **vertical**: **[Float](../gravity/float.md)**
 vertical field.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Initializers
 
-* **func** **Offset**(**horizontal**: **[Float](../gravity/types.md)**, **vertical**: **[Float](../gravity/types.md)**)
+* **func** **Offset**(**horizontal**: **[Float](../gravity/float.md)**, **vertical**: **[Float](../gravity/float.md)**)
 Create a new Offset object.
 
 
@@ -29,5 +29,5 @@ Copy a Offset object by value (duplicate).
 
 
 
-
+* None
 

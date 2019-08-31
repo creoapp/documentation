@@ -7,13 +7,13 @@ A TextField object displays an editable text area in your interface. You use tex
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **ShouldBeginEditing**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **ShouldBeginEditing**(): <strong>[Bool](../gravity/bool.md)</strong> 
 This event is called when the user performs an action that would normally initiate the editing of the text field’s text. Return true if editing should begin or false if it should not. Most of the time, you should return true to allow editing to proceed. If you do not implement this method, the text field acts as if this method had returned true.
 
-* **ShouldEndEditing**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **ShouldEndEditing**(): <strong>[Bool](../gravity/bool.md)</strong> 
 This event is called when the control is asked to resign the first responder status. Return true if editing should stop or false if it should continue. Normally, you would return true from this method to allow the text field to resign the first responder status. You might return false, however, in cases where your delegate detects invalid contents in the text field. Returning false prevents the user from switching to another control until the text field contains a valid value.
 
-* **ShouldChangeText**(**text**: **[String](../gravity/types.md)**, **range**: **[Range](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **ShouldChangeText**(**text**: **[String](../gravity/string.md)**, **range**: **[Range](../gravity/range.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 This event is called when the control is asked to check if the specified text should be changed. Return true if you accept the change or false to reject the change. Returning false prevents the user from changing the text. If you do not implement this method, the text field acts as if this method had returned true.
 
 * **DidTapReturn**()
@@ -35,10 +35,10 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **text**: **[String](../gravity/types.md)**
+* **var** **text**: **[String](../gravity/string.md)**
 The text displayed by the text field.
 
-* **var** **rawText**: **[String](../gravity/types.md)**
+* **var** **rawText**: **[String](../gravity/string.md)**
 The raw text currently set in the text field. \(read-only\)
 
 * **var** **textColor**: **[Color](Color.md)**
@@ -53,25 +53,25 @@ The technique to use for aligning the text.
 * **var** **borderStyle**: **TextBorderStyle**
 The border style used by the text field.
 
-* **var** **placeholder**: **[String](../gravity/types.md)**
+* **var** **placeholder**: **[String](../gravity/string.md)**
 The string that is displayed when there is no other text in the text field.
 
-* **var** **clearsOnBeginEditing**: **[Bool](../gravity/types.md)**
+* **var** **clearsOnBeginEditing**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the text field removes old text when editing begins.
 
-* **var** **clearsOnInsertion**: **[Bool](../gravity/types.md)**
+* **var** **clearsOnInsertion**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether inserting text replaces the previous contents.
 
-* **var** **endEditingOnReturn**: **[Bool](../gravity/types.md)**
+* **var** **endEditingOnReturn**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether end editing when the user taps the return button.
 
-* **var** **adjustsFontSizeToFitWidth**: **[Bool](../gravity/types.md)**
+* **var** **adjustsFontSizeToFitWidth**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the font size should be reduced in order to fit the text string into the text field’s bounding rectangle.
 
 * **var** **textType**: **TextType**
 A value that specifies how text must be interpreted and rendered.
 
-* **var** **minimumFontSize**: **[Float](../gravity/types.md)**
+* **var** **minimumFontSize**: **[Float](../gravity/float.md)**
 The size of the smallest permissible font with which to draw the text field’s text.
 
 * **var** **background**: **[Image](Image.md)**
@@ -80,7 +80,7 @@ The image that represents the background appearance of the text field when it is
 * **var** **disabledBackground**: **[Image](Image.md)**
 The image that represents the background appearance of the text field when it is disabled.
 
-* **var** **editing**: **[Bool](../gravity/types.md)**
+* **var** **editing**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the text field is currently in edit mode.
 
 * **var** **clearButtonMode**: **TextFieldViewMode**
@@ -113,14 +113,14 @@ The spell-checking style for the text object.
 * **var** **keyboardType**: **KeyboardType**
 The keyboard style associated with the text object. The keyboard style identifies what keys are available on the keyboard and which ones appear by default.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -131,51 +131,51 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### TextAlignment
+<div name="_enum_TextAlignment"></div>#### TextAlignment
  * .Center
  * .Justified
  * .Left
  * .Natural
  * .Right
 
-#### TextBorderStyle
+<div name="_enum_TextBorderStyle"></div>#### TextBorderStyle
  * .Bezel
  * .Line
  * .None
  * .RoundedRect
 
-#### TextType
+<div name="_enum_TextType"></div>#### TextType
  * .HTML
  * .Markdown
  * .Text
 
-#### TextFieldViewMode
+<div name="_enum_TextFieldViewMode"></div>#### TextFieldViewMode
  * .Always
  * .Never
  * .UnlessEditing
  * .WhileEditing
 
-#### TextAutocapitalizationType
+<div name="_enum_TextAutocapitalizationType"></div>#### TextAutocapitalizationType
  * .AllCharacters
  * .None
  * .Sentences
  * .Words
 
-#### TextAutocorrectionType
+<div name="_enum_TextAutocorrectionType"></div>#### TextAutocorrectionType
  * .Default
  * .No
  * .Yes
 
-#### TextSpellCheckingType
+<div name="_enum_TextSpellCheckingType"></div>#### TextSpellCheckingType
  * .Default
  * .No
  * .Yes
 
-#### KeyboardType
+<div name="_enum_KeyboardType"></div>#### KeyboardType
  * .ASCIICapable
  * .ASCIICapableNumberPad
  * .DecimalPad
@@ -189,7 +189,7 @@ Clear focus from selected control
  * .URL
  * .WebSearch
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

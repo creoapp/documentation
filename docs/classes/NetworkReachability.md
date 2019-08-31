@@ -14,22 +14,22 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **status**: **[Int](../gravity/types.md)**
+* **var** **status**: **[Int](../gravity/int.md)**
 The current network reachability status. \(read-only\)
 
-* **var** **reachable**: **[Bool](../gravity/types.md)**
+* **var** **reachable**: **[Bool](../gravity/bool.md)**
 Whether or not the network is currently reachable. \(read-only\)
 
-* **var** **reachableViaWWAN**: **[Bool](../gravity/types.md)**
+* **var** **reachableViaWWAN**: **[Bool](../gravity/bool.md)**
 Whether or not the network is currently reachable via WWAN. \(read-only\)
 
-* **var** **reachableViaWiFi**: **[Bool](../gravity/types.md)**
+* **var** **reachableViaWiFi**: **[Bool](../gravity/bool.md)**
 Whether or not the network is currently reachable via WiFi. \(read-only\)
 
-* **var** **statusString**: **[String](../gravity/types.md)**
+* **var** **statusString**: **[String](../gravity/string.md)**
 A localized string representation of the current network reachability status. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -39,17 +39,17 @@ The name of the object.
 * **func** **allAddresses**(): <strong>[Map](../gravity/map.md)</strong> 
 Returns all network interfaces and the their relative IPv4 or IPv6 address.
 
-* **func** **ipAddress**(**IPv4**: **[Bool](../gravity/types.md) = true**): <strong>[String](../gravity/types.md)</strong> 
+* **func** **ipAddress**(**IPv4**: **[Bool](../gravity/bool.md) = true**): <strong>[String](../gravity/string.md)</strong> 
 Returns the string representation of the IPv4 or IPv6 address of the device.
 
-* **func** **ipAddressForInterface**(**NetworkInterface**: **[String](../gravity/types.md) = null**): <strong>[String](../gravity/types.md)</strong> 
+* **func** **ipAddressForInterface**(**NetworkInterface**: **[String](../gravity/string.md) = null**): <strong>[String](../gravity/string.md)</strong> 
 Returns the string representation of the IPv4 or IPv6 address of the specified network interface.
 
 
 
 ### Initializers
 
-* **func** **NetworkReachability**(**domain**: **[String](../gravity/types.md)**)
+* **func** **NetworkReachability**(**domain**: **[String](../gravity/string.md)**)
 Returns an initialized network reachability manager for the specified domain.
 
 
@@ -67,5 +67,5 @@ Sets a closure to be executed when the network availability host changes. The cl
 
 
 
-
+* None
 

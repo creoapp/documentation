@@ -14,19 +14,19 @@ This event is called when the object has been removed from the current runtime s
 
 ### Class Methods
 
-* **func** **count**(**pattern**: **[String](../gravity/types.md)**, **string**: **[String](../gravity/types.md)**, **options**: **[Int](../gravity/types.md) = 0**): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **count**(**pattern**: **[String](../gravity/string.md)**, **string**: **[String](../gravity/string.md)**, **options**: **[Int](../gravity/int.md) = 0**): <strong>[Int](../gravity/int.md)</strong> 
 Returns the number of matches of the regular expression within the specified string.
 
-* **func** **search**(**pattern**: **[String](../gravity/types.md)**, **string**: **[String](../gravity/types.md)**, **options**: **[Int](../gravity/types.md) = 0**): <strong>[List](../gravity/list.md)</strong> 
+* **func** **search**(**pattern**: **[String](../gravity/string.md)**, **string**: **[String](../gravity/string.md)**, **options**: **[Int](../gravity/int.md) = 0**): <strong>[List](../gravity/list.md)</strong> 
 Returns an array containing all the matches of the regular expression in the string.
 
-* **func** **ranges**(**pattern**: **[String](../gravity/types.md)**, **string**: **[String](../gravity/types.md)**, **options**: **[Int](../gravity/types.md) = 0**): <strong>[List](../gravity/list.md)</strong> 
+* **func** **ranges**(**pattern**: **[String](../gravity/string.md)**, **string**: **[String](../gravity/string.md)**, **options**: **[Int](../gravity/int.md) = 0**): <strong>[List](../gravity/list.md)</strong> 
 Returns an array containing all the ranges of the regular expression in the string.
 
-* **func** **replace**(**pattern**: **[String](../gravity/types.md)**, **string**: **[String](../gravity/types.md)**, **template**: **[String](../gravity/types.md)**, **options**: **[Int](../gravity/types.md) = 0**): <strong>[String](../gravity/types.md)</strong> 
+* **func** **replace**(**pattern**: **[String](../gravity/string.md)**, **string**: **[String](../gravity/string.md)**, **template**: **[String](../gravity/string.md)**, **options**: **[Int](../gravity/int.md) = 0**): <strong>[String](../gravity/string.md)</strong> 
 Returns a new string containing matching regular expressions replaced with the template string.
 
 
 
-
+* None
 

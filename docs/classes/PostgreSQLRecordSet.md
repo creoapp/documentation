@@ -10,7 +10,7 @@ Rows and columns are 0-based indexed.
 * **DidStart**()
 Event raised when DataSet started retrieving data.
 
-* **NewValue**(**value**: **[Object](../gravity/types.md)**)
+* **NewValue**(**value**: **[Object](../gravity/object.md)**)
 Event raised when a new value becomes available.
 
 * **DidFinish**()
@@ -23,19 +23,19 @@ Event raised in case of DataSet error.
 
 ### Properties
 
-* **var** **sql**: **[String](../gravity/types.md)**
+* **var** **sql**: **[String](../gravity/string.md)**
 Use to this property to retrieve or set current sql statement.
 
-* **var** **hasRow**: **[Bool](../gravity/types.md)**
+* **var** **hasRow**: **[Bool](../gravity/bool.md)**
 Check if RecordSet has a row ready to be read. \(read-only\)
 
-* **var** **rowCount**: **[Int](../gravity/types.md)**
+* **var** **rowCount**: **[Int](../gravity/int.md)**
 Number of rows in the RecordSet. \(read-only\)
 
-* **var** **columnCount**: **[Int](../gravity/types.md)**
+* **var** **columnCount**: **[Int](../gravity/int.md)**
 Number of columns in the RecordSet. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -45,58 +45,58 @@ The name of the object.
 * **func** **run**()
 Perform the query specified in the current RecordSet (specified by the sql property). Each control which uses this RecordSet for it <code>dataSet</code> property is notified when new rows are available and when the run is completed, and updates itself to show the new data. This method automatically connects the parent <a href="Database.html">Database</a> instance if needed.
 
-* **func** **columnType**(**index**: **[Int](../gravity/types.md)**): <strong><a href="#_enum_DatabaseFieldType">DatabaseFieldType</a></strong> 
+* **func** **columnType**(**index**: **[Int](../gravity/int.md)**): <strong><a href="#_enum_DatabaseFieldType">DatabaseFieldType</a></strong> 
 Returns column type specified by the index parameter.
 
-* **func** **columnName**(**index**: **[Int](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
+* **func** **columnName**(**index**: **[Int](../gravity/int.md)**): <strong>[String](../gravity/string.md)</strong> 
 Returns column name specified by the index parameter.
 
-* **func** **stringValue**(**index**: **[Int](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
+* **func** **stringValue**(**index**: **[Int](../gravity/int.md)**): <strong>[String](../gravity/string.md)</strong> 
 Returns column value converted to String specified by the index parameter.
 
-* **func** **intValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **intValue**(**index**: **[Int](../gravity/int.md)**): <strong>[Int](../gravity/int.md)</strong> 
 Returns column value converted to Int32 specified by the index parameter.
 
-* **func** **int64Value**(**index**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **int64Value**(**index**: **[Int](../gravity/int.md)**): <strong>[Int](../gravity/int.md)</strong> 
 Returns column value converted to Int64 specified by the index parameter.
 
-* **func** **floatValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Float](../gravity/types.md)</strong> 
+* **func** **floatValue**(**index**: **[Int](../gravity/int.md)**): <strong>[Float](../gravity/float.md)</strong> 
 Returns column value converted to Float specified by the index parameter.
 
-* **func** **doubleValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Float](../gravity/types.md)</strong> 
+* **func** **doubleValue**(**index**: **[Int](../gravity/int.md)**): <strong>[Float](../gravity/float.md)</strong> 
 Returns column value converted to Double specified by the index parameter.
 
-* **func** **boolValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **boolValue**(**index**: **[Int](../gravity/int.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 Returns column value converted to Boolean specified by the index parameter.
 
-* **func** **blobValue**(**index**: **[Int](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 
+* **func** **blobValue**(**index**: **[Int](../gravity/int.md)**): <strong>[Data](Data.md)</strong> 
 Returns column value (not converted) specified by the index parameter.
 
-* **func** **isCached**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isCached**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Check if RecordSet is actually in cache (and moveTo method can be used).
 
-* **func** **moveTo**(**index**: **[Int](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **moveTo**(**index**: **[Int](../gravity/int.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 Move current record pointer specified by the index parameter. Returns true is operation succedd.
 
-* **func** **moveNext**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **moveNext**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Move to the next record. Returns false is no more records are availables.
 
-* **func** **moveFirst**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **moveFirst**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Move to the first record.
 
-* **func** **moveLast**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **moveLast**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Move to the latest record.
 
-* **func** **movePrevious**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **movePrevious**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Move to the previous record. Returns false is no more records are availables.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### DatabaseFieldType
+<div name="_enum_DatabaseFieldType"></div>#### DatabaseFieldType
  * .Blob
  * .DateTime
  * .Decimal

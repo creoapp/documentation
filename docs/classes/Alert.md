@@ -13,7 +13,7 @@ Use this event to be notified when navigation is about to be added to a view hie
 * **DidShow**()
 Use this event to be notified when navigation was added to a view hierarchy.
 
-* **Action**(**index**: **[Int](../gravity/types.md)**, **title**: **[String](../gravity/types.md)**)
+* **Action**(**index**: **[Int](../gravity/int.md)**, **title**: **[String](../gravity/string.md)**)
 Use this event to be notified when user selects a button.
 
 * **WillHide**()
@@ -29,23 +29,23 @@ This event is called when the object has been removed from the current runtime s
 
 ### Initializers
 
-* **func** **Alert**(**title**: **[String](../gravity/types.md)**)
+* **func** **Alert**(**title**: **[String](../gravity/string.md)**)
 Create a new Alert message with a specified title.
 
-* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**)
+* **func** **Alert**(**title**: **[String](../gravity/string.md)**, **message**: **[String](../gravity/string.md)**)
 Create a new Alert message with a specified title and message.
 
-* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**, **buttons**: **[List](../gravity/list.md)**)
+* **func** **Alert**(**title**: **[String](../gravity/string.md)**, **message**: **[String](../gravity/string.md)**, **buttons**: **[List](../gravity/list.md)**)
 Create a new Alert message with a specified title and message plus an array of buttons titles.
 
-* **func** **Alert**(**title**: **[String](../gravity/types.md)**, **message**: **[String](../gravity/types.md)**, **buttons**: **[List](../gravity/list.md)**, **closure**: **[Closure](../gravity/closure.md)**)
+* **func** **Alert**(**title**: **[String](../gravity/string.md)**, **message**: **[String](../gravity/string.md)**, **buttons**: **[List](../gravity/list.md)**, **closure**: **[Closure](../gravity/closure.md)**)
 Create a new Alert message with a specified title and message plus an array of buttons titles. The closure parameter enables you to specify an action to be executed when user press a button (button index is passed as parameter).
 
 
 
 ### Methods
 
-* **func** **addActionWithTitle**(**title**: **[String](../gravity/types.md)**)
+* **func** **addActionWithTitle**(**title**: **[String](../gravity/string.md)**)
 Use this method to add a button to a newly created Alert.
 
 * **func** **show**()
@@ -53,5 +53,5 @@ Display Alert to the user.
 
 
 
-
+* None
 

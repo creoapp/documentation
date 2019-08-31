@@ -29,7 +29,7 @@ This event is called when the object has been removed from the current runtime s
 * **var** **progressViewStyle**: **ProgressViewStyle**
 The current graphical style of the receiver.
 
-* **var** **value**: **[Float](../gravity/types.md)**
+* **var** **value**: **[Float](../gravity/float.md)**
 The current progress shown by the receiver. The current progress is represented by a floating-point value between 0.0 and 1.0, inclusive, where 1.0 indicates the completion of the task. The default value is 0.0. Values less than 0.0 and greater than 1.0 are pinned to those limits.
 
 * **var** **progressTintColor**: **[Color](Color.md)**
@@ -44,17 +44,17 @@ An image to use for the portion of the progress bar that is filled.
 * **var** **trackImage**: **[Image](Image.md)**
 An image to use for the portion of the track that is not filled.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **setProgress**(**progress**: **[Float](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **setProgress**(**progress**: **[Float](../gravity/float.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Adjusts the current progress shown by the receiver, optionally animating the change.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -65,15 +65,15 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### ProgressViewStyle
+<div name="_enum_ProgressViewStyle"></div>#### ProgressViewStyle
  * .Bar
  * .Default
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

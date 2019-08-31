@@ -46,10 +46,10 @@ Returns Window/Navigation positioned on top of the receiver’s stack. \(read-on
 * **var** **windows**: **[List](../gravity/list.md)**
 Array of windows currently managed by the NavigationBar.
 
-* **var** **navigationBarHidden**: **[Bool](../gravity/types.md)**
+* **var** **navigationBarHidden**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether the navigation bar is hidden.
 
-* **var** **navigationBarTranslucent**: **[Bool](../gravity/types.md)**
+* **var** **navigationBarTranslucent**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the navigation bar is translucent (true) or not (false).
 
 * **var** **navigationBarTintColor**: **[Color](Color.md)**
@@ -58,10 +58,10 @@ The tint color to apply to the navigation bar background.
 * **var** **selectedWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
 Returns the currently selected Window or Navigation. \(read-only\)
 
-* **var** **prefersLargeTitles**: **[Bool](../gravity/types.md)**
+* **var** **prefersLargeTitles**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the title should be displayed in a large format in the navigation bar. When this property is set to true, the navigation bar allows the title to be displayed out-of-line and using a larger font. The top window must specify whether it wants its title displayed in the large or small format. Use the largeTitleDisplayMode property of the <a href="Window.html">Window</a> to configure the title's appearance. When the property is set to false, the navigation bar displays the title inline with the other bar button items.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -74,7 +74,7 @@ Open window in currently displayed window or navigation using the destination ob
 * **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation. Example: <code class="swift">TargetWindow.openIn(ContainerWindow);</code>
 
-* **func** **openWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/bool.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Pushes a Window/Navigation onto the receiver’s stack and updates the display.
 
 * **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closure.md) = null**)
@@ -83,35 +83,35 @@ Open window modally usign the specified transition style.
 * **func** **close**()
 Close window if modally opened.
 
-* **func** **pop**(**animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **pop**(**animated**: **[Bool](../gravity/bool.md) = true**)
 Pops the top Windows/Navigations from the navigation stack and updates the display.
 
-* **func** **popToWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **popToWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Pops Windows/Navigations until the specified Window is at the top of the navigation stack.
 
-* **func** **popToRootWindow**(**animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **popToRootWindow**(**animated**: **[Bool](../gravity/bool.md) = true**)
 Pops all the Windows/Navigations on the stack except the root Window/Navigation and updates the display.
 
-* **func** **setNavigationBarHidden**(**hidden**: **[Bool](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **setNavigationBarHidden**(**hidden**: **[Bool](../gravity/bool.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Sets whether the navigation bar is hidden.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### StatusBarVisibility
+<div name="_enum_StatusBarVisibility"></div>#### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
-#### StatusBarStyle
+<div name="_enum_StatusBarStyle"></div>#### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
 
-#### TransitionStyle
+<div name="_enum_TransitionStyle"></div>#### TransitionStyle
  * .Cards
  * .CoverVertical
  * .CrossDissolve

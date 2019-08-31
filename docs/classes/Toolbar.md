@@ -17,7 +17,7 @@ This event is called when the object has been removed from the current runtime s
 * **var** **barStyle**: **BarStyle**
 The toolbar style that specifies its appearance.
 
-* **var** **translucent**: **[Bool](../gravity/types.md)**
+* **var** **translucent**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether the toolbar is translucent (true) or not (false). If the toolbar has a custom background image, the default is true if any pixel of the image has an alpha value of less than 1.0, and false otherwise. If you set this property to true on a toolbar with an opaque custom background image, the toolbar will apply a system opacity less than 1.0 to the image.
 
 * **var** **barTintColor**: **[Color](Color.md)**
@@ -26,14 +26,14 @@ The tint color to apply to the toolbar background. This color is made translucen
 * **var** **items**: **[List](../gravity/list.md)**
 The items displayed on the toolbar.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -44,17 +44,17 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### BarStyle
+<div name="_enum_BarStyle"></div>#### BarStyle
  * .Black
  * .BlackOpaque
  * .BlackTranslucent
  * .Default
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

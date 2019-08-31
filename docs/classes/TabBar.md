@@ -38,7 +38,7 @@ A value indicating whether the status bar should be visible.
 * **var** **statusBarStyle**: **StatusBarStyle**
 The style of the status bar.
 
-* **var** **tabBarTranslucent**: **[Bool](../gravity/types.md)**
+* **var** **tabBarTranslucent**: **[Bool](../gravity/bool.md)**
 Description not yet ready.
 
 * **var** **windows**: **[List](../gravity/list.md)**
@@ -47,10 +47,10 @@ Array of windows currently managed by the TabBar.
 * **var** **selectedWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
 Returns the currently selected Window or Navigation.
 
-* **var** **selectedIndex**: **[Int](../gravity/types.md)**
+* **var** **selectedIndex**: **[Int](../gravity/int.md)**
 The index of the Window associated with the currently selected tab item.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -75,21 +75,21 @@ Close window if modally opened.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### StatusBarVisibility
+<div name="_enum_StatusBarVisibility"></div>#### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
-#### StatusBarStyle
+<div name="_enum_StatusBarStyle"></div>#### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
 
-#### TransitionStyle
+<div name="_enum_TransitionStyle"></div>#### TransitionStyle
  * .Cards
  * .CoverVertical
  * .CrossDissolve

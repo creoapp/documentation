@@ -28,10 +28,10 @@ Posted immediately prior to the dismissal of the keyboard.
 * **KeyboardDidHide**(**keyboard**: **[Map](../gravity/map.md)**)
 Posted immediately after the dismissal of the keyboard.
 
-* **WillRotate**(**toOrientation**: **[Int](../gravity/types.md)**, **duration**: **[Float](../gravity/types.md)**)
+* **WillRotate**(**toOrientation**: **[Int](../gravity/int.md)**, **duration**: **[Float](../gravity/float.md)**)
 Posted immediately prior to rotation of the interface.
 
-* **DidRotate**(**fromOrientation**: **[Int](../gravity/types.md)**)
+* **DidRotate**(**fromOrientation**: **[Int](../gravity/int.md)**)
 Posted immediately after the rotation of the interface.
 
 * **WillHide**()
@@ -68,10 +68,10 @@ The style of the status bar.
 * **var** **firstResponder**: **[UIView](UIView.md)**
 Returns the subview that is now the first-responder, null if none. \(read-only\)
 
-* **var** **modalPresentationStyle**: **[Int](../gravity/types.md)**
+* **var** **modalPresentationStyle**: **[Int](../gravity/int.md)**
 The presentation style determines how a modally presented view controller is displayed onscreen. In a horizontally compact environment, modal view controllers are always presented full-screen. In a horizontally regular environment, there are several different presentation options.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -100,16 +100,16 @@ Converts a rectangle from the coordinate system of another view to that of the W
 * **func** **convertTo**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**): <strong>[Rect](Rect.md)</strong> 
 Converts a rectangle from the Window’s coordinate system to that of another view.
 
-* **func** **reset**(**forceGarbageCollector**: **[Bool](../gravity/types.md) = true**)
+* **func** **reset**(**forceGarbageCollector**: **[Bool](../gravity/bool.md) = true**)
 Free the content of the Window, you can call this method on unused Windows to save memory. If the Window is used after calling the reset method, the content is reloaded just before presenting (before the execution of the WillShow event.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### TransitionStyle
+<div name="_enum_TransitionStyle"></div>#### TransitionStyle
  * .Cards
  * .CoverVertical
  * .CrossDissolve
@@ -126,12 +126,12 @@ Free the content of the Window, you can call this method on unused Windows to sa
  * .Portal
  * .Turn
 
-#### StatusBarVisibility
+<div name="_enum_StatusBarVisibility"></div>#### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
-#### StatusBarStyle
+<div name="_enum_StatusBarStyle"></div>#### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent

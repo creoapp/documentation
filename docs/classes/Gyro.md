@@ -12,7 +12,7 @@ This event is called when the object becames available in the current runtime sy
 * **DidStart**()
 Event raised when DataSet started retrieving data.
 
-* **NewValue**(**value**: **[Object](../gravity/types.md)**)
+* **NewValue**(**value**: **[Object](../gravity/object.md)**)
 Event raised when a new value becomes available.
 
 * **DidFinish**()
@@ -28,52 +28,52 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **deviceMotionActive**: **[Bool](../gravity/types.md)**
+* **var** **deviceMotionActive**: **[Bool](../gravity/bool.md)**
 A Boolean value that determines whether the app is receiving updates from the device-motion service. \(read-only\)
 
-* **var** **deviceMotionAvailable**: **[Bool](../gravity/types.md)**
+* **var** **deviceMotionAvailable**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether the device-motion service is available on the device. \(read-only\)
 
-* **var** **accelerometerActive**: **[Bool](../gravity/types.md)**
+* **var** **accelerometerActive**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether accelerometer updates are currently happening. \(read-only\)
 
-* **var** **accelerometerAvailable**: **[Bool](../gravity/types.md)**
+* **var** **accelerometerAvailable**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether an accelerometer is available on the device. \(read-only\)
 
-* **var** **gyroActive**: **[Bool](../gravity/types.md)**
+* **var** **gyroActive**: **[Bool](../gravity/bool.md)**
 A Boolean value that determines whether gyroscope updates are currently happening. \(read-only\)
 
-* **var** **gyroAvailable**: **[Bool](../gravity/types.md)**
+* **var** **gyroAvailable**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether a gyroscope is available on the device. \(read-only\)
 
-* **var** **magnetometerActive**: **[Bool](../gravity/types.md)**
+* **var** **magnetometerActive**: **[Bool](../gravity/bool.md)**
 A Boolean value that determines whether magnetometer updates are currently happening. \(read-only\)
 
-* **var** **magnetometerAvailable**: **[Bool](../gravity/types.md)**
+* **var** **magnetometerAvailable**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether a magnetometer is available on the device. \(read-only\)
 
-* **var** **isRelativeAltitudeAvailable**: **[Bool](../gravity/types.md)**
+* **var** **isRelativeAltitudeAvailable**: **[Bool](../gravity/bool.md)**
 Returns a Boolean value indicating whether the current device supports generating data for relative altitude changes. \(read-only\)
 
-* **var** **isDistanceAvailable**: **[Bool](../gravity/types.md)**
+* **var** **isDistanceAvailable**: **[Bool](../gravity/bool.md)**
 Returns a Boolean value indicating whether distance estimation is available on the current device. Distance estimation indicates the ability to use step information to supply the approximate distance traveled by the user. This capability is not supported on all devices. \(read-only\)
 
-* **var** **isFloorCountingAvailable**: **[Bool](../gravity/types.md)**
+* **var** **isFloorCountingAvailable**: **[Bool](../gravity/bool.md)**
 Returns a Boolean value indicating whether floor counting is available on the current device. Floor counting indicates the ability to count the number of floors the user walks up or down using stairs. This capability is not supported on all devices. \(read-only\)
 
-* **var** **isStepCountingAvailable**: **[Bool](../gravity/types.md)**
+* **var** **isStepCountingAvailable**: **[Bool](../gravity/bool.md)**
 Returns a Boolean value indicating whether step counting is available on the current device. \(read-only\)
 
-* **var** **isActivityAvailable**: **[Bool](../gravity/types.md)**
+* **var** **isActivityAvailable**: **[Bool](../gravity/bool.md)**
 Returns a Boolean indicating whether motion data is available on the current device. \(read-only\)
 
-* **var** **showsDeviceMovementDisplay**: **[Bool](../gravity/types.md)**
+* **var** **showsDeviceMovementDisplay**: **[Bool](../gravity/bool.md)**
 Returns a Boolean indicating whether motion data is available on the current device. Motion data is not available on all iOS devices. Use this method to determine if support is available on the current device.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
-
+* None
 

@@ -22,13 +22,13 @@ The view has been removed from the App's views hierarchy.
 
 ### Properties
 
-* **var** **identifier**: **[String](../gravity/types.md)**
+* **var** **identifier**: **[String](../gravity/string.md)**
 Identifier set in the cell property inspector.
 
-* **var** **text**: **[String](../gravity/types.md)**
+* **var** **text**: **[String](../gravity/string.md)**
 The main textual content.
 
-* **var** **detailText**: **[String](../gravity/types.md)**
+* **var** **detailText**: **[String](../gravity/string.md)**
 The text of the secondary label of the cell.
 
 * **var** **image**: **[Image](Image.md)**
@@ -43,10 +43,10 @@ Array of swipe actions to display on the right edge of the row
 * **var** **leftActions**: **[List](../gravity/list.md)**
 Array of swipe actions to display on the left edge of the row
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
-
+* None
 

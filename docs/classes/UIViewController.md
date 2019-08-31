@@ -13,16 +13,16 @@ This class is reserved and cannot be directly instantiated.
 * **var** **supportedInterfaceOrientations**: **InterfaceOrientationMask**
 Returns all of the interface orientations that the Window supports.
 
-* **var** **title**: **[String](../gravity/types.md)**
+* **var** **title**: **[String](../gravity/string.md)**
 A String that provides the current title of the window or navigation.
 
 * **var** **interfaceOrientation**: **InterfaceOrientation**
 Convenience property that provides the current orientation of the interface. \(read-only\)
 
-* **var** **editing**: **[Bool](../gravity/types.md)**
+* **var** **editing**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the view currently allows the user to edit the contents.
 
-* **var** **automaticallyAdjustsScrollViewInsets**: **[Bool](../gravity/types.md)**
+* **var** **automaticallyAdjustsScrollViewInsets**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether the view should automatically adjust its scroll view insets.
 
 * **var** **parent**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
@@ -43,14 +43,14 @@ The nearest ancestor in the Window hierarchy that is a TabBar. \(read-only\)
 * **var** **pageSplit**: **[UISplitViewController](UISplitViewController.md)**
 The nearest ancestor in the Window hierarchy that is a PageSplit. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **isViewLoaded**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isViewLoaded**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether the view is currently loaded into memory, it does not attempt to load the view if it is not already in memory.
 
 * **func** **updateStatusBar**()
@@ -58,11 +58,11 @@ Indicates to the system that the status bar attributes have changed.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### InterfaceOrientationMask
+<div name="_enum_InterfaceOrientationMask"></div>#### InterfaceOrientationMask
  * .All
  * .AllButUpsideDown
  * .Landscape
@@ -71,7 +71,7 @@ Indicates to the system that the status bar attributes have changed.
  * .Portrait
  * .PortraitUpsideDown
 
-#### InterfaceOrientation
+<div name="_enum_InterfaceOrientation"></div>#### InterfaceOrientation
  * .LandscapeLeft
  * .LandscapeRight
  * .Portrait

@@ -13,7 +13,7 @@ This class is reserved and cannot be directly instantiated.
 * **var** **view**: **[UIView](UIView.md)**
 The view to which touches are being delivered, if any. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -25,5 +25,5 @@ Returns the current location of the touch in the coordinate system of the given 
 
 
 
-
+* None
 

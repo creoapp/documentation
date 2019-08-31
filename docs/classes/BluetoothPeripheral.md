@@ -20,10 +20,10 @@ This event is called when the object has been removed from the current runtime s
 * **var** **state**: **BluetoothState**
 Represents the current state of the peripheral manager. The PoweredOn state indicates that Bluetooth is currently powered on and available to use.
 
-* **var** **isAdvertising**: **[Bool](../gravity/types.md)**
+* **var** **isAdvertising**: **[Bool](../gravity/bool.md)**
 Represents the current state of the peripheral manager. A Boolean value indicating whether the peripheral is currently advertising data. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -36,16 +36,16 @@ Activates the configured services and starts advertising them
 * **func** **stop**()
 Stops advertising and removes the active services.
 
-* **func** **write**(**value**: **[Object](../gravity/types.md)**, **characteristicUUID**: **[String](../gravity/types.md)**)
+* **func** **write**(**value**: **[Object](../gravity/object.md)**, **characteristicUUID**: **[String](../gravity/string.md)**)
 Sets the value for the specified characteristic and notify the change if needed. If the value is a Data object it is written as is, otherwise (Number, String, etc.) the BluetoothPeripheral tries to encode the value for known characteristis.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### BluetoothState
+<div name="_enum_BluetoothState"></div>#### BluetoothState
  * .PoweredOff
  * .PoweredOn
  * .Resetting

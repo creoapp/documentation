@@ -21,43 +21,43 @@ Instantiate a new Data object.
 
 ### Methods
 
-* **func** **bytes**(**range**: **[Range](../gravity/types.md)**): <strong>[Data](Data.md)</strong> 
+* **func** **bytes**(**range**: **[Range](../gravity/range.md)**): <strong>[Data](Data.md)</strong> 
 Copies a range of bytes from the receiver’s data.
 
-* **func** **append**(**value**: **[Object](../gravity/types.md)**)
+* **func** **append**(**value**: **[Object](../gravity/object.md)**)
 Appends to the receiver a given number of bytes from a given buffer. It supports numbers (64 bits representation) strings and Data.
 
-* **func** **writeUInt8**(**value**: **[Int](../gravity/types.md)**)
+* **func** **writeUInt8**(**value**: **[Int](../gravity/int.md)**)
 Writes a one-byte unsigned integer value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> property.
 
-* **func** **writeUInt16**(**value**: **[Int](../gravity/types.md)**)
+* **func** **writeUInt16**(**value**: **[Int](../gravity/int.md)**)
 Writes a two-bytes unsigned integer value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **writeUInt32**(**value**: **[Int](../gravity/types.md)**)
+* **func** **writeUInt32**(**value**: **[Int](../gravity/int.md)**)
 Writes a four-bytes unsigned integer value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **writeUInt64**(**value**: **[Int](../gravity/types.md)**)
+* **func** **writeUInt64**(**value**: **[Int](../gravity/int.md)**)
 Writes a eight-bytes unsigned integer value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **writeInt8**(**value**: **[Int](../gravity/types.md)**)
+* **func** **writeInt8**(**value**: **[Int](../gravity/int.md)**)
 Writes a one-byte signed integer value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> property.
 
-* **func** **writeInt16**(**value**: **[Int](../gravity/types.md)**)
+* **func** **writeInt16**(**value**: **[Int](../gravity/int.md)**)
 Writes a two-bytes signed integer value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **writeInt32**(**value**: **[Int](../gravity/types.md)**)
+* **func** **writeInt32**(**value**: **[Int](../gravity/int.md)**)
 Writes a four-bytes signed integer value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **writeInt64**(**value**: **[Int](../gravity/types.md)**)
+* **func** **writeInt64**(**value**: **[Int](../gravity/int.md)**)
 Writes a eight-bytes signed integer value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **writeFloat**(**value**: **[Float](../gravity/types.md)**)
+* **func** **writeFloat**(**value**: **[Float](../gravity/float.md)**)
 Writes a four-bytes float value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **writeDouble**(**value**: **[Float](../gravity/types.md)**)
+* **func** **writeDouble**(**value**: **[Float](../gravity/float.md)**)
 Writes a eight-bytes double value to the data. Replaces the previous byte if the current <code>position</code> of the receiver is equal to the receiver's length, otherwise appends the byte to the receiver. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
 
 
-
+* None
 

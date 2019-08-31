@@ -14,28 +14,28 @@ This event is called when the object has been removed from the current runtime s
 
 ### Methods
 
-* **func** **bindNull**(**name**: **[String](../gravity/types.md)**)
+* **func** **bindNull**(**name**: **[String](../gravity/string.md)**)
 Bind null value.
 
-* **func** **bindText**(**name**: **[String](../gravity/types.md)**, **value**: **[String](../gravity/types.md)**)
+* **func** **bindText**(**name**: **[String](../gravity/string.md)**, **value**: **[String](../gravity/string.md)**)
 Bind String value.
 
-* **func** **bindBool**(**name**: **[String](../gravity/types.md)**, **value**: **[Bool](../gravity/types.md)**)
+* **func** **bindBool**(**name**: **[String](../gravity/string.md)**, **value**: **[Bool](../gravity/bool.md)**)
 Bind Bool value.
 
-* **func** **bindInt**(**name**: **[String](../gravity/types.md)**, **value**: **[Int](../gravity/types.md)**)
+* **func** **bindInt**(**name**: **[String](../gravity/string.md)**, **value**: **[Int](../gravity/int.md)**)
 Bind Int value.
 
-* **func** **bindInt64**(**name**: **[String](../gravity/types.md)**, **value**: **[Int](../gravity/types.md)**)
+* **func** **bindInt64**(**name**: **[String](../gravity/string.md)**, **value**: **[Int](../gravity/int.md)**)
 Bind Int64 value.
 
-* **func** **bindDouble**(**name**: **[String](../gravity/types.md)**, **value**: **[Float](../gravity/types.md)**)
+* **func** **bindDouble**(**name**: **[String](../gravity/string.md)**, **value**: **[Float](../gravity/float.md)**)
 Bind Double value.
 
-* **func** **bindData**(**name**: **[String](../gravity/types.md)**, **value**: **[Data](Data.md)**)
+* **func** **bindData**(**name**: **[String](../gravity/string.md)**, **value**: **[Data](Data.md)**)
 Bind Data value.
 
 
 
-
+* None
 

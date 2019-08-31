@@ -30,35 +30,35 @@ The coordinate that defines the starting point of the gradient (from 0.0 to 1.0)
 * **var** **maxPosition**: **[Point](Point.md)**
 The coordinate that defines the ending point of the gradient (from 0.0 to 1.0).
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **addColorStop**(**color**: **[Color](Color.md)**, **location**: **[Float](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **addColorStop**(**color**: **[Color](Color.md)**, **location**: **[Float](../gravity/float.md)**): <strong>[Int](../gravity/int.md)</strong> 
 Add a new color stop to the gradient at the specified location.
 
-* **func** **removeColorStop**(**index**: **[Int](../gravity/types.md)**)
+* **func** **removeColorStop**(**index**: **[Int](../gravity/int.md)**)
 Remove color stop at the specified index.
 
-* **func** **updateColor**(**index**: **[Int](../gravity/types.md)**, **color**: **[Color](Color.md)**)
+* **func** **updateColor**(**index**: **[Int](../gravity/int.md)**, **color**: **[Color](Color.md)**)
 Update stop color at the specified index (with a new color).
 
-* **func** **updateLocation**(**index**: **[Int](../gravity/types.md)**, **location**: **[Float](../gravity/types.md)**)
+* **func** **updateLocation**(**index**: **[Int](../gravity/int.md)**, **location**: **[Float](../gravity/float.md)**)
 Update stop color at the specified index (with a new location).
 
-* **func** **isEqual**(**gradient**: **[Gradient](Gradient.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isEqual**(**gradient**: **[Gradient](Gradient.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 Compare two Gradient objects.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### GradientType
+<div name="_enum_GradientType"></div>#### GradientType
  * .Linear
  * .Radial
 

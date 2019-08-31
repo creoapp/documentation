@@ -14,13 +14,13 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **path**: **[String](../gravity/types.md)**
+* **var** **path**: **[String](../gravity/string.md)**
 The URL of the movie file
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
-
+* None
 

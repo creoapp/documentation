@@ -29,7 +29,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **title**: **[String](../gravity/types.md)**
+* **var** **title**: **[String](../gravity/string.md)**
 The title of the button. Use this property instead of the titleForState and setTitleForState methods if you want to use the same title for all the button states.
 
 * **var** **font**: **[Font](Font.md)**
@@ -38,7 +38,7 @@ The font used for the button’s title string.
 * **var** **type**: **ButtonType**
 Returns the button type. \(read-only\)
 
-* **var** **currentTitle**: **[String](../gravity/types.md)**
+* **var** **currentTitle**: **[String](../gravity/string.md)**
 Returns the title for the current button state. \(read-only\)
 
 * **var** **currentTitleColor**: **[Color](Color.md)**
@@ -53,7 +53,7 @@ Returns the image for the current button state. \(read-only\)
 * **var** **currentBackgroundImage**: **[Image](Image.md)**
 Returns the background image for the current button state. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -67,10 +67,10 @@ Creates and returns a new button of the specified type.
 
 ### Methods
 
-* **func** **titleForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[String](../gravity/types.md)</strong> 
+* **func** **titleForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[String](../gravity/string.md)</strong> 
 Returns the title associated with the specified state.
 
-* **func** **setTitleForState**(**title**: **[String](../gravity/types.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
+* **func** **setTitleForState**(**title**: **[String](../gravity/string.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the title associated with the specified state. At a minimum, you should set the value for the normal state. If a title is not specified for a state, the default behavior is to use the title associated with the normal state. If the value for normal is not set, then the property defaults to a system value.
 
 * **func** **titleColorForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Color](Color.md)</strong> 
@@ -97,7 +97,7 @@ Returns the background image used for the specified state.
 * **func** **setBackgroundImageForState**(**image**: **[Image](Image.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the background image to use for the specified state.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -108,11 +108,11 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### ButtonType
+<div name="_enum_ButtonType"></div>#### ButtonType
  * .ContactAdd
  * .Custom
  * .DetailDisclosure
@@ -121,7 +121,7 @@ Clear focus from selected control
  * .RoundedRect
  * .System
 
-#### ControlState
+<div name="_enum_ControlState"></div>#### ControlState
  * .Application
  * .Disabled
  * .Focused
@@ -129,7 +129,7 @@ Clear focus from selected control
  * .Normal
  * .Selected
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

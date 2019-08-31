@@ -21,13 +21,13 @@ This event is called when the user begins editing the search text.
 * **DidEndEditing**()
 This event is called when user finished editing the search text.
 
-* **Changed**(**searchText**: **[String](../gravity/types.md)**)
+* **Changed**(**searchText**: **[String](../gravity/string.md)**)
 This event is called to notify that the user changed the search text
 
 * **Action**(**action**: **<a href="#_enum_SearchBarAction">SearchBarAction</a>**)
 This event is called when a button  was tapped.
 
-* **DidSelectCell**(**selectedScopeIndex**: **[Int](../gravity/types.md)**)
+* **DidSelectCell**(**selectedScopeIndex**: **[Int](../gravity/int.md)**)
 This event is called when the scope button selection changed.
 
 * **DidShow**()
@@ -49,28 +49,28 @@ A search bar style that specifies the search bar’s appearance.
 * **var** **barStyle**: **BarStyle**
 A bar style that specifies the search bar’s appearance.
 
-* **var** **text**: **[String](../gravity/types.md)**
+* **var** **text**: **[String](../gravity/string.md)**
 The current or starting search text.
 
-* **var** **prompt**: **[String](../gravity/types.md)**
+* **var** **prompt**: **[String](../gravity/string.md)**
 A single line of text displayed at the top of the search bar.
 
-* **var** **placeholder**: **[String](../gravity/types.md)**
+* **var** **placeholder**: **[String](../gravity/string.md)**
 The string that is displayed when there is no other text in the text field.
 
-* **var** **showsBookmarkButton**: **[Bool](../gravity/types.md)**
+* **var** **showsBookmarkButton**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the bookmark button is displayed.
 
-* **var** **showsCancelButton**: **[Bool](../gravity/types.md)**
+* **var** **showsCancelButton**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the cancel button is displayed.
 
-* **var** **showsSearchResultsButton**: **[Bool](../gravity/types.md)**
+* **var** **showsSearchResultsButton**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the search results button is displayed.
 
-* **var** **searchResultsButtonSelected**: **[Bool](../gravity/types.md)**
+* **var** **searchResultsButtonSelected**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the search results button is selected.
 
-* **var** **translucent**: **[Bool](../gravity/types.md)**
+* **var** **translucent**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether the search bar is translucent (true) or not (false).
 
 * **var** **barTintColor**: **[Color](Color.md)**
@@ -91,10 +91,10 @@ The keyboard style associated with the text object.
 * **var** **scopeButtonTitles**: **[List](../gravity/list.md)**
 An array of strings indicating the titles of the scope buttons.
 
-* **var** **selectedScopeButtonIndex**: **[Int](../gravity/types.md)**
+* **var** **selectedScopeButtonIndex**: **[Int](../gravity/int.md)**
 The index of the selected scope button.
 
-* **var** **showsScopeBar**: **[Bool](../gravity/types.md)**
+* **var** **showsScopeBar**: **[Bool](../gravity/bool.md)**
 Specifies whether the scope bar is displayed.
 
 * **var** **backgroundImage**: **[Image](Image.md)**
@@ -112,14 +112,14 @@ The offset of the text within the search text field background.
 * **var** **inputAccessoryView**: **[UIView](UIView.md)**
 The custom accessory view to display when the text field becomes the first responder.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -130,44 +130,44 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### SearchBarAction
+<div name="_enum_SearchBarAction"></div>#### SearchBarAction
  * .Bookmark
  * .Cancel
  * .ResultsList
  * .Search
 
-#### SearchBarStyle
+<div name="_enum_SearchBarStyle"></div>#### SearchBarStyle
  * .Default
  * .Minimal
  * .Prominent
 
-#### BarStyle
+<div name="_enum_BarStyle"></div>#### BarStyle
  * .Black
  * .BlackOpaque
  * .BlackTranslucent
  * .Default
 
-#### TextAutocapitalizationType
+<div name="_enum_TextAutocapitalizationType"></div>#### TextAutocapitalizationType
  * .AllCharacters
  * .None
  * .Sentences
  * .Words
 
-#### TextAutocorrectionType
+<div name="_enum_TextAutocorrectionType"></div>#### TextAutocorrectionType
  * .Default
  * .No
  * .Yes
 
-#### TextSpellCheckingType
+<div name="_enum_TextSpellCheckingType"></div>#### TextSpellCheckingType
  * .Default
  * .No
  * .Yes
 
-#### KeyboardType
+<div name="_enum_KeyboardType"></div>#### KeyboardType
  * .ASCIICapable
  * .ASCIICapableNumberPad
  * .DecimalPad
@@ -181,7 +181,7 @@ Clear focus from selected control
  * .URL
  * .WebSearch
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

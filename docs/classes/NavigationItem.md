@@ -14,16 +14,16 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **title**: **[String](../gravity/types.md)**
+* **var** **title**: **[String](../gravity/string.md)**
 The navigation item’s title displayed in the navigation bar.
 
-* **var** **prompt**: **[String](../gravity/types.md)**
+* **var** **prompt**: **[String](../gravity/string.md)**
 A single line of text displayed at the top of the navigation bar.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
-
+* None
 

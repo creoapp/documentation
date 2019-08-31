@@ -17,19 +17,19 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **title**: **[String](../gravity/types.md)**
+* **var** **title**: **[String](../gravity/string.md)**
 The title of the button.
 
 * **var** **image**: **[Image](Image.md)**
 The image used to represent the item.
 
-* **var** **width**: **[Float](../gravity/types.md)**
+* **var** **width**: **[Float](../gravity/float.md)**
 The width of the item.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
-
+* None
 

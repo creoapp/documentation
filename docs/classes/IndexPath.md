@@ -14,36 +14,36 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **item**: **[Int](../gravity/types.md)**
+* **var** **item**: **[Int](../gravity/int.md)**
 The second index of the tree of nested array collection. For example, the index number identifying the item in a CollectionView section. \(read-only\)
 
-* **var** **row**: **[Int](../gravity/types.md)**
+* **var** **row**: **[Int](../gravity/int.md)**
 The second index of the tree of nested array collection. For example, the index number identifying the row in a TableView section. \(read-only\)
 
-* **var** **section**: **[Int](../gravity/types.md)**
+* **var** **section**: **[Int](../gravity/int.md)**
 The index of the root array of nodes. For example, the index number identifying a section in a CollectionView or a TableView object. \(read-only\)
 
-* **var** **length**: **[Int](../gravity/types.md)**
+* **var** **length**: **[Int](../gravity/int.md)**
 The number of indexes in the index path. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Initializers
 
-* **func** **IndexPath**(**item**: **[Int](../gravity/types.md)**, **section**: **[Int](../gravity/types.md)**)
+* **func** **IndexPath**(**item**: **[Int](../gravity/int.md)**, **section**: **[Int](../gravity/int.md)**)
 Returns an index-path object initialized with the indexes of a specific item and section.
 
 
 
 ### Methods
 
-* **func** **index**(**position**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **index**(**position**: **[Int](../gravity/int.md)**): <strong>[Int](../gravity/int.md)</strong> 
 The index at a particular node in the index path.
 
-* **func** **indexPathByAddingIndex**(**index**: **[Int](../gravity/types.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
+* **func** **indexPathByAddingIndex**(**index**: **[Int](../gravity/int.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
 Returns a new index path by adding the new index to the current indexes.
 
 * **func** **indexPathByRemovingLastIndex**(): <strong>[IndexPath](IndexPath.md)</strong> 
@@ -51,5 +51,5 @@ Provides an index path with the indexes in the receiving index path, excluding t
 
 
 
-
+* None
 

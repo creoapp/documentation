@@ -14,25 +14,25 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **title**: **[String](../gravity/types.md)**
+* **var** **title**: **[String](../gravity/string.md)**
 A string describing the title of the annotation.
 
-* **var** **subtitle**: **[String](../gravity/types.md)**
+* **var** **subtitle**: **[String](../gravity/string.md)**
 A string describing the subtitle of the annotation.
 
-* **var** **latitude**: **[Float](../gravity/types.md)**
+* **var** **latitude**: **[Float](../gravity/float.md)**
 The coordinate point (latitude) of the annotation.
 
-* **var** **longitude**: **[Float](../gravity/types.md)**
+* **var** **longitude**: **[Float](../gravity/float.md)**
 The coordinate point (longitude) of the annotation.
 
-* **var** **tag**: **[Int](../gravity/types.md)**
+* **var** **tag**: **[Int](../gravity/int.md)**
 An integer number that you can use to identify your objects in your map.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
-
+* None
 

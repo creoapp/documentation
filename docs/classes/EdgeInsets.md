@@ -4,26 +4,26 @@ Defines inset distances for views.
 
 ### Properties
 
-* **var** **top**: **[Float](../gravity/types.md)**
+* **var** **top**: **[Float](../gravity/float.md)**
 top field.
 
-* **var** **left**: **[Float](../gravity/types.md)**
+* **var** **left**: **[Float](../gravity/float.md)**
 left field.
 
-* **var** **bottom**: **[Float](../gravity/types.md)**
+* **var** **bottom**: **[Float](../gravity/float.md)**
 bottom field.
 
-* **var** **right**: **[Float](../gravity/types.md)**
+* **var** **right**: **[Float](../gravity/float.md)**
 right field.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Initializers
 
-* **func** **EdgeInsets**(**top**: **[Float](../gravity/types.md)**, **left**: **[Float](../gravity/types.md)**, **bottom**: **[Float](../gravity/types.md)**, **right**: **[Float](../gravity/types.md)**)
+* **func** **EdgeInsets**(**top**: **[Float](../gravity/float.md)**, **left**: **[Float](../gravity/float.md)**, **bottom**: **[Float](../gravity/float.md)**, **right**: **[Float](../gravity/float.md)**)
 Create a new EdgeInsets object.
 
 
@@ -35,5 +35,5 @@ Copy a EdgeInsets object by value (duplicate).
 
 
 
-
+* None
 

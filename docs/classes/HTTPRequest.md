@@ -10,7 +10,7 @@ This event is called when the object becames available in the current runtime sy
 * **DidStart**()
 Event raised when DataSet started retrieving data.
 
-* **NewValue**(**value**: **[Object](../gravity/types.md)**)
+* **NewValue**(**value**: **[Object](../gravity/object.md)**)
 Event raised when a new value becomes available.
 
 * **DidFinish**()
@@ -26,10 +26,10 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **path**: **[String](../gravity/types.md)**
+* **var** **path**: **[String](../gravity/string.md)**
 A string that represents the path and query component of the request URL. The scheme and host (and optionally the port, user and password) components are defined by the parent HTTPClient object. You can set directly a path string, otherwise this property is calculated from the tokenized path configured in the HTTPRequest inspector and the current values of the pathParameters and queryParameters properties.
 
-* **var** **url**: **[String](../gravity/types.md)**
+* **var** **url**: **[String](../gravity/string.md)**
 Full URL of the request. \(read-only\)
 
 * **var** **method**: **HTTPMethod**
@@ -44,7 +44,7 @@ A Map used to replace tokens in the path string. When you add a key-value pair f
 * **var** **queryParameters**: **[Map](../gravity/map.md)**
 The key-value pairs of this Map are used to create the query string part of the URL. For example, if the value is <code>["count" : "10", "screen_name" : "getcreo"] </code>, the HTTPRequest adds the following string to the original path: <code>?count=10&screen_name=getcreo</code>. Values must be strings. Each value of the Map can also be accessed programmatically as a dynamic property of the HTTPRequest instances. The dynamic properties are automatically exposed using the Map key as the property name if the key contains only alphanumeric characters. If you programmatically set a custom value for the path property the queryParameters property is ignored.
 
-* **var** **bodyParameters**: **[Object](../gravity/types.md)**
+* **var** **bodyParameters**: **[Object](../gravity/object.md)**
 The body parameters to be encoded according to the bodyMode property. The HTTPBodyMode.FormData and HTTPBodyMode.FormUrlencoded encoding require a Map value for this property, the HTTPBodyMode.Raw requires a string (if the value is a Map, the first value is used), with the HTTPBodyMode.JSON you can set this property to any JSON valid data type (List, Map, Boolean, String, Number, null value). If the value is a Map, each value of the Map can also be accessed programmatically as a dynamic property of the HTTPRequest instance. The dynamic properties are automatically exposed using the Map key as the property name if the key contains only alphanumeric characters.. Only used for the POST, PUT or PATCH method.
 
 * **var** **bodyMode**: **HTTPBodyMode**
@@ -53,56 +53,56 @@ How to serialize the body parameters. Only used for the POST, PUT or PATCH metho
 * **var** **responseSerializerType**: **HTTPResponseSerializer**
 How to deserialize the response.
 
-* **var** **timeoutInterval**: **[Float](../gravity/types.md)**
+* **var** **timeoutInterval**: **[Float](../gravity/float.md)**
 The timeout interval, in seconds, for created requests. The default timeout interval is 60 seconds.
 
-* **var** **useAuthentication**: **[Bool](../gravity/types.md)**
+* **var** **useAuthentication**: **[Bool](../gravity/bool.md)**
 A flag to enable/disable the authentication defined by the HTTPClient.
 
 * **var** **redirectMode**: **HTTPRedirectMode**
 Defines what to do when an HTTP request is attempting to perform a redirection to a different URL
 
-* **var** **MIMEType**: **[String](../gravity/types.md)**
+* **var** **MIMEType**: **[String](../gravity/string.md)**
 The MIME type of the response. The MIME type is often provided by the response’s originating source. However, that value may be changed or corrected by a protocol implementation if it can be determined that the response’s source reported the information incorrectly. If the response’s originating source does not provide a MIME type, an attempt to guess the MIME type may be made. \(read-only\)
 
-* **var** **expectedContentLength**: **[Int](../gravity/types.md)**
+* **var** **expectedContentLength**: **[Int](../gravity/int.md)**
 The expected length of the response’s content. This property’s value is -1 if the length can’t be determined. Some protocol implementations report the content length as part of the response, but not all protocols guarantee to deliver that amount of data. Clients should be prepared to deal with more or less data. \(read-only\)
 
-* **var** **textEncodingName**: **[String](../gravity/types.md)**
+* **var** **textEncodingName**: **[String](../gravity/string.md)**
 The name of the text encoding provided by the response’s originating source. If no text encoding was provided by the protocol, this property’s value is nil. \(read-only\)
 
-* **var** **suggestedFilename**: **[String](../gravity/types.md)**
+* **var** **suggestedFilename**: **[String](../gravity/string.md)**
 A suggested filename for the response data. Accessing this property attempts to generate a filename using the following information, in order: A filename specified using the content disposition header, the last path component of the URL, the host of the URL. If the host of URL can't be converted to a valid filename, the filename "unknown" is used. In most cases, this property appends the proper file extension based on the MIME type. Accessing this property always returns a valid filename regardless of whether the resource is saved to disk. \(read-only\)
 
 * **var** **allHeaderFields**: **[Map](../gravity/map.md)**
 A dictionary containing all the HTTP header fields received as part of the server’s response. By examining this dictionary clients can see the “raw” header information returned by the HTTP server. The keys in this dictionary are the header field names, as received from the server. See RFC 2616 for a list of commonly used HTTP header fields. HTTP headers are case insensitive. To simplify your code, certain header field names are canonicalized into their standard form. For example, if the server sends a content-length header, it is automatically adjusted to be Content-Length. The returned dictionary of headers is configured to be case-preserving during the set operation (unless the key already exists with a different case), and case-insensitive when looking up keys. \(read-only\)
 
-* **var** **statusCode**: **[Int](../gravity/types.md)**
+* **var** **statusCode**: **[Int](../gravity/int.md)**
 The receiver’s HTTP status code. See RFC 2616 for details. \(read-only\)
 
-* **var** **localizedStatusCodeString**: **[String](../gravity/types.md)**
+* **var** **localizedStatusCodeString**: **[String](../gravity/string.md)**
 Returns a localized string corresponding to the current HTTP status code. \(read-only\)
 
-* **var** **countOfBytesReceived**: **[Int](../gravity/types.md)**
+* **var** **countOfBytesReceived**: **[Int](../gravity/int.md)**
 The number of bytes that the object has received from the server in the response body. \(read-only\)
 
-* **var** **countOfBytesSent**: **[Int](../gravity/types.md)**
+* **var** **countOfBytesSent**: **[Int](../gravity/int.md)**
 The number of bytes that the task has sent to the server in the request body. This byte count includes only the length of the request body itself, not the request headers. \(read-only\)
 
-* **var** **countOfBytesExpectedToSend**: **[Int](../gravity/types.md)**
+* **var** **countOfBytesExpectedToSend**: **[Int](../gravity/int.md)**
 The number of bytes that the task expects to send in the request body. The URL loading system can determine the length of the upload data in three ways: From the length of the NSData object provided as the upload body, from the length of the file on disk provided as the upload body of an upload task (not a download task), or from the Content-Length in the request object, if you explicitly set it. Otherwise, the value is -1 if you provided a stream or body data object, or zero (0) if you did not. \(read-only\)
 
-* **var** **countOfBytesExpectedToReceive**: **[Int](../gravity/types.md)**
+* **var** **countOfBytesExpectedToReceive**: **[Int](../gravity/int.md)**
 The number of bytes that the task expects to receive in the response body. This value is determined based on the Content-Length header received from the server. If that header is absent, the value is -1LL. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Initializers
 
-* **func** **HTTPRequest**(**URL**: **[String](../gravity/types.md)**)
+* **func** **HTTPRequest**(**URL**: **[String](../gravity/string.md)**)
 Create a new HTTPRequest for the specified URL.
 
 
@@ -118,16 +118,16 @@ Resumes a previously suspended request
 * **func** **cancel**()
 Cancel returns immediately, but marks a request as being canceled. The request will invoke a DidFail event. Cancel may be sent to a request that has been suspended
 
-* **func** **send**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **send**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**): <strong>[Bool](../gravity/bool.md)</strong> 
 Send the HTTPRequest. The optional <code>onSuccess</code> and <code>onError</code> <a href="../gravity/closure.html">closures</a> can be used to perform the request in a background thread so that the app remains responsive. The <code>onSuccess</code> closure, if set, is executed when the client receives a success response; this closure is invoked with two arguments: the HTTPRequest itself and the deserialized response content. The <code>onError</code> closure, if set, is executed when the client receives an error response and it is invoked with two arguments: the HTTPRequest itself and the error description. If at least one of the closures is set then the request is performed in a background thread and this method immediately returns a <code>false</code> value; otherwise, the request is executed in the UI thread (not recommended for time-consuming tasks) and the method returns <code>true</code> in case of success, <code>false</code> in case of failure.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### HTTPMethod
+<div name="_enum_HTTPMethod"></div>#### HTTPMethod
  * .Delete
  * .Get
  * .Head
@@ -135,13 +135,13 @@ Send the HTTPRequest. The optional <code>onSuccess</code> and <code>onError</cod
  * .Post
  * .Put
 
-#### HTTPBodyMode
+<div name="_enum_HTTPBodyMode"></div>#### HTTPBodyMode
  * .FormData
  * .FormUrlencoded
  * .JSON
  * .Raw
 
-#### HTTPResponseSerializer
+<div name="_enum_HTTPResponseSerializer"></div>#### HTTPResponseSerializer
  * .Data
  * .Image
  * .JSON
@@ -149,7 +149,7 @@ Send the HTTPRequest. The optional <code>onSuccess</code> and <code>onError</cod
  * .Text
  * .XML
 
-#### HTTPRedirectMode
+<div name="_enum_HTTPRedirectMode"></div>#### HTTPRedirectMode
  * .Allow
  * .Reject
  * .RejectAndCancel

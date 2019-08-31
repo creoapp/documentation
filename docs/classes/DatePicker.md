@@ -35,7 +35,7 @@ The date picker mode. Determines whether the date picker should display a time, 
 * **var** **date**: **[Date](Date.md)**
 The date displayed by the date picker.
 
-* **var** **localDate**: **[String](../gravity/types.md)**
+* **var** **localDate**: **[String](../gravity/string.md)**
 The date displayed by the date picker computed with timezone and locale.
 
 * **var** **minimumDate**: **[Date](Date.md)**
@@ -44,23 +44,23 @@ The minimum date that a date picker can show.
 * **var** **maximumDate**: **[Date](Date.md)**
 The maximum date that a date picker can show.
 
-* **var** **countDownDuration**: **[Float](../gravity/types.md)**
+* **var** **countDownDuration**: **[Float](../gravity/float.md)**
 The seconds from which the countdown timer counts down (when the mode property is set to countDownTimer).
 
-* **var** **minuteInterval**: **[Int](../gravity/types.md)**
+* **var** **minuteInterval**: **[Int](../gravity/int.md)**
 The interval at which the date picker should display minutes. You can use this property to set the interval displayed by the minutes wheel (for example, 15 minutes). The interval value must be evenly divided into 60; if it is not, the default value is used. The default and minimum values are 1; the maximum value is 30.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **setDateAnimated**(**date**: **[Date](Date.md)**, **animated**: **[Bool](../gravity/types.md)**)
+* **func** **setDateAnimated**(**date**: **[Date](Date.md)**, **animated**: **[Bool](../gravity/bool.md)**)
 Sets the date to display in the date picker, with an option to animate the setting.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -71,17 +71,17 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### DatePickerMode
+<div name="_enum_DatePickerMode"></div>#### DatePickerMode
  * .CountDownTimer
  * .Date
  * .DateAndTime
  * .Time
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

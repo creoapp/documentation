@@ -27,19 +27,19 @@ The default time zone for the current app. If no defaultTimeZone time zone has b
 
 ### Properties
 
-* **var** **name**: **[String](../gravity/types.md)**
+* **var** **name**: **[String](../gravity/string.md)**
 The geopolitical region ID that identifies the receiver.
 
-* **var** **abbreviation**: **[String](../gravity/types.md)**
+* **var** **abbreviation**: **[String](../gravity/string.md)**
 The abbreviation for the receiver, such as "EDT" (Eastern Daylight Time). \(read-only\)
 
-* **var** **secondsFromGMT**: **[Int](../gravity/types.md)**
+* **var** **secondsFromGMT**: **[Int](../gravity/int.md)**
 The current difference in seconds between the receiver and Greenwich Mean Time. \(read-only\)
 
-* **var** **isDaylightSavingTime**: **[Bool](../gravity/types.md)**
+* **var** **isDaylightSavingTime**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether the receiver is currently using daylight saving time. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -53,10 +53,10 @@ Clears any time zone value cached for the system property.
 
 ### Initializers
 
-* **func** **TimeZone**(**identifier**: **[String](../gravity/types.md)**)
+* **func** **TimeZone**(**identifier**: **[String](../gravity/string.md)**)
 Returns the time zone object identified by a given name/abbreviation.
 
 
 
-
+* None
 

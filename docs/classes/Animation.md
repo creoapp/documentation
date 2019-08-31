@@ -23,13 +23,13 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **isRunning**: **[Bool](../gravity/types.md)**
+* **var** **isRunning**: **[Bool](../gravity/bool.md)**
 Check if animation is running. \(read-only\)
 
-* **var** **speed**: **[Float](../gravity/types.md)**
+* **var** **speed**: **[Float](../gravity/float.md)**
 The speed of the animation.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -53,5 +53,5 @@ Start animation in reverse mode.
 
 
 
-
+* None
 

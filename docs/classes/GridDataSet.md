@@ -10,7 +10,7 @@ This event is called when the object becames available in the current runtime sy
 * **DidStart**()
 Event raised when DataSet started retrieving data.
 
-* **NewValue**(**value**: **[Object](../gravity/types.md)**)
+* **NewValue**(**value**: **[Object](../gravity/object.md)**)
 Event raised when a new value becomes available.
 
 * **DidFinish**()
@@ -24,5 +24,5 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-
+* None
 

@@ -20,51 +20,51 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **isPlaying**: **[Bool](../gravity/types.md)**
+* **var** **isPlaying**: **[Bool](../gravity/bool.md)**
 A Bool value that indicates whether the audio player is playing. \(read-only\)
 
-* **var** **channels**: **[Int](../gravity/types.md)**
+* **var** **channels**: **[Int](../gravity/int.md)**
 The number of audio channels in the sound associated with the audio player. \(read-only\)
 
-* **var** **duration**: **[Float](../gravity/types.md)**
+* **var** **duration**: **[Float](../gravity/float.md)**
 Returns the total duration, in seconds, of the sound associated with the audio player. \(read-only\)
 
-* **var** **pan**: **[Float](../gravity/types.md)**
+* **var** **pan**: **[Float](../gravity/float.md)**
 The audio player’s stereo pan position. By setting this property you can position a sound in the stereo field. A value of –1.0 is full left, 0.0 is center, and 1.0 is full right.
 
-* **var** **volume**: **[Float](../gravity/types.md)**
+* **var** **volume**: **[Float](../gravity/float.md)**
 The playback volume for the audio player, ranging from 0.0 through 1.0 on a linear scale.
 
-* **var** **time**: **[Float](../gravity/types.md)**
+* **var** **time**: **[Float](../gravity/float.md)**
 The playback point, in seconds, within the timeline of the sound associated with the audio player. If the sound is playing, currentTime is the offset of the current playback position, measured in seconds from the start of the sound. If the sound is not playing, currentTime is the offset of where playing starts upon calling the play method, measured in seconds from the start of the sound.
 
 By setting this property you can seek to a specific point in a sound file or implement audio fast-forward and rewind functions.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Class Methods
 
-* **func** **open**(**srcfile**: **[Object](../gravity/types.md)**): <strong>[Object](../gravity/types.md)</strong> 
+* **func** **open**(**srcfile**: **[Object](../gravity/object.md)**): <strong>[Object](../gravity/object.md)</strong> 
 Initializes and returns the Sound object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
 
 
 ### Initializers
 
-* **func** **Sound**(**nameOrURL**: **[Object](../gravity/types.md)**)
+* **func** **Sound**(**nameOrURL**: **[Object](../gravity/object.md)**)
 Creates and initializes a new sound resource.
 
-* **func** **Sound**(**nameOrURL**: **[Object](../gravity/types.md)**, **globalInstance**: **[Bool](../gravity/types.md)**)
+* **func** **Sound**(**nameOrURL**: **[Object](../gravity/object.md)**, **globalInstance**: **[Bool](../gravity/bool.md)**)
 Creates and initializes a new sound resource.
 
 
 
 ### Methods
 
-* **func** **play**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **play**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Plays a sound asynchronously.
 
 * **func** **pause**()
@@ -78,5 +78,5 @@ Stop a sound.
 
 
 
-
+* None
 

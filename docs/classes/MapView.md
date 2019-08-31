@@ -44,46 +44,46 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **address**: **[String](../gravity/types.md)**
+* **var** **address**: **[String](../gravity/string.md)**
 A string describing the location you want to center the map to.
 
-* **var** **latitude**: **[Float](../gravity/types.md)**
+* **var** **latitude**: **[Float](../gravity/float.md)**
 The latitude of the center point of the visible area.
 
-* **var** **longitude**: **[Float](../gravity/types.md)**
+* **var** **longitude**: **[Float](../gravity/float.md)**
 The longitude of the center point of the map.
 
 * **var** **mapType**: **MapType**
 The type of data displayed by the map view.
 
-* **var** **zoomValue**: **[Float](../gravity/types.md)**
+* **var** **zoomValue**: **[Float](../gravity/float.md)**
 The zoom value used to display the map.
 
-* **var** **zoomEnabled**: **[Bool](../gravity/types.md)**
+* **var** **zoomEnabled**: **[Bool](../gravity/bool.md)**
 A Boolean value that determines whether the user may use pinch gestures to zoom in and out of the map.
 
-* **var** **scrollEnabled**: **[Bool](../gravity/types.md)**
+* **var** **scrollEnabled**: **[Bool](../gravity/bool.md)**
 A Boolean value that determines whether the user may scroll around the map.
 
-* **var** **pitchEnabled**: **[Bool](../gravity/types.md)**
+* **var** **pitchEnabled**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the map camera’s pitch information is used.
 
-* **var** **rotateEnabled**: **[Bool](../gravity/types.md)**
+* **var** **rotateEnabled**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the map camera’s heading information is used.
 
 * **var** **visibleMapRect**: **[Rect](Rect.md)**
 The area currently displayed by the map view.
 
-* **var** **showsPointsOfInterest**: **[Bool](../gravity/types.md)**
+* **var** **showsPointsOfInterest**: **[Bool](../gravity/bool.md)**
 A Boolean indicating whether the map displays point-of-interest information.
 
-* **var** **showsBuildings**: **[Bool](../gravity/types.md)**
+* **var** **showsBuildings**: **[Bool](../gravity/bool.md)**
 A Boolean indicating whether the map displays extruded building information.
 
-* **var** **showsUserLocation**: **[Bool](../gravity/types.md)**
+* **var** **showsUserLocation**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the map should try to display the user’s location.
 
-* **var** **userLocationVisible**: **[Bool](../gravity/types.md)**
+* **var** **userLocationVisible**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the device’s current location is visible in the map view. \(read-only\)
 
 * **var** **userTrackingMode**: **MapUserTrackingMode**
@@ -98,7 +98,7 @@ The complete list of annotations associated with the map. \(read-only\)
 * **var** **selectedAnnotations**: **[List](../gravity/list.md)**
 The annotations that are currently selected. Assigning a new array to this property selects only the first annotation in the array.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -117,19 +117,19 @@ Returns the annotation objects located in the specified map rectangle.
 * **func** **addAnnotations**(**annotations**: **[List](../gravity/list.md)**)
 Adds an array of annotation objects to the map view.
 
-* **func** **showAnnotations**(**annotations**: **[List](../gravity/list.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **showAnnotations**(**annotations**: **[List](../gravity/list.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Sets the visible region so that the map displays the specified annotations.
 
 * **func** **removeAnnotations**(**annotations**: **[List](../gravity/list.md)**)
 Removes an array of annotation objects from the map view.
 
-* **func** **selectAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **selectAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Selects the specified annotation and displays a callout view for it.
 
-* **func** **deselectAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **deselectAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Deselects the specified annotation and hides its callout view.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -140,23 +140,23 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### MapType
+<div name="_enum_MapType"></div>#### MapType
  * .Hybrid
  * .HybridFlyover
  * .Satellite
  * .SatelliteFlyover
  * .Standard
 
-#### MapUserTrackingMode
+<div name="_enum_MapUserTrackingMode"></div>#### MapUserTrackingMode
  * .Follow
  * .FollowWithHeading
  * .None
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

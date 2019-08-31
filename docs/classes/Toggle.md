@@ -13,7 +13,7 @@ The view is about to be added to the App's views hierarchy.
 * **WillHide**()
 The view is about to be removed from the App's views hierarchy.
 
-* **Changed**(**value**: **[Bool](../gravity/types.md)**)
+* **Changed**(**value**: **[Bool](../gravity/bool.md)**)
 Use this event to be notified when value changes.
 
 * **DidShow**()
@@ -29,7 +29,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **value**: **[Bool](../gravity/types.md)**
+* **var** **value**: **[Bool](../gravity/bool.md)**
 A Boolean value that determines the off/on state of the switch. This property allows you to retrieve and set (without animation) a value determining whether the UISwitch object is on or off.
 
 * **var** **onTintColor**: **[Color](Color.md)**
@@ -44,17 +44,17 @@ The image displayed when the switch is in the on position.
 * **var** **offImage**: **[Image](Image.md)**
 The image displayed while the switch is in the off position.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **setOnAnimated**(**value**: **[Bool](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md)**)
+* **func** **setOnAnimated**(**value**: **[Bool](../gravity/bool.md)**, **animated**: **[Bool](../gravity/bool.md)**)
 Set the state of the switch to On or Off, optionally animating the transition.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -65,11 +65,11 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

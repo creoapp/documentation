@@ -29,16 +29,16 @@ This event is called when the object has been removed from the current runtime s
 * **var** **chartType**: **ChartType**
 The graphical representation type
 
-* **var** **animated**: **[Bool](../gravity/types.md)**
+* **var** **animated**: **[Bool](../gravity/bool.md)**
 If true, animates its presentation; otherwise, does not.
 
-* **var** **itemWidth**: **[Float](../gravity/types.md)**
+* **var** **itemWidth**: **[Float](../gravity/float.md)**
 Width of each item, measured in points. Depending on the chartType, the item can be a bar (Bar type) or a point (Line, Area or Scatter). This property is not used in the Pie chart.
 
-* **var** **itemDistance**: **[Float](../gravity/types.md)**
+* **var** **itemDistance**: **[Float](../gravity/float.md)**
 Distance between the center of two items, measured in points. If 0, the system automatically calculates a distance value. This property is not used in the Pie and in the Scatter charts.
 
-* **var** **itemBorderWidth**: **[Float](../gravity/types.md)**
+* **var** **itemBorderWidth**: **[Float](../gravity/float.md)**
 The width of the border line of the items, measured in points.
 
 * **var** **itemBorderColor**: **[Color](Color.md)**
@@ -47,38 +47,38 @@ The color of the border line of the items.
 * **var** **itemPointStyle**: **ChartPointStyle**
 The shape of the point. Applies only for the Line, the Area and the Scatter chart types.
 
-* **var** **itemCornerRadius**: **[Float](../gravity/types.md)**
+* **var** **itemCornerRadius**: **[Float](../gravity/float.md)**
 The corner radius of bars. Applies only for the Bar chart type.
 
 * **var** **itemDecorationStyle**: **ChartDecorationStyle**
 The type of decoration applied to the items fill color. Applies only for the Bar chart type.
 
-* **var** **showsAxisX**: **[Bool](../gravity/types.md)**
+* **var** **showsAxisX**: **[Bool](../gravity/bool.md)**
 If true, shows the X axis line; otherwise, does not.
 
-* **var** **showsLabelX**: **[Bool](../gravity/types.md)**
+* **var** **showsLabelX**: **[Bool](../gravity/bool.md)**
 If true, shows the X axis labels; otherwise, does not.
 
-* **var** **showsAxisY**: **[Bool](../gravity/types.md)**
+* **var** **showsAxisY**: **[Bool](../gravity/bool.md)**
 If true, shows the Y axis line; otherwise, does not.
 
-* **var** **showsLabelY**: **[Bool](../gravity/types.md)**
+* **var** **showsLabelY**: **[Bool](../gravity/bool.md)**
 If true, shows the Y axis labels; otherwise, does not.
 
-* **var** **dataSet**: **[Object](../gravity/types.md)**
+* **var** **dataSet**: **[Object](../gravity/object.md)**
 The <a href="DataSet.html">DataSet</a> object provides information that Chart needs to construct its content.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/types.md)**)
+* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/bool.md)**)
 Reload the content of the chart.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -89,29 +89,29 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### ChartType
+<div name="_enum_ChartType"></div>#### ChartType
  * .Area
  * .Bar
  * .Line
  * .Pie
  * .Scatter
 
-#### ChartPointStyle
+<div name="_enum_ChartPointStyle"></div>#### ChartPointStyle
  * .Circle
  * .None
  * .Square
 
-#### ChartDecorationStyle
+<div name="_enum_ChartDecorationStyle"></div>#### ChartDecorationStyle
  * .Glossy1
  * .Glossy2
  * .Gradient
  * .None
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

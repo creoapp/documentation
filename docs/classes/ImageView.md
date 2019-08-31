@@ -13,16 +13,16 @@ The view is about to be added to the App's views hierarchy.
 * **WillHide**()
 The view is about to be removed from the App's views hierarchy.
 
-* **TouchesBegan**(**touches**: **[Object](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **TouchesBegan**(**touches**: **[Object](../gravity/object.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 This event is called when one or more new touches occurred in this view and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
-* **TouchesMoved**(**touches**: **[Object](../gravity/types.md)**, **touchInside**: **[Bool](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **TouchesMoved**(**touches**: **[Object](../gravity/object.md)**, **touchInside**: **[Bool](../gravity/bool.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 This event is called when the location or force of a touch changes and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
-* **TouchesEnded**(**touches**: **[Object](../gravity/types.md)**, **touchInside**: **[Bool](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **TouchesEnded**(**touches**: **[Object](../gravity/object.md)**, **touchInside**: **[Bool](../gravity/bool.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 This event is called when one or more fingers are raised and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
-* **TouchesCancelled**(**touches**: **[Object](../gravity/types.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **TouchesCancelled**(**touches**: **[Object](../gravity/object.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 This event is called when the sysyem receives a system interruption (such as a system alert) requiring cancellation of the touch sequence and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
 * **DidShow**()
@@ -53,16 +53,16 @@ An array of Image objects to use for an animation.
 * **var** **highlightedAnimationImages**: **[List](../gravity/list.md)**
 An array of Image objects to use for an animation when the view is highlighted.
 
-* **var** **animationDuration**: **[Float](../gravity/types.md)**
+* **var** **animationDuration**: **[Float](../gravity/float.md)**
 The amount of time it takes to go through one cycle of the images. The time duration is measured in seconds. The default value of this property is 0.0, which causes the image view to use a duration equal to the number of images multiplied by 1/30th of a second. Thus, if you had 30 images, the duration would be 1 second.
 
-* **var** **animationRepeatCount**: **[Int](../gravity/types.md)**
+* **var** **animationRepeatCount**: **[Int](../gravity/int.md)**
 Specifies the number of times to repeat the animation. The default value is 0, which specifies to repeat the animation indefinitely.
 
-* **var** **highlighted**: **[Bool](../gravity/types.md)**
+* **var** **highlighted**: **[Bool](../gravity/bool.md)**
 A Boolean value that determines whether the image is highlighted.
 
-* **var** **url**: **[String](../gravity/types.md)**
+* **var** **url**: **[String](../gravity/string.md)**
 Asynchronously downloads an image from the specified URL (both local and remote urls work), and sets it once the request is finished. Any previous image request for the receiver will be cancelled. If the image is cached locally, the image is set immediately, otherwise the specified placeholder image will be set immediately, and then the remote image will be set once the request is finished. By default, URL requests have a `Accept` header field value of "image / *".
 
 * **var** **contentMode**: **ContentMode**
@@ -74,7 +74,7 @@ Options to specify how a view adjusts its content when its size changes.
 * **var** **filters**: **[List](../gravity/list.md)**
 A list a ImageFilters to apply to the image or highlighted image of the ImageView.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -87,13 +87,13 @@ Starts animating the images in the receiver.
 * **func** **stopAnimating**()
 Stops animating the images in the receiver.
 
-* **func** **isAnimating**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **isAnimating**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether the animation is running.
 
 * **func** **applyFilters**()
 Call this method to commit changes in properties of a the configured filters.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -104,11 +104,11 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### ContentMode
+<div name="_enum_ContentMode"></div>#### ContentMode
  * .Bottom
  * .BottomLeft
  * .BottomRight
@@ -123,12 +123,12 @@ Clear focus from selected control
  * .TopLeft
  * .TopRight
 
-#### ImageRenderingMode
+<div name="_enum_ImageRenderingMode"></div>#### ImageRenderingMode
  * .AlwaysOriginal
  * .AlwaysTemplate
  * .Automatic
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

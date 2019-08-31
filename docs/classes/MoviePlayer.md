@@ -52,7 +52,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **contentPath**: **[String](../gravity/types.md)**
+* **var** **contentPath**: **[String](../gravity/string.md)**
 The path/URL that points to the local/remote movie file.
 
 * **var** **movie**: **[Movie](Movie.md)**
@@ -64,25 +64,25 @@ The types of media available in the movie.
 * **var** **movieMediaTypes**: **MovieMediaTypeMask**
 The playback type of the movie. \(read-only\)
 
-* **var** **isPreparedToPlay**: **[Bool](../gravity/types.md)**
+* **var** **isPreparedToPlay**: **[Bool](../gravity/bool.md)**
 Returns true if prepared for playback, otherwise false. \(read-only\)
 
-* **var** **currentPlaybackTime**: **[Float](../gravity/types.md)**
+* **var** **currentPlaybackTime**: **[Float](../gravity/float.md)**
 The current playback time of the now playing item in seconds.
 
-* **var** **currentPlaybackRate**: **[Float](../gravity/types.md)**
+* **var** **currentPlaybackRate**: **[Float](../gravity/float.md)**
 The current playback rate of the now playing item. Default is 1.0 (normal speed). Pausing will set the rate to 0.0. Setting the rate to non-zero implies playing.
 
-* **var** **allowsAirPlay**: **[Bool](../gravity/types.md)**
+* **var** **allowsAirPlay**: **[Bool](../gravity/bool.md)**
 Specifies whetever the movie player allows AirPlay movie playback.
 
-* **var** **airPlayVideoActive**: **[Bool](../gravity/types.md)**
+* **var** **airPlayVideoActive**: **[Bool](../gravity/bool.md)**
 Indicates whetever the movie player is currently playing video via AirPlay. \(read-only\)
 
 * **var** **naturalSize**: **[Size](Size.md)**
 The width and height of the movie frame. \(read-only\)
 
-* **var** **fullscreen**: **[Bool](../gravity/types.md)**
+* **var** **fullscreen**: **[Bool](../gravity/bool.md)**
 A Boolean that indicates whetever the movie player is in full-screen mode.
 
 * **var** **scalingMode**: **MovieScalingMode**
@@ -91,10 +91,10 @@ The scaling mode to use when displaying the movie.
 * **var** **controlStyle**: **MovieControlStyle**
 The style of the playback controls.
 
-* **var** **duration**: **[Float](../gravity/types.md)**
+* **var** **duration**: **[Float](../gravity/float.md)**
 The duration of the movie, measured in seconds. \(read-only\)
 
-* **var** **playableDuration**: **[Float](../gravity/types.md)**
+* **var** **playableDuration**: **[Float](../gravity/float.md)**
 The amount of currently playable content. \(read-only\)
 
 * **var** **loadState**: **MovieLoadState**
@@ -103,29 +103,29 @@ The network load state of the movie player. \(read-only\)
 * **var** **playbackState**: **MoviePlaybackState**
 The current playback state of the movie player. \(read-only\)
 
-* **var** **initialPlaybackTime**: **[Float](../gravity/types.md)**
+* **var** **initialPlaybackTime**: **[Float](../gravity/float.md)**
 The time, specified in seconds within the video timeline, when playback should start.
 
-* **var** **endPlaybackTime**: **[Float](../gravity/types.md)**
+* **var** **endPlaybackTime**: **[Float](../gravity/float.md)**
 The end time (measured in seconds) for playback of the movie.
 
-* **var** **shouldAutoplay**: **[Bool](../gravity/types.md)**
+* **var** **shouldAutoplay**: **[Bool](../gravity/bool.md)**
 A Boolean that indicates whetever a movie should begin playback automatically.
 
-* **var** **readyForDisplay**: **[Bool](../gravity/types.md)**
+* **var** **readyForDisplay**: **[Bool](../gravity/bool.md)**
 A Boolean that indicates whetever the first video frame of the movie is ready to be displayed. \(read-only\)
 
 * **var** **repeatMode**: **MovieRepeatMode**
 Obtains the most recent time-based metadata provided by the streamed movie.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **setFullscreenAnimated**(**fullscreen**: **[Bool](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md)**)
+* **func** **setFullscreenAnimated**(**fullscreen**: **[Bool](../gravity/bool.md)**, **animated**: **[Bool](../gravity/bool.md)**)
 Causes the movie player to enter or exit full-screen mode.
 
 * **func** **play**()
@@ -149,7 +149,7 @@ Prepares the current queue for playback, interrupting any active (non-mixible) a
 * **func** **endSeeking**()
 .
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -160,39 +160,39 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### MovieSourceType
+<div name="_enum_MovieSourceType"></div>#### MovieSourceType
  * .File
  * .Streaming
  * .Unknown
 
-#### MovieMediaTypeMask
+<div name="_enum_MovieMediaTypeMask"></div>#### MovieMediaTypeMask
  * .Audio
  * .None
  * .Video
 
-#### MovieScalingMode
+<div name="_enum_MovieScalingMode"></div>#### MovieScalingMode
  * .AspectFill
  * .AspectFit
  * .Fill
  * .None
 
-#### MovieControlStyle
+<div name="_enum_MovieControlStyle"></div>#### MovieControlStyle
  * .Default
  * .Embedded
  * .Fullscreen
  * .None
 
-#### MovieLoadState
+<div name="_enum_MovieLoadState"></div>#### MovieLoadState
  * .Playable
  * .PlaythroughOK
  * .Stalled
  * .Unknown
 
-#### MoviePlaybackState
+<div name="_enum_MoviePlaybackState"></div>#### MoviePlaybackState
  * .Interrupted
  * .Paused
  * .Playing
@@ -200,11 +200,11 @@ Clear focus from selected control
  * .SeekingForward
  * .Stopped
 
-#### MovieRepeatMode
+<div name="_enum_MovieRepeatMode"></div>#### MovieRepeatMode
  * .None
  * .One
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

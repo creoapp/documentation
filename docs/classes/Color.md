@@ -61,37 +61,37 @@ Returns a color object whose grayscale and alpha values are both 0.0. \(read-onl
 * **var** **spaceModel**: **ColorSpaceModel**
 Returns the model on which the color space of the receiver is based. \(read-only\)
 
-* **var** **isRGB**: **[Bool](../gravity/types.md)**
+* **var** **isRGB**: **[Bool](../gravity/bool.md)**
 Returns true if can be decomposed by its RGB components. \(read-only\)
 
-* **var** **red**: **[Float](../gravity/types.md)**
+* **var** **red**: **[Float](../gravity/float.md)**
 Returns red component (only valid if isRGB is true). \(read-only\)
 
-* **var** **green**: **[Float](../gravity/types.md)**
+* **var** **green**: **[Float](../gravity/float.md)**
 Returns green component (only valid if isRGB is true). \(read-only\)
 
-* **var** **blue**: **[Float](../gravity/types.md)**
+* **var** **blue**: **[Float](../gravity/float.md)**
 Returns blue component (only valid if isRGB is true). \(read-only\)
 
-* **var** **white**: **[Float](../gravity/types.md)**
+* **var** **white**: **[Float](../gravity/float.md)**
 Returns white component (only valid if spaceModel is ColorSpaceModel.Monocrome). \(read-only\)
 
-* **var** **hue**: **[Float](../gravity/types.md)**
+* **var** **hue**: **[Float](../gravity/float.md)**
 Returns hue component (only valid if isRGB is true). \(read-only\)
 
-* **var** **saturation**: **[Float](../gravity/types.md)**
+* **var** **saturation**: **[Float](../gravity/float.md)**
 Returns saturation component (only valid if isRGB is true). \(read-only\)
 
-* **var** **brightness**: **[Float](../gravity/types.md)**
+* **var** **brightness**: **[Float](../gravity/float.md)**
 Returns brightness component (only valid if isRGB is true). \(read-only\)
 
-* **var** **alpha**: **[Float](../gravity/types.md)**
+* **var** **alpha**: **[Float](../gravity/float.md)**
 Returns alpha component. \(read-only\)
 
-* **var** **luminance**: **[Float](../gravity/types.md)**
+* **var** **luminance**: **[Float](../gravity/float.md)**
 Returns luminance component (only valid if isRGB is true). \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -101,45 +101,45 @@ The name of the object.
 * **func** **colorWithPatternImage**(**image**: **[Image](Image.md)**): <strong>[Color](Color.md)</strong> 
 Creates and returns a color object using the specified image. You can use pattern colors to set the fill or stroke color just as you would a solid color. During drawing, the image in the pattern color is tiled as necessary to cover the given area.
 
-* **func** **hsba**(**hue**: **[Float](../gravity/types.md)**, **saturation**: **[Float](../gravity/types.md)**, **brightness**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](Color.md)</strong> 
+* **func** **hsba**(**hue**: **[Float](../gravity/float.md)**, **saturation**: **[Float](../gravity/float.md)**, **brightness**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**): <strong>[Color](Color.md)</strong> 
 Creates and returns a color object using the specified opacity and HSB color space component values.
 
-* **func** **rgba**(**red**: **[Float](../gravity/types.md)**, **green**: **[Float](../gravity/types.md)**, **blue**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](Color.md)</strong> 
+* **func** **rgba**(**red**: **[Float](../gravity/float.md)**, **green**: **[Float](../gravity/float.md)**, **blue**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**): <strong>[Color](Color.md)</strong> 
 Creates and returns a color object using the specified opacity and RGB component values.
 
-* **func** **whiteWithAlpha**(**white**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**): <strong>[Color](Color.md)</strong> 
+* **func** **whiteWithAlpha**(**white**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**): <strong>[Color](Color.md)</strong> 
 Initializes and returns a color object using the specified opacity and grayscale values.
 
 
 
 ### Initializers
 
-* **func** **Color**(**red**: **[Float](../gravity/types.md)**, **green**: **[Float](../gravity/types.md)**, **blue**: **[Float](../gravity/types.md)**, **alpha**: **[Float](../gravity/types.md)**)
+* **func** **Color**(**red**: **[Float](../gravity/float.md)**, **green**: **[Float](../gravity/float.md)**, **blue**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**)
 Creates a color object using the specified opacity and RGB component values.
 
-* **func** **Color**(**red**: **[Float](../gravity/types.md)**, **green**: **[Float](../gravity/types.md)**, **blue**: **[Float](../gravity/types.md)**)
+* **func** **Color**(**red**: **[Float](../gravity/float.md)**, **green**: **[Float](../gravity/float.md)**, **blue**: **[Float](../gravity/float.md)**)
 Creates a color object using the specified RGB component values (alphs set to 1.0).
 
-* **func** **Color**(**string**: **[String](../gravity/types.md)**)
+* **func** **Color**(**string**: **[String](../gravity/string.md)**)
 Creates a color using the specified HEX string.
 
 
 
 ### Methods
 
-* **func** **hex**(**withAlpha**: **[Bool](../gravity/types.md)**): <strong>[String](../gravity/types.md)</strong> 
+* **func** **hex**(**withAlpha**: **[Bool](../gravity/bool.md)**): <strong>[String](../gravity/string.md)</strong> 
 Returns hex string representing the color (with an optional alpha value speciafied in the parameter, this method is valid only if isRGB is true).
 
-* **func** **darkerColor**(**amount**: **[Float](../gravity/types.md)**): <strong>[Color](Color.md)</strong> 
+* **func** **darkerColor**(**amount**: **[Float](../gravity/float.md)**): <strong>[Color](Color.md)</strong> 
 Returns a darker color with the amount specified in the parameter (only valid if isRGB is true).
 
 
 
-
+* None
 
 ### Enumeration
 
-#### ColorSpaceModel
+<div name="_enum_ColorSpaceModel"></div>#### ColorSpaceModel
  * .CMYK
  * .DeviceN
  * .Lab

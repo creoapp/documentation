@@ -10,13 +10,13 @@ This event is called when the object becames available in the current runtime sy
 * **Action**()
 This event is called when the object recognizes its gesture or, in some cases, a change in the gesture.
 
-* **ShouldRecognizeSimultaneously**(**otherGesture**: **[UIGestureRecognizer](UIGestureRecognizer.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **ShouldRecognizeSimultaneously**(**otherGesture**: **[UIGestureRecognizer](UIGestureRecognizer.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 Asks if two gesture recognizers should be allowed to recognize gestures simultaneously. This event is called when recognition of a gesture by either this gesture recognizer or the other gesture recognizer passed as the parameter would block the other gesture recognizer from recognizing its gesture. Note that returning <i>true</i> is guaranteed to allow simultaneous recognition; returning <i>false</i>, on the other hand, is not guaranteed to prevent simultaneous recognition because the other gesture recognizer's event may return <i>true</i>. The default value is <i>false</i>.
 
-* **ShouldBegin**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **ShouldBegin**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Asks if a gesture recognizer should begin interpreting touches. This method is called when a gesture recognizer attempts to transition out of the GestureRecognizerState.Possible state. Returning <i>false</i> causes the gesture recognizer to transition to the GestureRecognizerState.Failed state. The default value is <i>true</i>.
 
-* **ShouldReceiveTouch**(**touch**: **[UITouch](UITouch.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **ShouldReceiveTouch**(**touch**: **[UITouch](UITouch.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 Ask the delegate if a gesture recognizer should receive an object representing a touch. The default value is true.
 
 * **Unload**()
@@ -26,22 +26,22 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **minimumPressDuration**: **[Float](../gravity/types.md)**
+* **var** **minimumPressDuration**: **[Float](../gravity/float.md)**
 The minimum time (in seconds) that the mouse button must be held down in the view for the gesture to be recognized. The default value of this property is the same as the current double-click interval.
 
-* **var** **numberOfTapsRequired**: **[Int](../gravity/types.md)**
+* **var** **numberOfTapsRequired**: **[Int](../gravity/int.md)**
 The number of taps on the view required for the gesture to be recognized. The default number of taps is 0.
 
-* **var** **numberOfTouchesRequired**: **[Int](../gravity/types.md)**
+* **var** **numberOfTouchesRequired**: **[Int](../gravity/int.md)**
 The number of fingers that must be pressed on the view for the gesture to be recognized. The default number of fingers is 1.
 
-* **var** **allowableMovement**: **[Float](../gravity/types.md)**
+* **var** **allowableMovement**: **[Float](../gravity/float.md)**
 The maximum movement of the mouse in the view before the gesture fails. The mouse must move by the specified amount along either axis for the gesture to fail. The distance is measured in points. The default value of this property is the same as the double-click distance.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
-
+* None
 

@@ -13,13 +13,13 @@ The view is about to be added to the App's views hierarchy.
 * **WillHide**()
 The view is about to be removed from the App's views hierarchy.
 
-* **DidSelectCell**(**column**: **[Int](../gravity/types.md)**, **row**: **[Int](../gravity/types.md)**)
+* **DidSelectCell**(**column**: **[Int](../gravity/int.md)**, **row**: **[Int](../gravity/int.md)**)
 This event is called by the picker view when the user selects a row in a column.
 
-* **RowHeight**(**column**: **[Int](../gravity/types.md)**): <strong>[Float](../gravity/types.md)</strong> 
+* **RowHeight**(**column**: **[Int](../gravity/int.md)**): <strong>[Float](../gravity/float.md)</strong> 
 This event is called by the picker view when it needs the row height to use for drawing row content in the specified column.
 
-* **ColumnWidth**(**column**: **[Int](../gravity/types.md)**): <strong>[Float](../gravity/types.md)</strong> 
+* **ColumnWidth**(**column**: **[Int](../gravity/int.md)**): <strong>[Float](../gravity/float.md)</strong> 
 This event is called by the picker view when it needs the column width.
 
 * **DidShow**()
@@ -38,38 +38,38 @@ This event is called when the object has been removed from the current runtime s
 * **var** **pickerSize**: **PickerViewSize**
 Description not yet ready.
 
-* **var** **showsSelectionIndicator**: **[Bool](../gravity/types.md)**
+* **var** **showsSelectionIndicator**: **[Bool](../gravity/bool.md)**
 Description not yet ready.
 
-* **var** **numberOfComponents**: **[Int](../gravity/types.md)**
+* **var** **numberOfComponents**: **[Int](../gravity/int.md)**
 Description not yet ready. \(read-only\)
 
-* **var** **dataSet**: **[Object](../gravity/types.md)**
+* **var** **dataSet**: **[Object](../gravity/object.md)**
 The <a href="DataSet.html">DataSet</a> object provides information that PickerView needs to construct its content.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/types.md)**)
+* **func** **reload**(**reloadDataSet**: **[Bool](../gravity/bool.md)**)
 Reloads all components of the picker view.
 
-* **func** **reloadComponent**(**identifier**: **[Int](../gravity/types.md)**)
+* **func** **reloadComponent**(**identifier**: **[Int](../gravity/int.md)**)
 Reloads a particular component of the picker view. Calling this method causes the picker view to query the delegate for new data for the given component.
 
-* **func** **numberOfRowsInComponent**(**identifier**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **numberOfRowsInComponent**(**identifier**: **[Int](../gravity/int.md)**): <strong>[Int](../gravity/int.md)</strong> 
 Returns the number of rows for a component. A picker view fetches the value of this property from the data source and and caches it. The default value is zero.
 
-* **func** **selectRowInComponent**(**row**: **[Int](../gravity/types.md)**, **identifier**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md)**)
+* **func** **selectRowInComponent**(**row**: **[Int](../gravity/int.md)**, **identifier**: **[Int](../gravity/int.md)**, **animated**: **[Bool](../gravity/bool.md)**)
 Selects a row in a specified component of the picker view.
 
-* **func** **selectedRowInComponent**(**identifier**: **[Int](../gravity/types.md)**): <strong>[Int](../gravity/types.md)</strong> 
+* **func** **selectedRowInComponent**(**identifier**: **[Int](../gravity/int.md)**): <strong>[Int](../gravity/int.md)</strong> 
 Returns the index of the selected row in a given component. A zero-indexed number identifying the selected row, or -1 if no row is selected.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -80,16 +80,16 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### PickerViewSize
+<div name="_enum_PickerViewSize"></div>#### PickerViewSize
  * .Default
  * .Mini
  * .Small
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

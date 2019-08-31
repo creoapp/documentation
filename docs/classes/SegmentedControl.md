@@ -26,22 +26,22 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **numberOfSegments**: **[Int](../gravity/types.md)**
+* **var** **numberOfSegments**: **[Int](../gravity/int.md)**
 Returns the number of segments the receiver has. \(read-only\)
 
-* **var** **index**: **[Int](../gravity/types.md)**
+* **var** **index**: **[Int](../gravity/int.md)**
 The index number identifying the selected segment (you can set this property to select an item by its index).
 
-* **var** **momentary**: **[Bool](../gravity/types.md)**
+* **var** **momentary**: **[Bool](../gravity/bool.md)**
 A Boolean value that determines whether segments in the receiver show selected state.
 
-* **var** **adjustWidthsByContent**: **[Bool](../gravity/types.md)**
+* **var** **adjustWidthsByContent**: **[Bool](../gravity/bool.md)**
 Indicates whether the control attempts to adjust segment widths based on their content widths.
 
 * **var** **items**: **[List](../gravity/list.md)**
 Array of items presented by the SegmentedControl.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -51,19 +51,19 @@ The name of the object.
 * **func** **removeAllItems**()
 Removes all items of the receiver.
 
-* **func** **insertItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **insertItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **index**: **[Int](../gravity/int.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Inserts the item at the specified position, optionally animating the transition.
 
-* **func** **addItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **addItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Inserts the item at the end of the existing items, optionally animating the transition.
 
-* **func** **removeItemAtIndex**(**index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **removeItemAtIndex**(**index**: **[Int](../gravity/int.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Removes the specified item, optionally animating the transition.
 
-* **func** **removeItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **removeItem**(**item**: **[SegmentedControlItem](SegmentedControlItem.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Removes the specified item, optionally animating the transition.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -74,11 +74,11 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

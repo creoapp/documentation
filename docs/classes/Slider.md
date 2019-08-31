@@ -13,7 +13,7 @@ The view is about to be added to the App's views hierarchy.
 * **WillHide**()
 The view is about to be removed from the App's views hierarchy.
 
-* **Changed**(**value**: **[Float](../gravity/types.md)**)
+* **Changed**(**value**: **[Float](../gravity/float.md)**)
 Use this event to be notified when value changes.
 
 * **DidShow**()
@@ -29,16 +29,16 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **value**: **[Float](../gravity/types.md)**
+* **var** **value**: **[Float](../gravity/float.md)**
 Contains the receiver’s current value.
 
-* **var** **minimumValue**: **[Float](../gravity/types.md)**
+* **var** **minimumValue**: **[Float](../gravity/float.md)**
 Contains the minimum value of the receiver.
 
-* **var** **maximumValue**: **[Float](../gravity/types.md)**
+* **var** **maximumValue**: **[Float](../gravity/float.md)**
 Contains the maximum value of the receiver.
 
-* **var** **continuous**: **[Bool](../gravity/types.md)**
+* **var** **continuous**: **[Bool](../gravity/bool.md)**
 Contains a Boolean value indicating whether changes in the sliders value generate continuous update events.
 
 * **var** **minimumValueImage**: **[Image](Image.md)**
@@ -65,14 +65,14 @@ Contains the maximum track image currently being used to render the receiver. \(
 * **var** **currentThumbImage**: **[Image](Image.md)**
 Contains the thumb image currently being used to render the receiver. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **setValueAnimated**(**value**: **[Float](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**)
+* **func** **setValueAnimated**(**value**: **[Float](../gravity/float.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Sets the receiver’s current value, allowing you to animate the change visually.
 
 * **func** **minimumTrackImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Image](Image.md)</strong> 
@@ -93,7 +93,7 @@ Returns the thumb image associated with the specified control state.
 * **func** **setThumbImageForState**(**image**: **[Image](Image.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Assigns a thumb image to the specified control states.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -104,11 +104,11 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### ControlState
+<div name="_enum_ControlState"></div>#### ControlState
  * .Application
  * .Disabled
  * .Focused
@@ -116,7 +116,7 @@ Clear focus from selected control
  * .Normal
  * .Selected
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

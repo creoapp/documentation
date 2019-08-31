@@ -10,19 +10,19 @@ This class is reserved and cannot be directly instantiated.
 
 ### Properties
 
-* **var** **enabled**: **[Bool](../gravity/types.md)**
+* **var** **enabled**: **[Bool](../gravity/bool.md)**
 Decides during layout/sizing whether or not styling properties should be applied
 
-* **var** **includedInLayout**: **[Bool](../gravity/types.md)**
+* **var** **includedInLayout**: **[Bool](../gravity/bool.md)**
 Decides if we should include this view when calculating layout
 
-* **var** **enabledAndInLayout**: **[Bool](../gravity/types.md)**
+* **var** **enabledAndInLayout**: **[Bool](../gravity/bool.md)**
 Same as isEnabled and isIncludedInLayout
 
-* **var** **grow**: **[Float](../gravity/types.md)**
+* **var** **grow**: **[Float](../gravity/float.md)**
 Describes how any space within a container should be distributed among its children along the main axis
 
-* **var** **shrink**: **[Float](../gravity/types.md)**
+* **var** **shrink**: **[Float](../gravity/float.md)**
 Describes how to shrink children along the main axis in the case that the total size of the children overflow the size of the container on the main axis
 
 * **var** **direction**: **Direction**
@@ -49,7 +49,7 @@ Controls what happens when children overflow the size of the container along the
 * **var** **display**: **Display**
 display is flex or none, with none the view is removed from the flex layout
 
-* **var** **aspectRatio**: **[Float](../gravity/types.md)**
+* **var** **aspectRatio**: **[Float](../gravity/float.md)**
 Aspect ratio, the ratio between the width and the height of a view
 
 * **var** **positionType**: **PositionType**
@@ -148,28 +148,28 @@ Padding vertical in FlexValue, affects the size of the view it is applied to and
 * **var** **padding**: **[FlexValue](FlexValue.md)**
 Padding in FlexValue, affects the size of the view it is applied to and eventually offset the location of any children
 
-* **var** **borderLeftWidth**: **[Float](../gravity/types.md)**
+* **var** **borderLeftWidth**: **[Float](../gravity/float.md)**
 Border left width, acts exactly like padding. Does not do any drawing.
 
-* **var** **borderTopWidth**: **[Float](../gravity/types.md)**
+* **var** **borderTopWidth**: **[Float](../gravity/float.md)**
 Border top width, acts exactly like padding. Does not do any drawing.
 
-* **var** **borderRightWidth**: **[Float](../gravity/types.md)**
+* **var** **borderRightWidth**: **[Float](../gravity/float.md)**
 Border right width, acts exactly like padding. Does not do any drawing.
 
-* **var** **borderBottomWidth**: **[Float](../gravity/types.md)**
+* **var** **borderBottomWidth**: **[Float](../gravity/float.md)**
 Border bottom width, acts exactly like padding. Does not do any drawing.
 
-* **var** **borderStartWidth**: **[Float](../gravity/types.md)**
+* **var** **borderStartWidth**: **[Float](../gravity/float.md)**
 Border start width, it depends on text and childrens direction
 
-* **var** **borderEndWidth**: **[Float](../gravity/types.md)**
+* **var** **borderEndWidth**: **[Float](../gravity/float.md)**
 Border end width, it depends on text and childrens direction
 
-* **var** **borderWidth**: **[Float](../gravity/types.md)**
+* **var** **borderWidth**: **[Float](../gravity/float.md)**
 Border width, acts exactly like padding. Does not do any drawing.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -182,7 +182,7 @@ Apply layout preserving origin
 * **func** **calculateLayoutWithSize**(**value**: **[Size](Size.md)**): <strong>[Size](Size.md)</strong> 
 Returns the size of the view based on provided constraints. Pass Layout.undefined for an unconstrained dimension.
 
-* **func** **applyLayoutPreservingOrigin**(**value**: **[Bool](../gravity/types.md)**)
+* **func** **applyLayoutPreservingOrigin**(**value**: **[Bool](../gravity/bool.md)**)
 Apply layout preserving origin
 
 * **func** **markDirty**()
@@ -190,20 +190,20 @@ Mark that a view's layout needs to be recalculated. Only works for leaf views
 
 
 
-
+* None
 
 ### Enumeration
 
-#### Direction
+<div name="_enum_Direction"></div>#### Direction
  * .Inherit
  * .LTR
  * .RTL
 
-#### FlexDirection
+<div name="_enum_FlexDirection"></div>#### FlexDirection
  * .Column
  * .Row
 
-#### Justify
+<div name="_enum_Justify"></div>#### Justify
  * .Center
  * .FlexEnd
  * .FlexStart
@@ -211,7 +211,7 @@ Mark that a view's layout needs to be recalculated. Only works for leaf views
  * .SpaceBetween
  * .SpaceEvenly
 
-#### Align
+<div name="_enum_Align"></div>#### Align
  * .Auto
  * .Baseline
  * .Center
@@ -221,15 +221,15 @@ Mark that a view's layout needs to be recalculated. Only works for leaf views
  * .SpaceBetween
  * .Stretch
 
-#### Wrap
+<div name="_enum_Wrap"></div>#### Wrap
  * .No
  * .Yes
 
-#### Display
+<div name="_enum_Display"></div>#### Display
  * .Flex
  * .None
 
-#### PositionType
+<div name="_enum_PositionType"></div>#### PositionType
  * .Absolute
  * .Relative
 

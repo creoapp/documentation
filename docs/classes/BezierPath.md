@@ -14,7 +14,7 @@ The color of subsequent stroke operations to the color
 * **var** **fillColor**: **[Color](Color.md)**
 The color of subsequent fill operations to the color.
 
-* **var** **lineWidth**: **[Float](../gravity/types.md)**
+* **var** **lineWidth**: **[Float](../gravity/float.md)**
 The line width defines the thickness of the receiver's stroked path. A width of 0 is interpreted as the thinnest line that can be rendered on a particular device. The actual rendered line width may vary from the specified width by as much as 2 device pixels, depending on the position of the line with respect to the pixel grid and the current anti-aliasing settings. The default line width is 1.0.
 
 * **var** **lineCapStyle**: **LineCapStyle**
@@ -23,19 +23,19 @@ The shape of the paths end points when stroked.
 * **var** **lineJoinStyle**: **LineJoinStyle**
 The shape of the joints between connected segments of a stroked path.
 
-* **var** **miterLimit**: **[Float](../gravity/types.md)**
+* **var** **miterLimit**: **[Float](../gravity/float.md)**
 The limiting value that helps avoid spikes at junctions between connected line segments.
 
-* **var** **flatness**: **[Float](../gravity/types.md)**
+* **var** **flatness**: **[Float](../gravity/float.md)**
 The factor that determines the rendering accuracy for curved path segments. The flatness value measures the largest permissible distance (measured in pixels) between a point on the true curve and a point on the rendered curve. Smaller values result in smoother curves but require more computation time. Larger values result in more jagged curves but are rendered much faster. The default flatness value is 0.6.
 
-* **var** **usesEvenOddFillRule**: **[Bool](../gravity/types.md)**
+* **var** **usesEvenOddFillRule**: **[Bool](../gravity/bool.md)**
 A Boolean indicating whether the even-odd winding rule is in use for drawing paths.
 
-* **var** **isEmpty**: **[Bool](../gravity/types.md)**
+* **var** **isEmpty**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the path has any valid elements. \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -63,16 +63,16 @@ Closes the most recent subpath. This method closes the current subpath by creati
 * **func** **removeAllPoints**()
 Removes all points from the receiver, effectively deleting all subpaths.
 
-* **func** **fillWithBlendMode**(**blendMode**: **<a href="#_enum_BlendMode">BlendMode</a>**, **alpha**: **[Float](../gravity/types.md)**)
+* **func** **fillWithBlendMode**(**blendMode**: **<a href="#_enum_BlendMode">BlendMode</a>**, **alpha**: **[Float](../gravity/float.md)**)
 Paints the region enclosed by the receiver’s path using the specified blend mode and transparency values.
 
-* **func** **strokeWithBlendMode**(**blendMode**: **<a href="#_enum_BlendMode">BlendMode</a>**, **alpha**: **[Float](../gravity/types.md)**)
+* **func** **strokeWithBlendMode**(**blendMode**: **<a href="#_enum_BlendMode">BlendMode</a>**, **alpha**: **[Float](../gravity/float.md)**)
 Draws a line along the receiver’s path using the specified blend mode and transparency values.
 
-* **func** **containsPoint**(**point**: **[Point](Point.md)**): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **containsPoint**(**point**: **[Point](Point.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether the area enclosed by the receiver contains the specified point.
 
-* **func** **addArc**(**point**: **[Point](Point.md)**, **radius**: **[Float](../gravity/types.md)**, **startAngle**: **[Float](../gravity/types.md)**, **endAngle**: **[Float](../gravity/types.md)**, **clockwise**: **[Bool](../gravity/types.md)**)
+* **func** **addArc**(**point**: **[Point](Point.md)**, **radius**: **[Float](../gravity/float.md)**, **startAngle**: **[Float](../gravity/float.md)**, **endAngle**: **[Float](../gravity/float.md)**, **clockwise**: **[Bool](../gravity/bool.md)**)
 This method adds the specified arc beginning at the current point. The created arc lies on the perimeter of the specified circle. Specifying a start angle of 0 radians, an end angle of π radians, and setting the clockwise parameter to true draws the bottom half of the circle. However, specifying the same start and end angles but setting the clockwise parameter set to false draws the top half of the circle.
 
 * **func** **addCurve**(**point**: **[Point](Point.md)**, **controlPoint**: **[Point](Point.md)**, **controlPoint2**: **[Point](Point.md)**)
@@ -87,7 +87,7 @@ This method appends a rectangular path.
 * **func** **addOval**(**rect**: **[Rect](Rect.md)**)
 This method appends an oval path inscribed in the specified rectangle.
 
-* **func** **addRoundedRect**(**rect**: **[Rect](Rect.md)**, **radius**: **[Float](../gravity/types.md)**)
+* **func** **addRoundedRect**(**rect**: **[Rect](Rect.md)**, **radius**: **[Float](../gravity/float.md)**)
 This method appends a rounded rectangular path.
 
 * **func** **addRoundedRectWithCorners**(**rect**: **[Rect](Rect.md)**, **roundingCorners**: **<a href="#_enum_RectCorner">RectCorner</a>**, **size**: **[Size](Size.md)**)
@@ -98,21 +98,21 @@ Appends the contents of the specified path object to the receiver’s path.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### LineCapStyle
+<div name="_enum_LineCapStyle"></div>#### LineCapStyle
  * .Butt
  * .Round
  * .Square
 
-#### LineJoinStyle
+<div name="_enum_LineJoinStyle"></div>#### LineJoinStyle
  * .Bevel
  * .Miter
  * .Round
 
-#### BlendMode
+<div name="_enum_BlendMode"></div>#### BlendMode
  * .Clear
  * .Color
  * .ColorBurn
@@ -142,7 +142,7 @@ Appends the contents of the specified path object to the receiver’s path.
  * .SourceOut
  * .XOR
 
-#### RectCorner
+<div name="_enum_RectCorner"></div>#### RectCorner
  * .AllCorners
  * .BottomLeft
  * .BottomRight

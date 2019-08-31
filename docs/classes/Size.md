@@ -4,20 +4,20 @@ Represents a two-dimensional size.
 
 ### Properties
 
-* **var** **width**: **[Float](../gravity/types.md)**
+* **var** **width**: **[Float](../gravity/float.md)**
 width field.
 
-* **var** **height**: **[Float](../gravity/types.md)**
+* **var** **height**: **[Float](../gravity/float.md)**
 height field.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Initializers
 
-* **func** **Size**(**width**: **[Float](../gravity/types.md)**, **height**: **[Float](../gravity/types.md)**)
+* **func** **Size**(**width**: **[Float](../gravity/float.md)**, **height**: **[Float](../gravity/float.md)**)
 Create a new Size object.
 
 
@@ -29,5 +29,5 @@ Copy a Size object by value (duplicate).
 
 
 
-
+* None
 

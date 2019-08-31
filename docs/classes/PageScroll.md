@@ -44,7 +44,7 @@ Array of windows currently managed by the PageScroll.
 * **var** **selectedWindow**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**
 Represents the current Window in the PageScroll.
 
-* **var** **selectedIndex**: **[Int](../gravity/types.md)**
+* **var** **selectedIndex**: **[Int](../gravity/int.md)**
 Represents the current window index inside the PageScroll.
 
 * **var** **pageControlBackgroundColor**: **[Color](Color.md)**
@@ -56,13 +56,13 @@ Description not yet ready.
 * **var** **pageControlOffColor**: **[Color](Color.md)**
 Description not yet ready.
 
-* **var** **pageControlIndicatorDiameter**: **[Float](../gravity/types.md)**
+* **var** **pageControlIndicatorDiameter**: **[Float](../gravity/float.md)**
 Description not yet ready.
 
-* **var** **pageControlIndicatorSpace**: **[Float](../gravity/types.md)**
+* **var** **pageControlIndicatorSpace**: **[Float](../gravity/float.md)**
 Description not yet ready.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -79,10 +79,10 @@ Open callee object (TargetWindow) inside parameter object (ContainerWindow) usin
 * **func** **openWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Add the Window to the PageScroll and set it as the selected Window.
 
-* **func** **selectWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **selectWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/bool.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Set the Window as the new selected Window, optionally animating the scroll motion.
 
-* **func** **selectIndex**(**index**: **[Int](../gravity/types.md)**, **animated**: **[Bool](../gravity/types.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **selectIndex**(**index**: **[Int](../gravity/int.md)**, **animated**: **[Bool](../gravity/bool.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
 Set the Window at the specified index as the new selected Window, optionally animating the scroll motion.
 
 * **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closure.md) = null**)
@@ -93,21 +93,21 @@ Close window if modally opened.
 
 
 
-
+* None
 
 ### Enumeration
 
-#### StatusBarVisibility
+<div name="_enum_StatusBarVisibility"></div>#### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
-#### StatusBarStyle
+<div name="_enum_StatusBarStyle"></div>#### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
 
-#### TransitionStyle
+<div name="_enum_TransitionStyle"></div>#### TransitionStyle
  * .Cards
  * .CoverVertical
  * .CrossDissolve

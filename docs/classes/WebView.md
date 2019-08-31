@@ -10,7 +10,7 @@ This event is called when the object becames available in the current runtime sy
 * **DidStart**()
 This event is called when a mainframe page load starts.
 
-* **DidFail**(**error**: **[String](../gravity/types.md)**)
+* **DidFail**(**error**: **[String](../gravity/string.md)**)
 This event is called when an error occurs while starting to load data for the mainframe.
 
 * **DidStartReceiving**()
@@ -26,40 +26,40 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **url**: **[String](../gravity/types.md)**
+* **var** **url**: **[String](../gravity/string.md)**
 Navigates to a requested URL.
 
-* **var** **html**: **[String](../gravity/types.md)**
+* **var** **html**: **[String](../gravity/string.md)**
 Sets the webpage contents.
 
-* **var** **title**: **[String](../gravity/types.md)**
+* **var** **title**: **[String](../gravity/string.md)**
 The page title. \(read-only\)
 
-* **var** **loading**: **[Bool](../gravity/types.md)**
+* **var** **loading**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the view is currently loading content. \(read-only\)
 
-* **var** **estimatedProgress**: **[Float](../gravity/types.md)**
+* **var** **estimatedProgress**: **[Float](../gravity/float.md)**
 An estimate of what fraction of the current navigation has been loaded. \(read-only\)
 
-* **var** **hasOnlySecureContent**: **[Bool](../gravity/types.md)**
+* **var** **hasOnlySecureContent**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether all resources on the page have been loaded through securely encrypted connections. \(read-only\)
 
-* **var** **canGoBack**: **[Bool](../gravity/types.md)**
+* **var** **canGoBack**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether there is a back item in the back-forward list that can be navigated to. \(read-only\)
 
-* **var** **canGoForward**: **[Bool](../gravity/types.md)**
+* **var** **canGoForward**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether there is a forward item in the back-forward list that can be navigated to. \(read-only\)
 
-* **var** **allowsBackForwardNavigationGestures**: **[Bool](../gravity/types.md)**
+* **var** **allowsBackForwardNavigationGestures**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether horizontal swipe gestures will trigger back-forward list navigations.
 
-* **var** **customUserAgent**: **[String](../gravity/types.md)**
+* **var** **customUserAgent**: **[String](../gravity/string.md)**
 The custom user agent string or null if no custom user agent string has been set.
 
-* **var** **allowsLinkPreview**: **[Bool](../gravity/types.md)**
+* **var** **allowsLinkPreview**: **[Bool](../gravity/bool.md)**
 A Boolean value that determines whether pressing on a link displays a preview of the destination for the link. In iOS this property is available on devices that support 3D Touch. Default value is false in iOS.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -84,13 +84,13 @@ Reset WebView content to blank page.
 * **func** **stopLoading**()
 Stops loading all resources on the current page.
 
-* **func** **runJavaScript**(**javaScript**: **[String](../gravity/types.md)**, **onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
+* **func** **runJavaScript**(**javaScript**: **[String](../gravity/string.md)**, **onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
 Evaluates a JavaScript code.
 
-* **func** **loadHTML**(**html**: **[String](../gravity/types.md)**, **baseURL**: **[String](../gravity/types.md) = null**)
+* **func** **loadHTML**(**html**: **[String](../gravity/string.md)**, **baseURL**: **[String](../gravity/string.md) = null**)
 Sets the webpage contents and base URL.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -101,11 +101,11 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

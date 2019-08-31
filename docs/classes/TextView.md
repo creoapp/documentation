@@ -22,7 +22,7 @@ Use this event to be notified when text selection changed in the specified text 
 * **DidScroll**()
 This event is called when the user scrolls the content view.
 
-* **DidEndDragging**(**decelerate**: **[Bool](../gravity/types.md)**)
+* **DidEndDragging**(**decelerate**: **[Bool](../gravity/bool.md)**)
 This event is called when dragging ended in the scroll view. The scroll view sends this event when the user’s finger touches up after dragging content. The decelerating property of the scroll view controls deceleration. The decelerate value is true if the scrolling movement will continue, but decelerate, after a touch-up gesture during a dragging operation. If the value is NO, scrolling stops immediately upon touch-up.
 
 * **DidEndDecelerating**()
@@ -35,10 +35,10 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **text**: **[String](../gravity/types.md)**
+* **var** **text**: **[String](../gravity/string.md)**
 The text displayed by the text view.
 
-* **var** **rawText**: **[String](../gravity/types.md)**
+* **var** **rawText**: **[String](../gravity/string.md)**
 The raw text currently set in the text view. \(read-only\)
 
 * **var** **textColor**: **[Color](Color.md)**
@@ -53,16 +53,16 @@ The font of the text.
 * **var** **textAlignment**: **TextAlignment**
 The technique to use for aligning the text.
 
-* **var** **selectedRange**: **[Range](../gravity/types.md)**
+* **var** **selectedRange**: **[Range](../gravity/range.md)**
 The current selection range of the receiver.
 
-* **var** **editable**: **[Bool](../gravity/types.md)**
+* **var** **editable**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the receiver is editable.
 
 * **var** **dataDetectorTypes**: **DataDetectorTypes**
 The types of data converted to tappable URLs in the text view.
 
-* **var** **clearsOnInsertion**: **[Bool](../gravity/types.md)**
+* **var** **clearsOnInsertion**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether inserting text replaces the previous contents.
 
 * **var** **inputView**: **[UIView](UIView.md)**
@@ -83,23 +83,23 @@ The spell-checking style for the text object.
 * **var** **keyboardType**: **KeyboardType**
 The keyboard style associated with the text object. The keyboard style identifies what keys are available on the keyboard and which ones appear by default.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **hasText**(): <strong>[Bool](../gravity/types.md)</strong> 
+* **func** **hasText**(): <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether the text view currently contains any text.
 
-* **func** **appendText**(**text**: **[String](../gravity/types.md)**)
+* **func** **appendText**(**text**: **[String](../gravity/string.md)**)
 Appends a given string to the receiver.
 
-* **func** **scrollRangeToVisible**(**range**: **[Range](../gravity/types.md)**)
+* **func** **scrollRangeToVisible**(**range**: **[Range](../gravity/range.md)**)
 Scrolls the receiver until the text in the specified range is visible.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -110,23 +110,23 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### TextType
+<div name="_enum_TextType"></div>#### TextType
  * .HTML
  * .Markdown
  * .Text
 
-#### TextAlignment
+<div name="_enum_TextAlignment"></div>#### TextAlignment
  * .Center
  * .Justified
  * .Left
  * .Natural
  * .Right
 
-#### DataDetectorTypes
+<div name="_enum_DataDetectorTypes"></div>#### DataDetectorTypes
  * .Address
  * .All
  * .CalendarEvent
@@ -134,23 +134,23 @@ Clear focus from selected control
  * .None
  * .PhoneNumber
 
-#### TextAutocapitalizationType
+<div name="_enum_TextAutocapitalizationType"></div>#### TextAutocapitalizationType
  * .AllCharacters
  * .None
  * .Sentences
  * .Words
 
-#### TextAutocorrectionType
+<div name="_enum_TextAutocorrectionType"></div>#### TextAutocorrectionType
  * .Default
  * .No
  * .Yes
 
-#### TextSpellCheckingType
+<div name="_enum_TextSpellCheckingType"></div>#### TextSpellCheckingType
  * .Default
  * .No
  * .Yes
 
-#### KeyboardType
+<div name="_enum_KeyboardType"></div>#### KeyboardType
  * .ASCIICapable
  * .ASCIICapableNumberPad
  * .DecimalPad
@@ -164,7 +164,7 @@ Clear focus from selected control
  * .URL
  * .WebSearch
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

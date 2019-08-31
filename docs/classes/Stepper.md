@@ -13,7 +13,7 @@ The view is about to be added to the App's views hierarchy.
 * **WillHide**()
 The view is about to be removed from the App's views hierarchy.
 
-* **Changed**(**value**: **[Float](../gravity/types.md)**)
+* **Changed**(**value**: **[Float](../gravity/float.md)**)
 Use this event to be notified when value changes.
 
 * **DidShow**()
@@ -29,53 +29,53 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **value**: **[Float](../gravity/types.md)**
+* **var** **value**: **[Float](../gravity/float.md)**
 The numeric value of the stepper.
 
-* **var** **minimumValue**: **[Float](../gravity/types.md)**
+* **var** **minimumValue**: **[Float](../gravity/float.md)**
 The lowest possible numeric value for the stepper.
 
-* **var** **maximumValue**: **[Float](../gravity/types.md)**
+* **var** **maximumValue**: **[Float](../gravity/float.md)**
 The highest possible numeric value for the stepper.
 
-* **var** **stepValue**: **[Float](../gravity/types.md)**
+* **var** **stepValue**: **[Float](../gravity/float.md)**
 The step, or increment, value for the stepper.
 
-* **var** **continuous**: **[Bool](../gravity/types.md)**
+* **var** **continuous**: **[Bool](../gravity/bool.md)**
 The continuous vs. noncontinuous state of the stepper. If true, value change events are sent immediately when the value changes during user interaction. If false, a value change event is sent when user interaction ends. The default value for this property is true.
 
-* **var** **autorepeat**: **[Bool](../gravity/types.md)**
+* **var** **autorepeat**: **[Bool](../gravity/bool.md)**
 The automatic vs. nonautomatic repeat state of the stepper. If true, the user pressing and holding on the stepper repeatedly alters value. The default value for this property is true.
 
-* **var** **wraps**: **[Bool](../gravity/types.md)**
+* **var** **wraps**: **[Bool](../gravity/bool.md)**
 The wrap vs. no-wrap state of the stepper. If true, incrementing beyond maximumValue sets value to minimumValue; likewise, decrementing below minimumValue sets value to maximumValue. If false, the stepper does not increment beyond maximumValue nor does it decrement below minimumValue but rather holds at those values.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Methods
 
-* **func** **backgroundImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](Image.md)</strong> 
+* **func** **backgroundImageForState**(**state**: **[Int](../gravity/int.md)**): <strong>[Image](Image.md)</strong> 
 Returns the background image associated with the specified control state.
 
-* **func** **setBackgroundImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/types.md)**)
+* **func** **setBackgroundImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/int.md)**)
 Sets the background image for the control when it is in the specified state.
 
-* **func** **incrementImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](Image.md)</strong> 
+* **func** **incrementImageForState**(**state**: **[Int](../gravity/int.md)**): <strong>[Image](Image.md)</strong> 
 Returns the image used for the increment glyph of the control.
 
-* **func** **setIncrementImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/types.md)**)
+* **func** **setIncrementImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/int.md)**)
 Sets the image to use for the increment glyph of the control.
 
-* **func** **decrementImageForState**(**state**: **[Int](../gravity/types.md)**): <strong>[Image](Image.md)</strong> 
+* **func** **decrementImageForState**(**state**: **[Int](../gravity/int.md)**): <strong>[Image](Image.md)</strong> 
 Returns the image used for the decrement glyph of the control.
 
-* **func** **setDecrementImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/types.md)**)
+* **func** **setDecrementImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/int.md)**)
 Sets the image to use for the decrement glyph of the control.
 
-* **func** **animate**(**duration**: **[Float](../gravity/types.md)**, **delay**: **[Float](../gravity/types.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
@@ -86,11 +86,11 @@ Clear focus from selected control
 
 
 
-
+* None
 
 ### Enumeration
 
-#### AnimationOption
+<div name="_enum_AnimationOption"></div>#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

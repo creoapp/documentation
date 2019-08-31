@@ -13,10 +13,10 @@ A reusable view that can be placed at the top or bottom of a table section to di
 * **var** **customView**: **[CustomView](CustomView.md)**
 The instance of the custom view added to the contentView, if configured.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
-
+* None
 

@@ -17,16 +17,16 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **interval**: **[Float](../gravity/types.md)**
+* **var** **interval**: **[Float](../gravity/float.md)**
 The number of seconds between firings of the timer. If interval is less than or equal to 0.0, this method chooses the nonnegative value of 0.1 milliseconds instead.
 
-* **var** **repeat**: **[Bool](../gravity/types.md)**
+* **var** **repeat**: **[Bool](../gravity/bool.md)**
 If true, the timer will repeatedly reschedule itself. If false, the timer will be stopped after it fires.
 
-* **var** **isRunning**: **[Bool](../gravity/types.md)**
+* **var** **isRunning**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether the timer is currently started and running.
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
@@ -36,10 +36,10 @@ The name of the object.
 * **func** **Timer**(): <strong>[instance](#)</strong> 
 Initializes a timer object with a time interval equals to 0.0.
 
-* **func** **Timer**(**interval**: **[Float](../gravity/types.md)**): <strong>[instance](#)</strong> 
+* **func** **Timer**(**interval**: **[Float](../gravity/float.md)**): <strong>[instance](#)</strong> 
 Initializes a timer object with the specified time interval. The timer will be invalidated after it fires.
 
-* **func** **Timer**(**interval**: **[Float](../gravity/types.md)**, **repeat**: **[Bool](../gravity/types.md)**): <strong>[instance](#)</strong> 
+* **func** **Timer**(**interval**: **[Float](../gravity/float.md)**, **repeat**: **[Bool](../gravity/bool.md)**): <strong>[instance](#)</strong> 
 Initializes a timer object with the specified time interval and repeat option. If the repeat option is true, the timer will repeatedly reschedule itself until invalidated, otherwise the timer will be invalidated after it fires.
 
 
@@ -54,5 +54,5 @@ Stop timer.
 
 
 
-
+* None
 

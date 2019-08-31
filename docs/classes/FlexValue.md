@@ -14,7 +14,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Class Properties
 
-* **var** **undefined**: **[Float](../gravity/types.md)**
+* **var** **undefined**: **[Float](../gravity/float.md)**
 Const undefined can be used as a value. \(read-only\)
 
 * **var** **valueUndefined**: **[FlexValue](FlexValue.md)**
@@ -27,42 +27,42 @@ Const value auto is a complex value used by flex methods \(read-only\)
 
 ### Properties
 
-* **var** **unit**: **[Int](../gravity/types.md)**
+* **var** **unit**: **[Int](../gravity/int.md)**
 Unit, point or percent \(read-only\)
 
-* **var** **value**: **[Float](../gravity/types.md)**
+* **var** **value**: **[Float](../gravity/float.md)**
 Value
 
-* **var** **isUndefined**: **[Bool](../gravity/types.md)**
+* **var** **isUndefined**: **[Bool](../gravity/bool.md)**
 is undefined \(read-only\)
 
-* **var** **objectName**: **[String](../gravity/types.md)**
+* **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
 
 
 ### Initializers
 
-* **func** **FlexValue**(**value**: **[Float](../gravity/types.md)**, **unit**: **<a href="#_enum_FlexUnit">FlexUnit</a>**)
+* **func** **FlexValue**(**value**: **[Float](../gravity/float.md)**, **unit**: **<a href="#_enum_FlexUnit">FlexUnit</a>**)
 Create a new FlexValue. The first argument is the value (Float), the second is the unit of the value (FlexUnit, Point or Percent)
 
 
 
 ### Methods
 
-* **func** **setPoint**(**value**: **[Float](../gravity/types.md)**)
+* **func** **setPoint**(**value**: **[Float](../gravity/float.md)**)
 Set a new value with point as unit
 
-* **func** **setPercent**(**value**: **[Float](../gravity/types.md)**)
+* **func** **setPercent**(**value**: **[Float](../gravity/float.md)**)
 Set a new value with percent as unit
 
 
 
-
+* None
 
 ### Enumeration
 
-#### FlexUnit
+<div name="_enum_FlexUnit"></div>#### FlexUnit
  * .Percent
  * .Point
 
