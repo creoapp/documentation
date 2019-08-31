@@ -4,8 +4,6 @@ This class is reserved and cannot be directly instantiated.
 
 The CollectionViewCell class defines the attributes and behavior of the cells that appear in CollectionView controls.
 
-### Events
-
 
 
 ### Properties

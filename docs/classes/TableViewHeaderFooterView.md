@@ -4,8 +4,6 @@ This class is reserved and cannot be directly instantiated.
 
 A reusable view that can be placed at the top or bottom of a table section to display additional information for that section.
 
-### Events
-
 
 
 ### Properties

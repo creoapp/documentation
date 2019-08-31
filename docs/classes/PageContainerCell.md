@@ -4,8 +4,6 @@ This class is reserved and cannot be directly instantiated.
 
 The PageContainerCell class defines the attributes and behavior of the cells that appear in PageContainer controls.
 
-### Events
-
 
 
 ### Properties

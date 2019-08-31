@@ -2,8 +2,6 @@
 
 Use a Device object to get information about the device such as assigned name, device model, operating-system name and version, battery state and device orientation.
 
-### Events
-
 
 
 ### Properties
