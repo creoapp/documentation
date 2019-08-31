@@ -112,16 +112,16 @@ Clear focus from selected control
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_TextType"></div>
+<div id="_enum_TextType"></div>
 
 #### TextType
  * .HTML
  * .Markdown
  * .Text
 
-<div name="_enum_TextAlignment"></div>
+<div id="_enum_TextAlignment"></div>
 
 #### TextAlignment
  * .Center
@@ -130,7 +130,7 @@ Clear focus from selected control
  * .Natural
  * .Right
 
-<div name="_enum_DataDetectorTypes"></div>
+<div id="_enum_DataDetectorTypes"></div>
 
 #### DataDetectorTypes
  * .Address
@@ -140,7 +140,7 @@ Clear focus from selected control
  * .None
  * .PhoneNumber
 
-<div name="_enum_TextAutocapitalizationType"></div>
+<div id="_enum_TextAutocapitalizationType"></div>
 
 #### TextAutocapitalizationType
  * .AllCharacters
@@ -148,21 +148,21 @@ Clear focus from selected control
  * .Sentences
  * .Words
 
-<div name="_enum_TextAutocorrectionType"></div>
+<div id="_enum_TextAutocorrectionType"></div>
 
 #### TextAutocorrectionType
  * .Default
  * .No
  * .Yes
 
-<div name="_enum_TextSpellCheckingType"></div>
+<div id="_enum_TextSpellCheckingType"></div>
 
 #### TextSpellCheckingType
  * .Default
  * .No
  * .Yes
 
-<div name="_enum_KeyboardType"></div>
+<div id="_enum_KeyboardType"></div>
 
 #### KeyboardType
  * .ASCIICapable
@@ -178,7 +178,7 @@ Clear focus from selected control
  * .URL
  * .WebSearch
 
-<div name="_enum_AnimationOption"></div>
+<div id="_enum_AnimationOption"></div>
 
 #### AnimationOption
  * .AllowAnimatedContent

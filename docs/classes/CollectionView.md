@@ -123,21 +123,21 @@ Clear focus from selected control
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_CollectionViewLayoutType"></div>
+<div id="_enum_CollectionViewLayoutType"></div>
 
 #### CollectionViewLayoutType
  * .BalancedFlow
  * .Flow
 
-<div name="_enum_CollectionViewScrollDirection"></div>
+<div id="_enum_CollectionViewScrollDirection"></div>
 
 #### CollectionViewScrollDirection
  * .Horizontal
  * .Vertical
 
-<div name="_enum_CollectionViewScrollPosition"></div>
+<div id="_enum_CollectionViewScrollPosition"></div>
 
 #### CollectionViewScrollPosition
  * .Bottom
@@ -148,7 +148,7 @@ Clear focus from selected control
  * .Right
  * .Top
 
-<div name="_enum_AnimationOption"></div>
+<div id="_enum_AnimationOption"></div>
 
 #### AnimationOption
  * .AllowAnimatedContent

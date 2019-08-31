@@ -94,9 +94,9 @@ Move to the previous record. Returns false is no more records are availables.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_DatabaseFieldType"></div>
+<div id="_enum_DatabaseFieldType"></div>
 
 #### DatabaseFieldType
  * .Blob

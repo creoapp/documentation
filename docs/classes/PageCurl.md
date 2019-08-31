@@ -80,23 +80,23 @@ Close window if modally opened.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_StatusBarVisibility"></div>
+<div id="_enum_StatusBarVisibility"></div>
 
 #### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
-<div name="_enum_StatusBarStyle"></div>
+<div id="_enum_StatusBarStyle"></div>
 
 #### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
 
-<div name="_enum_TransitionStyle"></div>
+<div id="_enum_TransitionStyle"></div>
 
 #### TransitionStyle
  * .Cards

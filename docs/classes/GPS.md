@@ -61,9 +61,9 @@ Returns the app’s authorization status for using location services. The author
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_ActivityType"></div>
+<div id="_enum_ActivityType"></div>
 
 #### ActivityType
  * .AutomotiveNavigation
@@ -71,7 +71,7 @@ Returns the app’s authorization status for using location services. The author
  * .Other
  * .OtherNavigation
 
-<div name="_enum_AuthorizationStatus"></div>
+<div id="_enum_AuthorizationStatus"></div>
 
 #### AuthorizationStatus
  * .AuthorizedAlways

@@ -233,9 +233,9 @@ Clear focus from selected control
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_CameraQuality"></div>
+<div id="_enum_CameraQuality"></div>
 
 #### CameraQuality
  * .High
@@ -250,34 +250,34 @@ Clear focus from selected control
  * .iFrame960x540
  * .vga640x480
 
-<div name="_enum_CameraPosition"></div>
+<div id="_enum_CameraPosition"></div>
 
 #### CameraPosition
  * .Front
  * .Rear
 
-<div name="_enum_WhiteBalanceMode"></div>
+<div id="_enum_WhiteBalanceMode"></div>
 
 #### WhiteBalanceMode
  * .Auto
  * .Continuous
  * .Locked
 
-<div name="_enum_CameraMirrorMode"></div>
+<div id="_enum_CameraMirrorMode"></div>
 
 #### CameraMirrorMode
  * .Auto
  * .Off
  * .On
 
-<div name="_enum_CameraFlashMode"></div>
+<div id="_enum_CameraFlashMode"></div>
 
 #### CameraFlashMode
  * .Auto
  * .Off
  * .On
 
-<div name="_enum_CameraExposureMode"></div>
+<div id="_enum_CameraExposureMode"></div>
 
 #### CameraExposureMode
  * .AutoFocus
@@ -285,21 +285,21 @@ Clear focus from selected control
  * .Custom
  * .Locked
 
-<div name="_enum_CameraFocusMode"></div>
+<div id="_enum_CameraFocusMode"></div>
 
 #### CameraFocusMode
  * .AutoFocus
  * .ContinuousAutoFocus
  * .Locked
 
-<div name="_enum_CameraAutoFocusRangeRestriction"></div>
+<div id="_enum_CameraAutoFocusRangeRestriction"></div>
 
 #### CameraAutoFocusRangeRestriction
  * .Far
  * .Near
  * .None
 
-<div name="_enum_MachineReadableObjectType"></div>
+<div id="_enum_MachineReadableObjectType"></div>
 
 #### MachineReadableObjectType
  * .AztecCode
@@ -316,7 +316,7 @@ Clear focus from selected control
  * .QRCode
  * .UPCECode
 
-<div name="_enum_AnimationOption"></div>
+<div id="_enum_AnimationOption"></div>
 
 #### AnimationOption
  * .AllowAnimatedContent

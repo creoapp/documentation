@@ -137,9 +137,9 @@ Returns a darker color with the amount specified in the parameter (only valid if
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_ColorSpaceModel"></div>
+<div id="_enum_ColorSpaceModel"></div>
 
 #### ColorSpaceModel
  * .CMYK

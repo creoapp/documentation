@@ -56,9 +56,9 @@ Compare two Gradient objects.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_GradientType"></div>
+<div id="_enum_GradientType"></div>
 
 #### GradientType
  * .Linear

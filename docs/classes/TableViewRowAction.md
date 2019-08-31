@@ -43,9 +43,9 @@ Create a new TableViewRowAction object.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_TableViewRowActionStyle"></div>
+<div id="_enum_TableViewRowActionStyle"></div>
 
 #### TableViewRowActionStyle
  * .Default

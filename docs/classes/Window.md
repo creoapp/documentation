@@ -107,9 +107,9 @@ Free the content of the Window, you can call this method on unused Windows to sa
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_TransitionStyle"></div>
+<div id="_enum_TransitionStyle"></div>
 
 #### TransitionStyle
  * .Cards
@@ -128,14 +128,14 @@ Free the content of the Window, you can call this method on unused Windows to sa
  * .Portal
  * .Turn
 
-<div name="_enum_StatusBarVisibility"></div>
+<div id="_enum_StatusBarVisibility"></div>
 
 #### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
-<div name="_enum_StatusBarStyle"></div>
+<div id="_enum_StatusBarStyle"></div>
 
 #### StatusBarStyle
  * .DarkContent

@@ -97,9 +97,9 @@ Invoke a brief device vibration.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_DeviceVersion"></div>
+<div id="_enum_DeviceVersion"></div>
 
 #### DeviceVersion
  * .Simulator
@@ -139,7 +139,7 @@ Invoke a brief device vibration.
  * .iPhoneXS
  * .iPhoneXSMax
 
-<div name="_enum_DeviceSize"></div>
+<div id="_enum_DeviceSize"></div>
 
 #### DeviceSize
  * .Screen10Dot5inch
@@ -156,7 +156,7 @@ Invoke a brief device vibration.
  * .Screen9Dot7inch
  * .Unknown
 
-<div name="_enum_DeviceOrientation"></div>
+<div id="_enum_DeviceOrientation"></div>
 
 #### DeviceOrientation
  * .FaceDown
@@ -167,7 +167,7 @@ Invoke a brief device vibration.
  * .PortraitUpsideDown
  * .Unknown
 
-<div name="_enum_DeviceBatteryState"></div>
+<div id="_enum_DeviceBatteryState"></div>
 
 #### DeviceBatteryState
  * .Charging

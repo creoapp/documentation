@@ -39,9 +39,9 @@ The name of the object.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_SwipeGestureRecognizerDirection"></div>
+<div id="_enum_SwipeGestureRecognizerDirection"></div>
 
 #### SwipeGestureRecognizerDirection
  * .Down

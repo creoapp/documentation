@@ -81,9 +81,9 @@ Displays the scroll indicators momentarily. You should call this method whenever
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_ScrollViewIndicatorStyle"></div>
+<div id="_enum_ScrollViewIndicatorStyle"></div>
 
 #### ScrollViewIndicatorStyle
  * .Black

@@ -73,9 +73,9 @@ Clear focus from selected control
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_DatePickerMode"></div>
+<div id="_enum_DatePickerMode"></div>
 
 #### DatePickerMode
  * .CountDownTimer
@@ -83,7 +83,7 @@ Clear focus from selected control
  * .DateAndTime
  * .Time
 
-<div name="_enum_AnimationOption"></div>
+<div id="_enum_AnimationOption"></div>
 
 #### AnimationOption
  * .AllowAnimatedContent

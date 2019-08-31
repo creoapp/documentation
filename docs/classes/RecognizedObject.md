@@ -30,9 +30,9 @@ The name of the object.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_MachineReadableObjectType"></div>
+<div id="_enum_MachineReadableObjectType"></div>
 
 #### MachineReadableObjectType
  * .AztecCode

@@ -142,9 +142,9 @@ Clear focus from selected control
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_MapType"></div>
+<div id="_enum_MapType"></div>
 
 #### MapType
  * .Hybrid
@@ -153,14 +153,14 @@ Clear focus from selected control
  * .SatelliteFlyover
  * .Standard
 
-<div name="_enum_MapUserTrackingMode"></div>
+<div id="_enum_MapUserTrackingMode"></div>
 
 #### MapUserTrackingMode
  * .Follow
  * .FollowWithHeading
  * .None
 
-<div name="_enum_AnimationOption"></div>
+<div id="_enum_AnimationOption"></div>
 
 #### AnimationOption
  * .AllowAnimatedContent

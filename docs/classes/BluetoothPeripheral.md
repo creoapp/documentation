@@ -43,9 +43,9 @@ Sets the value for the specified characteristic and notify the change if needed.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_BluetoothState"></div>
+<div id="_enum_BluetoothState"></div>
 
 #### BluetoothState
  * .PoweredOff

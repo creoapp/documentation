@@ -106,9 +106,9 @@ Clear focus from selected control
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_ContentMode"></div>
+<div id="_enum_ContentMode"></div>
 
 #### ContentMode
  * .Bottom
@@ -125,14 +125,14 @@ Clear focus from selected control
  * .TopLeft
  * .TopRight
 
-<div name="_enum_ImageRenderingMode"></div>
+<div id="_enum_ImageRenderingMode"></div>
 
 #### ImageRenderingMode
  * .AlwaysOriginal
  * .AlwaysTemplate
  * .Automatic
 
-<div name="_enum_AnimationOption"></div>
+<div id="_enum_AnimationOption"></div>
 
 #### AnimationOption
  * .AllowAnimatedContent

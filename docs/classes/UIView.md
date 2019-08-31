@@ -117,9 +117,9 @@ Converts a point from the coordinate system of another view to that of the view.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_Autoresizing"></div>
+<div id="_enum_Autoresizing"></div>
 
 #### Autoresizing
  * .FlexibleBottomMargin

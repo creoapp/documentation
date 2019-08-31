@@ -60,9 +60,9 @@ Set a new value with percent as unit
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_FlexUnit"></div>
+<div id="_enum_FlexUnit"></div>
 
 #### FlexUnit
  * .Percent

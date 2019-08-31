@@ -65,15 +65,15 @@ Delete the OAuth access token stored in the keychain for this service.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_HTTPProtocol"></div>
+<div id="_enum_HTTPProtocol"></div>
 
 #### HTTPProtocol
  * .HTTP
  * .HTTPS
 
-<div name="_enum_HTTPAuth"></div>
+<div id="_enum_HTTPAuth"></div>
 
 #### HTTPAuth
  * .Basic
@@ -82,7 +82,7 @@ Delete the OAuth access token stored in the keychain for this service.
  * .OAuth1
  * .OAuth2
 
-<div name="_enum_HTTPRequestCachePolicy"></div>
+<div id="_enum_HTTPRequestCachePolicy"></div>
 
 #### HTTPRequestCachePolicy
  * .ReloadIgnoringCache
@@ -93,7 +93,7 @@ Delete the OAuth access token stored in the keychain for this service.
  * .RevalidatingCacheData
  * .UseProtocol
 
-<div name="_enum_HTTPRequestNetworkServiceType"></div>
+<div id="_enum_HTTPRequestNetworkServiceType"></div>
 
 #### HTTPRequestNetworkServiceType
  * .Background
@@ -102,7 +102,7 @@ Delete the OAuth access token stored in the keychain for this service.
  * .VoIP
  * .Voice
 
-<div name="_enum_HTTPCookieAcceptPolicy"></div>
+<div id="_enum_HTTPCookieAcceptPolicy"></div>
 
 #### HTTPCookieAcceptPolicy
  * .Always

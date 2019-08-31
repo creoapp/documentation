@@ -90,16 +90,16 @@ Returns a String that contains file full path.
 
 * None
 
-### Enumeration
+### Enums
 
-<div name="_enum_FileMode"></div>
+<div id="_enum_FileMode"></div>
 
 #### FileMode
  * .Read
  * .Update
  * .Write
 
-<div name="_enum_SearchPath"></div>
+<div id="_enum_SearchPath"></div>
 
 #### SearchPath
  * .ApplicationSupport
