@@ -1,4 +1,4 @@
-**super**: **[Object](Object.md)**
+**super**: **[Object](../gravity/object.md.md)**
 
 A Timer object fires after certain time interval has elapsed.
 

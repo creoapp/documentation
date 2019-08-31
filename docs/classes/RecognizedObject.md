@@ -1,4 +1,4 @@
-**super**: **[Object](Object.md)**
+**super**: **[Object](../gravity/object.md.md)**
 
 The metadata of a recognized object.
 

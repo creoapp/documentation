@@ -1,4 +1,4 @@
-**super**: **[Object](Object.md)**
+**super**: **[Object](../gravity/object.md.md)**
 
 Information about linguistic, cultural, and technological conventions for use in formatting data for presentation.
 

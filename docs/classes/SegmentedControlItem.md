@@ -1,4 +1,4 @@
-**super**: **[Object](Object.md)**
+**super**: **[Object](../gravity/object.md.md)**
 
 An SegmentedControlItem represents a segment of a SegmentedControl.
 

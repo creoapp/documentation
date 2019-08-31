@@ -1,4 +1,4 @@
-**super**: **[Object](Object.md)**
+**super**: **[Object](../gravity/object.md.md)**
 
 A DatabaseRecord is a data structure that represent values to be used within the addRecord or updateRecord methods.
 

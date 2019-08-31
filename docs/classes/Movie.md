@@ -1,4 +1,4 @@
-**super**: **[Object](Object.md)**
+**super**: **[Object](../gravity/object.md.md)**
 
 A Movie object from the Asset. It can be played by a MoviePlayer.
 

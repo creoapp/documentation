@@ -1,4 +1,4 @@
-**super**: **[Object](Object.md)**
+**super**: **[Object](../gravity/object.md.md)**
 
 A container for coordinate values, direction vectors, matrices, and other non-scalar values, typically used for parameters in ImageFilter objects.
 

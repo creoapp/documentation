@@ -1,4 +1,4 @@
-**super**: **[Object](Object.md)**
+**super**: **[Object](../gravity/object.md.md)**
 
 A RGBBuffer object is used for Image direct-color pixel manipulations. A pixel can be read or written by setting its red, green, blue and alpha components.
 

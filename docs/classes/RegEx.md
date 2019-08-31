@@ -1,4 +1,4 @@
-**super**: **[Object](Object.md)**
+**super**: **[Object](../gravity/object.md.md)**
 
 A regular expression is a special text string for describing a search pattern. Usually this pattern is used by string searching algorithms for find or find and replace operations on strings, or for input validation.
 
