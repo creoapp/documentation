@@ -6,7 +6,7 @@ This class is reserved and cannot be directly instantiated.
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -73,5 +73,5 @@ Encode data to base64 string.
 
 
 
-* None
+
 

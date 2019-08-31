@@ -6,7 +6,7 @@ The CarouselCell class defines the attributes and behavior of the cells that app
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -21,5 +21,5 @@ The name of the object.
 
 
 
-* None
+
 

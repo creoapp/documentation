@@ -5,7 +5,7 @@ Many methods require you to specify color data using a Color object, and for gen
 
 ### Events
 
-* None
+
 
 ### Class Properties
 
@@ -135,7 +135,7 @@ Returns a darker color with the amount specified in the parameter (only valid if
 
 
 
-* None
+
 
 ### Enums
 

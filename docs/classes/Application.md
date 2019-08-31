@@ -97,5 +97,5 @@ Returns a Boolean value indicating whether an app is available to handle a URL s
 
 
 
-* None
+
 

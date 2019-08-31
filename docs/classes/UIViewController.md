@@ -6,7 +6,7 @@ This class is reserved and cannot be directly instantiated.
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -58,7 +58,7 @@ Indicates to the system that the status bar attributes have changed.
 
 
 
-* None
+
 
 ### Enums
 

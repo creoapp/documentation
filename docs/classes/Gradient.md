@@ -54,7 +54,7 @@ Compare two Gradient objects.
 
 
 
-* None
+
 
 ### Enums
 

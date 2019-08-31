@@ -74,5 +74,5 @@ Returns the y-coordinate that establishes the center of the rectangle.
 
 
 
-* None
+
 

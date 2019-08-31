@@ -6,7 +6,7 @@ This class is reserved and cannot be directly instantiated.
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -115,7 +115,7 @@ Converts a point from the coordinate system of another view to that of the view.
 
 
 
-* None
+
 
 ### Enums
 

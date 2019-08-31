@@ -4,7 +4,7 @@ The BezierPath class lets you define a path consisting of straight and curved li
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -98,7 +98,7 @@ Appends the contents of the specified path object to the receiver’s path.
 
 
 
-* None
+
 
 ### Enums
 

@@ -79,7 +79,7 @@ Displays the scroll indicators momentarily. You should call this method whenever
 
 
 
-* None
+
 
 ### Enums
 

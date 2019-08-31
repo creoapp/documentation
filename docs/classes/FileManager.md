@@ -88,7 +88,7 @@ Returns a String that contains file full path.
 
 
 
-* None
+
 
 ### Enums
 

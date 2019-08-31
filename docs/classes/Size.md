@@ -29,5 +29,5 @@ Copy a Size object by value (duplicate).
 
 
 
-* None
+
 

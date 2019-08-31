@@ -123,7 +123,7 @@ Send the HTTPRequest. The optional <code>onSuccess</code> and <code>onError</cod
 
 
 
-* None
+
 
 ### Enums
 

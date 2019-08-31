@@ -50,5 +50,5 @@ The velocity of the pan gesture, expressed in points per second, in the coordina
 
 
 
-* None
+
 

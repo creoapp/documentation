@@ -6,7 +6,7 @@ The PageContainerCell class defines the attributes and behavior of the cells tha
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -21,5 +21,5 @@ The name of the object.
 
 
 
-* None
+
 

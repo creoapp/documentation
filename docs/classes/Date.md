@@ -220,5 +220,5 @@ Returns a textual representations of the Date. Parameters: <code>format</code> i
 
 
 
-* None
+
 

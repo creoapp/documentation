@@ -93,7 +93,7 @@ Close window if modally opened.
 
 
 
-* None
+
 
 ### Enums
 

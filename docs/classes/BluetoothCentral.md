@@ -83,7 +83,7 @@ Enables or disables notifications/indications for the characteristic. If <i>char
 
 
 
-* None
+
 
 ### Enums
 

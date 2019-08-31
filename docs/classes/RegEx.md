@@ -28,5 +28,5 @@ Returns a new string containing matching regular expressions replaced with the t
 
 
 
-* None
+
 

@@ -72,7 +72,7 @@ Writes the specified string to the receiver. Returns true if the operation was s
 
 
 
-* None
+
 
 ### Enums
 

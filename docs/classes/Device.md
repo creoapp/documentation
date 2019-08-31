@@ -4,7 +4,7 @@ Use a Device object to get information about the device such as assigned name, d
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -95,7 +95,7 @@ Invoke a brief device vibration.
 
 
 
-* None
+
 
 ### Enums
 

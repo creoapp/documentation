@@ -60,5 +60,5 @@ Returns the distance (in meters) from the receiver’s location to the specified
 
 
 
-* None
+
 

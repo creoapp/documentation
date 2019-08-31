@@ -97,7 +97,7 @@ Sets whether the navigation bar is hidden.
 
 
 
-* None
+
 
 ### Enums
 

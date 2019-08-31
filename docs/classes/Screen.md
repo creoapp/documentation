@@ -4,7 +4,7 @@ An object that defines the properties associated with a hardware-based display.
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -22,5 +22,5 @@ The name of the object.
 
 
 
-* None
+
 

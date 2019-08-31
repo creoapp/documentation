@@ -59,7 +59,7 @@ Returns the app’s authorization status for using location services. The author
 
 
 
-* None
+
 
 ### Enums
 

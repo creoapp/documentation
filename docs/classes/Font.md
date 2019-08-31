@@ -4,7 +4,7 @@ The Font class provides the interface for getting and setting font information. 
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -68,5 +68,5 @@ A new font object with the given PostScript name and point size.
 
 
 
-* None
+
 

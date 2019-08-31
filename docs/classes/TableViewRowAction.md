@@ -41,7 +41,7 @@ Create a new TableViewRowAction object.
 
 
 
-* None
+
 
 ### Enums
 

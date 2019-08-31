@@ -62,5 +62,5 @@ Halts a currently running search or resolution.
 
 
 
-* None
+
 

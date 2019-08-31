@@ -4,7 +4,7 @@ A Image object manages image data in your app. You use image objects to represen
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -78,7 +78,7 @@ Applies the list of filters to the source image. You don't need to set the input
 
 
 
-* None
+
 
 ### Enums
 

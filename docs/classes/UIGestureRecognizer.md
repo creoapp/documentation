@@ -52,7 +52,7 @@ This method creates a relationship with another gesture recognizer that delays t
 
 
 
-* None
+
 
 ### Enums
 

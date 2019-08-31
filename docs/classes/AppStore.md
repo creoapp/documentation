@@ -19,5 +19,5 @@ Ask the user to rate or review your app, if appropriate. Although you should cal
 
 
 
-* None
+
 

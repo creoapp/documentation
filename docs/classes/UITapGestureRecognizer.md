@@ -20,5 +20,5 @@ Ask the delegate if a gesture recognizer should receive an object representing a
 
 
 
-* None
+
 

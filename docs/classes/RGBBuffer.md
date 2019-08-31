@@ -61,5 +61,5 @@ Set RGBA values at the specified x, y coordinates.
 
 
 
-* None
+
 

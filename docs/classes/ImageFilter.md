@@ -64,7 +64,7 @@ Executes the filter and produces the rendered image. If the closure parameter is
 
 
 
-* None
+
 
 ### Enums
 

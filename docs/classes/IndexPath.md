@@ -51,5 +51,5 @@ Provides an index path with the indexes in the receiving index path, excluding t
 
 
 
-* None
+
 

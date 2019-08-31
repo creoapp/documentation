@@ -37,5 +37,5 @@ Removes all the preferencies set by the user. After calling this method, the <i>
 
 
 
-* None
+
 

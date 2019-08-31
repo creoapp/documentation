@@ -105,7 +105,7 @@ Free the content of the Window, you can call this method on unused Windows to sa
 
 
 
-* None
+
 
 ### Enums
 

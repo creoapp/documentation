@@ -67,5 +67,5 @@ Sets a closure to be executed when the network availability host changes. The cl
 
 
 
-* None
+
 

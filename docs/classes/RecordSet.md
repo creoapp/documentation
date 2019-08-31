@@ -92,7 +92,7 @@ Move to the previous record. Returns false is no more records are availables.
 
 
 
-* None
+
 
 ### Enums
 

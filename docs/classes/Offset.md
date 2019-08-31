@@ -29,5 +29,5 @@ Copy a Offset object by value (duplicate).
 
 
 
-* None
+
 

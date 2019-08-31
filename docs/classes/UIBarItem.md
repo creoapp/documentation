@@ -6,7 +6,7 @@ This class is reserved and cannot be directly instantiated.
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -27,5 +27,5 @@ The name of the object.
 
 
 
-* None
+
 

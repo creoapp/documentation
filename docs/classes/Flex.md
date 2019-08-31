@@ -6,7 +6,7 @@ This class is reserved and cannot be directly instantiated.
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -190,7 +190,7 @@ Mark that a view's layout needs to be recalculated. Only works for leaf views
 
 
 
-* None
+
 
 ### Enums
 

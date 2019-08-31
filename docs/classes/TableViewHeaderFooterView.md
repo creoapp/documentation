@@ -6,7 +6,7 @@ A reusable view that can be placed at the top or bottom of a table section to di
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -18,5 +18,5 @@ The name of the object.
 
 
 
-* None
+
 

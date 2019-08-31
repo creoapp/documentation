@@ -17,5 +17,5 @@ This event is called when the scroll view ends decelerating the scrolling moveme
 
 
 
-* None
+
 

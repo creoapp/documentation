@@ -110,5 +110,5 @@ Returns the average power for a given channel, in decibels, for the sound being 
 
 
 
-* None
+
 

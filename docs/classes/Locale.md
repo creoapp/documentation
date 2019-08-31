@@ -101,5 +101,5 @@ Returns the localized string for the specified calendar identifier.
 
 
 
-* None
+
 

@@ -63,7 +63,7 @@ Delete the OAuth access token stored in the keychain for this service.
 
 
 
-* None
+
 
 ### Enums
 

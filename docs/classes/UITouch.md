@@ -6,7 +6,7 @@ This class is reserved and cannot be directly instantiated.
 
 ### Events
 
-* None
+
 
 ### Properties
 
@@ -25,5 +25,5 @@ Returns the current location of the touch in the coordinate system of the given 
 
 
 
-* None
+
 

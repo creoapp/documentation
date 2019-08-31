@@ -38,7 +38,7 @@ Share URL with others apps.
 
 
 
-* None
+
 
 ### Methods
 
@@ -50,5 +50,5 @@ Add a service that you do not want displayed to the user. You might exclude serv
 
 
 
-* None
+
 
