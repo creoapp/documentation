@@ -26,7 +26,7 @@ This event is triggered when a new still picture is available.
 This event is triggered when a new recordered movie is available.
 
 * **RecognizedObjects**(**objects**: **[List](../gravity/list.md)**)
-This event is triggered any time the array of recognized metadata objects changes or the position of a recognized object changes. The 'objects' parameter is a List of RecognizedObject.
+This event is triggered any time the array of recognized metadata objects changes or the position of a recognized object changes. The 'objects' parameter is a List of <a href="RecognizedObject.md">RecognizedObject</a>.
 
 * **DidShow**()
 The view has been added to the App's views hierarchy.
