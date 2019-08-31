@@ -16,7 +16,7 @@ The attempt to start the server has failed.
 * **DidStop**()
 The server has been successfully stopped.
 
-* **DidReceiveRequest**(**method**: **[String](../gravity/string.md)**, **path**: **[String](../gravity/string.md)**, **body**: **[Object](../gravity/object.md)**)-> <strong>[Object](../gravity/object.md)</strong> 
+* **DidReceiveRequest**(**method**: **[String](../gravity/string.md)**, **path**: **[String](../gravity/string.md)**, **body**: **[Object](../gravity/object.md)**)<strong>: [Object](../gravity/object.md)</strong> 
 This event is called to get a response for a request. You may return a String containing an url or a file path to redirect the request or the Data to send. If the return value is invalid or null, the HTTPServer will use the default behavior, looking for the requested path in the specified document root.
 
 * **WillSendResponse**(**host**: **[String](../gravity/string.md)**, **method**: **[String](../gravity/string.md)**, **path**: **[String](../gravity/string.md)**, **statusCode**: **[Int](../gravity/int.md)**, **contentLength**: **[Int](../gravity/int.md)**)

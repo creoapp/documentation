@@ -21,7 +21,7 @@ Instantiate a new Data object.
 
 ### Methods
 
-* **func** **bytes**(**range**: **[Range](../gravity/range.md)**)-> <strong>[Data](Data.md)</strong> 
+* **func** **bytes**(**range**: **[Range](../gravity/range.md)**)<strong>: [Data](Data.md)</strong> 
 Copies a range of bytes from the receiver’s data.
 
 * **func** **append**(**value**: **[Object](../gravity/object.md)**)

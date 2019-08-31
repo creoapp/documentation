@@ -171,10 +171,10 @@ The name of the object.
 
 ### Methods
 
-* **func** **numberFromString**(**string**: **[String](../gravity/string.md)**)-> <strong>[Int](../gravity/int.md)</strong> 
+* **func** **numberFromString**(**string**: **[String](../gravity/string.md)**)<strong>: [Int](../gravity/int.md)</strong> 
 Returns an Number object created by parsing a given string. If a string contains any characters other than numerical digits or locale-appropriate group or decimal separators, parsing will fail. Any leading or trailing space separator characters in a string are ignored.
 
-* **func** **stringFromNumber**(**number**: **[Int](../gravity/int.md)**)-> <strong>[String](../gravity/string.md)</strong> 
+* **func** **stringFromNumber**(**number**: **[Int](../gravity/int.md)**)<strong>: [String](../gravity/string.md)</strong> 
 Returns a string containing the formatted value of the provided number object.
 
 

@@ -75,19 +75,19 @@ The name of the object.
 * **func** **setValueAnimated**(**value**: **[Float](../gravity/float.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Sets the receiver’s current value, allowing you to animate the change visually.
 
-* **func** **minimumTrackImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)-> <strong>[Image](Image.md)</strong> 
+* **func** **minimumTrackImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)<strong>: [Image](Image.md)</strong> 
 Returns the minimum track image associated with the specified control state.
 
 * **func** **setMinimumTrackImageForState**(**image**: **[Image](Image.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Assigns a minimum track image to the specified control states.
 
-* **func** **maximumTrackImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)-> <strong>[Image](Image.md)</strong> 
+* **func** **maximumTrackImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)<strong>: [Image](Image.md)</strong> 
 Returns the maximum track image associated with the specified control state.
 
 * **func** **setMaximumTrackImageForState**(**image**: **[Image](Image.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Assigns a maximum track image to the specified control states.
 
-* **func** **thumbImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)-> <strong>[Image](Image.md)</strong> 
+* **func** **thumbImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)<strong>: [Image](Image.md)</strong> 
 Returns the thumb image associated with the specified control state.
 
 * **func** **setThumbImageForState**(**image**: **[Image](Image.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)

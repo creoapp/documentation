@@ -33,13 +33,13 @@ The name of the object.
 
 ### Constructors
 
-* **func** **Timer**()-> <strong>[instance](#)</strong> 
+* **func** **Timer**()<strong>: [instance](#)</strong> 
 Initializes a timer object with a time interval equals to 0.0.
 
-* **func** **Timer**(**interval**: **[Float](../gravity/float.md)**)-> <strong>[instance](#)</strong> 
+* **func** **Timer**(**interval**: **[Float](../gravity/float.md)**)<strong>: [instance](#)</strong> 
 Initializes a timer object with the specified time interval. The timer will be invalidated after it fires.
 
-* **func** **Timer**(**interval**: **[Float](../gravity/float.md)**, **repeat**: **[Bool](../gravity/bool.md)**)-> <strong>[instance](#)</strong> 
+* **func** **Timer**(**interval**: **[Float](../gravity/float.md)**, **repeat**: **[Bool](../gravity/bool.md)**)<strong>: [instance](#)</strong> 
 Initializes a timer object with the specified time interval and repeat option. If the repeat option is true, the timer will repeatedly reschedule itself until invalidated, otherwise the timer will be invalidated after it fires.
 
 

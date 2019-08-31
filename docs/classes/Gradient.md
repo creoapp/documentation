@@ -37,7 +37,7 @@ The name of the object.
 
 ### Methods
 
-* **func** **addColorStop**(**color**: **[Color](Color.md)**, **location**: **[Float](../gravity/float.md)**)-> <strong>[Int](../gravity/int.md)</strong> 
+* **func** **addColorStop**(**color**: **[Color](Color.md)**, **location**: **[Float](../gravity/float.md)**)<strong>: [Int](../gravity/int.md)</strong> 
 Add a new color stop to the gradient at the specified location.
 
 * **func** **removeColorStop**(**index**: **[Int](../gravity/int.md)**)
@@ -49,7 +49,7 @@ Update stop color at the specified index (with a new color).
 * **func** **updateLocation**(**index**: **[Int](../gravity/int.md)**, **location**: **[Float](../gravity/float.md)**)
 Update stop color at the specified index (with a new location).
 
-* **func** **isEqual**(**gradient**: **[Gradient](Gradient.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **isEqual**(**gradient**: **[Gradient](Gradient.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 Compare two Gradient objects.
 
 

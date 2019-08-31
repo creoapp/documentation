@@ -177,7 +177,7 @@ The name of the object.
 * **func** **applyLayout**()
 Apply layout preserving origin
 
-* **func** **calculateLayoutWithSize**(**value**: **[Size](Size.md)**)-> <strong>[Size](Size.md)</strong> 
+* **func** **calculateLayoutWithSize**(**value**: **[Size](Size.md)**)<strong>: [Size](Size.md)</strong> 
 Returns the size of the view based on provided constraints. Pass Layout.undefined for an unconstrained dimension.
 
 * **func** **applyLayoutPreservingOrigin**(**value**: **[Bool](../gravity/bool.md)**)

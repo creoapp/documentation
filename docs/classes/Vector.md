@@ -49,7 +49,7 @@ Initializes a vector with the provided values.
 
 ### Methods
 
-* **func** **valueAtIndex**(**index**: **[Int](../gravity/int.md)**)-> <strong>[Float](../gravity/float.md)</strong> 
+* **func** **valueAtIndex**(**index**: **[Int](../gravity/int.md)**)<strong>: [Float](../gravity/float.md)</strong> 
 Returns a value from a specific position in the vector.
 
 

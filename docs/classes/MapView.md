@@ -111,7 +111,7 @@ Adds the specified annotation to the map view.
 * **func** **removeAnnotation**(**annotationPoint**: **[MapPointAnnotation](MapPointAnnotation.md)**)
 Removes the specified annotation object from the map view.
 
-* **func** **annotationsInRect**(**regionRect**: **[Rect](Rect.md)**)-> <strong>[List](../gravity/list.md)</strong> 
+* **func** **annotationsInRect**(**regionRect**: **[Rect](Rect.md)**)<strong>: [List](../gravity/list.md)</strong> 
 Returns the annotation objects located in the specified map rectangle.
 
 * **func** **addAnnotations**(**annotations**: **[List](../gravity/list.md)**)

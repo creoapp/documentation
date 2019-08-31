@@ -7,16 +7,16 @@ Base class for <a href="LineShape.html">LineShape</a>, <a href="RectShape.html">
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **TouchesBegan**(**touches**: **[Object](../gravity/object.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **TouchesBegan**(**touches**: **[Object](../gravity/object.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 This event is called when one or more new touches occurred in this view and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
-* **TouchesMoved**(**touches**: **[Object](../gravity/object.md)**, **touchInside**: **[Bool](../gravity/bool.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **TouchesMoved**(**touches**: **[Object](../gravity/object.md)**, **touchInside**: **[Bool](../gravity/bool.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 This event is called when the location or force of a touch changes and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
-* **TouchesEnded**(**touches**: **[Object](../gravity/object.md)**, **touchInside**: **[Bool](../gravity/bool.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **TouchesEnded**(**touches**: **[Object](../gravity/object.md)**, **touchInside**: **[Bool](../gravity/bool.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 This event is called when one or more fingers are raised and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
-* **TouchesCancelled**(**touches**: **[Object](../gravity/object.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **TouchesCancelled**(**touches**: **[Object](../gravity/object.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 This event is called when the sysyem receives a system interruption (such as a system alert) requiring cancellation of the touch sequence and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
 * **Unload**()

@@ -186,7 +186,7 @@ The name of the object.
 
 ### Class Methods
 
-* **func** **exposureString**(**seconds**: **[Float](../gravity/float.md)**)-> <strong>[String](../gravity/string.md)</strong> 
+* **func** **exposureString**(**seconds**: **[Float](../gravity/float.md)**)<strong>: [String](../gravity/string.md)</strong> 
 Return a readable string representation of the exposure value.
 
 * **func** **toggleTorch**()
@@ -202,10 +202,10 @@ Initiates a still image capture action. The onSuccess closure, if set, is execut
 * **func** **togglePosition**()
 Toggle the position of a capture device.
 
-* **func** **toggleFlashMode**()-> <strong><a href="#_enum_CameraFlashMode">CameraFlashMode</a></strong> 
+* **func** **toggleFlashMode**()<strong>: <a href="#_enum_CameraFlashMode">CameraFlashMode</a></strong> 
 Toggle the flash mode of the capture device. Returns the new flash mode.
 
-* **func** **setFlashMode**(**flashMode**: **[Int](../gravity/int.md)**)-> <strong><a href="#_enum_CameraFlashMode">CameraFlashMode</a></strong> 
+* **func** **setFlashMode**(**flashMode**: **[Int](../gravity/int.md)**)<strong>: <a href="#_enum_CameraFlashMode">CameraFlashMode</a></strong> 
 Set the flash mode of the capture device. Returns true if the camera supports the new flash mode, false otherwise.
 
 * **func** **startRecording**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)

@@ -40,13 +40,13 @@ Returns an index-path object initialized with the indexes of a specific item and
 
 ### Methods
 
-* **func** **index**(**position**: **[Int](../gravity/int.md)**)-> <strong>[Int](../gravity/int.md)</strong> 
+* **func** **index**(**position**: **[Int](../gravity/int.md)**)<strong>: [Int](../gravity/int.md)</strong> 
 The index at a particular node in the index path.
 
-* **func** **indexPathByAddingIndex**(**index**: **[Int](../gravity/int.md)**)-> <strong>[IndexPath](IndexPath.md)</strong> 
+* **func** **indexPathByAddingIndex**(**index**: **[Int](../gravity/int.md)**)<strong>: [IndexPath](IndexPath.md)</strong> 
 Returns a new index path by adding the new index to the current indexes.
 
-* **func** **indexPathByRemovingLastIndex**()-> <strong>[IndexPath](IndexPath.md)</strong> 
+* **func** **indexPathByRemovingLastIndex**()<strong>: [IndexPath](IndexPath.md)</strong> 
 Provides an index path with the indexes in the receiving index path, excluding the last one.
 
 

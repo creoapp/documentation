@@ -64,7 +64,7 @@ The name of the object.
 
 ### Class Methods
 
-* **func** **system**()-> <strong>[Locale](Locale.md)</strong> 
+* **func** **system**()<strong>: [Locale](Locale.md)</strong> 
 The generic locale that contains fixed "backstop" settings that provide values for otherwise undefined keys.
 
 
@@ -78,25 +78,25 @@ Returns a locale using a given locale identifier.
 
 ### Methods
 
-* **func** **stringForIdentifier**(**string**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
+* **func** **stringForIdentifier**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
 Returns the localized string for the specified locale identifier.
 
-* **func** **stringForCountryCode**(**string**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
+* **func** **stringForCountryCode**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
 Returns the localized string for the specified country code. For example, calling this method on an American English (en_US) locale, passing "GB" for countryCode, produces the string "United Kingdom".
 
-* **func** **stringForLanguageCode**(**string**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
+* **func** **stringForLanguageCode**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
 Returns the localized string for the specified language code. For example, calling this method on an American English (en_US) locale, passing "zh" for languageCode, produces the string "Chinese".
 
-* **func** **stringForScriptCode**(**string**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
+* **func** **stringForScriptCode**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
 Returns the localized string for the specified script code. For example, calling this method on an American English (en_US) locale, passing "Hant" for scriptCode, produces the string "Traditional Han".
 
-* **func** **stringForVariantCode**(**string**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
+* **func** **stringForVariantCode**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
 Returns the localized string for the specified variant code. For example, calling this method on an American English (en_US) locale, passing "POSIX" for variantCode, produces the string "Computer".
 
-* **func** **stringForCurrencyCode**(**string**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
+* **func** **stringForCurrencyCode**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
 Returns the localized string for the specified currency code. For example, calling this method on an American English (en_US) locale, passing "JPY" for currencyCode, produces the string "Japanese Yen".
 
-* **func** **stringForCalendarIdentifier**(**string**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
+* **func** **stringForCalendarIdentifier**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
 Returns the localized string for the specified calendar identifier.
 
 

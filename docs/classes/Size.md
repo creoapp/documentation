@@ -24,7 +24,7 @@ Create a new Size object.
 
 ### Methods
 
-* **func** **copy**()-> <strong>[Size](Size.md)</strong> 
+* **func** **copy**()<strong>: [Size](Size.md)</strong> 
 Copy a Size object by value (duplicate).
 
 

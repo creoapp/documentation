@@ -40,7 +40,7 @@ The name of the object.
 
 ### Methods
 
-* **func** **image**()-> <strong>[Image](Image.md)</strong> 
+* **func** **image**()<strong>: [Image](Image.md)</strong> 
 Convert the BezierPath to an Image. The size of the image is the smallest rectangle that completely encloses all points in the path.
 
 * **func** **stroke**()
@@ -67,7 +67,7 @@ Paints the region enclosed by the receiver’s path using the specified blend mo
 * **func** **strokeWithBlendMode**(**blendMode**: **<a href="#_enum_BlendMode">BlendMode</a>**, **alpha**: **[Float](../gravity/float.md)**)
 Draws a line along the receiver’s path using the specified blend mode and transparency values.
 
-* **func** **containsPoint**(**point**: **[Point](Point.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **containsPoint**(**point**: **[Point](Point.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether the area enclosed by the receiver contains the specified point.
 
 * **func** **addArc**(**point**: **[Point](Point.md)**, **radius**: **[Float](../gravity/float.md)**, **startAngle**: **[Float](../gravity/float.md)**, **endAngle**: **[Float](../gravity/float.md)**, **clockwise**: **[Bool](../gravity/bool.md)**)

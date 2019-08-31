@@ -7,13 +7,13 @@ A TextField object displays an editable text area in your interface. You use tex
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **ShouldBeginEditing**()-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **ShouldBeginEditing**()<strong>: [Bool](../gravity/bool.md)</strong> 
 This event is called when the user performs an action that would normally initiate the editing of the text field’s text. Return true if editing should begin or false if it should not. Most of the time, you should return true to allow editing to proceed. If you do not implement this method, the text field acts as if this method had returned true.
 
-* **ShouldEndEditing**()-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **ShouldEndEditing**()<strong>: [Bool](../gravity/bool.md)</strong> 
 This event is called when the control is asked to resign the first responder status. Return true if editing should stop or false if it should continue. Normally, you would return true from this method to allow the text field to resign the first responder status. You might return false, however, in cases where your delegate detects invalid contents in the text field. Returning false prevents the user from switching to another control until the text field contains a valid value.
 
-* **ShouldChangeText**(**text**: **[String](../gravity/string.md)**, **range**: **[Range](../gravity/range.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **ShouldChangeText**(**text**: **[String](../gravity/string.md)**, **range**: **[Range](../gravity/range.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 This event is called when the control is asked to check if the specified text should be changed. Return true if you accept the change or false to reject the change. Returning false prevents the user from changing the text. If you do not implement this method, the text field acts as if this method had returned true.
 
 * **DidTapReturn**()

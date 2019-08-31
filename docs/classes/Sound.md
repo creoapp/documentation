@@ -47,7 +47,7 @@ The name of the object.
 
 ### Class Methods
 
-* **func** **open**(**srcfile**: **[Object](../gravity/object.md)**)-> <strong>[Object](../gravity/object.md)</strong> 
+* **func** **open**(**srcfile**: **[Object](../gravity/object.md)**)<strong>: [Object](../gravity/object.md)</strong> 
 Initializes and returns the Sound object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
 
@@ -64,7 +64,7 @@ Creates and initializes a new sound resource.
 
 ### Methods
 
-* **func** **play**()-> <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **play**()<strong>: [Bool](../gravity/bool.md)</strong> 
 Plays a sound asynchronously.
 
 * **func** **pause**()
