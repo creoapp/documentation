@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 The Crypto module provides cryptographic and encoding functionalities.
 

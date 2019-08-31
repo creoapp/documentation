@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 Represents a point in a Cartesian coordinate system.
 

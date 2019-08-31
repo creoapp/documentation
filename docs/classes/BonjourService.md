@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 A network service that broadcasts its availability using multicast DNS.
 

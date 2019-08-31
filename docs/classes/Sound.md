@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 Provides playback of audio data from a file, an url or memory. A Sound object is usually a representation of an audio asset.
 

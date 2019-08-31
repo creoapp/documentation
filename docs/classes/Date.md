@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 Date objects encapsulate a single point in time, independent of any particular calendrical system or time zone. The Date class provides methods for comparing dates, calculating the time interval between two dates, and creating a new date from a time interval relative to another date.
 

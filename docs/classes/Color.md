@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 A Color object represents color and sometimes opacity (alpha value). You can use Color objects to store color data, and during drawing you can use them to set the current fill and stroke colors.
 Many methods require you to specify color data using a Color object, and for general color needs it should be your main way of specifying colors.

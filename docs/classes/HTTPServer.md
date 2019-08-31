@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 The HTTPServer class provides a small, lightweight, embeddable HTTP server for your applications.
 

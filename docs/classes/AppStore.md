@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 The AppStore module provides support for in-app purchases and interactions with the App Store.
 

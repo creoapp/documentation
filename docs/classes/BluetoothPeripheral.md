@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 The BluetoothPeripheral class enables you to publish services and to advertise these services to central devices which support Bluetooth 4.0 low-energy.
 

@@ -1,4 +1,4 @@
-**super**: **[Object](../gravity/object.md.md)**
+**super**: **[Object](../gravity/object.md)**
 
 The Gradient class provides support for drawing gradient fill colors, also known as shadings. This class provides convenience methods for drawing radial or linear (axial) gradients for rectangles and other objects. It also supports primitive methods that let you customize the shape of the gradient fill.
 A gradient consists of two or more color changes over the range of the gradient shape. When creating a gradient object, you specify the colors and their locations relative to the start and end of the gradient. This combination of color and location is known as a color stop.
