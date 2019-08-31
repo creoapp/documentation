@@ -112,7 +112,8 @@ Clear focus from selected control
 
 ### Enumeration
 
-<div name="_enum_ButtonType"></div>#### ButtonType
+<div name="_enum_ButtonType"></div>
+#### ButtonType
  * .ContactAdd
  * .Custom
  * .DetailDisclosure
@@ -121,7 +122,8 @@ Clear focus from selected control
  * .RoundedRect
  * .System
 
-<div name="_enum_ControlState"></div>#### ControlState
+<div name="_enum_ControlState"></div>
+#### ControlState
  * .Application
  * .Disabled
  * .Focused
@@ -129,7 +131,8 @@ Clear focus from selected control
  * .Normal
  * .Selected
 
-<div name="_enum_AnimationOption"></div>#### AnimationOption
+<div name="_enum_AnimationOption"></div>
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

@@ -114,19 +114,22 @@ Clear focus from selected control
 
 ### Enumeration
 
-<div name="_enum_TextType"></div>#### TextType
+<div name="_enum_TextType"></div>
+#### TextType
  * .HTML
  * .Markdown
  * .Text
 
-<div name="_enum_TextAlignment"></div>#### TextAlignment
+<div name="_enum_TextAlignment"></div>
+#### TextAlignment
  * .Center
  * .Justified
  * .Left
  * .Natural
  * .Right
 
-<div name="_enum_DataDetectorTypes"></div>#### DataDetectorTypes
+<div name="_enum_DataDetectorTypes"></div>
+#### DataDetectorTypes
  * .Address
  * .All
  * .CalendarEvent
@@ -134,23 +137,27 @@ Clear focus from selected control
  * .None
  * .PhoneNumber
 
-<div name="_enum_TextAutocapitalizationType"></div>#### TextAutocapitalizationType
+<div name="_enum_TextAutocapitalizationType"></div>
+#### TextAutocapitalizationType
  * .AllCharacters
  * .None
  * .Sentences
  * .Words
 
-<div name="_enum_TextAutocorrectionType"></div>#### TextAutocorrectionType
+<div name="_enum_TextAutocorrectionType"></div>
+#### TextAutocorrectionType
  * .Default
  * .No
  * .Yes
 
-<div name="_enum_TextSpellCheckingType"></div>#### TextSpellCheckingType
+<div name="_enum_TextSpellCheckingType"></div>
+#### TextSpellCheckingType
  * .Default
  * .No
  * .Yes
 
-<div name="_enum_KeyboardType"></div>#### KeyboardType
+<div name="_enum_KeyboardType"></div>
+#### KeyboardType
  * .ASCIICapable
  * .ASCIICapableNumberPad
  * .DecimalPad
@@ -164,7 +171,8 @@ Clear focus from selected control
  * .URL
  * .WebSearch
 
-<div name="_enum_AnimationOption"></div>#### AnimationOption
+<div name="_enum_AnimationOption"></div>
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

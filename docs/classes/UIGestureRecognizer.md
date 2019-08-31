@@ -56,7 +56,8 @@ This method creates a relationship with another gesture recognizer that delays t
 
 ### Enumeration
 
-<div name="_enum_GestureRecognizerState"></div>#### GestureRecognizerState
+<div name="_enum_GestureRecognizerState"></div>
+#### GestureRecognizerState
  * .Began
  * .Cancelled
  * .Changed

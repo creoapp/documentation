@@ -69,14 +69,16 @@ Clear focus from selected control
 
 ### Enumeration
 
-<div name="_enum_RectCorner"></div>#### RectCorner
+<div name="_enum_RectCorner"></div>
+#### RectCorner
  * .AllCorners
  * .BottomLeft
  * .BottomRight
  * .TopLeft
  * .TopRight
 
-<div name="_enum_BorderStyle"></div>#### BorderStyle
+<div name="_enum_BorderStyle"></div>
+#### BorderStyle
  * .All
  * .Bottom
  * .Left
@@ -84,7 +86,8 @@ Clear focus from selected control
  * .Right
  * .Top
 
-<div name="_enum_AnimationOption"></div>#### AnimationOption
+<div name="_enum_AnimationOption"></div>
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

@@ -69,12 +69,14 @@ Clear focus from selected control
 
 ### Enumeration
 
-<div name="_enum_ActivityIndicatorStyle"></div>#### ActivityIndicatorStyle
+<div name="_enum_ActivityIndicatorStyle"></div>
+#### ActivityIndicatorStyle
  * .Gray
  * .White
  * .WhiteLarge
 
-<div name="_enum_AnimationOption"></div>#### AnimationOption
+<div name="_enum_AnimationOption"></div>
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

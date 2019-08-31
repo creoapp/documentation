@@ -93,25 +93,29 @@ Clear focus from selected control
 
 ### Enumeration
 
-<div name="_enum_ChartType"></div>#### ChartType
+<div name="_enum_ChartType"></div>
+#### ChartType
  * .Area
  * .Bar
  * .Line
  * .Pie
  * .Scatter
 
-<div name="_enum_ChartPointStyle"></div>#### ChartPointStyle
+<div name="_enum_ChartPointStyle"></div>
+#### ChartPointStyle
  * .Circle
  * .None
  * .Square
 
-<div name="_enum_ChartDecorationStyle"></div>#### ChartDecorationStyle
+<div name="_enum_ChartDecorationStyle"></div>
+#### ChartDecorationStyle
  * .Glossy1
  * .Glossy2
  * .Gradient
  * .None
 
-<div name="_enum_AnimationOption"></div>#### AnimationOption
+<div name="_enum_AnimationOption"></div>
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

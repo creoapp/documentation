@@ -62,7 +62,8 @@ Set a new value with percent as unit
 
 ### Enumeration
 
-<div name="_enum_FlexUnit"></div>#### FlexUnit
+<div name="_enum_FlexUnit"></div>
+#### FlexUnit
  * .Percent
  * .Point
 

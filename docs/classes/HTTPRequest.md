@@ -127,7 +127,8 @@ Send the HTTPRequest. The optional <code>onSuccess</code> and <code>onError</cod
 
 ### Enumeration
 
-<div name="_enum_HTTPMethod"></div>#### HTTPMethod
+<div name="_enum_HTTPMethod"></div>
+#### HTTPMethod
  * .Delete
  * .Get
  * .Head
@@ -135,13 +136,15 @@ Send the HTTPRequest. The optional <code>onSuccess</code> and <code>onError</cod
  * .Post
  * .Put
 
-<div name="_enum_HTTPBodyMode"></div>#### HTTPBodyMode
+<div name="_enum_HTTPBodyMode"></div>
+#### HTTPBodyMode
  * .FormData
  * .FormUrlencoded
  * .JSON
  * .Raw
 
-<div name="_enum_HTTPResponseSerializer"></div>#### HTTPResponseSerializer
+<div name="_enum_HTTPResponseSerializer"></div>
+#### HTTPResponseSerializer
  * .Data
  * .Image
  * .JSON
@@ -149,7 +152,8 @@ Send the HTTPRequest. The optional <code>onSuccess</code> and <code>onError</cod
  * .Text
  * .XML
 
-<div name="_enum_HTTPRedirectMode"></div>#### HTTPRedirectMode
+<div name="_enum_HTTPRedirectMode"></div>
+#### HTTPRedirectMode
  * .Allow
  * .Reject
  * .RejectAndCancel

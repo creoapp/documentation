@@ -102,17 +102,20 @@ Appends the contents of the specified path object to the receiver’s path.
 
 ### Enumeration
 
-<div name="_enum_LineCapStyle"></div>#### LineCapStyle
+<div name="_enum_LineCapStyle"></div>
+#### LineCapStyle
  * .Butt
  * .Round
  * .Square
 
-<div name="_enum_LineJoinStyle"></div>#### LineJoinStyle
+<div name="_enum_LineJoinStyle"></div>
+#### LineJoinStyle
  * .Bevel
  * .Miter
  * .Round
 
-<div name="_enum_BlendMode"></div>#### BlendMode
+<div name="_enum_BlendMode"></div>
+#### BlendMode
  * .Clear
  * .Color
  * .ColorBurn
@@ -142,7 +145,8 @@ Appends the contents of the specified path object to the receiver’s path.
  * .SourceOut
  * .XOR
 
-<div name="_enum_RectCorner"></div>#### RectCorner
+<div name="_enum_RectCorner"></div>
+#### RectCorner
  * .AllCorners
  * .BottomLeft
  * .BottomRight

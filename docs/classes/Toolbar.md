@@ -48,13 +48,15 @@ Clear focus from selected control
 
 ### Enumeration
 
-<div name="_enum_BarStyle"></div>#### BarStyle
+<div name="_enum_BarStyle"></div>
+#### BarStyle
  * .Black
  * .BlackOpaque
  * .BlackTranslucent
  * .Default
 
-<div name="_enum_AnimationOption"></div>#### AnimationOption
+<div name="_enum_AnimationOption"></div>
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

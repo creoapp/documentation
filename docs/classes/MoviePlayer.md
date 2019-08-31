@@ -164,35 +164,41 @@ Clear focus from selected control
 
 ### Enumeration
 
-<div name="_enum_MovieSourceType"></div>#### MovieSourceType
+<div name="_enum_MovieSourceType"></div>
+#### MovieSourceType
  * .File
  * .Streaming
  * .Unknown
 
-<div name="_enum_MovieMediaTypeMask"></div>#### MovieMediaTypeMask
+<div name="_enum_MovieMediaTypeMask"></div>
+#### MovieMediaTypeMask
  * .Audio
  * .None
  * .Video
 
-<div name="_enum_MovieScalingMode"></div>#### MovieScalingMode
+<div name="_enum_MovieScalingMode"></div>
+#### MovieScalingMode
  * .AspectFill
  * .AspectFit
  * .Fill
  * .None
 
-<div name="_enum_MovieControlStyle"></div>#### MovieControlStyle
+<div name="_enum_MovieControlStyle"></div>
+#### MovieControlStyle
  * .Default
  * .Embedded
  * .Fullscreen
  * .None
 
-<div name="_enum_MovieLoadState"></div>#### MovieLoadState
+<div name="_enum_MovieLoadState"></div>
+#### MovieLoadState
  * .Playable
  * .PlaythroughOK
  * .Stalled
  * .Unknown
 
-<div name="_enum_MoviePlaybackState"></div>#### MoviePlaybackState
+<div name="_enum_MoviePlaybackState"></div>
+#### MoviePlaybackState
  * .Interrupted
  * .Paused
  * .Playing
@@ -200,11 +206,13 @@ Clear focus from selected control
  * .SeekingForward
  * .Stopped
 
-<div name="_enum_MovieRepeatMode"></div>#### MovieRepeatMode
+<div name="_enum_MovieRepeatMode"></div>
+#### MovieRepeatMode
  * .None
  * .One
 
-<div name="_enum_AnimationOption"></div>#### AnimationOption
+<div name="_enum_AnimationOption"></div>
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

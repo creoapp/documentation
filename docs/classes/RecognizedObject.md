@@ -32,7 +32,8 @@ The name of the object.
 
 ### Enumeration
 
-<div name="_enum_MachineReadableObjectType"></div>#### MachineReadableObjectType
+<div name="_enum_MachineReadableObjectType"></div>
+#### MachineReadableObjectType
  * .AztecCode
  * .Code128Code
  * .Code39Code

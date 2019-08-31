@@ -101,17 +101,20 @@ Sets whether the navigation bar is hidden.
 
 ### Enumeration
 
-<div name="_enum_StatusBarVisibility"></div>#### StatusBarVisibility
+<div name="_enum_StatusBarVisibility"></div>
+#### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
-<div name="_enum_StatusBarStyle"></div>#### StatusBarStyle
+<div name="_enum_StatusBarStyle"></div>
+#### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
 
-<div name="_enum_TransitionStyle"></div>#### TransitionStyle
+<div name="_enum_TransitionStyle"></div>
+#### TransitionStyle
  * .Cards
  * .CoverVertical
  * .CrossDissolve

@@ -134,40 +134,47 @@ Clear focus from selected control
 
 ### Enumeration
 
-<div name="_enum_SearchBarAction"></div>#### SearchBarAction
+<div name="_enum_SearchBarAction"></div>
+#### SearchBarAction
  * .Bookmark
  * .Cancel
  * .ResultsList
  * .Search
 
-<div name="_enum_SearchBarStyle"></div>#### SearchBarStyle
+<div name="_enum_SearchBarStyle"></div>
+#### SearchBarStyle
  * .Default
  * .Minimal
  * .Prominent
 
-<div name="_enum_BarStyle"></div>#### BarStyle
+<div name="_enum_BarStyle"></div>
+#### BarStyle
  * .Black
  * .BlackOpaque
  * .BlackTranslucent
  * .Default
 
-<div name="_enum_TextAutocapitalizationType"></div>#### TextAutocapitalizationType
+<div name="_enum_TextAutocapitalizationType"></div>
+#### TextAutocapitalizationType
  * .AllCharacters
  * .None
  * .Sentences
  * .Words
 
-<div name="_enum_TextAutocorrectionType"></div>#### TextAutocorrectionType
+<div name="_enum_TextAutocorrectionType"></div>
+#### TextAutocorrectionType
  * .Default
  * .No
  * .Yes
 
-<div name="_enum_TextSpellCheckingType"></div>#### TextSpellCheckingType
+<div name="_enum_TextSpellCheckingType"></div>
+#### TextSpellCheckingType
  * .Default
  * .No
  * .Yes
 
-<div name="_enum_KeyboardType"></div>#### KeyboardType
+<div name="_enum_KeyboardType"></div>
+#### KeyboardType
  * .ASCIICapable
  * .ASCIICapableNumberPad
  * .DecimalPad
@@ -181,7 +188,8 @@ Clear focus from selected control
  * .URL
  * .WebSearch
 
-<div name="_enum_AnimationOption"></div>#### AnimationOption
+<div name="_enum_AnimationOption"></div>
+#### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction
  * .Autoreverse

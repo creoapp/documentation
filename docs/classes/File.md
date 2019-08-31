@@ -76,7 +76,8 @@ Writes the specified string to the receiver. Returns true if the operation was s
 
 ### Enumeration
 
-<div name="_enum_FileMode"></div>#### FileMode
+<div name="_enum_FileMode"></div>
+#### FileMode
  * .Read
  * .Update
  * .Write
