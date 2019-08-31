@@ -140,6 +140,7 @@ Returns a darker color with the amount specified in the parameter (only valid if
 ### Enumeration
 
 <div name="_enum_ColorSpaceModel"></div>
+
 #### ColorSpaceModel
  * .CMYK
  * .DeviceN

@@ -91,6 +91,7 @@ Clear focus from selected control
 ### Enumeration
 
 <div name="_enum_AnimationOption"></div>
+
 #### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction

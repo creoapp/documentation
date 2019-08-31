@@ -184,22 +184,26 @@ Clear focus from selected control
 ### Enumeration
 
 <div name="_enum_TableViewCellEditingStyle"></div>
+
 #### TableViewCellEditingStyle
  * .Delete
  * .Insert
  * .None
 
 <div name="_enum_TableViewStyle"></div>
+
 #### TableViewStyle
  * .Grouped
  * .Plain
 
 <div name="_enum_TableViewCellSeparatorStyle"></div>
+
 #### TableViewCellSeparatorStyle
  * .None
  * .SingleLine
 
 <div name="_enum_TableViewScrollPosition"></div>
+
 #### TableViewScrollPosition
  * .Bottom
  * .Middle
@@ -207,6 +211,7 @@ Clear focus from selected control
  * .Top
 
 <div name="_enum_TableViewRowAnimation"></div>
+
 #### TableViewRowAnimation
  * .Automatic
  * .Bottom
@@ -218,6 +223,7 @@ Clear focus from selected control
  * .Top
 
 <div name="_enum_AnimationOption"></div>
+
 #### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction

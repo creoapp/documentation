@@ -195,17 +195,20 @@ Mark that a view's layout needs to be recalculated. Only works for leaf views
 ### Enumeration
 
 <div name="_enum_Direction"></div>
+
 #### Direction
  * .Inherit
  * .LTR
  * .RTL
 
 <div name="_enum_FlexDirection"></div>
+
 #### FlexDirection
  * .Column
  * .Row
 
 <div name="_enum_Justify"></div>
+
 #### Justify
  * .Center
  * .FlexEnd
@@ -215,6 +218,7 @@ Mark that a view's layout needs to be recalculated. Only works for leaf views
  * .SpaceEvenly
 
 <div name="_enum_Align"></div>
+
 #### Align
  * .Auto
  * .Baseline
@@ -226,16 +230,19 @@ Mark that a view's layout needs to be recalculated. Only works for leaf views
  * .Stretch
 
 <div name="_enum_Wrap"></div>
+
 #### Wrap
  * .No
  * .Yes
 
 <div name="_enum_Display"></div>
+
 #### Display
  * .Flex
  * .None
 
 <div name="_enum_PositionType"></div>
+
 #### PositionType
  * .Absolute
  * .Relative

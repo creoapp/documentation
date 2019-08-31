@@ -97,6 +97,7 @@ Move to the previous record. Returns false is no more records are availables.
 ### Enumeration
 
 <div name="_enum_DatabaseFieldType"></div>
+
 #### DatabaseFieldType
  * .Blob
  * .DateTime

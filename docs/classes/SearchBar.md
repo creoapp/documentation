@@ -135,6 +135,7 @@ Clear focus from selected control
 ### Enumeration
 
 <div name="_enum_SearchBarAction"></div>
+
 #### SearchBarAction
  * .Bookmark
  * .Cancel
@@ -142,12 +143,14 @@ Clear focus from selected control
  * .Search
 
 <div name="_enum_SearchBarStyle"></div>
+
 #### SearchBarStyle
  * .Default
  * .Minimal
  * .Prominent
 
 <div name="_enum_BarStyle"></div>
+
 #### BarStyle
  * .Black
  * .BlackOpaque
@@ -155,6 +158,7 @@ Clear focus from selected control
  * .Default
 
 <div name="_enum_TextAutocapitalizationType"></div>
+
 #### TextAutocapitalizationType
  * .AllCharacters
  * .None
@@ -162,18 +166,21 @@ Clear focus from selected control
  * .Words
 
 <div name="_enum_TextAutocorrectionType"></div>
+
 #### TextAutocorrectionType
  * .Default
  * .No
  * .Yes
 
 <div name="_enum_TextSpellCheckingType"></div>
+
 #### TextSpellCheckingType
  * .Default
  * .No
  * .Yes
 
 <div name="_enum_KeyboardType"></div>
+
 #### KeyboardType
  * .ASCIICapable
  * .ASCIICapableNumberPad
@@ -189,6 +196,7 @@ Clear focus from selected control
  * .WebSearch
 
 <div name="_enum_AnimationOption"></div>
+
 #### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction

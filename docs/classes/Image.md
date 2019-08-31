@@ -83,17 +83,20 @@ Applies the list of filters to the source image. You don't need to set the input
 ### Enumeration
 
 <div name="_enum_ImageResizingMode"></div>
+
 #### ImageResizingMode
  * .Stretch
  * .Tile
 
 <div name="_enum_ImageRenderingMode"></div>
+
 #### ImageRenderingMode
  * .AlwaysOriginal
  * .AlwaysTemplate
  * .Automatic
 
 <div name="_enum_ImageOrientation"></div>
+
 #### ImageOrientation
  * .Down
  * .DownMirrored

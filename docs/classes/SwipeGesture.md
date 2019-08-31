@@ -42,6 +42,7 @@ The name of the object.
 ### Enumeration
 
 <div name="_enum_SwipeGestureRecognizerDirection"></div>
+
 #### SwipeGestureRecognizerDirection
  * .Down
  * .Left

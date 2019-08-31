@@ -93,12 +93,14 @@ Returns a String that contains file full path.
 ### Enumeration
 
 <div name="_enum_FileMode"></div>
+
 #### FileMode
  * .Read
  * .Update
  * .Write
 
 <div name="_enum_SearchPath"></div>
+
 #### SearchPath
  * .ApplicationSupport
  * .Assets

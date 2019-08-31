@@ -103,18 +103,21 @@ Appends the contents of the specified path object to the receiver’s path.
 ### Enumeration
 
 <div name="_enum_LineCapStyle"></div>
+
 #### LineCapStyle
  * .Butt
  * .Round
  * .Square
 
 <div name="_enum_LineJoinStyle"></div>
+
 #### LineJoinStyle
  * .Bevel
  * .Miter
  * .Round
 
 <div name="_enum_BlendMode"></div>
+
 #### BlendMode
  * .Clear
  * .Color
@@ -146,6 +149,7 @@ Appends the contents of the specified path object to the receiver’s path.
  * .XOR
 
 <div name="_enum_RectCorner"></div>
+
 #### RectCorner
  * .AllCorners
  * .BottomLeft

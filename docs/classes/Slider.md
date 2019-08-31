@@ -109,6 +109,7 @@ Clear focus from selected control
 ### Enumeration
 
 <div name="_enum_ControlState"></div>
+
 #### ControlState
  * .Application
  * .Disabled
@@ -118,6 +119,7 @@ Clear focus from selected control
  * .Selected
 
 <div name="_enum_AnimationOption"></div>
+
 #### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction

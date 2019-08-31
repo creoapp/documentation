@@ -63,6 +63,7 @@ Indicates to the system that the status bar attributes have changed.
 ### Enumeration
 
 <div name="_enum_InterfaceOrientationMask"></div>
+
 #### InterfaceOrientationMask
  * .All
  * .AllButUpsideDown
@@ -73,6 +74,7 @@ Indicates to the system that the status bar attributes have changed.
  * .PortraitUpsideDown
 
 <div name="_enum_InterfaceOrientation"></div>
+
 #### InterfaceOrientation
  * .LandscapeLeft
  * .LandscapeRight

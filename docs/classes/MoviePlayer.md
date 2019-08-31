@@ -165,18 +165,21 @@ Clear focus from selected control
 ### Enumeration
 
 <div name="_enum_MovieSourceType"></div>
+
 #### MovieSourceType
  * .File
  * .Streaming
  * .Unknown
 
 <div name="_enum_MovieMediaTypeMask"></div>
+
 #### MovieMediaTypeMask
  * .Audio
  * .None
  * .Video
 
 <div name="_enum_MovieScalingMode"></div>
+
 #### MovieScalingMode
  * .AspectFill
  * .AspectFit
@@ -184,6 +187,7 @@ Clear focus from selected control
  * .None
 
 <div name="_enum_MovieControlStyle"></div>
+
 #### MovieControlStyle
  * .Default
  * .Embedded
@@ -191,6 +195,7 @@ Clear focus from selected control
  * .None
 
 <div name="_enum_MovieLoadState"></div>
+
 #### MovieLoadState
  * .Playable
  * .PlaythroughOK
@@ -198,6 +203,7 @@ Clear focus from selected control
  * .Unknown
 
 <div name="_enum_MoviePlaybackState"></div>
+
 #### MoviePlaybackState
  * .Interrupted
  * .Paused
@@ -207,11 +213,13 @@ Clear focus from selected control
  * .Stopped
 
 <div name="_enum_MovieRepeatMode"></div>
+
 #### MovieRepeatMode
  * .None
  * .One
 
 <div name="_enum_AnimationOption"></div>
+
 #### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction

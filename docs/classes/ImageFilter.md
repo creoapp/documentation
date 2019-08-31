@@ -69,6 +69,7 @@ Executes the filter and produces the rendered image. If the closure parameter is
 ### Enumeration
 
 <div name="_enum_ImageOrientation"></div>
+
 #### ImageOrientation
  * .Down
  * .DownMirrored

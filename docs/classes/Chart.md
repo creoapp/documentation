@@ -94,6 +94,7 @@ Clear focus from selected control
 ### Enumeration
 
 <div name="_enum_ChartType"></div>
+
 #### ChartType
  * .Area
  * .Bar
@@ -102,12 +103,14 @@ Clear focus from selected control
  * .Scatter
 
 <div name="_enum_ChartPointStyle"></div>
+
 #### ChartPointStyle
  * .Circle
  * .None
  * .Square
 
 <div name="_enum_ChartDecorationStyle"></div>
+
 #### ChartDecorationStyle
  * .Glossy1
  * .Glossy2
@@ -115,6 +118,7 @@ Clear focus from selected control
  * .None
 
 <div name="_enum_AnimationOption"></div>
+
 #### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction

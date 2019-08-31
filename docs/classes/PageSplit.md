@@ -98,18 +98,21 @@ Close window if modally opened.
 ### Enumeration
 
 <div name="_enum_StatusBarVisibility"></div>
+
 #### StatusBarVisibility
  * .Default
  * .Hidden
  * .Visible
 
 <div name="_enum_StatusBarStyle"></div>
+
 #### StatusBarStyle
  * .DarkContent
  * .Default
  * .LightContent
 
 <div name="_enum_SplitViewDisplayMode"></div>
+
 #### SplitViewDisplayMode
  * .AllVisible
  * .Automatic
@@ -117,6 +120,7 @@ Close window if modally opened.
  * .PrimaryOverlay
 
 <div name="_enum_TransitionStyle"></div>
+
 #### TransitionStyle
  * .Cards
  * .CoverVertical

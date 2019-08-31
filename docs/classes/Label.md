@@ -106,6 +106,7 @@ Clear focus from selected control
 ### Enumeration
 
 <div name="_enum_TextAlignment"></div>
+
 #### TextAlignment
  * .Center
  * .Justified
@@ -114,6 +115,7 @@ Clear focus from selected control
  * .Right
 
 <div name="_enum_LineBreakMode"></div>
+
 #### LineBreakMode
  * .CharWrapping
  * .Clipping
@@ -123,18 +125,21 @@ Clear focus from selected control
  * .WordWrapping
 
 <div name="_enum_TextType"></div>
+
 #### TextType
  * .HTML
  * .Markdown
  * .Text
 
 <div name="_enum_BaselineAdjustment"></div>
+
 #### BaselineAdjustment
  * .AlignBaselines
  * .AlignCenters
  * .None
 
 <div name="_enum_AnimationOption"></div>
+
 #### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction

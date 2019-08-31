@@ -136,6 +136,7 @@ Clear focus from selected control
 ### Enumeration
 
 <div name="_enum_TextAlignment"></div>
+
 #### TextAlignment
  * .Center
  * .Justified
@@ -144,6 +145,7 @@ Clear focus from selected control
  * .Right
 
 <div name="_enum_TextBorderStyle"></div>
+
 #### TextBorderStyle
  * .Bezel
  * .Line
@@ -151,12 +153,14 @@ Clear focus from selected control
  * .RoundedRect
 
 <div name="_enum_TextType"></div>
+
 #### TextType
  * .HTML
  * .Markdown
  * .Text
 
 <div name="_enum_TextFieldViewMode"></div>
+
 #### TextFieldViewMode
  * .Always
  * .Never
@@ -164,6 +168,7 @@ Clear focus from selected control
  * .WhileEditing
 
 <div name="_enum_TextAutocapitalizationType"></div>
+
 #### TextAutocapitalizationType
  * .AllCharacters
  * .None
@@ -171,18 +176,21 @@ Clear focus from selected control
  * .Words
 
 <div name="_enum_TextAutocorrectionType"></div>
+
 #### TextAutocorrectionType
  * .Default
  * .No
  * .Yes
 
 <div name="_enum_TextSpellCheckingType"></div>
+
 #### TextSpellCheckingType
  * .Default
  * .No
  * .Yes
 
 <div name="_enum_KeyboardType"></div>
+
 #### KeyboardType
  * .ASCIICapable
  * .ASCIICapableNumberPad
@@ -198,6 +206,7 @@ Clear focus from selected control
  * .WebSearch
 
 <div name="_enum_AnimationOption"></div>
+
 #### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction

@@ -183,6 +183,7 @@ Clear focus from selected control
 ### Enumeration
 
 <div name="_enum_CarouselType"></div>
+
 #### CarouselType
  * .Cylinder
  * .Flow
@@ -197,6 +198,7 @@ Clear focus from selected control
  * .Wheel
 
 <div name="_enum_AnimationOption"></div>
+
 #### AnimationOption
  * .AllowAnimatedContent
  * .AllowUserInteraction

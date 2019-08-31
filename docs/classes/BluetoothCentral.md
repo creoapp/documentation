@@ -88,6 +88,7 @@ Enables or disables notifications/indications for the characteristic. If <i>char
 ### Enumeration
 
 <div name="_enum_BluetoothState"></div>
+
 #### BluetoothState
  * .PoweredOff
  * .PoweredOn
@@ -97,6 +98,7 @@ Enables or disables notifications/indications for the characteristic. If <i>char
  * .Unsupported
 
 <div name="_enum_CharacteristicWriteType"></div>
+
 #### CharacteristicWriteType
  * .WriteWithResponse
  * .WriteWithoutResponse
