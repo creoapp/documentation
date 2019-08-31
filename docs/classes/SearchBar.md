@@ -43,10 +43,10 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **searchBarStyle**: **SearchBarStyle**
+* **var** **searchBarStyle**: **<a href="#_enum_SearchBarStyle">SearchBarStyle</a>**
 A search bar style that specifies the search bar’s appearance.
 
-* **var** **barStyle**: **BarStyle**
+* **var** **barStyle**: **<a href="#_enum_BarStyle">BarStyle</a>**
 A bar style that specifies the search bar’s appearance.
 
 * **var** **text**: **[String](../gravity/string.md)**
@@ -76,16 +76,16 @@ A Boolean value that indicates whether the search bar is translucent (true) or n
 * **var** **barTintColor**: **[Color](Color.md)**
 The tint color to apply to the search bar background.
 
-* **var** **autocapitalizationType**: **TextAutocapitalizationType**
+* **var** **autocapitalizationType**: **<a href="#_enum_TextAutocapitalizationType">TextAutocapitalizationType</a>**
 The auto-capitalization style for the text object.
 
-* **var** **autocorrectionType**: **TextAutocorrectionType**
+* **var** **autocorrectionType**: **<a href="#_enum_TextAutocorrectionType">TextAutocorrectionType</a>**
 The autocorrection style for the text object.
 
-* **var** **spellCheckingType**: **TextSpellCheckingType**
+* **var** **spellCheckingType**: **<a href="#_enum_TextSpellCheckingType">TextSpellCheckingType</a>**
 The spell-checking style for the text object.
 
-* **var** **keyboardType**: **KeyboardType**
+* **var** **keyboardType**: **<a href="#_enum_KeyboardType">KeyboardType</a>**
 The keyboard style associated with the text object.
 
 * **var** **scopeButtonTitles**: **[List](../gravity/list.md)**

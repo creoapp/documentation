@@ -26,7 +26,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **chartType**: **ChartType**
+* **var** **chartType**: **<a href="#_enum_ChartType">ChartType</a>**
 The graphical representation type
 
 * **var** **animated**: **[Bool](../gravity/bool.md)**
@@ -44,13 +44,13 @@ The width of the border line of the items, measured in points.
 * **var** **itemBorderColor**: **[Color](Color.md)**
 The color of the border line of the items.
 
-* **var** **itemPointStyle**: **ChartPointStyle**
+* **var** **itemPointStyle**: **<a href="#_enum_ChartPointStyle">ChartPointStyle</a>**
 The shape of the point. Applies only for the Line, the Area and the Scatter chart types.
 
 * **var** **itemCornerRadius**: **[Float](../gravity/float.md)**
 The corner radius of bars. Applies only for the Bar chart type.
 
-* **var** **itemDecorationStyle**: **ChartDecorationStyle**
+* **var** **itemDecorationStyle**: **<a href="#_enum_ChartDecorationStyle">ChartDecorationStyle</a>**
 The type of decoration applied to the items fill color. Applies only for the Bar chart type.
 
 * **var** **showsAxisX**: **[Bool](../gravity/bool.md)**

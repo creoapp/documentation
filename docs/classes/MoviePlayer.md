@@ -58,10 +58,10 @@ The path/URL that points to the local/remote movie file.
 * **var** **movie**: **[Movie](Movie.md)**
 Use this property to set the content from a Movie object from the Assets library.
 
-* **var** **movieSourceType**: **MovieSourceType**
+* **var** **movieSourceType**: **<a href="#_enum_MovieSourceType">MovieSourceType</a>**
 The types of media available in the movie.
 
-* **var** **movieMediaTypes**: **MovieMediaTypeMask**
+* **var** **movieMediaTypes**: **<a href="#_enum_MovieMediaTypeMask">MovieMediaTypeMask</a>**
 The playback type of the movie. \(read-only\)
 
 * **var** **isPreparedToPlay**: **[Bool](../gravity/bool.md)**
@@ -85,10 +85,10 @@ The width and height of the movie frame. \(read-only\)
 * **var** **fullscreen**: **[Bool](../gravity/bool.md)**
 A Boolean that indicates whetever the movie player is in full-screen mode.
 
-* **var** **scalingMode**: **MovieScalingMode**
+* **var** **scalingMode**: **<a href="#_enum_MovieScalingMode">MovieScalingMode</a>**
 The scaling mode to use when displaying the movie.
 
-* **var** **controlStyle**: **MovieControlStyle**
+* **var** **controlStyle**: **<a href="#_enum_MovieControlStyle">MovieControlStyle</a>**
 The style of the playback controls.
 
 * **var** **duration**: **[Float](../gravity/float.md)**
@@ -97,10 +97,10 @@ The duration of the movie, measured in seconds. \(read-only\)
 * **var** **playableDuration**: **[Float](../gravity/float.md)**
 The amount of currently playable content. \(read-only\)
 
-* **var** **loadState**: **MovieLoadState**
+* **var** **loadState**: **<a href="#_enum_MovieLoadState">MovieLoadState</a>**
 The network load state of the movie player. \(read-only\)
 
-* **var** **playbackState**: **MoviePlaybackState**
+* **var** **playbackState**: **<a href="#_enum_MoviePlaybackState">MoviePlaybackState</a>**
 The current playback state of the movie player. \(read-only\)
 
 * **var** **initialPlaybackTime**: **[Float](../gravity/float.md)**
@@ -115,7 +115,7 @@ A Boolean that indicates whetever a movie should begin playback automatically.
 * **var** **readyForDisplay**: **[Bool](../gravity/bool.md)**
 A Boolean that indicates whetever the first video frame of the movie is ready to be displayed. \(read-only\)
 
-* **var** **repeatMode**: **MovieRepeatMode**
+* **var** **repeatMode**: **<a href="#_enum_MovieRepeatMode">MovieRepeatMode</a>**
 Obtains the most recent time-based metadata provided by the streamed movie.
 
 * **var** **objectName**: **[String](../gravity/string.md)**

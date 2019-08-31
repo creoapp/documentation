@@ -29,7 +29,7 @@ This event is called when the object has been removed from the current runtime s
 * **var** **numberOfTouchesRequired**: **[Int](../gravity/int.md)**
 The number of touches that must be present for the swipe gesture to be recognized. The default value is 1.
 
-* **var** **direction**: **SwipeGestureRecognizerDirection**
+* **var** **direction**: **<a href="#_enum_SwipeGestureRecognizerDirection">SwipeGestureRecognizerDirection</a>**
 The permitted direction of the swipe for this gesture recognizer. The default direction is SwipeGestureRecognizerDirection.Right.
 
 * **var** **objectName**: **[String](../gravity/string.md)**

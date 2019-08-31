@@ -53,13 +53,13 @@ The font of the text.
 * **var** **textColor**: **[Color](Color.md)**
 The color of the text.
 
-* **var** **textAlignment**: **TextAlignment**
+* **var** **textAlignment**: **<a href="#_enum_TextAlignment">TextAlignment</a>**
 The technique to use for aligning the text.
 
-* **var** **lineBreakMode**: **LineBreakMode**
+* **var** **lineBreakMode**: **<a href="#_enum_LineBreakMode">LineBreakMode</a>**
 The technique to use for wrapping and truncating the label’s text.
 
-* **var** **textType**: **TextType**
+* **var** **textType**: **<a href="#_enum_TextType">TextType</a>**
 A value that specifies how text must be interpreted and rendered.
 
 * **var** **enabled**: **[Bool](../gravity/bool.md)**
@@ -74,7 +74,7 @@ A Boolean value indicating whether the font size should be reduced in order to f
 * **var** **adjustsLetterSpacingToFitWidth**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether spacing between letters should be adjusted to fit the string within the label’s bounds rectangle.
 
-* **var** **baselineAdjustment**: **BaselineAdjustment**
+* **var** **baselineAdjustment**: **<a href="#_enum_BaselineAdjustment">BaselineAdjustment</a>**
 Controls how text baselines are adjusted when text needs to shrink to fit in the label.
 
 * **var** **minimumScaleFactor**: **[Float](../gravity/float.md)**

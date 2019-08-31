@@ -37,7 +37,7 @@ This event is called when the object has been removed from the current runtime s
 * **var** **currentItemIndex**: **[Int](../gravity/int.md)**
 The index of the currently centered item in the carousel. Setting this property is equivalent to calling scrollToItemAtIndex with the animated argument set to false.
 
-* **var** **type**: **CarouselType**
+* **var** **type**: **<a href="#_enum_CarouselType">CarouselType</a>**
 Used to switch the carousel display type
 
 * **var** **perspective**: **[Float](../gravity/float.md)**

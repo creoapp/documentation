@@ -35,7 +35,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **pickerSize**: **PickerViewSize**
+* **var** **pickerSize**: **<a href="#_enum_PickerViewSize">PickerViewSize</a>**
 Description not yet ready.
 
 * **var** **showsSelectionIndicator**: **[Bool](../gravity/bool.md)**

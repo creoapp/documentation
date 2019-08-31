@@ -32,7 +32,7 @@ The minimum distance (measured in meters) a device must move horizontally before
 * **var** **desiredAccuracy**: **[Float](../gravity/float.md)**
 The desired location accuracy. The location service will try its best to achieve your desired accuracy. However, it is not guaranteed. To optimize power performance, be sure to specify an appropriate accuracy for your usage scenario (eg, use a large accuracy value when only a coarse location is needed). Use AccuracyBest to achieve the best possible accuracy. Use AccuracyBestForNavigation for navigation. The default value varies by platform.
 
-* **var** **activityType**: **ActivityType**
+* **var** **activityType**: **<a href="#_enum_ActivityType">ActivityType</a>**
 The type of user activity associated with the location updates. The location manager uses the information in this property as a cue to determine when location updates may be automatically paused. Pausing updates gives the system the opportunity to save power in situations where the user's location is not likely to be changing. For example, if the activity type is AutomotiveNavigation and no location changes have occurred recently, the radios might be powered down until movement is detected again.
 
 * **var** **objectName**: **[String](../gravity/string.md)**

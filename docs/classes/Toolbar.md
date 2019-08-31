@@ -14,7 +14,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **barStyle**: **BarStyle**
+* **var** **barStyle**: **<a href="#_enum_BarStyle">BarStyle</a>**
 The toolbar style that specifies its appearance.
 
 * **var** **translucent**: **[Bool](../gravity/bool.md)**

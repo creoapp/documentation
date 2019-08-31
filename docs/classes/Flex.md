@@ -23,34 +23,34 @@ Describes how any space within a container should be distributed among its child
 * **var** **shrink**: **[Float](../gravity/float.md)**
 Describes how to shrink children along the main axis in the case that the total size of the children overflow the size of the container on the main axis
 
-* **var** **direction**: **Direction**
+* **var** **direction**: **<a href="#_enum_Direction">Direction</a>**
 Specifies the direction in which children and text in a hierarchy should be laid out
 
-* **var** **flexDirection**: **FlexDirection**
+* **var** **flexDirection**: **<a href="#_enum_FlexDirection">FlexDirection</a>**
 Controls the direction in which children of a view are laid out. This is also referred to as the main axis
 
-* **var** **justifyContent**: **Justify**
+* **var** **justifyContent**: **<a href="#_enum_Justify">Justify</a>**
 Describes how to align children within the main axis of their container
 
-* **var** **alignContent**: **Align**
+* **var** **alignContent**: **<a href="#_enum_Align">Align</a>**
 Defines the distribution of lines along the cross-axis. This only has effect when items are wrapped to multiple lines using flex wrap.
 
-* **var** **alignItems**: **Align**
+* **var** **alignItems**: **<a href="#_enum_Align">Align</a>**
 Describes how to align children along the cross axis of their container
 
-* **var** **alignSelf**: **Align**
+* **var** **alignSelf**: **<a href="#_enum_Align">Align</a>**
 Has the same options and effect as align items but instead of affecting the children within a container, you can apply this property to a single child to change its alignment within its parent
 
-* **var** **wrap**: **Wrap**
+* **var** **wrap**: **<a href="#_enum_Wrap">Wrap</a>**
 Controls what happens when children overflow the size of the container along the main axis
 
-* **var** **display**: **Display**
+* **var** **display**: **<a href="#_enum_Display">Display</a>**
 display is flex or none, with none the view is removed from the flex layout
 
 * **var** **aspectRatio**: **[Float](../gravity/float.md)**
 Aspect ratio, the ratio between the width and the height of a view
 
-* **var** **positionType**: **PositionType**
+* **var** **positionType**: **<a href="#_enum_PositionType">PositionType</a>**
 Defines how it is positioned within its parent; absolute remove the view from the flex flow and position it at the given position
 
 * **var** **basis**: **[FlexValue](FlexValue.md)**

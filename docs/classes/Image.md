@@ -17,16 +17,16 @@ The end-cap insets. End caps specify the portion of an image that should not be 
 
 This property specifies the sizes of all four end caps. The middle (stretchable) portion consists of all the pixels that are not included in the end caps. These pixels are tiled, left-to-right, top-to-bottom to fill the remaining space. \(read-only\)
 
-* **var** **resizingMode**: **ImageResizingMode**
+* **var** **resizingMode**: **<a href="#_enum_ImageResizingMode">ImageResizingMode</a>**
 The resizing mode of the image. \(read-only\)
 
-* **var** **renderingMode**: **ImageRenderingMode**
+* **var** **renderingMode**: **<a href="#_enum_ImageRenderingMode">ImageRenderingMode</a>**
 Determines how an image is rendered. \(read-only\)
 
 * **var** **RGBBuffer**: **[RGBBuffer](RGBBuffer.md)**
 Creates a RGBBuffer for direct pixel inspection and manipulation. This is a costly operation that should not be performed in a loop. \(read-only\)
 
-* **var** **imageOrientation**: **ImageOrientation**
+* **var** **imageOrientation**: **<a href="#_enum_ImageOrientation">ImageOrientation</a>**
 Image orientation affects the way the image data is displayed when drawn. By default, images are displayed in the “up” orientation. \(read-only\)
 
 * **var** **objectName**: **[String](../gravity/string.md)**

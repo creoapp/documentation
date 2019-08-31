@@ -21,7 +21,7 @@ Returns an array of colors \(read-only\)
 * **var** **locations**: **[List](../gravity/list.md)**
 Returns an array of location \(read-only\)
 
-* **var** **gradientType**: **GradientType**
+* **var** **gradientType**: **<a href="#_enum_GradientType">GradientType</a>**
 Gradient type.
 
 * **var** **minPosition**: **[Point](Point.md)**

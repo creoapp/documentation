@@ -17,7 +17,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **style**: **TableViewRowActionStyle**
+* **var** **style**: **<a href="#_enum_TableViewRowActionStyle">TableViewRowActionStyle</a>**
 Destructive (default) or normal style. \(read-only\)
 
 * **var** **title**: **[String](../gravity/string.md)**

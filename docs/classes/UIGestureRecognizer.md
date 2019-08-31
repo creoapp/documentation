@@ -25,7 +25,7 @@ Ask the delegate if a gesture recognizer should receive an object representing a
 * **var** **enabled**: **[Bool](../gravity/bool.md)**
 A Boolean property that indicates whether the gesture recognizer is enabled. Disables a gesture recognizers so it does not receive touches.
 
-* **var** **state**: **GestureRecognizerState**
+* **var** **state**: **<a href="#_enum_GestureRecognizerState">GestureRecognizerState</a>**
 The current state of the gesture recognizer. Some of these states are not applicable to discrete gestures. \(read-only\)
 
 * **var** **numberOfTouches**: **[Int](../gravity/int.md)**

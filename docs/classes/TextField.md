@@ -47,10 +47,10 @@ The color of the text.
 * **var** **font**: **[Font](Font.md)**
 The font of the text.
 
-* **var** **textAlignment**: **TextAlignment**
+* **var** **textAlignment**: **<a href="#_enum_TextAlignment">TextAlignment</a>**
 The technique to use for aligning the text.
 
-* **var** **borderStyle**: **TextBorderStyle**
+* **var** **borderStyle**: **<a href="#_enum_TextBorderStyle">TextBorderStyle</a>**
 The border style used by the text field.
 
 * **var** **placeholder**: **[String](../gravity/string.md)**
@@ -68,7 +68,7 @@ A Boolean value indicating whether end editing when the user taps the return but
 * **var** **adjustsFontSizeToFitWidth**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the font size should be reduced in order to fit the text string into the text field’s bounding rectangle.
 
-* **var** **textType**: **TextType**
+* **var** **textType**: **<a href="#_enum_TextType">TextType</a>**
 A value that specifies how text must be interpreted and rendered.
 
 * **var** **minimumFontSize**: **[Float](../gravity/float.md)**
@@ -83,7 +83,7 @@ The image that represents the background appearance of the text field when it is
 * **var** **editing**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the text field is currently in edit mode.
 
-* **var** **clearButtonMode**: **TextFieldViewMode**
+* **var** **clearButtonMode**: **<a href="#_enum_TextFieldViewMode">TextFieldViewMode</a>**
 Controls when the standard clear button appears in the text field.
 
 * **var** **inputView**: **[UIView](UIView.md)**
@@ -101,16 +101,16 @@ The overlay view displayed on the left (or leading) side of the text field.
 * **var** **rightView**: **[UIView](UIView.md)**
 The overlay view displayed on the right (or trailing) side of the text field.
 
-* **var** **autocapitalizationType**: **TextAutocapitalizationType**
+* **var** **autocapitalizationType**: **<a href="#_enum_TextAutocapitalizationType">TextAutocapitalizationType</a>**
 The auto-capitalization style for the text object.
 
-* **var** **autocorrectionType**: **TextAutocorrectionType**
+* **var** **autocorrectionType**: **<a href="#_enum_TextAutocorrectionType">TextAutocorrectionType</a>**
 The autocorrection style for the text object.
 
-* **var** **spellCheckingType**: **TextSpellCheckingType**
+* **var** **spellCheckingType**: **<a href="#_enum_TextSpellCheckingType">TextSpellCheckingType</a>**
 The spell-checking style for the text object.
 
-* **var** **keyboardType**: **KeyboardType**
+* **var** **keyboardType**: **<a href="#_enum_KeyboardType">KeyboardType</a>**
 The keyboard style associated with the text object. The keyboard style identifies what keys are available on the keyboard and which ones appear by default.
 
 * **var** **objectName**: **[String](../gravity/string.md)**

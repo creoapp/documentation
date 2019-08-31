@@ -35,10 +35,10 @@ The bounds rectangle, which describes the view’s location and size in its own 
 * **var** **frame**: **[Rect](Rect.md)**
 The frame rectangle, which describes the view’s location and size in its superview’s coordinate system.
 
-* **var** **statusBarVisibility**: **StatusBarVisibility**
+* **var** **statusBarVisibility**: **<a href="#_enum_StatusBarVisibility">StatusBarVisibility</a>**
 A value indicating whether the status bar should be visible.
 
-* **var** **statusBarStyle**: **StatusBarStyle**
+* **var** **statusBarStyle**: **<a href="#_enum_StatusBarStyle">StatusBarStyle</a>**
 The style of the status bar.
 
 * **var** **windows**: **[List](../gravity/list.md)**
@@ -50,10 +50,10 @@ Current Window in the details view. If the Window does not exit in the view hier
 * **var** **collapsed**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether only one of the child view controllers is displayed. \(read-only\)
 
-* **var** **preferredDisplayMode**: **SplitViewDisplayMode**
+* **var** **preferredDisplayMode**: **<a href="#_enum_SplitViewDisplayMode">SplitViewDisplayMode</a>**
 The preferred arrangement of the split view controller interface.
 
-* **var** **displayMode**: **SplitViewDisplayMode**
+* **var** **displayMode**: **<a href="#_enum_SplitViewDisplayMode">SplitViewDisplayMode</a>**
 The current arrangement of the split view controller’s contents. \(read-only\)
 
 * **var** **preferredPrimaryColumnWidthFraction**: **[Float](../gravity/float.md)**

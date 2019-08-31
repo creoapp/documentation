@@ -15,10 +15,10 @@ The color of subsequent fill operations to the color.
 * **var** **lineWidth**: **[Float](../gravity/float.md)**
 The line width defines the thickness of the receiver's stroked path. A width of 0 is interpreted as the thinnest line that can be rendered on a particular device. The actual rendered line width may vary from the specified width by as much as 2 device pixels, depending on the position of the line with respect to the pixel grid and the current anti-aliasing settings. The default line width is 1.0.
 
-* **var** **lineCapStyle**: **LineCapStyle**
+* **var** **lineCapStyle**: **<a href="#_enum_LineCapStyle">LineCapStyle</a>**
 The shape of the paths end points when stroked.
 
-* **var** **lineJoinStyle**: **LineJoinStyle**
+* **var** **lineJoinStyle**: **<a href="#_enum_LineJoinStyle">LineJoinStyle</a>**
 The shape of the joints between connected segments of a stroked path.
 
 * **var** **miterLimit**: **[Float](../gravity/float.md)**

@@ -41,10 +41,10 @@ This event is called when the object has been removed from the current runtime s
 * **var** **radius**: **[Float](../gravity/float.md)**
 Radius value in case of rounded rect.
 
-* **var** **cornerMask**: **RectCorner**
+* **var** **cornerMask**: **<a href="#_enum_RectCorner">RectCorner</a>**
 A mask representing rounded corners.
 
-* **var** **borderStyle**: **BorderStyle**
+* **var** **borderStyle**: **<a href="#_enum_BorderStyle">BorderStyle</a>**
 A mask representing border style.
 
 * **var** **objectName**: **[String](../gravity/string.md)**

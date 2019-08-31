@@ -58,7 +58,7 @@ A Boolean value that controls whether the vertical scroll indicator is visible. 
 * **var** **scrollIndicatorInsets**: **[EdgeInsets](EdgeInsets.md)**
 The distance the scroll indicators are inset from the edge of the scroll view.
 
-* **var** **indicatorStyle**: **ScrollViewIndicatorStyle**
+* **var** **indicatorStyle**: **<a href="#_enum_ScrollViewIndicatorStyle">ScrollViewIndicatorStyle</a>**
 The style of the scroll indicators.
 
 * **var** **decelerating**: **[Bool](../gravity/bool.md)**

@@ -36,7 +36,7 @@ This event is called when the object has been removed from the current runtime s
 * **var** **index**: **[Int](../gravity/int.md)**
 Current index.
 
-* **var** **style**: **PageContainerStyle**
+* **var** **style**: **<a href="#_enum_PageContainerStyle">PageContainerStyle</a>**
 Current style.
 
 * **var** **dataSet**: **[Object](../gravity/object.md)**

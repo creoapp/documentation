@@ -29,7 +29,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **datePickerMode**: **DatePickerMode**
+* **var** **datePickerMode**: **<a href="#_enum_DatePickerMode">DatePickerMode</a>**
 The date picker mode. Determines whether the date picker should display a time, a date, a time and date or a countdown interval. For modes that include date or time values, you can also configure the locale, calendar, and time zone information as appropriate.
 
 * **var** **date**: **[Date](Date.md)**

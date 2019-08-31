@@ -56,7 +56,7 @@ Returns a color object whose grayscale and alpha values are both 0.0. \(read-onl
 
 ### Properties
 
-* **var** **spaceModel**: **ColorSpaceModel**
+* **var** **spaceModel**: **<a href="#_enum_ColorSpaceModel">ColorSpaceModel</a>**
 Returns the model on which the color space of the receiver is based. \(read-only\)
 
 * **var** **isRGB**: **[Bool](../gravity/bool.md)**

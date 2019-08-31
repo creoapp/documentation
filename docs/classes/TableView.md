@@ -59,13 +59,13 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **style**: **TableViewStyle**
+* **var** **style**: **<a href="#_enum_TableViewStyle">TableViewStyle</a>**
 Returns the style of the table view. \(read-only\)
 
 * **var** **rowHeight**: **[Float](../gravity/float.md)**
 The height of each row.
 
-* **var** **separatorStyle**: **TableViewCellSeparatorStyle**
+* **var** **separatorStyle**: **<a href="#_enum_TableViewCellSeparatorStyle">TableViewCellSeparatorStyle</a>**
 The style for table cells used as separators. By default it uses a single line running across its width.
 
 * **var** **separatorColor**: **[Color](Color.md)**

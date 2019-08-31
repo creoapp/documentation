@@ -8,13 +8,13 @@ This class is reserved and cannot be directly instantiated.
 
 ### Properties
 
-* **var** **supportedInterfaceOrientations**: **InterfaceOrientationMask**
+* **var** **supportedInterfaceOrientations**: **<a href="#_enum_InterfaceOrientationMask">InterfaceOrientationMask</a>**
 Returns all of the interface orientations that the Window supports.
 
 * **var** **title**: **[String](../gravity/string.md)**
 A String that provides the current title of the window or navigation.
 
-* **var** **interfaceOrientation**: **InterfaceOrientation**
+* **var** **interfaceOrientation**: **<a href="#_enum_InterfaceOrientation">InterfaceOrientation</a>**
 Convenience property that provides the current orientation of the interface. \(read-only\)
 
 * **var** **editing**: **[Bool](../gravity/bool.md)**

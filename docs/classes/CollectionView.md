@@ -41,7 +41,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **layoutType**: **CollectionViewLayoutType**
+* **var** **layoutType**: **<a href="#_enum_CollectionViewLayoutType">CollectionViewLayoutType</a>**
 The layout defines the organization and location of all cells and supplementary views inside the collection view. The layout type property allows you to choose between two mail styles (the simple flow and the balanced flow) while other layout properties (minimumLineSpacing, preferredRowSize, etc.) enable you to configure some details of the choosen layout style.
 With the simple flow the items in the collection view flow from one row or column (depending on the scrolling direction) to the next, with each row comprising as many cells as will fit.  Cells can be the same sizes or different sizes (see the ItemSize event).
 With the balanced flow, the collection view displays items of different sizes in a grid without wasting any visual space.
@@ -58,7 +58,7 @@ The preferred size for each row measured in the scroll direction. Only applies t
 * **var** **itemSize**: **[Size](Size.md)**
 The default size to use for cells. This results in cells that all have the same size. The default size value is (50.0, 50.0). Only applies to the simple flow layout type.
 
-* **var** **scrollDirection**: **CollectionViewScrollDirection**
+* **var** **scrollDirection**: **<a href="#_enum_CollectionViewScrollDirection">CollectionViewScrollDirection</a>**
 The scroll direction of the grid. The grid layout scrolls along one axis only, either horizontally or vertically. For the non scrolling axis, the width of the collection view in that dimension serves as starting width of the content. The default value is CollectionViewScrollDirection.Vertical.
 
 * **var** **allowsSelection**: **[Bool](../gravity/bool.md)**

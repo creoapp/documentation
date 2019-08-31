@@ -32,7 +32,7 @@ A string that represents the path and query component of the request URL. The sc
 * **var** **url**: **[String](../gravity/string.md)**
 Full URL of the request. \(read-only\)
 
-* **var** **method**: **HTTPMethod**
+* **var** **method**: **<a href="#_enum_HTTPMethod">HTTPMethod</a>**
 HTTP method.
 
 * **var** **headerParameters**: **[Map](../gravity/map.md)**
@@ -47,10 +47,10 @@ The key-value pairs of this Map are used to create the query string part of the 
 * **var** **bodyParameters**: **[Object](../gravity/object.md)**
 The body parameters to be encoded according to the bodyMode property. The HTTPBodyMode.FormData and HTTPBodyMode.FormUrlencoded encoding require a Map value for this property, the HTTPBodyMode.Raw requires a string (if the value is a Map, the first value is used), with the HTTPBodyMode.JSON you can set this property to any JSON valid data type (List, Map, Boolean, String, Number, null value). If the value is a Map, each value of the Map can also be accessed programmatically as a dynamic property of the HTTPRequest instance. The dynamic properties are automatically exposed using the Map key as the property name if the key contains only alphanumeric characters.. Only used for the POST, PUT or PATCH method.
 
-* **var** **bodyMode**: **HTTPBodyMode**
+* **var** **bodyMode**: **<a href="#_enum_HTTPBodyMode">HTTPBodyMode</a>**
 How to serialize the body parameters. Only used for the POST, PUT or PATCH method.
 
-* **var** **responseSerializerType**: **HTTPResponseSerializer**
+* **var** **responseSerializerType**: **<a href="#_enum_HTTPResponseSerializer">HTTPResponseSerializer</a>**
 How to deserialize the response.
 
 * **var** **timeoutInterval**: **[Float](../gravity/float.md)**
@@ -59,7 +59,7 @@ The timeout interval, in seconds, for created requests. The default timeout inte
 * **var** **useAuthentication**: **[Bool](../gravity/bool.md)**
 A flag to enable/disable the authentication defined by the HTTPClient.
 
-* **var** **redirectMode**: **HTTPRedirectMode**
+* **var** **redirectMode**: **<a href="#_enum_HTTPRedirectMode">HTTPRedirectMode</a>**
 Defines what to do when an HTTP request is attempting to perform a redirection to a different URL
 
 * **var** **MIMEType**: **[String](../gravity/string.md)**

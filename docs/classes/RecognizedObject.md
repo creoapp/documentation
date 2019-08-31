@@ -14,7 +14,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **type**: **MachineReadableObjectType**
+* **var** **type**: **<a href="#_enum_MachineReadableObjectType">MachineReadableObjectType</a>**
 The type of the metadata object. \(read-only\)
 
 * **var** **frame**: **[Rect](Rect.md)**

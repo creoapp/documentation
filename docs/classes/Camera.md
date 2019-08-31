@@ -41,19 +41,19 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **cameraQuality**: **CameraQuality**
+* **var** **cameraQuality**: **<a href="#_enum_CameraQuality">CameraQuality</a>**
 Current position of a capture device.
 
-* **var** **position**: **CameraPosition**
+* **var** **position**: **<a href="#_enum_CameraPosition">CameraPosition</a>**
 Current position of a capture device.
 
-* **var** **whiteBalance**: **WhiteBalanceMode**
+* **var** **whiteBalance**: **<a href="#_enum_WhiteBalanceMode">WhiteBalanceMode</a>**
 White balance mode.
 
-* **var** **mirror**: **CameraMirrorMode**
+* **var** **mirror**: **<a href="#_enum_CameraMirrorMode">CameraMirrorMode</a>**
 Camera mirror mode.
 
-* **var** **flash**: **CameraFlashMode**
+* **var** **flash**: **<a href="#_enum_CameraFlashMode">CameraFlashMode</a>**
 Current flash mode of a capture device. \(read-only\)
 
 * **var** **recording**: **[Bool](../gravity/bool.md)**
@@ -116,7 +116,7 @@ The minimum supported exposure ISO value. \(read-only\)
 * **var** **maxISO**: **[Float](../gravity/float.md)**
 The maximum supported exposure ISO value. \(read-only\)
 
-* **var** **exposureMode**: **CameraExposureMode**
+* **var** **exposureMode**: **<a href="#_enum_CameraExposureMode">CameraExposureMode</a>**
 The camera exposure mode.
 
 * **var** **exposurePointOfInterestSupported**: **[Bool](../gravity/bool.md)**
@@ -140,7 +140,7 @@ The minimum supported exposure bias, in EV units. The Creo simulator for Mac ret
 * **var** **maxExposureTargetBias**: **[Float](../gravity/float.md)**
 The maximum supported exposure bias, in EV units. \(read-only\)
 
-* **var** **focusMode**: **CameraFocusMode**
+* **var** **focusMode**: **<a href="#_enum_CameraFocusMode">CameraFocusMode</a>**
 The camera focus mode.
 
 * **var** **focusPointOfInterestSupported**: **[Bool](../gravity/bool.md)**
@@ -155,7 +155,7 @@ Indicates whether the device is currently adjusting its focus setting. \(read-on
 * **var** **autoFocusRangeRestrictionSupported**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether the device supports focus range restrictions. \(read-only\)
 
-* **var** **autoFocusRangeRestriction**: **CameraAutoFocusRangeRestriction**
+* **var** **autoFocusRangeRestriction**: **<a href="#_enum_CameraAutoFocusRangeRestriction">CameraAutoFocusRangeRestriction</a>**
 A value controlling the allowable range for automatic focusing.
 
 * **var** **smoothAutoFocusSupported**: **[Bool](../gravity/bool.md)**
@@ -173,7 +173,7 @@ A Boolean value that indicates whether the capture device’s low light boost fe
 * **var** **automaticallyEnablesLowLightBoostWhenAvailable**: **[Bool](../gravity/bool.md)**
 A Boolean value that indicates whether the capture device should automatically switch to low light boost mode when necessary.
 
-* **var** **machineReadableObjectTypes**: **MachineReadableObjectType**
+* **var** **machineReadableObjectTypes**: **<a href="#_enum_MachineReadableObjectType">MachineReadableObjectType</a>**
 A bitmask used to filter the metadata objects reported by the RecognizedObjects event.
 
 * **var** **filters**: **[List](../gravity/list.md)**

@@ -32,7 +32,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **state**: **BluetoothState**
+* **var** **state**: **<a href="#_enum_BluetoothState">BluetoothState</a>**
 Returns the current state of the central manager. The PoweredOn state indicates that the central device (your iPhone or iPad, for instance) supports Bluetooth low energy and that Bluetooth is on and available to use.
 
 * **var** **data**: **[Data](Data.md)**

@@ -6,13 +6,13 @@ Use a Device object to get information about the device such as assigned name, d
 
 ### Properties
 
-* **var** **version**: **DeviceVersion**
+* **var** **version**: **<a href="#_enum_DeviceVersion">DeviceVersion</a>**
 Returns a value from the DeviceVersion enum identifying the type of device (for example iPhone7, iPhone7Plus, iPadPro12Dot9Inch2Gen, etc.). \(read-only\)
 
 * **var** **versionName**: **[String](../gravity/string.md)**
 Returns a string representation of the deviceVersion property. \(read-only\)
 
-* **var** **size**: **DeviceSize**
+* **var** **size**: **<a href="#_enum_DeviceSize">DeviceSize</a>**
 Returns a value from the DeviceSize enum identifying the screen size of the device (for example Screen4inch, Screen4Dot7inch, etc.). To get a human readable string representation or the numeric diagonal size in inches you can use the conversion methods <i>sizeName</i> or <i>sizeInches</i>. \(read-only\)
 
 * **var** **systemName**: **[String](../gravity/string.md)**
@@ -36,7 +36,7 @@ The name identifying the device. \(read-only\)
 * **var** **model**: **[String](../gravity/string.md)**
 The model of the device. \(read-only\)
 
-* **var** **orientation**: **DeviceOrientation**
+* **var** **orientation**: **<a href="#_enum_DeviceOrientation">DeviceOrientation</a>**
 The physical orientation of the device. \(read-only\)
 
 * **var** **batteryLevel**: **[Float](../gravity/float.md)**
@@ -45,7 +45,7 @@ The battery charge level for the device.Battery level ranges from 0.0 (fully dis
 * **var** **batteryMonitoringEnabled**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether battery monitoring is enabled (true) or not (false).
 
-* **var** **batteryState**: **DeviceBatteryState**
+* **var** **batteryState**: **<a href="#_enum_DeviceBatteryState">DeviceBatteryState</a>**
 The battery state for the device. If battery monitoring is not enabled, the value of this property is unknown
 
 * **var** **language**: **[String](../gravity/string.md)**

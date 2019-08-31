@@ -35,7 +35,7 @@ The title of the button. Use this property instead of the titleForState and setT
 * **var** **font**: **[Font](Font.md)**
 The font used for the button’s title string.
 
-* **var** **type**: **ButtonType**
+* **var** **type**: **<a href="#_enum_ButtonType">ButtonType</a>**
 Returns the button type. \(read-only\)
 
 * **var** **currentTitle**: **[String](../gravity/string.md)**

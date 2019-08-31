@@ -53,7 +53,7 @@ The latitude of the center point of the visible area.
 * **var** **longitude**: **[Float](../gravity/float.md)**
 The longitude of the center point of the map.
 
-* **var** **mapType**: **MapType**
+* **var** **mapType**: **<a href="#_enum_MapType">MapType</a>**
 The type of data displayed by the map view.
 
 * **var** **zoomValue**: **[Float](../gravity/float.md)**
@@ -86,7 +86,7 @@ A Boolean value indicating whether the map should try to display the user’s lo
 * **var** **userLocationVisible**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the device’s current location is visible in the map view. \(read-only\)
 
-* **var** **userTrackingMode**: **MapUserTrackingMode**
+* **var** **userTrackingMode**: **<a href="#_enum_MapUserTrackingMode">MapUserTrackingMode</a>**
 Sets the mode used to track the user location.
 
 * **var** **annotationVisibleRect**: **[Rect](Rect.md)**

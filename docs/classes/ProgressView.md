@@ -26,7 +26,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **progressViewStyle**: **ProgressViewStyle**
+* **var** **progressViewStyle**: **<a href="#_enum_ProgressViewStyle">ProgressViewStyle</a>**
 The current graphical style of the receiver.
 
 * **var** **value**: **[Float](../gravity/float.md)**

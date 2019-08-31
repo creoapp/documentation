@@ -44,13 +44,13 @@ The raw text currently set in the text view. \(read-only\)
 * **var** **textColor**: **[Color](Color.md)**
 The color of the text.
 
-* **var** **textType**: **TextType**
+* **var** **textType**: **<a href="#_enum_TextType">TextType</a>**
 A value that specifies how text must be interpreted and rendered.
 
 * **var** **font**: **[Font](Font.md)**
 The font of the text.
 
-* **var** **textAlignment**: **TextAlignment**
+* **var** **textAlignment**: **<a href="#_enum_TextAlignment">TextAlignment</a>**
 The technique to use for aligning the text.
 
 * **var** **selectedRange**: **[Range](../gravity/range.md)**
@@ -59,7 +59,7 @@ The current selection range of the receiver.
 * **var** **editable**: **[Bool](../gravity/bool.md)**
 A Boolean value indicating whether the receiver is editable.
 
-* **var** **dataDetectorTypes**: **DataDetectorTypes**
+* **var** **dataDetectorTypes**: **<a href="#_enum_DataDetectorTypes">DataDetectorTypes</a>**
 The types of data converted to tappable URLs in the text view.
 
 * **var** **clearsOnInsertion**: **[Bool](../gravity/bool.md)**
@@ -71,16 +71,16 @@ The custom input view to display when the text view becomes the first responder.
 * **var** **inputAccessoryView**: **[UIView](UIView.md)**
 The custom accessory view to display when the text view becomes the first responder.
 
-* **var** **autocapitalizationType**: **TextAutocapitalizationType**
+* **var** **autocapitalizationType**: **<a href="#_enum_TextAutocapitalizationType">TextAutocapitalizationType</a>**
 The auto-capitalization style for the text object.
 
-* **var** **autocorrectionType**: **TextAutocorrectionType**
+* **var** **autocorrectionType**: **<a href="#_enum_TextAutocorrectionType">TextAutocorrectionType</a>**
 The autocorrection style for the text object.
 
-* **var** **spellCheckingType**: **TextSpellCheckingType**
+* **var** **spellCheckingType**: **<a href="#_enum_TextSpellCheckingType">TextSpellCheckingType</a>**
 The spell-checking style for the text object.
 
-* **var** **keyboardType**: **KeyboardType**
+* **var** **keyboardType**: **<a href="#_enum_KeyboardType">KeyboardType</a>**
 The keyboard style associated with the text object. The keyboard style identifies what keys are available on the keyboard and which ones appear by default.
 
 * **var** **objectName**: **[String](../gravity/string.md)**

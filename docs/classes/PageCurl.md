@@ -32,10 +32,10 @@ The bounds rectangle, which describes the view’s location and size in its own 
 * **var** **frame**: **[Rect](Rect.md)**
 The frame rectangle, which describes the view’s location and size in its superview’s coordinate system.
 
-* **var** **statusBarVisibility**: **StatusBarVisibility**
+* **var** **statusBarVisibility**: **<a href="#_enum_StatusBarVisibility">StatusBarVisibility</a>**
 A value indicating whether the status bar should be visible.
 
-* **var** **statusBarStyle**: **StatusBarStyle**
+* **var** **statusBarStyle**: **<a href="#_enum_StatusBarStyle">StatusBarStyle</a>**
 The style of the status bar.
 
 * **var** **windows**: **[List](../gravity/list.md)**

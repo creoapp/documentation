@@ -18,19 +18,19 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **protocol**: **HTTPProtocol**
+* **var** **protocol**: **<a href="#_enum_HTTPProtocol">HTTPProtocol</a>**
 URL scheme.
 
 * **var** **host**: **[String](../gravity/string.md)**
 Hostname of the HTTP server.
 
-* **var** **authType**: **HTTPAuth**
+* **var** **authType**: **<a href="#_enum_HTTPAuth">HTTPAuth</a>**
 Type of authentication.
 
 * **var** **authDetails**: **[Map](../gravity/map.md)**
 A dictionary containing the authentication details.
 
-* **var** **requestCachePolicy**: **HTTPRequestCachePolicy**
+* **var** **requestCachePolicy**: **<a href="#_enum_HTTPRequestCachePolicy">HTTPRequestCachePolicy</a>**
 Cache policy for requests.
 
 * **var** **timeoutIntervalForRequest**: **[Float](../gravity/float.md)**
@@ -39,7 +39,7 @@ Default timeout for requests.  This will cause a timeout if no data is transmitt
 * **var** **timeoutIntervalForResource**: **[Float](../gravity/float.md)**
 Default timeout for requests.  This will cause a timeout if a resource is not able to be retrieved within a given timeout.
 
-* **var** **networkServiceType**: **HTTPRequestNetworkServiceType**
+* **var** **networkServiceType**: **<a href="#_enum_HTTPRequestNetworkServiceType">HTTPRequestNetworkServiceType</a>**
 The service type is used to provide the network layers with a hint as to the purpose of the request.  Most clients should not need to use this method.
 
 * **var** **allowsCellularAccess**: **[Bool](../gravity/bool.md)**
@@ -48,7 +48,7 @@ Allow NO if the receiver should not be allowed to use the built in cellular radi
 * **var** **HTTPShouldSetCookies**: **[Bool](../gravity/bool.md)**
 Allow the session to set cookies on requests.
 
-* **var** **HTTPCookieAcceptPolicy**: **HTTPCookieAcceptPolicy**
+* **var** **HTTPCookieAcceptPolicy**: **<a href="#_enum_HTTPCookieAcceptPolicy">HTTPCookieAcceptPolicy</a>**
 Policy for accepting cookies. This overrides the policy otherwise specified by the cookie storage.
 
 * **var** **objectName**: **[String](../gravity/string.md)**

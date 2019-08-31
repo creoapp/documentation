@@ -29,7 +29,7 @@ This event is called when the object has been removed from the current runtime s
 * **var** **color**: **[Color](Color.md)**
 The color of the activity indicator.
 
-* **var** **style**: **ActivityIndicatorStyle**
+* **var** **style**: **<a href="#_enum_ActivityIndicatorStyle">ActivityIndicatorStyle</a>**
 The basic appearance of the activity indicator.
 
 * **var** **hidesWhenStopped**: **[Bool](../gravity/bool.md)**

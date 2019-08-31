@@ -65,10 +65,10 @@ A Boolean value that determines whether the image is highlighted.
 * **var** **url**: **[String](../gravity/string.md)**
 Asynchronously downloads an image from the specified URL (both local and remote urls work), and sets it once the request is finished. Any previous image request for the receiver will be cancelled. If the image is cached locally, the image is set immediately, otherwise the specified placeholder image will be set immediately, and then the remote image will be set once the request is finished. By default, URL requests have a `Accept` header field value of "image / *".
 
-* **var** **contentMode**: **ContentMode**
+* **var** **contentMode**: **<a href="#_enum_ContentMode">ContentMode</a>**
 Options to specify how a view adjusts its content when its size changes.
 
-* **var** **imagesRenderingMode**: **ImageRenderingMode**
+* **var** **imagesRenderingMode**: **<a href="#_enum_ImageRenderingMode">ImageRenderingMode</a>**
 Options to specify how a view adjusts its content when its size changes.
 
 * **var** **filters**: **[List](../gravity/list.md)**

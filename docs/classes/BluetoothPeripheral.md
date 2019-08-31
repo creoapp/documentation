@@ -17,7 +17,7 @@ This event is called when the object has been removed from the current runtime s
 
 ### Properties
 
-* **var** **state**: **BluetoothState**
+* **var** **state**: **<a href="#_enum_BluetoothState">BluetoothState</a>**
 Represents the current state of the peripheral manager. The PoweredOn state indicates that Bluetooth is currently powered on and available to use.
 
 * **var** **isAdvertising**: **[Bool](../gravity/bool.md)**
