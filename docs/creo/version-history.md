@@ -1,3 +1,6 @@
+**<span class="label label-release label-version">Creo 2.1.8</span>August 31st 2019 (Build 18466)**
+* Fixed a Window.openModal() issue
+
 **<span class="label label-release label-version">Creo 2.1.7</span>August 30th 2019 (Build 18441)**
 * Fixed two issues introduced in the 2.1.6 version
 * **[Gravity documentation](https://docs.creolabs.com/gravity/)** has been updated.
