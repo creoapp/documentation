@@ -6,7 +6,7 @@ A Binding object is automatically created by the CREO runtime each time you bind
 
 ### Events
 
-* **ConvertValue**(**value**: **[Object](../gravity/object.md)**): <strong>[Object](../gravity/object.md)</strong> 
+* **ConvertValue**(**value**: **[Object](../gravity/object.md)**)-> <strong>[Object](../gravity/object.md)</strong> 
 Handle this event if you want to convert a value (or an array of values in case of multiple sources).
 
 * **OnError**()

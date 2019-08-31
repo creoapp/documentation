@@ -94,10 +94,10 @@ Open window modally usign the specified transition style.
 * **func** **moveToNextField**()
 Move the focus to the next field.
 
-* **func** **convertFrom**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**): <strong>[Rect](Rect.md)</strong> 
+* **func** **convertFrom**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**)-> <strong>[Rect](Rect.md)</strong> 
 Converts a rectangle from the coordinate system of another view to that of the Window.
 
-* **func** **convertTo**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**): <strong>[Rect](Rect.md)</strong> 
+* **func** **convertTo**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**)-> <strong>[Rect](Rect.md)</strong> 
 Converts a rectangle from the Window’s coordinate system to that of another view.
 
 * **func** **reset**(**forceGarbageCollector**: **[Bool](../gravity/bool.md) = true**)

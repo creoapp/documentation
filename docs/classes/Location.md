@@ -43,7 +43,7 @@ The name of the object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **Location**(**latitude**: **[Float](../gravity/float.md)**, **longitude**: **[Float](../gravity/float.md)**)
 Description not yet ready.
@@ -55,7 +55,7 @@ Description not yet ready.
 
 ### Methods
 
-* **func** **distanceFromLocation**(**location**: **[Location](Location.md)**): <strong>[Float](../gravity/float.md)</strong> 
+* **func** **distanceFromLocation**(**location**: **[Location](Location.md)**)-> <strong>[Float](../gravity/float.md)</strong> 
 Returns the distance (in meters) from the receiver’s location to the specified location. This method measures the distance between the two locations by tracing a line between them that follows the curvature of the Earth. The resulting arc is a smooth curve and does not take into account specific altitude changes between the two locations.
 
 

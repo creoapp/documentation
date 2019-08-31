@@ -7,7 +7,7 @@ The CollectionView class manages an ordered collection of data items and present
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **CellSize**(**section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**): <strong>[Size](Size.md)</strong> 
+* **CellSize**(**section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**)-> <strong>[Size](Size.md)</strong> 
 This event asks for the size of the specified item’s cell. If you do not implement this method, the collection view uses the values in its itemSize property to set the size of items instead. Your implementation of this method can return a fixed set of sizes or dynamically adjust the sizes based on the cell’s content. Only applies to the normal flow layout type.
 
 * **DidSelectCell**(**cell**: **[CollectionViewCell](CollectionViewCell.md)**, **section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**)
@@ -86,10 +86,10 @@ The name of the object.
 * **func** **reload**(**reloadDataSet**: **[Bool](../gravity/bool.md) = true**)
 Reloads the content of the collection view.
 
-* **func** **numberOfSections**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **numberOfSections**()-> <strong>[Int](../gravity/int.md)</strong> 
 Returns the number of sections displayed by the collection view.
 
-* **func** **numberOfItemsInSection**(**section**: **[Int](../gravity/int.md)**): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **numberOfItemsInSection**(**section**: **[Int](../gravity/int.md)**)-> <strong>[Int](../gravity/int.md)</strong> 
 Returns the number of items in the specified section.
 
 * **func** **selectItem**(**indexPath**: **[IndexPath](IndexPath.md)**, **animated**: **[Bool](../gravity/bool.md) = true**, **scrollPosition**: **<a href="#_enum_CollectionViewScrollPosition">CollectionViewScrollPosition</a> = 0**)
@@ -98,16 +98,16 @@ Selects the item at the specified index path and optionally scrolls it into view
 * **func** **deselectItem**(**indexPath**: **[IndexPath](IndexPath.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 Deselects the item at the specified index.
 
-* **func** **indexPathForItemAtPoint**(**point**: **[Point](Point.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
+* **func** **indexPathForItemAtPoint**(**point**: **[Point](Point.md)**)-> <strong>[IndexPath](IndexPath.md)</strong> 
 Returns the index path of the item at the specified point in the collection view.
 
-* **func** **indexPathsForVisibleItems**(): <strong>[List](../gravity/list.md)</strong> 
+* **func** **indexPathsForVisibleItems**()-> <strong>[List](../gravity/list.md)</strong> 
 An array of the index paths of the visible items in the collection view.
 
-* **func** **indexPathForCell**(**cell**: **[CollectionViewCell](CollectionViewCell.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
+* **func** **indexPathForCell**(**cell**: **[CollectionViewCell](CollectionViewCell.md)**)-> <strong>[IndexPath](IndexPath.md)</strong> 
 Returns the index path of the specified cell.
 
-* **func** **cellForItemAtIndexPath**(**indexPath**: **[IndexPath](IndexPath.md)**): <strong>[CollectionViewCell](CollectionViewCell.md)</strong> 
+* **func** **cellForItemAtIndexPath**(**indexPath**: **[IndexPath](IndexPath.md)**)-> <strong>[CollectionViewCell](CollectionViewCell.md)</strong> 
 Returns the visible cell object at the specified index path.
 
 * **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)

@@ -15,7 +15,7 @@ The name of the object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **Size**(**width**: **[Float](../gravity/float.md)**, **height**: **[Float](../gravity/float.md)**)
 Create a new Size object.
@@ -24,7 +24,7 @@ Create a new Size object.
 
 ### Methods
 
-* **func** **copy**(): <strong>[Size](Size.md)</strong> 
+* **func** **copy**()-> <strong>[Size](Size.md)</strong> 
 Copy a Size object by value (duplicate).
 
 

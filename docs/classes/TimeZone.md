@@ -51,7 +51,7 @@ Clears any time zone value cached for the system property.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **TimeZone**(**identifier**: **[String](../gravity/string.md)**)
 Returns the time zone object identified by a given name/abbreviation.

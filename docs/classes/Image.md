@@ -36,12 +36,12 @@ The name of the object.
 
 ### Class Methods
 
-* **func** **open**(**srcfile**: **[Object](../gravity/object.md)**): <strong>[Object](../gravity/object.md)</strong> 
+* **func** **open**(**srcfile**: **[Object](../gravity/object.md)**)-> <strong>[Object](../gravity/object.md)</strong> 
 Initializes and returns the image object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **Image**(**name**: **[String](../gravity/string.md)**)
 Initializes and returns the image object with the specified name.
@@ -53,25 +53,25 @@ Initializes and returns the image object with the specified data and scale facto
 
 ### Methods
 
-* **func** **resizableImageWithCapInsets**(**capInsets**: **[EdgeInsets](EdgeInsets.md)**, **resizingMode**: **<a href="#_enum_ImageResizingMode">ImageResizingMode</a>**): <strong>[Image](Image.md)</strong> 
+* **func** **resizableImageWithCapInsets**(**capInsets**: **[EdgeInsets](EdgeInsets.md)**, **resizingMode**: **<a href="#_enum_ImageResizingMode">ImageResizingMode</a>**)-> <strong>[Image](Image.md)</strong> 
 Creates and returns a new image object with the specified cap insets and options.
 
-* **func** **PNGRepresentation**(): <strong>[Data](Data.md)</strong> 
+* **func** **PNGRepresentation**()-> <strong>[Data](Data.md)</strong> 
 Returns the data for the specified image in PNG format.
 
-* **func** **JPEGRepresentation**(**compressionQuality**: **[Float](../gravity/float.md)**): <strong>[Data](Data.md)</strong> 
+* **func** **JPEGRepresentation**(**compressionQuality**: **[Float](../gravity/float.md)**)-> <strong>[Data](Data.md)</strong> 
 Returns the data for the specified image in JPEG format using the specified compression quality.
 
-* **func** **scaleImageToFillSize**(**size**: **[Size](Size.md)**): <strong>[Image](Image.md)</strong> 
+* **func** **scaleImageToFillSize**(**size**: **[Size](Size.md)**)-> <strong>[Image](Image.md)</strong> 
 Returns a scaled version of the image that fill the specified size, preserving the aspect ratio of the original image (as "aspect fill")
 
-* **func** **scaleImageToFitSize**(**size**: **[Size](Size.md)**): <strong>[Image](Image.md)</strong> 
+* **func** **scaleImageToFitSize**(**size**: **[Size](Size.md)**)-> <strong>[Image](Image.md)</strong> 
 Returns a scaled version of the image that fit into the specified size, preserving the aspect ratio of the original image (as "aspect fit")
 
-* **func** **imageWithRenderingMode**(**renderingMode**: **<a href="#_enum_ImageRenderingMode">ImageRenderingMode</a>**): <strong>[Image](Image.md)</strong> 
+* **func** **imageWithRenderingMode**(**renderingMode**: **<a href="#_enum_ImageRenderingMode">ImageRenderingMode</a>**)-> <strong>[Image](Image.md)</strong> 
 Creates and returns a new image object with the specified rendering mode.
 
-* **func** **imageWithFilters**(**filters**: **[List](../gravity/list.md)**, **completionClosure**: **[Closure](../gravity/closure.md) = null**, **rectToRender**: **[Rect](Rect.md) = null**): <strong>[Image](Image.md)</strong> 
+* **func** **imageWithFilters**(**filters**: **[List](../gravity/list.md)**, **completionClosure**: **[Closure](../gravity/closure.md) = null**, **rectToRender**: **[Rect](Rect.md) = null**)-> <strong>[Image](Image.md)</strong> 
 Applies the list of filters to the source image. You don't need to set the inputImage value for the filters, it is automatically configured. If the completion closure parameter is set the execution is performed in a background thread so the UI stays responsive, the methods immediatly returns with null value and, when the image is ready, it is passed as the only parameter of the closure; otherwise, the execution is performed in the main thread and the methods returns the resulting image. The optional rectToRender parameter defines the region of the image to render. If not set, the extent of the filtered image is used instead and the image is completely rendered (if the extent of the image is infinite, the rect is too big to be rendered so the resulting image is NULL).
 
 

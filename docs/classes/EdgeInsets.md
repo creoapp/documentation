@@ -21,7 +21,7 @@ The name of the object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **EdgeInsets**(**top**: **[Float](../gravity/float.md)**, **left**: **[Float](../gravity/float.md)**, **bottom**: **[Float](../gravity/float.md)**, **right**: **[Float](../gravity/float.md)**)
 Create a new EdgeInsets object.
@@ -30,7 +30,7 @@ Create a new EdgeInsets object.
 
 ### Methods
 
-* **func** **copy**(): <strong>[EdgeInsets](EdgeInsets.md)</strong> 
+* **func** **copy**()-> <strong>[EdgeInsets](EdgeInsets.md)</strong> 
 Copy a EdgeInsets object by value (duplicate).
 
 

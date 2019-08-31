@@ -102,10 +102,10 @@ Copy temporary audio file used during recording to a specified location.
 * **func** **updateMeters**()
 Refreshes the average and peak power values for all channels of an audio recorder.
 
-* **func** **peakPower**(**channel**: **[Int](../gravity/int.md)**): <strong>[Float](../gravity/float.md)</strong> 
+* **func** **peakPower**(**channel**: **[Int](../gravity/int.md)**)-> <strong>[Float](../gravity/float.md)</strong> 
 Returns the peak power for a given channel, in decibels, for the sound being recorded. The current peak power, in decibels, for the sound being recorded. A return value of 0 dB indicates full scale, or maximum power; a return value of -160 dB indicates minimum power (that is, near silence). If the signal provided to the audio recorder exceeds ±full scale, then the return value may exceed 0 (that is, it may enter the positive range).
 
-* **func** **averagePower**(**channel**: **[Int](../gravity/int.md)**): <strong>[Float](../gravity/float.md)</strong> 
+* **func** **averagePower**(**channel**: **[Int](../gravity/int.md)**)-> <strong>[Float](../gravity/float.md)</strong> 
 Returns the average power for a given channel, in decibels, for the sound being recorded. The current average power, in decibels, for the sound being recorded. A return value of 0 dB indicates full scale, or maximum power; a return value of -160 dB indicates minimum power (that is, near silence). If the signal provided to the audio recorder exceeds ±full scale, then the return value may exceed 0 (that is, it may enter the positive range).
 
 

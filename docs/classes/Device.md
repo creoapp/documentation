@@ -82,10 +82,10 @@ The name of the object.
 
 ### Methods
 
-* **func** **sizeInches**(**size**: **<a href="#_enum_DeviceSize">DeviceSize</a>**): <strong>[Float](../gravity/float.md)</strong> 
+* **func** **sizeInches**(**size**: **<a href="#_enum_DeviceSize">DeviceSize</a>**)-> <strong>[Float](../gravity/float.md)</strong> 
 Convert a value from the DeviceSize enum to the numeric value of the screen size (diagonal).
 
-* **func** **sizeName**(**size**: **<a href="#_enum_DeviceSize">DeviceSize</a>**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **sizeName**(**size**: **<a href="#_enum_DeviceSize">DeviceSize</a>**)-> <strong>[String](../gravity/string.md)</strong> 
 Convert a value from the DeviceSize enum to its string representation.
 
 * **func** **vibrate**()

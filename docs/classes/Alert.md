@@ -27,7 +27,7 @@ This event is called when the object has been removed from the current runtime s
 
 
 
-### Initializers
+### Constructors
 
 * **func** **Alert**(**title**: **[String](../gravity/string.md)**)
 Create a new Alert message with a specified title.

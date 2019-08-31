@@ -58,7 +58,7 @@ The name of the object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **Button**(**buttonType**: **<a href="#_enum_ButtonType">ButtonType</a>**)
 Creates and returns a new button of the specified type.
@@ -67,31 +67,31 @@ Creates and returns a new button of the specified type.
 
 ### Methods
 
-* **func** **titleForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **titleForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)-> <strong>[String](../gravity/string.md)</strong> 
 Returns the title associated with the specified state.
 
 * **func** **setTitleForState**(**title**: **[String](../gravity/string.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the title associated with the specified state. At a minimum, you should set the value for the normal state. If a title is not specified for a state, the default behavior is to use the title associated with the normal state. If the value for normal is not set, then the property defaults to a system value.
 
-* **func** **titleColorForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Color](Color.md)</strong> 
+* **func** **titleColorForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)-> <strong>[Color](Color.md)</strong> 
 Returns the title color used for the specified state.
 
 * **func** **setTitleColorForState**(**color**: **[Color](Color.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the color of the title to use for the specified state.
 
-* **func** **titleShadowColorForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Color](Color.md)</strong> 
+* **func** **titleShadowColorForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)-> <strong>[Color](Color.md)</strong> 
 Returns the shadow color of the title used for the specified state.
 
 * **func** **setTitleShadowColorForState**(**color**: **[Color](Color.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the color of the title shadow to use for the specified state.
 
-* **func** **imageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Image](Image.md)</strong> 
+* **func** **imageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)-> <strong>[Image](Image.md)</strong> 
 Returns the image used for the specified state.
 
 * **func** **setImageForState**(**image**: **[Image](Image.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)
 Sets the image to use for the specified state.
 
-* **func** **backgroundImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**): <strong>[Image](Image.md)</strong> 
+* **func** **backgroundImageForState**(**state**: **<a href="#_enum_ControlState">ControlState</a>**)-> <strong>[Image](Image.md)</strong> 
 Returns the background image used for the specified state.
 
 * **func** **setBackgroundImageForState**(**image**: **[Image](Image.md)**, **state**: **<a href="#_enum_ControlState">ControlState</a>**)

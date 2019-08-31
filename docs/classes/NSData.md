@@ -24,49 +24,49 @@ The name of the object.
 
 ### Methods
 
-* **func** **readUInt8**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **readUInt8**()-> <strong>[Int](../gravity/int.md)</strong> 
 Reads a one-byte value from the data and returns it as a UInt8. See also the <code>position</code> property.
 
-* **func** **readUInt16**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **readUInt16**()-> <strong>[Int](../gravity/int.md)</strong> 
 Reads a two-bytes value from the data and returns it as a UInt16. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **readUInt32**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **readUInt32**()-> <strong>[Int](../gravity/int.md)</strong> 
 Reads a four-bytes value from the data and returns it as a UInt32. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **readUInt64**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **readUInt64**()-> <strong>[Int](../gravity/int.md)</strong> 
 Reads a eight-bytes value from the data and returns it as a UInt64. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **readInt8**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **readInt8**()-> <strong>[Int](../gravity/int.md)</strong> 
 Reads a one-byte value from the data and returns it as a Int8. See also the <code>position</code> property.
 
-* **func** **readInt16**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **readInt16**()-> <strong>[Int](../gravity/int.md)</strong> 
 Reads a two-bytes value from the data and returns it as a Int16. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **readInt32**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **readInt32**()-> <strong>[Int](../gravity/int.md)</strong> 
 Reads a four-bytes value from the data and returns it as a Int32. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **readInt64**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **readInt64**()-> <strong>[Int](../gravity/int.md)</strong> 
 Reads a eight-bytes value from the data and returns it as a Int64. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **readFloat**(): <strong>[Float](../gravity/float.md)</strong> 
+* **func** **readFloat**()-> <strong>[Float](../gravity/float.md)</strong> 
 Reads a four-bytes value from the data and returns it as a Float. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **readDouble**(): <strong>[Float](../gravity/float.md)</strong> 
+* **func** **readDouble**()-> <strong>[Float](../gravity/float.md)</strong> 
 Reads a eight-bytes value from the data and returns it as a Double. See also the <code>position</code> and the <code>littleEndian</code> properties.
 
-* **func** **md5**(): <strong>[String](../gravity/string.md)</strong> 
+* **func** **md5**()-> <strong>[String](../gravity/string.md)</strong> 
 Compute MD5 digest algorithm.
 
-* **func** **sha1**(): <strong>[String](../gravity/string.md)</strong> 
+* **func** **sha1**()-> <strong>[String](../gravity/string.md)</strong> 
 Compute SHA1 digest algorithm.
 
-* **func** **sha256**(): <strong>[String](../gravity/string.md)</strong> 
+* **func** **sha256**()-> <strong>[String](../gravity/string.md)</strong> 
 Compute SHA256 digest algorithm.
 
-* **func** **sha512**(): <strong>[String](../gravity/string.md)</strong> 
+* **func** **sha512**()-> <strong>[String](../gravity/string.md)</strong> 
 Compute SHA512 digest algorithm.
 
-* **func** **base64**(): <strong>[String](../gravity/string.md)</strong> 
+* **func** **base64**()-> <strong>[String](../gravity/string.md)</strong> 
 Encode data to base64 string.
 
 

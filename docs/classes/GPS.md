@@ -42,19 +42,19 @@ The name of the object.
 
 ### Methods
 
-* **func** **locationServicesEnabled**(): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **locationServicesEnabled**()-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether location services are enabled on the device.
 
-* **func** **headingAvailable**(): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **headingAvailable**()-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether the location manager is able to generate heading-related events. Heading data may not be available on all iOS-based devices.
 
-* **func** **deferredLocationUpdatesAvailable**(): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **deferredLocationUpdatesAvailable**()-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether the device supports deferred location updates. Deferred location updates are a way for the location manager to avoid frequently waking up a background app to deliver location changes. Normally, when an app wants location updates in the background, the app must be woken up whenever a new event arrives. Waking up the app consumes power, which in some situations might be wasted if the app cannot do anything with the location information other than log it and go back to sleep anyway. Deferring location updates gives you the ability to wait until a time when your app can do something useful with the data and then process the updates all at once. Deferred location updates require the presence of GPS hardware and may not be supported on all iOS devices.
 
-* **func** **significantLocationChangeMonitoringAvailable**(): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **significantLocationChangeMonitoringAvailable**()-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether significant location change tracking is available. This method indicates whether the device is able to report updates based on significant location changes only. This capability provides tremendous power savings for apps that want to track a user’s approximate location and do not need highly accurate position information.
 
-* **func** **authorizationStatus**(): <strong><a href="#_enum_AuthorizationStatus">AuthorizationStatus</a></strong> 
+* **func** **authorizationStatus**()-> <strong><a href="#_enum_AuthorizationStatus">AuthorizationStatus</a></strong> 
 Returns the app’s authorization status for using location services. The authorization status of a given app is managed by the system and determined by several factors. Apps must be explicitly authorized to use location services by the user and location services must themselves currently be enabled for the system. A request for user authorization is displayed automatically when your app first attempts to use location services.
 
 

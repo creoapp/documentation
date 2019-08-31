@@ -36,18 +36,18 @@ The name of the object.
 
 ### Class Methods
 
-* **func** **allAddresses**(): <strong>[Map](../gravity/map.md)</strong> 
+* **func** **allAddresses**()-> <strong>[Map](../gravity/map.md)</strong> 
 Returns all network interfaces and the their relative IPv4 or IPv6 address.
 
-* **func** **ipAddress**(**IPv4**: **[Bool](../gravity/bool.md) = true**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **ipAddress**(**IPv4**: **[Bool](../gravity/bool.md) = true**)-> <strong>[String](../gravity/string.md)</strong> 
 Returns the string representation of the IPv4 or IPv6 address of the device.
 
-* **func** **ipAddressForInterface**(**NetworkInterface**: **[String](../gravity/string.md) = null**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **ipAddressForInterface**(**NetworkInterface**: **[String](../gravity/string.md) = null**)-> <strong>[String](../gravity/string.md)</strong> 
 Returns the string representation of the IPv4 or IPv6 address of the specified network interface.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **NetworkReachability**(**domain**: **[String](../gravity/string.md)**)
 Returns an initialized network reachability manager for the specified domain.

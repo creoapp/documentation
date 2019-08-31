@@ -96,19 +96,19 @@ Unlinks the view from its superview and its window, and removes it from the resp
 * **func** **insertSubview**(**view**: **[UIView](UIView.md)**, **index**: **[Int](../gravity/int.md)**)
 Inserts a subview at the specified index.
 
-* **func** **convertRectTo**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**): <strong>[Rect](Rect.md)</strong> 
+* **func** **convertRectTo**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**)-> <strong>[Rect](Rect.md)</strong> 
 Converts a rectangle from the view's coordinate system to that of another view.
 
-* **func** **convertRectFrom**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**): <strong>[Rect](Rect.md)</strong> 
+* **func** **convertRectFrom**(**rect**: **[Rect](Rect.md)**, **view**: **[UIView](UIView.md)**)-> <strong>[Rect](Rect.md)</strong> 
 Converts a rectangle from the coordinate system of another view to that of the view.
 
-* **func** **convertPointTo**(**point**: **[Point](Point.md)**, **view**: **[UIView](UIView.md)**): <strong>[Point](Point.md)</strong> 
+* **func** **convertPointTo**(**point**: **[Point](Point.md)**, **view**: **[UIView](UIView.md)**)-> <strong>[Point](Point.md)</strong> 
 Converts a point from the view's coordinate system to that of another view.
 
-* **func** **convertPointFrom**(**point**: **[Point](Point.md)**, **view**: **[UIView](UIView.md)**): <strong>[Point](Point.md)</strong> 
+* **func** **convertPointFrom**(**point**: **[Point](Point.md)**, **view**: **[UIView](UIView.md)**)-> <strong>[Point](Point.md)</strong> 
 Converts a point from the coordinate system of another view to that of the view.
 
-* **func** **hitTest**(**point**: **[Point](Point.md)**): <strong>[UIView](UIView.md)</strong> 
+* **func** **hitTest**(**point**: **[Point](Point.md)**)-> <strong>[UIView](UIView.md)</strong> 
 .
 
 

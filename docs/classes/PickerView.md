@@ -16,10 +16,10 @@ The view is about to be removed from the App's views hierarchy.
 * **DidSelectCell**(**column**: **[Int](../gravity/int.md)**, **row**: **[Int](../gravity/int.md)**)
 This event is called by the picker view when the user selects a row in a column.
 
-* **RowHeight**(**column**: **[Int](../gravity/int.md)**): <strong>[Float](../gravity/float.md)</strong> 
+* **RowHeight**(**column**: **[Int](../gravity/int.md)**)-> <strong>[Float](../gravity/float.md)</strong> 
 This event is called by the picker view when it needs the row height to use for drawing row content in the specified column.
 
-* **ColumnWidth**(**column**: **[Int](../gravity/int.md)**): <strong>[Float](../gravity/float.md)</strong> 
+* **ColumnWidth**(**column**: **[Int](../gravity/int.md)**)-> <strong>[Float](../gravity/float.md)</strong> 
 This event is called by the picker view when it needs the column width.
 
 * **DidShow**()
@@ -60,13 +60,13 @@ Reloads all components of the picker view.
 * **func** **reloadComponent**(**identifier**: **[Int](../gravity/int.md)**)
 Reloads a particular component of the picker view. Calling this method causes the picker view to query the delegate for new data for the given component.
 
-* **func** **numberOfRowsInComponent**(**identifier**: **[Int](../gravity/int.md)**): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **numberOfRowsInComponent**(**identifier**: **[Int](../gravity/int.md)**)-> <strong>[Int](../gravity/int.md)</strong> 
 Returns the number of rows for a component. A picker view fetches the value of this property from the data source and and caches it. The default value is zero.
 
 * **func** **selectRowInComponent**(**row**: **[Int](../gravity/int.md)**, **identifier**: **[Int](../gravity/int.md)**, **animated**: **[Bool](../gravity/bool.md)**)
 Selects a row in a specified component of the picker view.
 
-* **func** **selectedRowInComponent**(**identifier**: **[Int](../gravity/int.md)**): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **selectedRowInComponent**(**identifier**: **[Int](../gravity/int.md)**)-> <strong>[Int](../gravity/int.md)</strong> 
 Returns the index of the selected row in a given component. A zero-indexed number identifying the selected row, or -1 if no row is selected.
 
 * **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)

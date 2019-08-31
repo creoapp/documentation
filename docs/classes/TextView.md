@@ -90,7 +90,7 @@ The name of the object.
 
 ### Methods
 
-* **func** **hasText**(): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **hasText**()-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether the text view currently contains any text.
 
 * **func** **appendText**(**text**: **[String](../gravity/string.md)**)

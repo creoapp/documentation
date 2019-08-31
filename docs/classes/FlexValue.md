@@ -41,7 +41,7 @@ The name of the object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **FlexValue**(**value**: **[Float](../gravity/float.md)**, **unit**: **<a href="#_enum_FlexUnit">FlexUnit</a>**)
 Create a new FlexValue. The first argument is the value (Float), the second is the unit of the value (FlexUnit, Point or Percent)

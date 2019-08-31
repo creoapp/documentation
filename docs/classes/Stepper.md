@@ -57,19 +57,19 @@ The name of the object.
 
 ### Methods
 
-* **func** **backgroundImageForState**(**state**: **[Int](../gravity/int.md)**): <strong>[Image](Image.md)</strong> 
+* **func** **backgroundImageForState**(**state**: **[Int](../gravity/int.md)**)-> <strong>[Image](Image.md)</strong> 
 Returns the background image associated with the specified control state.
 
 * **func** **setBackgroundImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/int.md)**)
 Sets the background image for the control when it is in the specified state.
 
-* **func** **incrementImageForState**(**state**: **[Int](../gravity/int.md)**): <strong>[Image](Image.md)</strong> 
+* **func** **incrementImageForState**(**state**: **[Int](../gravity/int.md)**)-> <strong>[Image](Image.md)</strong> 
 Returns the image used for the increment glyph of the control.
 
 * **func** **setIncrementImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/int.md)**)
 Sets the image to use for the increment glyph of the control.
 
-* **func** **decrementImageForState**(**state**: **[Int](../gravity/int.md)**): <strong>[Image](Image.md)</strong> 
+* **func** **decrementImageForState**(**state**: **[Int](../gravity/int.md)**)-> <strong>[Image](Image.md)</strong> 
 Returns the image used for the decrement glyph of the control.
 
 * **func** **setDecrementImageForState**(**image**: **[Image](Image.md)**, **state**: **[Int](../gravity/int.md)**)

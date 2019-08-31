@@ -53,7 +53,7 @@ The name of the object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **PageContainer**(**style**: **<a href="#_enum_PageContainerStyle">PageContainerStyle</a>**)
 Create a new PageContainer with the specified style.

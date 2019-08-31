@@ -51,7 +51,7 @@ Starts the animation of the activity indicator.
 * **func** **stopAnimating**()
 Stops the animation of the activity indicator.
 
-* **func** **isAnimating**(): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **isAnimating**()-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns true if the animation is active, false if it isn't.
 
 * **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)

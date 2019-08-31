@@ -15,7 +15,7 @@ The name of the object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **Offset**(**horizontal**: **[Float](../gravity/float.md)**, **vertical**: **[Float](../gravity/float.md)**)
 Create a new Offset object.
@@ -24,7 +24,7 @@ Create a new Offset object.
 
 ### Methods
 
-* **func** **copy**(): <strong>[Offset](Offset.md)</strong> 
+* **func** **copy**()-> <strong>[Offset](Offset.md)</strong> 
 Copy a Offset object by value (duplicate).
 
 

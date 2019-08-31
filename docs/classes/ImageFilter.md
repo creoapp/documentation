@@ -37,13 +37,13 @@ The name of the object.
 
 ### Class Methods
 
-* **func** **filterWithName**(**name**: **[String](../gravity/string.md)**): <strong>[ImageFilter](ImageFilter.md)</strong> 
+* **func** **filterWithName**(**name**: **[String](../gravity/string.md)**)-> <strong>[ImageFilter](ImageFilter.md)</strong> 
 Creates a new filter of type 'name', all input values will be set to default values.
 
-* **func** **filterNamesInCategory**(**category**: **[String](../gravity/string.md)**): <strong>[List](../gravity/list.md)</strong> 
+* **func** **filterNamesInCategory**(**category**: **[String](../gravity/string.md)**)-> <strong>[List](../gravity/list.md)</strong> 
 Returns an array containing all published filter names in a category.
 
-* **func** **localizedDescriptionForFilterName**(**name**: **[String](../gravity/string.md)**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **localizedDescriptionForFilterName**(**name**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
 Returns the localized description of a filter for display in the UI.
 
 
@@ -53,13 +53,13 @@ Returns the localized description of a filter for display in the UI.
 * **func** **setDefaults**()
 Sets all inputs to their default values (where default values are defined, other inputs are left as-is).
 
-* **func** **getValue**(**key**: **[String](../gravity/string.md)**): <strong>[Object](../gravity/object.md)</strong> 
+* **func** **getValue**(**key**: **[String](../gravity/string.md)**)-> <strong>[Object](../gravity/object.md)</strong> 
 Get the current value for the property specified by the key. Valid values for the key parameters are listed in the inputKeys and outputKeys properties.
 
 * **func** **setValue**(**value**: **[Object](../gravity/object.md)**, **key**: **[String](../gravity/string.md)**)
 Set a new value for the property specified by the key. Valid values for the key parameters are listed in the inputKeys properties.
 
-* **func** **outputImage**(**outputImageClosure**: **[Closure](../gravity/closure.md) = null**, **rectToRender**: **[Rect](Rect.md) = null**, **scale**: **[Float](../gravity/float.md) = 1**, **orientation**: **<a href="#_enum_ImageOrientation">ImageOrientation</a> = 0**): <strong><a href="#_enum_ImageOrientation">ImageOrientation</a></strong> 
+* **func** **outputImage**(**outputImageClosure**: **[Closure](../gravity/closure.md) = null**, **rectToRender**: **[Rect](Rect.md) = null**, **scale**: **[Float](../gravity/float.md) = 1**, **orientation**: **<a href="#_enum_ImageOrientation">ImageOrientation</a> = 0**)-> <strong><a href="#_enum_ImageOrientation">ImageOrientation</a></strong> 
 Executes the filter and produces the rendered image. If the closure parameter is set the execution is performed in a background thread so the UI stays responsive, the methods immediately returns with null value and, when the image is ready, it is passed as the only parameter of the closure; otherwise, the execution is performed in the main thread and the methods returns the resulting image. The optional rectToRender parameter defines the region of the image to render. If not set, the extent of the filtered image is used instead and the image is completely rendered (if the extent of the image is infinite, the rect is too big to be rendered so the resulting image is NULL).
 
 

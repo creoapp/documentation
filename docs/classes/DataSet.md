@@ -7,16 +7,16 @@ A DataSet is a programmatically customizable BaseDataSet. You can customize the 
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
-* **Rows**(): <strong>[Int](../gravity/int.md)</strong> 
+* **Rows**()-> <strong>[Int](../gravity/int.md)</strong> 
 This event lets you specify the number of rows of the DataSet.
 
-* **Columns**(): <strong>[Int](../gravity/int.md)</strong> 
+* **Columns**()-> <strong>[Int](../gravity/int.md)</strong> 
 This event lets you specify the number of columns of the DataSet.
 
-* **NameForColumn**(**column**: **[Int](../gravity/int.md)**): <strong>[String](../gravity/string.md)</strong> 
+* **NameForColumn**(**column**: **[Int](../gravity/int.md)**)-> <strong>[String](../gravity/string.md)</strong> 
 This event lets you specify the name of each column. The column names are used in the control inspectors to set source column for each property of the template view.
 
-* **Value**(**row**: **[Int](../gravity/int.md)**, **column**: **[Int](../gravity/int.md)**): <strong>[Object](../gravity/object.md)</strong> 
+* **Value**(**row**: **[Int](../gravity/int.md)**, **column**: **[Int](../gravity/int.md)**)-> <strong>[Object](../gravity/object.md)</strong> 
 This event lets you specify the value for each row/column pair.
 
 * **DidStart**()

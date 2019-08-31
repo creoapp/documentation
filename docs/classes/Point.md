@@ -15,7 +15,7 @@ The name of the object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **Point**(**x**: **[Float](../gravity/float.md)**, **y**: **[Float](../gravity/float.md)**)
 Create a new Point object.
@@ -24,7 +24,7 @@ Create a new Point object.
 
 ### Methods
 
-* **func** **copy**(): <strong>[Point](Point.md)</strong> 
+* **func** **copy**()-> <strong>[Point](Point.md)</strong> 
 Copy a Point object by value (duplicate).
 
 

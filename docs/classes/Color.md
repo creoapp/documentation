@@ -96,21 +96,21 @@ The name of the object.
 
 ### Class Methods
 
-* **func** **colorWithPatternImage**(**image**: **[Image](Image.md)**): <strong>[Color](Color.md)</strong> 
+* **func** **colorWithPatternImage**(**image**: **[Image](Image.md)**)-> <strong>[Color](Color.md)</strong> 
 Creates and returns a color object using the specified image. You can use pattern colors to set the fill or stroke color just as you would a solid color. During drawing, the image in the pattern color is tiled as necessary to cover the given area.
 
-* **func** **hsba**(**hue**: **[Float](../gravity/float.md)**, **saturation**: **[Float](../gravity/float.md)**, **brightness**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**): <strong>[Color](Color.md)</strong> 
+* **func** **hsba**(**hue**: **[Float](../gravity/float.md)**, **saturation**: **[Float](../gravity/float.md)**, **brightness**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**)-> <strong>[Color](Color.md)</strong> 
 Creates and returns a color object using the specified opacity and HSB color space component values.
 
-* **func** **rgba**(**red**: **[Float](../gravity/float.md)**, **green**: **[Float](../gravity/float.md)**, **blue**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**): <strong>[Color](Color.md)</strong> 
+* **func** **rgba**(**red**: **[Float](../gravity/float.md)**, **green**: **[Float](../gravity/float.md)**, **blue**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**)-> <strong>[Color](Color.md)</strong> 
 Creates and returns a color object using the specified opacity and RGB component values.
 
-* **func** **whiteWithAlpha**(**white**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**): <strong>[Color](Color.md)</strong> 
+* **func** **whiteWithAlpha**(**white**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**)-> <strong>[Color](Color.md)</strong> 
 Initializes and returns a color object using the specified opacity and grayscale values.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **Color**(**red**: **[Float](../gravity/float.md)**, **green**: **[Float](../gravity/float.md)**, **blue**: **[Float](../gravity/float.md)**, **alpha**: **[Float](../gravity/float.md)**)
 Creates a color object using the specified opacity and RGB component values.
@@ -125,10 +125,10 @@ Creates a color using the specified HEX string.
 
 ### Methods
 
-* **func** **hex**(**withAlpha**: **[Bool](../gravity/bool.md)**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **hex**(**withAlpha**: **[Bool](../gravity/bool.md)**)-> <strong>[String](../gravity/string.md)</strong> 
 Returns hex string representing the color (with an optional alpha value speciafied in the parameter, this method is valid only if isRGB is true).
 
-* **func** **darkerColor**(**amount**: **[Float](../gravity/float.md)**): <strong>[Color](Color.md)</strong> 
+* **func** **darkerColor**(**amount**: **[Float](../gravity/float.md)**)-> <strong>[Color](Color.md)</strong> 
 Returns a darker color with the amount specified in the parameter (only valid if isRGB is true).
 
 

@@ -13,7 +13,7 @@ Event raised when a new value becomes available. The value parameter is map.
 * **UpdatedState**(**state**: **<a href="#_enum_BluetoothState">BluetoothState</a>**)
 Event raised when the blueetooth central changes its state
 
-* **ShouldConnect**(**peripheralName**: **[String](../gravity/string.md)**, **peripheralUUID**: **[String](../gravity/string.md)**, **RSSI**: **[Int](../gravity/int.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **ShouldConnect**(**peripheralName**: **[String](../gravity/string.md)**, **peripheralUUID**: **[String](../gravity/string.md)**, **RSSI**: **[Int](../gravity/int.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 The bluetooth central has discovered a peripheral that are advertising one of the configured services. Return true if the central should connect to this peripheral. If not implemented, the central will connect to any discovered peripheral.
 
 * **DidStart**()
@@ -72,13 +72,13 @@ Scans for peripherals that are advertising the configured services.
 * **func** **stopScan**()
 Stops scanning for peripherals.
 
-* **func** **readValue**(**peripheral**: **[String](../gravity/string.md)**, **service**: **[String](../gravity/string.md)**, **characteristic**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **readValue**(**peripheral**: **[String](../gravity/string.md)**, **service**: **[String](../gravity/string.md)**, **characteristic**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Retrieves the value of a specified characteristic. Return true if the peripheral, service and characteristic are valid, false otherwise. If the value of the characteristic is successfully retrieved, you will be notified with a <code>NewValue</code> event.
 
-* **func** **writeValue**(**value**: **[Object](../gravity/object.md)**, **peripheral**: **[String](../gravity/string.md)**, **service**: **[String](../gravity/string.md)**, **characteristic**: **[String](../gravity/string.md)**, **type**: **<a href="#_enum_CharacteristicWriteType">CharacteristicWriteType</a>**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **writeValue**(**value**: **[Object](../gravity/object.md)**, **peripheral**: **[String](../gravity/string.md)**, **service**: **[String](../gravity/string.md)**, **characteristic**: **[String](../gravity/string.md)**, **type**: **<a href="#_enum_CharacteristicWriteType">CharacteristicWriteType</a>**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Writes the value of a characteristic. If the value is a Data object it is written as is, otherwise (Number, String, etc.) the BluetoothCentral tries to encode the value for known characteristis. Return true if the peripheral, service and characteristic are valid, false otherwise. If the <code>WriteWithResponse</code> type is specified, <code>NewValue</code> event is called with the result of the write request.
 
-* **func** **setNotifyValue**(**enabled**: **[Bool](../gravity/bool.md)**, **peripheral**: **[String](../gravity/string.md)**, **service**: **[String](../gravity/string.md)**, **characteristic**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **setNotifyValue**(**enabled**: **[Bool](../gravity/bool.md)**, **peripheral**: **[String](../gravity/string.md)**, **service**: **[String](../gravity/string.md)**, **characteristic**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Enables or disables notifications/indications for the characteristic. If <i>characteristic</i> allows both, notifications will be used. When notifications/indications are enabled, updates to the characteristic value will be received via <code>NewValue</code> event.
 
 

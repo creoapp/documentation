@@ -58,7 +58,7 @@ The name of the object.
 
 ### Methods
 
-* **func** **deleteAccessToken**(): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **deleteAccessToken**()-> <strong>[Bool](../gravity/bool.md)</strong> 
 Delete the OAuth access token stored in the keychain for this service.
 
 

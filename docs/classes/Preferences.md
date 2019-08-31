@@ -26,10 +26,10 @@ This event is called when the object has been removed from the current runtime s
 
 ### Methods
 
-* **func** **read**(**key**: **[String](../gravity/string.md)**): <strong>[Object](../gravity/object.md)</strong> 
+* **func** **read**(**key**: **[String](../gravity/string.md)**)-> <strong>[Object](../gravity/object.md)</strong> 
 Reads the value specified by a previously saved key.
 
-* **func** **write**(**key**: **[String](../gravity/string.md)**, **value**: **[Object](../gravity/object.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **write**(**key**: **[String](../gravity/string.md)**, **value**: **[Object](../gravity/object.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value that indicates whether the specified key/value entry has been succesfully written to app's preferences. Accepts and writes properly Map, List, Int, Float, String, Bool and Null objects.
 
 * **func** **reset**()

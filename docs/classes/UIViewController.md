@@ -48,7 +48,7 @@ The name of the object.
 
 ### Methods
 
-* **func** **isViewLoaded**(): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **isViewLoaded**()-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether the view is currently loaded into memory, it does not attempt to load the view if it is not already in memory.
 
 * **func** **updateStatusBar**()

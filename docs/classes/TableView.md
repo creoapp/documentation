@@ -13,7 +13,7 @@ The view is about to be added to the App's views hierarchy.
 * **WillHide**()
 The view is about to be removed from the App's views hierarchy.
 
-* **RowHeight**(**section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**): <strong>[Float](../gravity/float.md)</strong> 
+* **RowHeight**(**section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**)-> <strong>[Float](../gravity/float.md)</strong> 
 This event lets you specify a different height depending of the section and row indexes. If this event is implemented, the return value of this event is used to define the height of the specified row instead of the <code>rowHeight</code> property of the TableView. If the return value is TableViewDimension.Automatic, the table view uses a height that fits the content of the TableViewCell (and its customView).
 
 * **DidSelectCell**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**)
@@ -25,10 +25,10 @@ This event is called when a row is deselected. The parameters contain the instan
 * **WillShowCell**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**)
 This event is called when the table is about to draw a cell for a particular row. The parameters contain the instance of the <a href="TableViewCell.html">TableViewCell</a>, the section index and the row index of the cell.
 
-* **CanEditCell**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **CanEditCell**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 The event allows you to exclude individual rows from being treated as editable. Editable rows display the insertion or deletion control in their cells. If this event is not implemented, all rows are assumed to be editable. Return true if you want the cell to be editable, false otherwise.
 
-* **CommitEdit**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**, **editingMode**: **<a href="#_enum_TableViewCellEditingStyle">TableViewCellEditingStyle</a>**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **CommitEdit**(**cell**: **[TableViewCell](TableViewCell.md)**, **section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**, **editingMode**: **<a href="#_enum_TableViewCellEditingStyle">TableViewCellEditingStyle</a>**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 This event is called when users tap the insertion (green plus) control of an editing row or the Delete confirmation button after a left swipe gesture or after pressing the Delete (red minus) button of an editing row. This event lets you commit the change, for example by performing an insert statement to the DataSet and by invoking the insertRow method of the TableView. In case of Delete editing mode, if the event returns true, the TableView assumes that the DataSet has been updated and proceeds to remove the row; otherwise, if it returns false, the TableView just dismiss the presented action.
 
 * **WillReload**()
@@ -126,13 +126,13 @@ Reloads the content of the table view.
 * **func** **setEditing**(**editing**: **[Bool](../gravity/bool.md)**, **animated**: **[Bool](../gravity/bool.md) = true**)
 When you call this method with the value of editing set to true, the table view goes into editing mode by calling on each visible row. Calling this method with editing set to false turns off editing mode. In editing mode, the cells of the table might show an insertion or deletion control on the left side of each cell and a reordering control on the right side, depending on how the cell is configured. You can selectively exclude cells from editing mode by implementing the CanEditItem event.
 
-* **func** **numberOfRows**(**section**: **[Int](../gravity/int.md)**): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **numberOfRows**(**section**: **[Int](../gravity/int.md)**)-> <strong>[Int](../gravity/int.md)</strong> 
 Returns the number of rows in a specified section.
 
-* **func** **numberOfSections**(): <strong>[Int](../gravity/int.md)</strong> 
+* **func** **numberOfSections**()-> <strong>[Int](../gravity/int.md)</strong> 
 The number of sections in the table view.
 
-* **func** **indexPathForRowAtPoint**(**point**: **[Point](Point.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
+* **func** **indexPathForRowAtPoint**(**point**: **[Point](Point.md)**)-> <strong>[IndexPath](IndexPath.md)</strong> 
 Returns an index path identifying the row and section at the given point.
 
 * **func** **selectRow**(**indexPath**: **[Object](../gravity/object.md)**, **animated**: **[Bool](../gravity/bool.md) = true**, **scrollPosition**: **<a href="#_enum_TableViewScrollPosition">TableViewScrollPosition</a> = 0**)
@@ -156,16 +156,16 @@ Deletes the row specified by an IndexPath (row and section) or an Int (row, in t
 * **func** **deleteRows**(**indexPaths**: **[List](../gravity/list.md)**, **rowAnimation**: **<a href="#_enum_TableViewRowAnimation">TableViewRowAnimation</a> = 100**)
 Deletes the rows specified by an array of index paths, with an option to animate the deletion (the animation is not simulated in the Creo Simulator for Mac).
 
-* **func** **cellForRowAtIndexPath**(**indexPath**: **[Object](../gravity/object.md)**): <strong>[TableViewCell](TableViewCell.md)</strong> 
+* **func** **cellForRowAtIndexPath**(**indexPath**: **[Object](../gravity/object.md)**)-> <strong>[TableViewCell](TableViewCell.md)</strong> 
 Returns the table cell at the specified index path.
 
-* **func** **visibleCells**(): <strong>[List](../gravity/list.md)</strong> 
+* **func** **visibleCells**()-> <strong>[List](../gravity/list.md)</strong> 
 The table cells that are visible in the table view.
 
-* **func** **indexPathsForVisibleRows**(): <strong>[List](../gravity/list.md)</strong> 
+* **func** **indexPathsForVisibleRows**()-> <strong>[List](../gravity/list.md)</strong> 
 An array of index paths, each identifying a visible row in the table view.
 
-* **func** **indexPathForCell**(**cell**: **[TableViewCell](TableViewCell.md)**): <strong>[IndexPath](IndexPath.md)</strong> 
+* **func** **indexPathForCell**(**cell**: **[TableViewCell](TableViewCell.md)**)-> <strong>[IndexPath](IndexPath.md)</strong> 
 Returns an index path representing the row and section of a given table-view cell.
 
 * **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)

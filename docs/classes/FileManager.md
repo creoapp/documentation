@@ -26,64 +26,64 @@ This event is called when the object has been removed from the current runtime s
 
 ### Methods
 
-* **func** **open**(**sourceFilePath**: **[String](../gravity/string.md)**, **mode**: **<a href="#_enum_FileMode">FileMode</a> = 0**): <strong>[File](File.md)</strong> 
+* **func** **open**(**sourceFilePath**: **[String](../gravity/string.md)**, **mode**: **<a href="#_enum_FileMode">FileMode</a> = 0**)-> <strong>[File](File.md)</strong> 
 Opens the specified file using the optional file mode and returns a File object.
 
-* **func** **directory**(**SearchPath**: **<a href="#_enum_SearchPath">SearchPath</a>**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **directory**(**SearchPath**: **<a href="#_enum_SearchPath">SearchPath</a>**)-> <strong>[String](../gravity/string.md)</strong> 
 This method is intended to locate known and common directories in the system.
 
-* **func** **appendPath**(**sourceFilePath**: **[String](../gravity/string.md)**, **component**: **[String](../gravity/string.md)**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **appendPath**(**sourceFilePath**: **[String](../gravity/string.md)**, **component**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
 Creates a new path appending component path (second parameter) to the source path (first path).
 
-* **func** **exists**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **exists**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value that indicates whether the specified file exists on the underline file system.
 
-* **func** **copy**(**sourceFilePath**: **[String](../gravity/string.md)**, **destFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **copy**(**sourceFilePath**: **[String](../gravity/string.md)**, **destFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Copies the src file at the specified URL to a new location. Returns true if the file was copied successfully.
 
-* **func** **move**(**sourceFilePath**: **[String](../gravity/string.md)**, **destFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **move**(**sourceFilePath**: **[String](../gravity/string.md)**, **destFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Moves the src file at the specified URL to a new location. Returns true if the file was copied successfully.
 
-* **func** **delete**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **delete**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Deletes file passed as paramerer. Returns true if the file was deleted successfully.
 
-* **func** **createDirectory**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **createDirectory**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Creates a directory at the specified URL. Returns true if the directory was created successfully.
 
-* **func** **createFile**(**sourceFilePath**: **[String](../gravity/string.md)**, **content**: **[Object](../gravity/object.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **createFile**(**sourceFilePath**: **[String](../gravity/string.md)**, **content**: **[Object](../gravity/object.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Creates a file with the specified content at the specified URL. Returns true if the operation was successful.
 
-* **func** **isReadable**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **isReadable**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value that indicates whether the specified file appears to be readable.
 
-* **func** **isWritable**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **isWritable**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value that indicates whether the specified file appears to be writable.
 
-* **func** **isExecutable**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **isExecutable**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value that indicates whether the specified file appears to be executable.
 
-* **func** **isDeletable**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **isDeletable**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value that indicates whether the specified file appears to be deletable.
 
-* **func** **isDirectory**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **isDirectory**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value that indicates whether the specified file is a directory.
 
-* **func** **contentsOfDirectory**(**paramDir**: **[String](../gravity/string.md) = null**): <strong>[List](../gravity/list.md)</strong> 
+* **func** **contentsOfDirectory**(**paramDir**: **[String](../gravity/string.md) = null**)-> <strong>[List](../gravity/list.md)</strong> 
 Returs a List of url that contains all the files/folders inside the specified directory.
 
-* **func** **readData**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[Data](Data.md)</strong> 
+* **func** **readData**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[Data](Data.md)</strong> 
 Returns a Data value that contains the content of the file specified as parameter.
 
-* **func** **readString**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **readString**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
 Returns a String value that contains the content of the file specified as parameter.
 
-* **func** **name**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **name**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
 Returns a String that contains file name.
 
-* **func** **extension**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **extension**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
 Returns a String that contains file extesion.
 
-* **func** **path**(**sourceFilePath**: **[String](../gravity/string.md)**): <strong>[String](../gravity/string.md)</strong> 
+* **func** **path**(**sourceFilePath**: **[String](../gravity/string.md)**)-> <strong>[String](../gravity/string.md)</strong> 
 Returns a String that contains file full path.
 
 

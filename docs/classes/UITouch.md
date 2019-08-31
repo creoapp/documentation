@@ -18,7 +18,7 @@ The name of the object.
 
 ### Methods
 
-* **func** **locationInView**(**view**: **[UIView](UIView.md)**): <strong>[Point](Point.md)</strong> 
+* **func** **locationInView**(**view**: **[UIView](UIView.md)**)-> <strong>[Point](Point.md)</strong> 
 Returns the current location of the touch in the coordinate system of the given view.
 
 

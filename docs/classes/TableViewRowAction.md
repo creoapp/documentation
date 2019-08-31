@@ -34,7 +34,7 @@ The name of the object.
 
 
 
-### Initializers
+### Constructors
 
 * **func** **TableViewRowAction**(**style**: **<a href="#_enum_TableViewRowActionStyle">TableViewRowActionStyle</a>**, **title**: **[String](../gravity/string.md)**)
 Create a new TableViewRowAction object.

@@ -89,10 +89,10 @@ Removes the specified notification requests from Notification Center.
 * **func** **removeAllDeliveredNotifications**()
 Removes all of the app’s delivered notifications from Notification Center.
 
-* **func** **openURL**(**url**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **openURL**(**url**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Attempts to open the resource at the specified URL.
 
-* **func** **canOpenURL**(**url**: **[String](../gravity/string.md)**): <strong>[Bool](../gravity/bool.md)</strong> 
+* **func** **canOpenURL**(**url**: **[String](../gravity/string.md)**)-> <strong>[Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether an app is available to handle a URL scheme.
 
 
