@@ -7,6 +7,12 @@ A TextField object displays an editable text area in your interface. You use tex
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
 * **ShouldBeginEditing**()<strong>: [Bool](../gravity/bool.md)</strong> 
 This event is called when the user performs an action that would normally initiate the editing of the text field’s text. Return true if editing should begin or false if it should not. Most of the time, you should return true to allow editing to proceed. If you do not implement this method, the text field acts as if this method had returned true.
 
@@ -27,6 +33,12 @@ Use this event to be notified when editing stopped for the specified text field.
 
 * **Changed**()
 Use this event to be notified when text changed in the specified text field.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
@@ -120,7 +132,7 @@ The name of the object.
 
 ### Methods
 
-* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **animations**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="animations ()" data-content="The animations closure, if set, contains the changes to commit to the views. This is where you programmatically change any animatable properties of the views in your view hierarchy. This block takes no parameters and has no return value.">Closure</a>**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion (finished: Bool)" data-content="The completion closure, if set, is executed when the animation sequence ends. This block has no return value and takes a single Bool argument that indicates whether or not the animations actually finished before the completion handler was called. If the duration of the animation is 0, this block is performed at the beginning of the next run loop cycle.">Closure</a>**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

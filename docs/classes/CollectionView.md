@@ -7,6 +7,12 @@ The CollectionView class manages an ordered collection of data items and present
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
 * **CellSize**(**section**: **[Int](../gravity/int.md)**, **index**: **[Int](../gravity/int.md)**)<strong>: [Size](Size.md)</strong> 
 This event asks for the size of the specified item’s cell. If you do not implement this method, the collection view uses the values in its itemSize property to set the size of items instead. Your implementation of this method can return a fixed set of sizes or dynamically adjust the sizes based on the cell’s content. Only applies to the normal flow layout type.
 
@@ -33,6 +39,12 @@ This event is called when dragging ended in the scroll view. The scroll view sen
 
 * **DidEndDecelerating**()
 This event is called when the scroll view ends decelerating the scrolling movement.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
@@ -110,7 +122,7 @@ Returns the index path of the specified cell.
 * **func** **cellForItemAtIndexPath**(**indexPath**: **[IndexPath](IndexPath.md)**)<strong>: [CollectionViewCell](CollectionViewCell.md)</strong> 
 Returns the visible cell object at the specified index path.
 
-* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **animations**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="animations ()" data-content="The animations closure, if set, contains the changes to commit to the views. This is where you programmatically change any animatable properties of the views in your view hierarchy. This block takes no parameters and has no return value.">Closure</a>**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion (finished: Bool)" data-content="The completion closure, if set, is executed when the animation sequence ends. This block has no return value and takes a single Bool argument that indicates whether or not the animations actually finished before the completion handler was called. If the duration of the animation is 0, this block is performed at the beginning of the next run loop cycle.">Closure</a>**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

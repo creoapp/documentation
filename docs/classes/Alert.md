@@ -38,8 +38,8 @@ Create a new Alert message with a specified title and message.
 * **func** **Alert**(**title**: **[String](../gravity/string.md)**, **message**: **[String](../gravity/string.md)**, **buttons**: **[List](../gravity/list.md)**)
 Create a new Alert message with a specified title and message plus an array of buttons titles.
 
-* **func** **Alert**(**title**: **[String](../gravity/string.md)**, **message**: **[String](../gravity/string.md)**, **buttons**: **[List](../gravity/list.md)**, **closure**: **[Closure](../gravity/closure.md)**)
-Create a new Alert message with a specified title and message plus an array of buttons titles. The closure parameter enables you to specify an action to be executed when user press a button (button index is passed as parameter).
+* **func** **Alert**(**title**: **[String](../gravity/string.md)**, **message**: **[String](../gravity/string.md)**, **buttons**: **[List](../gravity/list.md)**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion (index: Int, title: String)" data-content="The completion closure, if set, is executed when the open action completes. Button index and title are passed as parameters.">Closure</a>**)
+Create a new Alert message with a specified title and message plus an array of buttons titles. The completion closure (if set) enables you to specify an action to be executed when user press a button (button index is passed as parameter).
 
 
 

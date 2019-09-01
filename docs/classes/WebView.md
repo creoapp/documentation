@@ -7,6 +7,12 @@ A WebView object displays interactive web content, such as for an in-app browser
 * **Load**()
 This event is called when the object becames available in the current runtime system.
 
+* **WillShow**()
+The view is about to be added to the App's views hierarchy.
+
+* **WillHide**()
+The view is about to be removed from the App's views hierarchy.
+
 * **DidStart**()
 This event is called when a mainframe page load starts.
 
@@ -18,6 +24,12 @@ This event is called when content starts arriving for the mainframe.
 
 * **DidFinish**()
 This event is called when a mainframe load completes.
+
+* **DidShow**()
+The view has been added to the App's views hierarchy.
+
+* **DidHide**()
+The view has been removed from the App's views hierarchy.
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
@@ -84,13 +96,13 @@ Reset WebView content to blank page.
 * **func** **stopLoading**()
 Stops loading all resources on the current page.
 
-* **func** **runJavaScript**(**javaScript**: **[String](../gravity/string.md)**, **onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
+* **func** **runJavaScript**(**javaScript**: **[String](../gravity/string.md)**, **onSuccess**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="onSuccess (obj: Object)" data-content="The onSuccess closure, if set, is executed when the when the command completes. The obj parameter is the result of the script evaluation.">Closure</a> = null**, **onError**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="onError (message: String)" data-content="The onError closure, if set, is executed when the script fails. Error string is returned as parameter.">Closure</a> = null**)
 Evaluates a JavaScript code.
 
 * **func** **loadHTML**(**html**: **[String](../gravity/string.md)**, **baseURL**: **[String](../gravity/string.md) = null**)
 Sets the webpage contents and base URL.
 
-* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **animations**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="animations ()" data-content="The animations closure, if set, contains the changes to commit to the views. This is where you programmatically change any animatable properties of the views in your view hierarchy. This block takes no parameters and has no return value.">Closure</a>**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion (finished: Bool)" data-content="The completion closure, if set, is executed when the animation sequence ends. This block has no return value and takes a single Bool argument that indicates whether or not the animations actually finished before the completion handler was called. If the duration of the animation is 0, this block is performed at the beginning of the next run loop cycle.">Closure</a>**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()

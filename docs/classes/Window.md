@@ -78,17 +78,17 @@ The name of the object.
 
 ### Methods
 
-* **func** **open**(**completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **open**(**completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour.
 
 * **func** **close**()
 Close window (and remove from current navigation if any).
 
-* **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
-* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a> = 0**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a> = 0**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 Open window modally usign the specified transition style.
 
 * **func** **moveToNextField**()

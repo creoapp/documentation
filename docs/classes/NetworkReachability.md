@@ -62,8 +62,8 @@ Starts monitoring for changes in network reachability status.
 * **func** **stop**()
 Stops monitoring for changes in network reachability status.
 
-* **func** **setOnStatusChange**(**closure**: **[Closure](../gravity/closure.md)**)
-Sets a closure to be executed when the network availability host changes. The closure has no return value and takes two arguments: the NetworkReachability instance and the new reachability status.
+* **func** **setOnStatusChange**(**completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion (obj: NetworkReachability, status:Int)" data-content="The completion closure, if set, is executed when the network availability host changes.">Closure</a>**)
+Sets a closure to be executed when the network availability host changes. The completion closure has no return value and takes two arguments: the NetworkReachability instance and the new reachability status.
 
 
 

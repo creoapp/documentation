@@ -69,23 +69,23 @@ The name of the object.
 
 ### Methods
 
-* **func** **open**(**completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **open**(**completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour .
 
-* **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 <pre><code class="swift">TargetWindow.openIn(ContainerWindow);</code></pre>
 Open callee object (TargetWindow) inside parameter object (ContainerWindow) using its default behaviour. Note that TargetWindow and/or ContainerWindow can be a Window or a Navigation.
 
-* **func** **openWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 Add the Window to the PageScroll and set it as the selected Window.
 
-* **func** **selectWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/bool.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **selectWindow**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **animated**: **[Bool](../gravity/bool.md) = true**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 Set the Window as the new selected Window, optionally animating the scroll motion.
 
-* **func** **selectIndex**(**index**: **[Int](../gravity/int.md)**, **animated**: **[Bool](../gravity/bool.md) = true**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **selectIndex**(**index**: **[Int](../gravity/int.md)**, **animated**: **[Bool](../gravity/bool.md) = true**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 Set the Window at the specified index as the new selected Window, optionally animating the scroll motion.
 
-* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **[Closure](../gravity/closure.md) = null**)
+* **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 Open window modally usign the specified transition style.
 
 * **func** **close**()

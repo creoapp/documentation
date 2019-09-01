@@ -196,8 +196,8 @@ Toggle torch sensor.
 
 ### Methods
 
-* **func** **capture**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
-Initiates a still image capture action. The onSuccess closure, if set, is executed when an image is captured without errors; this closure is invoked with two arguments: the captured image (type: Image) and its medatada (type: Map). The onFailure closure, if set, is executed if an error occurs and the description of the error is passed as the only argument.
+* **func** **capture**(**onSuccess**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="onSuccess (image: Image, meta: Map)" data-content="The onSuccess closure, if set, is executed when an image is captured without errors.">Closure</a> = null**, **onError**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="onError (description: String)" data-content="The onError closure, if set, is executed when the operation fails.">Closure</a> = null**)
+Initiates a still image capture action. The onSuccess closure, if set, is executed when an image is captured without errors; this closure is invoked with two arguments: the captured image (type: Image) and its medatada (meta: Map). The onFailure closure, if set, is executed if an error occurs and the description of the error is passed as the only argument.
 
 * **func** **togglePosition**()
 Toggle the position of a capture device.
@@ -208,7 +208,7 @@ Toggle the flash mode of the capture device. Returns the new flash mode.
 * **func** **setFlashMode**(**flashMode**: **[Int](../gravity/int.md)**)<strong>: <a href="#_enum_CameraFlashMode">CameraFlashMode</a></strong> 
 Set the flash mode of the capture device. Returns true if the camera supports the new flash mode, false otherwise.
 
-* **func** **startRecording**(**onSuccess**: **[Closure](../gravity/closure.md) = null**, **onError**: **[Closure](../gravity/closure.md) = null**)
+* **func** **startRecording**(**onSuccess**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="onSuccess (image: Image, meta: Map)" data-content="The onSuccess closure, if set, is executed when an image is captured without errors.">Closure</a> = null**, **onError**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="onError (description: String)" data-content="The onError closure, if set, is executed when the operation fails.">Closure</a> = null**)
 Start recording a video.
 
 * **func** **stopRecording**()
@@ -220,7 +220,7 @@ Starts running the camera session.
 * **func** **stop**()
 Stops running the camera session.
 
-* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **closure**: **[Closure](../gravity/closure.md)**, **completion**: **[Closure](../gravity/closure.md)**)
+* **func** **animate**(**duration**: **[Float](../gravity/float.md)**, **delay**: **[Float](../gravity/float.md)**, **options**: **<a href="#_enum_AnimationOption">AnimationOption</a>**, **animations**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="animations ()" data-content="The animations closure, if set, contains the changes to commit to the views. This is where you programmatically change any animatable properties of the views in your view hierarchy. This block takes no parameters and has no return value.">Closure</a>**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion (finished: Bool)" data-content="The completion closure, if set, is executed when the animation sequence ends. This block has no return value and takes a single Bool argument that indicates whether or not the animations actually finished before the completion handler was called. If the duration of the animation is 0, this block is performed at the beginning of the next run loop cycle.">Closure</a>**)
 Animate changes to one or more views using the specified duration, delay, options and completion handler.
 
 * **func** **setFocus**()
