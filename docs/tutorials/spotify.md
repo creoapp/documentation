@@ -1,10 +1,10 @@
 On 29th May 2017 Spotify updated authentication specifications for their API. We updated the tutorial and added support for OAuth2 authentication. 
- **[Official Statement.](https://developer.spotify.com/news-stories/2017/01/27/removing-unauthenticated-calls-to-the-web-api/)**.
+ **[Official Statement](https://developer.spotify.com/news-stories/2017/01/27/removing-unauthenticated-calls-to-the-web-api/)**.
 
 ## Concepts
 The Spotify tutorial will use the powerful HTTPClient class to perform REST queries to the Spotify API. You will learn how to interact with a REST service to perform queries based on user's input. 
 
- **[Spotify Web API Developer](https://developer.spotify.com/web-api/")** official documentation.
+ **[Spotify Web API Developer](https://developer.spotify.com/web-api/)** official documentation.
 
 #### Classes
 * [HTTPClient](../classes/HTTPClient.md)
