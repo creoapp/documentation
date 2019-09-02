@@ -13,12 +13,12 @@ The Geometry section is available only for objects with a user interface (object
 ![Creo](creo_inspector_geometry.png)
 
 ### Flex section
-The Flex section gives you the ability to set the flexible layout related properties. With these settings your controls can automatically adapt to any platform with any device size. More information about how Flex works in the [Flex](flex) documentation.
+The Flex section gives you the ability to set the flexible layout related properties. With these settings your controls can automatically adapt to any platform with any device size. More information about how Flex works in the [Flex](flex.html) documentation.
 
 ![Creo](creo_inspector_flex.png)
 
 ### Binding section
-The Binding section is available for binding objects and gives you the ability to build complex bindings with drag and drop operations. Objects on top represent the source of data while objects on the bottom are the destination for the data. More information is available in the [Bindings](bindings) documentation.
+The Binding section is available for binding objects and gives you the ability to build complex bindings with drag and drop operations. Objects on top represent the source of data while objects on the bottom are the destination for the data. More information is available in the [Bindings](bindings.html) documentation.
 
 ![Creo](creo_inspector_binding.png)
 

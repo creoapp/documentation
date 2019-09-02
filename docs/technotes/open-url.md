@@ -4,7 +4,7 @@ var url = "app_scheme://message"
 App.openURL(url)
 ```
 
-The `canOpenURL(url)` method returns `true` if the _scheme_ of the _url_ parameter is listed in the `LSApplicationQueriesSchemes` value of the [Properties](properties.html) list, `false` otherwise.
+The `canOpenURL(url)` method returns `true` if the _scheme_ of the _url_ parameter is listed in the `LSApplicationQueriesSchemes` value of the [Properties](https://docs.creolabs.com/creo/properties.html) list, `false` otherwise.
 The `openURL(url)` method tries to open the _url_ even if the _scheme_ is not listed in the `LSApplicationQueriesSchemes` value.
 
 ####How to add schemes to LSApplicationQueriesSchemes
