@@ -1,4 +1,4 @@
-Need help exporting CreoPlayer? [Click here](export_creoplayer.html) for more information.
+Need help exporting **CreoPlayer**? [Click here](export_creoplayer.html) for more information.
 
 Once you created an IPA executable using **Development Distribution** as Package Distribution option you can transfer it to your USB connected device using one of the following methods:
 * **Xcode:** From the Window menu select "Devices and Simulators" then just drop your IPA file to the **Installed Apps** section.
