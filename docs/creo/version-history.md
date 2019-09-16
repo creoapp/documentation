@@ -1,3 +1,21 @@
+**<span class="label label-release label-version">Creo 2.2.0</span>September 16th 2019 (Build 18841)**
+* Introduced new [Community Edition](https://creolabs.com/community_edition) version
+* Added missed UIView events to CollectionView, TextField, TextView, Toolbar and WebView
+* Added closure parameters to documentation
+* Added macOS 10.15 compatibility (not yet notarized)
+* Added animation flag to close method
+* Added a new imageByCombiningImage method to Image class
+* Added a new serverError property to DataSet
+* Improved source code exporter
+* Improved bindToSQL method
+* Improved internal memory management on iOS
+* Updated Gravity
+* Exposed app.memoryUsage() method
+* Fixed several cubeSQL issues
+* Fixed HTTPRequest percent encoding
+* CreoPlayer is now embedded into Creo (more info [here](https://docs.creolabs.com/creo/export_creoplayer.html))
+* Several internal fixes and improvements
+
 **<span class="label label-release label-version">Creo 2.1.8</span>August 31st 2019 (Build 18466)**
 * Fixed a Window.openModal() issue
 

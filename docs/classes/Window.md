@@ -81,7 +81,7 @@ The name of the object.
 * **func** **open**(**completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 Open window in currently displayed window or navigation using the destination object default behaviour.
 
-* **func** **close**()
+* **func** **close**(**animated**: **[Bool](../gravity/bool.md) = true**)
 Close window (and remove from current navigation if any).
 
 * **func** **openIn**(**window**: **[Window](Window.md) or [NavigationBar](NavigationBar.md)**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)

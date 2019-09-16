@@ -28,6 +28,9 @@ Used to check if DataSet is representing complex hierarchical data. \(read-only\
 * **var** **value**: **[Object](../gravity/object.md)**
 Used to retrieve current DataSet value. \(read-only\)
 
+* **var** **serverError**: **[Object](../gravity/object.md)**
+Original raw error value received from the server. \(read-only\)
+
 * **var** **running**: **[Bool](../gravity/bool.md)**
 Used to check if DataSet is running. \(read-only\)
 

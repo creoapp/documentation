@@ -61,9 +61,6 @@ The number currently set as the badge of the app icon in Springboard. Set to 0 t
 * **var** **memoryChecker**: **[Float](../gravity/float.md)**
 A value (in seconds) to set the frequency of the memory checker to run (set to 0 to disable automatic memory checker).
 
-* **var** **memoryThreshold**: **[Float](../gravity/float.md)**
-This value is a suggestion to the memory checker for a threshold value used to compare with the current memory pressure in order to decide if the garbage collector must be started. This value must be a number higher than 0.0 and lower than 1.0. Values next to zero means use an aggressive strategy, while values next to one means use a more relaxed strategy.
-
 * **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
@@ -94,6 +91,9 @@ Attempts to open the resource at the specified URL.
 
 * **func** **canOpenURL**(**url**: **[String](../gravity/string.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 Returns a Boolean value indicating whether an app is available to handle a URL scheme.
+
+* **func** **memoryUsage**()<strong>: [Float](../gravity/float.md)</strong> 
+Returns current device memory usage (as Float). On macOS, due to the underline architecture differences, this value usually overestimates by several factors the real device memory usage.
 
 
 

@@ -80,7 +80,7 @@ Pushes a Window/Navigation onto the receiver’s stack and updates the display.
 * **func** **openModal**(**TransitionStyle**: **<a href="#_enum_TransitionStyle">TransitionStyle</a>**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion ()" data-content="The completion closure, if set, is executed when the open action completes. The self value points to the container being opened, so you can safely perform setup operation in this context.">Closure</a> = null**)
 Open window modally usign the specified transition style.
 
-* **func** **close**()
+* **func** **close**(**animated**: **[Bool](../gravity/bool.md) = true**)
 Close window if modally opened.
 
 * **func** **pop**(**animated**: **[Bool](../gravity/bool.md) = true**)
