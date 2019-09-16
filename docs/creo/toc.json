@@ -97,6 +97,10 @@
       "file": "transfer-to-device.md"
     },
     {
+      "name": "Export CreoPlayer",
+      "file": "export_creoplayer.md"
+    },
+    {
       "name": "Send to CreoPlayer",
       "file": "creoplayer.md"
     },
