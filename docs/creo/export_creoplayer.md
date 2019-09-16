@@ -2,7 +2,7 @@ Starting from Creo version 2.2, CreoPlayer is no longer available through TestFl
 
 Once exported with your **Development Distribution** provisioning profile you can install it [on your device](https://docs.creolabs.com/creo/transfer-to-device.html). 
 
-Just select **Export CreoPlayer** from the **File** menu and the fill-in the Bundle ID and Provisioning Profile fields. Please note that you must use a Bundle ID that belongs to your certificate in order to be able to export a correct build. 
+Select **Export CreoPlayer** from the **File** menu and the fill-in the Bundle ID and Provisioning Profile fields. Please note that you must use a Bundle ID that belongs to your certificate in order to be able to export a correct build. 
 
 ![Export CreoPlayer](export_creoplayer_1.png)
 
