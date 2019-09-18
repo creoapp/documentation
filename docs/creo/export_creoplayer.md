@@ -6,3 +6,6 @@ Select **Export CreoPlayer** from the **File** menu and the fill-in the Bundle I
 
 ![Export CreoPlayer](export_creoplayer_1.png)
 
+**Do I need to purchase the Apple Developer $99/year membership to install CreoPlayer on my device?**
+
+You don't need to purchase the Apple Developer $99/year membership to be able to transfer your own app to your own device. Note: Without enrolling in the Apple Developer Program, your app will only last for 7 days on your device. After that, you'll have to re-deploy it to your device via Xcode. More on [https://codewithchris.com/deploy-your-app-on-an-iphone/](https://codewithchris.com/deploy-your-app-on-an-iphone/)
