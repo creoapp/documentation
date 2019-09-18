@@ -1,3 +1,13 @@
+**<span class="label label-release label-version">Creo 2.2.1</span>September 18th 2019 (Build 18865)**
+* Improved CollectionView flex support
+* Improved exposed properties support in CustomView 
+* Improved query editor
+* Fixed a crash bug that can occurs when Camera access control is requested
+* Several obscures crash bugs have been fixed
+* Added new required privacy keys to plist
+* CreoPlayer is now embedded into Creo (more info [here](https://docs.creolabs.com/creo/export_creoplayer.html))
+* Several internal fixes and improvements
+
 **<span class="label label-release label-version">Creo 2.2.0</span>September 16th 2019 (Build 18841)**
 * Introduced new [Community Edition](https://creolabs.com/community_edition) version
 * Added missed UIView events to CollectionView, TextField, TextView, Toolbar and WebView
