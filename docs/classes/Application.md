@@ -36,6 +36,9 @@ Asks the application to display the in-app notification settings.
 * **OpenUrl**(**url**: **[String](../gravity/string.md)**, **options**: **[Map](../gravity/map.md)**)
 Asks the application to open a resource specified by a URL, and provides a dictionary of launch options.
 
+* **DeviceOrientationDidChange**()
+Posted when the orientation of the device changes. You can obtain the new orientation by getting the value of the Device.orientation property.
+
 * **DidReceiveMemoryWarning**()
 This event is called when the app receives a memory warning from the system. If your app does not release enough memory during low-memory conditions, the system may terminate it outright.
 

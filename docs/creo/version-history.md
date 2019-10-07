@@ -1,3 +1,13 @@
+**<span class="label label-release label-version">Creo 2.2.2</span>October 7th 2019 (Build 18991)**
+* Added macOS 10.15 compatibility
+* Added iOS 13 compatibility
+* Added experimental IPA Upload feature
+* Exposed iPhone 11/11 Pro/11 Pro Max
+* Improved Apple iOS Simulator support
+* Improved documentation for CreoPlayer exporting
+* Added new DeviceOrientationDidChange event
+* Several internal fixes and improvements
+
 **<span class="label label-release label-version">Creo 2.2.1</span>September 18th 2019 (Build 18865)**
 * Improved CollectionView flex support
 * Improved exposed properties support in CustomView 
