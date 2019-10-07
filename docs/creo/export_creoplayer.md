@@ -33,6 +33,13 @@ A bundle ID or bundle identifier uniquely identifies an application in Apple's e
     * Description: a name to identify this App ID
     * Bundle ID: choose the `Wildcard` option and write the `*` char in the text field. At the moment the CreoPlayer doesn't need any Capability so the Wildcard Bundle ID works file. An explicit Bundle ID will be required if some capabilities will be needed in the future.
 
+### System Requirements
+
+The **Export CreoPlayer** uses the **Xcode Command Line Tools** to make build the CreoPlayer App.
+Use `xcode-select -p` in the Terminal to check the current location of the command line tools.
+If missing or wrong, use `xcode-select --install` to install the standalone command line developer tools (without Xcode) or use `sudo xcode-select --switch <path/to/Xcode.app>` to specify the Xcode that you wish to use for command line developer tools.
+
+
 **\(\*\) Do I need to purchase the Apple Developer $99/year membership to install CreoPlayer on my device?**
 
 You don't need to purchase the Apple Developer $99/year membership to be able to transfer your own app to your own device. Note: Without enrolling in the Apple Developer Program, your app will only last for 7 days on your device. After that, you'll have to re-deploy it to your device via Xcode. More on [https://codewithchris.com/deploy-your-app-on-an-iphone/](https://codewithchris.com/deploy-your-app-on-an-iphone/)
