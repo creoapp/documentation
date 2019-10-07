@@ -39,7 +39,7 @@ The **Export CreoPlayer** uses the **Xcode Command Line Tools** to export the Cr
 
 Use `xcode-select -p` in the Terminal to check the current location of the command line tools.
 
-If missing or wrong, use `xcode-select --install` to install the standalone command line developer tools (without Xcode) or use `sudo xcode-select --switch <path/to/Xcode.app>` to specify the Xcode that you wish to use for command line developer tools.
+If missing or wrong, use `xcode-select --install` to install the standalone command line developer tools (without Xcode) or use `sudo xcode-select --switch <path/to/Xcode.app>` to specify the Xcode that you wish to use for command line developer tools (or set it from the Xcode preferences: Xcode -> Preferences... -> Locations, select your toolchain in the Command Line Tools field).
 
 <br/>
 **\(\*\) Do I need to purchase the Apple Developer $99/year membership to install CreoPlayer on my device?**
