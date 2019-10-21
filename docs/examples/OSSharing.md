@@ -32,7 +32,9 @@ Each document type item should contain a value for the following keys:
 - `CFBundleTypeName` (String: the abstract name for the document type).
 - `CFBundleTypeRole` (String: The app's role with respect to the document type. Possible values: `Editor`, `Viewer`, `Shell`, `QLGenerator` or `None`).
 - `LSHandlerRank` (String: The ranking of this app among apps that declare themselves as editors or viewers of the given file type. Possible values: `Owner`, `Default`, `Alternate`, `None`)
-- `LSItemContentTypes` (Array: The document file types the app supports. Each item of the Array must be a String representing an UTI. For example, public.jpeg) `public.jpeg`). For example:
+- `LSItemContentTypes` (Array: The document file types the app supports. Each item of the Array must be a String representing an UTI. For example, public.jpeg) `public.jpeg`).
+
+For example:
 ![Simple Alert](../images/examples/OSSharing-1.png)
 
 Then add your code to process the received URLs in the `OpenUrl` event of the `App` object, for example:
