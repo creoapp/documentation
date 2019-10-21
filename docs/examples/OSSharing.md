@@ -27,10 +27,15 @@ OSSharing.shareURL(url);
 
 #### Add my app to the sharing menu to receive shared URLs:
 If you want to see your App in the sharing dialog, you need to register the document types that your application can open with iOS. To do this you need to add a document type to your app’s Property List (Main Menu > Project > Properties...) for each document type that your app can open. Additionally if any of the document types are not known by iOS, you will need to provide an Uniform Type Identifier (UTI) for that document type.
-Each document type item should contain a value for the following keys: `CFBundleTypeName` (String: the abstract name for the document type), `CFBundleTypeRole` (String: The app's role with respect to the document type. Possible values: `Editor`, `Viewer`, `Shell`, `QLGenerator` or `None`), `LSHandlerRank` (String: The ranking of this app among apps that declare themselves as editors or viewers of the given file type. Possible values: `Owner`, `Default`, `Alternate`, `None`) and `LSItemContentTypes` (Array: The document file types the app supports. Each item of the Array must be a String representing an UTI, for example `public.jpeg`). For example:
+
+Each document type item should contain a value for the following keys:
+- `CFBundleTypeName` (String: the abstract name for the document type).
+- `CFBundleTypeRole` (String: The app's role with respect to the document type. Possible values: `Editor`, `Viewer`, `Shell`, `QLGenerator` or `None`).
+- `LSHandlerRank` (String: The ranking of this app among apps that declare themselves as editors or viewers of the given file type. Possible values: `Owner`, `Default`, `Alternate`, `None`)
+- `LSItemContentTypes` (Array: The document file types the app supports. Each item of the Array must be a String representing an UTI, for example `public.jpeg`). For example:
 ![Simple Alert](../images/examples/OSSharing-1.png)
 
-Add your code to process the received URLs in the `OpenUrl` event of the `App` object, for example:
+Then add your code to process the received URLs in the `OpenUrl` event of the `App` object, for example:
 ```
 Window1.ImageView1.url = url
 ```
