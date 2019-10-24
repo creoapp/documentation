@@ -24,7 +24,7 @@ You can also create your own custom view template. But for this example we will 
 ![Spotify](../images/tutorials/spotify-2-1.png)
 
 ++2++ Now drag an HTTPClient class from Objects (Network group) to Window1:
-![Spotify](../images/tutorials/spotify-2-2.gif)
+![Spotify](../images/tutorials/spotify-2-2.png)
 
 ++3++ Spotify's docs state that its REST API endpoint is 'api.spotify.com'. Enter that in the HTTPClient config panel.
 ![Spotify](../images/tutorials/spotify-2-3.png)
@@ -89,7 +89,7 @@ This code accomplishes three things:
 
 ![Spotify](../images/tutorials/spotify-2-10.png)
 
-++13++ Press RUN and enjoy the Spotify app!
+++12++ Press RUN and enjoy the Spotify app!
 ![Spotify](../images/tutorials/spotify-2-run.m4v)
 
 You can now preview the app on your **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** for the App Store.
