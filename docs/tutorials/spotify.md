@@ -91,7 +91,7 @@ This code accomplishes three things:
 
 ++12++ Press RUN and enjoy the Spotify app!
 <video class="creovideo" width="700" height="427" autoplay loop controls>
-<source src="../images/tutorials/spotify-2-run.m4v)" type="video/mp4">
+<source src="../images/tutorials/spotify-2-run.m4v" type="video/mp4">
 </video>
 
 You can now preview the app on your **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** for the App Store.
