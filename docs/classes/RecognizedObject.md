@@ -20,7 +20,7 @@ The type of the metadata object. \(read-only\)
 * **var** **frame**: **[Rect](Rect.md)**
 The frame of the object in the camera preview. \(read-only\)
 
-* **var** **value**: **[Rect](Rect.md)**
+* **var** **value**: **[String](../gravity/string.md)**
 The string value created by decoding the binary payload according to the format of the machine readable code. Returns nil if a string representation cannot be created from the payload.. \(read-only\)
 
 * **var** **objectName**: **[String](../gravity/string.md)**
