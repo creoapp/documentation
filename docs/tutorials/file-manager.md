@@ -24,7 +24,7 @@ Once imported your Assets folder should look like:
 ++3++ Now drop a TableView into Window1 and set its Frame and Autoresizing mask properties as in the screenshot:
 ![FileManager](../images/tutorials/file-manager-2-5.png)
 
-++4++ Drop a FileManager from the Others objects into Window1 and set its Directory to Assets:
+++4++ Drop a FileManager into Window1 and set its Directory to Assets:
 ![FileManager](../images/tutorials/file-manager-2-6.png)
 
 ++5++ Now set TableView1 properties the following:
