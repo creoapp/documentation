@@ -12,20 +12,20 @@ Managing files and directories are very important tasks in a mobile application.
 * [Various resources]({{github_raw_link}}/assets/filemananger_assets.zip) like a jpeg image, a mp4 movie, a sqlite database, a text file and an aiff sound.
 
 #### Steps
-++1++ Create a new empty Creo project and expose Window1 as "Assets Library" in the main Navigation1:
-![FileManager](../images/tutorials/file-manager-2.png)
-
-++2++ Drops the content of the assets folder you just download into the Assets folder and reply NO to the object conversion question:
-![FileManager](../images/tutorials/file-manager-3.png)
+++1++ Drops the content of the assets folder you just download into the Assets folder and reply NO to the object conversion question:
+![FileManager](../images/tutorials/file-manager-2-2.png)
 
 Once imported your Assets folder should look like:
-![FileManager](../images/tutorials/file-manager-4.png)
+![FileManager](../images/tutorials/file-manager-2-3.png)
 
-++3++ Now drop a TableView into Window1 and make its height to be half the height of the window. Set its Autoresizing mask as in the screenshot:
-![FileManager](../images/tutorials/file-manager-5.png)
+++2++ Add a new Title Item and a new Back Item to the Window1 to customize the title shown in the main Navigation1, for example set the title to "Assets Library":
+![FileManager](../images/tutorials/file-manager-2-4.png)
+
+++3++ Now drop a TableView into Window1 and set its Frame and Autoresizing mask properties as in the screenshot:
+![FileManager](../images/tutorials/file-manager-2-5.png)
 
 ++4++ Drop a FileManager from the Others objects into Window1 and set its Directory to Assets:
-![FileManager](../images/tutorials/file-manager-6.png)
+![FileManager](../images/tutorials/file-manager-2-6.png)
 
 ++5++ Now set TableView1 properties the following:
 
@@ -38,13 +38,13 @@ Once imported your Assets folder should look like:
 | **Cell** | Image | icon |
 | **Cell** | Identifier | path |
 
-![FileManager](../images/tutorials/file-manager-7.png)
+![FileManager](../images/tutorials/file-manager-2-7.png)
 
 ++6++ If you press Run you'll see that the TaleView will be automatically filled by the content of the Assets folder. What we would like to achieve is to offer some kind of preview for the user selected file.
-Drop an ImageView and a MoviePlayer into Window1 and set the Hidden property to both and the frame to be {15, 394, 348, 260}.
-![FileManager](../images/tutorials/file-manager-8.png)
+Drop an ImageView and a MoviePlayer into Window1 and set the Hidden property to both and the frame to be {15, 460, 345, 318}.
+![FileManager](../images/tutorials/file-manager-2-8.png)
 
-++7++ 
+++7++
 Let's start some coding now. Select TableView1, open the Code Editor and in the DidSelectCell event write the following code:
 ```
 var path = cell.identifier;
@@ -92,9 +92,9 @@ This code preview the selected assets based on its extension. In case of an imag
 Please note that icons preview will differ between MacOS and a real iOS device.
 
 ++8++ That's all you need in order to have a fully functional Assets browser app. Press RUN and enjoy the app!
-![FileManager](../images/tutorials/file-manager-9.png)
+![FileManager](../images/tutorials/file-manager-2-9.png)
 
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
-* [FileManager.creoproject]({{github_raw_link}}/assets/filemanager.zip) (1.4MB)
+* [FileManager.creoproject]({{github_raw_link}}/assets/file-manager.zip) (1.4MB)
