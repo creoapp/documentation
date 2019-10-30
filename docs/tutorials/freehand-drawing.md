@@ -57,6 +57,7 @@ path.stroke();	// stroke resulted path
 <video class="creovideo" width="700" height="427" autoplay loop controls>
 <source src="../documentation/docs/images/tutorials/freehand-drawing-2-3.m4v" type="video/mp4">
 </video>
+
 You can now send the app to **[CreoPlayer](../creo/creoplayer.md)** or **[build it](../creo/build-your-app.md)** and then submit to the App Store.
 
 #### Project
