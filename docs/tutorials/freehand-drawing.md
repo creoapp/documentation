@@ -54,6 +54,7 @@ path.stroke();	// stroke resulted path
 ```
 
 ++4++ That's all you need in order to have a fully functional freehand drawing app. Press RUN and enjoy the app!
+
 <video class="creovideo" width="700" height="427" autoplay loop controls>
 <source src="../documentation/docs/images/tutorials/freehand-drawing-2-3.m4v" type="video/mp4">
 </video>
