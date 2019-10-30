@@ -71,9 +71,10 @@ We could further enhance this simple project with nice features like color selec
 ++5++ Start by dropping another View object (`View2`) that will act as a container for the color-picking buttons. We'll use flex to adjust the position of the buttons for different device sizes and orientations, so check the Enabled property in the Flex inspector.
 Then add some OvalShape objects into the `View2`, enable Flex for each OvalShape and set the fillColor property to some color you like more. **Make sure to check the "User Interaction" flag** (and to uncheck the Multiple Touch option) for each OvalShape in the Touch Inspector.
 Note that we also added a Button with the Title set to Save:
-![FreehandDrawing](../images/tutorials/freehand-drawing-4.png)
+![FreehandDrawing](../images/tutorials/freehand-drawing-2-4.png)
 
 The configuration of the properties in the Flex Inspector is:
+
 | Object | Property | Value |
 | --------- | --------- | --------- |
 | View2 | Enabled | True |
@@ -84,10 +85,11 @@ The configuration of the properties in the Flex Inspector is:
 | OvalShapes | Enabled | True |
 | OvalShapes | Width | 40 |
 | OvalShapes | Height | 40 |
-![FreehandDrawing](../images/tutorials/freehand-drawing-4b.png)
+
+![FreehandDrawing](../images/tutorials/freehand-drawing-2-4b.png)
 
 ++6++ We need to add some new properties to View1, a currentColor property to keep track of user selected color and a paths property that will collect all the BezierPath objects that the user created. We also need a new initPath method which will be responsible to initialize a new BezierPath object each time the user begins a touch:
-![FreehandDrawing](../images/tutorials/freehand-drawing-5.png)
+![FreehandDrawing](../images/tutorials/freehand-drawing-2-5.png)
 
 ++7++ It is now time to add some Gravity code, so write the following code to View1's events:
 ```
