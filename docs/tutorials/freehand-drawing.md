@@ -19,7 +19,6 @@ This tutorial will teach you how to implement a drawing algorithm for smooth, fr
 | Frame | (0, 0, 375, 535) |
 | Safe Area | True |
 | Autoresizing | flexible width and height, fixed margins |
-| Autoresizing | flexible width and height, fixed margins |
 
 ![FreehandDrawing](../images/tutorials/freehand-drawing-2-1.png)
 
