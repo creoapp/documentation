@@ -12,7 +12,11 @@ So far in the tutorials we have used DataSet from a variety of sources. From a D
 
 #### Steps
 ++1++ Create a new empty Creo project and start by dragging a BTCentral class from Objects (Network group) to Window1. A Bluetooth Central configurator panel will show up and will let you choose the service you want to use:
-![HeartRate](../images/tutorials/heart-rate-2-1.gif)
+
+<video class="creovideo" width="700" height="427" autoplay loop controls>
+<source src="../documentation/docs/images/tutorials/heart-rate-2-1.m4v" type="video/mp4">
+</video>
+
 In this tutorial we are interested in the **Heart Rate Measurement** service.
 
 ++2++ Now drop a Label into Window1 and set its typography properties:
