@@ -98,4 +98,4 @@ You can now preview the app on your **[CreoPlayer](../creo/creoplayer.md)** or *
 
 #### Project
 In the downloadable project you must create and enter your own **OAUTH2 Authentication Info** since OAUTH2 Client IDs & Secrets are login information for the API and cannot be shared.
-* [Spotify.creoproject]({{github_raw_link}}/assets/spotify2.zip) (25KB)
+* [Spotify.creoproject]({{github_raw_link}}/assets/spotifytutorial.zip) (25KB)
