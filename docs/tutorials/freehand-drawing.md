@@ -7,6 +7,7 @@ This tutorial will teach you how to implement a drawing algorithm for smooth, fr
 * [View](../classes/View.md)
 * [Button](../classes/Button.md)
 * [CameraRoll](../classes/CameraRoll.md)
+* [Flex](../classes/Flex.md)
 
 #### Assets
 * None
