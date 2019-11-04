@@ -67,10 +67,14 @@ TextView1.text = desc;
 
 
 Invoke the `update` method in the `WillShow` event of the Detail Window with the following code:
-`if (Recipes.Query1.rowCount > 0) self.update()`
+```
+if (Recipes.Query1.rowCount > 0) self.update()
+```
 
 Also in the `DidFinish` event of the Recipes.Query1 query with the following code:
-`Detail.update()`
+```
+Detail.update()
+```
 
 And finally in the `DidSelectCell` event of the MasterTable:
 ```
