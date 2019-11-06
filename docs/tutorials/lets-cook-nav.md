@@ -32,7 +32,7 @@ The LetsCookNav tutorial will show you how to navigate between two windows (usin
 ![LetsCookNav](../images/tutorials/lets-cook-nav-2-4.png)
 
 ++5++ Create a CustomView in the TableView's Cell:
-![LetsCookNav](../images/tutorials/lets-cook-nav-2-5.gif)
+![LetsCookNav](../images/tutorials/lets-cook-nav-2-5.png)
 
 ++6++ Configure the CustomView using set the height to 80 as shown in the screenshot:
 ![LetsCookNav](../images/tutorials/lets-cook-nav-2-6.png)
