@@ -246,11 +246,11 @@ get {
 
 set {
 	_difficulty = value;
-	ImageView1.hidden = !(value >= 1);
-	ImageView2.hidden = !(value >= 2);
-	ImageView3.hidden = !(value >= 3);
-	ImageView4.hidden = !(value >= 4);
-	ImageView5.hidden = !(value >= 5);
+	ImageView2.hidden = !(value >= 1);
+	ImageView3.hidden = !(value >= 2);
+	ImageView4.hidden = !(value >= 3);
+	ImageView5.hidden = !(value >= 4);
+	ImageView6.hidden = !(value >= 5);
 }
 ```
 ![LetsCookNav](../images/tutorials/lets-cook-nav-2-33.png)
