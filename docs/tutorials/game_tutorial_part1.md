@@ -21,7 +21,7 @@ From Creo we use
 1. Presenting a generic GameBehaviour Gravity class that can be inherited to build specific game objects
 1. Creating an animated background using the MapView
 
-![Game screen](../images/tutorials/game1_screen.png)
+![Game screen](../images/tutorials/game1-2-1.png)
 
 #### Assets
 * None
@@ -70,7 +70,7 @@ A Fiber is created with **create**:
    Console.log("/(self) is the current fiber")
  })
  ```
- 
+
 and executed till the next **yield** with **fiber.call()**:
 ```
 var closure = {
@@ -166,20 +166,23 @@ At the core of our game engire there is a Timer fired every 0,01 seconds. The id
 #### Class Fibers
 
 Our first class is used to:
-1. store all fibers created by the game logic
-1. execute all of them each time the timer is fired
+1. Store all fibers created by the game logic.
+1. Execute all of them each time the timer is fired.
 
 Once a fiber `isDone()` is removed from the array and no longer called.
 The main method to add a new fiber is `startManaged(closure)` and the parameter is the Fiber closure.
 
 **Note**: the closure has to be a function that accept a parameter because it will receive the fiber associated as a parameter.
 
-To create new class: 
+To create new class:
 
-1. drag `Class` from the objects `Code` to `Globals`
-1. click on it and press Enter to rename
+* Drag `Class` object from the Objects Panel to the `Globals` node in the Layout:
+![How to add new a Class](../images/tutorials/game1-2-2.png)
 
-![How to add new a Class](../images/tutorials/game1_newclass.png)
+* Rename the new class to `Fiber`:
+![How to add new a Class](../images/tutorials/game1-2-3.png)
+
+* Add the `fibers` and `timer` properties and the `init`, `start(fiber)`, `startManaged(closure)` `func timerAction()` methods. Add to each method the corresponding snipped from the following code:
 
 ```
 class Fibers {
@@ -229,6 +232,8 @@ class Fibers {
   }
 }
 ```
+![Fibers class](../images/tutorials/game1-2-4.png)
+
 
 #### GameEngine
 
@@ -237,7 +242,7 @@ To store an instance of the new **Fibers** class and create the base for a game 
 ```
 class GameEngine {
   public var fibers = Fibers();
-  
+
   // instance must be a GameBehaviour object
   func addInstance(instance) {
     var closure = func(fiber) {
@@ -258,13 +263,15 @@ class GameEngine {
 }
 ```
 
+![GameEngine class](../images/tutorials/game1-2-5.png)
+
 #### GameBehaviour
 
 A **GameBehaviour** is the base class from which every game object derives. It's usually connected to a **View** but is not necessary; for instance a behaviour could play a sound or do other things that do not require a view.
 
 When you use **GameBehaviour** you have to explicitily derive from it
 
-![How to class derive in Creo](../images/tutorials/game1_derive.png) 
+![How to class derive in Creo](../images/tutorials/game1-2-6.png)
 
 The **GameBehaviour** has 3 important methods:
 
@@ -287,7 +294,7 @@ class GameBehaviour {
       var hh = view.frame.height / 2.0
       return Point(view.frame.x + hw, view.frame.y + hh);
     }
-  
+
     set {
       var hw = view.frame.width / 2.0
       var hh = view.frame.height / 2.0
@@ -318,7 +325,7 @@ class GameBehaviour {
 }
 ```
 
-#### Time 
+#### Time
 
 For keeping a smooth experience for the player the time in seconds it took to complete the last frame is available with `time.deltaTime`:
 ```
@@ -327,13 +334,15 @@ class Time {
   func since(value) {
     var delta = time() - value
     return delta
-    
+
   }
   func time() {
     return System.nanotime() / 1000000000.0
   }
 }
 ```
+
+![Time class](../images/tutorials/game1-2-7.png)
 
 Use this value to make your game frame rate independent:
 ```
@@ -348,23 +357,22 @@ class ExampleClass : GameBehaviour {
 }
 ```
 
-We are now ready to start building the game itself.
+#### GameEngine instance in Window1
 
-#### GameEngine instance
-
-1. start with an empty project and add a Window
-1. add `Fibers` `GameEngine` `Time` `GameBehaviour` classes
-1. under the window properties add a new variable `gameEngine = GameEngine()`
+Add a new property `gameEngine` to Window1 and set its initial value to `GameEngine()`:
+![GameEngine instance](../images/tutorials/game1-2-8.png)
 
 #### GameBehaviour: Background and Level
 
-1. create a 2 new classes, name it `Level` and `Background`; both subclass `GameBehaviour`
-1. add a `MapView` name it `LayerBackground`; from the inspector configure the map:
+1. Create a 2 new classes, name it `Level` and `Background`; both subclass `GameBehaviour`.
+1. Add a `MapView` name it `LayerBackground`; from the inspector configure the map:
   - set constraints to fill the whole window space
   - disable user interaction
   - set `Satellite` map type and zoom level to 6.5 (the closer to street level the faster it scrolls)
   - pick an address; this is going to be your game background so any some fancy location will work
-1. add `gameEngine.addInstance(Level())` in you Window `DidShow` event
+1. Add `gameEngine.addInstance(Level())` in you Window `DidShow` event.
+
+![LayerBackground](../images/tutorials/game1-2-9.png)
 
 ```
 class Background : GameBehaviour {
@@ -387,12 +395,15 @@ class Level : GameBehaviour {
 };
 ```
 
-Play **Run**, if everything is correctly configured you should see the MapView scrolling. 
+Play **Run**, if everything is correctly configured you should see the MapView scrolling.
 
 Well done! you have your first `GameBehaviour` properly receiving updates from the `GameEngine`.
 
-Next tutorial: player ship, generated background and fire pool!
+Next tutorial: player ship, generated background and fire pool! The final game will look like this:
+
+<video class="creovideo" width="700" height="427" autoplay loop controls>
+<source src="../documentation/docs/images/tutorials/game1-2-10.m4v" type="video/mp4">
+</video>
 
 #### Project
 * [GameEngine1.creoproject]({{github_raw_link}}/assets/game_engine_part1.creoproject.zip) (2.3MB)
-
