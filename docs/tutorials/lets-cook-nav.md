@@ -53,7 +53,7 @@ The LetsCookNav tutorial will show you how to navigate between two windows (usin
 ![LetsCookNav](../images/tutorials/lets-cook-nav-2-11.png)
 
 ++12++ Configure the exposed property to be named **Image** and to be internally bound to the **ImageView1.image** property:
-![LetsCookNav](../images/tutorials/ets-cook-nav-2-12.png)
+![LetsCookNav](../images/tutorials/lets-cook-nav-2-12.png)
 
 ++13++ Do the same for the Label and drag the binding knob from the Label1:
 ![LetsCookNav](../images/tutorials/lets-cook-nav-2-13.png)
