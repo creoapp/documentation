@@ -18,7 +18,7 @@ In this tutorial we see how a correct use of the `View` attribute **"Automatic C
 
 #### Steps
 
-++1++ Create a new empty Creo project and start by adding a `Window` with a fullscreen `View`. Use the Autosize Constraints inspector to enable all constratins. Rename to "Backround" and apply a gradient to its "Background color" property. This is our `Window` main static background and we wont need it for anything else.
+++1++ Create a new empty Creo project and start by adding a `Window` with a fullscreen `View`. Use the Autosize Constraints inspector to enable all constraints. Rename to "Background" and apply a gradient to its "Background color" property. This is our `Window` main static background and we wont need it for anything else.
 
 ++2++ Add another `View` that do not cover the safe area (status bar, top-notch and rounded corners); like the Background enable all the Autosize Constraints. Rename it to "Flex" and enable "Flex" from the `View` inspector, enable "Safe area" and set "Auto Content Size = Flex". It may be handy to use a device with non safe area requirements (ie iPhone 6/7/8) to apply and check the proper frame values.
 
