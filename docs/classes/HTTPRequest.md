@@ -100,6 +100,31 @@ The name of the object.
 
 
 
+### Class Methods
+
+* **func** **encodedHostComponent**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
+Returns a new string made from the string argument by replacing all characters not allowed in a host URL subcomponent.
+
+* **func** **encodedUserComponent**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
+Returns a new string made from the string argument by replacing all characters not allowed in a user URL subcomponent with percent-encoded characters.
+
+* **func** **encodedPasswordComponent**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
+Returns a new string made from the string argument by replacing all characters not allowed in a password URL subcomponent with percent-encoded characters.
+
+* **func** **encodedPathComponent**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
+Returns a new string made from the string argument by replacing all characters not allowed in a path URL subcomponent with percent-encoded characters.
+
+* **func** **encodedQueryParameter**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
+Returns a new string made from the string argument by replacing all characters not allowed in a parameter name or value of a query URL subcomponent with percent-encoded characters.
+
+* **func** **encodedQueryComponent**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
+Returns a new string made from the string argument by replacing all characters not allowed in a query URL subcomponent with percent-encoded characters.
+
+* **func** **encodedFragmentComponent**(**string**: **[String](../gravity/string.md)**)<strong>: [String](../gravity/string.md)</strong> 
+Returns a new string made from the string argument by replacing all characters not allowed in a fragment URL subcomponent with percent-encoded characters.
+
+
+
 ### Constructors
 
 * **func** **HTTPRequest**(**URL**: **[String](../gravity/string.md)**)

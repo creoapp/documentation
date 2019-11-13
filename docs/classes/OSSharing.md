@@ -1,6 +1,6 @@
 **super**: **[Object](../gravity/object.md)**
 
-The OSSharing class provides support for sharing content from your app.
+The OSSharing class provides support for printing and sharing content from your app.
 
 ### Events
 
@@ -9,6 +9,13 @@ This event is called when the object becames available in the current runtime sy
 
 * **Unload**()
 This event is called when the object has been removed from the current runtime system (but not yet deallocated).
+
+
+
+### Class Properties
+
+* **var** **isPrintingAvailable**: **[Bool](../gravity/bool.md)**
+Returns a Boolean indicating whether the device supports printing.
 
 
 
@@ -47,6 +54,27 @@ Display sharing dialog to the user.
 
 * **func** **addExcludedType**(**options**: **[Int](../gravity/int.md)**)
 Add a service that you do not want displayed to the user. You might exclude services that you feel are not suitable for the content you are providing. For example, you might not want to allow the user to print a specific image. If the value of this property is nil, no services are excluded.
+
+* **func** **printImage**(**image**: **[Image](Image.md)**)
+Presents the printing user interface in a sheet to print an image.
+
+* **func** **printText**(**text**: **[String](../gravity/string.md)**)
+Presents the printing user interface in a sheet to print a String.
+
+* **func** **printMarkupText**(**text**: **[String](../gravity/string.md)**)
+Presents the printing user interface in a sheet to print a Markup String.
+
+* **func** **printData**(**data**: **[Data](Data.md)**)
+Presents the printing user interface in a sheet to print Data.
+
+* **func** **printItem**(**item**: **[Object](../gravity/object.md)**)
+Presents the printing user interface in a sheet to print an item (can be an URL, a path, a TextView, a MapView or a WebView.
+
+* **func** **printFile**(**path**: **[String](../gravity/string.md)**)
+Presents the printing user interface in a sheet to print a file.
+
+* **func** **printItems**(**items**: **[List](../gravity/list.md)**)
+Presents the printing user interface in a sheet to print a List of items (usually a sequence of Images).
 
 
 

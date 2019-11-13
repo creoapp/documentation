@@ -1,3 +1,20 @@
+**<span class="label label-release label-version">Creo 2.3</span>November 13th 2019 (Build 19092)**
+* Added new print methods to [OSSharing](https://docs.creolabs.com/classes/OSSharing.html) class
+* Added support for sharing in both directions
+* Added support for [macOS app builder](https://docs.creolabs.com/creo/build-macos.html)
+* Improved Camera
+* Improved handling for gesture recognizer
+* Exposed ModalPresentationStyle to all contains (Window, NavBar, TabBar, PageCurl, PageScroll, PageSplit)
+* Exposed encoding methods to HTTPRequest class
+* Various iOS 13 fixes
+* Various macOS 10.15 fixes
+* Fixed a memory leak in imageByCombiningImage
+* Fixed an issue with build numbers incremented too quickly
+* Fixed an issue with SplitView and landscape mode
+* Fixed camera orientation in the Creo Simulator
+* Fixed Gravity JSON double serializer
+* Several internal fixes and improvements
+
 **<span class="label label-release label-version">Creo 2.2.2</span>October 7th 2019 (Build 18991)**
 * Added macOS 10.15 compatibility
 * Added iOS 13 compatibility

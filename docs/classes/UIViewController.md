@@ -41,6 +41,9 @@ The nearest ancestor in the Window hierarchy that is a TabBar. \(read-only\)
 * **var** **pageSplit**: **[UISplitViewController](UISplitViewController.md)**
 The nearest ancestor in the Window hierarchy that is a PageSplit. \(read-only\)
 
+* **var** **modalPresentationStyle**: **[Int](../gravity/int.md)**
+The presentation style determines how a modally presented view controller is displayed onscreen. In a horizontally compact environment, modal view controllers are always presented full-screen. In a horizontally regular environment, there are several different presentation options.
+
 * **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 

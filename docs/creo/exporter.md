@@ -24,7 +24,7 @@ Two prominent scenarios have emerged so far during the beta phase:
 
 ## How to export a project
 
-To export to an `XCode` project, just open the `Creo` project and click `File` -> `Export...`
+To export to an `XCode` project, just open the `Creo` project and click `File` -> `Export Source Code...`
 
 You are then askend to select a folder where the exported files are written.
 
@@ -319,20 +319,16 @@ view.setImage(UIImage.CREO.min, for: .normal)
 
 ### Limits
 
-The exporter is under  development and is changing quickly.  Non-native __UIKit__ views will be exported as simple empty `UIView` until the release of __CREOFramework__ (mid/late 2019)
+The exporter is under  development and is changing quickly.  Non-native __UIKit__ views will be exported as simple empty `UIView` until the release of __CREOFramework__
 
-- _CREORectangle_
-- _CREOLine_
-- _CREOOval_
-- _CREOPolygon_
 - _CREOCamera_
 - _CREOMoviePlayer_
 - _CREOChartView_
 - _CREOCarousel_
 - _CREOPageContainer_
+- _Animations_
 
-Animations and color gradients are not exported.
-
+<!--
 ### Year 2019 Roadmap
 
 The general roadmap is the following:
@@ -346,3 +342,4 @@ The general roadmap is the following:
 - transcompiling __gravity__ code to __Swift__.
 - transcompiling __gravity__ code to __kotlin__ (Android).
 - exposing and exporting for __CREOFramework__; this will achieve a complete fully functional app.
+-->

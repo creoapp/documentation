@@ -57,9 +57,9 @@ Initializes and returns the image object with the specified data and scale facto
 Creates and returns a new image object with the specified cap insets and options.
 
 * **func** **PNGRepresentation**()<strong>: [Data](Data.md)</strong> 
-Returns the data for the specified image in PNG format.
+Returns the data for the specified image in PNG format. Please note that PNG does not preserve metadata like orientation.
 
-* **func** **JPEGRepresentation**(**compressionQuality**: **[Float](../gravity/float.md)**)<strong>: [Data](Data.md)</strong> 
+* **func** **JPEGRepresentation**(**compressionQuality**: **[Float](../gravity/float.md) = 0.7**)<strong>: [Data](Data.md)</strong> 
 Returns the data for the specified image in JPEG format using the specified compression quality.
 
 * **func** **scaleImageToFillSize**(**size**: **[Size](Size.md)**)<strong>: [Image](Image.md)</strong> 

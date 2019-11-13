@@ -89,7 +89,7 @@
       "file": "build-your-app.md"
     },
     {
-      "name": "Submit to AppStore",
+      "name": "Submit to App Store",
       "file": "submit-your-app.md"
     },
     {
@@ -103,6 +103,10 @@
     {
       "name": "Send to CreoPlayer",
       "file": "creoplayer.md"
+    },
+    {
+      "name": "Build a macOS app",
+      "file": "build-macos.md"
     },
     {
       "entry": "CONTAINERS"

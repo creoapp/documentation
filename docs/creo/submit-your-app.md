@@ -5,6 +5,9 @@ Once everything has been setup with Apple, you can press the Build Package butto
 ![Creo](../images/creo/creo_submit_your_app_1.png)
 Please note that you should provide your Signing Identity and Provisioning Profile.
 
-The result of this build is an ipa archive that you can submit to App Store using:
-* **[Application Loader](https://help.apple.com/itc/apploader/)** from Apple (distributed within the **[Xcode](https://developer.apple.com/xcode/) package**)
+### Upload to the App Store
+
+The result of the build is an ipa/app archive that you can submit to App Store using:
+* **[Transporter](https://developer.apple.com/news/?id=10152019a)** from Apple (distributed on the **[Mac App Store](https://apps.apple.com/us/app/transporter/id1450874784?mt=12)**)
+<!--* **[Application Loader](https://help.apple.com/itc/apploader/)** from Apple (distributed within the **[Xcode](https://developer.apple.com/xcode/) package**)-->
 * **[Fastlane](https://docs.fastlane.tools/getting-started/ios/appstore-deployment/)** from Google
