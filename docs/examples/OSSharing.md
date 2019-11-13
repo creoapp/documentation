@@ -57,3 +57,7 @@ var url : String = FileManager1.path(fileName);
 // Share the file URL
 OSSharing.shareURL(url)
 ```
+
+#### Printing examples
+For your convenience we create a simple printing test application
+* [PrintTest.zip]({{github_raw_link}}/assets/PrintTest.zip) (4.2MB)
