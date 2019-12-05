@@ -13,7 +13,7 @@ The view is about to be added to the App's views hierarchy.
 The view is about to be removed from the App's views hierarchy.
 
 * **PrepareForReuse**()
-.
+This event is invoked just before the cell is reused by a TableView. For performance reasons, you should only reset attributes of the cell that are not directly updated from the TableView's DataSet. For example, if the content of an ImageView is set with an URL you can prepare it for reuse by setting its image property to nil or to a placeholder image that will be shown until the final image is downloaded from the assigned URL.
 
 * **DidShow**()
 The view has been added to the App's views hierarchy.
