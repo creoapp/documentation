@@ -52,6 +52,15 @@ This method lets your app know that it is about to be terminated and purged from
 * **var** **language**: **[String](../gravity/string.md)**
 Returns current application language. \(read-only\)
 
+* **var** **version**: **[String](../gravity/string.md)**
+Returns current application version. \(read-only\)
+
+* **var** **build**: **[String](../gravity/string.md)**
+Returns current application build. \(read-only\)
+
+* **var** **bundleID**: **[String](../gravity/string.md)**
+Returns current application unique bundle ID. \(read-only\)
+
 * **var** **idleTimerDisabled**: **[Bool](../gravity/bool.md)**
 A Boolean value that controls whether the idle timer is disabled for the app. The default value of this property is false. When most apps have no touches as user input for a short period, the system puts the device into a sleep state where the screen dims. This is done for the purposes of conserving power. However, apps that don't have user input except for the accelerometer—games, for instance—can, by setting this property to YES, disable the idle timer to avert system sleep.
 

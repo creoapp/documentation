@@ -12,6 +12,9 @@ The view is about to be added to the App's views hierarchy.
 * **WillHide**()
 The view is about to be removed from the App's views hierarchy.
 
+* **PrepareForReuse**()
+.
+
 * **DidShow**()
 The view has been added to the App's views hierarchy.
 
