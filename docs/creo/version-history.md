@@ -1,3 +1,10 @@
+**<span class="label label-release label-version">Creo 2.3.2</span>December 18th 2019 (Build 19138)**
+* Various improvements to the movie objects
+* Various improvements to 10.15 authorizations
+* Improved PickerView
+* Fixed several crashes
+* Several internal fixes and improvements
+
 **<span class="label label-release label-version">Creo 2.3.1</span>December 5th 2019 (Build 19118)**
 * Various improvements to the macOS app builder
 * Added the PrepareForReuse event to the TableViewCell class (it permits to reset the image of the cell before reusing the cell in case the dataset is configured to set the url of the imageView)
