@@ -1,3 +1,17 @@
+**<span class="label label-release label-version">Creo 2.3.5</span>February 11th 2019 (Build 19263)**
+* Added support for the new monthly plans
+* Added support for iBeacons (iBeaconScanner class)
+* Added support for Google Eddystone (EddystoneScanner class)
+* Exposed ActionSheet class (not simulated)
+* Extended ScrollView properties to more controls (like WebView)
+* Updated NavigationBar to better reflect iOS 13 behaviour
+* Fixed the corner radius of Label (in background color)
+* Fixed the reset of the AppBuildVersion when Apple iOS Simulator is launched
+* Fixed an issue with NavigationBar Back button
+* Fixed an issue URL based Sound objects
+* Fixed several crashes
+* Several internal fixes and improvements
+
 **<span class="label label-release label-version">Creo 2.3.2</span>December 18th 2019 (Build 19138)**
 * Various improvements to the movie objects
 * Various improvements to 10.15 authorizations

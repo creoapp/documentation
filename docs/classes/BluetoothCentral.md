@@ -11,7 +11,7 @@ This event is called when the object becames available in the current runtime sy
 Event raised when a new value becomes available. The value parameter is map.
 
 * **UpdatedState**(**state**: **<a href="#_enum_BluetoothState">BluetoothState</a>**)
-Event raised when the blueetooth central changes its state
+Event raised when the blueetooth central changes its state.
 
 * **ShouldConnect**(**peripheralName**: **[String](../gravity/string.md)**, **peripheralUUID**: **[String](../gravity/string.md)**, **RSSI**: **[Int](../gravity/int.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 The bluetooth central has discovered a peripheral that are advertising one of the configured services. Return true if the central should connect to this peripheral. If not implemented, the central will connect to any discovered peripheral.
