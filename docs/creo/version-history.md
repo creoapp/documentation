@@ -1,4 +1,16 @@
-**<span class="label label-release label-version">Creo 2.3.5</span>February 11th 2019 (Build 19263)**
+**<span class="label label-release label-version">Creo 2.3.7</span>April 16th 2020 (Build 19357)**
+* Added a new SafariView class
+* Updated and modernized MoviePlayer control
+* Overall improved IDE performance
+* Fixed an issue with the NavigationBar and a combination of the following properties: TintColor, BarTintColor and ModalStyle
+* Fixed a Navigation controller bug that affects iOS 12
+* Fixed a bug in CustomView that could trigger an infinite loop
+* Fixed a memory leak in the Assets panel
+* Fixed a couple of issues related to ActionSheet
+* Exposed the Carousel itemHeight property to Gravity
+* Several internal fixes and improvements
+
+**<span class="label label-release label-version">Creo 2.3.5</span>February 11th 2020 (Build 19263)**
 * Added support for the new monthly plans
 * Added support for iBeacons (iBeaconScanner class)
 * Added support for Google Eddystone (EddystoneScanner class)

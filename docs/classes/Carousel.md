@@ -106,6 +106,9 @@ The reflection scale value of items displayed in the carousel.
 * **var** **itemWidth**: **[Float](../gravity/float.md)**
 The display width of items in the carousel.
 
+* **var** **itemHeight**: **[Float](../gravity/float.md)**
+The display height of items in the carousel.
+
 * **var** **wrap**: **[Bool](../gravity/bool.md)**
 A boolean indicating whether the carousel should wrap when it scrolls to the end. Set to true if you want the carousel to wrap around when it reaches the end, and false if you want it to stop. Generally, circular carousel types will wrap by default and linear ones won't. Don't worry that the return type is a floating point value - any value other than 0.0 will be treated as true.
 
