@@ -4,7 +4,7 @@
 * Added support for local security like TouchID/FaceID ([More Info](https://docs.creolabs.com/classes/Authenticator.html))
 * Added support for In-App Purchases ([More Info](https://docs.creolabs.com/creo/in-app-purchases.html))
 * Added preliminary support for Push Notifications ([More Info](https://docs.creolabs.com/technotes/push-notifications.html))
-* Added new User Code panel to easely visualize all code written by the user (from Project menu)
+* Added new User Code panel to visualize all code written by the user (from Project menu)
 * Added new zoom-related properties and events in View controls ([More Info](https://docs.creolabs.com/technotes/pinch-to-zoom.html))
 * Added new Date related methods (daysBetweenDates and componentsBetweenDates)
 * Added new openAssets method to CameraRoll
@@ -15,7 +15,7 @@
 * Fixed some issues related to CustomView
 * Fixed a copy issue related to macOS .icns icon
 * Fixed an incorrect error reported in Gravity Console
-* Fixed a crash that occurs when an empty Image is saved to the CameraRool
+* Fixed a crash that occurs when an empty Image is saved to the CameraRoll
 * Several others improvements and fixes
 
 **<span class="label label-release label-version">Creo 2.3.7</span>April 16th 2020 (Build 19357)**
