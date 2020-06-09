@@ -28,6 +28,12 @@ This event is called when one or more fingers are raised and the userInteraction
 * **TouchesCancelled**(**touches**: **[Object](../gravity/object.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
 This event is called when the sysyem receives a system interruption (such as a system alert) requiring cancellation of the touch sequence and the userInteractionEnabled property is enabled. Return "true" if you want to consume the event and not forward it to the next responder, return "no" to forward any events that you do not handle yourself.
 
+* **ViewForZooming**()<strong>: [UIView](UIView.md)</strong> 
+Asks for the view to scale when zooming is about to occur in the scroll view. Return nil if you don’t want zooming to occur. Zooming is enabled if you returns a valid view in this event and if the maximumZoomScale is greater than the minimumZoomScale. Pinch to zoom is not currently supported in Creo Simulator but it works in iOS devices and in the Apple iOS simulators.
+
+* **DidZoom**()
+This event is called when the scroll view’s zoom factor changed.
+
 * **DidScroll**()
 This event is called when the user scrolls the content view.
 
@@ -67,6 +73,15 @@ The <a href="DataSet.html">DataSet</a> object provides information that View nee
 
 * **var** **keyPath**: **[String](../gravity/string.md)**
 The base keyPath to get a particular node of the <a href="DataSet.html">DataSet</a> value. The DataSet must provide a List of objects and each object represents a different item. The view shows an item at a time, depending on the rowIndex property value. If the DataSet value is not flat, for example a Map from a JSON result of an <a href="HTTPRequest.html">HTTPRequest</a>, the keyPath defines the list of keys used to browse the data tree to get a List node. The values for each exposed property of the cell are retrieved by adding the current index and the cell property key to the base keyPath.
+
+* **var** **minimumZoomScale**: **[Float](../gravity/float.md)**
+A floating-point value that specifies the minimum scale factor that can be applied to the scroll view's content. The default value is 1.0.
+
+* **var** **maximumZoomScale**: **[Float](../gravity/float.md)**
+A floating-point value that specifies the maximum scale factor that can be applied to the scroll view's content. The default value is 1.0. Zooming is enabled if you returns a valid view in the ViewForZooming event and if the maximumZoomScale is greater than the minimumZoomScale.
+
+* **var** **zoomScale**: **[Float](../gravity/float.md)**
+A floating-point value that specifies the current scale factor applied to the scroll view's content. The default value is 1.0.
 
 * **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.

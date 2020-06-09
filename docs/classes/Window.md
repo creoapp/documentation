@@ -68,6 +68,9 @@ The style of the status bar.
 * **var** **firstResponder**: **[UIView](UIView.md)**
 Returns the subview that is now the first-responder, null if none. \(read-only\)
 
+* **var** **subviews**: **[List](../gravity/list.md)**
+The array of subviews. \(read-only\)
+
 * **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 
@@ -99,6 +102,12 @@ Converts a rectangle from the Window’s coordinate system to that of another vi
 
 * **func** **reset**(**forceGarbageCollector**: **[Bool](../gravity/bool.md) = true**)
 Free the content of the Window, you can call this method on unused Windows to save memory. If the Window is used after calling the reset method, the content is reloaded just before presenting (before the execution of the WillShow event.
+
+* **func** **addSubview**(**view**: **[UIView](UIView.md)**)
+Adds a view to the end of the list of subviews.
+
+* **func** **insertSubview**(**view**: **[UIView](UIView.md)**, **index**: **[Int](../gravity/int.md)**)
+Inserts a subview at the specified index.
 
 
 

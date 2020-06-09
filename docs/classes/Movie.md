@@ -22,5 +22,15 @@ The name of the object.
 
 
 
+### Class Methods
+
+* **func** **createMP4**(**array**: **[List](../gravity/list.md)**, **outputFile**: **[String](../gravity/string.md)**, **fps**: **[Int](../gravity/int.md) = 24**, **completion**: **[Closure](../gravity/closure.md)**)
+Create an MP4 movie.
+
+* **func** **createGIF**(**array**: **[List](../gravity/list.md)**, **outputFile**: **[String](../gravity/string.md)**, **repeats**: **[Int](../gravity/int.md) = 0**, **delay**: **[Float](../gravity/float.md) = 0.02**, **completion**: **[Closure](../gravity/closure.md)**)
+Create a GIF file.
+
+
+
 
 

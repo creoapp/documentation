@@ -66,6 +66,9 @@ Open the asset at the specified index from the DataSet. The chosen image or vide
 * **func** **openAssetResized**(**index**: **[Int](../gravity/int.md)**, **imageSize**: **[Size](Size.md)**, **CameraRollContentMode**: **[Int](../gravity/int.md)**)
 Open the asset at the specified index from the DataSet. The chosen image or video will be returned asynchronously with the NewImage (scaled with the specified size and content mode) or NewVideo event.
 
+* **func** **openAssets**(**indexes**: **[List](../gravity/list.md)**, **completion**: **<a href="../gravity/closure.html" data-toggle="popover" data-trigger="hover" title="completion (assets: List)" data-content="The completion closure, if set, is executed when all the requested assets are available. This block has no return value and takes a single List argument with the list of Image objects for images and String objects representing the paths for video files.">Closure</a>**)
+Open the asset at the specified index from the DataSet. The chosen image or video will be returned asynchronously with the NewImage (scaled with the specified size and content mode) or NewVideo event.
+
 
 
 

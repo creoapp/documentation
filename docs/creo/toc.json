@@ -109,6 +109,10 @@
       "file": "build-macos.md"
     },
     {
+      "name": "In-App Purchases",
+      "file": "in-app-purchases.md"
+    },
+    {
       "entry": "CONTAINERS"
     },
     {

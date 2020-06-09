@@ -39,6 +39,9 @@ The name of the object.
 * **func** **open**(**srcfile**: **[Object](../gravity/object.md)**)<strong>: [Object](../gravity/object.md)</strong> 
 Initializes and returns the image object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
 
+* **func** **loadGIF**(**srcfile**: **[Object](../gravity/object.md)**)<strong>: [Object](../gravity/object.md)</strong> 
+Initializes and returns a GIF image object with the content of the source file. The source file can be an URL or a <a href="File.html">File</a> object.
+
 
 
 ### Constructors

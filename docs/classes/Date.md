@@ -102,6 +102,12 @@ Creates and returns a Date object set by adding reference minutes to the current
 * **func** **dateWithMinutesBeforeNow**(**reference**: **[Int](../gravity/int.md)**)<strong>: [Date](Date.md)</strong> 
 Creates and returns a Date object set by subtracting reference minutes to the current date and time.
 
+* **func** **daysBetweenDates**(**fromDate**: **[Date](Date.md)**, **toDate**: **[Date](Date.md)**)<strong>: [Int](../gravity/int.md)</strong> 
+Returns the number of days between fromDate and toDate.
+
+* **func** **componentsBetweenDates**(**fromDate**: **[Date](Date.md)**, **toDate**: **[Date](Date.md)**)<strong>: [Map](../gravity/map.md)</strong> 
+Returns the components maps between fromDate and toDate. The result map object will contain the following properties: year, month, day, hour, minute and second.
+
 
 
 ### Constructors

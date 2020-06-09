@@ -46,6 +46,12 @@ Array of swipe actions to display on the right edge of the row
 * **var** **leftActions**: **[List](../gravity/list.md)**
 Array of swipe actions to display on the left edge of the row
 
+* **var** **mainBackgroundColor**: **[Color](Color.md)**
+The main backgroundColor of the cells. If the alternateBackgroundColor property is set to null, the mainBackgroundColor is used for each row, otherwise the mainBackgroundColor is used for odd rows and alternateBackgroundColor is used for even rows.
+
+* **var** **alternateBackgroundColor**: **[Color](Color.md)**
+The backgroundColor used for even rows.
+
 * **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 

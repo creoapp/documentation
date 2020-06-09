@@ -50,6 +50,15 @@ Returns the currently selected Window or Navigation.
 * **var** **selectedIndex**: **[Int](../gravity/int.md)**
 The index of the Window associated with the currently selected tab item.
 
+* **var** **barTintColor**: **[Color](Color.md)**
+The tint color to apply to the bar.
+
+* **var** **tintColor**: **[Color](Color.md)**
+The tint color to apply to the selected item.
+
+* **var** **unselectedItemTintColor**: **[Color](Color.md)**
+The tint color to apply to unselected tabs.
+
 * **var** **objectName**: **[String](../gravity/string.md)**
 The name of the object.
 

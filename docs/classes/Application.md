@@ -24,12 +24,6 @@ This method is called to let your app know that it is about to move from the act
 * **DidEnterBackground**()
 Use this method to release shared resources, invalidate timers, and store enough app state information to restore your app to its current state in case it is terminated later. You should also disable updates to your app’s user interface and avoid using some types of shared system resources (such as the user’s contacts database).  Your implementation of this method has approximately five seconds to perform any tasks and return.  In practice, you should return from a DidEnterBackground event as quickly as possible. If the method does not return before time runs out your app is terminated and purged from memory.
 
-* **WillPresentNotification**(**identifier**: **[String](../gravity/string.md)**, **userInfo**: **[Map](../gravity/map.md)**)
-Asks the application how to handle a notification that arrived while the app was running in the foreground.
-
-* **DidReceiveNotification**(**identifier**: **[String](../gravity/string.md)**, **userInfo**: **[Map](../gravity/map.md)**, **threadIdentifier**: **[String](../gravity/string.md)**, **actionIdentifier**: **[String](../gravity/string.md)**)
-Asks the application to process the user's response to a delivered notification.
-
 * **OpenSettingsForNotification**(**identifier**: **[String](../gravity/string.md)**, **userInfo**: **[Map](../gravity/map.md)**)
 Asks the application to display the in-app notification settings.
 
@@ -38,6 +32,21 @@ Asks the application to open a resource specified by a URL, and provides a dicti
 
 * **DeviceOrientationDidChange**()
 Posted when the orientation of the device changes. You can obtain the new orientation by getting the value of the Device.orientation property.
+
+* **WillPresentNotification**(**identifier**: **[String](../gravity/string.md)**, **userInfo**: **[Map](../gravity/map.md)**)<strong>: <a href="#_enum_NotificationPresentationOptions">NotificationPresentationOptions</a></strong> 
+Asks the application how to handle a notification (local or remote) that arrived while the app was running in the foreground. Return NotificationPresentationOptions.None to silence the notification completely. Specify other values to interact with the user (a combination of the following NotificationPresentationOptions bitmask options: .Badge,.Sound,.Alert).
+
+* **DidReceiveNotification**(**identifier**: **[String](../gravity/string.md)**, **userInfo**: **[Map](../gravity/map.md)**, **threadIdentifier**: **[String](../gravity/string.md)**, **actionIdentifier**: **[String](../gravity/string.md)**)<strong>: [Bool](../gravity/bool.md)</strong> 
+Asks the application to process the user's response to a delivered notification (local or remote) or a remote silent notification. Return false if you have finished processing the notification. If you performs some async activities, you must return true and then invoke the notificationProcessingCompleted method at some point after processing the notification to let the system know that you are done.
+
+* **DidAuthorizeForPushNotifications**(**granted**: **[Bool](../gravity/bool.md)**, **error**: **[String](../gravity/string.md)**)
+If you have enabled the PushNotifications (remote notification) for you apps, the authorization is performed automatically when the app is launched. After determining the authorization status, this event is fired. The event has no return value and has the two parameters, granted and error. Granted is a Bool value indicating whether authorization was granted. The value of this parameter is true when authorization was granted for one or more options. The value is false when authorization is denied for all options. Error is a String containing error information or null if no error occurred.
+
+* **DidRegisterForPushNotifications**(**token**: **[String](../gravity/string.md)**)
+This event informs you that the app successfully registered with Apple Push Notification service (APNs). The token parameter is a globally unique token that identifies this device to APNs. Send this token to the server that you use to generate remote notifications. Your server must pass this token unmodified back to APNs when sending those remote notifications.
+
+* **DidFailToRegisterForPushNotifications**(**error**: **[String](../gravity/string.md)**)
+This event informs you when Apple Push Notification service cannot successfully complete the registration process.
 
 * **DidReceiveMemoryWarning**()
 This event is called when the app receives a memory warning from the system. If your app does not release enough memory during low-memory conditions, the system may terminate it outright.
@@ -107,7 +116,22 @@ Returns a Boolean value indicating whether an app is available to handle a URL s
 * **func** **memoryUsage**()<strong>: [Float](../gravity/float.md)</strong> 
 Returns current device memory usage (as Float). On macOS, due to the underline architecture differences, this value usually overestimates by several factors the real device memory usage.
 
+* **func** **notificationProcessingCompleted**(**fetchResult**: **[Int](../gravity/int.md)**)
+This function must be call if you return false in the DidReceiveNotification event. You should call it after fetching new data or processing the notification to let the system know that the task is done.
 
+
+
+
+
+### Enums
+
+<div id="_enum_NotificationPresentationOptions"></div>
+
+#### NotificationPresentationOptions
+ * .Alert
+ * .Badge
+ * .None
+ * .Sound
 
 
 

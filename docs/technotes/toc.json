@@ -12,6 +12,10 @@
       "file": "local-notifications.md"
     },
     {
+      "name": "Push notification",
+      "file": "push-notifications.md"
+    },
+    {
       "entry": "USER INTERFACE"
     },
     {
@@ -25,6 +29,10 @@
     {
       "name": "Scroll interface with Keyboard",
       "file": "keyboard-avoiding-textfields.md"
+    },
+    {
+      "name": "Adding pinch to zoom support to an ImageView",
+      "file": "pinch-to-zoom.md"
     },
     {
       "entry": "DATASET"
@@ -46,6 +54,10 @@
     },
     {
       "entry": "OTHERS"
+    },
+    {
+      "name": "GIF/MP4 creation",
+      "file": "gif-mp4.md"
     },
     {
       "name": "Send an email with Gmail",
