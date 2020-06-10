@@ -1,5 +1,6 @@
 **Preliminary documentation**
 
+Please note that we define Push Notifications support as preliminary because you have to take care of all the delivery and token store details on server side (we do not include any third-party framework).
 
 **Prepare your application**
 
